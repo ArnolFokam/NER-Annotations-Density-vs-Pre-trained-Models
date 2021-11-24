@@ -12,8 +12,8 @@ This is repository for the course project COMS4054A - NLP  2021. It contains cod
 - [Model Cards](#model-cards)
     - [BERT](#bert)
     - [RoBERTa](#roberta)
-    - [Multilingual BERT (mBERT)](#bert)
-    - [Multilingual BERT (mBERT) finetuned for NER](#multilingual-bert-(mbert)-finetuned-for-ner)
+    - [Multilingual BERT (mBERT)](#multilingual-bert-mbert)
+    - [Multilingual BERT (mBERT) finetuned for NER](#multilingual-bert-mbert-finetuned-for-ner)
 - [License](#license)
 
 ### Folder structure
