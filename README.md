@@ -61,16 +61,16 @@ To reproduce the results of the report. Use the following hyperparameters:
 This section contains the description to various pre-trained models used as well as the link to model cards.
 
 #### BERT
-This is the [BERT base cased model](https://huggingface.co/bert-base-cased) trained on English text with 12 layers of transformers block with a hidden size of 768, 12 attention heads and 110 parameters. Here are the various model cards for different languages, kin, swa, pcm.
+This is the [BERT base cased model](https://huggingface.co/bert-base-cased) trained on English text with 12 layers of transformers block with a hidden size of 768, 12 attention heads and 110 parameters. Here are the various model cards for different languages, [kin](https://huggingface.co/arnolfokam/bert-base-uncased-kin), [swa](https://huggingface.co/arnolfokam/bert-base-uncased-swa), [pcm](https://huggingface.co/arnolfokam/bert-base-uncased-pcm).
 
 #### RoBERTa
-This is the [RoBERTa base model](https://huggingface.co/roberta-base) with the same architecture as BERT. Here are the various model cards for different languages, [kin](), [swa](), [pcm]().
+This is the [RoBERTa base model](https://huggingface.co/roberta-base) with the same architecture as BERT. Here are the various model cards for different languages, [kin](https://huggingface.co/arnolfokam/roberta-base-kin), [swa](https://huggingface.co/arnolfokam/roberta-base-swa), [pcm](https://huggingface.co/arnolfokam/roberta-base-pcm).
 
 #### Multilingual BERT (mBERT)
-This is the [BERT base multilingual cased model](https://huggingface.co/bert-base-multilingual-cased) is trained on 104 languages through masked-language modelling. Here are the various model cards for different languages, [kin](), [swa](), [pcm]().
+This is the [BERT base multilingual cased model](https://huggingface.co/bert-base-multilingual-cased) is trained on 104 languages through masked-language modelling. Here are the various model cards for different languages, [kin](https://huggingface.co/arnolfokam/mbert-base-uncased-kin), [swa](https://huggingface.co/arnolfokam/mbert-base-uncased-swa), [pcm](https://huggingface.co/arnolfokam/mbert-base-uncased-pcm).
 
 #### Multilingual BERT (mBERT) finetuned for NER
-This [model](https://huggingface.co/Davlan/bert-base-multilingual-cased-ner-hrl) is a fine-tuned version of the previous model on 10 high resourced languages for NER tasks. Here are the various model cards for different languages, [kin](), [swa](), [pcm]().
+This [model](https://huggingface.co/Davlan/bert-base-multilingual-cased-ner-hrl) is a fine-tuned version of the previous model on 10 high resourced languages for NER tasks. Here are the various model cards for different languages, [kin](https://huggingface.co/arnolfokam/mbert-base-uncased-ner-kin), [swa](https://huggingface.co/arnolfokam/mbert-base-uncased-ner-swa), [pcm](https://huggingface.co/arnolfokam/mbert-base-uncased-ner-pcm).
 
 ### License
 
