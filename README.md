@@ -74,4 +74,4 @@ This [model](https://huggingface.co/Davlan/bert-base-multilingual-cased-ner-hrl)
 
 ### License
 
-All the code in this project is licensed under the [MIT license](https://www.apache.org/licenses/LICENSE-2.0).
+All the code in this project is licensed under the [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0).
