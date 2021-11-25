@@ -1,6 +1,6 @@
 ## Effects of NER annotations’ density on pre-trained models in the context oflow resourced languages
 
-This is repository for the course project COMS4054A - NLP  2021. It contains codes and necessary notebooks to get the resutls in the report of the same project.
+This is repository for the course project COMS4054A - NLP  2021. It contains data and necessary notebooks to get the resutls in the report of the same project.
 
 ### Table of Contents
 - [Folder structure](#folder-structure)
