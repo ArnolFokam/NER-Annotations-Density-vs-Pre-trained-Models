@@ -75,3 +75,20 @@ This [model](https://huggingface.co/Davlan/bert-base-multilingual-cased-ner-hrl)
 ### License
 
 All the code in this project is licensed under the [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+
+### Citation
+
+If you find this useful, then please cite this work as follows:
+
+```
+@misc{https://doi.org/10.48550/arxiv.2208.04568,
+  doi = {10.48550/ARXIV.2208.04568},
+  url = {https://arxiv.org/abs/2208.04568},
+  author = {Fokam, Manuel A.},
+  keywords = {Computation and Language (cs.CL), Artificial Intelligence (cs.AI), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title = {Effects of Annotations' Density on Named Entity Recognition Models' Performance in the Context of African Languages},
+  publisher = {arXiv},
+  year = {2022},
+  copyright = {Creative Commons Attribution 4.0 International}
+}
+```
