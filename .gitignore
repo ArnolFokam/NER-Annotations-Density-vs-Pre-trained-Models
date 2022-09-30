@@ -203,4 +203,21 @@ cython_debug/
 
 # User-defined
 cap-*/
+*.egg-info
+/data/*
+!/data/README.md
+/.idea
+/.vscode
+/slurms
+lightning_logs
+results/*
+!/results/README.md
+*.log
+/logs/*
+.hydra
 *_slurm*
+*_*.bash
+.vscode/settings.json
+scripts/notebooks/*.png
+/doctest-output/
+Digraph.gv*
