@@ -5,6 +5,9 @@ numpy~=1.23.3
 ptvsd~=4.3.2
 seqeval~=1.2.2
 transformers~=4.22.2
+wandb~=0.12.9
+fire~=0.4.0
+hydra-core~=1.2.0
 
 --extra-index-url https://download.pytorch.org/whl/cu113
 torch~=1.12.1
