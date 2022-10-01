@@ -450,7 +450,7 @@ def start_training(cfg: DictConfig, wandb_logger):
     if cfg.device.local_rank == -1:
         device = torch.device("cuda" if torch.cuda.is_available()
                               and not cfg.device.no_cuda else "cpu")
-        cfg.device.n_gpu = torch.cuda.device_count()
+        cfg.device.n_gpu = 1 # torch.cuda.device_count() modeified by arnol fokam
     else:  # Initializes the distributed backend which will take care of sychronizing nodes/GPUs
         torch.cuda.set_device(cfg.device.local_rank)
         device = torch.device("cuda", cfg.device.local_rank)
