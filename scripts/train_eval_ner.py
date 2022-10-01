@@ -226,7 +226,8 @@ def train(cfg, train_dataset, model, tokenizer, labels, pad_token_label_id, devi
         epochs_trained, int(cfg.optim.num_train_epochs), desc="Epoch", position=0, leave=True, disable=cfg.device.local_rank not in [-1, 0]
     )
     set_seed(cfg)  # Added here for reproductibility
-    for _ in train_iterator:
+    for epoch in train_iterator:
+        wandb_logger.log({"train-epoch": epoch, "step": global_step})
         epoch_iterator = tqdm(train_dataloader, desc="Iteration", position=0,
                               leave=True, disable=cfg.device.local_rank not in [-1, 0])
         for step, batch in enumerate(epoch_iterator):
@@ -414,7 +415,6 @@ def evaluate(cfg, model, tokenizer, labels, pad_token_label_id, mode, device, wa
     logger.info("***** Eval results %s *****", prefix)
     for key in sorted(results.keys()):
         logger.info("  %s = %s", key, str(results[key]))
-        wandb_logger.log({f"test-{key}": str(results[key])})
 
     return results, preds_list
 
@@ -587,6 +587,7 @@ def start_training(cfg: DictConfig, wandb_logger):
         with open(output_eval_file, "w") as writer:
             for key in sorted(results.keys()):
                 writer.write("{} = {}\n".format(key, str(results[key])))
+                wandb_logger.log({f"dev-{key}": str(results[key])})
         torch.cuda.empty_cache()
 
     if cfg.experiment.do.predict and cfg.device.local_rank in [-1, 0]:
@@ -602,6 +603,7 @@ def start_training(cfg: DictConfig, wandb_logger):
         with open(output_test_results_file, "w") as writer:
             for key in sorted(result.keys()):
                 writer.write("{} = {}\n".format(key, str(result[key])))
+                wandb_logger.log({f"test-{key}": str(results[key])})
         # Save predictions
         output_test_predictions_file = os.path.join(
             cfg.model.output_dir, "test_predictions.txt")
