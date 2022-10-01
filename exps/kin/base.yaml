@@ -13,19 +13,21 @@ experiment:
 
 data:
   path: data/${data.language}/cap-${data.cap}
-  language: kin # kin, swa, pcm, conllpp
+  language: kin # kin, swa, pcm, en-conll-2003
   labels: #
   cap: 1
+  eval_cap: 2
   max_seq_length: 256
   per_gpu_train_batch_size: 16
   per_gpu_eval_batch_size: 8
+  eval_batch_size:  # SET IN SCRIPT, DO NOT REMOVE
   train_batch_size: # SET IN SCRIPT, DO NOT REMOVE
 
 model:
   save_steps: 10000 # Save checkpoint every X updates steps.
 
 optim:
-  num_train_epochs: 30
+  num_train_epochs: 1
   learning_rate: 5e-5
   weight_decay: 0.0
   adam_epsilon: 1e-8

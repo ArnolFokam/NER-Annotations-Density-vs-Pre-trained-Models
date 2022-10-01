@@ -281,10 +281,10 @@ def train(cfg, train_dataset, model, tokenizer, labels, pad_token_label_id, devi
 def evaluate(cfg, model, tokenizer, labels, pad_token_label_id, mode, device, prefix=""):
     eval_dataset = load_and_cache_examples(cfg, tokenizer, labels, pad_token_label_id, mode=mode)
 
-    cfg.eval_batch_size = cfg.per_gpu_eval_batch_size * max(1, cfg.device.n_gpu)
+    cfg.data.eval_batch_size = cfg.data.per_gpu_eval_batch_size * max(1, cfg.device.n_gpu)
     # Note that DistributedSampler samples randomly
     eval_sampler = SequentialSampler(eval_dataset) if cfg.device.local_rank == -1 else DistributedSampler(eval_dataset)
-    eval_dataloader = DataLoader(eval_dataset, sampler=eval_sampler, batch_size=cfg.eval_batch_size)
+    eval_dataloader = DataLoader(eval_dataset, sampler=eval_sampler, batch_size=cfg.data.eval_batch_size)
 
     # multi-gpu evaluate
     if cfg.device.n_gpu > 1:
@@ -293,7 +293,7 @@ def evaluate(cfg, model, tokenizer, labels, pad_token_label_id, mode, device, pr
     # Eval!
     logger.info("***** Running evaluation %s *****", prefix)
     logger.info("  Num examples = %d", len(eval_dataset))
-    logger.info("  Batch size = %d", cfg.eval_batch_size)
+    logger.info("  Batch size = %d", cfg.data.eval_batch_size)
     eval_loss = 0.0
     nb_eval_steps = 0
     preds = None
@@ -478,10 +478,10 @@ def start_training(cfg: DictConfig):
         torch.save(cfg, os.path.join(cfg.model.output_dir, "training_cfg.bin"))
         
     results = {}
-    if cfg.do_eval and cfg.device.local_rank in [-1, 0]:
+    if cfg.experiment.do.eval and cfg.device.local_rank in [-1, 0]:
         tokenizer = tokenizer_class.from_pretrained(cfg.model.output_dir, do_lower_case=cfg.model.do_lower_case)
         checkpoints = [cfg.model.output_dir]
-        if cfg.eval_all_checkpoints:
+        if cfg.experiment.evaluate_all_checkpoints:
             checkpoints = list(
                 os.path.dirname(c) for c in sorted(glob.glob(cfg.model.output_dir + "/**/" + WEIGHTS_NAME, recursive=True))
             )
@@ -501,11 +501,11 @@ def start_training(cfg: DictConfig):
                 writer.write("{} = {}\n".format(key, str(results[key])))
         torch.cuda.empty_cache()
 
-    if cfg.do_predict and cfg.device.local_rank in [-1, 0]:
+    if cfg.experiment.do.predict and cfg.device.local_rank in [-1, 0]:
         tokenizer = tokenizer_class.from_pretrained(cfg.model.output_dir, do_lower_case=cfg.model.do_lower_case)
         model = model_class.from_pretrained(cfg.model.output_dir)
         model.to(device)
-        result, predictions = evaluate(cfg, model, tokenizer, labels, pad_token_label_id, mode="test")
+        result, predictions = evaluate(cfg, model, tokenizer, labels, pad_token_label_id, mode="test", device=device)
         # Save results
         output_test_results_file = os.path.join(cfg.model.output_dir, "test_results.txt")
         with open(output_test_results_file, "w") as writer:
@@ -539,9 +539,19 @@ def copydir(src, dst):
 @hydra.main(version_base=None, config_path=None)
 def train_eval_ner(cfg: DictConfig):
     """Trains NER models for different datasets"""
-    from omegaconf import DictConfig, OmegaConf
 
     start_training(cfg)
+
+    if cfg.experiment.do.eval:
+        cfg.experiment.do.train = False
+
+        # copy data for evaluation on eval cap
+        copydir(f"{cfg.model.output_dir}",
+                f"{cfg.model.output_dir}/eval-cap-{cfg.data.eval_cap}")
+
+        start_training(cfg)
+        
+
     
 if __name__ == "__main__":
     train_eval_ner()

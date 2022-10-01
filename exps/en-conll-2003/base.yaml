@@ -16,13 +16,15 @@ data:
   language: en-conll-2003 # kin, swa, pcm, conllpp
   labels: #
   cap: 1
+  eval_cap: 2
   max_seq_length: 256
-  per_gpu_train_batch_size: 16
+  per_gpu_train_batch_size: 32
   per_gpu_eval_batch_size: 8
+  eval_batch_size:  # SET IN SCRIPT, DO NOT REMOVE
   train_batch_size: # SET IN SCRIPT, DO NOT REMOVE
 
 model:
-  save_steps: 10000 # Save checkpoint every X updates steps.
+  save_steps: 100 # Save checkpoint every X updates steps.
 
 optim:
   num_train_epochs: 30
@@ -38,7 +40,7 @@ logging:
   wandb: 
     use: true
     offline: true
-  steps: 500
+  steps: 50
 
 device:
   server_ip: 
