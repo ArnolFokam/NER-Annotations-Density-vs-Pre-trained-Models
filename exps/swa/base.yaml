@@ -13,7 +13,7 @@ experiment:
 
 data:
   path: data/${data.language}/cap-${data.cap}
-  language: kin # kin, swa, pcm, conllpp
+  language: swa # kin, swa, pcm, conllpp
   labels: #
   cap: 1
   eval_cap: 2
