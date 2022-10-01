@@ -37,6 +37,7 @@ except ImportError:
     from tensorboardX import SummaryWriter
 
 from ner.dataset import convert_examples_to_features, get_labels, read_examples_from_file
+from ner.helpers import get_dir
 
 load_dotenv()
 
@@ -640,10 +641,10 @@ def train_eval_ner(cfg: DictConfig):
 
     wandb_logger = wandb.init(
         project=str(cfg.experiment.name),
-        dir=os.path.join(
+        dir=get_dir(os.path.join(
             os.getcwd(),
             cfg.model.output_dir,
-        ),
+        )),
         group=str(cfg.experiment.group)
     )
 
