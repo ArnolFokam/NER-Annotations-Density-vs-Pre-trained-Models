@@ -238,7 +238,7 @@ def train(cfg, train_dataset, model, tokenizer, labels, pad_token_label_id, devi
                 if cfg.device.local_rank in [-1, 0] and cfg.logging.steps > 0 and global_step % cfg.logging.steps == 0:
                     # Log metrics
                     if (
-                            cfg.device.local_rank == -1 and cfg.evaluate_during_training
+                            cfg.device.local_rank == -1 and cfg.experiment.evaluate_during_training
                     ):  # Only evaluate when single GPU otherwise metrics may not average well
                         results, _ = evaluate(cfg, model, tokenizer, labels, pad_token_label_id, mode="dev", device=device)
                         for key, value in results.items():

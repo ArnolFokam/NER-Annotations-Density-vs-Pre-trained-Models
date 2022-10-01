@@ -12,7 +12,7 @@ log = logging.getLogger(__name__)
 def main(
     root_dir: str,
     caps: Optional[List[int]] = None,
-    languages: Optional[List[str]] = ["swa", "kin", "pcm", "en-conllpp"],):
+    languages: Optional[List[str]] = ["swa", "kin", "pcm", "en-conll-2003"],):
 
     caps = caps if caps else list(range(1, 11))
 
