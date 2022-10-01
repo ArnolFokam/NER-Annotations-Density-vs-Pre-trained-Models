@@ -447,7 +447,7 @@ def start_training(cfg: DictConfig, wandb_logger):
         ptvsd.wait_for_attach()
 
     # Setup CUDA, GPU & distributed training
-    if cfg.device.local_rank == -1 or not cfg.device.no_cuda:
+    if cfg.device.local_rank == -1:
         device = torch.device("cuda" if torch.cuda.is_available()
                               and not cfg.device.no_cuda else "cpu")
         cfg.device.n_gpu = torch.cuda.device_count()
