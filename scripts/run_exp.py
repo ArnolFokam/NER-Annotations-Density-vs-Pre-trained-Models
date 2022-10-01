@@ -19,10 +19,10 @@ SLURM_LOG_DIR = os.getenv('SLURM_LOG_DIR')
 SLURM_DIR = os.getenv('SLURM_DIR')
 
 scripts = {
-    "en-conllpp": "train_ner",
-    "kin": "train_ner",
-    "pcm": "train_ner",
-    "swa": "train_ner",
+    "en-conllpp": "train_eval_ner",
+    "kin": "train_eval_ner",
+    "pcm": "train_eval_ner",
+    "swa": "train_eval_ner",
 }
 
 

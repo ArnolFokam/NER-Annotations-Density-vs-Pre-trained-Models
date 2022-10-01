@@ -3,10 +3,9 @@ from shutil import copyfile
 import logging
 
 import fire
-import numpy as np
 from tqdm import tqdm
 
-from ner.helpers import read_examples_from_file, write_modified_examples
+from ner.dataset import read_examples_from_file, write_modified_examples
 
 log = logging.getLogger(__name__)
 
