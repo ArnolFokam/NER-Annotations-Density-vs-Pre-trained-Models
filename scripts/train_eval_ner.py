@@ -604,7 +604,7 @@ def start_training(cfg: DictConfig, wandb_logger):
         with open(output_test_results_file, "w") as writer:
             for key in sorted(result.keys()):
                 writer.write("{} = {}\n".format(key, str(result[key])))
-                wandb_logger.log({f"test-{key}": str(results[key])})
+                wandb_logger.log({f"test-{key}": str(result[key])})
         # Save predictions
         output_test_predictions_file = os.path.join(
             cfg.model.output_dir, "test_predictions.txt")
