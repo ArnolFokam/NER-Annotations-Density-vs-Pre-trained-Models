@@ -588,7 +588,7 @@ def start_training(cfg: DictConfig, wandb_logger):
         with open(output_eval_file, "w") as writer:
             for key in sorted(results.keys()):
                 writer.write("{} = {}\n".format(key, str(results[key])))
-                wandb_logger.log({f"dev-{key}": str(results[key])})
+                wandb_logger.log({f"dev-{key}": results[key]})
         torch.cuda.empty_cache()
 
     if cfg.experiment.do.predict and cfg.device.local_rank in [-1, 0]:
@@ -604,7 +604,7 @@ def start_training(cfg: DictConfig, wandb_logger):
         with open(output_test_results_file, "w") as writer:
             for key in sorted(result.keys()):
                 writer.write("{} = {}\n".format(key, str(result[key])))
-                wandb_logger.log({f"test-{key}": str(result[key])})
+                wandb_logger.log({f"test-{key}": result[key]})
         # Save predictions
         output_test_predictions_file = os.path.join(
             cfg.model.output_dir, "test_predictions.txt")
