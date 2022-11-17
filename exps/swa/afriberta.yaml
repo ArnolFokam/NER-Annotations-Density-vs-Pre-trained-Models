@@ -1,7 +1,7 @@
 defaults:
-  - swa
+  - base
   - _self_
 
 model:
   type: bert # tpyeof model to select
-  name_or_path: castorini/afriberta_large 
+  name_or_path: castorini/afriberta_base
