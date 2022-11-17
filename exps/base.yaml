@@ -3,6 +3,8 @@ hydra:
     dir: . # prevent outputs from training to go to hydra sub-folders
 
 experiment:
+  name: NER
+  group: ${data.language}-${model.type}
   do:
       train: true
       finetune: false
@@ -13,18 +15,25 @@ experiment:
 
 data:
   path: data/${data.language}/cap-${data.cap}
-  language: kin # kin, swa, pcm, conllpp
   labels: #
   cap: 1
   eval_cap: 2
   max_seq_length: 256
-  per_gpu_train_batch_size: 16
+  per_gpu_train_batch_size: 32
   per_gpu_eval_batch_size: 8
   eval_batch_size:  # SET IN SCRIPT, DO NOT REMOVE
   train_batch_size: # SET IN SCRIPT, DO NOT REMOVE
 
 model:
   save_steps: 100 # Save checkpoint every X updates steps.
+  input_dir:
+  output_dir: results/${model.name_or_path}/${data.language}/cap-${data.cap}
+  overwrite_output_dir: true
+  do_lower_case: true # Set this flag if you are using an uncased model.
+  cache_dir: # "Where do you want to store the pre-trained models downloaded from s3"
+  overwrite_cache: true
+  config_name: # Pretrained config name or path if not the same as model_name
+  tokenizer_name: # Pretrained tokenizer name or path if not the same as model_name"
 
 optim:
   num_train_epochs: 30
