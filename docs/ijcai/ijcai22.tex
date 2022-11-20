@@ -21,12 +21,12 @@
 \usepackage{amsmath}
 \usepackage{amsthm}
 \usepackage{booktabs}
-\usepackage{algorithm}
+% \usepackage{algorithm}
 \usepackage{algorithmic}
 \urlstyle{same}
 
 % the following package is optional:
-%\usepackage{latexsym}
+\usepackage{latexsym}
 
 % See https://www.overleaf.com/learn/latex/theorems_and_proofs
 % for a nice explanation of how to define new theorems, but keep
@@ -107,7 +107,7 @@ Africa is one of the most culturally diverse continents in the world. With over 
 
 Moreover, considering the case of NER, which is an important subtask of information extraction (IE). Implementing systems that can perform these tasks in the African context could help reduce the communication barrier experienced in some remote parts of the continent, and boost the continent's economy. Therefore, there is a need to improve the representation of African languages in NLP.
 
-Fortunately, some studies made impactful contributions to facilitate future research in NER \cite{10.1162/tacl_a_00416} and other NLP tasks \cite{DBLP:journals/corr/abs-2104-01443, DBLP:journals/corr/abs-2103-08647, DBLP:journals/corr/abs-2103-15963} for African languages. However, they fall short in assessing the performance of these models concerning some limitations faced with low-resource languages. One of them is the difficulty of finding experienced annotators and the high cost of hiring them.
+Fortunately, some studies made impactful contributions to facilitate future research in NER \cite{10.1162/tacl_a_00416} and other NLP tasks \cite{abs-2104-01443, abs-2103-08647, abs-2103-15963} for African languages. However, they fall short in assessing the performance of these models concerning some limitations faced with low-resource languages. One of them is the difficulty of finding experienced annotators and the high cost of hiring them.
 
 Therefore, our study aims at looking for ways to optimize the cost of hiring annotators in relation to the number of annotations we need to build a decently accurate NLP model. We achieve this by evaluating how the performance of pre-trained models in NER tasks evolves with the availability of annotations in the dataset. We considered NER due to its prevalence in many NLP systems, and we chose pre-trained models to evaluate how prior knowledge of one or more language morphologies could influence the performance of the models. We claim that a linear improvement in the labels' density of a NER dataset does not forcefully produce a linear improvement in the model's performance. As a result, the main contribution of our paper is the analysis of how the quality of low-resourced language data for NER tasks impacts the performance of pre-trained models.
 
@@ -115,13 +115,13 @@ Our work is structured as follows. Section \ref{sec:re} gives a brief overview o
 
 \section{Background}
 \label{sec:re}
-NER has been an extensively studied NLP task throughout previous years \cite{wang-etal-2019-crossweigh,DBLP:journals/corr/LampleBSKD16,DBLP:journals/corr/StrubellVBM17,DBLP:journals/corr/abs-2105-03654} and, while most studies were done with English corpora, a fair amount of them has also been done with other languages \cite{8700549, DBLP:journals/corr/abs-2101-01476, DBLP:journals/corr/Al-RfouKPS14}. But despite the amount of work done, there are relatively few studies in NER about African languages. Nevertheless, due to the contributions of numerous researchers across the continent, NER studies can be conducted using publicly available datasets.
+NER has been an extensively studied NLP task throughout previous years \cite{wang-etal-2019-crossweigh,LampleBSKD16,StrubellVBM17,abs-2105-03654} and, while most studies were done with English corpora, a fair amount of them has also been done with other languages \cite{8700549, abs-2101-01476, Al-RfouKPS14}. But despite the amount of work done, there are relatively few studies in NER about African languages. Nevertheless, due to the contributions of numerous researchers across the continent, NER studies can be conducted using publicly available datasets.
 
-Among those publicly available datasets, we have the MasakhaNER corpus \cite{10.1162/tacl_a_00416}, which includes annotations of sentences for ten spoken African languages and NaijaNER corpus \cite{DBLP:journals/corr/abs-2105-00810}, restricted to five Nigerian languages. In addition to those datasets, we have SADiLaR \cite{eiselen-2016-government} for ten of the official South African languages and, though datasets play a crucial role in every NLP system, we cannot neglect the part played by the models trained on these data.
+Among those publicly available datasets, we have the MasakhaNER corpus \cite{10.1162/tacl_a_00416}, which includes annotations of sentences for ten spoken African languages and NaijaNER corpus \cite{abs-2105-00810}, restricted to five Nigerian languages. In addition to those datasets, we have SADiLaR \cite{eiselen-2016-government} for ten of the official South African languages and, though datasets play a crucial role in every NLP system, we cannot neglect the part played by the models trained on these data.
 
-From rule-based systems like FASTUS \cite{appelt-etal-1995-sri} to deep learning models \cite{DBLP:journals/corr/abs-1812-09449}, NER has evolved into a data-centric task. In between this evolution, many NER techniques were proposed. Among some of them, we have sequence labelling methods such as Conditional random fields (CRFs), which models the conditional probability over label sequences given a sequence of observations. Examples of CRFs for NER includes Bi-LSTM-CRF \cite{DBLP:journals/corr/HuangXY15}, CNN-LSTM-CRF \cite{DBLP:journals/corr/abs-1905-01964} and BERT-CRF \cite{DBLP:journals/corr/abs-1909-10649}. Other NER systems use Hidden Markov Models (HMMs) to identify entities in a corpus \cite{10.1007/978-3-540-77046-6_67}. The use of HMMs is motivated by their reliability to analyse sequential correlations between neighbouring samples, notably texts data.
+From rule-based systems like FASTUS \cite{appelt-etal-1995-sri} to deep learning models \cite{abs-1812-09449}, NER has evolved into a data-centric task. In between this evolution, many NER techniques were proposed. Among some of them, we have sequence labelling methods such as Conditional random fields (CRFs), which models the conditional probability over label sequences given a sequence of observations. Examples of CRFs for NER includes Bi-LSTM-CRF \cite{HuangXY15}, CNN-LSTM-CRF \cite{abs-1905-01964} and BERT-CRF \cite{abs-1909-10649}. Other NER systems use Hidden Markov Models (HMMs) to identify entities in a corpus \cite{10.1007/978-3-540-77046-6_67}. The use of HMMs is motivated by their reliability to analyse sequential correlations between neighbouring samples, notably texts data.
 
-However, the biggest breakthrough in NER and other NLP tasks came from the use of large pre-trained languages models such as BERT  \cite{DBLP:journals/corr/abs-1810-04805}, RoBERTa \cite{DBLP:journals/corr/abs-1907-11692} and, GPT-3 \cite{DBLP:journals/corr/abs-2005-14165}, and while these language models mainly differ by the number of parameters they possess, they are capable of achieving state-of-the-art results in various NLP tasks. The majority of these language models are trained on English corpora but, there exist some variants trained on other languages \cite{DBLP:journals/corr/abs-1911-03894, DBLP:journals/corr/abs-2012-02110, CaneteCFP2020} as well as others trained on more than one language. This is the case for mBERT \cite{DBLP:journals/corr/abs-1911-03310} trained on 104 languages and XLM-RoBERa \cite{DBLP:journals/corr/abs-1901-07291} trained on 100 languages.
+However, the biggest breakthrough in NER and other NLP tasks came from the use of large pre-trained languages models such as BERT  \cite{abs-1810-04805}, RoBERTa \cite{abs-1907-11692} and, GPT-3 \cite{abs-2005-14165}, and while these language models mainly differ by the number of parameters they possess, they are capable of achieving state-of-the-art results in various NLP tasks. The majority of these language models are trained on English corpora but, there exist some variants trained on other languages \cite{abs-1911-03894, abs-2012-02110, CaneteCFP2020} as well as others trained on more than one language. This is the case for mBERT \cite{abs-1911-03310} trained on 104 languages and XLM-RoBERa \cite{abs-1901-07291} trained on 100 languages.
 
 \section{Methodology}
 \label{sec:met}
@@ -134,15 +134,15 @@ For this study, we use a subset of the MasakhaNER dataset \cite{10.1162/tacl_a_0
 
 \subsection{Models}
 To evaluate the performance of our datasets with different entity densities, we use four popular pre-trained models, namely, BERT, RoBERTa, two versions of multilingual BERT
-(mBERT). All these models are available through the HuggingFace transformers library \cite{DBLP:journals/corr/abs-1910-03771}. Half of these models are multilingual. We hypothesize that knowledge of different language morphologies can help in situations where the NER entities are scarce. So, in theory, multilingual models will work better than monolingual ones as the entity density in the training corpus reduces. We only use mBERT due to the limitations in computational resources which does permit us to train larger models such as XLM-RoBERTa.
+(mBERT). All these models are available through the HuggingFace transformers library \cite{abs-1910-03771}. Half of these models are multilingual. We hypothesize that knowledge of different language morphologies can help in situations where the NER entities are scarce. So, in theory, multilingual models will work better than monolingual ones as the entity density in the training corpus reduces. We only use mBERT due to the limitations in computational resources which does permit us to train larger models such as XLM-RoBERTa.
 
-\subsubsection*{BERT} was proposed as a pre-trained model which could get the bidirectional representation from unlabelled texts \cite{DBLP:journals/corr/abs-1810-04805}. We fine-tune our model on our corpus for sequence labelling. We use the BERT-base cased model trained on English text with 12 layers of transformers block with a hidden size of 768, 12 attention heads and 110 parameters.
+\subsubsection*{BERT} was proposed as a pre-trained model which could get the bidirectional representation from unlabelled texts \cite{abs-1810-04805}. We fine-tune our model on our corpus for sequence labelling. We use the BERT-base cased model trained on English text with 12 layers of transformers block with a hidden size of 768, 12 attention heads and 110 parameters.
 
-\subsubsection*{RoBERTa} is an optimized version of BERT that outperforms its predecessor \cite{DBLP:journals/corr/abs-1907-11692}. Through the modifications of some training parameters and an increase in the size of the training data. This version of BERT could achieve state-of-the-art results on popular benchmarks such as n GLUE, RACE and SQuAD. We use the RoBERTa-base model with the same architecture as BERT.
+\subsubsection*{RoBERTa} is an optimized version of BERT that outperforms its predecessor \cite{abs-1907-11692}. Through the modifications of some training parameters and an increase in the size of the training data. This version of BERT could achieve state-of-the-art results on popular benchmarks such as n GLUE, RACE and SQuAD. We use the RoBERTa-base model with the same architecture as BERT.
 
-\subsubsection*{mBERT} is the fine-tuned version of BERT, trained on 104 languages \cite{DBLP:journals/corr/abs-1911-03310} (Swahili included). We fine-tune two cased versions of this model with the same architecture as BERT. However, this model has 179M parameters. The first version is trained on 104 languages through masked-language modelling, and the second one is a fine-tuned version of the first on 10 high resourced languages for NER tasks. We hypothesize that the second version will outperform the first one due to the focus of its training objective towards NER.
+\subsubsection*{mBERT} is the fine-tuned version of BERT, trained on 104 languages \cite{abs-1911-03310} (Swahili included). We fine-tune two cased versions of this model with the same architecture as BERT. However, this model has 179M parameters. The first version is trained on 104 languages through masked-language modelling, and the second one is a fine-tuned version of the first on 10 high resourced languages for NER tasks. We hypothesize that the second version will outperform the first one due to the focus of its training objective towards NER.
 
-% \subsubsection*{XLM} was introduced with a new method of learning cross-lingual language representation called Translation Language Modelling (TLM) \cite{DBLP:journals/corr/abs-1901-07291}. The TLM approach is an extension of Masked Language Modelling (MLM). However, TLM differs from MLM by using multiple language translations of the same sentence to predict the masked word. We use a version of XLM, trained with 100 languages. This version possesses 16 layers of transformers block with a hidden size of 1280, 16 attention heads.%
+% \subsubsection*{XLM} was introduced with a new method of learning cross-lingual language representation called Translation Language Modelling (TLM) \cite{abs-1901-07291}. The TLM approach is an extension of Masked Language Modelling (MLM). However, TLM differs from MLM by using multiple language translations of the same sentence to predict the masked word. We use a version of XLM, trained with 100 languages. This version possesses 16 layers of transformers block with a hidden size of 1280, 16 attention heads.%
 
 \subsection{Evaluation Metrics}
 We evaluate the performance of different models using the F1-score metrics. The formula is given by:
@@ -165,7 +165,7 @@ Our main claim in this study is to show that a linear improvement in the dataset
     \centering
     \includegraphics[width=\columnwidth]{images/dist_plot.png}
     \caption{Distribution of entity labels per sentence for three language namely, Swahili (swa), Kriyananda (Kin) and Nigeria-Pidgin (pcm). The error bar represents the standard deviation}
-    \label{fig:dist} 
+    \label{fig:dist}
 \end{figure}
 
 \begin{figure}
@@ -254,7 +254,6 @@ There is a possibility to do similar analyses with several African languages and
 In this study, we claimed that a linear improvement in the density of labels in the model does produce a linear improvement in the performance of pre-trained language models in the context of low-resourced NER tasks. This claim was verified by training different models on low-resource African language NER corpora and at different levels of density labels. After a certain level of entity cap, each model's performance stagnates. This behaviour was consistent across all the language corpora used to train our models.
 
 Our study proves that we do not forcefully need to build a highly dense NER corpus to produce good models performance. We hope by this work to encourage dataset creators for NLP tasks to privilege the curation of their corpus over the density of the label present in these corpora. Finally, a future improvement could be to use more models to see if this behaviour replicates and extend this type of analysis for other NLP tasks.
-
 
 %% The file named.bst is a bibliography style file for BibTeX 0.99c
 \bibliographystyle{named}
