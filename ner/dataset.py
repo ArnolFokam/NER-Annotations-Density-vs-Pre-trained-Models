@@ -5,6 +5,7 @@ import numpy as np
 logger = logging.getLogger("Afri_NER_Log")
 logging.basicConfig(level=logging.INFO)
 
+
 class InputExample(object):
     """A single training/test example for token classification."""
 
@@ -240,44 +241,6 @@ def get_labels_position(labels):
             in_word = False
             
     return label
-
-def get_capped_labels(labels, labels_pos, cap):
-    import random
-    random.seed(42)
-
-    for (x, y) in random.sample(labels_pos, max(len(labels_pos) - cap, 0)):
-        labels[x:y + 1] = ['O' for _ in range(len(labels[x:y + 1]))]
-       
-    return labels
-
-
-def get_capped_examples(X, cap):
-    n_examples = []
-    for ex in X:
-        labels_pos = get_labels_position(ex.labels.copy())
-        ex.labels = get_capped_labels(ex.labels.copy(), labels_pos, cap)
-        n_examples.append(ex)
-            
-    return n_examples
-
-
-def write_modified_examples(data_dir, mode, X, cap):
-        
-    folder_path = os.path.join(data_dir, "cap-{}".format(cap))
-    if not os.path.exists(folder_path):
-        os.mkdir(folder_path)
-        
-    file_path =  os.path.join(folder_path, "{}.txt".format(mode))
-    
-    n_examples = get_capped_examples(X, cap)
-    
-    with open(file_path, "w+", encoding="utf-8") as f:
-        for ex in n_examples:
-            for i in range(len(ex.labels)):
-                f.write(f"{ex.words[i]} {ex.labels[i]}\n")
-            f.write("\n")
-            
-    f.close()
 
 def get_label_density_statistics(X):
     n_labels = []
