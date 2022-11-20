@@ -61,15 +61,16 @@
 /TemplateVersion (IJCAI.2022.0)
 }
 
-\title{IJCAI--22 Formatting Instructions}
+\title{Data Corruption Impact on Named Entity Recognition for Low Resourced Languages}
 
 % Single author syntax
+
 \author{
-    Author Name
+    Anonymous
     \affiliations
-    Affiliation
+    Anonymous
     \emails
-    pcchair@ijcai-22.org
+    anonymous
 }
 
 % Multiple author syntax (remove the single-author syntax above and the \iffalse ... \fi here)
@@ -97,481 +98,162 @@ fourth@example.com
 \maketitle
 
 \begin{abstract}
-    The {\it IJCAI--22 Proceedings} will be printed from electronic
-    manuscripts submitted by the authors. The electronic manuscript will
-    also be included in the online version of the proceedings. This paper
-    provides the style instructions.
+    African languages have recently been the subject of several studies in Natural Language Processing (NLP) and, this has caused a significant increase in their representation in the field. However, most studies tend to focus more on the models than the quality of the datasets when assessing the models' performance in tasks such as Named Entity Recognition (NER). While this works well in most cases, it does not account for the limitations of doing NLP with low-resource languages, that is, the quality and the quantity of the dataset at our disposal. This paper provides an analysis of the performance of various models based on the quality of the dataset. We evaluate different pre-trained models with respect to the entity density per sentence of some African NER datasets. We hope with this study to improve the way NLP studies are done in the context of low-resourced languages.
 \end{abstract}
 
 \section{Introduction}
 
-The {\it IJCAI--22 Proceedings} will be printed from electronic
-manuscripts submitted by the authors. These must be PDF ({\em Portable
-        Document Format}) files formatted for 8-1/2$''$ $\times$ 11$''$ paper.
+Africa is one of the most culturally diverse continents in the world. With over 2000 languages spoken on the continent \cite{eberhard_simons_fennig}, we could assume it is the epicentre of the most ground-breaking natural language processing (NLP) researches of the industry. However, this is not the case, as shown in previous studies \cite{nekoto-etal-2020-participatory, Dossou2021CrowdsourcedPT}. The main reason cited is the lack of discoverability of the resources required to conduct such NLP studies \cite{Martinus2019AFO}.
 
-\subsection{Length of Papers}
+Moreover, considering the case of NER, which is an important subtask of information extraction (IE). Implementing systems that can perform these tasks in the African context could help reduce the communication barrier experienced in some remote parts of the continent, and boost the continent's economy. Therefore, there is a need to improve the representation of African languages in NLP.
 
+Fortunately, some studies made impactful contributions to facilitate future research in NER \cite{10.1162/tacl_a_00416} and other NLP tasks \cite{DBLP:journals/corr/abs-2104-01443, DBLP:journals/corr/abs-2103-08647, DBLP:journals/corr/abs-2103-15963} for African languages. However, they fall short in assessing the performance of these models concerning some limitations faced with low-resource languages. One of them is the difficulty of finding experienced annotators and the high cost of hiring them.
 
-All paper {\em submissions} to the main track must have a maximum of six pages, plus at most one for references/acknowledgements/ethics statement. The seventh page cannot contain anything else (or you will be charged for it).
+Therefore, our study aims at looking for ways to optimize the cost of hiring annotators in relation to the number of annotations we need to build a decently accurate NLP model. We achieve this by evaluating how the performance of pre-trained models in NER tasks evolves with the availability of annotations in the dataset. We considered NER due to its prevalence in many NLP systems, and we chose pre-trained models to evaluate how prior knowledge of one or more language morphologies could influence the performance of the models. We claim that a linear improvement in the labels' density of a NER dataset does not forcefully produce a linear improvement in the model's performance. As a result, the main contribution of our paper is the analysis of how the quality of low-resourced language data for NER tasks impacts the performance of pre-trained models.
 
-The length rules may change for final camera-ready versions of accepted papers and differ between tracks. Some tracks may include only references in the last page, whereas others allow for any content in all pages. Similarly, some tracks allow you to buy a few extra pages should you want to, whereas others don't.
+Our work is structured as follows. Section \ref{sec:re} gives a brief overview of the work done in NER. Section \ref{sec:met} gives a thorough description of the approach we followed and, Section \ref{sec:exp} provides the experiments we conducted to validate the claim made in this study. Section \ref{sec:res} provides the results of the experiments conducted and a discussion about the obtained results. Finally, we conclude our work in Section \ref{sec:conc}.
 
-If your paper is accepted, please carefully read the notifications you receive, and check the proceedings submission information website\footnote{\url{https://proceedings.ijcai.org/info}} to know how many pages you can finally use. That website holds the most up-to-date information regarding paper length limits at all times.
+\section{Background}
+\label{sec:re}
+NER has been an extensively studied NLP task throughout previous years \cite{wang-etal-2019-crossweigh,DBLP:journals/corr/LampleBSKD16,DBLP:journals/corr/StrubellVBM17,DBLP:journals/corr/abs-2105-03654} and, while most studies were done with English corpora, a fair amount of them has also been done with other languages \cite{8700549, DBLP:journals/corr/abs-2101-01476, DBLP:journals/corr/Al-RfouKPS14}. But despite the amount of work done, there are relatively few studies in NER about African languages. Nevertheless, due to the contributions of numerous researchers across the continent, NER studies can be conducted using publicly available datasets.
 
+Among those publicly available datasets, we have the MasakhaNER corpus \cite{10.1162/tacl_a_00416}, which includes annotations of sentences for ten spoken African languages and NaijaNER corpus \cite{DBLP:journals/corr/abs-2105-00810}, restricted to five Nigerian languages. In addition to those datasets, we have SADiLaR \cite{eiselen-2016-government} for ten of the official South African languages and, though datasets play a crucial role in every NLP system, we cannot neglect the part played by the models trained on these data.
 
-\subsection{Word Processing Software}
+From rule-based systems like FASTUS \cite{appelt-etal-1995-sri} to deep learning models \cite{DBLP:journals/corr/abs-1812-09449}, NER has evolved into a data-centric task. In between this evolution, many NER techniques were proposed. Among some of them, we have sequence labelling methods such as Conditional random fields (CRFs), which models the conditional probability over label sequences given a sequence of observations. Examples of CRFs for NER includes Bi-LSTM-CRF \cite{DBLP:journals/corr/HuangXY15}, CNN-LSTM-CRF \cite{DBLP:journals/corr/abs-1905-01964} and BERT-CRF \cite{DBLP:journals/corr/abs-1909-10649}. Other NER systems use Hidden Markov Models (HMMs) to identify entities in a corpus \cite{10.1007/978-3-540-77046-6_67}. The use of HMMs is motivated by their reliability to analyse sequential correlations between neighbouring samples, notably texts data.
 
-As detailed below, IJCAI has prepared and made available a set of
-\LaTeX{} macros and a Microsoft Word template for use in formatting
-your paper. If you are using some other word processing software, please follow the format instructions given below and ensure that your final paper looks as much like this sample as possible.
+However, the biggest breakthrough in NER and other NLP tasks came from the use of large pre-trained languages models such as BERT  \cite{DBLP:journals/corr/abs-1810-04805}, RoBERTa \cite{DBLP:journals/corr/abs-1907-11692} and, GPT-3 \cite{DBLP:journals/corr/abs-2005-14165}, and while these language models mainly differ by the number of parameters they possess, they are capable of achieving state-of-the-art results in various NLP tasks. The majority of these language models are trained on English corpora but, there exist some variants trained on other languages \cite{DBLP:journals/corr/abs-1911-03894, DBLP:journals/corr/abs-2012-02110, CaneteCFP2020} as well as others trained on more than one language. This is the case for mBERT \cite{DBLP:journals/corr/abs-1911-03310} trained on 104 languages and XLM-RoBERa \cite{DBLP:journals/corr/abs-1901-07291} trained on 100 languages.
 
-\section{Style and Format}
+\section{Methodology}
+\label{sec:met}
 
-\LaTeX{} and Word style files that implement these instructions
-can be retrieved electronically. (See Appendix~\ref{stylefiles} for
-instructions on how to obtain these files.)
+In this section, we introduce the different components that permit us to carry out this study. Firstly, we talk about the dataset used in this study. Secondly, we provide a detailed list of models used as well as the reason behind each choice. Lastly, we speak about the evaluation metric used in this study.
 
-\subsection{Layout}
+\subsection{NER Dataset}
 
-Print manuscripts two columns to a page, in the manner in which these
-instructions are printed. The exact dimensions for pages are:
-\begin{itemize}
-    \item left and right margins: .75$''$
-    \item column width: 3.375$''$
-    \item gap between columns: .25$''$
-    \item top margin---first page: 1.375$''$
-    \item top margin---other pages: .75$''$
-    \item bottom margin: 1.25$''$
-    \item column height---first page: 6.625$''$
-    \item column height---other pages: 9$''$
-\end{itemize}
+For this study, we use a subset of the MasakhaNER dataset \cite{10.1162/tacl_a_00416}. This dataset consists of corpora from different sources and written in 10 spoken African languages, annotated with entities inspired from English CoNLL-2003 dataset \cite{tjong-kim-sang-2002-introduction}. For each language, there is an annotated corpus divided into three sections: training, development, and testing, which amount to 70\%, 10\%, and 20\% of the corpus, respectively. For this study, we chose to work on 3 languages, namely \textbf{Swahili}, \textbf{Nigerian-Pidgin} and \textbf{Kinyarwanda}. We selected the corpus of these languages based on the number of entities and the percentage of tokens that were named entities. By picking corpora with high entity density, we can vary this density throughout a wide range to see how our models are affected.
 
-All measurements assume an 8-1/2$''$ $\times$ 11$''$ page size. For
-A4-size paper, use the given top and left margins, column width,
-height, and gap, and modify the bottom and right margins as necessary.
+\subsection{Models}
+To evaluate the performance of our datasets with different entity densities, we use four popular pre-trained models, namely, BERT, RoBERTa, two versions of multilingual BERT
+(mBERT). All these models are available through the HuggingFace transformers library \cite{DBLP:journals/corr/abs-1910-03771}. Half of these models are multilingual. We hypothesize that knowledge of different language morphologies can help in situations where the NER entities are scarce. So, in theory, multilingual models will work better than monolingual ones as the entity density in the training corpus reduces. We only use mBERT due to the limitations in computational resources which does permit us to train larger models such as XLM-RoBERTa.
 
-\subsection{Format of Electronic Manuscript}
+\subsubsection*{BERT} was proposed as a pre-trained model which could get the bidirectional representation from unlabelled texts \cite{DBLP:journals/corr/abs-1810-04805}. We fine-tune our model on our corpus for sequence labelling. We use the BERT-base cased model trained on English text with 12 layers of transformers block with a hidden size of 768, 12 attention heads and 110 parameters.
 
-For the production of the electronic manuscript, you must use Adobe's
-{\em Portable Document Format} (PDF). A PDF file can be generated, for
-instance, on Unix systems using {\tt ps2pdf} or on Windows systems
-using Adobe's Distiller. There is also a website with free software
-and conversion services: \url{http://www.ps2pdf.com}. For reasons of
-uniformity, use of Adobe's {\em Times Roman} font is strongly suggested.
-In \LaTeX2e{} this is accomplished by writing
-\begin{quote}
-    \mbox{\tt $\backslash$usepackage\{times\}}
-\end{quote}
-in the preamble.\footnote{You may want also to use the package {\tt
-            latexsym}, which defines all symbols known from the old \LaTeX{}
-    version.}
+\subsubsection*{RoBERTa} is an optimized version of BERT that outperforms its predecessor \cite{DBLP:journals/corr/abs-1907-11692}. Through the modifications of some training parameters and an increase in the size of the training data. This version of BERT could achieve state-of-the-art results on popular benchmarks such as n GLUE, RACE and SQuAD. We use the RoBERTa-base model with the same architecture as BERT.
 
-Additionally, it is of utmost importance to specify the {\bf
-        letter} format (corresponding to 8-1/2$''$ $\times$ 11$''$) when
-formatting the paper. When working with {\tt dvips}, for instance, one
-should specify {\tt -t letter}.
+\subsubsection*{mBERT} is the fine-tuned version of BERT, trained on 104 languages \cite{DBLP:journals/corr/abs-1911-03310} (Swahili included). We fine-tune two cased versions of this model with the same architecture as BERT. However, this model has 179M parameters. The first version is trained on 104 languages through masked-language modelling, and the second one is a fine-tuned version of the first on 10 high resourced languages for NER tasks. We hypothesize that the second version will outperform the first one due to the focus of its training objective towards NER.
 
-\subsection{Title and Author Information}
+% \subsubsection*{XLM} was introduced with a new method of learning cross-lingual language representation called Translation Language Modelling (TLM) \cite{DBLP:journals/corr/abs-1901-07291}. The TLM approach is an extension of Masked Language Modelling (MLM). However, TLM differs from MLM by using multiple language translations of the same sentence to predict the masked word. We use a version of XLM, trained with 100 languages. This version possesses 16 layers of transformers block with a hidden size of 1280, 16 attention heads.%
 
-Center the title on the entire width of the page in a 14-point bold
-font. The title must be capitalized using Title Case. Below it, center author name(s) in 12-point bold font. On the following line(s) place the affiliations.
+\subsection{Evaluation Metrics}
+We evaluate the performance of different models using the F1-score metrics. The formula is given by:
 
-\subsubsection{Author Names}
+$$F1 = \frac{\mathrm{TP}}{\mathrm{TP}+\frac{1}{2}(\mathrm{FP}+\mathrm{FN})}$$
 
-Each author name must be followed by:
-\begin{itemize}
-    \item A newline {\tt \textbackslash{}\textbackslash{}} command for the last author.
-    \item An {\tt \textbackslash{}And} command for the second to last author.
-    \item An {\tt \textbackslash{}and} command for the other authors.
-\end{itemize}
+where $\mathrm{TP}$, $\mathrm{FP}$, $\mathrm{FN}$, $\mathrm{TN}$ represents the true positives, false positives, false negatives and true negatives of the model's prediction.
 
-\subsubsection{Affiliations}
+\section{Experimental Setup}
+\label{sec:exp}
+Throughout this section, we thoroughly explain how we plan to evaluate the performance of pre-trained models based on quality. Firstly, we describe the method used to vary the quality of the dataset and lastly, we will explain how we plan to evaluate the performance of different models holistically.
 
-After all authors, start the affiliations section by using the {\tt \textbackslash{}affiliations} command.
-Each affiliation must be terminated by a newline {\tt \textbackslash{}\textbackslash{}} command. Make sure that you include the newline on the last affiliation too.
+% and through a bucket-based approach.
 
-\subsubsection{Mapping Authors to Affiliations}
+\subsection{Varying the Quality of the Dataset}
+\label{sec:exp:var}
+Our main claim in this study is to show that a linear improvement in the dataset's quality does not forcefully produce a linear improvement in the performance of the model. Therefore, we need a method to vary the quality of the dataset linearly. For that, we must first explain what we mean by the quality of the dataset. In this study, the dataset's quality is the number of entity labels per sentence in the NER corpus. So, varying this quality means modifying this attribute for every sentence in the datasets corpus. We do this by creating buckets where we threshold this attribute over a specific range. In other words, we build buckets of the same dataset in which each sentence in the corpus have at most \textit{n} entity label with n being the threshold that characterizes the bucket.
 
-If some scenarios, the affiliation of each author is clear without any further indication (\emph{e.g.}, all authors share the same affiliation, all authors have a single and different affiliation). In these situations you don't need to do anything special.
-
-In more complex scenarios you will have to clearly indicate the affiliation(s) for each author. This is done by using numeric math superscripts {\tt \$\{\^{}$i,j, \ldots$\}\$}. You must use numbers, not symbols, because those are reserved for footnotes in this section (should you need them). Check the authors definition in this example for reference.
-
-\subsubsection{Emails}
-
-This section is optional, and can be omitted entirely if you prefer. If you want to include e-mails, you should either include all authors' e-mails or just the contact author(s)' ones.
-
-Start the e-mails section with the {\tt \textbackslash{}emails} command. After that, write all emails you want to include separated by a comma and a space, following the same order used for the authors (\emph{i.e.}, the first e-mail should correspond to the first author, the second e-mail to the second author and so on).
-
-You may ``contract" consecutive e-mails on the same domain as shown in this example (write the users' part within curly brackets, followed by the domain name). Only e-mails of the exact same domain may be contracted. For instance, you cannot contract ``person@example.com" and ``other@test.example.com" because the domains are different.
-
-
-\subsubsection{Blind Review}
-
-In order to make blind reviewing possible, authors must omit their
-names and affiliations when submitting the paper for review. In place
-of names and affiliations, provide a list of content areas. When
-referring to one's own work, use the third person rather than the
-first person. For example, say, ``Previously,
-Gottlob~\shortcite{gottlob:nonmon} has shown that\ldots'', rather
-than, ``In our previous work~\cite{gottlob:nonmon}, we have shown
-that\ldots'' Try to avoid including any information in the body of the
-paper or references that would identify the authors or their
-institutions. Such information can be added to the final camera-ready
-version for publication.
-
-\subsection{Abstract}
-
-Place the abstract at the beginning of the first column 3$''$ from the
-top of the page, unless that does not leave enough room for the title
-and author information. Use a slightly smaller width than in the body
-of the paper. Head the abstract with ``Abstract'' centered above the
-body of the abstract in a 12-point bold font. The body of the abstract
-should be in the same font as the body of the paper.
-
-The abstract should be a concise, one-paragraph summary describing the
-general thesis and conclusion of your paper. A reader should be able
-to learn the purpose of the paper and the reason for its importance
-from the abstract. The abstract should be no more than 200 words long.
-
-\subsection{Text}
-
-The main body of the text immediately follows the abstract. Use
-10-point type in a clear, readable font with 1-point leading (10 on
-11).
-
-Indent when starting a new paragraph, except after major headings.
-
-\subsection{Headings and Sections}
-
-When necessary, headings should be used to separate major sections of
-your paper. (These instructions use many headings to demonstrate their
-appearance; your paper should have fewer headings.). All headings should be capitalized using Title Case.
-
-\subsubsection{Section Headings}
-
-Print section headings in 12-point bold type in the style shown in
-these instructions. Leave a blank space of approximately 10 points
-above and 4 points below section headings.  Number sections with
-arabic numerals.
-
-\subsubsection{Subsection Headings}
-
-Print subsection headings in 11-point bold type. Leave a blank space
-of approximately 8 points above and 3 points below subsection
-headings. Number subsections with the section number and the
-subsection number (in arabic numerals) separated by a
-period.
-
-\subsubsection{Subsubsection Headings}
-
-Print subsubsection headings in 10-point bold type. Leave a blank
-space of approximately 6 points above subsubsection headings. Do not
-number subsubsections.
-
-\paragraph{Titled paragraphs.} You should use titled paragraphs if and
-only if the title covers exactly one paragraph. Such paragraphs should be
-separated from the preceding content by at least 3pt, and no more than
-6pt. The title should be in 10pt bold font and ended with a period.
-After that, a 1em horizontal space should follow the title before
-the paragraph's text.
-
-In \LaTeX{} titled paragraphs should be typeset using
-\begin{quote}
-    {\tt \textbackslash{}paragraph\{Title.\} text} .
-\end{quote}
-
-\subsection{Special Sections}
-
-\subsubsection{Appendices}
-
-Appendices are optional. Appendices must appear after the main
-content. Appendix sections must use letters instead of arabic numerals. In \LaTeX,  you can use the {\tt \textbackslash{}appendix} command to achieve this followed by  {\tt \textbackslash section\{Appendix\}} for your appendix sections.
-
-\subsubsection{Ethical Statement}
-
-Ethical Statement is optional. You may include an Ethical Statement to discuss  the ethical aspects and implications of your research. The section should be titled \emph{Ethical Statement} and be typeset like any regular section but without being numbered. This section may be placed on the References page.
-
-Use
-\begin{quote}
-    {\tt \textbackslash{}section*\{Ethical Statement\}}
-\end{quote}
-
-\subsubsection{Acknowledgements}
-
-Acknowledgements are optional. In the camera-ready version you may include an unnumbered acknowledgments section, including acknowledgments of help from colleagues, financial support, and permission to publish. This is not allowed in the version submitted for blind review. If present, acknowledgements must be in a dedicated, unnumbered section appearing after all regular sections but before references.  This section may be placed on the References page.
-
-Use
-\begin{quote}
-    {\tt \textbackslash{}section*\{Acknowledgements\}}
-\end{quote}
-to typeset the acknowledgements section in \LaTeX{}.
-
-
-
-\subsubsection{References}
-
-The references section is headed ``References'', printed in the same
-style as a section heading but without a number. A sample list of
-references is given at the end of these instructions. Use a consistent
-format for references. The reference list should not include publicly unavailable work.
-
-\subsubsection{Order of Sections}
-Sections should be arranged in the following order:
-\begin{enumerate}
-    \item Main content sections (numbered)
-    \item Appendices (optional, numbered using capital letters)
-    \item Ethical statement (optional, unnumbered)
-    \item Acknowledgements (optional, unnumbered)
-    \item References (required, unnumbered)
-\end{enumerate}
-
-
-
-\subsection{Citations}
-
-Citations within the text should include the author's last name and
-the year of publication, for example~\cite{gottlob:nonmon}.  Append
-lowercase letters to the year in cases of ambiguity.  Treat multiple
-authors as in the following examples:~\cite{abelson-et-al:scheme}
-or~\cite{bgf:Lixto} (for more than two authors) and
-\cite{brachman-schmolze:kl-one} (for two authors).  If the author
-portion of a citation is obvious, omit it, e.g.,
-Nebel~\shortcite{nebel:jair-2000}.  Collapse multiple citations as
-follows:~\cite{gls:hypertrees,levesque:functional-foundations}.
-\nocite{abelson-et-al:scheme}
-\nocite{bgf:Lixto}
-\nocite{brachman-schmolze:kl-one}
-\nocite{gottlob:nonmon}
-\nocite{gls:hypertrees}
-\nocite{levesque:functional-foundations}
-\nocite{levesque:belief}
-\nocite{nebel:jair-2000}
-
-\subsection{Footnotes}
-
-Place footnotes at the bottom of the page in a 9-point font.  Refer to
-them with superscript numbers.\footnote{This is how your footnotes
-    should appear.} Separate them from the text by a short
-line.\footnote{Note the line separating these footnotes from the
-    text.} Avoid footnotes as much as possible; they interrupt the flow of
-the text.
-
-\section{Illustrations}
-
-Place all illustrations (figures, drawings, tables, and photographs)
-throughout the paper at the places where they are first discussed,
-rather than at the end of the paper.
-
-They should be floated to the top (preferred) or bottom of the page,
-unless they are an integral part
-of your narrative flow. When placed at the bottom or top of
-a page, illustrations may run across both columns, but not when they
-appear inline.
-
-Illustrations must be rendered electronically or scanned and placed
-directly in your document. They should be cropped outside \LaTeX{},
-otherwise portions of the image could reappear during the post-processing of your paper.
-When possible, generate your illustrations in a vector format.
-When using bitmaps, please use 300dpi resolution at least.
-All illustrations should be understandable when printed in black and
-white, albeit you can use colors to enhance them. Line weights should
-be 1/2-point or thicker. Avoid screens and superimposing type on
-patterns, as these effects may not reproduce well.
-
-Number illustrations sequentially. Use references of the following
-form: Figure 1, Table 2, etc. Place illustration numbers and captions
-under illustrations. Leave a margin of 1/4-inch around the area
-covered by the illustration and caption.  Use 9-point type for
-captions, labels, and other text in illustrations. Captions should always appear below the illustration.
-
-\section{Tables}
-
-Tables are considered illustrations containing data. Therefore, they should also appear floated to the top (preferably) or bottom of the page, and with the captions below them.
-
-\begin{table}
+\begin{figure}
     \centering
-    \begin{tabular}{lll}
-        \hline
-        Scenario  & $\delta$ & Runtime \\
-        \hline
-        Paris     & 0.1s     & 13.65ms \\
-        Paris     & 0.2s     & 0.01ms  \\
-        New York  & 0.1s     & 92.50ms \\
-        Singapore & 0.1s     & 33.33ms \\
-        Singapore & 0.2s     & 23.01ms \\
-        \hline
-    \end{tabular}
-    \caption{Latex default table}
-    \label{tab:plain}
-\end{table}
+    \includegraphics[width=\columnwidth]{images/dist_plot.png}
+    \caption{Distribution of entity labels per sentence for three language namely, Swahili (swa), Kriyananda (Kin) and Nigeria-Pidgin (pcm). The error bar represents the standard deviation}
+    \label{fig:dist} 
+\end{figure}
 
-\begin{table}
+\begin{figure}
     \centering
-    \begin{tabular}{lrr}
+    \includegraphics[width=\columnwidth]{images/evlution.png}
+    \caption{A plot of the frequency at which a sentence has a particular number of entity labels for three languages, Swahili (swa), Kriyananda (Kin) and Nigeria-Pidgin (pcm).}
+    \label{fig:evolution}
+\end{figure}
+
+We see from Figure \ref{fig:evolution} that the Nigerian corpus has the most diverse corpus in terms of the number of entities in a single sentence. Additionally, we see from Figure \ref{fig:dist} that the number of sentences with entity labels in the range [1 - 10] is more frequent than sentences with this attribute in any other range. For this reason, bucketing training data with the number of entity labels varying along this range will suffice to get meaningful results.
+
+\subsection{Holistic Evaluation}
+This evaluation's method consists of evaluating the performance of each model on the overall quality of our dataset. We perform this with the model and the uncapped version of the dataset used to train the model. This method does not differ from the usual way of evaluating models in research papers.
+
+% However, this method does not give insights on how our model performance in various scenarios. 
+
+%This is why we also carry a \textit{bucket-base evaluation} on the models and datasets.
+
+%\subsection{Bucket-Based Evaluation}
+%Bucket-based evaluation permits us to identify the strength and weaknesses of our models on various aspects of our datasets. For this evaluation, we segment our dataset into several buckets and evaluate our models on each bucket. Here, we bucket the evaluation dataset the same way as we did with the training set and we available models trained on sentences with different entity cap, on test data with different entity cap. We hypothesize that models trained with buckets at an entity cap k will have a hard time with sentences with more entities.
+
+\section{Results and Analysis}
+\label{sec:res}
+%\subsection{Holistic results}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\columnwidth]{images/pcm_models_plot.png}
+    \caption{A plot of the F1-score against the entity label cap for all sentences of the Nigerian Pidgin corpus (pcm).}
+    \label{fig:pcm_plot}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\columnwidth]{images/kin_models_plot.png}
+    \caption{A plot of the F1-score against the entity label cap for all sentences of the Kinyarwanda corpus (kin).}
+    \label{fig:kin_plot}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\columnwidth]{images/swa_models_plot.png}
+    \caption{A plot of the F1-score against the entity label cap for all sentences of the Swahili corpus (swa).}
+    \label{fig:swa_plot}
+\end{figure}
+
+\begin{table*}
+    \small
+    \centering
+    \label{UNET_and_GMM}
+    \begin{tabular}{cccc}
         \toprule
-        Scenario  & $\delta$ (s) & Runtime (ms) \\
-        \midrule
-        Paris     & 0.1          & 13.65        \\
-                  & 0.2          & 0.01         \\
-        New York  & 0.1          & 92.50        \\
-        Singapore & 0.1          & 33.33        \\
-                  & 0.2          & 23.01        \\
+        Models      & Kinyarwanda    & Nigerian Pidgin & Swahili        \\  \midrule
+        BERT-c1     & 37.95          & 44.97           & 38.72          \\
+        BERT-c5     & 74.32          & 81.95           & 85.74          \\
+        BERT-c10    & \textbf{77.46} & \textbf{86.33}  & \textbf{86.25} \\ \midrule
+        mBERT-c1    & 36.19          & 46.81           & 40.8           \\
+        mBERT-c5    & 81.0           & 80.61           & 86.56          \\
+        mBERT-c10   & \textbf{82.64} & \textbf{86.69}  & \textbf{88.12} \\ \midrule
+        RoBERTa-c1  & 38.9           & 44.19           & 42.95          \\
+        RoBERTa-c5  & \textbf{82.33} & 83.09           & \textbf{86.18} \\
+        RoBERTa-c10 & 81.75          & \textbf{86.23}  & 85.41          \\ \midrule
+        mBERT10-c1  & 35.28          & 42.54           & 36.22          \\
+        mBERT10-c5  & \textbf{79.84} & 79.53           & 83.17          \\
+        mBERT10-c10 & 78.36          & \textbf{85.39}  & \textbf{83.57} \\
         \bottomrule
     \end{tabular}
-    \caption{Booktabs table}
-    \label{tab:booktabs}
-\end{table}
+    \caption{Performance of each model for Entity Label Cap ${1, 5, 10}$ for every language. (1) The name of model followed by \textbf{-c5} indicates that this model has been trained on training data with \textit{Entity Label Cap} = 5. Example: BERT-c10 means that the BERT model was trained on training data with \textit{Entity Label Cap} = 10. (2) mBERT10 is the fine-tuned version of mBERT on 10 high resourced languages, specifically of NER}
+\end{table*}
 
-If you are using \LaTeX, you should use the {\tt booktabs} package, because it produces better tables than the standard ones. Compare Tables \ref{tab:plain} and~\ref{tab:booktabs}. The latter is clearly more readable for three reasons:
+In this evaluation, we trained and evaluated our models with datasets with 10 entity cap values. For each cap value $j = \{1,2, \dots, 10\}$, we created a corpus where we cut off (transform to \textit{O} token) the labels of the sentences which had more than j entities and, we trained and evaluated our models with the processed corpus. From figures \ref{fig:swa_plot}, \ref{fig:kin_plot} and \ref{fig:pcm_plot}, we see that the performance of our models does not differ much. It indicates that multilingual models do not bring any significant benefit for this task. This may be because all low-resourced African languages, except Swahili, used in this study, were not part of the languages used to train these large multilingual models. Also, this can explain why the performance of models in the Swahili corpus at Figure \ref{fig:swa_plot} seems to be the best.
 
-\begin{enumerate}
-    \item The styling is better thanks to using the {\tt booktabs} rulers instead of the default ones.
-    \item Numeric columns are right-aligned, making it easier to compare the numbers. Make sure to also right-align the corresponding headers, and to use the same precision for all numbers.
-    \item We avoid unnecessary repetition, both between lines (no need to repeat the scenario name in this case) as well as in the content (units can be shown in the column header).
-\end{enumerate}
+The original claim of this study was that a linear improvement in the labels' density of a NER dataset does not forcefully produce a linear improvement in the model's performance. We can confirm this by looking at the plot in figures \ref{fig:swa_plot}, \ref{fig:kin_plot} and \ref{fig:pcm_plot}. We observe that while there is a steady increase in the performance of our model as we increase the entity cap, the curve starts to flatten down around \textit{Entity Label Cap} = 6. This indicates that as we had more sentences to labels after this cap, there was not much performance improvement on the models (both monolingual and multilingual).
 
-\section{Formulas}
+\section{Impact Statement}
+Analyzing the performance of NER models in the way we did gives us some knowledge of how many resources we need to construct NER corpora. In this way, we would build datasets with just enough labels to get good models' performances and maximize the return per investment on the dataset creations.
 
-IJCAI's two-column format makes it difficult to typeset long formulas. A usual temptation is to reduce the size of the formula by using the {\tt small} or {\tt tiny} sizes. This doesn't work correctly with the current \LaTeX{} versions, breaking the line spacing of the preceding paragraphs and title, as well as the equation number sizes. The following equation demonstrates the effects (notice that this entire paragraph looks badly formatted):
-%
-\begin{tiny}
-    \begin{equation}
-        x = \prod_{i=1}^n \sum_{j=1}^n j_i + \prod_{i=1}^n \sum_{j=1}^n i_j + \prod_{i=1}^n \sum_{j=1}^n j_i + \prod_{i=1}^n \sum_{j=1}^n i_j + \prod_{i=1}^n \sum_{j=1}^n j_i
-    \end{equation}
-\end{tiny}%
+Also, there are many benefits in carrying such studies. In the African context, NLP is still an undervalued field and scarcity of resources makes it hard to create an ecosystem in which this field can evolve. A direct consequence is the difficulty to find good annotators for African datasets' creation. Our research cements the idea that the quality of a NER dataset mostly depends on the corpus itself and, more labels do not always equate to better performance. It can help us budget the cost of datasets creation efficiently. However, there are some drawbacks with this type of analysis: (i) It requires enormous training of our models with different instances of the same dataset. Our study, for example, trained 4 models for 3 languages using 10 different entity caps. It makes a total of 120 training experiments. In the long run, this will have negative effects on the environment. (ii) In addition, such studies, which require such a large amount of resources, cannot be carried out in the African context without consequent funding.
 
-Reducing formula sizes this way is strictly forbidden. We {\bf strongly} recommend authors to split formulas in multiple lines when they don't fit in a single line. This is the easiest approach to typeset those formulas and provides the most readable output%
-%
-\begin{align}
-    x = & \prod_{i=1}^n \sum_{j=1}^n j_i + \prod_{i=1}^n \sum_{j=1}^n i_j + \prod_{i=1}^n \sum_{j=1}^n j_i + \prod_{i=1}^n \sum_{j=1}^n i_j + \nonumber \\
-    +   & \prod_{i=1}^n \sum_{j=1}^n j_i
-\end{align}%
+There is a possibility to do similar analyses with several African languages and other NLP tasks such as text classification. One example would be a study that trains models on different corpora with different levels of grammatical errors. The results obtained from that study could help us get insights into how corpus from unsupervised training corpus influences our models in terms of its performance and fairness.
 
-If a line is just slightly longer than the column width, you may use the {\tt resizebox} environment on that equation. The result looks better and doesn't interfere with the paragraph's line spacing: %
-\begin{equation}
-    \resizebox{.91\linewidth}{!}{$
-            \displaystyle
-            x = \prod_{i=1}^n \sum_{j=1}^n j_i + \prod_{i=1}^n \sum_{j=1}^n i_j + \prod_{i=1}^n \sum_{j=1}^n j_i + \prod_{i=1}^n \sum_{j=1}^n i_j + \prod_{i=1}^n \sum_{j=1}^n j_i
-        $}
-\end{equation}%
+% \subsection{Bucket-based results}
+\section{Conclusion}
+\label{sec:conc}
 
-This last solution may have to be adapted if you use different equation environments, but it can generally be made to work. Please notice that in any case:
+In this study, we claimed that a linear improvement in the density of labels in the model does produce a linear improvement in the performance of pre-trained language models in the context of low-resourced NER tasks. This claim was verified by training different models on low-resource African language NER corpora and at different levels of density labels. After a certain level of entity cap, each model's performance stagnates. This behaviour was consistent across all the language corpora used to train our models.
 
-\begin{itemize}
-    \item Equation numbers must be in the same font and size as the main text (10pt).
-    \item Your formula's main symbols should not be smaller than {\small small} text (9pt).
-\end{itemize}
-
-For instance, the formula
-%
-\begin{equation}
-    \resizebox{.91\linewidth}{!}{$
-            \displaystyle
-            x = \prod_{i=1}^n \sum_{j=1}^n j_i + \prod_{i=1}^n \sum_{j=1}^n i_j + \prod_{i=1}^n \sum_{j=1}^n j_i + \prod_{i=1}^n \sum_{j=1}^n i_j + \prod_{i=1}^n \sum_{j=1}^n j_i + \prod_{i=1}^n \sum_{j=1}^n i_j
-        $}
-\end{equation}
-%
-would not be acceptable because the text is too small.
-
-\section{Examples, Definitions, Theorems and Similar}
-
-Examples, definitions, theorems, corollaries and similar must be written in their own paragraph. The paragraph must be separated by at least 2pt and no more than 5pt from the preceding and succeeding paragraphs. They must begin with the kind of item written in 10pt bold font followed by their number (e.g.: Theorem 1), optionally followed by a title/summary between parentheses in non-bold font and ended with a period. After that the main body of the item follows, written in 10 pt italics font (see below for examples).
-
-In \LaTeX{} We strongly recommend you to define environments for your examples, definitions, propositions, lemmas, corollaries and similar. This can be done in your \LaTeX{} preamble using \texttt{\textbackslash{newtheorem}} -- see the source of this document for examples. Numbering for these items must be global, not per-section (e.g.: Theorem 1 instead of Theorem 6.1).
-
-\begin{example}[How to write an example]
-    Examples should be written using the example environment defined in this template.
-\end{example}
-
-\begin{theorem}
-    This is an example of an untitled theorem.
-\end{theorem}
-
-You may also include a title or description using these environments as shown in the following theorem.
-
-\begin{theorem}[A titled theorem]
-    This is an example of a titled theorem.
-\end{theorem}
-
-\section{Proofs}
-
-Proofs must be written in their own paragraph separated by at least 2pt and no more than 5pt from the preceding and succeeding paragraphs. Proof paragraphs should start with the keyword ``Proof." in 10pt italics font. After that the proof follows in regular 10pt font. At the end of the proof, an unfilled square symbol (qed) marks the end of the proof.
-
-In \LaTeX{} proofs should be typeset using the \texttt{\textbackslash{proof}} environment.
-
-\begin{proof}
-    This paragraph is an example of how a proof looks like using the \texttt{\textbackslash{proof}} environment.
-\end{proof}
-
-
-\section{Algorithms and Listings}
-
-Algorithms and listings are a special kind of figures. Like all illustrations, they should appear floated to the top (preferably) or bottom of the page. However, their caption should appear in the header, left-justified and enclosed between horizontal lines, as shown in Algorithm~\ref{alg:algorithm}. The algorithm body should be terminated with another horizontal line. It is up to the authors to decide whether to show line numbers or not, how to format comments, etc.
-
-In \LaTeX{} algorithms may be typeset using the {\tt algorithm} and {\tt algorithmic} packages, but you can also use one of the many other packages for the task.
-
-\begin{algorithm}[tb]
-    \caption{Example algorithm}
-    \label{alg:algorithm}
-    \textbf{Input}: Your algorithm's input\\
-    \textbf{Parameter}: Optional list of parameters\\
-    \textbf{Output}: Your algorithm's output
-    \begin{algorithmic}[1] %[1] enables line numbers
-        \STATE Let $t=0$.
-        \WHILE{condition}
-        \STATE Do some action.
-        \IF {conditional}
-        \STATE Perform task A.
-        \ELSE
-        \STATE Perform task B.
-        \ENDIF
-        \ENDWHILE
-        \STATE \textbf{return} solution
-    \end{algorithmic}
-\end{algorithm}
-
-\appendix
-
-\section{\LaTeX{} and Word Style Files}\label{stylefiles}
-
-The \LaTeX{} and Word style files are available on the IJCAI--22
-website, \url{https://ijcai-22.org/}.
-These style files implement the formatting instructions in this
-document.
-
-The \LaTeX{} files are {\tt ijcai22.sty} and {\tt ijcai22.tex}, and
-the Bib\TeX{} files are {\tt named.bst} and {\tt ijcai22.bib}. The
-\LaTeX{} style file is for version 2e of \LaTeX{}, and the Bib\TeX{}
-style file is for version 0.99c of Bib\TeX{} ({\em not} version
-0.98i). The {\tt ijcai22.sty} style differs from the {\tt
-        ijcai21.sty} file used for IJCAI--21.
-
-The Microsoft Word style file consists of a single file, {\tt
-        ijcai22.docx}. This template differs from the one used for
-IJCAI--21.
-
-These Microsoft Word and \LaTeX{} files contain the source of the
-present document and may serve as a formatting sample.
-
-Further information on using these styles for the preparation of
-papers for IJCAI--22 can be obtained by contacting {\tt
-        proceedings@ijcai.org}.
-
-\section*{Ethical Statement}
-
-There are no ethical issues.
-
-\section*{Acknowledgments}
-
-The preparation of these instructions and the \LaTeX{} and Bib\TeX{}
-files that implement them was supported by Schlumberger Palo Alto
-Research, AT\&T Bell Laboratories, and Morgan Kaufmann Publishers.
-Preparation of the Microsoft Word file was supported by IJCAI.  An
-early version of this document was created by Shirley Jowell and Peter
-F. Patel-Schneider.  It was subsequently modified by Jennifer
-Ballentine and Thomas Dean, Bernhard Nebel, Daniel Pagenstecher,
-Kurt Steinkraus, Toby Walsh and Carles Sierra. The current version
-has been prepared by Marc Pujol-Gonzalez and Francisco Cruz-Mencia.
+Our study proves that we do not forcefully need to build a highly dense NER corpus to produce good models performance. We hope by this work to encourage dataset creators for NLP tasks to privilege the curation of their corpus over the density of the label present in these corpora. Finally, a future improvement could be to use more models to see if this behaviour replicates and extend this type of analysis for other NLP tasks.
 
 
 %% The file named.bst is a bibliography style file for BibTeX 0.99c
