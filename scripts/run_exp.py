@@ -18,14 +18,6 @@ CONDA_HOME = os.getenv('CONDA_HOME')
 SLURM_LOG_DIR = os.getenv('SLURM_LOG_DIR')
 SLURM_DIR = os.getenv('SLURM_DIR')
 
-scripts = {
-    "en-conll-2003": "train_eval_ner",
-    "kin": "train_eval_ner",
-    "pcm": "train_eval_ner",
-    "swa": "train_eval_ner",
-}
-
-
 def main(
         model: str,
         experiment: str,
@@ -51,16 +43,24 @@ def main(
 
     # create arrays of arguments command for the sweep
     suffix = "_slurm" if use_slurm else ""
-    sweep = OmegaConf.load(f"{ROOT_DIR}/exps/{experiment}/{yaml_sweep_file}")
+    # sweep = OmegaConf.load(f"{ROOT_DIR}/exps/{experiment}/{yaml_sweep_file}")
+    sweep = OmegaConf.load(f"{ROOT_DIR}/exps/{yaml_sweep_file}")
     keys, values = zip(*sweep.items())
     arguments_list = [dict(zip(keys, v)) for v in itertools.product(*values)]
 
     # generate a command line run for each combination of hyperparameters obtained from the sweep yaml file
     commands = []
     for arguments_chunk in chunks(arguments_list, max_runs_per_scripts):
+        print(arguments_chunk, len(arguments_chunk))
+        c = arguments_chunk[0]
+        assert len(arguments_chunk) == 1
+        # ${data.method}_${data.param}_${data.language}_${model.conf.name}
+        experiment_name = f"{c['cfg.data.method']}_{c['cfg.data.param']}_{c['cfg.data.language']}_{c['cfg.model.conf']['name']}"
+        print(experiment_name)
+        experiment = experiment_name
         command = ""
         for arguments in arguments_chunk:
-            run = f"python {ROOT_DIR}/scripts/{scripts[experiment]}.py --config-path=../exps/{experiment} --config-name={model}{suffix} "
+            run = f"python {ROOT_DIR}/scripts/train_eval_ner.py --config-path=../exps --config-name=base{suffix} "
             for key, value in arguments.items():
                 run += f" {key}="
                 if isinstance(value, (list, ListConfig)):
@@ -104,16 +104,17 @@ cd {ROOT_DIR}
             f.write(get_bash_text(cmd))
 
         # Run it
-        if use_slurm:
-            ans = subprocess.call(f'sbatch {fpath}'.split(" "))
-        else:
-            ans = subprocess.call(f"""
-            source {CONDA_HOME}/etc/profile.d/conda.sh
-            conda activate {CONDA_ENV_NAME}
-            bash {fpath}
-            """, shell=True, executable='/bin/bash')
-        assert ans == 0
-        print(f"Successfully called {fpath}")
+        if 0:
+            if use_slurm:
+                ans = subprocess.call(f'sbatch {fpath}'.split(" "))
+            else:
+                ans = subprocess.call(f"""
+                source {CONDA_HOME}/etc/profile.d/conda.sh
+                conda activate {CONDA_ENV_NAME}
+                bash {fpath}
+                """, shell=True, executable='/bin/bash')
+            assert ans == 0
+            print(f"Successfully called {fpath}")
 
 
 if __name__ == "__main__":

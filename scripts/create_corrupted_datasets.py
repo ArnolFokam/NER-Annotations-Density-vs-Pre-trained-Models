@@ -13,20 +13,21 @@ number = [{'number': i} for i in range(1, 11)]
 
 ALL_FUNCS_PARAMS = {
     # global corruption
-    'global_cap_labels': (keep_percentage_of_labels, percentage),
-    'global_cap_sentences' : (keep_percentage_of_sentences, percentage),
-    'global_swap_labels': (swap_percentage_of_labels, percentage),
+    'global_cap_labels':        (keep_percentage_of_labels, percentage),
+    'global_cap_sentences' :    (keep_percentage_of_sentences, percentage),
+    'global_swap_labels':       (swap_percentage_of_labels, percentage),
     
     # local corruption
-    'local_cap_labels': (cap_number_of_labels, number),
-    'local_swap_labels': (swap_number_of_labels, number),
+    'local_cap_labels':         (cap_number_of_labels, number),
+    'local_swap_labels':        (swap_number_of_labels, number),
 }
 
 
 def main(
     root_dir: str,
     corruption_name,
-    languages: Optional[List[str]] = ["swa", "kin", "pcm", "en-conll-2003"],):
+    # languages: Optional[List[str]] = ["swa", "kin", "pcm", "en-conll-2003"],):
+    languages: Optional[List[str]] = ['amh','conll_2003_en','hau','ibo','kin','lug','luo','pcm','swa','wol','yor',],):
 
     func, corruption_params = ALL_FUNCS_PARAMS[corruption_name]
     for lang in languages:

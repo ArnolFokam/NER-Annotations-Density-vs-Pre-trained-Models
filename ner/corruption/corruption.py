@@ -31,6 +31,7 @@ def cap_number_of_labels(X: List[InputExample], number: int) -> List[InputExampl
     n_examples = []
     
     for ex in X:
+        ex = copy.deepcopy(ex)
         labels_pos = get_labels_position(ex.labels.copy())
         labels = ex.labels.copy()
         
@@ -47,6 +48,7 @@ def swap_number_of_labels(X: List[InputExample], number: int) -> List[InputExamp
     n_examples = []
     
     for ex in X:
+        ex = copy.deepcopy(ex)
         labels_pos = get_labels_position(ex.labels.copy())
         labels = ex.labels.copy()
         
@@ -91,6 +93,7 @@ def swap_percentage_of_labels(X: List[InputExample], percentage: float) -> List[
     
     all_possible_values = []
     for example_index, ex in enumerate(X):
+        ex = copy.deepcopy(ex)
         copies = ex.labels.copy()
         labels_pos = get_labels_position(copies)
         all_possible_values.extend(
@@ -116,9 +119,5 @@ def swap_percentage_of_labels(X: List[InputExample], percentage: float) -> List[
     return n_examples
 
 def keep_percentage_of_sentences(X: List[InputExample], percentage: float) -> List[InputExample]:
-    n_examples = []
-    all_possible_values = []
     ones_to_delete = set(np.random.choice(np.arange(len(X)), size=int(np.round((1 - percentage) * len(X))), replace=False))
     return [copy.deepcopy(ex) for i, ex in enumerate(X) if i not in ones_to_delete]
-    for example_index, ex in enumerate(X):
-        copies = ex.labels.copy()

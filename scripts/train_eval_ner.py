@@ -659,8 +659,8 @@ def train_eval_ner(cfg: DictConfig):
         cfg.experiment.do.train = False
 
         # copy data for evaluation on eval cap
-        copydir(f"{cfg.model.output_dir}",
-                f"{cfg.model.output_dir}/eval-cap-{cfg.data.eval_cap}")
+        # copydir(f"{cfg.model.output_dir}",
+        #         f"{cfg.model.output_dir}/eval-cap-{cfg.data.eval_cap}")
 
         start_training(cfg)
 
