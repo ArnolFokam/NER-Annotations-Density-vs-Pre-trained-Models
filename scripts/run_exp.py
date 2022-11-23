@@ -26,7 +26,7 @@ def main(
         include: Union[str, List[str]] = None,
         partition_name: str = 'stampede',
         max_runs_per_scripts: int = 1,
-        use_slurm: bool = True,
+        use_slurm: bool = False,
 ):
     """This creates a slurm file and runs it
         Args:
