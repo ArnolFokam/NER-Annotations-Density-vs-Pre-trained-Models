@@ -29,8 +29,8 @@ data:
 model:
   
   conf: []
-  type: model.conf[0] # typeof model to select
-  name_or_path: model.conf[1]
+  type: ${model.conf[0]} # typeof model to select
+  name_or_path: ${model.conf[1]}
   save_steps: 100 # Save checkpoint every X updates steps.
   input_dir:
   output_dir: results/${model.conf[2]}/${data.method}/${data.param}/${data.language}
