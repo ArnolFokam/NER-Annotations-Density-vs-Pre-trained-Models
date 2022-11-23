@@ -110,11 +110,8 @@ fourth@example.com
     \item This therefore induces the need to train them which can be cost ineffiecient.
     \item This induces the need quantify the impact that such errors has on our models
     \item To perfrom this we choose to design different corruption that reduces the quality of NER datasets
-    \item We choose NER due to the simplicity of designing corruption strategies. Also to due the availability of datasets
-    \item Indeed, for translation, it is unclear how the quality of data sets can be altered besides altering the target sentence.
-    \item How ever there are virtually infinite ways to build target sentences different from source sentences with varying lavel of similarity
-    \item However this makes it difficult to design an unbaised metric that quantify the level fo corruption in the data based its semantic property.
-    \item This is why we focus on NER.
+    \item mentoin NER
+    \item Massiv correlation between the quantity and the quality of the data
     \item Because we then look at corruption at a token len. Since NER is a token classification, annotators usually have to classify a span of words from a sentence into different catergories
     \item Therefore a situation where the annotors misclassifies a token is not far from happening.
     \item Therefore we look at the performance of the model and the certainty of its prediction
@@ -132,23 +129,42 @@ fourth@example.com
 \begin{itemize}
     \item Talk about dataset for low resource language
     \item Methods to construct them (acquisition, annotations, cleaninig)
-    \item Talk about these datasets from a point of view
+    \item Talk about these datasets from a point of view quantity  vs quality
     \item Talk about NER and different methods
 \end{itemize}
 
 \section{Approach}
 \label{sec:approach}
 (2 columns)
+\subsection{Data Corruption Strategies}
+
+\begin{itemize}
+\item Having two paragraphs where the first explains quantity based corruption
+\item Qualty based corruption als explainde (remove sentences)
+\end{itemize}
+
+\subsection{Uncertainty Prediction}
+Describe the metrics used to measure the encertainty of a prediction
+
+\begin{itemize}
+\item entropy of softmax
+\item don forget to mention the simplicity vibe
+\end{itemize}
 
 \section{Experimental Setup}
 \label{sec:experimental_setup}
 (1 column)
 
+\begin{itemize}
+    \item We choose NER due to the simplicity of designing corruption strategies. Also to due the availability of datasets
+    \item Indeed, for translation, it is unclear how the quality of data sets can be altered besides altering the target sentence.
+    \item How ever there are virtually infinite ways to build target sentences different from source sentences with varying lavel of similarity
+    \item However this makes it difficult to design an unbaised metric that quantify the level fo corruption in the data based its semantic property.
+    \item This is why we focus on NER.
+\end{itemize} 
 \subsection{NER Corpora}
 
 \subsection{Models}
-
-\subsection{Evaluation Metric}
 
 \section{Results and Discussions}
 \label{sec:experimental_results}
@@ -157,6 +173,12 @@ fourth@example.com
 \section{Conclusion}
 \label{sec:conclusion}
 (0.5 column)
+
+\section{Ablations}
+
+\begin{itemize}
+    \item lowercase factors seems to affects to these models. Would be nice
+\end{itemize} 
 
 %% The file named.bst is a bibliography style file for BibTeX 0.99c
 \bibliographystyle{named}
