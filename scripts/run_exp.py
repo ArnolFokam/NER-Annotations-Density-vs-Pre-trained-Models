@@ -106,7 +106,7 @@ cd {ROOT_DIR}
             f.write(get_bash_text(cmd, experiment))
 
         # Run it
-        if 1:
+        if 0:
             if use_slurm:
                 ans = subprocess.call(f'sbatch {fpath}'.split(" "))
             else:
