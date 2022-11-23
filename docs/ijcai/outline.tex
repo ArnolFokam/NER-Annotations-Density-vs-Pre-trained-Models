@@ -1,0 +1,166 @@
+%%%% ijcai22.tex
+
+\typeout{IJCAI--22 Instructions for Authors}
+
+% These are the instructions for authors for IJCAI-22.
+
+\documentclass{article}
+\pdfpagewidth=8.5in
+\pdfpageheight=11in
+% The file ijcai22.sty is NOT the same as previous years'
+\usepackage{ijcai22}
+
+% Use the postscript times font!
+\usepackage{times}
+\usepackage{soul}
+\usepackage{url}
+\usepackage[hidelinks]{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage[small]{caption}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{booktabs}
+% \usepackage{algorithm}
+\usepackage{algorithmic}
+\urlstyle{same}
+
+% the following package is optional:
+\usepackage{latexsym}
+
+% See https://www.overleaf.com/learn/latex/theorems_and_proofs
+% for a nice explanation of how to define new theorems, but keep
+% in mind that the amsthm package is already included in this
+% template and that you must *not* alter the styling.
+\newtheorem{example}{Example}
+\newtheorem{theorem}{Theorem}
+
+% Following comment is from ijcai97-submit.tex:
+% The preparation of these files was supported by Schlumberger Palo Alto
+% Research, AT\&T Bell Laboratories, and Morgan Kaufmann Publishers.
+% Shirley Jowell, of Morgan Kaufmann Publishers, and Peter F.
+% Patel-Schneider, of AT\&T Bell Laboratories collaborated on their
+% preparation.
+
+% These instructions can be modified and used in other conferences as long
+% as credit to the authors and supporting agencies is retained, this notice
+% is not changed, and further modification or reuse is not restricted.
+% Neither Shirley Jowell nor Peter F. Patel-Schneider can be listed as
+% contacts for providing assistance without their prior permission.
+
+% To use for other conferences, change references to files and the
+% conference appropriate and use other authors, contacts, publishers, and
+% organizations.
+% Also change the deadline and address for returning papers and the length and
+% page charge instructions.
+% Put where the files are available in the appropriate places.
+
+% PDF Info Is REQUIRED.
+% Please **do not** include Title and Author information
+\pdfinfo{
+/TemplateVersion (IJCAI.2022.0)
+}
+
+\title{Data Corruption Impact on Named Entity Recognition for Low Resourced Languages}
+
+% Single author syntax
+
+\author{
+    Anonymous
+    \affiliations
+    Anonymous
+    \emails
+    anonymous
+}
+
+% Multiple author syntax (remove the single-author syntax above and the \iffalse ... \fi here)
+\iffalse
+\author{
+First Author$^1$
+\and
+Second Author$^2$\and
+Third Author$^{2,3}$\And
+Fourth Author$^4$
+\affiliations
+$^1$First Affiliation\\
+$^2$Second Affiliation\\
+$^3$Third Affiliation\\
+$^4$Fourth Affiliation
+\emails
+\{first, second\}@example.com,
+third@other.example.com,
+fourth@example.com
+}
+\fi
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+\end{abstract}
+
+\section{Introduction}
+\label{sec:introduction}
+(1 column)
+\begin{itemize}
+    \item Data acquisition in low resource languages is not th best
+    \item Therefore we may get errors on the data
+    \item These languages are some times not collected by experienced speakers as experienced speakers will tend bo either verbal and based in rural areas.
+    \item This therefore induces the need to train them which can be cost ineffiecient.
+    \item This induces the need quantify the impact that such errors has on our models
+    \item To perfrom this we choose to design different corruption that reduces the quality of NER datasets
+    \item We choose NER due to the simplicity of designing corruption strategies. Also to due the availability of datasets
+    \item Indeed, for translation, it is unclear how the quality of data sets can be altered besides altering the target sentence.
+    \item How ever there are virtually infinite ways to build target sentences different from source sentences with varying lavel of similarity
+    \item However this makes it difficult to design an unbaised metric that quantify the level fo corruption in the data based its semantic property.
+    \item This is why we focus on NER.
+    \item Because we then look at corruption at a token len. Since NER is a token classification, annotators usually have to classify a span of words from a sentence into different catergories
+    \item Therefore a situation where the annotors misclassifies a token is not far from happening.
+    \item Therefore we look at the performance of the model and the certainty of its prediction
+    \item Explain why look at these two metrics
+    \item Then talk about about the contributions of the paper
+    \item Breifly give the results obtained
+    \item Finally, talk about the outline of the paper
+\end{itemize}
+
+
+
+\section{Background}
+\label{sec:background}
+(1 column)
+\begin{itemize}
+    \item Talk about dataset for low resource language
+    \item Methods to construct them (acquisition, annotations, cleaninig)
+    \item Talk about these datasets from a point of view
+    \item Talk about NER and different methods
+\end{itemize}
+
+\section{Approach}
+\label{sec:approach}
+(2 columns)
+
+\section{Experimental Setup}
+\label{sec:experimental_setup}
+(1 column)
+
+\subsection{NER Corpora}
+
+\subsection{Models}
+
+\subsection{Evaluation Metric}
+
+\section{Results and Discussions}
+\label{sec:experimental_results}
+(2 columns)
+
+\section{Conclusion}
+\label{sec:conclusion}
+(0.5 column)
+
+%% The file named.bst is a bibliography style file for BibTeX 0.99c
+\bibliographystyle{named}
+\bibliography{ijcai22}
+
+\end{document}
+
