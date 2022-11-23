@@ -5,7 +5,7 @@ hydra:
 experiment:
   name: NER
   group: ${data.language}-${model.type}
-  run_name: ${data.method}_${data.param}_${data.language}_${model.conf.name}
+  run_name: ${data.method}_${data.param}_${data.language}_${model.conf[2]}
   do:
       train: true
       finetune: false
@@ -28,15 +28,12 @@ data:
 
 model:
   
-  conf: 
-    type: test
-    path: test
-    name: test
-  type: model.conf.type # typeof model to select
-  name_or_path: model.conf.path
+  conf: []
+  type: model.conf[0] # typeof model to select
+  name_or_path: model.conf[1]
   save_steps: 100 # Save checkpoint every X updates steps.
   input_dir:
-  output_dir: results/${model.conf.name}/${data.method}/${data.param}/${data.language}
+  output_dir: results/${model.conf[2]}/${data.method}/${data.param}/${data.language}
   overwrite_output_dir: true
   do_lower_case: true # Set this flag if you are using an uncased model.
   cache_dir: # "Where do you want to store the pre-trained models downloaded from s3"

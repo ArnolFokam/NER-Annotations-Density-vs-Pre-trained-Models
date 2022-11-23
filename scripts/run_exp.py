@@ -55,7 +55,8 @@ def main(
         c = arguments_chunk[0]
         assert len(arguments_chunk) == 1
         # ${data.method}_${data.param}_${data.language}_${model.conf.name}
-        experiment_name = f"{c['cfg.data.method']}_{c['cfg.data.param']}_{c['cfg.data.language']}_{c['cfg.model.conf']['name']}"
+        # experiment_name = f"{c['cfg.data.method']}_{c['cfg.data.param']}_{c['cfg.data.language']}_{c['cfg.model.conf'][2]}_{c['device.seed']}"
+        experiment_name = f"{c['data.method']}_{c['data.param']}_{c['data.language']}_{c['model.conf'][2]}_{c['device.seed']}"
         print(experiment_name)
         experiment = experiment_name
         command = ""
@@ -76,10 +77,10 @@ def main(
                 else:
                     run += f"{value}"
             command += f"\n{run}"
-        commands.append(command)
+        commands.append((experiment, command))
 
     # Create Slurm File
-    def get_bash_text(bsh_cmd):
+    def get_bash_text(bsh_cmd, experiment):
         return f'''#!/bin/bash
 #SBATCH -p {partition_name}
 #SBATCH -N 1
@@ -95,16 +96,17 @@ cd {ROOT_DIR}
 {"conda deactivate" if  use_slurm else ""}
 '''
 
-    directory = get_dir(f"{ROOT_DIR}/{SLURM_DIR}", experiment)
+    directory = get_dir(f"{ROOT_DIR}/{SLURM_DIR}", 'all')
 
-    for cmd in commands:
+    for experiment, cmd in commands:
         idx = generate_random_string()
-        fpath = os.path.join(directory, f'{model}_{idx}{suffix}.bash')
+        idx = ''
+        fpath = os.path.join(directory, f'{model}_{experiment}_{idx}{suffix}.bash')
         with open(fpath, 'w+') as f:
-            f.write(get_bash_text(cmd))
+            f.write(get_bash_text(cmd, experiment))
 
         # Run it
-        if 0:
+        if 1:
             if use_slurm:
                 ans = subprocess.call(f'sbatch {fpath}'.split(" "))
             else:

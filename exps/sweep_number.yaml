@@ -1,4 +1,4 @@
-cfg.data.param:
+data.param:
   - 1
   - 2
   - 3
@@ -10,10 +10,10 @@ cfg.data.param:
   - 9
   - 10
 
-cfg.data.method:
+data.method:
   - local_cap_labels
   - local_swap_labels
-cfg.data.language:
+data.language:
   - amh
   - conll_2003_en
   - hau
@@ -26,20 +26,11 @@ cfg.data.language:
   - wol
   - yor
 
-cfg.model.conf:
-  - type: bert
-    path: castorini/afriberta_large
-    name: afriberta
-  - type: bert
-    path: Davlan/afro-xlmr-base 
-    name: afro_xlmr
-  - type: bert
-    path: bert-base-multilingual-uncased 
-    name: mbert
-  - type: bert
-    path: xlm-roberta-base
-    name: xlmr
-
+model.conf:
+  - [bert,castorini/afriberta_large,afriberta]
+  - [bert,Davlan/afro-xlmr-base,afro_xlmr]
+  - [bert,bert-base-multilingual-uncased,mbert]
+  - [bert,xlm-roberta-base,xlmr]
   
 device.seed:
   - 42
@@ -47,8 +38,3 @@ device.seed:
   - 12
   - 89
   - 20
-  - 56
-  - 5623
-  - 84463545
-  - 544
-  - 445
