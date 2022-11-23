@@ -490,6 +490,7 @@ def start_training(cfg: DictConfig, wandb_logger):
         label2id={label: i for i, label in enumerate(labels)},
         cache_dir=cfg.model.cache_dir if cfg.model.cache_dir else None,
     )
+    print(tokenizer_class, cfg.model.tokenizer_name if cfg.model.tokenizer_name else cfg.model.name_or_path)
     tokenizer = tokenizer_class.from_pretrained(
         cfg.model.tokenizer_name if cfg.model.tokenizer_name else cfg.model.name_or_path,
         # do_lower_case=cfg.model.do_lower_case,
