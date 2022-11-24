@@ -20,10 +20,8 @@ SLURM_DIR = os.getenv('SLURM_DIR')
 
 def main(
         model: str,
-        experiment: str,
         yaml_sweep_file: str,
         exclude: Union[str, List[str]] = None,
-        include: Union[str, List[str]] = None,
         partition_name: str = 'batch',
         max_runs_per_scripts: int = 1,
         use_slurm: bool = False,
@@ -41,7 +39,7 @@ def main(
             use_slurm (bool): is this script submitted to slurm. If yes? add '_slurm' ssuffix to prevent commit and
                               call 'sbatch' else call 'bash'
         """
-
+    experiment = ""
     # create arrays of arguments command for the sweep
     suffix = "_slurm" if use_slurm else ""
     # sweep = OmegaConf.load(f"{ROOT_DIR}/exps/{experiment}/{yaml_sweep_file}")
@@ -80,6 +78,7 @@ def main(
             command += f"\n{run}"
         commands.append((experiment, command))
 
+    #{f"#SBATCH -w {include if isinstance(include, str) else ','.join(include)}" if isinstance(include, (str, list, tuple)) else ""}
     # Create Slurm File
     def get_bash_text(bsh_cmd, experiment):
         return f'''#!/bin/bash
@@ -87,7 +86,6 @@ def main(
 #SBATCH -N 1
 #SBATCH -t 72:00:00
 {f"#SBATCH -x {exclude if isinstance(exclude, str) else ','.join(exclude)}" if isinstance(exclude, (str, list, tuple)) else ""} 
-{f"#SBATCH -w {include if isinstance(include, str) else ','.join(include)}" if isinstance(include, (str, list, tuple)) else ""}
 #SBATCH -J {experiment}_{model}
 #SBATCH -o {get_dir(f"{ROOT_DIR}/{SLURM_LOG_DIR}", experiment, "outputs_slurm")}/{model}.%N.%j.out
 #SBATCH -e {get_dir(f"{ROOT_DIR}/{SLURM_LOG_DIR}", experiment, "errors_slurm")}/{model}.%N.%j.err
