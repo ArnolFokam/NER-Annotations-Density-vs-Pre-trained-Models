@@ -107,17 +107,16 @@ export PYTHONPATH=$PYTHONPATH:`pwd`
             f.write(get_bash_text(cmd, experiment))
 
         # Run it
-        if 0:
-            if use_slurm:
-                ans = subprocess.call(f'sbatch {fpath}'.split(" "))
-            else:
-                ans = subprocess.call(f"""
-                source {CONDA_HOME}/etc/profile.d/conda.sh
-                conda activate {CONDA_ENV_NAME}
-                bash {fpath}
-                """, shell=True, executable='/bin/bash')
-            assert ans == 0
-            print(f"Successfully called {fpath}")
+        if use_slurm:
+            ans = subprocess.call(f'sbatch {fpath}'.split(" "))
+        else:
+            ans = subprocess.call(f"""
+            source {CONDA_HOME}/etc/profile.d/conda.sh
+            conda activate {CONDA_ENV_NAME}
+            bash {fpath}
+            """, shell=True, executable='/bin/bash')
+        assert ans == 0
+        print(f"Successfully called {fpath}")
 
 
 if __name__ == "__main__":
