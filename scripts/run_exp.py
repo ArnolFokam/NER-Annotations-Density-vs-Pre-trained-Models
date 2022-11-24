@@ -24,7 +24,7 @@ def main(
         yaml_sweep_file: str,
         exclude: Union[str, List[str]] = None,
         include: Union[str, List[str]] = None,
-        partition_name: str = 'stampede',
+        partition_name: str = 'batch',
         max_runs_per_scripts: int = 1,
         use_slurm: bool = False,
 ):
@@ -61,7 +61,7 @@ def main(
         experiment = experiment_name
         command = ""
         for arguments in arguments_chunk:
-            run = f"python {ROOT_DIR}/scripts/train_eval_ner.py --config-path=../exps --config-name=base{suffix} "
+            run = f"python {ROOT_DIR}/scripts/train_eval_ner.py --config-path=../exps --config-name=base"
             for key, value in arguments.items():
                 run += f" {key}="
                 if isinstance(value, (list, ListConfig)):
@@ -92,6 +92,7 @@ def main(
 #SBATCH -e {get_dir(f"{ROOT_DIR}/{SLURM_LOG_DIR}", experiment, "errors_slurm")}/{model}.%N.%j.err
 {f"source ~/.bashrc && conda activate {CONDA_ENV_NAME}" if  use_slurm else ""}
 cd {ROOT_DIR}
+export PYTHONPATH=$PYTHONPATH:`pwd`
 {bsh_cmd}
 {"conda deactivate" if  use_slurm else ""}
 '''

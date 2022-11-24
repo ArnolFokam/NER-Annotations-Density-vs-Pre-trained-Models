@@ -45,8 +45,9 @@ logger = logging.getLogger("Afri_NER_Log")
 logging.basicConfig(level=logging.INFO)
 
 MODEL_CLASSES = {
-    "bert": (BertConfig, BertForTokenClassification, BertTokenizer),
-    "roberta": (RobertaConfig, RobertaForTokenClassification, RobertaTokenizer),
+    "bert": (AutoConfig, AutoModelForTokenClassification, AutoTokenizer),
+    # "bert": (BertConfig, BertForTokenClassification, BertTokenizer),
+    # "roberta": (RobertaConfig, RobertaForTokenClassification, RobertaTokenizer),
 }
 
 
