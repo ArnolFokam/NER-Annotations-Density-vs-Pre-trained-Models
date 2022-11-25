@@ -666,7 +666,7 @@ def train_eval_ner(cfg: DictConfig):
         # copydir(f"{cfg.model.output_dir}",
         #         f"{cfg.model.output_dir}/eval-cap-{cfg.data.eval_cap}")
 
-        start_training(cfg)
+        start_training(cfg, wandb_logger)
 
 
 if __name__ == "__main__":

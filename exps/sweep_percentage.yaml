@@ -30,7 +30,7 @@ data.method:
 model.conf:
   - [bert,castorini/afriberta_large,afriberta]
   - [bert,Davlan/afro-xlmr-base,afro_xlmr]
-  - [bert,bert-base-multilingual-uncased,mbert]
+  - [bert,bert-base-multilingual-cased,mbert]
   - [bert,xlm-roberta-base,xlmr]
 
 

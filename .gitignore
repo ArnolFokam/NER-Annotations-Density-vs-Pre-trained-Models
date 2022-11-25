@@ -520,6 +520,13 @@ cap-*/
 /slurms
 lightning_logs
 # results/*
+
+*results*/**/*.bin
+*results*/**/*.pth
+*results*/**/*.model
+*results*/**/*.json
+*results*/**/*.pt
+
 results/**/*.bin
 results/**/*.pth
 results/**/*.model
