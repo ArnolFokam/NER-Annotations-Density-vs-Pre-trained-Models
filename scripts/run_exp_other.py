@@ -19,7 +19,6 @@ SLURM_LOG_DIR = os.getenv('SLURM_LOG_DIR')
 SLURM_DIR = os.getenv('SLURM_DIR')
 
 def main(
-        model: str,
         yaml_sweep_file: str,
         exclude: Union[str, List[str]] = None,
         partition_name: str = 'batch',
@@ -30,10 +29,8 @@ def main(
     """This creates a slurm file and runs it
         Args:
             partition_name (str): Partition to run the code on
-            model (str): model to run
             experiment (str): experiment to run
             exclude (str): nodes to exclude
-            include (str): nodes to include
             yaml_sweep_file (str): file path containing the parameter to sweep through
             max_runs_per_scripts (int): maximum number of python call torun an experiment bet bash file ran
             use_slurm (bool): is this script submitted to slurm. If yes? add '_slurm' ssuffix to prevent commit and
@@ -86,9 +83,9 @@ def main(
 #SBATCH -N 1
 #SBATCH -t 72:00:00
 {f"#SBATCH -x {exclude if isinstance(exclude, str) else ','.join(exclude)}" if isinstance(exclude, (str, list, tuple)) else ""} 
-#SBATCH -J {experiment}_{model}
-#SBATCH -o {get_dir(f"{ROOT_DIR}/{SLURM_LOG_DIR}", experiment, "outputs_slurm")}/{model}.%N.%j.out
-#SBATCH -e {get_dir(f"{ROOT_DIR}/{SLURM_LOG_DIR}", experiment, "errors_slurm")}/{model}.%N.%j.err
+#SBATCH -J {experiment}
+#SBATCH -o {get_dir(f"{ROOT_DIR}/{SLURM_LOG_DIR}", experiment, "outputs_slurm")}/{experiment}.%N.%j.out
+#SBATCH -e {get_dir(f"{ROOT_DIR}/{SLURM_LOG_DIR}", experiment, "errors_slurm")}/{experiment}.%N.%j.err
 {f"source ~/.bashrc && conda activate {CONDA_ENV_NAME}" if  use_slurm else ""}
 cd {ROOT_DIR}
 export PYTHONPATH=$PYTHONPATH:`pwd`
@@ -101,7 +98,7 @@ export PYTHONPATH=$PYTHONPATH:`pwd`
     for experiment, cmd in commands:
         idx = generate_random_string()
         idx = ''
-        fpath = os.path.join(directory, f'{model}_{experiment}_{idx}{suffix}.bash')
+        fpath = os.path.join(directory, f'{experiment}_{idx}{suffix}.bash')
         with open(fpath, 'w+') as f:
             f.write(get_bash_text(cmd, experiment))
 
