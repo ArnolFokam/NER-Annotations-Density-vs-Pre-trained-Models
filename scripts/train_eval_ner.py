@@ -436,7 +436,8 @@ def start_training(cfg: DictConfig, wandb_logger):
                 cfg.model.output_dir
             )
         )
-
+    assert cfg.experiment.do.predict and cfg.device.local_rank in [-1, 0]
+    print("MIKE", cfg.experiment.do.predict, cfg.device.local_rank in [-1, 0])
     # Setup distant debugging if needed
     if cfg.device.server_ip and cfg.device.server_port:
         # Distant debugging - see https://code.visualstudio.com/docs/python/debugging#_attach-to-a-local-script
@@ -593,7 +594,7 @@ def start_training(cfg: DictConfig, wandb_logger):
                 wandb_logger.log({f"dev-{key}": float(results[key])})
         torch.cuda.empty_cache()
 
-    if cfg.experiment.do.predict and cfg.device.local_rank in [-1, 0]:
+    if True or (cfg.experiment.do.predict and cfg.device.local_rank in [-1, 0]):
         tokenizer = tokenizer_class.from_pretrained(
             cfg.model.output_dir, do_lower_case=cfg.model.do_lower_case)
         model = model_class.from_pretrained(cfg.model.output_dir)
@@ -606,11 +607,12 @@ def start_training(cfg: DictConfig, wandb_logger):
         with open(output_test_results_file, "w") as writer:
             for key in sorted(result.keys()):
                 writer.write("{} = {}\n".format(key, str(result[key])))
-                wandb_logger.log({f"test-{key}": float(results[key])})
+                wandb_logger.log({f"test-{key}": float(result[key])})
         # Save predictions
+        print("Saving predictions")
         output_test_predictions_file = os.path.join(
             cfg.model.output_dir, "test_predictions.txt")
-        with open(output_test_predictions_file, "w") as writer:
+        with open(output_test_predictions_file, "w+") as writer:
             with open(os.path.join(cfg.data.path, "test.txt"), "r") as f:
                 example_id = 0
                 for line in f:

@@ -5,7 +5,7 @@ import logging
 import fire
 from ner.corruption.corruption import keep_percentage_of_labels, keep_percentage_of_sentences, swap_percentage_of_labels, cap_number_of_labels, swap_number_of_labels, write_modified_examples_general
 from ner.dataset import read_examples_from_file
-
+import os
 log = logging.getLogger(__name__)
 
 percentage = [{'percentage': i / 10} for i in range(1, 11)]
@@ -37,11 +37,12 @@ def main(
             
             li = list(param.values())
             assert len(li) == 1
-            examples = read_examples_from_file(f'{root_dir}/original/{lang}', 'train')
+            examples = read_examples_from_file(f'{root_dir}/original/1/{lang}', 'train')
             new_filename = f'{root_dir}/{corruption_name}/{li[0]}/{lang}/'
+            os.makedirs(new_filename, exist_ok=True)
             write_modified_examples_general('train', examples, new_filename, func, func_kwargs=param)
-            copyfile(f'{root_dir}/original/{lang}/dev.txt', f'{new_filename}/dev.txt')
-            copyfile(f'{root_dir}/original/{lang}/test.txt', f'{new_filename}/test.txt')
+            copyfile(f'{root_dir}/original/1/{lang}/dev.txt', f'{new_filename}/dev.txt')
+            copyfile(f'{root_dir}/original/1/{lang}/test.txt', f'{new_filename}/test.txt')
 
 
 if __name__ == "__main__":
