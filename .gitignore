@@ -519,7 +519,13 @@ cap-*/
 /.vscode
 /slurms
 lightning_logs
-results/*
+# results/*
+results/**/*.bin
+results/**/*.pth
+results/**/*.model
+results/**/*.json
+results/**/*.pt
+data/**/*cached*
 !/results/README.md
 *.log
 /logs/*

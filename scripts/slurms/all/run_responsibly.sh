@@ -17,6 +17,7 @@ for i in `cat all_exps`; do
             echo "Ran $i"
         else
             echo "$NUM_JOBS bigger $N. Will not run $i"
+            break
         fi
 
     fi
