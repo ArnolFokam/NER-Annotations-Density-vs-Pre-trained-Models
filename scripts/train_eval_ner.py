@@ -583,6 +583,7 @@ def start_training(cfg: DictConfig, wandb_logger):
             model.to(device)
             result, _ = evaluate(cfg, model, tokenizer, labels, pad_token_label_id,
                                  mode="dev", device=device, prefix=global_step, wandb_logger=wandb_logger)
+            old_result = copy.deepcopy(result)
             if global_step:
                 result = {"{}_{}".format(global_step, k): v for k, v in result.items()}
             results.update(result)
@@ -591,7 +592,9 @@ def start_training(cfg: DictConfig, wandb_logger):
         with open(output_eval_file, "w") as writer:
             for key in sorted(results.keys()):
                 writer.write("{} = {}\n".format(key, str(results[key])))
-                wandb_logger.log({f"dev-{key}": float(results[key])})
+                # wandb_logger.log({f"dev-{key}": float(results[key])})
+        for key, val in old_result.items():
+            wandb_logger.log({f"dev-{key}": float(val)})
         torch.cuda.empty_cache()
 
     if True or (cfg.experiment.do.predict and cfg.device.local_rank in [-1, 0]):
