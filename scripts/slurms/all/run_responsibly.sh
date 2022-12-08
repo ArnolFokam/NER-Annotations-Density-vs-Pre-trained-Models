@@ -5,7 +5,7 @@ for i in `cat all_exps`; do
     # continue
     USER=`whoami`
     NUM_JOBS=`squeue | grep $USER | wc -l`
-    N=10
+    N=8
     if grep -q $i datastore2; then
         echo "Found $i in datastore. Not Running"
     else
