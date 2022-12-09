@@ -40,8 +40,9 @@ def main():
         'seed':     [],
         'f1':       [],
     }
+    SHOULD_READ = True
     for mode in MODES:
-        break
+        if not SHOULD_READ: break
         for model in MODELS:
             ROOT = f'results/{model}/{mode}'
             ranges = range(1, 11)
@@ -72,7 +73,7 @@ def main():
                         all_dics['model'].append(model)
                         all_dics['seed'].append(seed)
                         all_dics['f1'].append(f1)
-    if 0:
+    if SHOULD_READ:
         df = pd.DataFrame(all_dics)
         df = df.groupby(['mode', 'num', 'lang', 'model'], as_index=False).mean()
         df.to_csv("analysis/main_results.csv")
@@ -117,8 +118,18 @@ def main():
         # elif mode.startswith('local'):
             # plt.plot(x, np.arange(0, 11)/10)
         else:
-            plt.plot(x, np.arange(1, 11)/10)
+            plt.plot(x, np.arange(1, 11)/10, label='Linear Relationship')
         plt.xlabel("Level of Quality")
+        if mode == 'global_cap_sentences':
+            plt.xlabel("Fraction of Sentences Kept")
+        if mode == 'global_cap_labels':
+            plt.xlabel("Fraction of Labels Kept")
+        if mode == 'global_swapped_labels':
+            plt.xlabel("Fraction of Labels Swapped")
+        if mode == 'local_cap_labels':
+            plt.xlabel("Maximum number of labels kept per sentence")
+        if mode == 'local_swap_labels':
+            plt.xlabel("Maximum number of labels swapped per sentence")
         plt.ylabel("Fraction of Optimal")
         
         savefig(f'analysis/plots/corruption/{mode}.png')
@@ -152,6 +163,7 @@ def plot_dataset_stats():
     df = pd.DataFrame(df)
     df = df.T
     df['Total'] = df['LOC'] + df['ORG'] + df['DATE'].fillna(0) + df['PER']
+    df = df.fillna(0).astype(np.int32)
     print(df)
     df.to_latex("analysis/number_entities.tex")
 
@@ -188,5 +200,5 @@ def plot_entity_frequency():
     plt.show()
 if __name__ == '__main__':
     # main()
-    # plot_dataset_stats()
-    plot_entity_frequency()
+    plot_dataset_stats()
+    # plot_entity_frequency()
