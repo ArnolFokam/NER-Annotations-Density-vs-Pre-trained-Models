@@ -130,7 +130,8 @@ def main():
             plt.xlabel("Maximum number of labels kept per sentence")
         if mode == 'local_swap_labels':
             plt.xlabel("Maximum number of labels swapped per sentence")
-        plt.ylabel("Fraction of Optimal")
+        
+        plt.ylabel("Fraction of F1 when using original dataset")
         
         savefig(f'analysis/plots/corruption/{mode}.png')
         plt.close()
@@ -199,6 +200,6 @@ def plot_entity_frequency():
     # plt.plot(L['Nums'], L['swa'])
     plt.show()
 if __name__ == '__main__':
-    # main()
-    plot_dataset_stats()
+    main()
+    # plot_dataset_stats()
     # plot_entity_frequency()
