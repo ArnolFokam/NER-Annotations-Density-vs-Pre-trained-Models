@@ -1,0 +1,31 @@
+data.param:
+  - 0.01
+  - 0.05
+
+data.language:
+  - amh
+  - conll_2003_en
+  - hau
+  - ibo
+  - kin
+  - lug
+  - luo
+  - pcm
+  - swa
+  - wol
+  - yor
+
+data.method:
+  - global_cap_sentences
+
+model.conf:
+  - [bert,castorini/afriberta_large,afriberta]
+  - [bert,Davlan/afro-xlmr-base,afro_xlmr]
+  - [bert,bert-base-multilingual-cased,mbert]
+  - [bert,xlm-roberta-base,xlmr]
+
+
+device.seed:
+  - 1
+  - 2
+  - 3
