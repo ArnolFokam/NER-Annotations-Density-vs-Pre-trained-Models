@@ -2,7 +2,7 @@ Empaka O
 zaakubeera O
 mu O
 kibuga O
-Liverpool B-LOC
+Liverpool O
 e O
 Bungereza O
 , O
@@ -25,18 +25,18 @@ mpaka O
 ezokunsulamu O
 eziribeera O
 mu O
-South O
-Afrika O
+South B-LOC
+Afrika I-LOC
 , O
 Dhamuzungu O
 bwe O
 yannyonnyodde O
 . O
 
-City O
-Oilers O
+City B-ORG
+Oilers I-ORG
 ne O
-Falcon O
+Falcon B-ORG
 be O
 bakyasinze O
 okuwangula O
@@ -73,8 +73,8 @@ masomero O
 , O
 Naluwooza B-PER
 yakubye O
-Fadilah B-PER
-Shamika I-PER
+Fadilah O
+Shamika O
 mu O
 bemyaka B-DATE
 15 I-DATE
@@ -85,13 +85,13 @@ sso O
 nga O
 mu O
 balenzi O
-abemyaka B-DATE
-19 I-DATE
+abemyaka O
+19 O
 , O
-Muzafar O
-Lubega O
-Kakungulu B-ORG
-Memorial I-ORG
+Muzafar B-PER
+Lubega I-PER
+Kakungulu O
+Memorial O
 yakubye O
 Augustus B-PER
 Owiny I-PER
@@ -100,23 +100,23 @@ Kibuli B-ORG
 SSS I-ORG
 , O
 ate O
-Samuel B-PER
-Wasswa I-PER
+Samuel O
+Wasswa O
 owa O
-Kibuli O
+Kibuli B-ORG
 nawangula O
 Paul B-PER
 Makande I-PER
 owa O
-Kakungulu B-ORG
+Kakungulu O
 , O
 mu O
-bemyaka B-DATE
-15 I-DATE
+bemyaka O
+15 O
 . O
 
-Sizoni B-DATE
-ewedde I-DATE
+Sizoni O
+ewedde O
 baamalira O
 mu O
 kyamwenda O
@@ -152,13 +152,13 @@ muzannyo O
 guno O
 , O
 ekya O
-Uganda O
-Weightlifting O
-Federation O
-UWF O
+Uganda B-ORG
+Weightlifting I-ORG
+Federation I-ORG
+UWF I-ORG
 , O
-Salim B-PER
-Musoke I-PER
+Salim O
+Musoke O
 , O
 ye O
 yakwasizza O
@@ -170,11 +170,11 @@ Lugogo B-LOC
 nabakuutira O
 obutabulira O
 mu O
-Amerika O
+Amerika B-LOC
 . O
 
-Sizoni O
-ewedde O
+Sizoni B-DATE
+ewedde I-DATE
 yaleeta O
 Brian O
 Sivachi O
@@ -182,24 +182,24 @@ okuva O
 mu O
 Nkumba O
 , O
-Geoffrey B-PER
-Soro I-PER
+Geoffrey O
+Soro O
 KIU O
 , O
-Mike B-PER
-Madol I-PER
+Mike O
+Madol O
 UCU B-ORG
 Canons I-ORG
 , O
-Amin O
-Mkhosa O
-Savio O
+Amin B-PER
+Mkhosa I-PER
+Savio B-ORG
 , O
-Tanzania B-LOC
+Tanzania O
 , O
-Philip B-PER
-Ameny I-PER
-Warriors B-ORG
+Philip O
+Ameny O
+Warriors O
 , O
 Stephen O
 Wundi O
@@ -218,12 +218,12 @@ liigi O
 negaana O
 . O
 
-Leero B-DATE
-ku I-DATE
-Lwokuna I-DATE
-nga I-DATE
-February I-DATE
-28 I-DATE
+Leero O
+ku O
+Lwokuna O
+nga O
+February O
+28 O
 , O
 oluzannya O
 olwokubiri O
@@ -231,12 +231,12 @@ lwe O
 luggyibwako O
 akawuuwo O
 e O
-Mengo O
+Mengo B-LOC
 mu O
-Kisenyi O
+Kisenyi B-LOC
 . O
 
-Babu O
+Babu B-PER
 yawangudde O
 omudaali O
 gwa O
@@ -295,8 +295,8 @@ akiikirira O
 abayizi O
 abasajja O
 , O
-Gladys O
-Nakazzi O
+Gladys B-PER
+Nakazzi I-PER
 byampisa O
 ne O
 Lillian B-PER
@@ -323,7 +323,7 @@ nti O
 si O
 kya O
 bwenkanya O
-FUFA O
+FUFA B-ORG
 okutwala O
 obuwumbi O
 10 O
@@ -356,10 +356,10 @@ lyonna O
 zaakubeerayo O
 wakati O
 wa O
-May O
-4 O
-ne O
-11 O
+May B-DATE
+4 I-DATE
+ne I-DATE
+11 I-DATE
 , O
 ku O
 Mbale B-LOC
@@ -368,7 +368,7 @@ SS I-LOC
 
 Nsubuga O
 yeebazizza O
-Gabunga B-PER
+Gabunga O
 olwokumulinnyisa O
 amadaala O
 , O
@@ -379,8 +379,8 @@ kumuswaza O
 . O
 
 Bazzaako O
-Ajax O
-Queens O
+Ajax B-ORG
+Queens I-ORG
 ku O
 Ssande B-DATE
 nga I-DATE
@@ -397,8 +397,8 @@ Nakachwa I-PER
 Peace B-PER
 Proscovia I-PER
 , O
-Rachael B-PER
-Nanyonga I-PER
+Rachael O
+Nanyonga O
 , O
 Stella B-PER
 Nanfuka I-PER
@@ -406,8 +406,8 @@ Nanfuka I-PER
 Lilian B-PER
 Ajio I-PER
 ne O
-Muhayimina O
-Namuwaya O
+Muhayimina B-PER
+Namuwaya I-PER
 be O
 baazannye O
 . O
@@ -427,7 +427,7 @@ gwaffe O
 ku O
 ntikko O
 , O
-Mubiru O
+Mubiru B-PER
 bwe O
 yategeezezza O
 . O
@@ -467,11 +467,11 @@ nebirabo O
 ebirala O
 . O
 
-Nkumba B-ORG
+Nkumba O
 ne O
 Ndejje B-ORG
 zaakukiikirira O
-Uganda O
+Uganda B-LOC
 mu O
 mpaka O
 za O
@@ -485,25 +485,25 @@ ogujja I-DATE
 
 Omusawo O
 ye O
-Habiba B-PER
-Anguyo I-PER
+Habiba O
+Anguyo O
 ngekibinja O
 kikulembeddwa O
-Jackson B-PER
-Kavuma I-PER
+Jackson O
+Kavuma O
 , O
 akola O
 nga O
 maneja O
 . O
 
-Jimmy B-PER
-Enabu I-PER
+Jimmy O
+Enabu O
 , O
 kapiteeni O
 wa O
-City B-ORG
-Oilers I-ORG
+City O
+Oilers O
 , O
 ye O
 yasinze O
@@ -535,19 +535,19 @@ Wokorach I-PER
 Justin O
 Kimono O
 ne O
-Adrian O
-Kisito O
+Adrian B-PER
+Kisito I-PER
 be O
 bamu O
 ku O
 baayambye O
-Uganda O
+Uganda B-LOC
 , O
 eyawangula O
 empala O
 zino O
-omwaka O
-oguwedde O
+omwaka B-DATE
+oguwedde I-DATE
 , O
 okuva O
 emabeganefuna O
@@ -558,23 +558,23 @@ Kino O
 kye O
 kiruubirirwa O
 kya O
-City O
-Oilers O
+City B-ORG
+Oilers I-ORG
 , O
 eyagala O
 okuwangula O
 ensiike O
 eyookutaano O
 ku O
-Ssande O
+Ssande B-DATE
 , O
 erangirirwe O
 ku O
 buwanguzi O
 . O
 
-Joy O
-Chemutai O
+Joy B-PER
+Chemutai I-PER
 yakoledde O
 KCCA O
 obugoba O
@@ -584,16 +584,16 @@ Martha B-PER
 Soigi I-PER
 16 O
 , O
-Sylvia O
-Nakazibwe O
+Sylvia B-PER
+Nakazibwe I-PER
 10 O
 ate O
-Stella B-PER
-Nikuze I-PER
+Stella O
+Nikuze O
 yalwanye O
 nafunira O
-A1 B-ORG
-Challenge I-ORG
+A1 O
+Challenge O
 obugoba O
 13 O
 , O
@@ -616,8 +616,8 @@ nti O
 bamaze O
 mu O
 nkambi O
-wiiki B-DATE
-bbiri I-DATE
+wiiki O
+bbiri O
 nga O
 beetegekera O
 empaka O
@@ -635,8 +635,8 @@ ekikopo O
 kye O
 yali O
 yatwala O
-omwaka B-DATE
-oguwedde I-DATE
+omwaka O
+oguwedde O
 ne O
 kimeeme O
 wembuzi O
@@ -656,26 +656,26 @@ Bottas O
 yakutte O
 kyakubiri O
 , O
-Verstappen B-PER
+Verstappen O
 kyakusatu O
 , O
-Daniel B-PER
-Ricciardo I-PER
+Daniel O
+Ricciardo O
 kyakuna O
 , O
-Kimi O
-Raikkonen O
+Kimi B-PER
+Raikkonen I-PER
 kyakutaano O
 , O
-Vettel O
+Vettel B-PER
 kyamukaaga O
 . O
 
 Emizannyo O
 gikomekkerezebwa O
 nga O
-October B-DATE
-18 I-DATE
+October O
+18 O
 . O
 
 Okufuna O
@@ -699,16 +699,16 @@ kuliko O
 ttiimu O
 yomupiira O
 eya O
-Crested B-ORG
-Cranes I-ORG
+Crested O
+Cranes O
 eyakutte O
 ekyokusatu O
 mu O
 mpaka O
 ezaabadde O
 e O
-South B-LOC
-Afrika I-LOC
+South O
+Afrika O
 , O
 omuzannyi O
 wa O
@@ -752,12 +752,12 @@ Trinity B-ORG
 Senior I-ORG
 Academy I-ORG
 , O
-Kisubi O
-High O
+Kisubi B-ORG
+High I-ORG
 , O
-Turkish O
-Light O
-Academy O
+Turkish B-ORG
+Light I-ORG
+Academy I-ORG
 , O
 Bethel O
 Covenant O
@@ -808,7 +808,7 @@ okuwangula O
 ekikopo O
 kino O
 mu O
-2014 B-DATE
+2014 O
 ekyali O
 e O
 South B-LOC
@@ -820,9 +820,9 @@ nekitwala O
 mu O
 2016 O
 e O
-Miyami B-LOC
+Miyami O
 ate O
-Uganda O
+Uganda B-LOC
 yensi O
 esoose O
 okutegeka O
@@ -830,7 +830,7 @@ empka O
 zino O
 netwala O
 nekikopo O
-2018 B-DATE
+2018 O
 . O
 
 Ku O
@@ -843,7 +843,7 @@ Ssingo B-ORG
 , O
 Buweekula B-ORG
 e O
-Buddu O
+Buddu B-LOC
 . O
 
 City B-ORG
@@ -861,7 +861,7 @@ emirundi O
 egyomuddiringanwa O
 ate O
 nga O
-KIU B-ORG
+KIU O
 enoonya O
 kisooka O
 . O
@@ -904,8 +904,8 @@ anaakwatagana O
 nomuwanguzi O
 wakati O
 wa O
-Betway O
-Powers O
+Betway B-ORG
+Powers I-ORG
 ne O
 JKL O
 Men O
@@ -937,21 +937,21 @@ mpaka O
 kuliko O
 Nigeria B-LOC
 , O
-Kenya O
+Kenya B-LOC
 , O
-Zimbabwe B-LOC
+Zimbabwe O
 ne O
-Namibia B-LOC
+Namibia O
 . O
 
-City B-ORG
-Oilers I-ORG
+City O
+Oilers O
 be O
 balina O
 ekikopo O
 kya O
-sizoni O
-ewedde O
+sizoni B-DATE
+ewedde I-DATE
 era O
 nga O
 baakakiwangula O
@@ -977,7 +977,7 @@ emirundi O
 buli O
 omu O
 , O
-UMU O
+UMU B-ORG
 ne O
 MUK B-ORG
 omulundi O
@@ -993,16 +993,16 @@ mu O
 nsitaano O
 eyabadde O
 ku O
-Vox B-LOC
-Lounge I-LOC
+Vox O
+Lounge O
 e O
 Makindye O
 , O
 abazannyi O
 munaana O
 okuli O
-Martin B-PER
-Ssenyonjo I-PER
+Martin O
+Ssenyonjo O
 , O
 Moses B-PER
 Ssesanga I-PER
@@ -1010,20 +1010,20 @@ Ssesanga I-PER
 Bashir O
 Nsubuga O
 , O
-Kranimer O
-Kibirige O
+Kranimer B-PER
+Kibirige I-PER
 , O
 Randy B-PER
 Kayongo I-PER
 , O
-Henry O
-Kalyango O
+Henry B-PER
+Kalyango I-PER
 , O
-Augustine O
-Kamulegeya O
+Augustine B-PER
+Kamulegeya I-PER
 ne O
-Emmanuel B-PER
-Kabaaya I-PER
+Emmanuel O
+Kabaaya O
 be O
 baayiseemu O
 okwesogga O
@@ -1032,7 +1032,7 @@ lwa O
 ligyoni O
 . O
 
-Osaka O
+Osaka B-PER
 yawangudde O
 engule O
 ya O
@@ -1046,8 +1046,8 @@ byafaayo O
 
 Eno O
 ye O
-sizoni O
-eyokubiri O
+sizoni B-DATE
+eyokubiri I-DATE
 nga O
 Liigi O
 yomuzannyo O
@@ -1061,7 +1061,7 @@ Uganda B-LOC
 Ttiimu O
 eno O
 yakubye O
-Zimbabwe O
+Zimbabwe B-LOC
 ku O
 fayinolo O
 yeza O
@@ -1077,33 +1077,33 @@ World O
 Cup O
 . O
 
-Enkya O
+Enkya B-DATE
 Uganda O
 ezannya O
 emipiira O
 ebiri O
 ne O
 Kenya O
-ku B-DATE
-makya I-DATE
-ku I-DATE
-ssaawa I-DATE
-5 I-DATE
+ku O
+makya O
+ku O
+ssaawa O
+5 O
 nogwokubiri O
 ku O
 ssaawa O
 11 O
 ngettunka O
 ne O
-Botswana B-LOC
+Botswana O
 . O
 
-Vicent B-PER
-Kiwanuka I-PER
+Vicent O
+Kiwanuka O
 omutendesi O
 wa O
-She B-ORG
-Cranes I-ORG
+She O
+Cranes O
 ngayita O
 ku O
 mukutu O
@@ -1132,8 +1132,8 @@ ensonga O
 
 Empaka O
 zaawanguddwa O
-National B-ORG
-Youth I-ORG
+National O
+Youth O
 bawala O
 ne O
 Kitgum O
@@ -1148,58 +1148,58 @@ Northern O
 , O
 ate O
 mu O
-West O
-Nile O
+West B-LOC
+Nile I-LOC
 ne O
 wavaayo O
 FHL B-ORG
 Simba I-ORG
 bawala O
 ne O
-Yumbe O
-Heroes O
+Yumbe B-ORG
+Heroes I-ORG
 . O
 
 Agatha B-PER
 Kamwada I-PER
 , O
-Bronnie B-PER
-Kusiima I-PER
+Bronnie O
+Kusiima O
 , O
 Aisha O
 Namakula O
 , O
-Winnie O
-Alice O
-Isoto O
+Winnie B-PER
+Alice I-PER
+Isoto I-PER
 , O
-Fildauce O
-Namulema O
+Fildauce B-PER
+Namulema I-PER
 , O
-Bridget B-PER
-Aber I-PER
+Bridget O
+Aber O
 , O
 Shadia B-PER
 Mbwali I-PER
 , O
-Ramurah O
-Nakato O
+Ramurah B-PER
+Nakato I-PER
 , O
-Patience B-PER
-Mauso I-PER
+Patience O
+Mauso O
 , O
 Martha O
 Nandutu O
 , O
-Emilly B-PER
-Katurina I-PER
-Nerima I-PER
+Emilly O
+Katurina O
+Nerima O
 ne O
-Aziidah O
-Nabayunga O
+Aziidah B-PER
+Nabayunga I-PER
 . O
 
-KIU O
+KIU B-ORG
 esigazza O
 ensiike O
 ya O
@@ -1219,11 +1219,11 @@ Uganda O
 ezzaako O
 Zimbabwe B-LOC
 nga O
-August O
-10 O
-2017 O
+August B-DATE
+10 I-DATE
+2017 I-DATE
 e O
-Lugogo B-LOC
+Lugogo O
 . O
 
 Ttiimu O
@@ -1255,12 +1255,12 @@ akakyasinze O
 okubeera O
 akomutawaana O
 mu O
-kyasa B-DATE
-ekya I-DATE
-20 I-DATE
+kyasa O
+ekya O
+20 O
 . O
 
-Kasadha O
+Kasadha B-PER
 yakubirizza O
 nti O
 okwewala O
@@ -1271,8 +1271,8 @@ abantu O
 batambulenga O
 nendagamuntu O
 kuba O
-buli O
-ssaawa O
+buli B-DATE
+ssaawa I-DATE
 tutambulira O
 mu O
 kufa O
@@ -1281,8 +1281,8 @@ kufa O
 Mu O
 katono O
 ye O
-Muhammad O
-Kateregga O
+Muhammad B-PER
+Kateregga I-PER
 , O
 ssentebe O
 wa O
@@ -1328,7 +1328,7 @@ nguudo O
 gye O
 bayitira O
 , O
-Kayima O
+Kayima B-PER
 bwe O
 yayongeddeko O
 . O
@@ -1336,15 +1336,15 @@ yayongeddeko O
 Oluvannyuma O
 yaddukira O
 mu O
-Zimbabwe O
+Zimbabwe B-LOC
 ngakozesa O
 Paasipooti O
 eyali O
 mu O
 mannya O
 ga O
-David B-PER
-Mubiru I-PER
+David O
+Mubiru O
 , O
 kyokka O
 aboobuyinza O
@@ -1352,19 +1352,19 @@ baamuyigga O
 ne O
 bamukomyawo O
 mu O
-Uganda B-LOC
+Uganda O
 , O
 mu O
-November B-DATE
-2016 I-DATE
+November O
+2016 O
 , O
 okumalayo O
 ekibonerezo O
-ekyemyaka B-DATE
-ena I-DATE
-nemyaka I-DATE
-emirala I-DATE
-ebiri I-DATE
+ekyemyaka O
+ena O
+nemyaka O
+emirala O
+ebiri O
 , O
 egyamwongerwako O
 olwokutoloka O
@@ -1381,8 +1381,8 @@ okusonyiwagana O
 olugenda O
 okubeerawo O
 nga O
-October B-DATE
-29 I-DATE
+October O
+29 O
 ku O
 Twin O
 Towers O
@@ -1446,9 +1446,9 @@ nnyo O
 abakulira O
 ettendekero O
 lya O
-Uganda B-ORG
-Christian I-ORG
-University I-ORG
+Uganda O
+Christian O
+University O
 olwokuvaayo O
 ne O
 batunula O
@@ -1466,7 +1466,7 @@ mu O
 ggwanga O
 . O
 
-Kabanda O
+Kabanda B-PER
 nate O
 , O
 akuutidde O
@@ -1477,8 +1477,8 @@ yabakozi O
 mu O
 Mukono O
 ayitibwa O
-George B-PER
-Ntulume I-PER
+George O
+Ntulume O
 okukola O
 kyonna O
 ekisoboka O
@@ -1522,7 +1522,7 @@ ku O
 zokka O
 . O
 
-Bwanika O
+Bwanika B-PER
 yagambye O
 nti O
 enteekateeka O
@@ -1587,7 +1587,7 @@ ekyokuba O
 nti O
 bakozi O
 , O
-Ssebaggala B-PER
+Ssebaggala O
 bwe O
 yagambye O
 . O
@@ -1627,10 +1627,10 @@ ya O
 Kirumira B-PER
 yaakulombebwa O
 nga O
-October O
-21 O
-, O
-2018 O
+October B-DATE
+21 I-DATE
+, I-DATE
+2018 I-DATE
 , O
 nasaba O
 abaziirakisa O
@@ -1722,9 +1722,9 @@ wa O
 Star B-ORG
 FM I-ORG
 , O
-Voice B-ORG
-of I-ORG
-Teso I-ORG
+Voice O
+of O
+Teso O
 naye O
 nga O
 mu O
@@ -1827,7 +1827,7 @@ ku O
 butaka O
 . O
 
-Kampala B-LOC
+Kampala O
 nemirirwano O
 egenda O
 kussibwamu O
@@ -1844,7 +1844,7 @@ era O
 kkampuni O
 yAbachina O
 eya O
-Huawei B-ORG
+Huawei O
 yegenda O
 okukola O
 omulimu O
@@ -1964,7 +1964,7 @@ okuva O
 ku O
 CPS O
 mu O
-Kampala B-LOC
+Kampala O
 kwe O
 baasinziira O
 ne O
@@ -1978,13 +1978,13 @@ bamusabidde O
 mu O
 kkanisa O
 e O
-Kibiri O
+Kibiri B-LOC
 , O
 oluvannyuma O
 yatwaliddwa O
 mu O
 kyalo O
-Kalamba O
+Kalamba B-LOC
 okuziikibwa O
 . O
 
@@ -2001,14 +2001,14 @@ lyabantu O
 Mu O
 kiseera B-DATE
 kino I-DATE
-Ntibimana O
+Ntibimana B-PER
 akuumirwa O
 mu O
 kaduukulu O
 ka O
-poliisi O
-ye O
-Mpigi O
+poliisi B-ORG
+ye I-ORG
+Mpigi I-ORG
 ngokunoonyereza O
 bwe O
 kugenda O
@@ -2029,7 +2029,7 @@ bwonna O
 ku O
 ssimu O
 ya O
-Lusiba B-PER
+Lusiba O
 0703337432 O
 ne O
 0774991228 O
@@ -2047,7 +2047,7 @@ Jamada I-PER
 Ahimbisibwe B-PER
 agambye O
 nti O
-Nabirye O
+Nabirye B-PER
 baamugguddeko O
 omusang O
 . O
@@ -2057,7 +2057,7 @@ olunaku B-DATE
 olulungi O
 mukwano O
 , O
-Barbie B-PER
+Barbie O
 bwe O
 yayayongeddeko O
 . O
@@ -2094,7 +2094,7 @@ ngekikulu O
 
 Nagamba O
 nti O
-NRM B-ORG
+NRM O
 egenda O
 kusigala O
 ku O
@@ -2117,7 +2117,7 @@ e O
 Katende O
 ku O
 lwe O
-Masaka B-LOC
+Masaka O
 . O
 
 Abamu O
@@ -2148,9 +2148,9 @@ Vink B-PER
 , O
 bekibiina O
 kya O
-Dance B-ORG
-and I-ORG
-Beats I-ORG
+Dance O
+and O
+Beats O
 ekya O
 Namulindwa O
 nabalala O
@@ -2173,7 +2173,7 @@ Zimbabwe O
 
 DPC O
 wa O
-Rakai O
+Rakai B-LOC
 , O
 Patience B-PER
 Baganzi I-PER
@@ -2304,11 +2304,11 @@ essuubi O
 mu O
 kakiiko O
 aka O
-UMA O
+UMA B-ORG
 kajja O
 kuwa O
-Bobi B-PER
-Wine I-PER
+Bobi O
+Wine O
 obujjanjabi O
 obutuufu O
 kubanga O
@@ -2339,7 +2339,7 @@ era O
 emuyigga O
 . O
 
-Zaake O
+Zaake B-PER
 era O
 amanyiddwa O
 ngomusajja O
@@ -2385,7 +2385,7 @@ Wabula O
 ku O
 byokusibwa O
 kwomuwanguzi O
-Wadri B-PER
+Wadri O
 ne O
 Bobi O
 Wine O
@@ -2397,8 +2397,8 @@ ebikolwa O
 byabwe O
 bye O
 byavaako O
-Yasin B-PER
-Kawuma I-PER
+Yasin O
+Kawuma O
 ddereeva O
 wa O
 Bobi O
@@ -2411,13 +2411,13 @@ okulumizibwa O
 nokwonoona O
 ebintu O
 mu O
-Arua O
+Arua B-LOC
 . O
 
 Wabula O
 bino O
-Moses B-PER
-Ali I-PER
+Moses O
+Ali O
 yabiwakanyizza O
 nagamba O
 nti O
@@ -2435,8 +2435,8 @@ embeera O
 yaabwe O
 okuli O
 ne O
-Bobi B-PER
-Wine I-PER
+Bobi O
+Wine O
 yateredde O
 . O
 
@@ -2448,7 +2448,7 @@ bwemisango O
 mu O
 disitulikiti O
 ye O
-Mpigi B-LOC
+Mpigi O
 , O
 Andrew O
 Ainembabazi O
@@ -2487,9 +2487,9 @@ Yaliko O
 omukulembeze O
 wabayizi O
 ku O
-yunivasite O
-e O
-Makerere O
+yunivasite B-ORG
+e I-ORG
+Makerere I-ORG
 . O
 
 Mu O
@@ -2503,7 +2503,7 @@ mu O
 maka O
 ga O
 Muzeeyi O
-Luyinda B-PER
+Luyinda O
 . O
 
 Abasajja O
@@ -2533,7 +2533,7 @@ bakasasulira O
 50 O
 , O
 000 O
-olunaku B-DATE
+olunaku O
 . O
 
 Newankubadde O
@@ -2593,7 +2593,7 @@ Ate O
 Omubaka O
 omukazi O
 owa O
-Lwengo B-LOC
+Lwengo O
 mu O
 Palamenti O
 , O
@@ -2617,8 +2617,8 @@ yawunzise O
 Omuwandiisi O
 wakakiiko O
 , O
-Lawrence O
-Banyoya O
+Lawrence B-PER
+Banyoya I-PER
 yagambye O
 nti O
 ebifo O
@@ -2657,7 +2657,7 @@ e O
 Bugiri B-LOC
 kati O
 ne O
-Arua O
+Arua B-LOC
 wafuddeyo O
 omu O
 nabivumirira O
@@ -2733,17 +2733,17 @@ zino O
 we O
 zijjidde O
 nga O
-Ssempebwa B-PER
+Ssempebwa O
 ali O
 mu O
 kugugulana O
 ne O
 Bakansala O
 ku O
-Town O
-Couincil O
-ye O
-Wakiso O
+Town B-LOC
+Couincil I-LOC
+ye I-LOC
+Wakiso I-LOC
 nabamu O
 ku O
 bakozi O
@@ -2751,7 +2751,7 @@ banne O
 ate O
 nga O
 nakakiiko O
-Lokuda B-PER
+Lokuda O
 ke O
 yateekawo O
 okumunoonyerezaako O
@@ -2858,8 +2858,8 @@ yeegaana O
 omusango O
 , O
 omukadde O
-owemyaka B-DATE
-65 I-DATE
+owemyaka O
+65 O
 tayinza O
 kweswaza O
 kwesimba O
@@ -2883,10 +2883,10 @@ okwekulakulanya O
 . O
 
 Kyokka O
-Tugume B-PER
+Tugume O
 teyannyonnyodde O
 lwaki O
-Kayihura O
+Kayihura B-PER
 yali O
 asigazza O
 ekyuma O
@@ -2935,7 +2935,7 @@ mu O
 ggwanga O
 okuva O
 e O
-Bungereza B-LOC
+Bungereza O
 , O
 abasoba O
 mu O
@@ -2952,15 +2952,15 @@ gwakubeera O
 mu O
 ddwaaliro O
 lye O
-Rakai O
-General O
-Hospital O
+Rakai B-ORG
+General I-ORG
+Hospital I-ORG
 . O
 
-Ssempijja O
+Ssempijja B-PER
 ne O
 minisita O
-Mbayo O
+Mbayo B-PER
 bajjukizza O
 Bannayuganda O
 nti O
@@ -3030,8 +3030,8 @@ omuntu O
 waabwe O
 tayinza O
 kumala O
-nnaku B-DATE
-ezo I-DATE
+nnaku O
+ezo O
 zonna O
 ngali O
 mu O
@@ -3156,8 +3156,8 @@ nokumuviirako O
 okufa O
 . O
 
-Richard O
-Karemire O
+Richard B-PER
+Karemire I-PER
 yabalabudde O
 nabawa O
 amagezi O
@@ -3187,7 +3187,7 @@ Yayongeddeko O
 nti O
 amataawo O
 ge O
-Kawaala B-LOC
+Kawaala O
 , O
 Bwaise B-LOC
 , O
@@ -3195,9 +3195,9 @@ Kyebando O
 , O
 Kaleerwe B-LOC
 okuwera O
-ssaawa O
-2 O
-ezekiro O
+ssaawa B-DATE
+2 I-DATE
+ezekiro I-DATE
 abakazi O
 bandibadde O
 beesonyiwa O
@@ -3237,9 +3237,9 @@ baalina O
 nga O
 ziraga O
 nti O
-NSSF O
+NSSF B-ORG
 yasasula O
-Nzeyi B-PER
+Nzeyi O
 8 O
 , O
 700 O
@@ -3249,8 +3249,8 @@ Nzeyi B-PER
 000 O
 . O
 
-Fred O
-Eriku O
+Fred B-PER
+Eriku I-PER
 , O
 akulira O
 okunoonyereza O
@@ -3326,15 +3326,15 @@ Kapeeka O
 , O
 Sukuru B-LOC
 ne O
-Mbale O
+Mbale B-LOC
 . O
 
 Akulira O
-Poliisi O
-ye O
-Masuuliita O
-Martin B-PER
-Karekyezi I-PER
+Poliisi B-ORG
+ye I-ORG
+Masuuliita I-ORG
+Martin O
+Karekyezi O
 yategeezezza O
 nti O
 amaze O
@@ -3356,7 +3356,7 @@ bwe O
 bataliiwo O
 . O
 
-Nabusaayi B-PER
+Nabusaayi O
 era O
 ategeezezza O
 nti O
@@ -3367,19 +3367,19 @@ okuziikibwa O
 mu O
 disitulikiti O
 ye O
-Bugiri O
+Bugiri B-LOC
 gyasibuka O
 , O
 ku O
-Lwokubiri O
-lwa O
-wiiki O
-eno O
+Lwokubiri B-DATE
+lwa I-DATE
+wiiki I-DATE
+eno I-DATE
 kyokkatalambuludde O
 ngeri O
 Maj O
 . O
-Bogere O
+Bogere B-PER
 gye O
 yafuddemu O
 . O
@@ -3397,9 +3397,9 @@ baateesezza O
 emirundi O
 musanvu O
 ne O
-John B-PER
-Bosco I-PER
-Lubyayi I-PER
+John O
+Bosco O
+Lubyayi O
 emirundi O
 5 O
 . O
@@ -3416,7 +3416,7 @@ abagwiira O
 ababa O
 bayingidde O
 mu O
-Uganda O
+Uganda B-LOC
 tekirina O
 bakozi O
 bamala O
@@ -3441,15 +3441,15 @@ egitwalibwa O
 abagwiira O
 . O
 
-Basalirwa O
+Basalirwa B-PER
 yafunye O
 obululu O
 3 O
 , O
 928 O
 , O
-Francis O
-Okecho O
+Francis B-PER
+Okecho I-PER
 owa O
 NRM O
 nafuna O
@@ -3472,7 +3472,7 @@ bwe O
 yasoose O
 okulaba O
 ku O
-Mawanda O
+Mawanda B-PER
 ku O
 poliisi O
 yabadde O
@@ -3491,7 +3491,7 @@ Omwogezi O
 wa O
 poliisi O
 mu O
-Kampala B-LOC
+Kampala O
 nemiriraano O
 , O
 Lukas O
@@ -3529,7 +3529,7 @@ Ku O
 bano O
 kubaddeko O
 nabayizi O
-Kayihura B-PER
+Kayihura O
 baweerera O
 abali O
 ku O
@@ -3545,15 +3545,15 @@ Kayihura B-PER
 okukwatibwa O
 . O
 
-Moses O
-Mutebi O
-Nsubuga O
-Konkomebi O
-NRM O
+Moses B-PER
+Mutebi I-PER
+Nsubuga I-PER
+Konkomebi I-PER
+NRM B-ORG
 yawangudde O
 Haruna O
 Ssali O
-DP B-ORG
+DP O
 ku O
 bululu O
 25 O
@@ -3591,8 +3591,8 @@ abantu O
 , O
 gyavunaanibwa O
 ne O
-Nixon O
-Agasirwe O
+Nixon B-PER
+Agasirwe I-PER
 era O
 ngali O
 mu O
@@ -3643,8 +3643,8 @@ zaagala O
 okubaluma O
 . O
 
-John B-PER
-Kalagiro I-PER
+John O
+Kalagiro O
 avunaana O
 Paul B-PER
 Nsubuga I-PER
@@ -3667,25 +3667,25 @@ maneja O
 wa O
 KT O
 , O
-Musa B-PER
-Kavuma I-PER
+Musa O
+Kavuma O
 . O
 
-Baroza B-PER
+Baroza O
 yabula O
 okuva O
 mu O
-mwezi O
-gwa O
-June O
+mwezi B-DATE
+gwa I-DATE
+June I-DATE
 era O
 nga O
 kyalagidde O
 omuduumuzi O
 wa O
-poliisi O
-ye O
-Mbarara O
+poliisi B-ORG
+ye I-ORG
+Mbarara I-ORG
 okwaza O
 amaka O
 ga O
@@ -3693,9 +3693,9 @@ Yovas O
 Kabiguruka O
 ku O
 kyalo O
-Karora O
+Karora B-LOC
 e O
-Rugando O
+Rugando B-LOC
 . O
 
 Ku O
@@ -3716,18 +3716,18 @@ kutereeza O
 obutabanguko O
 obuli O
 mu O
-South O
-Sudan O
+South B-LOC
+Sudan I-LOC
 nga O
 bukosa O
-Uganda B-LOC
+Uganda O
 ne O
 Sudan B-LOC
 . O
 
-Poliisi O
-ye O
-Kabulasoke O
+Poliisi B-ORG
+ye I-ORG
+Kabulasoke I-ORG
 Kakooza O
 yamusanze O
 mu O
@@ -3755,7 +3755,7 @@ Kamya B-PER
 ne O
 Lukwago O
 ne O
-Jennifer O
+Jennifer B-PER
 bo O
 balekeddwa O
 bbali O
@@ -3783,14 +3783,14 @@ ku O
 mutendesi O
 agenda O
 kuddira O
-Da B-PER
-costa I-PER
+Da O
+costa O
 mu O
 bigere O
 . O
 
-Anthony B-PER
-Musisi I-PER
+Anthony O
+Musisi O
 yagambye O
 gwa O
 kumuyamba O
@@ -3806,21 +3806,21 @@ kigenda O
 kuduumirwa O
 Col O
 . O
-Paul B-PER
-Muhanguzi I-PER
+Paul O
+Muhanguzi O
 amyukibwe O
 Lt O
 . O
 Col O
 . O
-CK B-PER
-Asiimwe I-PER
+CK O
+Asiimwe O
 , O
 ate O
 Col O
 . O
-Stuart B-PER
-Agaba I-PER
+Stuart O
+Agaba O
 , O
 aduumire O
 ekibinja O
@@ -3837,10 +3837,10 @@ Mugisha I-PER
 
 Mu O
 buvumu O
-Isiko B-PER
+Isiko O
 yategeeza O
 omubaka O
-Rwabogo O
+Rwabogo B-PER
 nti O
 , O
 aludde O
@@ -3863,9 +3863,9 @@ Abe O
 Katwe B-LOC
 baamuweerezza O
 ku O
-poliisi B-ORG
-ye I-ORG
-Mityana I-ORG
+poliisi O
+ye O
+Mityana O
 gye O
 yaddiza O
 omusango O
@@ -3878,12 +3878,12 @@ bataano O
 abaakulemberwaamu O
 amyuka O
 ssaabalamuzi O
-Alfred O
-Owiny O
-Dollo O
+Alfred B-PER
+Owiny I-PER
+Dollo I-PER
 , O
-Elizabeth O
-Musoke O
+Elizabeth B-PER
+Musoke I-PER
 , O
 Cheborion O
 Barishaki O
@@ -3892,8 +3892,8 @@ Kenneth O
 Kakuru O
 , O
 ne O
-Remmy B-PER
-Kasule I-PER
+Remmy O
+Kasule O
 . O
 
 Omulamuzi O
@@ -3953,14 +3953,14 @@ nti O
 , O
 poliisi O
 enoonya O
-Faruq O
-Bukenya O
+Faruq B-PER
+Bukenya I-PER
 , O
-Joseph O
-Ssemanda O
+Joseph B-PER
+Ssemanda I-PER
 ne O
-Kyeyune B-PER
-Lugya I-PER
+Kyeyune O
+Lugya O
 be O
 yayogeddeko O
 nti O
@@ -3972,8 +3972,8 @@ lino O
 . O
 
 Mu O
-kiseera O
-kino O
+kiseera B-DATE
+kino I-DATE
 emyalo O
 14 O
 gyokka O
@@ -3989,10 +3989,10 @@ gikozesebwa O
 ngekikwekweto O
 tekinnatandika O
 nga O
-May O
-25 O
-, O
-2018 O
+May B-DATE
+25 I-DATE
+, I-DATE
+2018 I-DATE
 . O
 
 Era O
@@ -4009,11 +4009,11 @@ kuggwa O
 Ssabawandiisi O
 wekibiina O
 , O
-Justine B-PER
-Kasule I-PER
-Lumumba I-PER
+Justine O
+Kasule O
+Lumumba O
 yayozaayozezza O
-NRM B-ORG
+NRM O
 olwobuwanguzi O
 buno O
 . O
@@ -4032,8 +4032,8 @@ Kalungi B-PER
 agamba O
 nti O
 , O
-Edward B-PER
-Kitaamirike I-PER
+Edward O
+Kitaamirike O
 yagenda O
 okufa O
 ngamuguzizza O
@@ -4089,10 +4089,10 @@ waakumusalira O
 ekibonerezo O
 kye O
 nga O
-July O
-11 O
-, O
-2018 O
+July B-DATE
+11 I-DATE
+, I-DATE
+2018 I-DATE
 era O
 namusindika O
 ku O
@@ -4109,9 +4109,9 @@ ku O
 musango O
 guno O
 okuli O
-Kazahura O
+Kazahura B-PER
 ne O
-Kibirango O
+Kibirango B-PER
 . O
 
 Ensonda O
@@ -4152,8 +4152,8 @@ okunyiiza O
 Pulezidenti O
 . O
 
-Kieran B-PER
-Murphy I-PER
+Kieran O
+Murphy O
 ku O
 lwekitongole O
 kya O
@@ -4166,9 +4166,9 @@ bagenda O
 kukolagana O
 bulungi O
 ne O
-Gavumenti O
-ya O
-Uganda O
+Gavumenti B-ORG
+ya I-ORG
+Uganda I-ORG
 okukakasa O
 nga O
 batuusa O
@@ -4198,7 +4198,7 @@ akaseera O
 akawera O
 . O
 
-Machar B-PER
+Machar O
 yasooka O
 okubeera O
 omumyuka O
@@ -4225,16 +4225,16 @@ obutakkaanya O
 ne O
 Gen O
 . O
-Kiir O
+Kiir B-PER
 nagoba O
 Dr O
 . O
-Machar B-PER
+Machar O
 nga O
-July O
-23 O
-, O
-2013 O
+July B-DATE
+23 I-DATE
+, I-DATE
+2013 I-DATE
 olwebigambibwa O
 nti O
 yali O
@@ -4269,8 +4269,8 @@ bassentebe O
 bebyalo O
 nemiruka O
 kwa O
-July O
-16 O
+July B-DATE
+16 I-DATE
 , O
 okunoonya O
 akalulu O
@@ -4288,7 +4288,7 @@ omwaka I-DATE
 guno I-DATE
 . O
 
-Isiko O
+Isiko B-PER
 yategeezezza O
 nti O
 ennamba O
@@ -4319,8 +4319,8 @@ maneja O
 mu O
 kkampuni O
 ya O
-Arab B-ORG
-Contructors I-ORG
+Arab O
+Contructors O
 agamba O
 nti O
 bamalirizza O
@@ -4358,7 +4358,7 @@ nokwekalakaasa O
 . O
 
 Omulamuzi O
-Nyadoi O
+Nyadoi B-PER
 era O
 yamulagidde O
 asasule O
@@ -4391,7 +4391,7 @@ Omusolo O
 tegwakomye O
 ku O
 bakozesa O
-WhatApp B-ORG
+WhatApp O
 , O
 wabula O
 nabakozesa O
@@ -4495,8 +4495,8 @@ kampuni O
 ya O
 Divine O
 ku O
-Lubaga O
-Road O
+Lubaga B-LOC
+Road I-LOC
 . O
 
 Okulonda O
@@ -4549,7 +4549,7 @@ gwe O
 ne O
 gukomezebwawo O
 mu O
-Uganda O
+Uganda B-LOC
 nga O
 24th B-DATE
 September I-DATE
@@ -4574,22 +4574,22 @@ eryo O
 wakati O
 wa O
 Pulezidenti O
-Salva B-PER
-Kiir I-PER
+Salva O
+Kiir O
 neyali O
 omumyuka O
 we O
 , O
-Riak B-PER
-Machar I-PER
+Riak O
+Machar O
 okumalibwawo O
 Bannayuganda O
 basuubirwa O
 okweyongera O
 okweyiwa O
 e O
-South O
-Sudan O
+South B-LOC
+Sudan I-LOC
 okukolerayo O
 emirimu O
 . O
@@ -4622,8 +4622,8 @@ Muwanga I-PER
 , O
 Pulezidenti O
 wa O
-UNAA O
-Causes O
+UNAA B-ORG
+Causes I-ORG
 ngayogera O
 . O
 
@@ -4730,8 +4730,8 @@ Irene B-PER
 Muloni I-PER
 , O
 owebyobulambuzi O
-Ephrahim B-PER
-Kamuntu I-PER
+Ephrahim O
+Kamuntu O
 , O
 owokusikiriza O
 bannamakolero O
@@ -4742,29 +4742,29 @@ Evelyne O
 Anite O
 ne O
 ambasada O
-Nimishi B-PER
-Madvani I-PER
+Nimishi O
+Madvani O
 . O
 
-Asiimwe O
+Asiimwe B-PER
 bwava O
 e O
-Misiri B-LOC
+Misiri O
 agenda O
 kukyalako O
 e O
-Sweden B-LOC
+Sweden O
 noluvannyuma O
 ayolekere O
 South O
 Africa O
 ku O
-ntandikwa B-DATE
-yomwaka I-DATE
-ogujja I-DATE
+ntandikwa O
+yomwaka O
+ogujja O
 . O
 
-Asiimwe O
+Asiimwe B-PER
 akyagenda O
 mu O
 maaso O
@@ -4788,10 +4788,10 @@ e O
 Turkey O
 . O
 
-June B-DATE
-2016 I-DATE
-Matthew B-PER
-Kitandwe I-PER
+June O
+2016 O
+Matthew O
+Kitandwe O
 muzannyi O
 womupiira O
 yafumitibwa O
@@ -4801,7 +4801,7 @@ yali O
 ayingira O
 awaka O
 mu O
-London O
+London B-LOC
 . O
 
 Mu O
@@ -4830,7 +4830,7 @@ agendayo O
 gusooka O
 wamu O
 ne O
-Sheebah O
+Sheebah B-PER
 ate O
 nga O
 Juliana O
@@ -4876,9 +4876,9 @@ tulwanyisa O
 abo O
 abaagala O
 okutabangula O
-Uganda O
+Uganda B-LOC
 , O
-Kimuli B-PER
+Kimuli O
 bwe O
 yategeezezza O
 . O
@@ -4896,7 +4896,7 @@ kutiisa O
 kwasa O
 byama O
 bya O
-Ssemwanga B-PER
+Ssemwanga O
 eyali O
 agobeddwa O
 e O
@@ -4930,7 +4930,7 @@ abaana O
 bamanyiddwa O
 nga O
 ba O
-Ssemwanga O
+Ssemwanga B-PER
 ekitegeeza O
 nti O
 omuntu O
@@ -4948,7 +4948,7 @@ ku O
 bintu O
 bya O
 
-Ssemwanga B-PER
+Ssemwanga O
 abaana O
 ne O
 baviiramu O
@@ -4988,7 +4988,7 @@ ggwanga O
 lino O
 . O
 
-Bayiga O
+Bayiga B-PER
 alumiriza O
 bba O
 okusulanga O
@@ -5027,13 +5027,13 @@ mu O
 kkanisa O
 . O
 
-Rogers B-PER
-Namanya I-PER
+Rogers O
+Namanya O
 , O
 akulira O
-poliisi B-ORG
-ye I-ORG
-Nakulabye I-ORG
+poliisi O
+ye O
+Nakulabye O
 yategeezezza O
 nti O
 bagenda O
@@ -5050,7 +5050,7 @@ okutwalibwa O
 e O
 Dubai O
 , O
-Oman B-LOC
+Oman O
 namawanga O
 amalala O
 abasukka O
@@ -5083,11 +5083,11 @@ basasulibwa O
 bulungi O
 . O
 
-Kiremerwa O
+Kiremerwa B-PER
 yabakubirizzaokutumbula O
 ebyobulambuzi O
 bwa O
-Uganda O
+Uganda B-LOC
 ebikyakula O
 era O
 nga O
@@ -5115,17 +5115,17 @@ nokusigamu O
 ensimbi O
 . O
 
-Walusimbi B-PER
+Walusimbi O
 yagambye O
 nti O
 olukuhhana O
 lugenda O
 kubeera O
-London B-LOC
+London O
 mu O
-Bungereza O
+Bungereza B-LOC
 ate O
-Wakame B-PER
+Wakame O
 nategeeza O
 nti O
 beetegefu O
@@ -5153,7 +5153,7 @@ kibuga O
 Instambul B-LOC
 e O
 Kya O
-Turkey O
+Turkey B-LOC
 nekigendererwa O
 kyokugaziya O
 nokunoonyeza O
@@ -5181,9 +5181,9 @@ okubeera O
 waali O
 . O
 
-Schwarzenegger O
+Schwarzenegger B-PER
 yagugumbudde O
-Trump B-PER
+Trump O
 nti O
 Obwapulezidenti O
 bumulemye O
@@ -5195,14 +5195,14 @@ mu O
 katemba O
 , O
 ye O
-Schwarzenegger B-PER
+Schwarzenegger O
 nakwatamu O
 kubanga O
 omukululo O
 gwe O
 yaleka O
 e O
-California B-LOC
+California O
 nga O
 Gavana O
 gweyogerera O
@@ -5212,7 +5212,7 @@ Bannayuganda O
 abaalabye O
 obutambi O
 bwa O
-Ssemwanga B-PER
+Ssemwanga O
 ngagaba O
 ssente O
 abamu O
@@ -5227,7 +5227,7 @@ kye O
 kimu O
 ne O
 mu O
-Uganda O
+Uganda B-LOC
 kubanga O
 we O
 wasinga O
@@ -5246,7 +5246,7 @@ lwajja O
 
 Omulambo O
 gwa O
-Walusimbi O
+Walusimbi B-PER
 gusuubirwa O
 okukomezebwawo O
 wiiki B-DATE
@@ -5271,21 +5271,21 @@ Cape O
 Eastern O
 Cape O
 , O
-Free B-LOC
-State I-LOC
+Free O
+State O
 , O
-Durban B-LOC
+Durban O
 , O
 Gauteng B-LOC
 namalala O
 . O
 
 Mu O
-South B-LOC
-Afrika I-LOC
+South O
+Afrika O
 amazeeyo O
-emyaka O
-mukaaga O
+emyaka B-DATE
+mukaaga I-DATE
 ngakolagana O
 nabamu O
 ku O
@@ -5295,9 +5295,9 @@ omugenzi O
 Lucky O
 Dube O
 ne O
-Yvonne O
-Chaka O
-Chaka O
+Yvonne B-PER
+Chaka I-PER
+Chaka I-PER
 . O
 
 Yalondeddwa O
@@ -5305,7 +5305,7 @@ nokuvuganya O
 mu O
 mpaka O
 ze O
-Bungereza O
+Bungereza B-LOC
 eza O
 Befta O
 Awards O
@@ -5315,8 +5315,8 @@ Aba O
 kkampuni O
 baasuubizza O
 nti O
-wiiki O
-eno O
+wiiki B-DATE
+eno I-DATE
 weneggweerako O
 omulambo O
 gwa O
@@ -5335,7 +5335,7 @@ kinokyategekeddwaokuyamba O
 nokugattaBannayuganda O
 ababeera O
 e O
-Bungereza B-LOC
+Bungereza O
 , O
 okusomesaabaana O
 abatoobuwangwa O
@@ -5345,20 +5345,20 @@ zaabwe O
 
 Olukuaana O
 lwa O
-Ugandan O
-North O
-American O
-Association O
-UNAA O
+Ugandan B-ORG
+North I-ORG
+American I-ORG
+Association I-ORG
+UNAA I-ORG
 luggulwawo O
 ku O
-Lwamukaaga B-DATE
-luno I-DATE
-nga I-DATE
-September02016 I-DATE
+Lwamukaaga O
+luno O
+nga O
+September02016 O
 mu O
 kibuga O
-Boston B-LOC
+Boston O
 . O
 
 Yagambye O
@@ -5382,7 +5382,7 @@ bye O
 bya O
 kukakasa O
 nti O
-Nakacwa O
+Nakacwa B-PER
 afa O
 era O
 essaawa O
@@ -5428,7 +5428,7 @@ mu O
 Kampala O
 . O
 
-Nakaweesi B-PER
+Nakaweesi O
 yasabye O
 poliisi O
 enoonyereze O
@@ -5449,8 +5449,8 @@ ge O
 nabakozi O
 be O
 nga O
-Diana O
-Nyanzi O
+Diana B-PER
+Nyanzi I-PER
 owa O
 Horizon B-ORG
 Campus I-ORG
@@ -5462,7 +5462,7 @@ amagezi O
 nti O
 gavumenti O
 ya O
-Uganda B-LOC
+Uganda O
 ekoppe O
 enkola O
 egobererwa O
@@ -5576,8 +5576,8 @@ baazimbawo O
 dda O
 . O
 
-Musubi O
-Farm O
+Musubi B-ORG
+Farm I-ORG
 Abagiddukanya O
 bagenda O
 kusomesa O
@@ -5630,7 +5630,7 @@ ekyokulabirako O
 eri O
 Bannabukunja O
 , O
-Bogere B-PER
+Bogere O
 bwe O
 yagambye O
 . O
@@ -5658,22 +5658,22 @@ tumutwala O
 mu O
 Bulaaya B-LOC
 , O
-Matovu O
+Matovu B-PER
 bwagamba O
 . O
 
 Yeebazizza O
 ekitongole O
 kya O
-MUZARDI O
+MUZARDI B-ORG
 ne O
 kkampuni O
 ya O
-Engineering O
-Solution O
+Engineering B-ORG
+Solution I-ORG
 abayambye O
 ku O
-NAADS O
+NAADS B-ORG
 okubangula O
 abavuzi O
 ba O
@@ -5773,12 +5773,12 @@ be O
 yayise O
 ababaka O
 ba O
-Buganda B-LOC
+Buganda O
 nabakubiriza O
 okunnyikiza O
 empagi O
 za O
-Buganda B-LOC
+Buganda O
 kwerina O
 okutambulira O
 nga O
@@ -5789,18 +5789,18 @@ mpisa O
 zaabwe O
 . O
 
-Immaculate O
-Daisy O
+Immaculate B-PER
+Daisy I-PER
 omukungu O
 okuva O
 mu O
 kitongole O
 kya O
-Hivos B-ORG
+Hivos O
 yagambye O
 nti O
 , O
-Hivos O
+Hivos B-ORG
 ejja O
 kukolaganira O
 wamu O
@@ -5871,7 +5871,7 @@ tufuna O
 , O
 000 O
 , O
-Kzibwe B-PER
+Kzibwe O
 bwagamba O
 . O
 
@@ -5900,7 +5900,7 @@ ekibiina O
 kyabalimi O
 bentangawuuzi O
 mu O
-Nsanja B-LOC
+Nsanja O
 nekigendererwa O
 kino O
 era O
@@ -5989,7 +5989,7 @@ ku O
 / O
 0712841688 O
 oba O
-whatsApp B-ORG
+whatsApp O
 + O
 256789353585 O
 . O
@@ -6088,7 +6088,7 @@ egyo O
 
 Enteekateeka O
 zomumaaso O
-Matovu B-PER
+Matovu O
 alina O
 enteekateeka O
 yokwongera O
@@ -6117,9 +6117,9 @@ kulima O
 emmwaanyi O
 . O
 
-Robert B-PER
-Migadde I-PER
-Ndugwa I-PER
+Robert O
+Migadde O
+Ndugwa O
 , O
 yabasuubizza O
 okutuusa O
@@ -6190,8 +6190,8 @@ ebigenda O
 okukosebwa O
 enjala O
 . O
-Omwezi B-DATE
-oguwedde I-DATE
+Omwezi O
+oguwedde O
 ekibiina O
 ekitaba O
 bannamawulire O
@@ -6199,17 +6199,17 @@ abasaka O
 agembeera O
 yobudde O
 ekya O
-Network B-ORG
-of I-ORG
-Climate I-ORG
-Journalists I-ORG
-of I-ORG
-the I-ORG
-Greater I-ORG
-Horn I-ORG
-of I-ORG
-Africa I-ORG
-NECJOGHA I-ORG
+Network O
+of O
+Climate O
+Journalists O
+of O
+the O
+Greater O
+Horn O
+of O
+Africa O
+NECJOGHA O
 kyawandiika O
 nti O
 abenteebereza O
@@ -6217,7 +6217,7 @@ yobudde O
 mu O
 Uganda O
 , O
-Kenya O
+Kenya B-LOC
 ne O
 Tanzania B-LOC
 baali O
@@ -6233,7 +6233,7 @@ ogwayita O
 mu O
 bitundu O
 bya O
-Mozambique B-LOC
+Mozambique O
 ne O
 gunywa O
 empewo O
@@ -6246,7 +6246,7 @@ mu O
 
 liyanja O
 lya O
-Buyindi B-LOC
+Buyindi O
 . O
 Bulijjo O
 okuva O
@@ -6259,9 +6259,9 @@ nga O
 June O
 gutandika O
 bibeera O
-biseera O
-bya O
-nkuba O
+biseera B-DATE
+bya I-DATE
+nkuba I-DATE
 eyomwero O
 mu O
 mawanga O
@@ -6280,7 +6280,7 @@ nkuba O
 etonnye O
 ate O
 ne O
-April B-DATE
+April O
 mwe O
 yabadde O
 esuubira O
@@ -6320,10 +6320,10 @@ Organization O
 FAO O
 , O
 ne O
-World B-ORG
-Food I-ORG
-Programme I-ORG
-WFP I-ORG
+World O
+Food O
+Programme O
+WFP O
 yalaze O
 nti O
 amawanga O
@@ -6349,14 +6349,14 @@ of I-LOC
 the I-LOC
 Congo I-LOC
 , O
-Ethiopia B-LOC
+Ethiopia O
 , O
-Nigeria O
+Nigeria B-LOC
 , O
 South B-LOC
 Sudan I-LOC
 ne O
-Sudan B-LOC
+Sudan O
 . O
 
 Olina O
@@ -6382,11 +6382,11 @@ enkuba O
 yakutonnya O
 okutuusa O
 mu O
-makkati B-DATE
-ga I-DATE
-June I-DATE
+makkati O
+ga O
+June O
 , O
-Bataze B-PER
+Bataze O
 bwagamba O
 . O
 
@@ -6399,11 +6399,11 @@ ogujja I-DATE
 2020 I-DATE
 gwakubeerawo O
 nga O
-February B-DATE
-14 I-DATE
-16 I-DATE
-, I-DATE
-2020 I-DATE
+February O
+14 O
+16 O
+, O
+2020 O
 era O
 ngenteekateeka O
 egenda O
@@ -6485,9 +6485,9 @@ gavumenti O
 okwongera O
 ssente O
 mu O
-kitongole O
-kyabasawo O
-bebisolo O
+kitongole B-ORG
+kyabasawo I-ORG
+bebisolo I-ORG
 kuba O
 okujjanjaba O
 ebisolo O
@@ -6565,8 +6565,8 @@ Yategeezezza O
 nti O
 , O
 mu O
-kiseera O
-kino O
+kiseera B-DATE
+kino I-DATE
 nga O
 bali O
 mu O
@@ -6596,13 +6596,13 @@ gwa O
 Harvest O
 Money O
 Expo O
-olunaku O
-olwokubiri O
+olunaku B-DATE
+olwokubiri I-DATE
 Guli O
 mu O
 kisaawe O
 e O
-Namboole O
+Namboole B-LOC
 . O
 
 Ennyaanya O
@@ -6628,7 +6628,7 @@ nnimiro O
 Ye O
 omubaka O
 we O
-Buvuma B-LOC
+Buvuma O
 mu O
 Palamenti O
 Robert O
@@ -6689,7 +6689,7 @@ Nzaire O
 muto O
 wa O
 Pulezidenti O
-Museveni O
+Museveni B-PER
 , O
 ssentebe O
 wa O
@@ -6706,15 +6706,15 @@ wa O
 UN B-ORG
 mu O
 ggwanga O
-Rosa O
-Malago O
+Rosa B-PER
+Malago I-PER
 , O
 akulira O
 ekitongole O
 kya O
 sirimu O
 ekya O
-UNAIDS B-ORG
+UNAIDS O
 , O
 Dr O
 . O
@@ -6729,8 +6729,8 @@ Amos O
 Nzeyi O
 , O
 omuyimbi O
-Bebe O
-Cool O
+Bebe B-PER
+Cool I-PER
 nabalala O
 . O
 
@@ -6807,8 +6807,8 @@ nabalunzi O
 Ssentebe O
 wa O
 disitulikiti O
-Benon O
-Mugabi O
+Benon B-PER
+Mugabi I-PER
 yawabudde O
 nti O
 nabalina O
@@ -6913,7 +6913,7 @@ oguva O
 mu O
 kayinja O
 we O
-Bugerere B-LOC
+Bugerere O
 , O
 ebigaaga O
 , O
@@ -6940,9 +6940,9 @@ twakikozeemu O
 ekibiina O
 kyobwegassi O
 ekya O
-Nile B-ORG
-Goat I-ORG
-Cooperation I-ORG
+Nile O
+Goat O
+Cooperation O
 omuli O
 ba O
 memba O
@@ -7068,9 +7068,9 @@ kalippagano O
 kebiduka O
 . O
 
-Grace O
-Musimami O
-Kezio O
+Grace B-PER
+Musimami I-PER
+Kezio I-PER
 nga O
 ye O
 mwogezi O
@@ -7225,11 +7225,11 @@ Nnima O
 kasooli O
 yiika O
 20 O
-buli B-DATE
-sizoni I-DATE
+buli O
+sizoni O
 , O
 mu O
-2016 B-DATE
+2016 O
 nafuna O
 kkiro O
 za O
@@ -7309,7 +7309,7 @@ wenkya O
 ku O
 Lwomukaaga O
 afuluma O
-leero B-DATE
+leero O
 . O
 
 Nsuubira O
@@ -7443,8 +7443,8 @@ be O
 beetabye O
 mu O
 mpaka O
-zomwaka O
-guno O
+zomwaka B-DATE
+guno I-DATE
 , O
 kkumi O
 ne O
@@ -7452,7 +7452,7 @@ bawangula O
 . O
 
 Faaza O
-Kimbugwe B-PER
+Kimbugwe O
 yagambye O
 nti O
 , O
@@ -7726,7 +7726,7 @@ abalimi O
 abasookerwako O
 . O
 
-Kityo B-PER
+Kityo O
 yeebazizza O
 abalimi O
 abafunye O
@@ -7781,7 +7781,7 @@ nafunamu O
 ekiwera O
 . O
 
-Bakirya O
+Bakirya B-PER
 agamba O
 nti O
 yamaze O
@@ -7790,9 +7790,9 @@ nebitongole O
 ebyenjawulo O
 omuli O
 ekya O
-Agrica O
-Agribusiness O
-Academy O
+Agrica B-ORG
+Agribusiness I-ORG
+Academy I-ORG
 , O
 ebyabakyala O
 nebirala O
@@ -7825,8 +7825,8 @@ nfuna O
 400 O
 , O
 000 O
-buli O
-mwezi O
+buli B-DATE
+mwezi I-DATE
 . O
 
 Yabagumiza O
@@ -7866,7 +7866,7 @@ Harvest O
 Money O
 ogwali O
 e O
-Namboole O
+Namboole B-LOC
 naliyo O
 era O
 ne O
@@ -7875,8 +7875,8 @@ bye O
 njigayo O
 . O
 
-Jemima O
-Namanyiike O
+Jemima B-PER
+Namanyiike I-PER
 , O
 akulembera O
 ekibiina O
@@ -7930,7 +7930,7 @@ June I-DATE
 17 I-DATE
 okugenda O
 e O
-Budaaki B-LOC
+Budaaki O
 . O
 
 Ate O
@@ -8038,8 +8038,8 @@ okuziganyulwamu O
 
 Omwogezi O
 wa O
-Minisitule B-ORG
-yebyobulimi I-ORG
+Minisitule O
+yebyobulimi O
 , O
 Consolata O
 Acayo O
@@ -8055,7 +8055,7 @@ mu O
 Uganda B-LOC
 namawanga O
 ga O
-Afrika O
+Afrika B-LOC
 10 O
 omuli O
 ne O
@@ -8077,7 +8077,7 @@ ebisingawo O
 nokwewandiisa O
 kubira O
 Ssaalongo O
-Sserwanga B-PER
+Sserwanga O
 ku O
 0772495309 O
 oba O
@@ -8087,9 +8087,9 @@ oba O
 Mu O
 ngeri O
 yemu O
-bbanka B-ORG
-yensi I-ORG
-yonna I-ORG
+bbanka O
+yensi O
+yonna O
 eriko O
 enteekateeka O
 zokuyamba O
@@ -8129,7 +8129,7 @@ Dr O
 Katende O
 0701891189 O
 oba O
-Nkuubi O
+Nkuubi B-PER
 ku O
 0772672551 O
 . O
@@ -8142,7 +8142,7 @@ Dr O
 Katende B-PER
 0701891189 O
 oba O
-Nkuubi B-PER
+Nkuubi O
 ku O
 0772672551 O
 . O
@@ -8152,7 +8152,7 @@ buli O
 mu O
 disitulikiti O
 nga O
-Kayunga O
+Kayunga B-LOC
 , O
 Luweero O
 , O
@@ -8272,7 +8272,7 @@ yokka O
 gye O
 tusobola O
 okukyusa O
-Uganda B-LOC
+Uganda O
 tugituuse O
 ku O
 mutendera O
@@ -8285,10 +8285,10 @@ bwagamba O
 
 Dr O
 . O
-Okello B-PER
+Okello O
 okuva O
 mu O
-OWC B-ORG
+OWC O
 yategeezezza O
 nti O
 ekimu O
@@ -8317,8 +8317,8 @@ balimi O
 . O
 
 Mu O
-biseera B-DATE
-byenkuba I-DATE
+biseera O
+byenkuba O
 ensolo O
 tuzirunda O
 ku O
@@ -8331,8 +8331,8 @@ we O
 tugusanga O
 naye O
 mu O
-biseera O
-byekyeya O
+biseera B-DATE
+byekyeya I-DATE
 , O
 awo O
 tutandika O
@@ -8387,7 +8387,7 @@ nolugendo O
 olusasuliddwa O
 okugenda O
 e O
-Budaaki B-LOC
+Budaaki O
 okulambula O
 nokuyigira O
 ku O
@@ -8406,7 +8406,7 @@ mu O
 ffaamu O
 yo O
 , O
-Kabushenga B-PER
+Kabushenga O
 bwagamba O
 . O
 
@@ -8420,8 +8420,8 @@ wa O
 15 O
 ne O
 20 O
-buli O
-wiiki O
+buli B-DATE
+wiiki I-DATE
 ssinga O
 abeera O
 alabiririddwa O
@@ -8441,7 +8441,7 @@ bwe O
 yagambye O
 . O
 
-Ssekyewa O
+Ssekyewa B-PER
 ali O
 ku O
 ssimu O
@@ -8572,8 +8572,8 @@ okusobola O
 okufukirira O
 naddala O
 mu O
-kiseera O
-kyomusana O
+kiseera B-DATE
+kyomusana I-DATE
 . O
 
 Wabula O
@@ -8650,8 +8650,8 @@ yiika O
 Ate O
 Dr O
 . O
-Nicholas O
-Kauta O
+Nicholas B-PER
+Kauta I-PER
 avunaanyizibwa O
 ku O
 byebisolo O
@@ -8796,9 +8796,9 @@ sizon O
 Omukugu O
 okuva O
 mu O
-yunivasite B-ORG
-e I-ORG
-Makerere I-ORG
+yunivasite O
+e O
+Makerere O
 , O
 Denis O
 Asizua O
@@ -8831,7 +8831,7 @@ ttaka O
 
 Dr O
 . O
-Nambatya B-PER
+Nambatya O
 ali O
 ku O
 0700779715 O
@@ -8843,11 +8843,11 @@ Nadhomi I-PER
 , O
 omulimi O
 we O
-Bupadhengo B-LOC
+Bupadhengo O
 mu O
 ggombolola O
 ye O
-Nawanyago B-LOC
+Nawanyago O
 yagambye O
 nti O
 obuzibu O
@@ -8905,8 +8905,8 @@ nnimira O
 nokulunda O
 . O
 
-Dana O
-Simovic O
+Dana B-PER
+Simovic I-PER
 , O
 akulira O
 ekibiina O
@@ -8991,8 +8991,8 @@ palamaenti O
 
 Kuba O
 mu O
-kiseera O
-kino O
+kiseera B-DATE
+kino I-DATE
 nfukiriza O
 bucupa O
 okukuuma O
@@ -9078,7 +9078,7 @@ bampa O
 sikaala O
 okugenda O
 mu O
-Amerika O
+Amerika B-LOC
 okusoma O
 diguli O
 eyookubiri O
@@ -9094,8 +9094,8 @@ Lwanga I-PER
 nga O
 kati O
 mu O
-kiseera B-DATE
-kino I-DATE
+kiseera O
+kino O
 alina O
 enkoko O
 ezisoba O
@@ -9149,7 +9149,7 @@ naye O
 mulimu O
 waazo O
 e O
-Kabasanda O
+Kabasanda B-LOC
 yagambye O
 ssente O
 zebaateeka O
@@ -9259,8 +9259,8 @@ nokatunda O
 akolunaku O
 olumu O
 mu O
-nnaku O
-21 O
+nnaku B-DATE
+21 I-DATE
 zokka O
 . O
 
@@ -9271,10 +9271,10 @@ obukadde O
 era O
 njagala O
 mu O
-mwaka B-DATE
-gumu I-DATE
-okuva I-DATE
-kati I-DATE
+mwaka O
+gumu O
+okuva O
+kati O
 mbeere O
 nga O
 mmaze O
@@ -9306,8 +9306,8 @@ sitemawo O
 miti O
 . O
 
-Vincent B-PER
-Mulindwa I-PER
+Vincent O
+Mulindwa O
 , O
 atuula O
 ku O
@@ -9325,7 +9325,7 @@ okuzimba O
 ekyuma O
 ekinene O
 e O
-Nammanve B-LOC
+Nammanve O
 basobole O
 okusunsula O
 emmwaanyi O
@@ -9431,7 +9431,7 @@ Solskjaer I-PER
 alaze O
 abazannyi O
 abaamukubizza O
-Arsenal O
+Arsenal B-ORG
 nayogera O
 kyazzaako O
 . O
@@ -9481,7 +9481,7 @@ SS O
 mu O
 ggombolola O
 ye O
-Nyimbwa B-LOC
+Nyimbwa O
 nga O
 April B-DATE
 . O
@@ -9517,10 +9517,10 @@ wano O
 nayolekera O
 ebbala O
 ya O
-Auto B-ORG
-Spa I-ORG
+Auto O
+Spa O
 e O
-Munyonyo O
+Munyonyo B-LOC
 gyeyasanze O
 byana O
 biwala O
@@ -9552,10 +9552,10 @@ Ekifo O
 kya O
 Qualicel O
 kimaze O
-emyakka O
-egisoba O
-mu O
-13 O
+emyakka B-DATE
+egisoba I-DATE
+mu I-DATE
+13 I-DATE
 nga O
 kikayanirwa O
 abagagga O
@@ -9575,7 +9575,7 @@ wamu O
 ne O
 famile O
 y'omugenzi O
-Muhangi O
+Muhangi B-PER
 ( O
 eyafudde O
 gye O
@@ -9590,8 +9590,8 @@ gye O
 buvudeko O
 ekiwayi O
 kya O
-Drake O
-Lubega O
+Drake B-PER
+Lubega I-PER
 kyazeemu O
 ne O
 kyeddiza O
@@ -9632,8 +9632,8 @@ okuli O
 Drake O
 Lubega O
 ne O
-Mansur O
-Yangaabali O
+Mansur B-PER
+Yangaabali I-PER
 ku O
 ludda O
 olumu O
@@ -9679,9 +9679,9 @@ wa O
 palamenti O
 . O
 
-Ku O
-ssaawa O
-eno O
+Ku B-DATE
+ssaawa I-DATE
+eno I-DATE
 , O
 yaakola O
 nga O
@@ -9695,7 +9695,7 @@ Esther B-PER
 Nakajjigo I-PER
 ali O
 mu O
-Amerika O
+Amerika B-LOC
 ku O
 misomo O
 . O
@@ -9706,11 +9706,11 @@ baasooka O
 kudduukirirwa O
 Maneja O
 wa O
-Kira O
-Young O
+Kira B-ORG
+Young I-ORG
 , O
-Jimmy B-PER
-Lukwago I-PER
+Jimmy O
+Lukwago O
 ngono O
 yabawa O
 emigogo O
@@ -9724,8 +9724,8 @@ kamu O
 Entabwe O
 yavudde O
 ku O
-Noel B-PER
-Nabatanzi I-PER
+Noel O
+Nabatanzi O
 , O
 30 O
 okukuba O
@@ -9743,11 +9743,11 @@ eri O
 aboobuyinza O
 nabo O
 abamukwasizza O
-poliisi O
-ye O
-Kakungulu O
+poliisi B-ORG
+ye I-ORG
+Kakungulu I-ORG
 mu O
-Kawempe B-LOC
+Kawempe O
 . O
 
 Omulangira O
@@ -9770,9 +9770,9 @@ ekirimu O
 omubaka O
 Bobi O
 Wine O
-mu O
-kiseera O
-kino O
+mu B-DATE
+kiseera I-DATE
+kino I-DATE
 eyavuddeyo O
 nalangirira O
 nti O
@@ -9951,12 +9951,12 @@ banne O
 mwe O
 baagalira O
 Kabaka O
-Mutebi B-PER
-II I-PER
+Mutebi O
+II O
 asiime O
 abakyazeeko O
 mu O
-Lubiri B-LOC
+Lubiri O
 . O
 
 Akubiriza O
@@ -10030,20 +10030,20 @@ omulambo O
 mu O
 ggwanika O
 e O
-Masaka B-LOC
+Masaka O
 gwekebejjebwe O
 . O
 
 Omubaka O
-Allan O
-Ssewanyana O
-Makindye B-LOC
-West I-LOC
+Allan B-PER
+Ssewanyana I-PER
+Makindye O
+West O
 , O
 Meeya O
-Ali B-PER
-Nganda I-PER
-Mulyannyama I-PER
+Ali O
+Nganda O
+Mulyannyama O
 , O
 omumyuka O
 we O
@@ -10056,9 +10056,9 @@ Kabonge O
 , O
 Dr O
 . O
-Sarah O
-Nkonge O
-Muwonge O
+Sarah B-PER
+Nkonge I-PER
+Muwonge I-PER
 nabanene O
 abalala O
 beetabye O
@@ -10177,21 +10177,21 @@ ebbanga O
 Omubaka O
 Allan O
 Ssewanyana O
-Makindye B-LOC
-West I-LOC
+Makindye O
+West O
 , O
 Meeya O
-Ali O
-Nganda O
-Mulyannyama O
+Ali B-PER
+Nganda I-PER
+Mulyannyama I-PER
 , O
 omumyukawe O
 Bosco B-PER
 Lusagala I-PER
 , O
 kansala O
-Frank O
-Kabonge O
+Frank B-PER
+Kabonge I-PER
 , O
 Dr O
 . O
@@ -10206,7 +10206,7 @@ Mmisa O
 eno O
 . O
 
-Kadaga O
+Kadaga B-PER
 yagambye O
 nti O
 kyenyamiza O
@@ -10243,7 +10243,7 @@ omukwano O
 
 Yagasseeko O
 nti O
-Nsanja B-PER
+Nsanja O
 alina O
 okutwalibwa O
 mu O
@@ -10258,17 +10258,17 @@ babasibe O
 bano O
 okukomawo O
 nga O
-March B-DATE
-19 I-DATE
-, I-DATE
-2019 I-DATE
+March O
+19 O
+, O
+2019 O
 . O
 
 Omwaka O
 gwebyensimbi O
 ogwayita O
 , O
-KCCA B-ORG
+KCCA O
 yali O
 ebaliridde O
 okukunganya O
@@ -10295,8 +10295,8 @@ webyensimbi O
 mu O
 ggwanga O
 , O
-Maria O
-Kiwanuka O
+Maria B-PER
+Kiwanuka I-PER
 ne O
 bazina O
 amazina O
@@ -10309,7 +10309,7 @@ guno O
 ogwakomekkerezeddwa O
 eggulo O
 ku O
-Lwomukaaga O
+Lwomukaaga B-DATE
 . O
 
 Mu O
@@ -10319,9 +10319,9 @@ Tulinawe B-PER
 yali O
 aloopye O
 omugenzi O
-Andrew B-PER
-Felix I-PER
-Kaweesi I-PER
+Andrew O
+Felix O
+Kaweesi O
 eyali O
 aduumira O
 polisi O
@@ -10412,9 +10412,9 @@ bye O
 bakkaanyaako O
 kwe O
 kwali O
-Kadaga O
+Kadaga B-PER
 okuzimbira O
-Akuze O
+Akuze B-PER
 ennyumba O
 ya O
 bukadde O
@@ -10433,15 +10433,15 @@ bukadde O
 nebirala O
 . O
 
-Kagimu O
+Kagimu B-PER
 alumbye O
-Nambooze O
+Nambooze B-PER
 nagamba O
 nti O
 , O
 ebisanja O
 ebisatu O
-Nambooze O
+Nambooze B-PER
 byakulemberedde O
 abe O
 Mukono B-LOC
@@ -10452,12 +10452,12 @@ nga O
 kyegasa O
 . O
 
-Baguma B-PER
+Baguma O
 yasabye O
 abakyala O
 nga O
 bakuza O
-olunaku B-DATE
+olunaku O
 lwabwe O
 bajukire O
 okukomya O
@@ -10477,8 +10477,8 @@ mu O
 Lwengo B-LOC
 , O
 Hajji O
-Abudaratif B-PER
-Jjuuko I-PER
+Abudaratif O
+Jjuuko O
 asabye O
 Abasiraamu O
 obutekkiriranya O
@@ -10506,13 +10506,13 @@ nga O
 Obulamu O
 bwensi O
 bunyuma O
-kiro O
+kiro B-DATE
 , O
 Ekyanjagaza O
 owange O
 , O
 Mu O
-Uganda O
+Uganda B-LOC
 tunywa O
 ki O
 nendala O
@@ -10523,8 +10523,8 @@ Kansala O
 weggombolola O
 eno O
 , O
-Joseph B-PER
-Ssempijja I-PER
+Joseph O
+Ssempijja O
 agambye O
 nti O
 essomero O
@@ -10574,9 +10574,9 @@ ofaanane O
 ngabalala O
 . O
 
-Peter B-PER
-Masaba I-PER
-Woniala I-PER
+Peter O
+Masaba O
+Woniala O
 agamba O
 nti O
 essakalamentu O
@@ -10585,8 +10585,8 @@ Matrimonio O
 lyandibadde O
 terifunibwa O
 ku O
-Lwakutaano O
-Lutukuvu O
+Lwakutaano B-DATE
+Lutukuvu I-DATE
 kubanga O
 tuba O
 tujjukira O
@@ -10662,7 +10662,7 @@ bbasitoola O
 mu O
 bitundu O
 bye O
-Luzira O
+Luzira B-LOC
 , O
 nga O
 zaali O
@@ -10674,14 +10674,14 @@ abatuuze O
 mu O
 bitundu O
 okuli O
-Luzira B-LOC
-Portbell I-LOC
+Luzira O
+Portbell O
 , O
-Kitintale B-LOC
+Kitintale O
 , O
-Biina O
+Biina B-LOC
 , O
-Mutungo O
+Mutungo B-LOC
 , O
 nebifo O
 ebiriraanyewo O
@@ -10693,19 +10693,19 @@ oluvannyuma O
 lweyali O
 omubaka O
 wa O
-Arua O
+Arua B-LOC
 , O
 Ibrahim B-PER
 Abiriga I-PER
 okuttibwa O
 , O
-Nambooze B-PER
+Nambooze O
 yasimbibwa O
 mu O
 kkooti O
 yomulamuzi O
-Noah B-PER
-Ssajjabbi I-PER
+Noah O
+Ssajjabbi O
 e O
 Nakawa B-LOC
 ne O
@@ -10772,7 +10772,7 @@ buvuddeko O
 aba O
 bbanka O
 ya O
-Stanbic O
+Stanbic B-ORG
 baategese O
 akabaga O
 kwe O
@@ -10792,8 +10792,8 @@ okwabadde O
 Winne B-PER
 Nakate I-PER
 ne O
-Jane B-PER
-Kabasinguzi I-PER
+Jane O
+Kabasinguzi O
 baakulukusizza O
 amaziga O
 nga O
@@ -10816,7 +10816,7 @@ nga O
 Ye O
 nnyina O
 womwana O
-Nabatanzi B-PER
+Nabatanzi O
 yalaze O
 okunyolwa O
 olwa O
@@ -10832,7 +10832,7 @@ okutegeeza O
 ku O
 bba O
 ku O
-Lwomukaaga O
+Lwomukaaga B-DATE
 omwana O
 lwe O
 yabula O
@@ -10853,9 +10853,9 @@ biki O
 . O
 
 OMUYIMBI O
-Saava B-PER
-Karim I-PER
-Nsubuga I-PER
+Saava O
+Karim O
+Nsubuga O
 eyayimba O
 Ggaba O
 ku O
@@ -10866,12 +10866,12 @@ engule O
 eyenkizo O
 eyomuyimbi O
 wa O
-Afrika O
+Afrika B-LOC
 asinze O
 okutumbula O
 ebyenyimba O
 za O
-Afrika B-LOC
+Afrika O
 nebyobuwangwa O
 mu O
 nsi O
@@ -10913,10 +10913,10 @@ atongoza O
 
 Guddamu O
 nga O
-March B-DATE
-22 I-DATE
-, I-DATE
-2019 I-DATE
+March O
+22 O
+, O
+2019 O
 . O
 
 Yagambye O
@@ -10949,8 +10949,8 @@ embuzi O
 nebirala O
 era O
 ne O
-Full B-PER
-Figure I-PER
+Full O
+Figure O
 eyakazibwako O
 obwa O
 Ssenga O
@@ -10958,7 +10958,7 @@ wabaana O
 mu O
 maka O
 ga O
-Sipapa B-PER
+Sipapa O
 naye O
 teyalutumiddwa O
 mwana O
@@ -10985,10 +10985,10 @@ Ssentebe O
 wa O
 Ssebina B-LOC
 zooni I-LOC
-Jafaali O
-Ssengendo O
+Jafaali B-PER
+Ssengendo I-PER
 yategeezezza O
-Bukedde B-ORG
+Bukedde O
 ku O
 ssimu O
 nti O
@@ -11031,8 +11031,8 @@ enjiri O
 gyaliko O
 era O
 yawagiddwa O
-Faith O
-Nanyonjo O
+Faith B-PER
+Nanyonjo I-PER
 akulira O
 abakyala O
 mu O
@@ -11042,15 +11042,15 @@ Bweyogerere O
 . O
 
 Waakuwerekerwako O
-Gerry O
-Opoka O
+Gerry B-PER
+Opoka I-PER
 , O
 Latif O
 Muyanja O
 , O
 ne O
-Robert O
-Damulira O
+Robert B-PER
+Damulira I-PER
 abeegulidde O
 amannya O
 mu O
@@ -11205,8 +11205,8 @@ ka O
 Yozefu O
 Omutuukirivu O
 akatwala O
-Vision B-ORG
-Group I-ORG
+Vision O
+Group O
 era O
 nga O
 ye O
@@ -11226,9 +11226,9 @@ buno O
 obwekisiibo O
 . O
 
-Joseph O
-Mary O
-Bbuye O
+Joseph B-PER
+Mary I-PER
+Bbuye I-PER
 yasabye O
 Abakristu O
 okukozesa O
@@ -11246,9 +11246,9 @@ naddala O
 abata O
 kazambi O
 mu O
-biseera B-DATE
-ngenkuba I-DATE
-etonnye I-DATE
+biseera O
+ngenkuba O
+etonnye O
 . O
 
 Nkola O
@@ -11274,7 +11274,7 @@ Harunah B-PER
 Kiggundu I-PER
 eyasiimye O
 omubaka O
-Lubyayi O
+Lubyayi B-PER
 olwokubawa O
 ppiki O
 ppiki O
@@ -11297,7 +11297,7 @@ Dr O
 Ssali O
 yabategeeza O
 nti O
-Ayiru B-PER
+Ayiru O
 yafa O
 oluvannyuma O
 lwokubulwa O
@@ -11345,7 +11345,7 @@ obutebenkevu O
 mu O
 kulonda O
 kwa O
-2021 B-DATE
+2021 O
 nokutendeka O
 abaserikale O
 abamadaala O
@@ -11379,14 +11379,14 @@ Airtel B-ORG
 ku O
 ofiisi O
 za O
-Bukedde B-ORG
+Bukedde O
 wano O
 mu O
 kibangirizi O
 kya O
 bannamakolero O
 mu O
-Kampala B-LOC
+Kampala O
 nebirala O
 ebinaalangirirwa O
 . O
@@ -11427,7 +11427,7 @@ nagamba O
 nti O
 okulwanagana O
 kiwa O
-NRM O
+NRM B-ORG
 mukisa O
 gubamegga O
 . O
@@ -11443,11 +11443,11 @@ Lt O
 . O
 Col O
 . O
-Edith O
-Nakalema O
+Edith B-PER
+Nakalema I-PER
 owa O
-AntiCorruption O
-Unit O
+AntiCorruption B-ORG
+Unit I-ORG
 okulwanyisa O
 obukenuzi O
 mu O
@@ -11457,7 +11457,7 @@ Gavumenti O
 era O
 nga O
 wano O
-Ngabirano O
+Ngabirano B-PER
 we O
 yanokolwayo O
 mu O
@@ -11473,8 +11473,8 @@ mu O
 kkooti O
 kiddiridde O
 omugagga O
-Francis O
-Kakumba O
+Francis B-PER
+Kakumba I-PER
 okumuggulako O
 omusango O
 gwokumuggyako O
@@ -11487,8 +11487,8 @@ ngamusuubiza O
 okuwa O
 mutabani O
 we O
-Isaac B-PER
-Muyanja I-PER
+Isaac O
+Muyanja O
 ekifo O
 ku O
 kakiiko O
@@ -11502,7 +11502,7 @@ Board O
 
 Omulamuzi O
 yalagidde O
-Vivienne O
+Vivienne B-PER
 azzibwe O
 ku O
 limanda O
@@ -11520,8 +11520,8 @@ wa O
 poliisi O
 mu O
 ggwanga O
-Fred B-PER
-Enanga I-PER
+Fred O
+Enanga O
 yagambye O
 nti O
 , O
@@ -11574,7 +11574,7 @@ nobukessi O
 Ku O
 lwa O
 banne O
-Kazibwe O
+Kazibwe B-PER
 asabye O
 Katikkiro O
 nti O
@@ -11583,9 +11583,9 @@ okukolagana O
 nebitonge O
 byObwakabaka O
 okuli O
-Ekibiina B-ORG
-kyOlulimi I-ORG
-Oluganda I-ORG
+Ekibiina O
+kyOlulimi O
+Oluganda O
 okutumbula O
 olulimi O
 luno O
@@ -11614,7 +11614,7 @@ Kabaka O
 
 Nnakaweesi B-PER
 ne O
-Ndaula O
+Ndaula B-PER
 baasabye O
 abawagizi O
 ba O
@@ -11643,10 +11643,10 @@ Mulimu O
 ebiragiro O
 omutendesi O
 wa O
-Arsenal B-ORG
+Arsenal O
 , O
-Unai O
-Emery O
+Unai B-PER
+Emery I-PER
 byawadde O
 abazannyi O
 be O
@@ -11663,7 +11663,7 @@ Europa O
 
 Dr O
 . O
-Kiggundu B-PER
+Kiggundu O
 kwe O
 kutandika O
 bbanka O
@@ -11695,8 +11695,8 @@ tugenda O
 kubeera O
 nga O
 tusaba O
-buli O
-lunaku O
+buli B-DATE
+lunaku I-DATE
 , O
 okwenenya O
 , O
@@ -11734,7 +11734,7 @@ Nathan O
 Mugalu O
 Balilwana O
 owe O
-Luzira B-LOC
+Luzira O
 agamba O
 nti O
 okwawukanako O
@@ -11769,7 +11769,7 @@ emirimu O
 gyabavubuka O
 . O
 
-Nanfuka B-PER
+Nanfuka O
 yategeezezza O
 akakiiko O
 nti O
@@ -11782,11 +11782,11 @@ kati O
 yabudama O
 Kasangati B-LOC
 ate O
-Namugga O
+Namugga B-PER
 abeera O
 Wampeewo O
 mu O
-Kito B-LOC
+Kito O
 , O
 e O
 Kamwokya O
@@ -11798,8 +11798,8 @@ Omusango O
 guno O
 gwaweereddwa O
 omuamuzi O
-Anna B-PER
-Mugenyi I-PER
+Anna O
+Mugenyi O
 yanaaguwulira O
 . O
 
@@ -11875,7 +11875,7 @@ akanaddako O
 omwaka O
 guno O
 , O
-Kasasa O
+Kasasa B-PER
 bwategeezezza O
 . O
 
@@ -11886,9 +11886,9 @@ March I-DATE
 , I-DATE
 2019 I-DATE
 Katikkiro O
-Charles B-PER
-Peter I-PER
-Mayiga I-PER
+Charles O
+Peter O
+Mayiga O
 yagabula O
 baminisita O
 ba O
@@ -11927,7 +11927,7 @@ ekirowoozebwa O
 nti O
 yafa O
 kyokka O
-KCCA O
+KCCA B-ORG
 ne O
 tabawa O
 mulambo O
@@ -11936,11 +11936,11 @@ gwabwe O
 
 Mwebaze O
 yawadde O
-Mawanda B-PER
+Mawanda O
 ne O
 Nekusa O
-ennaku B-DATE
-ezenjawulo I-DATE
+ennaku O
+ezenjawulo O
 bamusisinkane O
 ku O
 ofiisi O
@@ -11948,7 +11948,7 @@ ye O
 mu O
 CPS B-LOC
 mu O
-Kampala O
+Kampala B-LOC
 bongere O
 okugonjoola O
 ensonga O
@@ -11957,8 +11957,8 @@ olwo O
 oluvannyuma O
 addeyo O
 e O
-Kireka O
-Bbira O
+Kireka B-LOC
+Bbira I-LOC
 asisinkane O
 abatuuze O
 be O
@@ -12007,7 +12007,7 @@ nnamba O
 0751809940 O
 . O
 
-OLWALEERO O
+OLWALEERO B-DATE
 Nansana O
 Munisipaali O
 lwegenda O
@@ -12017,7 +12017,7 @@ olupya O
 oluvannyuma O
 lwa O
 mmeeya O
-Bakitte B-PER
+Bakitte O
 okugoba O
 bonna O
 beyasooka O
@@ -12026,11 +12026,11 @@ nabo O
 . O
 
 Akulira O
-UNATU B-ORG
+UNATU O
 mu O
-Munisipaali O
-ye O
-Mukono O
+Munisipaali B-LOC
+ye I-LOC
+Mukono I-LOC
 , O
 Lydia B-PER
 Nakachwa I-PER
@@ -12050,9 +12050,9 @@ ababatwala O
 babalowoozaako O
 . O
 
-Keneth B-PER
-Paul I-PER
-Kakande I-PER
+Keneth O
+Paul O
+Kakande O
 bino O
 ye O
 yabitegeezezza O
@@ -12076,7 +12076,7 @@ kusomesebwa O
 ku O
 bwetaavu O
 bwa O
-Uganda B-LOC
+Uganda O
 okufuna O
 amakkolero O
 agawera O
@@ -12094,9 +12094,9 @@ Namaganda O
 yayingira O
 poliisi O
 mu O
-1989 O
-okutuusa O
-kati O
+1989 B-DATE
+okutuusa I-DATE
+kati I-DATE
 . O
 
 Nanfuka O
@@ -12110,11 +12110,11 @@ obuyambi O
 tabufunye O
 kati O
 yabudama O
-Kasangati B-LOC
+Kasangati O
 ate O
 Namugga B-PER
 abeera O
-Wampeewo B-LOC
+Wampeewo O
 mu O
 Kito O
 , O
@@ -12148,7 +12148,7 @@ abasuubuzi O
 bagaanibwa O
 okuyita O
 e O
-Katuna O
+Katuna B-LOC
 ne O
 balabulwa O
 nga O
@@ -12218,7 +12218,7 @@ muntu O
 yenna O
 . O
 
-Kizza O
+Kizza B-PER
 yaggaliddwa O
 oluvannyuma O
 lwokuggulako O
@@ -12233,14 +12233,14 @@ SD O
 Ebikujjuko O
 byAbajulizi O
 byakumala O
-wiiki O
-nnamba O
+wiiki B-DATE
+nnamba I-DATE
 okutandika O
 ne O
-May B-DATE
-26 I-DATE
-, I-DATE
-2019 I-DATE
+May O
+26 O
+, O
+2019 O
 okutuuka O
 nga O
 June B-DATE
@@ -12257,8 +12257,8 @@ March B-DATE
 2019 I-DATE
 . O
 
-Steven O
-Lusiba O
+Steven B-PER
+Lusiba I-PER
 , O
 Bwanamukulu O
 wekigo O
@@ -12268,14 +12268,14 @@ Lutikko O
 ku O
 ssomero O
 lya O
-Fremma O
-Day O
-and O
-Boarding O
+Fremma B-ORG
+Day I-ORG
+and I-ORG
+Boarding I-ORG
 e O
-Kitinkokola O
+Kitinkokola B-LOC
 mu O
-Mityana B-LOC
+Mityana O
 ngakulembeddemu O
 Mmisa O
 eyokusabira O
@@ -12304,7 +12304,7 @@ Youth O
 Center O
 yeebazizza O
 aba O
-Airtel O
+Airtel B-ORG
 olwendagaano O
 gye O
 baakoze O
@@ -12314,8 +12314,8 @@ Yagambye O
 nti O
 kino O
 kikolebwa O
-buli O
-mwaka O
+buli B-DATE
+mwaka I-DATE
 okusobola O
 okuteekateeka O
 abayizi O
@@ -12339,11 +12339,11 @@ ku O
 Bukedde O
 TV1 O
 ku O
-Lwokutaano B-DATE
-ku I-DATE
-ssaawa I-DATE
-1030 I-DATE
-ezolweggulo I-DATE
+Lwokutaano O
+ku O
+ssaawa O
+1030 O
+ezolweggulo O
 ne O
 ku O
 Lwomukaaga O
@@ -12404,7 +12404,7 @@ lyomufu O
 terikyusibwa O
 . O
 
-Lutalo O
+Lutalo B-PER
 olwalinnye O
 ku O
 siteegi O
@@ -12444,12 +12444,12 @@ mu O
 maaso O
 . O
 
-Justine B-PER
-Byeganje I-PER
+Justine O
+Byeganje O
 32 O
 mukyala O
 wa O
-Mukasa O
+Mukasa B-PER
 ategeezezza O
 nti O
 omuliro O
@@ -12478,10 +12478,10 @@ Nabulime O
 4 O
 ne O
 Prince O
-Mukasa O
+Mukasa B-PER
 2 O
 ngokusimatuuka O
-Dambya O
+Dambya B-PER
 mukulu O
 ku O
 bbo O
@@ -12497,8 +12497,8 @@ nabafulumya O
 
 Ate O
 ye O
-Joanitah B-PER
-Kawalya I-PER
+Joanitah O
+Kawalya O
 abakubirizza O
 okusoka O
 okunyweza O
@@ -12516,11 +12516,11 @@ Mu O
 Byemizannyo O
 Tukulaze O
 engeri O
-ManU O
+ManU B-ORG
 gyewera O
 okufaafaagana O
 ne O
-PSG O
+PSG B-ORG
 bwe O
 banaaba O
 balwanira O
@@ -12528,9 +12528,9 @@ Quarter O
 ya O
 Champions O
 league O
-leero B-DATE
-ku I-DATE
-Lwokusatu I-DATE
+leero O
+ku O
+Lwokusatu O
 . O
 
 Abatuuze O
@@ -12632,14 +12632,14 @@ okuli O
 Minisita O
 Omubeezi O
 owebyobulambuzi O
-Rita O
-Namyalo O
-Kisitu O
+Rita B-PER
+Namyalo I-PER
+Kisitu I-PER
 nga O
 yakwasizza O
-David O
-Kyewalabye O
-Male O
+David B-PER
+Kyewalabye I-PER
+Male I-PER
 kati O
 atwala O
 ebyobulambuzi O
@@ -12648,13 +12648,13 @@ ebyobulambuzi O
 Mu O
 kiseera O
 kino O
-Kawala O
+Kawala B-PER
 akyapooca O
 nebiwundu O
 mu O
 ddwaaliro O
 e O
-Kiruddu O
+Kiruddu B-LOC
 . O
 
 Lumumba B-PER
@@ -12734,7 +12734,7 @@ kya O
 Pajero O
 eyali O
 evvugibwa O
-Jayden O
+Jayden B-PER
 ye O
 yakozesebwa O
 okumutomera O
@@ -12758,9 +12758,9 @@ okubeera O
 mu O
 gwanga O
 lya O
-Tanzania B-LOC
-omwezi B-DATE
-gwokuna I-DATE
+Tanzania O
+omwezi O
+gwokuna O
 nga O
 zategekeddwa O
 CAF O
@@ -12769,8 +12769,8 @@ eyambibwako O
 UEFA B-ORG
 . O
 
-Mukiseera B-DATE
-kino I-DATE
+Mukiseera O
+kino O
 aKuumirwa O
 ku O
 Poliisi B-ORG
@@ -12870,13 +12870,13 @@ esasule O
 abasuubuzi O
 bano O
 noluvannyuma O
-South B-LOC
-Sudan I-LOC
+South O
+Sudan O
 bweriterera O
 esasule O
 gavumenti O
 ya O
-Uganda O
+Uganda B-LOC
 ebbanja O
 lino O
 . O
@@ -12940,9 +12940,9 @@ endwadde O
 Yabasabye O
 okugema O
 ebisolo O
-buli B-DATE
-myezi I-DATE
-mukaaga I-DATE
+buli O
+myezi O
+mukaaga O
 . O
 
 Omusango O
@@ -12972,7 +12972,7 @@ obulala O
 . O
 
 Wabula O
-Kato O
+Kato B-PER
 bwe O
 yakwatiddwa O
 yategeezezza O
@@ -13016,7 +13016,7 @@ Ssente O
 obukadde O
 10 O
 , O
-Mawanda O
+Mawanda B-PER
 zabadde O
 alina O
 okuwa O
@@ -13053,7 +13053,7 @@ maaso O
 Ssaabasumba O
 yeebazizza O
 nnyo O
-Magoola B-PER
+Magoola O
 ne O
 mukyala O
 we O
@@ -13095,8 +13095,8 @@ wa O
 poliisi O
 mu O
 ggwanga O
-Fred O
-Enanga O
+Fred B-PER
+Enanga I-PER
 yategeezezza O
 Bukedde O
 nti O
@@ -13106,7 +13106,7 @@ zirina O
 kukwasibwa O
 kitongole O
 kya O
-CID O
+CID B-ORG
 kinoonyereze O
 era O
 bwe O
@@ -13140,7 +13140,7 @@ mu O
 Uganda B-LOC
 ebintu O
 ebikolako O
-Rugunda O
+Rugunda B-PER
 bwe O
 yagambye O
 ngali O
@@ -13149,10 +13149,10 @@ mukolo O
 ku O
 ddwaaliro O
 lya O
-Kamukira O
-Health O
-Centre O
-IV O
+Kamukira B-ORG
+Health I-ORG
+Centre I-ORG
+IV I-ORG
 mu O
 kibuga O
 Kabale O
@@ -13171,18 +13171,18 @@ emyaka B-DATE
 bukya O
 ssaza O
 lya O
-Kasana O
-Luweero O
+Kasana B-LOC
+Luweero I-LOC
 litandikibwawo O
 nga O
 likutulwa O
 ku O
 lya O
-Kampala B-LOC
+Kampala O
 . O
 
-Ragga O
-Dee O
+Ragga B-PER
+Dee I-PER
 ayitiddwa O
 ne O
 maneja O
@@ -13206,10 +13206,10 @@ ayise O
 abazannyi O
 46 O
 okwetegekera O
-Tanzania B-LOC
+Tanzania O
 mu O
 za O
-Afrika O
+Afrika B-LOC
 nga O
 mulimu O
 nazannyira O
@@ -13224,11 +13224,11 @@ Akankwasa I-PER
 akulira O
 ettendekero O
 lya O
-Mildmay B-ORG
-School I-ORG
-of I-ORG
-health I-ORG
-Sciences I-ORG
+Mildmay O
+School O
+of O
+health O
+Sciences O
 yomu O
 ku O
 baasanyukidde O
@@ -13270,20 +13270,20 @@ yamututte O
 mu O
 ddwaaliro O
 e O
-Mulago O
+Mulago B-LOC
 oluvannyuma O
 gye O
 yaggyiddwa O
 natwalibwa O
 mu O
-ddwaaliro B-ORG
-lye I-ORG
-Kiruddu I-ORG
+ddwaaliro O
+lye O
+Kiruddu O
 . O
 
 Ate O
-Christopher B-PER
-Conne I-PER
+Christopher O
+Conne O
 yakubirizza O
 abayizi O
 okwagala O
@@ -13293,13 +13293,13 @@ nokukujjumbira O
 
 Afiiridde O
 ku O
-myakka O
-63 O
+myakka B-DATE
+63 I-DATE
 era O
 nga O
 yaziikidwa O
 e O
-Busukuma B-LOC
+Busukuma O
 okumpi O
 ne O
 Gombolola O
@@ -13358,9 +13358,9 @@ omulimu O
 guno O
 ogwatandika O
 mu O
-mwaka O
-gwa O
-2014 O
+mwaka B-DATE
+gwa I-DATE
+2014 I-DATE
 nga O
 kati O
 bali O
@@ -13392,20 +13392,20 @@ omutendesi O
 omujuvu O
 . O
 
-Deborah B-PER
-Nalwogga I-PER
+Deborah O
+Nalwogga O
 nga O
 ye O
 Jjajja O
 wa O
-Semakula O
+Semakula B-PER
 eyattibwa O
 agamba O
 nti O
 ekisinga O
 okumuluma O
 ye O
-Senfuka B-PER
+Senfuka O
 okumugamba O
 nga O
 omwavu O
@@ -13413,9 +13413,9 @@ tawooza O
 musango O
 era O
 atwala O
-poliisi O
-ye O
-Matugga O
+poliisi B-ORG
+ye I-ORG
+Matugga I-ORG
 asabye O
 abatuuze O
 okubeera O
@@ -13431,7 +13431,7 @@ Omubaka O
 wa O
 Kabaka O
 e O
-California O
+California B-LOC
 mu O
 2015 B-DATE
 era O
@@ -13474,7 +13474,7 @@ mu O
 kkuumiro O
 lyebisolo O
 e O
-Ntebe O
+Ntebe B-LOC
 . O
 
 Wabula O
@@ -13493,8 +13493,8 @@ basajja O
 be O
 . O
 
-Samuel B-PER
-Luwaga I-PER
+Samuel O
+Luwaga O
 eyakulembedde O
 aba O
 Orthodox O
@@ -13517,13 +13517,13 @@ ku O
 bbali O
 . O
 
-Ssewungu B-PER
+Ssewungu O
 yabadde O
 Lusaana B-LOC
 mu O
-Kalungu O
-Town O
-Council O
+Kalungu B-LOC
+Town I-LOC
+Council I-LOC
 naye O
 nawera O
 nti O
@@ -13582,12 +13582,12 @@ amazzi O
 okusobola O
 okufukirira O
 mu O
-biseera O
-byakasana O
+biseera B-DATE
+byakasana I-DATE
 . O
 
 Oluvannyuma O
-Nyende B-PER
+Nyende O
 naye O
 yayabulidde O
 olukiiko O
@@ -13598,17 +13598,17 @@ emususseeko O
 . O
 
 Yanokoddeyo O
-Makokonyigo B-ORG
+Makokonyigo O
+PS O
+, O
+Lukomera B-ORG
 PS I-ORG
 , O
-Lukomera O
-PS O
+Nsaasi O
+Umea O
 , O
-Nsaasi B-ORG
-Umea I-ORG
-, O
-Kayindu O
-PS O
+Kayindu B-ORG
+PS I-ORG
 namalala O
 agali O
 mu O
@@ -13626,7 +13626,7 @@ palamenti O
 era O
 gwagobeddwa O
 ku O
-Lwokutaano O
+Lwokutaano B-DATE
 . O
 
 Abavitenam O
@@ -13659,7 +13659,7 @@ obuyambi O
 asobola O
 okutuuka O
 ku O
-Nanjule B-PER
+Nanjule O
 ngayita O
 ku O
 ssimu O
@@ -13780,17 +13780,17 @@ byabasuubuzi O
 bano O
 okuvaayo O
 kidiride O
-Drake O
-Lubega O
+Drake B-PER
+Lubega I-PER
 okuyita O
 abasuubuzi O
 abakolera O
 mu O
 kizimbe O
 kya O
-Qualicel O
-Bus O
-Terminal O
+Qualicel B-LOC
+Bus I-LOC
+Terminal I-LOC
 mu O
 lukiiko O
 olwamangu O
@@ -13810,9 +13810,9 @@ nokubawa O
 akakwakulizo O
 kokuzimusasula O
 nga O
-ennaku O
-zomwezi O
-5March2019 O
+ennaku B-DATE
+zomwezi I-DATE
+5March2019 I-DATE
 tezinayitawo O
 . O
 
@@ -13834,7 +13834,7 @@ bizinensi O
 
 Bino O
 Bishop O
-Kirabo B-PER
+Kirabo O
 abyogeredde O
 ku O
 mukolo O
@@ -13843,12 +13843,12 @@ ebikolebwa O
 mu O
 tendekero O
 lya O
-Uganda O
-Martyrs O
+Uganda B-ORG
+Martyrs I-ORG
 e O
-Nkozi B-LOC
+Nkozi O
 mu O
-Mpigi O
+Mpigi B-LOC
 nakuutira O
 abayizi O
 okwekwata O
@@ -13902,12 +13902,12 @@ lino O
 . O
 
 Fr O
-Muyingo O
+Muyingo B-PER
 owekibiina O
 kya O
-Blessed O
-Sacrament O
-Congregation O
+Blessed B-ORG
+Sacrament I-ORG
+Congregation I-ORG
 yeeyamye O
 okuweereeza O
 Omukama O
@@ -13929,7 +13929,7 @@ Kaujju I-PER
 yategeezezza O
 ngetteeka O
 lya O
-KCCA O
+KCCA B-ORG
 bwe O
 litakkiriza O
 batembeeyi O
@@ -14014,15 +14014,15 @@ okulinda O
 ekiddako O
 . O
 
-Poliisi B-ORG
-ye I-ORG
-Matugga I-ORG
+Poliisi O
+ye O
+Matugga O
 yatutte O
 omulambo O
 mu O
 ddwaaliro O
 e O
-Mulago B-LOC
+Mulago O
 ngokunoonyereza O
 bwe O
 kugenda O
@@ -14073,8 +14073,8 @@ matigga O
 
 Town O
 Clerk O
-Umar O
-Lutalo O
+Umar B-PER
+Lutalo I-PER
 yategeezezza O
 ntimu O
 kusooka O
@@ -14172,7 +14172,7 @@ kyokka O
 neyenyamira O
 olwa O
 banna O
-Mpigi B-LOC
+Mpigi O
 obutajjumbira O
 nkola O
 eno O
@@ -14183,9 +14183,9 @@ Musenne B-PER
 abyogeredde O
 kuttendekero O
 lya O
-Katonga B-ORG
-Technical I-ORG
-Institute I-ORG
+Katonga O
+Technical O
+Institute O
 erisangibwa O
 muggombolola O
 ya O
@@ -14197,8 +14197,8 @@ akiikiridde O
 minisita O
 webyenjigiriza O
 ebyawaggulu O
-JC B-PER
-Muyingo I-PER
+JC O
+Muyingo O
 kumukolo O
 gwokutikkira O
 abayizi O
@@ -14219,10 +14219,10 @@ bitundu O
 bya O
 bweru O
 wa O
-Mpigi B-LOC
+Mpigi O
 nasaba O
 banna O
-Mpigi O
+Mpigi B-LOC
 okukozesa O
 omukisa O
 guno O
@@ -14265,10 +14265,10 @@ bawala O
 . O
 Ssentebe O
 wa O
-Mpigi O
-Peter O
-Clever O
-Mutuluza O
+Mpigi B-LOC
+Peter B-PER
+Clever I-PER
+Mutuluza I-PER
 ategezeza O
 nti O
 singa O
@@ -14311,8 +14311,8 @@ Mu O
 bivvulu O
 ebibadde O
 bikolebwa O
-Fresh O
-Daddy O
+Fresh B-PER
+Daddy I-PER
 babadde O
 bamuwa O
 500 O
@@ -14329,13 +14329,13 @@ ekkanisa O
 okuli O
 omubaka O
 wa O
-Mukono B-LOC
-South I-LOC
+Mukono O
+South O
 mu O
 palamenti O
-Johnson B-PER
-Muyanja I-PER
-Ssenyonga I-PER
+Johnson O
+Muyanja O
+Ssenyonga O
 eyeeyamye O
 okuwaayo O
 ensimbi O
@@ -14349,8 +14349,8 @@ wankaaki O
 ssentebe O
 wa O
 disitulikiti O
-Andrew B-PER
-Ssenyonga I-PER
+Andrew O
+Ssenyonga O
 eyeeyamye O
 okuwaayo O
 obukadde O
@@ -14366,7 +14366,7 @@ emitwalo O
 , O
 eggombolola O
 ye O
-Nakisunga B-LOC
+Nakisunga O
 emitwalo O
 50 O
 nabalala O
@@ -14429,18 +14429,18 @@ wobusuubuzi O
 , O
 Amakolero O
 nobweggasiAmelia O
-Kyambadde B-PER
+Kyambadde O
 bweyabadde O
 agenze O
 ku O
 kizinga O
 kye O
-Buyigamu O
+Buyigamu B-LOC
 gombolola O
 ye O
-Kammengo O
+Kammengo B-LOC
 mu O
-Mpigi B-LOC
+Mpigi O
 nga O
 alambula O
 abalonzibe O
@@ -14465,7 +14465,7 @@ kino O
 , O
 yasabye O
 abe O
-Ndejje O
+Ndejje B-LOC
 batambulire O
 wamu O
 era O
@@ -14478,8 +14478,8 @@ gyenkulaakulana O
 
 Ekyakwatagana O
 ne O
-Vision B-ORG
-Group I-ORG
+Vision O
+Group O
 okulaba O
 ngabantu O
 bafuna O
@@ -14520,9 +14520,9 @@ basatu O
 nomukyala O
 . O
 
-Kamasanyu O
+Kamasanyu B-PER
 yasingisizza O
-Nyanzi O
+Nyanzi B-PER
 omusango O
 ogwokukozesa O
 obubi O
@@ -14540,10 +14540,10 @@ emyezi O
 18 O
 . O
 
-Sylveria O
-Alwoch O
+Sylveria B-PER
+Alwoch I-PER
 owa O
-UNHCO B-ORG
+UNHCO O
 yagambye O
 nti O
 era O
@@ -14582,16 +14582,16 @@ Yasinzidde O
 mu O
 mudaala O
 gwa O
-Bukedde O
+Bukedde B-ORG
 ogwabadde O
 ku O
 kisaawe O
 kya O
-Mehta O
+Mehta B-ORG
 e O
-Lugazi B-LOC
+Lugazi O
 mu O
-Buikwe O
+Buikwe B-LOC
 kampuni O
 ya O
 Vision B-ORG
@@ -14612,26 +14612,26 @@ Yasinzidde O
 mu O
 mudaala O
 gwa O
-Bukedde B-ORG
+Bukedde O
 ogwaabadde O
 ku O
 kisaawe O
 kya O
-Mehta O
+Mehta B-ORG
 e O
-Lugazi B-LOC
+Lugazi O
 mu O
 Buikwe O
 kampuni O
 ya O
-Vision B-ORG
-Group I-ORG
+Vision O
+Group O
 bwe O
 yakwataganye O
 ne O
-Democratic O
-Governance O
-Facility O
+Democratic B-ORG
+Governance I-ORG
+Facility I-ORG
 okumanyisa O
 abantu O
 ku O
@@ -14684,19 +14684,19 @@ MFP O
 Mamuli O
 yayingira O
 obwa O
-LDU B-ORG
+LDU O
 nga O
-september B-DATE
-27 I-DATE
-, I-DATE
-2018 I-DATE
+september O
+27 O
+, O
+2018 O
 natwalibwa O
 e O
 Kaweweta O
 gye O
 yamala O
-emyezi B-DATE
-mukaaga I-DATE
+emyezi O
+mukaaga O
 noluvannyuma O
 nakomawo O
 mu O
@@ -14705,11 +14705,11 @@ gwokusatu I-DATE
 ne O
 bamusindika O
 e O
-Namanve B-LOC
+Namanve O
 gyabadde O
 amaze O
-emyezi B-DATE
-esatu I-DATE
+emyezi O
+esatu O
 nga O
 yattiddwa O
 munne O
@@ -14726,8 +14726,8 @@ Ssaabawolereza O
 wa O
 Gavumenti O
 , O
-William B-PER
-Byaruhanga I-PER
+William O
+Byaruhanga O
 yagambye O
 nti O
 ebintu O
@@ -14746,9 +14746,9 @@ byava O
 
 Tekinnamanyika O
 ddi O
-Hamza O
-Bin O
-Laden O
+Hamza B-PER
+Bin I-PER
+Laden I-PER
 lwe O
 yattiddwa O
 nekifo O
@@ -14763,8 +14763,8 @@ buvuddeko O
 era O
 kati O
 aba O
-al B-ORG
-Qaeda I-ORG
+al O
+Qaeda O
 bali O
 mu O
 kusoberwa O
@@ -14777,22 +14777,22 @@ omupya O
 Amawulire O
 agokuttibwa O
 kwa O
-Hamza B-PER
-bin I-PER
-Laden I-PER
+Hamza O
+bin O
+Laden O
 gaasaasaanyiziddwa O
 emikutu O
 gyamawulire O
 egyenjawulo O
 mu O
-Amerika B-LOC
+Amerika O
 okuli O
-NBC O
-News O
+NBC B-ORG
+News I-ORG
 , O
-New B-ORG
-York I-ORG
-Times I-ORG
+New O
+York O
+Times O
 ne O
 CNN O
 . O
@@ -14893,7 +14893,7 @@ Lwakutaano B-DATE
 . O
 
 Omulamuzi O
-Kamasanyu B-PER
+Kamasanyu O
 agambye O
 nti O
 wakumuwa O
@@ -14911,10 +14911,10 @@ ku O
 muko O
 gwAkeezimbira O
 ku O
-Lwomukaaga B-DATE
+Lwomukaaga O
 . O
 
-Museveni B-PER
+Museveni O
 yasoose O
 kusisinkana O
 bakulembeze O
@@ -14984,8 +14984,8 @@ wababaka O
 ba O
 NRM O
 , O
-Ruth B-PER
-Nankabirwa I-PER
+Ruth O
+Nankabirwa O
 yagambye O
 nti O
 ensonga O
@@ -15002,12 +15002,12 @@ Omusango O
 guno O
 guddamu O
 ku O
-lwokutaano B-DATE
-nga I-DATE
-August I-DATE
-2 I-DATE
-, I-DATE
-2019 I-DATE
+lwokutaano O
+nga O
+August O
+2 O
+, O
+2019 O
 . O
 
 Naye O
@@ -15074,7 +15074,7 @@ Lwokusatu O
 
 Twabadde O
 tukyagenda O
-Mugisha O
+Mugisha B-PER
 nambuuza O
 oba O
 mu O
@@ -15086,7 +15086,7 @@ era O
 bwe O
 twatuuse O
 e O
-Kakiri B-LOC
+Kakiri O
 naddamu O
 okunsaba O
 ssimu O
@@ -15099,7 +15099,7 @@ weyahhambidde O
 nti O
 mmutwale O
 e O
-Kiboga B-LOC
+Kiboga O
 ansasule O
 100 O
 , O
@@ -15122,7 +15122,7 @@ kwe O
 kwagala O
 mmutuuse O
 e O
-Kiboga O
+Kiboga B-LOC
 bafune O
 sente O
 zino O
@@ -15142,7 +15142,7 @@ okuwulira O
 
 ngebintu O
 bya O
-Mugisha B-PER
+Mugisha O
 bizibuwadde O
 ne O
 mmukaliramu O
@@ -15212,7 +15212,7 @@ nabo O
 mu O
 bitundu O
 bye O
-Kiboga B-LOC
+Kiboga O
 , O
 Wakiso O
 , O
@@ -15227,10 +15227,10 @@ omwogezi O
 wa O
 poliisi O
 mu O
-Kampala O
+Kampala B-LOC
 nemiriraano O
-Luke O
-Owoyesigyire O
+Luke B-PER
+Owoyesigyire I-PER
 yagambye O
 nti O
 poliisi O
@@ -15247,7 +15247,7 @@ natwalibwa O
 ku O
 poliisi O
 e O
-Kakiri B-LOC
+Kakiri O
 naggulwako O
 omusango O
 oguli O
@@ -15259,15 +15259,15 @@ SD O
 . O
 Yagambye O
 nti O
-Mugisha O
+Mugisha B-PER
 agenda O
 kuggyibwa O
 e O
-Kakiri O
+Kakiri B-LOC
 akwasibwe O
 aba O
-Flying O
-Squad O
+Flying B-ORG
+Squad I-ORG
 ayogere O
 
 baakolagana O
@@ -15305,7 +15305,7 @@ nti O
 amukozeeko O
 effujjo O
 , O
-Mugumba B-PER
+Mugumba O
 bwe O
 yagambye O
 nakubira O
@@ -15535,7 +15535,7 @@ Yagambye O
 nti O
 okweyawula O
 kuyamba O
-Museveni B-PER
+Museveni O
 era O
 singa O
 tebafuna O
@@ -15652,8 +15652,8 @@ kukuuma O
 embala O
 zebimera O
 mu O
-minisitule B-ORG
-yebyobulimi I-ORG
+minisitule O
+yebyobulimi O
 Stephen O
 Byantwale O
 Tibejuka O
@@ -15662,7 +15662,7 @@ baalambudde O
 amakolero O
 agawerako O
 mu O
-Wakiso O
+Wakiso B-LOC
 nga O
 beekebejja O
 ebintu O
@@ -15695,10 +15695,10 @@ gadibengalye O
 OC O
 CID O
 wa O
-Nansana O
+Nansana B-LOC
 , O
-Juliet O
-Nakawala O
+Juliet B-PER
+Nakawala I-PER
 , O
 bwe O
 twamutuukiridde O
@@ -15733,7 +15733,7 @@ esobola O
 okubayamba O
 okussa O
 aba O
-NRM O
+NRM B-ORG
 ku O
 bunkenke O
 . O
@@ -15852,7 +15852,7 @@ abantu O
 abomugaso O
 bangi O
 mu O
-Buganda B-LOC
+Buganda O
 ne O
 bakolamu O
 emirimu O
@@ -15879,10 +15879,10 @@ butaka O
 Omugenzi O
 waakuziikibwa O
 nga O
-August B-DATE
-6 I-DATE
-, I-DATE
-2019 I-DATE
+August O
+6 O
+, O
+2019 O
 e O
 Buwaya B-LOC
 Busiro I-LOC
@@ -15914,7 +15914,7 @@ gwatwaliddwa O
 mu O
 ddwaaliro O
 e O
-Mulago O
+Mulago B-LOC
 ngokunoonyereza O
 bwe O
 kugenda O
@@ -15926,7 +15926,7 @@ Kwoolwo O
 waakusiibula O
 addeyo O
 e O
-Nigeria O
+Nigeria B-LOC
 . O
 
 Omulamuzi O
@@ -15934,12 +15934,12 @@ ayise O
 minisita O
 omubeezi O
 owebyettaka O
-Persis B-PER
-Namuganza I-PER
+Persis O
+Namuganza O
 okujja O
 mu O
 kkooti O
-leero O
+leero B-DATE
 naye O
 yeewoezeeko O
 . O
@@ -15993,7 +15993,7 @@ Omwogezi O
 wa O
 poliisi O
 mu O
-Katonga O
+Katonga B-LOC
 , O
 Phillip O
 Mukasa O
@@ -16025,8 +16025,8 @@ Ssentebe O
 wekyalo O
 Kiwumu B-LOC
 , O
-Joseph B-PER
-Mugwisa I-PER
+Joseph O
+Mugwisa O
 yategeezezza O
 nti O
 omusamize O
@@ -16087,20 +16087,20 @@ nga O
 Extrajudicial O
 Statement O
 ngeno O
-Mulo B-PER
+Mulo O
 ye O
 yamutwazizza O
 e O
-Makerere B-LOC
+Makerere O
 . O
 
-Daudi O
-Migereko O
+Daudi B-PER
+Migereko I-PER
 Ssentebe O
 wa O
-Uganda O
-Tourism O
-Board O
+Uganda B-ORG
+Tourism I-ORG
+Board I-ORG
 yasabye O
 gavumenti O
 eyongere O
@@ -16122,7 +16122,7 @@ ggwanga O
 
 Wabula O
 ye O
-Kikonyogo O
+Kikonyogo B-PER
 yagambye O
 nti O
 embeera O
@@ -16146,21 +16146,21 @@ Mu O
 kusoma O
 yayita O
 mu O
-Nigerian B-ORG
-Defence I-ORG
-Academy I-ORG
+Nigerian O
+Defence O
+Academy O
 , O
-Armed B-ORG
-Forces I-ORG
-Command I-ORG
-and I-ORG
-Staff I-ORG
-College I-ORG
-, I-ORG
-Jaji I-ORG
-, O
-Barewa O
+Armed O
+Forces O
+Command O
+and O
+Staff O
 College O
+, O
+Jaji O
+, O
+Barewa B-ORG
+College I-ORG
 namattendekero O
 amalalala O
 . O
@@ -16178,9 +16178,9 @@ naggulwako O
 omusango O
 gwobubbi O
 ku O
-poliisi B-ORG
-ye I-ORG
-Mukono I-ORG
+poliisi O
+ye O
+Mukono O
 ku O
 Ref O
 10025072019 O
@@ -16189,7 +16189,7 @@ Ref O
 Buwembo B-PER
 agamba O
 nti O
-Kato B-PER
+Kato O
 teyasoma O
 era O
 tasaana O
@@ -16265,7 +16265,7 @@ bigoberere O
 
 Yagambye O
 nti O
-Buganda O
+Buganda B-LOC
 nAbaganda O
 balina O
 omutima O
@@ -16311,8 +16311,8 @@ wakati O
 ngabuuza O
 ku O
 Pookino O
-Mayiga O
-Ssebbowa O
+Mayiga B-PER
+Ssebbowa I-PER
 ku O
 ddyo O
 . O
@@ -16327,11 +16327,11 @@ yintanenti O
 nokwogera O
 ebinyiiza O
 Pulezidenti O
-Museveni O
+Museveni B-PER
 bwe O
 yamulumbira O
 ku O
-Facebook B-ORG
+Facebook O
 ngamuvuma O
 ne O
 nnyina O
@@ -16384,10 +16384,10 @@ bulungi O
 . O
 
 Nga O
-August B-DATE
-6 I-DATE
-, I-DATE
-2019 I-DATE
+August O
+6 O
+, O
+2019 O
 omubiri O
 gwakutwalibwa O
 e O
@@ -16401,9 +16401,9 @@ ssaawa O
 , O
 aziikibwe O
 ku O
-ssaawa B-DATE
-1000 I-DATE
-ezolweggulo I-DATE
+ssaawa O
+1000 O
+ezolweggulo O
 . O
 
 Namubiruyagambyenti O
@@ -16535,13 +16535,13 @@ mu O
 maaso O
 . O
 
-Wamala B-PER
+Wamala O
 yali O
 akolera O
 kumpi O
 ne O
-Orange B-LOC
-bar I-LOC
+Orange O
+bar O
 e O
 Nalukolongo O
 abatemu O
@@ -16569,8 +16569,8 @@ ngolukuaana O
 lwe O
 baabaddemu O
 okumala O
-ennaku O
-omusanvu O
+ennaku B-DATE
+omusanvu I-DATE
 lukomekkerezebwa O
 bulungi O
 . O
@@ -16580,7 +16580,7 @@ eyajja O
 okumutaasa O
 lwaki O
 yava O
-Kawempe O
+Kawempe B-LOC
 ku O
 kitebe O
 kya O
@@ -16589,7 +16589,7 @@ ngate O
 e O
 Lugazi B-LOC
 ne O
-Naggalama B-LOC
+Naggalama O
 ebiri O
 okumpi O
 zaaliyo O
@@ -16597,8 +16597,8 @@ zaaliyo O
 
 Dr O
 Bishop O
-David B-PER
-Kiganda I-PER
+David O
+Kiganda O
 yategeezezza O
 nti O
 bannaddiini O
@@ -16652,9 +16652,9 @@ Obuganda O
 birinde O
 mu O
 Bukedde O
-wenkya O
-ku O
-Mmande O
+wenkya B-DATE
+ku I-DATE
+Mmande I-DATE
 . O
 
 Teyakoma O
@@ -16683,7 +16683,7 @@ Kamugisha O
 dayirekita O
 webyenkulaakulana O
 mu O
-UCDA B-ORG
+UCDA O
 yategeezezza O
 nti O
 balina O
@@ -16704,7 +16704,7 @@ bakungula O
 kitono O
 . O
 
-Troy B-PER
+Troy O
 yategeezezza O
 omulamuzi O
 nti O
@@ -16784,7 +16784,7 @@ olwokuvuganya O
 okwamaanyi O
 . O
 
-Bashir O
+Bashir B-PER
 ku O
 Bukedde O
 Fa O
@@ -16800,17 +16800,17 @@ ne O
 Baasi O
 Duniya O
 eya O
-buli O
-Ssande O
+buli B-DATE
+Ssande I-DATE
 . O
 
 Baabadde O
 mu O
 kivvulu O
 kya O
-Calvin O
-The O
-Entertainer O
+Calvin B-PER
+The I-PER
+Entertainer I-PER
 nga O
 kyabaddeko O
 abayimbi O
@@ -16823,11 +16823,11 @@ Cavton O
 Tip B-PER
 Swizzy I-PER
 , O
-Eddy O
-Kenzo O
+Eddy B-PER
+Kenzo I-PER
 , O
-Lydia B-PER
-Jazmine I-PER
+Lydia O
+Jazmine O
 , O
 Leila O
 Kayondo O
@@ -16835,22 +16835,22 @@ Kayondo O
 Ameria O
 Nambala O
 , O
-Minayo O
+Minayo B-PER
 , O
 Hitnature B-PER
 , O
-Levixon B-PER
+Levixon O
 , O
 Karole B-PER
 Kasita I-PER
 , O
-Naira O
-Ali O
+Naira B-PER
+Ali I-PER
 , O
 Maureen B-PER
 Nantume I-PER
 , O
-Weasle O
+Weasle B-PER
 nabalala O
 bangi O
 . O
@@ -16886,9 +16886,9 @@ ogwawemmense O
 obuwumbi O
 207 O
 ngaba O
-African O
-Development O
-Bank O
+African B-ORG
+Development I-ORG
+Bank I-ORG
 abaawaddeyo O
 ebitundu O
 85 O
@@ -16905,8 +16905,8 @@ gwetabiddwako O
 Ssabawolereza O
 wa O
 Buganda O
-Christopher O
-Bwanika O
+Christopher B-PER
+Bwanika I-PER
 ne O
 minisita O
 omubeezi O
@@ -16963,15 +16963,15 @@ obulamu O
 
 Lt O
 . O
-John O
-Bosco O
-Bamuturaki O
-Tumusiime O
+John B-PER
+Bosco I-PER
+Bamuturaki I-PER
+Tumusiime I-PER
 nti O
-Museveni O
+Museveni B-PER
 yeesimbewo O
 mu O
-2021 B-DATE
+2021 O
 nga O
 tavuganyiziddwa O
 . O
@@ -16980,10 +16980,10 @@ Tulina O
 essuubi O
 nti O
 mu O
-biseera B-DATE
-ebitali I-DATE
-bya I-DATE
-wala I-DATE
+biseera O
+ebitali O
+bya O
+wala O
 , O
 obulippagano O
 bugenda O
@@ -17024,7 +17024,7 @@ nebiwandiiko O
 ebikyogerako O
 . O
 
-Kirabira B-PER
+Kirabira O
 yakuutidde O
 abakozi O
 ba O
@@ -17092,8 +17092,8 @@ Nsaba O
 abawala O
 abali O
 mu O
-myaka B-DATE
-gyange I-DATE
+myaka O
+gyange O
 bayigire O
 ku O
 nze O
@@ -17124,14 +17124,14 @@ bassenga O
 abateerya O
 ntama O
 abakulembeddwa O
-Justine B-PER
-Nantume I-PER
+Justine O
+Nantume O
 , O
-Hamidah O
-Namatovu O
+Hamidah B-PER
+Namatovu I-PER
 ne O
-Edith B-PER
-Mukisa I-PER
+Edith O
+Mukisa O
 . O
 
 Poliisi O
@@ -17169,8 +17169,8 @@ Omulamuzi O
 Okongo O
 yawadde O
 olwa O
-July O
-30 O
+July B-DATE
+30 I-DATE
 okutandika O
 okwewozaako O
 . O
@@ -17181,8 +17181,8 @@ poliisi O
 mu O
 Katonga B-LOC
 , O
-Phillip B-PER
-Mukasa I-PER
+Phillip O
+Mukasa O
 yagambye O
 nti O
 omukwate O
@@ -17200,14 +17200,14 @@ Omwogezi O
 wa O
 poliisi O
 mu O
-Greater B-LOC
-Masaka I-LOC
+Greater O
+Masaka O
 , O
 ASP O
 Paul O
 Kangave O
 yategeezezza O
-Bukedde O
+Bukedde B-ORG
 nti O
 poliisi O
 yatandikiddewo O
@@ -17227,15 +17227,15 @@ nnamwandu O
 wa O
 mutabani O
 wa O
-Ssebaana B-PER
+Ssebaana O
 , O
-Job B-PER
-Muwanga I-PER
-Kizito I-PER
+Job O
+Muwanga O
+Kizito O
 yafa O
 nga O
 yazaala O
-Alexander B-PER
+Alexander O
 agamba O
 nti O
 abaana O
@@ -17315,7 +17315,7 @@ bye O
 bakola O
 . O
 
-Kaddunabbi B-PER
+Kaddunabbi O
 yategeezezza O
 nti O
 ebbago O
@@ -17381,8 +17381,8 @@ gyabasanze O
 ku O
 lukalala O
 lwa O
-Young B-PER
-Mulo I-PER
+Young O
+Mulo O
 baabadde O
 akubira O
 essimu O
@@ -17399,9 +17399,9 @@ boda O
 bano O
 bagezezzaako O
 okulumba O
-poliisi B-ORG
-ye I-ORG
-Buwama I-ORG
+poliisi O
+ye O
+Buwama O
 okumuggyayo O
 bamwekolereko O
 kyokka O
@@ -17409,7 +17409,7 @@ omuduumizi O
 wa O
 poliisi O
 mu O
-Mpigi B-LOC
+Mpigi O
 Joab B-PER
 
 Wabwire I-PER
@@ -17484,7 +17484,7 @@ Omwogezi O
 wa O
 poliisi O
 mu O
-Katonga O
+Katonga B-LOC
 Phillip B-PER
 Mukasa I-PER
 ategeezeza O
@@ -17529,7 +17529,7 @@ wa O
 Ssabasajja O
 owessaza O
 lya O
-Mawokota O
+Mawokota B-LOC
 afudde O
 kibwatukira O
 nalekabanna O
@@ -17537,9 +17537,9 @@ Mawokota O
 mu O
 kiyongobero O
 . O
-Kayima B-PER
-David I-PER
-Ssekyeru I-PER
+Kayima O
+David O
+Ssekyeru O
 afudde O
 mu O
 ngeri O
@@ -17558,7 +17558,7 @@ okumuddusa O
 mu O
 ddwaliro O
 e O
-Mmengo O
+Mmengo B-LOC
 nafiira O
 mu O
 kkubo O
@@ -17570,8 +17570,8 @@ ddwaliro O
 Ssekyeru O
 abadde O
 amaze O
-wiiki B-DATE
-emu I-DATE
+wiiki O
+emu O
 nga O
 mugonvugonvu O
 kyokka O
@@ -17590,8 +17590,8 @@ ekizibu O
 kino O
 . O
 Mukaziwe O
-Jesca B-PER
-Ssekyeru I-PER
+Jesca O
+Ssekyeru O
 akakasizza O
 okufa O
 kwa O
@@ -17610,7 +17610,7 @@ Plus I-ORG
 mu O
 ddwaliro O
 e O
-Mengo O
+Mengo B-LOC
 bagukoleko O
 okutuusa O
 entekateka O
@@ -17620,7 +17620,7 @@ ziwedde O
 . O
 Bo O
 banna O
-Mawokota O
+Mawokota B-LOC
 olufunye O
 amawulire O
 gokufa O
@@ -17658,7 +17658,7 @@ maaso O
 okunonyereza O
 ekigendererwa O
 kya O
-Mutaawe O
+Mutaawe B-PER
 eyakwatibwa O
 ku O
 byokutta O
@@ -17733,13 +17733,13 @@ Amaggombolola O
 amalala O
 agasangibwa O
 mu O
-Kabula O
+Kabula B-LOC
 kuliko O
 Mumyuka O
 Kasagama O
 , O
-Musaale B-LOC
-Mpumudde I-LOC
+Musaale O
+Mpumudde O
 ne O
 Ssabagabo O
 Kinuuka O
@@ -17779,7 +17779,7 @@ yagambye O
 bwatyo O
 Rev O
 . O
-Mawanda B-PER
+Mawanda O
 bwe O
 yennyamidde O
 nasaba O
@@ -17798,14 +17798,14 @@ poliisi O
 mu O
 ttundutundu O
 lye O
-Mpigi B-LOC
+Mpigi O
 yategeezeza O
-Bukedde O
+Bukedde B-ORG
 nti O
 batandise O
 okunoonyereza O
 ku O
-Ssali B-PER
+Ssali O
 nokuzuula O
 oba O
 alina O
@@ -17839,14 +17839,14 @@ ku O
 kifaananyi O
 ekyasangiddwa O
 ne O
-Mulo B-PER
+Mulo O
 , O
 mu O
 ssabo O
 ekyomuvubuka O
-Bumba O
+Bumba B-PER
 owe O
-Kajjansi O
+Kajjansi B-LOC
 , O
 baakizudde O
 nga O
@@ -17896,7 +17896,7 @@ Omwogezi O
 wa O
 poliisi O
 mu O
-Katonga O
+Katonga B-LOC
 , O
 Phillip O
 Mukasa O
@@ -17923,13 +17923,13 @@ yasiba O
 omugagga O
 wa O
 Pine O
-Muhamad B-PER
-Ssebuufu I-PER
+Muhamad O
+Ssebuufu O
 ne O
 bakanyama O
 be O
-emyaka B-DATE
-40 I-DATE
+emyaka O
+40 O
 olwokutta O
 omusuubuzi O
 Betty B-PER
@@ -17944,7 +17944,7 @@ bukadde O
 
 Omukolo O
 olwawedde O
-Navio O
+Navio B-PER
 nategeeza O
 nga O
 bwakiggadde O
@@ -17967,7 +17967,7 @@ ekyagulibwa O
 Uganda O
 erina O
 kuzzibwayo O
-Bufalansa B-LOC
+Bufalansa O
 buli O
 lwe O
 kibeera O
@@ -18011,8 +18011,8 @@ abakazi O
 ekiviriddeko O
 abaana O
 obutasoma O
-Said O
-Waisswa O
+Said B-PER
+Waisswa I-PER
 ssentebe O
 wabasuubuzi O
 yategeezezza O
@@ -18056,7 +18056,7 @@ kubanga O
 bwatunuulira O
 ekitundu O
 nga O
-Kabale B-LOC
+Kabale O
 baagenda O
 basalaasalamu O
 ettaka O
@@ -18097,7 +18097,7 @@ ngakabinja O
 kano O
 kabadde O
 kakulirwa O
-Mulo O
+Mulo B-PER
 era O
 ono O
 ye O
@@ -18105,7 +18105,7 @@ yalabikira O
 mu O
 katambi O
 ngagwa O
-Mulindwa O
+Mulindwa B-PER
 mu O
 bulago O
 namutuga O
@@ -18116,12 +18116,12 @@ nga O
 bwamunyoola O
 ensingo O
 olwo O
-Mugisha O
+Mugisha B-PER
 nalyoka O
 akima O
 ennyondo O
 nayambulamu O
-Mulindwa B-PER
+Mulindwa O
 ekikoofiira O
 helmet O
 ku O
@@ -18139,8 +18139,8 @@ Mugisha B-PER
 baamukwatira O
 Ndeeba O
 mu O
-Nsiike O
-Zooni O
+Nsiike B-LOC
+Zooni I-LOC
 ku O
 ntandikwa B-DATE
 ya I-DATE
@@ -18167,7 +18167,7 @@ Mityana B-LOC
 ne O
 babataayiriza O
 e O
-Makindye O
+Makindye B-LOC
 . O
 
 Bano O
@@ -18192,7 +18192,7 @@ Derrick B-PER
 Mulindwa I-PER
 , O
 e O
-Kakeeka B-LOC
+Kakeeka O
 , O
 mu O
 Lubaga O
@@ -18203,7 +18203,7 @@ Lukwitira I-PER
 , O
 Ssentebe O
 wa O
-Kinnawataka B-LOC
+Kinnawataka O
 yategeezezza O
 nti O
 ekitundu O
@@ -18213,7 +18213,7 @@ obumenyi O
 bwamateeka O
 era O
 nga O
-Nyanvura B-PER
+Nyanvura O
 abadde O
 muntu O
 waakuna O
@@ -18247,7 +18247,7 @@ mu O
 katimba O
 , O
 Ye O
-Ndagire O
+Ndagire B-PER
 agamba O
 omupiira O
 aguzannye O
@@ -18301,10 +18301,10 @@ okufuna O
 emirimu O
 . O
 
-Ku O
-lunaku O
-lwe O
-lumu O
+Ku B-DATE
+lunaku I-DATE
+lwe I-DATE
+lumu I-DATE
 abayizi O
 bayoleseza O
 ebitone O
@@ -18339,7 +18339,7 @@ Essomero O
 lyaggaddwa O
 okutuuka O
 ku O
-Mmande O
+Mmande B-DATE
 abayizi O
 lwe O
 basuubirwa O
@@ -18369,11 +18369,11 @@ nga O
 District O
 Khadi O
 wa O
-Luweero O
+Luweero B-LOC
 , O
 Sheikh O
-Ramadhan B-PER
-Mulindwa I-PER
+Ramadhan O
+Mulindwa O
 , O
 naye O
 yasiimye O
@@ -18392,9 +18392,9 @@ maaso O
 . O
 
 Omusango O
-kkooti B-ORG
-ya I-ORG
-Kisekwa I-ORG
+kkooti O
+ya O
+Kisekwa O
 gwe O
 yazzeemu O
 okuwaako O
@@ -18412,12 +18412,12 @@ Joseph O
 Nsereko O
 Byekwaso O
 , O
-Augustine B-PER
-Kizito I-PER
-Mutumba I-PER
+Augustine O
+Kizito O
+Mutumba O
 ne O
-Ali B-PER
-Kitemaggwa I-PER
+Ali O
+Kitemaggwa O
 bonna O
 abeeyita O
 ba O
@@ -18463,7 +18463,7 @@ abaakulembeddwa O
 ssentebe O
 wekibiina O
 e O
-Mubende B-LOC
+Mubende O
 baasabye O
 Pulezidenti O
 Museveni B-PER
@@ -18474,7 +18474,7 @@ tikiti O
 ya O
 NRM B-ORG
 mu O
-2021 O
+2021 B-DATE
 . O
 
 Nga O
@@ -18517,9 +18517,9 @@ bajaj O
 ne O
 beekweka O
 e O
-Kiriri B-LOC
+Kiriri O
 mu O
-Gomba O
+Gomba B-LOC
 , O
 poliisi O
 gye O
@@ -18547,7 +18547,7 @@ e O
 Mengo O
 okwambuka O
 e O
-Kabuusu O
+Kabuusu B-LOC
 . O
 
 Ensonda O
@@ -18575,7 +18575,7 @@ Awadde O
 ekyokulabirako O
 nti O
 mu O
-Uganda B-LOC
+Uganda O
 abantu O
 banywa O
 amata O
@@ -18599,13 +18599,13 @@ muntu O
 kunywa O
 liita O
 210 O
-buli B-DATE
-mwaka I-DATE
+buli O
+mwaka O
 . O
 
 Abakulembeze O
 ba O
-NRM O
+NRM B-ORG
 abaakulembeddwa O
 ssentebe O
 wekibiina O
@@ -18636,7 +18636,7 @@ ku O
 ddwaaliro O
 ekkulu O
 e O
-Iganga B-LOC
+Iganga O
 . O
 
 Nze O
@@ -18649,7 +18649,7 @@ gwa O
 famire O
 . O
 
-Ssekitooleko O
+Ssekitooleko B-PER
 yagambye O
 nti O
 bulijjo O
@@ -18672,7 +18672,7 @@ omukisa O
 ogwamukedde O
 okubaleetera O
 omubaka O
-Nakawuki B-PER
+Nakawuki O
 . O
 
 Oluvanyuma O
@@ -18680,7 +18680,7 @@ baagenze O
 ne O
 balambula O
 ettaka O
-KCCA O
+KCCA B-ORG
 lye O
 yagulira O
 abasuubuzi O
@@ -18698,8 +18698,8 @@ poliisi B-ORG
 ye I-ORG
 Mpigi I-ORG
 , O
-Elias O
-Twesigye O
+Elias B-PER
+Twesigye I-PER
 ategeezezza O
 nti O
 , O
@@ -18758,8 +18758,8 @@ abalala O
 era O
 akakiiko O
 kaakumala O
-wiiki B-DATE
-bbiri I-DATE
+wiiki O
+bbiri O
 nga O
 kanoonyereza O
 . O
@@ -18784,9 +18784,9 @@ ya O
 mukwano O
 gwe O
 e O
-Masaka B-LOC
+Masaka O
 , O
-Yiga O
+Yiga B-PER
 bwe O
 yategeezezza O
 poliisi O
@@ -18796,7 +18796,7 @@ Omwogezi O
 wa O
 poliisi O
 mu O
-Kampala O
+Kampala B-LOC
 nemiriraano O
 , O
 Patrick B-PER
@@ -18811,7 +18811,7 @@ ebadde O
 etigomya O
 abantu O
 be O
-Bulenga O
+Bulenga B-LOC
 nga O
 kuliko O
 ne O
@@ -18874,7 +18874,7 @@ mu O
 kitundu O
 kino O
 oluvannyuma O
-Mugisha O
+Mugisha B-PER
 atwalibwe O
 ewomusawo O
 amwekebejje O
@@ -18917,7 +18917,7 @@ mwetegefu O
 kwogera O
 omugagga O
 womu O
-Arua O
+Arua B-LOC
 abatuma O
 kubang O
 . O
@@ -18960,8 +18960,8 @@ College O
 , O
 Jaji O
 , O
-Barewa B-ORG
-College I-ORG
+Barewa O
+College O
 . O
 
 Pulezidenti O
@@ -18977,10 +18977,10 @@ ku O
 mitendera O
 egyenjawulo O
 nga O
-July O
-10 O
-, O
-2019 O
+July B-DATE
+10 I-DATE
+, I-DATE
+2019 I-DATE
 yategeeza O
 ngensonga O
 zettaka O
@@ -19025,8 +19025,8 @@ mu O
 Kampala O
 nemiriraano O
 , O
-Patrick O
-Onyango O
+Patrick B-PER
+Onyango I-PER
 yagambye O
 nti O
 , O
@@ -19059,7 +19059,7 @@ mu O
 lujjudde O
 . O
 
-Serebe B-PER
+Serebe O
 ku O
 nsonga O
 zino O
@@ -19148,9 +19148,9 @@ ngabazadde O
 
 Omwogezi O
 wa O
-poliisi O
-ye O
-Wamala O
+poliisi B-ORG
+ye I-ORG
+Wamala I-ORG
 , O
 Nobert O
 Ochom O
@@ -19277,7 +19277,7 @@ agaaliko O
 omutwe O
 nti O
 , O
-Teddy O
+Teddy B-PER
 akkaanyizza O
 ne O
 bba O
@@ -19326,7 +19326,7 @@ ekivunaanyizibwa O
 kuwandiisa O
 abantu O
 ekya O
-NIRA O
+NIRA B-ORG
 tekiwandiisa O
 balonzi O
 wabula O
@@ -19438,7 +19438,7 @@ bakola O
 omulimo O
 ogwo O
 , O
-Lutaaya O
+Lutaaya B-PER
 agamba O
 amusuubira O
 kuba O
@@ -19512,8 +19512,8 @@ yonna O
 
 Sr O
 . O
-Robinah B-PER
-Nakijoba I-PER
+Robinah O
+Nakijoba O
 , O
 akulira O
 ettendekero O
@@ -19575,12 +19575,12 @@ zalese O
 aterezezza O
 kuliko O
 eya O
-Kaleerwe B-LOC
-Bugerere I-LOC
+Kaleerwe O
+Bugerere O
 , O
 eya O
-Wandegeya B-LOC
-Mpereerwe I-LOC
+Wandegeya O
+Mpereerwe O
 , O
 Wandegeya B-LOC
 Ntinda I-LOC
@@ -19599,8 +19599,8 @@ yebyobulamu O
 , O
 Dr O
 . O
-Hasfa B-PER
-Lukwata I-PER
+Hasfa O
+Lukwata O
 yasiimye O
 nnyo O
 abekitongole O
@@ -19634,8 +19634,8 @@ Okusinzira O
 ku O
 Dr O
 . O
-Robert O
-Kajubi O
+Robert B-PER
+Kajubi I-PER
 omu O
 ku O
 bakulirakirinikiya O
@@ -19682,7 +19682,7 @@ Hospital I-ORG
 
 Kino O
 tekyalobedde O
-Namata O
+Namata B-PER
 kusaba O
 kumusalirako O
 ngagamba O
@@ -19693,14 +19693,14 @@ balabirira O
 . O
 
 Mu O
-kiseera B-DATE
-kino I-DATE
+kiseera O
+kino O
 bakuumibwa O
 ku O
 poliisi O
 e O
-Lwengo O
-Kinoni O
+Lwengo B-LOC
+Kinoni I-LOC
 gye O
 bagguddwaako O
 ogwokuwamba O
@@ -19745,10 +19745,10 @@ poliisi O
 mu O
 disitulikiti O
 ye O
-Buyende O
+Buyende B-LOC
 ASP O
-Muhammad B-PER
-Kirumira I-PER
+Muhammad O
+Kirumira O
 , O
 tekuggwanga O
 newankubadde O
@@ -19763,8 +19763,8 @@ mu O
 kkooti O
 . O
 
-Micheal B-PER
-Wambiyo I-PER
+Micheal O
+Wambiyo O
 , O
 avunaanyizibwa O
 ku O
@@ -19772,14 +19772,14 @@ kutumbula O
 omutindo O
 nenkulaakulana O
 mu O
-Minisitule O
-yEbyobusubuzi O
+Minisitule B-ORG
+yEbyobusubuzi I-ORG
 nga O
 ye O
 yakiikiridde O
 minisita O
-Amelia B-PER
-Kyambadde I-PER
+Amelia O
+Kyambadde O
 yakubirizza O
 abantu O
 okukola O
@@ -19801,7 +19801,7 @@ Omulamzi O
 Anthony O
 Ojok O
 e O
-Nakawa O
+Nakawa B-LOC
 ye O
 ali O
 mu O
@@ -19812,10 +19812,10 @@ era O
 guddamu O
 okuwulirwa O
 nga O
-October B-DATE
-07 I-DATE
-, I-DATE
-2019 I-DATE
+October O
+07 O
+, O
+2019 O
 . O
 
 Buli O
@@ -19826,7 +19826,7 @@ kakadde O
 kamu O
 . O
 
-Kunya O
+Kunya B-PER
 yagaanye O
 okukikkiriza O
 nagamba O
@@ -19843,7 +19843,7 @@ ekyapa O
 ye O
 ne O
 mwannyina O
-Besi B-PER
+Besi O
 baakyesigaliza O
 nga O
 kyama O
@@ -19913,7 +19913,7 @@ bambega O
 ba O
 poliisi O
 e O
-Kakiri O
+Kakiri B-LOC
 yagambye O
 nti O
 Kaweesa O
@@ -19928,8 +19928,8 @@ nebirala O
 
 . O
 
-Brian B-PER
-Kamugira I-PER
+Brian O
+Kamugira O
 yabalabudde O
 nti O
 yadde O
@@ -19948,10 +19948,10 @@ Omusango O
 guno O
 guwulirwa O
 mu O
-Kkooti B-ORG
-Enkulu I-ORG
+Kkooti O
+Enkulu O
 e O
-Ntebe O
+Ntebe B-LOC
 nga O
 kigambibwa O
 nti O
@@ -19959,7 +19959,7 @@ Geofrey O
 Wamala O
 amannyiddwa O
 nga O
-Troy B-PER
+Troy O
 yeyatta O
 omuyimbi O
 Radio O
@@ -19970,7 +19970,7 @@ lwokulwanagana O
 mu O
 bbaala O
 e O
-Ntebe O
+Ntebe B-LOC
 . O
 
 Munnabyabufuzi O
@@ -19979,10 +19979,10 @@ era O
 nga O
 mmemba O
 wa O
-FDU B-ORG
-Ikingi O
-Eugene O
-Ndereyimana O
+FDU O
+Ikingi B-PER
+Eugene I-PER
+Ndereyimana I-PER
 yabuzibwawo O
 mu O
 July B-DATE
@@ -19993,8 +19993,8 @@ mayitire O
 ate O
 mmemba O
 omulala O
-Boniface O
-Twagirimana O
+Boniface B-PER
+Twagirimana I-PER
 eyali O
 yakwatibwa O
 naggalirwa O
@@ -20010,7 +20010,7 @@ tamanyiddwa O
 gyali O
 . O
 
-Karuhanga B-PER
+Karuhanga O
 ayongedde O
 nalabula O
 Gavumenti O
@@ -20033,8 +20033,8 @@ ebyobugagga O
 ebiyinza O
 okusimwa O
 okusukka O
-emyaka B-DATE
-60 I-DATE
+emyaka O
+60 O
 . O
 
 Gino O
@@ -20062,7 +20062,7 @@ okugikozesa O
 okufuuka O
 ebitagasa O
 , O
-Kasacca O
+Kasacca B-PER
 bwe O
 yakkaatirizza O
 . O
@@ -20094,7 +20094,7 @@ luwummula O
 olwobuwaze O
 ate O
 ku O
-Lwokutaano B-DATE
+Lwokutaano O
 ofiisi O
 yakulira O
 ebyokwerinda O
@@ -20136,7 +20136,7 @@ ali O
 mu O
 ddwaaliro O
 e O
-Nsambya B-LOC
+Nsambya O
 mukazi O
 we O
 gye O
@@ -20162,13 +20162,13 @@ ono O
 , O
 mwe O
 baakwatidde O
-Kasolo O
+Kasolo B-PER
 , O
-Kisekka B-PER
+Kisekka O
 , O
 Lubega O
 ne O
-Kalyango O
+Kalyango B-PER
 ate O
 abalala O
 bakyayiggibwa O
@@ -20178,8 +20178,8 @@ DPC O
 we O
 Kyotera O
 , O
-Rosette O
-Sakamwa O
+Rosette B-PER
+Sakamwa I-PER
 yakakasizza O
 ettemu O
 lino O
@@ -20274,7 +20274,7 @@ Liigi O
 eyo O
 8 O
 , O
-Kyambogo B-ORG
+Kyambogo O
 be O
 balina O
 ekikopo O
@@ -20291,9 +20291,9 @@ ebiri O
 buli O
 omu O
 , O
-UMU O
+UMU B-ORG
 , O
-Makerere O
+Makerere B-ORG
 ne O
 Kyambogo O
 gumu O
@@ -20319,7 +20319,7 @@ kiromita O
 Ssentebe O
 womuluka O
 gwe O
-Kayabwe B-LOC
+Kayabwe O
 , O
 Yisaaya B-PER
 Kimbugwe I-PER
@@ -20337,8 +20337,8 @@ nga O
 batta O
 abantu O
 babiri O
-olunaku B-DATE
-lumu I-DATE
+olunaku O
+lumu O
 olwo O
 ebiwandiiko O
 bya O
@@ -20369,30 +20369,30 @@ layini O
 ya O
 NRM O
 ate O
-Mayinja O
+Mayinja B-PER
 nalondebwa O
 ku O
 ttiimu O
 ekwanaganya O
 emirimu O
 gya O
-People B-ORG
-Power I-ORG
+People O
+Power O
 mu O
 ttundutundu O
 lye O
-Mpigi B-LOC
+Mpigi O
 eritwala O
 ne O
-Gomba B-LOC
-East I-LOC
+Gomba O
+East O
 gyayagala O
 okwesimbawo O
 mu O
 2021 O
 . O
 
-Kusasira B-PER
+Kusasira O
 yagambye O
 nti O
 Mayinja O
@@ -20505,7 +20505,7 @@ nemiriraano O
 yagambye O
 nti O
 , O
-Mumbejja O
+Mumbejja B-PER
 aguddwaako O
 omusango O
 gwokubba O
@@ -20515,7 +20515,7 @@ nnamba O
 SD2217092019 O
 . O
 
-Enanga O
+Enanga B-PER
 yagambye O
 nti O
 , O
@@ -20559,10 +20559,10 @@ abazannyi O
 abaamannya O
 abawerako O
 omuli O
-Maphew B-PER
+Maphew O
 , O
-Martha O
-K O
+Martha B-PER
+K I-PER
 , O
 nabazannyi O
 abalala O
@@ -20667,13 +20667,13 @@ ategeeze O
 abamuyita O
 nti O
 nga O
-October B-DATE
-28 I-DATE
+October O
+28 O
 alina O
 okuba O
 mu O
 kkooti O
-Acaa O
+Acaa B-PER
 bwe O
 yagambye O
 mu O
@@ -20767,7 +20767,7 @@ ezaamuteekeddwaako O
 , O
 Gen O
 . O
-Kayihura O
+Kayihura B-PER
 , O
 yategeezezza O
 nti O
@@ -20786,8 +20786,8 @@ nti O
 emisango O
 egimuvunaanibwa O
 mu O
-kkooti O
-yamagye O
+kkooti B-ORG
+yamagye I-ORG
 , O
 akadde O
 konna O
@@ -20850,7 +20850,7 @@ batazaala O
 Kino O
 kitegeeza O
 nti O
-Kasolo O
+Kasolo B-PER
 ne O
 banne O
 bandiba O
@@ -20908,14 +20908,14 @@ muntu O
 ayagala O
 obulamu O
 , O
-Bukenya O
+Bukenya B-PER
 bwe O
 yawunzise O
 . O
 
 Kiddiridde O
-Grace B-PER
-Khan I-PER
+Grace O
+Khan O
 okutegekera O
 maneja O
 we O
@@ -20924,7 +20924,7 @@ kamazaalibwa O
 ku O
 Lwokusatu O
 e O
-Wakaliga B-LOC
+Wakaliga O
 ne O
 beekola O
 obusolosolo O
@@ -20952,7 +20952,7 @@ kyayinza O
 kumusasula O
 . O
 
-Davison O
+Davison B-PER
 agamba O
 nti O
 olulwana O
@@ -20998,7 +20998,7 @@ gwe O
 ogwa O
 Twitter B-ORG
 ngayozaayoza O
-Amerika B-LOC
+Amerika O
 nategeeza O
 nti O
 kano O
@@ -21034,7 +21034,7 @@ Gen O
 Andrew B-PER
 Gutti I-PER
 yayimbula O
-Kayihura B-PER
+Kayihura O
 nga O
 August B-DATE
 28 I-DATE
@@ -21043,7 +21043,7 @@ August B-DATE
 namulagira O
 obutaddamu O
 kufuluma O
-Kampala B-LOC
+Kampala O
 ne O
 Wakiso O
 nga O
@@ -21070,7 +21070,7 @@ kye O
 yafulumizza O
 yagambye O
 nti O
-Nalufenya B-LOC
+Nalufenya O
 tebaatulugunyizangayo O
 bantu O
 era O
@@ -21083,9 +21083,9 @@ okusingako O
 awo O
 . O
 
-Nagirinya O
+Nagirinya B-PER
 ne O
-Kitayimbwa B-PER
+Kitayimbwa O
 , O
 baawambibwa O
 August B-DATE
@@ -21106,12 +21106,12 @@ Ttakkajjunge I-LOC
 mu O
 ggombolola O
 ye O
-Nama O
+Nama B-LOC
 nga O
-August B-DATE
-30 I-DATE
-, I-DATE
-2019 I-DATE
+August O
+30 O
+, O
+2019 O
 . O
 
 Kabaka O
@@ -21119,10 +21119,10 @@ yayozaayozezzza O
 Kyabazinga O
 okutuuka O
 ku O
-lunaku B-DATE
+lunaku O
 nokumala O
-emyaka B-DATE
-etaano I-DATE
+emyaka O
+etaano O
 ngalamula O
 . O
 
@@ -21166,11 +21166,11 @@ omukulu O
 wekika O
 , O
 Omutaka O
-Yusufu O
-Mbirozankya O
-Kigumba O
-Makubuya O
-I O
+Yusufu B-PER
+Mbirozankya I-PER
+Kigumba I-PER
+Makubuya I-PER
+I I-PER
 , O
 ku O
 mukolo O
@@ -21178,7 +21178,7 @@ guno O
 nasaba O
 abatwala O
 ekibuga O
-Kampala O
+Kampala B-LOC
 okutuuma O
 enguudo O
 zaakyo O
@@ -21197,7 +21197,7 @@ abafuzi O
 bamatwale O
 . O
 
-Amerika O
+Amerika B-LOC
 , O
 era O
 erumiriza O
@@ -21217,11 +21217,11 @@ FSU I-ORG
 , O
 wamu O
 ne O
-Nalufeenya B-ORG
-Special I-ORG
-Investigations I-ORG
-Centre I-ORG
-NSIC I-ORG
+Nalufeenya O
+Special O
+Investigations O
+Centre O
+NSIC O
 , O
 okutulugunya O
 abasibe O
@@ -21282,7 +21282,7 @@ kwe O
 kwekyawa O
 era O
 ku O
-lunaku B-DATE
+lunaku O
 lwembaga O
 nagaana O
 okulinnyayo O
@@ -21293,7 +21293,7 @@ Sarah O
 Nabatanzi O
 ssenga O
 wa O
-Rema B-PER
+Rema O
 gye O
 buvuddeko O
 yategeezezza O
@@ -21311,7 +21311,7 @@ kyokusalawo O
 oba O
 gusigala O
 e O
-Nabbingo B-LOC
+Nabbingo O
 oba O
 bafuna O
 awalala O
@@ -21321,10 +21321,10 @@ si O
 nakindi O
 okugenda O
 e O
-Masaka B-LOC
+Masaka O
 gye O
 bazaala O
-Rema O
+Rema B-PER
 . O
 
 Olwamaliriza O
@@ -21334,14 +21334,14 @@ natandika O
 okuweerezaako O
 mesegi O
 nga O
-Rema O
+Rema B-PER
 tayanukula O
 kyokka O
 ngali O
 mu O
 bizibu O
 ne O
-Kenzo B-PER
+Kenzo O
 nga O
 bwe O
 yebuuza O
@@ -21371,7 +21371,7 @@ kyokka O
 bwe O
 yabuuziddwa O
 oba O
-Uganda B-LOC
+Uganda O
 erimu O
 bamafia O
 , O
@@ -21391,8 +21391,8 @@ bujulizi O
 Yagambye O
 nti O
 mu O
-ssaawa O
-1000 O
+ssaawa B-DATE
+1000 I-DATE
 ze O
 baamuyingiza O
 mu O
@@ -21416,7 +21416,7 @@ olunaku O
 olulala O
 . O
 
-Kasolo B-PER
+Kasolo O
 ku O
 kkono O
 ne O
@@ -21484,7 +21484,7 @@ ku O
 ngeri O
 kkampuni O
 ya O
-Alima B-ORG
+Alima O
 gye O
 yafunamu O
 ettaka O
@@ -21521,7 +21521,7 @@ ko O
 ku O
 kyalo O
 e O
-Mayuge O
+Mayuge B-LOC
 namusanga O
 nga O
 yazaala O
@@ -21592,14 +21592,14 @@ gye O
 yava O
 okudda O
 e O
-Nateeete O
+Nateeete B-LOC
 mu O
-Kitooro B-LOC
+Kitooro O
 we O
 yasuula O
 emmotoka O
 ya O
-Nagirinya O
+Nagirinya B-PER
 . O
 
 Baabadde O
@@ -21659,14 +21659,14 @@ yagambye O
 Ssabawandiisi O
 wekibiina O
 kino O
-David O
-Balenzi O
-nkonge O
+David B-PER
+Balenzi I-PER
+nkonge I-PER
 yagambye O
 nti O
 bazze O
 bawandiikira O
-Museveni B-PER
+Museveni O
 ebiwandiiko O
 ebyenjawulo O
 okumusaba O
@@ -21702,17 +21702,17 @@ bakoledde O
 wamu O
 nekibiina O
 kya O
-Uganda O
-Water O
-and O
-Sanitation O
-NGO O
-Network O
-UWASNET O
+Uganda B-ORG
+Water I-ORG
+and I-ORG
+Sanitation I-ORG
+NGO I-ORG
+Network I-ORG
+UWASNET I-ORG
 era O
 akikulira O
-Yunia B-PER
-Musaazi I-PER
+Yunia O
+Musaazi O
 agambye O
 nti O
 lipooti O
@@ -21726,13 +21726,13 @@ yamazzi O
 nobuyonjo O
 . O
 
-Kalyegira O
+Kalyegira B-PER
 ngono O
 yakulira O
-poliisi B-ORG
-ya I-ORG
-Kira I-ORG
-Road I-ORG
+poliisi O
+ya O
+Kira O
+Road O
 yeebazizza O
 bamubeereddewo O
 nategeeza O
@@ -21759,11 +21759,11 @@ enjaga O
 
 We O
 bwazibidde O
-eggulo B-DATE
-ku I-DATE
-Mmande I-DATE
+eggulo O
+ku O
+Mmande O
 ngekifo O
-Mugabe O
+Mugabe B-PER
 wagenda O
 okuziikibwa O
 tekinnakkaanyizibwako O
@@ -21776,7 +21776,7 @@ kibangirizi O
 kyAbazira O
 mu O
 kibuga O
-Harare B-LOC
+Harare O
 kyokka O
 aba O
 famire O
@@ -21951,22 +21951,22 @@ maaso O
 . O
 
 Wabula O
-gavumenti B-ORG
-ya I-ORG
-Zimbabwe I-ORG
+gavumenti O
+ya O
+Zimbabwe O
 eyagala O
 aziikibwe O
 ku O
 kijjukizo O
 kyabazira O
 ekya O
-Zimbabwe B-LOC
+Zimbabwe O
 awazimbibwa O
 edda O
 entaana O
 ye O
 eya O
-Mugabe B-PER
+Mugabe O
 era O
 nga O
 wano O
@@ -22065,7 +22065,7 @@ Ono O
 poliisi O
 yamuzzizzaayo O
 e O
-Luweero O
+Luweero B-LOC
 gye O
 yaddizza O
 omusango O
@@ -22095,7 +22095,7 @@ ne O
 nnyina O
 ku O
 kyalo O
-Zvimba B-LOC
+Zvimba O
 kilomita O
 60 O
 okuva O
@@ -22112,13 +22112,13 @@ ku O
 kijjukizo O
 kyabazira O
 ekya O
-Zimbabwe O
+Zimbabwe B-LOC
 awazimbibwa O
 edda O
 entaana O
 ye O
 eya O
-Mugabe B-PER
+Mugabe O
 . O
 
 Poliisi O
@@ -22147,7 +22147,7 @@ bannaabwe O
 bajja O
 kutwalibwa O
 e O
-Yisirayiri B-LOC
+Yisirayiri O
 okulambula O
 babeeko O
 bye O
@@ -22161,8 +22161,8 @@ ya O
 Kyazanga B-LOC
 Rural I-LOC
 , O
-Musa O
-Kayondo O
+Musa B-PER
+Kayondo I-PER
 asabye O
 aba O
 famire O
@@ -22255,10 +22255,10 @@ obulamu O
 
 Yayongeddeko O
 nti O
-buli O
-mwaka O
-okuva O
-2012 O
+buli B-DATE
+mwaka I-DATE
+okuva I-DATE
+2012 I-DATE
 babaddenga O
 basasula O
 ssente O
@@ -22323,7 +22323,7 @@ ennyingiza O
 ya O
 disitulikiti O
 ye O
-Buhweju O
+Buhweju B-LOC
 olwensonga O
 nti O
 ssente O
@@ -22361,7 +22361,7 @@ obukadde O
 bwa O
 pawundi O
 za O
-Bungereza O
+Bungereza B-LOC
 50 O
 bye O
 baali O
@@ -22369,8 +22369,8 @@ babalira O
 Grace O
 Mugabe O
 mu O
-December O
-2017 O
+December B-DATE
+2017 I-DATE
 kyokka O
 nga O
 waliwo O
@@ -22379,8 +22379,8 @@ nti O
 abaakozi O
 baali O
 bamaze O
-emyezi B-DATE
-esatu I-DATE
+emyezi O
+esatu O
 nga O
 tebasasulwa O
 . O
@@ -22417,8 +22417,8 @@ yakuvunaanyizibwako O
 . O
 
 Mu O
-kiseera B-DATE
-kino I-DATE
+kiseera O
+kino O
 tuli O
 mu O
 kuzimba O
@@ -22474,7 +22474,7 @@ basobola O
 okuzeebalama O
 . O
 
-Chamisa O
+Chamisa B-PER
 yabadde O
 addukidde O
 mu O
@@ -22491,8 +22491,8 @@ yabadde O
 apangisizza O
 okuva O
 e O
-South O
-Africa O
+South B-LOC
+Africa I-LOC
 . O
 
 2016 B-DATE
@@ -22511,7 +22511,7 @@ bulamu O
 bwa O
 Zimbabwe B-LOC
 nga O
-Mugabe B-PER
+Mugabe O
 avuddewo O
 newankubadde O
 tebyafuuka O
@@ -22527,7 +22527,7 @@ zokukyusa O
 Ssemateeka O
 era O
 mu O
-1987 B-DATE
+1987 O
 nga O
 bamaze O
 okukola O
@@ -22537,17 +22537,17 @@ Pulezidenti O
 obuyinza O
 obujjuvu O
 , O
-Mugabe O
+Mugabe B-PER
 yafuuka O
 Pulezidenti O
 wa O
-Zimbabwe O
+Zimbabwe B-LOC
 omujjuvu O
 nga O
-December B-DATE
-31 I-DATE
-, I-DATE
-1987 I-DATE
+December O
+31 O
+, O
+1987 O
 okutuusa O
 November O
 21 O
@@ -22573,7 +22573,7 @@ yazimba O
 nga O
 muwala O
 we O
-Bona B-PER
+Bona O
 anaatera O
 okwanjula O
 era O
@@ -22637,18 +22637,18 @@ e O
 Zimbabwe B-LOC
 . O
 
-Bajjo B-PER
+Bajjo O
 yaweereddwa O
-olunnaku O
-olulala O
+olunnaku B-DATE
+olulala I-DATE
 olwokukomawo O
 ku O
 kkooti O
 olwanga O
-October O
-17 O
-, O
-2019 O
+October B-DATE
+17 I-DATE
+, I-DATE
+2019 I-DATE
 nga O
 kisuubirwa O
 nti O
@@ -22672,7 +22672,7 @@ era O
 aleme O
 kubaawo O
 . O
-Bajjo B-PER
+Bajjo O
 avunaanibwa O
 emisango O
 ebiri O
@@ -22687,12 +22687,12 @@ ebinyiiza O
 pulezidenti O
 Museveni O
 . O
-Bajjo B-PER
+Bajjo O
 poliisi O
 yamukwatira O
 ku O
-Centenary O
-park O
+Centenary B-LOC
+park I-LOC
 weyali O
 
 akubye O
@@ -22718,9 +22718,9 @@ ya O
 pulezidenti O
 Museveni O
 nga O
-omwaka B-DATE
-2021 I-DATE
-tegunatuuka I-DATE
+omwaka O
+2021 O
+tegunatuuka O
 wabual O
 emisango O
 yagyegaana O
@@ -22732,7 +22732,7 @@ mu O
 kkooti O
 yasindikibwa O
 e O
-Luzira B-LOC
+Luzira O
 namalayo O
 kyenkana O
 omwezi B-DATE
@@ -22756,9 +22756,9 @@ bbiri O
 okuli O
 Nabisasiro B-LOC
 ne O
-Lungujja B-LOC
-Community I-LOC
-Zooni I-LOC
+Lungujja O
+Community O
+Zooni O
 . O
 
 Alina O
@@ -22768,16 +22768,16 @@ ebikozesebwa O
 abasawo O
 eri O
 ku O
-Johnson O
-Street O
+Johnson B-LOC
+Street I-LOC
 . O
 
 Alese O
 abaana O
 bana O
 nomukyala O
-Grace B-PER
-Mugabe I-PER
+Grace O
+Mugabe O
 gwe O
 yawasa O
 mu O
@@ -22787,8 +22787,8 @@ lwa O
 mukyala O
 we O
 eyasooka O
-Sabina B-PER
-Mugabe I-PER
+Sabina O
+Mugabe O
 okufa O
 mu O
 1992 B-DATE
@@ -22866,8 +22866,8 @@ ne O
 buli O
 kikumi O
 mu O
-mwaka O
-201920 O
+mwaka B-DATE
+201920 I-DATE
 kyokka O
 nga O
 byolekedde O
@@ -22957,7 +22957,7 @@ nga O
 naye O
 nnamwandu O
 wa O
-Yiga O
+Yiga B-PER
 owe O
 Kyengera O
 Masanda O
@@ -22975,7 +22975,7 @@ wiiki I-DATE
 ewedde I-DATE
 era O
 ku O
-Lwomukaaga B-DATE
+Lwomukaaga O
 bwategeera O
 nti O
 bba O
@@ -22988,7 +22988,7 @@ omwogezi O
 wa O
 poliisi O
 mu O
-Kampala O
+Kampala B-LOC
 , O
 yategeezezza O
 nti O
@@ -23021,7 +23021,7 @@ September O
 
 Kigambibwa O
 nti O
-Rema B-PER
+Rema O
 bwe O
 yakkiriza O
 okusisinkana O
@@ -23084,7 +23084,7 @@ Kayunga B-LOC
 Isaac O
 Mugera O
 yagambye O
-Isiko O
+Isiko B-PER
 baamugguddeko O
 emisango O
 omuli O
@@ -23112,8 +23112,8 @@ avunaanibwe O
 . O
 
 Nga O
-Bryan B-PER
-White I-PER
+Bryan O
+White O
 yekwasa O
 nti O
 omutindo O
@@ -23126,8 +23126,8 @@ nti O
 yaziteeka O
 mu O
 musana O
-ennaku O
-bbiri O
+ennaku B-DATE
+bbiri I-DATE
 ne O
 zitandika O
 okuggyamu O
@@ -23162,7 +23162,7 @@ ne O
 yeewuunya O
 mikwano O
 gya O
-Rema B-PER
+Rema O
 abamulumba O
 ku O
 ttivvi O
@@ -23181,16 +23181,16 @@ kituufu O
 Bwavudde O
 we O
 baawambira O
-Nagirinya O
+Nagirinya B-PER
 , O
 agenze O
 ku O
 kifo O
 kya O
-Green O
-Apple O
-Fast O
-Foods O
+Green B-LOC
+Apple I-LOC
+Fast I-LOC
+Foods I-LOC
 awali O
 kkamera O
 ezaakutte O
@@ -23205,7 +23205,7 @@ akaseera O
 akawera O
 nga O
 baliimisa O
-Nagirinya B-PER
+Nagirinya O
 . O
 
 Amaziga O
@@ -23223,23 +23223,23 @@ eggulo O
 mu O
 Klezia O
 ya O
-St B-ORG
-. I-ORG
-Peters I-ORG
-e I-ORG
-Nsambya I-ORG
+St O
+. O
+Peters O
+e O
+Nsambya O
 nga O
-Bena B-PER
-Nakyejwe I-PER
+Bena O
+Nakyejwe O
 muto O
 wa O
-Maria B-PER
+Maria O
 , O
 attottola O
 ebyabaddewo O
 mu O
-kiro B-DATE
-kyOlwokusatu I-DATE
+kiro O
+kyOlwokusatu O
 abatemu O
 we O
 baamuwambidde O
@@ -23249,7 +23249,7 @@ Mugisha O
 okukwatibwa O
 yaggyibwa O
 mu O
-Ndeeba B-LOC
+Ndeeba O
 mu O
 kibanda O
 kyomu O
@@ -23262,7 +23262,7 @@ Omwogezi O
 wa O
 poliisi O
 m O
-Kampala B-LOC
+Kampala O
 nemiriraano O
 Luke B-PER
 Oweyesigyire I-PER
@@ -23271,7 +23271,7 @@ aba O
 famire O
 okugenda O
 e O
-Nansana B-LOC
+Nansana O
 okukola O
 sitetimenti O
 basobole O
@@ -23324,10 +23324,10 @@ nga O
 baakomye O
 okubala O
 nga O
-August O
-25 O
-, O
-2019 O
+August B-DATE
+25 I-DATE
+, I-DATE
+2019 I-DATE
 . O
 
 Omwogezi O
@@ -23370,8 +23370,8 @@ ngogwobutemu O
 Nnannyini O
 ttiimu O
 eno O
-Allan B-PER
-Ssewanyana I-PER
+Allan O
+Ssewanyana O
 era O
 nga O
 ye O
@@ -23395,8 +23395,8 @@ kwesogga O
 liigi O
 ya O
 babinywera O
-sizoni O
-ejja O
+sizoni B-DATE
+ejja I-DATE
 kuba O
 balina O
 obusobozi O
@@ -23416,7 +23416,7 @@ essaza O
 lye O
 Ssingo O
 nerye O
-Kyaggwe B-LOC
+Kyaggwe O
 gattako O
 ne O
 Arsenal B-ORG
@@ -23477,7 +23477,7 @@ kansala O
 akiikirira O
 omuluka O
 gwe O
-Lyakibiriizi O
+Lyakibiriizi B-LOC
 Eddy B-PER
 Agaba I-PER
 alaajjanidde O
@@ -23506,8 +23506,8 @@ Ku O
 lwabaana O
 , O
 Hajj O
-Ahmed B-PER
-Matovu I-PER
+Ahmed O
+Matovu O
 era O
 nga O
 ye O
@@ -23537,7 +23537,7 @@ oluggya O
 lwa O
 Nakajja B-PER
 omugenzi O
-Kulubya O
+Kulubya B-PER
 mwava O
 agambye O
 nti O
@@ -23628,7 +23628,7 @@ ku O
 buzzi O
 bwemisango O
 e O
-Kibuli B-LOC
+Kibuli O
 bagenda O
 ku O
 binoonyerezaako O
@@ -23643,7 +23643,7 @@ obutuufu O
 Kazimba O
 nOmulabirizi O
 we O
-Bukedi O
+Bukedi B-LOC
 Samuel O
 Egesa O
 ku O
@@ -23773,11 +23773,11 @@ zamaka O
 ate O
 abayimbi O
 abakulembeddwa O
-Catherine O
-Kusasira O
+Catherine B-PER
+Kusasira I-PER
 kuliko O
-Dr B-PER
-Hilderman I-PER
+Dr O
+Hilderman O
 , O
 Flash O
 Love O
@@ -23787,28 +23787,28 @@ bangi O
 
 Abalala O
 kuliko O
-Augustin O
-Bugirimfura O
+Augustin B-PER
+Bugirimfura I-PER
 eyali O
 omusuubuzi O
 yattibwa O
 Nairobi O
 e O
-Kenya O
+Kenya B-LOC
 mu O
 1998 O
 , O
 Col O
 . O
-Theoneste B-PER
-Lizinde I-PER
+Theoneste O
+Lizinde O
 yali O
 ofi O
 isa O
 mu O
 magye O
 ga O
-Rwanda O
+Rwanda B-LOC
 yatemulwa O
 mu O
 1997 B-DATE
@@ -23823,14 +23823,14 @@ Stephen I-PER
 Kazimba I-PER
 Mugalu I-PER
 owa O
-Mityana O
-Diocese O
+Mityana B-ORG
+Diocese I-ORG
 alondeddwa O
 okubeera O
 Ssaabalabiriza O
 wEkkanisa O
 ya O
-Uganda B-LOC
+Uganda O
 . O
 
 Abatuuze O
@@ -23856,10 +23856,10 @@ nebirala O
 Abalala O
 Dr O
 . O
-Mary O
-Goretti O
-Nakabugo O
-Twaweza O
+Mary B-PER
+Goretti I-PER
+Nakabugo I-PER
+Twaweza I-PER
 , O
 Dr O
 . O
@@ -23871,20 +23871,20 @@ Mukasa I-PER
 Lusambu I-PER
 kominsona O
 okuva O
-minisitule B-ORG
-yebyenjigiriza I-ORG
+minisitule O
+yebyenjigiriza O
 , O
-Moses B-PER
-Wambi I-PER
+Moses O
+Wambi O
 amyuka O
 akulira O
 ettendekero O
 lyabasomesa O
 erya O
-Bishop O
-Willis O
-Core O
-PTC O
+Bishop B-ORG
+Willis I-ORG
+Core I-ORG
+PTC I-ORG
 . O
 
 Ngoggyeeko O
@@ -23896,8 +23896,8 @@ bakulembeze O
 bekkanisa O
 eyo O
 , O
-James B-PER
-Kunobwa I-PER
+James O
+Kunobwa O
 yagambye O
 nti O
 ebyetaagisa O
@@ -23915,8 +23915,8 @@ bagukutte O
 kannabwala O
 . O
 
-Edison B-PER
-Irigei I-PER
+Edison O
+Irigei O
 era O
 nga O
 yagenda O
@@ -23930,8 +23930,8 @@ abukwase O
 cansala O
 wobussaabalabirizi O
 munnamateeka O
-Barnabas O
-Tumusingize O
+Barnabas B-PER
+Tumusingize I-PER
 . O
 
 Wano O
@@ -23940,7 +23940,7 @@ we O
 yasinzidde O
 okulagira O
 bamuleete O
-leero B-DATE
+leero O
 mu O
 kkooti O
 . O
@@ -23981,8 +23981,8 @@ poliisi O
 mu O
 Kampala O
 nemiriraano O
-Patrick B-PER
-Onyango I-PER
+Patrick O
+Onyango O
 yategeezezza O
 nti O
 bbo O
@@ -24016,11 +24016,11 @@ yasindikiddwa O
 mu O
 kkomera O
 e O
-Lugazi O
+Lugazi B-LOC
 okutuusa O
 nga O
-September B-DATE
-26 I-DATE
+September O
+26 O
 . O
 
 Mu O
@@ -24053,8 +24053,8 @@ omugwa O
 . O
 
 Aba O
-Banka O
-Enkulu O
+Banka B-ORG
+Enkulu I-ORG
 nabo O
 baategeezezza O
 nti O
@@ -24136,13 +24136,13 @@ mu O
 3000 O
 bwebabadde O
 tebannalonda O
-Nuwabiine B-PER
+Nuwabiine O
 basoose O
 ne O
 bawamba O
 woofiisi O
 ya O
-Mubangizi O
+Mubangizi B-PER
 ne O
 bamuggyako O
 omulimu O
@@ -24169,12 +24169,12 @@ obukadde O
 100 O
 ezabaweebwa O
 Pulezidenti O
-Museveni O
+Museveni B-PER
 ezokwekulaakulnya O
 . O
 
 Ye O
-Sudhir O
+Sudhir B-PER
 olufunye O
 ensala O
 ya O
@@ -24196,8 +24196,8 @@ bank O
 ye O
 . O
 
-Isma O
-Nsanja O
+Isma B-PER
+Nsanja I-PER
 omumyuka O
 wa O
 ssentebe O
@@ -24264,16 +24264,16 @@ okugwekebejjaomugenzi O
 yazikiddwa O
 ku O
 kyalo O
-Butikwa B-LOC
-Kapekemu I-LOC
+Butikwa O
+Kapekemu O
 ggombolola O
 ye O
 Kikamulo O
 mu O
 Disitulikiti O
 ye O
-Nakasekeku B-LOC
-Sande O
+Nakasekeku O
+Sande B-DATE
 . O
 
 Kalumba O
@@ -24285,7 +24285,7 @@ ya O
 Motor O
 Care O
 mu O
-Kampala B-LOC
+Kampala O
 ku O
 Jinja B-LOC
 Road I-LOC
@@ -24295,9 +24295,9 @@ yaakawummuzibwa O
 ku O
 mulimu O
 mu O
-March O
-womwaka O
-guno O
+March B-DATE
+womwaka I-DATE
+guno I-DATE
 . O
 
 Ssentebe O
@@ -24305,11 +24305,11 @@ wekyalo O
 kwe O
 baasangiddwa O
 , O
-David O
-Kitamirike O
+David B-PER
+Kitamirike I-PER
 yategeezezza O
 nti O
-Nsubuga B-PER
+Nsubuga O
 tebamumanyi O
 era O
 kye O
@@ -24327,7 +24327,7 @@ Patrick O
 Obotol O
 yagambye O
 nti O
-Atukwasa O
+Atukwasa B-PER
 bagenda O
 kumuggulako O
 emisango O
@@ -24350,7 +24350,7 @@ ssente O
 Mu O
 kusooka O
 , O
-Natukunda O
+Natukunda B-PER
 yatudde O
 nabamu O
 ku O
@@ -24366,8 +24366,8 @@ mu O
 Kampala B-LOC
 nemiriraano O
 , O
-Johnson B-PER
-Olal I-PER
+Johnson O
+Olal O
 wabula O
 ensisinkano O
 eno O
@@ -24375,7 +24375,7 @@ teyavuddemu O
 kalungi O
 okukkakkana O
 nga O
-Natukunda O
+Natukunda B-PER
 atwaliddwa O
 mu O
 kaduukulu O
@@ -24425,14 +24425,14 @@ musanvu O
 baakwatibwa O
 amagye O
 mu O
-October O
-wa O
-2017 O
+October B-DATE
+wa I-DATE
+2017 I-DATE
 ne O
 basimbibwa O
 mu O
-kkooti B-ORG
-yamagye I-ORG
+kkooti O
+yamagye O
 e O
 Makindye B-LOC
 nga O
@@ -24507,7 +24507,7 @@ Kamwenge O
 , O
 Kyenjojo B-LOC
 , O
-Kabalore B-LOC
+Kabalore O
 ne O
 Bundibugyo B-LOC
 bonna O
@@ -24533,8 +24533,8 @@ lwokutukirira O
 omubaka O
 waabwe O
 owa O
-Kassanda O
-South O
+Kassanda B-LOC
+South I-LOC
 natabayamba O
 . O
 
@@ -24601,12 +24601,12 @@ mwe O
 bazaalira O
 . O
 
-James B-PER
-Kateregga I-PER
+James O
+Kateregga O
 Ssentebe O
 wekyalo O
-Manyangwa O
-B O
+Manyangwa B-LOC
+B I-LOC
 wano O
 we O
 yasabidde O
@@ -24703,12 +24703,12 @@ okufunamu O
 emirimu O
 . O
 
-Oketayot B-PER
+Oketayot O
 yategezezza O
 kkooti O
 nti O
-olunaku B-DATE
-olumu I-DATE
+olunaku O
+olumu O
 yasiiga O
 ekifananyi O
 kya O
@@ -24763,9 +24763,9 @@ babikuumamu O
 . O
 
 Atwala O
-poliisi O
-ye O
-Matugga O
+poliisi B-ORG
+ye I-ORG
+Matugga I-ORG
 , O
 Bosco O
 Patrick O
@@ -24793,22 +24793,22 @@ ssente O
 . O
 
 Paasita O
-Aloysius B-PER
-Bugingo I-PER
+Aloysius O
+Bugingo O
 owa O
-House O
-of O
-Prayer O
-International O
-Ministries O
+House B-ORG
+of I-ORG
+Prayer I-ORG
+International I-ORG
+Ministries I-ORG
 e O
-Makerere O
-Kikono O
+Makerere B-LOC
+Kikono I-LOC
 yaddukira O
 mu O
 kkooti O
 e O
-Kajjansi O
+Kajjansi B-LOC
 ngagisaba O
 emugattulule O
 ne O
@@ -24827,7 +24827,7 @@ bufumbo O
 
 Abasirikale O
 balagidde O
-Kisaakye O
+Kisaakye B-PER
 atwale O
 abaana O
 be O
@@ -24876,8 +24876,8 @@ ggoolo O
 22 O
 nga O
 mu O
-kiseera O
-kino O
+kiseera B-DATE
+kino I-DATE
 , O
 eri O
 mu O
@@ -24910,13 +24910,13 @@ baweebwaemitwalo O
 70 O
 . O
 
-Tito O
-Okello O
+Tito B-PER
+Okello I-PER
 Acholi B-LOC
 ne O
-Fredson B-PER
-Gwoto I-PER
-Bukedea O
+Fredson O
+Gwoto O
+Bukedea B-LOC
 baaweereddwa O
 emitwalo O
 10 O
@@ -24927,17 +24927,17 @@ mu O
 mipiira O
 gyombi O
 ku O
-Pece O
-War O
-Memorial O
-Stadium O
+Pece B-LOC
+War I-LOC
+Memorial I-LOC
+Stadium I-LOC
 . O
 
 Mu O
-kiseera O
-kino O
+kiseera B-DATE
+kino I-DATE
 , O
-Arsenal O
+Arsenal B-ORG
 terina O
 mutendesi O
 wa O
@@ -24954,8 +24954,8 @@ mu O
 kiseera O
 kino O
 , O
-Freddie O
-Ljungberg O
+Freddie B-PER
+Ljungberg I-PER
 yaliwo O
 ngomutendesi O
 owekiseera O
@@ -24965,7 +24965,7 @@ Ku O
 Lwokusatu O
 , O
 yaakukyaza O
-Brighton O
+Brighton B-ORG
 mu O
 kaweefube O
 gweriko O
@@ -24978,14 +24978,14 @@ abasooka O
 . O
 
 Akafubo O
-Fergie B-PER
+Fergie O
 ke O
 yabaddemu O
 ne O
-Wilder B-PER
+Wilder O
 kaamaze O
-essaawa O
-nnamba O
+essaawa B-DATE
+nnamba I-DATE
 era O
 wadde O
 ngabaamawulire O
@@ -25011,11 +25011,11 @@ ttiimu O
 ye O
 . O
 
-Jordan O
-Henderson O
+Jordan B-PER
+Henderson I-PER
 , O
-Gini B-PER
-Wijnaldum I-PER
+Gini O
+Wijnaldum O
 ne O
 Oxlade B-PER
 Chamberlain I-PER
@@ -25040,14 +25040,14 @@ kuba O
 mu O
 kiseera O
 kino O
-Solskjaer B-PER
+Solskjaer O
 talina O
 muzannyi O
 agizannya O
 . O
 
-Man B-ORG
-Citya I-ORG
+Man O
+Citya O
 yalemaganye O
 ne O
 Shakhtar O
@@ -25070,15 +25070,15 @@ okuli O
 Mikel O
 Arteta O
 , O
-Maxi B-PER
-Allegri I-PER
+Maxi O
+Allegri O
 , O
-Mauricio B-PER
-Pochettino I-PER
+Mauricio O
+Pochettino O
 nabo O
 balowoozebwako O
 okusikira O
-Emery O
+Emery B-PER
 . O
 
 Amawanga O
@@ -25104,26 +25104,26 @@ okuddamuokweddiza O
 Engabo O
 eno O
 , O
-Samuel O
-Majwega O
+Samuel B-PER
+Majwega I-PER
 , O
 ssentebe O
 wa O
-MK O
-Publishers O
+MK B-ORG
+Publishers I-ORG
 , O
 bwe O
 yeeyamye O
 . O
 
-Uganda B-ORG
+Uganda O
 , O
 eyasemba O
 okutegeka O
 empaka O
 zino O
 mu O
-2012 B-DATE
+2012 O
 , O
 yetegese O
 ezomulundi O
@@ -25131,8 +25131,8 @@ guno O
 ezokubaawo O
 wakati O
 wa O
-December B-DATE
-719 I-DATE
+December O
+719 O
 . O
 
 Liverpool B-ORG
@@ -25147,7 +25147,7 @@ mipiira O
 musanvu O
 . O
 
-Arsenal O
+Arsenal B-ORG
 kati O
 eri O
 mu O
@@ -25160,11 +25160,11 @@ mipiira O
 13 O
 nga O
 ku O
-wiikendi O
+wiikendi B-DATE
 , O
 yaakukyalira O
-Norwich B-ORG
-City I-ORG
+Norwich O
+City O
 . O
 
 Kigambibwa O
@@ -25179,8 +25179,8 @@ mukaaga O
 era O
 abazannyi O
 okuli O
-Fred O
-Agandu O
+Fred B-PER
+Agandu I-PER
 ne O
 Abel B-PER
 Etrude I-PER
@@ -25196,8 +25196,8 @@ tebasasulwa O
 Mu O
 ngeri O
 yemu O
-Mike O
-Mutebi O
+Mike B-PER
+Mutebi I-PER
 akyaza O
 Kyetume O
 FC O
@@ -25242,7 +25242,7 @@ buvuddeko O
 , O
 FIFA B-ORG
 yakaliga O
-Magogo B-PER
+Magogo O
 okumala O
 emyezi O
 ebiri O
@@ -25253,8 +25253,8 @@ nsonga O
 za O
 mupiira O
 okumala O
-emyezi B-DATE
-ebbiri I-DATE
+emyezi O
+ebbiri O
 era O
 ekibonerezo O
 kye O
@@ -25273,7 +25273,7 @@ yaakutaano O
 nobubonero O
 22 O
 ate O
-URA B-ORG
+URA O
 eri O
 mu O
 kya O
@@ -25285,11 +25285,11 @@ mipiira O
 12 O
 . O
 
-Uganda O
+Uganda B-ORG
 esembyayo O
 Kenya B-ORG
 ku O
-Lwokuna O
+Lwokuna B-DATE
 . O
 
 Ttiimu O
@@ -25304,8 +25304,8 @@ nga O
 tetunnasalawo O
 kyankomeredde O
 , O
-Aisha B-PER
-Nalule I-PER
+Aisha O
+Nalule O
 akulira O
 empaka O
 mu O
@@ -25323,13 +25323,13 @@ mu O
 kampeyini O
 eno O
 mu O
-ddakiika O
-eye O
-66 O
+ddakiika B-DATE
+eye I-DATE
+66 I-DATE
 so O
 nga O
 ye O
-Okello B-PER
+Okello O
 katono O
 asse O
 abawagizi O
@@ -25359,32 +25359,32 @@ erimu O
 ttiimu O
 12 O
 okuli O
-Arsenal O
+Arsenal B-ORG
 , O
-Chelsea B-ORG
+Chelsea O
 , O
 Man O
 City O
 , O
-ManU B-ORG
+ManU O
 , O
-Everton B-ORG
+Everton O
 , O
 Liverpool B-ORG
 , O
 Bristol B-ORG
 City I-ORG
 , O
-West O
-Ham O
+West B-ORG
+Ham I-ORG
 , O
 Birmingham O
 , O
-Reading O
+Reading B-ORG
 , O
 Brighton O
 ne O
-Spurs O
+Spurs B-ORG
 . O
 
 Mu O
@@ -25420,17 +25420,17 @@ okwenkana O
 Burkina O
 Faso O
 eyawangudde O
-South O
-Sudan O
+South B-ORG
+Sudan I-ORG
 omwayo O
 Khartoum B-LOC
 nayo O
 20 O
 . O
-Johnathan O
-McKinstry O
+Johnathan B-PER
+McKinstry I-PER
 atendeka O
-Cranes O
+Cranes B-ORG
 yalonze O
 ttiimu O
 eyayawuseemu O
@@ -25440,8 +25440,8 @@ Burkina O
 Faso O
 bwe O
 yalagidde O
-Bevis B-PER
-Mugabi I-PER
+Bevis O
+Mugabi O
 eyazannya O
 nnamba O
 2 O
@@ -25457,8 +25457,8 @@ olwo O
 nnamba O
 2 O
 nagitandisaamu O
-Nicholas O
-Wadada O
+Nicholas B-PER
+Wadada I-PER
 . O
 Timothy B-PER
 Awany I-PER
@@ -25487,8 +25487,8 @@ Kizito O
 Luwaga O
 yazannye O
 eya O
-Abdul O
-Lumala O
+Abdul B-PER
+Lumala I-PER
 ataabaddewo O
 . O
 Enyimirira O
@@ -25564,11 +25564,11 @@ ziddwamu O
 Lwakubiri O
 . O
 
-Raymond O
-Komakech O
+Raymond B-PER
+Komakech I-PER
 , O
 atendeka O
-Ndejje B-ORG
+Ndejje O
 agamba O
 nti O
 ekitundu O
@@ -25596,9 +25596,9 @@ okufunira O
 BUL O
 ggoolo O
 mu O
-ddakiika B-DATE
-ye I-DATE
-74 I-DATE
+ddakiika O
+ye O
+74 O
 wabula O
 wayise O
 eddakiika O
@@ -25608,7 +25608,7 @@ zokka O
 David O
 Owori O
 nafunira O
-Villa B-ORG
+Villa O
 eyekyenkanyi O
 . O
 
@@ -25623,8 +25623,8 @@ Okello O
 Nicholas O
 Kasozi O
 ne O
-Charles B-PER
-Lukwago I-PER
+Charles O
+Lukwago O
 abali O
 ne O
 ttiimu O
@@ -25635,7 +25635,7 @@ omupiira O
 gwa O
 Malawi B-ORG
 ku O
-Ssande B-DATE
+Ssande O
 so O
 nga O
 Vipers O
@@ -25644,31 +25644,31 @@ omuteebi O
 Fahad B-PER
 Bayo I-PER
 ne O
-Halid B-PER
-Lwalilwa I-PER
+Halid O
+Lwalilwa O
 . O
 
 Botswana B-ORG
 ne O
-Algeria O
+Algeria B-ORG
 bakuttunka O
 ku O
-Mmande O
-nga O
-November O
-18 O
+Mmande B-DATE
+nga I-DATE
+November I-DATE
+18 I-DATE
 e O
-Gaborone O
+Gaborone B-LOC
 mu O
 mpaka O
 zokusunsulamu O
 abalizannya O
 mu O
-AFCON B-ORG
+AFCON O
 ya O
 2021 B-DATE
 e O
-Cameroon O
+Cameroon B-LOC
 . O
 
 Liigi O
@@ -25684,16 +25684,16 @@ FC O
 e O
 Kasaana O
 ate O
-Synergy O
-FC O
+Synergy B-ORG
+FC I-ORG
 erumbe O
-Masaka B-ORG
-City I-ORG
+Masaka O
+City O
 ku O
-Liku B-LOC
-Masaka I-LOC
-Recreation I-LOC
-Grounds I-LOC
+Liku O
+Masaka O
+Recreation O
+Grounds O
 . O
 
 Nkumba O
@@ -25707,8 +25707,8 @@ bakyala O
 
 Abalala O
 ye O
-Muzamiru O
-Mutyaba O
+Muzamiru B-PER
+Mutyaba I-PER
 , O
 Allan O
 Okello O
@@ -25716,34 +25716,34 @@ Okello O
 Bright O
 Anukani O
 , O
-Joachim O
-Ojera O
+Joachim B-PER
+Ojera I-PER
 , O
 Vianne O
 Sekajugo O
 , O
-Allan O
-Kayiwa O
+Allan B-PER
+Kayiwa I-PER
 , O
 Joel O
 Madondo O
 , O
-Fahad O
-Bayo O
+Fahad B-PER
+Bayo I-PER
 , O
 Ashraf O
 Mandela O
 ne O
-Edrisa O
-Lubega O
+Edrisa B-PER
+Lubega I-PER
 . O
 
 Baawangudde O
 emidaali O
 mwenda O
 nga O
-Larry O
-Feni O
+Larry B-PER
+Feni I-PER
 alinako O
 ebiri O
 , O
@@ -25755,7 +25755,7 @@ feeza O
 
 Ttiimu O
 esitula O
-Lwakutaano B-DATE
+Lwakutaano O
 okwolekera O
 obuvanjuba O
 . O
@@ -25770,13 +25770,13 @@ enzannya O
 ye O
 . O
 
-Katwe O
+Katwe B-ORG
 yeddiridde O
 asembye O
 mu O
-kibinja O
-kya O
-Elgon O
+kibinja B-ORG
+kya I-ORG
+Elgon I-ORG
 nobubonero O
 4 O
 . O
@@ -25786,29 +25786,29 @@ kuliko O
 Viola B-PER
 Namuddu I-PER
 , O
-Shadia O
-Nankya O
+Shadia B-PER
+Nankya I-PER
 , O
-Bridget B-PER
-Nabisaalu I-PER
+Bridget O
+Nabisaalu O
 , O
-Marion B-PER
-Amangat I-PER
+Marion O
+Amangat O
 , O
-Stella B-PER
-Musubika I-PER
+Stella O
+Musubika O
 , O
-Eunice O
-Ariokot O
+Eunice B-PER
+Ariokot I-PER
 , O
-Grace B-PER
-Aluka I-PER
+Grace O
+Aluka O
 , O
-Aisha B-PER
-Namukisa I-PER
+Aisha O
+Namukisa O
 , O
-Asia O
-Nakibuuka O
+Asia B-PER
+Nakibuuka I-PER
 , O
 Harriet O
 Nakkuba O
@@ -25831,14 +25831,14 @@ Nalukenge O
 Margret O
 Kunihira O
 , O
-Rashidah O
-Nankya O
+Rashidah B-PER
+Nankya I-PER
 , O
 Resty O
 Nanziri O
 , O
-Zainah B-PER
-Namuleme I-PER
+Zainah O
+Namuleme O
 ne O
 Shamirah O
 Nalugya O
@@ -25857,7 +25857,7 @@ mpaka O
 ze O
 beetegekera O
 mu O
-Oman O
+Oman B-LOC
 , O
 baakutwalako O
 12 O
@@ -25891,19 +25891,19 @@ gwabwe O
 . O
 
 Wabula O
-George O
-Best O
-Nsimbe O
+George B-PER
+Best I-PER
+Nsimbe I-PER
 atendeka O
 Kyetume B-ORG
 FC I-ORG
 awaga O
 kusuuza O
-BUL B-ORG
+BUL O
 bubonero O
 oluvannyuma O
 lwokukubwa O
-Vipers B-ORG
+Vipers O
 21 O
 e O
 Namboole O
@@ -25915,13 +25915,13 @@ Abalala O
 abokuzannya O
 quarter O
 ye O
-Everton O
+Everton B-ORG
 nga O
 yaakuzannya O
-Leicester O
+Leicester B-ORG
 . O
 
-Kitara B-ORG
+Kitara O
 yekulembedde O
 ekibinja B-ORG
 kya I-ORG
@@ -25936,17 +25936,17 @@ mipiira O
 
 Cranes O
 ezannya O
-Burkina B-ORG
-Faso I-ORG
+Burkina O
+Faso O
 ku O
 bugenyi O
 nga O
-November O
-13 O
+November B-DATE
+13 I-DATE
 ne O
 Malawi B-ORG
 e O
-Namboole O
+Namboole B-LOC
 nga O
 November B-DATE
 17 I-DATE
@@ -25962,31 +25962,31 @@ Alexandria O
 , O
 Egypt O
 , O
-Patrick B-PER
-Henry I-PER
-Kaddu I-PER
-RS B-ORG
-Berkane I-ORG
+Patrick O
+Henry O
+Kaddu O
+RS O
+Berkane O
 , O
-Morocco B-LOC
+Morocco O
 , O
 Alexis B-PER
 Bakka I-PER
-Carlstad B-ORG
-United I-ORG
-BK I-ORG
+Carlstad O
+United O
+BK O
 , O
 Sweden O
 , O
-Fahad O
-Bayo O
-Vipers O
+Fahad B-PER
+Bayo I-PER
+Vipers B-ORG
 , O
 Uganda B-LOC
 , O
 Farouk B-PER
 Miya I-PER
-Konyaspor B-ORG
+Konyaspor O
 , O
 Turkey O
 , O
@@ -25996,12 +25996,12 @@ Pyramids O
 , O
 Egypt B-LOC
 ne O
-Kizito B-PER
-Luwagga I-PER
-Shakhter B-ORG
-Karagandy I-ORG
+Kizito O
+Luwagga O
+Shakhter O
+Karagandy O
 , O
-Kazahstan B-LOC
+Kazahstan O
 . O
 
 Kati O
@@ -26026,10 +26026,10 @@ ttiimu O
 gyagenda O
 okuzannyira O
 mu O
-Spain B-LOC
+Spain O
 , O
 aba O
-Napoli O
+Napoli B-ORG
 ababadde O
 bamwesunze O
 abalesse O
@@ -26040,12 +26040,12 @@ bitaala O
 Mu O
 basajja O
 , O
-Uganda B-ORG
+Uganda O
 yakutte O
 kyakubiri O
 nga O
-South O
-Africa O
+South B-ORG
+Africa I-ORG
 yakyeddizza O
 olwo O
 Zimbabwe O
@@ -26062,7 +26062,7 @@ nobubonero O
 19 O
 , O
 nga O
-Vipers O
+Vipers B-ORG
 ekulembedde O
 21 O
 egisinza O
@@ -26108,22 +26108,22 @@ gakakkasiza O
 okwetaba O
 mu O
 mpaka O
-zomwaka B-DATE
-guno I-DATE
+zomwaka O
+guno O
 . O
 
-Butembe B-ORG
+Butembe O
 eri O
 mu O
 kyakusatu O
 nobubonero O
 6 O
 nga O
-Bunha O
+Bunha B-ORG
 ne O
 Luuka B-ORG
 eyakubye O
-Busiki B-ORG
+Busiki O
 ggoolo O
 10 O
 , O
@@ -26167,7 +26167,7 @@ okufuna O
 obuvune O
 . O
 
-Mugisha O
+Mugisha B-PER
 yomu O
 ku O
 bakwasi O
@@ -26176,7 +26176,7 @@ ggoolo O
 abeekolera O
 erinnya O
 ku O
-Cranes O
+Cranes B-ORG
 ngera O
 yabadde O
 atendeka O
@@ -26188,7 +26188,7 @@ Rwanda O
 ne O
 kiraabu O
 ya O
-APR B-ORG
+APR O
 . O
 
 Singa O
@@ -26210,8 +26210,8 @@ mupiira O
 gwa O
 kwegezaamu O
 nemegga O
-Katwe B-ORG
-United I-ORG
+Katwe O
+United O
 eya O
 Big O
 League O
@@ -26219,11 +26219,11 @@ ku O
 ggoolo O
 20 O
 ezaateebeddwa O
-Muzamiru O
-Mutyaba O
+Muzamiru B-PER
+Mutyaba I-PER
 ne O
-Egbuonu O
-Odumegwu O
+Egbuonu B-PER
+Odumegwu I-PER
 . O
 
 Wabula O
@@ -26275,18 +26275,18 @@ ennyonyi O
 kubanga O
 olunaamala O
 okusamba O
-Burkina B-ORG
-Faso I-ORG
+Burkina O
+Faso O
 nga O
 November B-DATE
 13 I-DATE
 tujja O
 ate O
 kusamba O
-Malawi B-ORG
+Malawi O
 nga O
-November B-DATE
-17 I-DATE
+November O
+17 O
 ekitegeeza O
 tulina O
 okudda O
@@ -26295,7 +26295,7 @@ Kampala O
 nga O
 bukyali O
 , O
-Mugisha O
+Mugisha B-PER
 bwe O
 yategeezezza O
 . O
@@ -26339,7 +26339,7 @@ ddala O
 agenda O
 kutuula O
 ne O
-Mubiru B-PER
+Mubiru O
 bakole O
 pulaani O
 gye O
@@ -26352,7 +26352,7 @@ nsisinkana O
 etaano O
 ezisembyeyo O
 , O
-Vipers O
+Vipers B-ORG
 ewanguddemu O
 emipiira O
 ena O
@@ -26363,8 +26363,8 @@ BUL O
 gumu O
 . O
 
-Robert B-PER
-Mukongotya I-PER
+Robert O
+Mukongotya O
 eyakateeba O
 ggoolo O
 5 O
@@ -26373,8 +26373,8 @@ mipiira O
 4 O
 egisembyeyo O
 , O
-Richard B-PER
-Wandyaka I-PER
+Richard O
+Wandyaka O
 , O
 Deogratius B-PER
 Ojok I-PER
@@ -26385,17 +26385,17 @@ Otim I-PER
 Fredson O
 Gwotto O
 , O
-Thomas B-PER
-Kabale I-PER
+Thomas O
+Kabale O
 ne O
-Sadam O
-Masereka O
+Sadam B-PER
+Masereka I-PER
 , O
 be O
 absuubirwa O
 okuyamba O
-BUL O
-FC O
+BUL B-ORG
+FC I-ORG
 okufuna O
 obuwanguzi O
 . O
@@ -26409,26 +26409,26 @@ Lions B-ORG
 Sports I-ORG
 Club I-ORG
 , O
-Nakagere O
-FC O
-, O
-Goma O
-FC O
-, O
-Misindye B-ORG
+Nakagere B-ORG
 FC I-ORG
+, O
+Goma B-ORG
+FC I-ORG
+, O
+Misindye O
+FC O
 ne O
-Kabaya B-ORG
-FC I-ORG
+Kabaya O
+FC O
 , O
 nendala O
 . O
 
 Mu O
-kiseera B-DATE
-kino I-DATE
+kiseera O
+kino O
 , O
-Tuliraba B-PER
+Tuliraba O
 azannyira O
 Donauschwaben O
 FC O
@@ -26441,15 +26441,15 @@ fayinolo O
 egenda O
 okuzannyibwa O
 nga O
-November B-DATE
-3 I-DATE
+November O
+3 O
 e O
-Namboole O
+Namboole B-LOC
 , O
-SLAU B-ORG
+SLAU O
 yaakuttunka O
 ne O
-UCU O
+UCU B-ORG
 eyawanduddemu O
 Bugema B-ORG
 . O
@@ -26471,16 +26471,16 @@ Cup O
 ogugenda O
 okubeerawo O
 nga O
-October B-DATE
-27 I-DATE
+October O
+27 O
 , O
 e O
 Lugogo B-LOC
 . O
 
 Mu O
-kiseera B-DATE
-kino I-DATE
+kiseera O
+kino O
 Express O
 ekwata O
 kifo O
@@ -26494,23 +26494,23 @@ Ttiimu O
 zaazannyiddeko O
 kuliko O
 eyeggwanga O
-Cranes O
+Cranes B-ORG
 , O
-Villa O
+Villa B-ORG
 , O
 Victors B-ORG
 , O
 Express O
 ne O
-Police B-ORG
+Police O
 . O
 
 Omuwanguzi O
 waakwambalagana O
 ne O
-UMU B-ORG
+UMU O
 oba O
-SLAU O
+SLAU B-ORG
 , O
 abazannya O
 ku O
@@ -26536,17 +26536,17 @@ A O
 ate O
 nga O
 mu O
-ManU B-ORG
+ManU O
 , O
-Evra O
+Evra B-PER
 yawangulirayo O
 Premier O
 5 O
 . O
 
-Embogo O
+Embogo B-ORG
 yawangula O
-Ekkobe B-ORG
+Ekkobe O
 ggoolo O
 10 O
 ku O
@@ -26556,8 +26556,8 @@ Masaka O
 Recreation O
 Grounds O
 nga O
-August O
-31 O
+August B-DATE
+31 I-DATE
 , O
 era O
 nga O
@@ -26642,7 +26642,7 @@ nasiima O
 Ssekandi B-PER
 olwokuyamba O
 be O
-Bukoto B-LOC
+Bukoto O
 okutumbula O
 ebyenfuna O
 . O
@@ -26664,12 +26664,12 @@ ne O
 ttiimu O
 enkulu O
 eyawangudde O
-Ethiopia O
+Ethiopia B-ORG
 10 O
 mu O
 gwomukwano O
 ku O
-Ssande B-DATE
+Ssande O
 , O
 baakomyewo O
 eggulo O
@@ -26679,8 +26679,8 @@ sso O
 nga O
 ensonga O
 eyalemesezza O
-Karim B-PER
-Watambala I-PER
+Karim O
+Watambala O
 okwegatta O
 ku O
 banne O
@@ -26696,8 +26696,8 @@ Ondogkara I-PER
 Timothy B-PER
 Awany I-PER
 , O
-Nicholas O
-Wadada O
+Nicholas B-PER
+Wadada I-PER
 , O
 Isaac B-PER
 Muleme I-PER
@@ -26719,14 +26719,14 @@ Kayiwa I-PER
 . O
 
 Omubaka O
-Allan O
-Ssewanyana O
+Allan B-PER
+Ssewanyana I-PER
 Makindye O
 West O
 , O
 ye O
 yatwala O
-Magogo B-PER
+Magogo O
 mu O
 FIFA B-ORG
 , O
@@ -26755,9 +26755,9 @@ empaka O
 zino O
 ezaali O
 mu O
-Brazil B-LOC
+Brazil O
 mu O
-2014 B-DATE
+2014 O
 . O
 
 Omupira O
@@ -26783,7 +26783,7 @@ mu O
 nsi O
 yonna O
 ekya O
-FIFA O
+FIFA B-ORG
 . O
 
 Kyokka O
@@ -26817,8 +26817,8 @@ abulina O
 mu O
 kisambi O
 , O
-Luke O
-Show O
+Luke B-PER
+Show I-PER
 nga O
 ne O
 Wan B-PER
@@ -26834,22 +26834,22 @@ akakongovvule O
 kakyamuluma O
 . O
 
-Sizoni O
-ewedde O
+Sizoni B-DATE
+ewedde I-DATE
 , O
-CSKA B-ORG
-Moscow I-ORG
+CSKA O
+Moscow O
 ne O
-Ajax B-ORG
+Ajax O
 zaagikubirawo O
 . O
 
 Yagasseeko O
 nti O
-FIFA B-ORG
+FIFA O
 okutwala O
-emyaka O
-ebiri O
+emyaka B-DATE
+ebiri I-DATE
 ngonoonyereza O
 kitegeeza O
 nti O
@@ -26860,7 +26860,7 @@ obwaweebwayo O
 bulimu O
 eggumba O
 era O
-Magogo B-PER
+Magogo O
 ali O
 mu O
 kaseera O
@@ -26888,8 +26888,8 @@ ezetabiddwaamu O
 abavubuka O
 abali O
 wansi O
-wemyaka B-DATE
-20 I-DATE
+wemyaka O
+20 O
 okuva O
 mu O
 mawanga O
@@ -26899,31 +26899,31 @@ ya O
 ku O
 Lwamukaaga O
 mu O
-Pece O
-War O
-Memorial O
-Stadium O
-e O
-Gulu O
+Pece B-LOC
+War I-LOC
+Memorial I-LOC
+Stadium I-LOC
+e I-LOC
+Gulu I-LOC
 . O
 
 Empaka O
 zino O
 zizannyibwa O
 mu O
-wiiki O
-esembayo O
-ku O
-nkomerero O
-ya O
-buli O
-mwezi O
+wiiki B-DATE
+esembayo I-DATE
+ku I-DATE
+nkomerero I-DATE
+ya I-DATE
+buli I-DATE
+mwezi I-DATE
 . O
 
 Mu O
 mirala O
 , O
-Kyetume B-ORG
+Kyetume O
 eri O
 ne O
 Police O
@@ -26934,17 +26934,17 @@ gwonna O
 , O
 Mbarara O
 ekyaza O
-Busoga B-ORG
-United I-ORG
+Busoga O
+United O
 e O
-Luzira B-LOC
+Luzira O
 sso O
 nga O
-Proline B-ORG
+Proline O
 eyaakamegga O
-AS B-ORG
-Kigali I-ORG
-21 I-ORG
+AS O
+Kigali O
+21 O
 mu O
 mpaka O
 za O
@@ -26954,11 +26954,11 @@ Cup O
 , O
 ettunka O
 ne O
-Express O
+Express B-ORG
 eyasembwa O
 okukubwa O
-SC O
-Villa O
+SC B-ORG
+Villa I-ORG
 . O
 
 BUL O
@@ -26968,7 +26968,7 @@ yeenkanya O
 obubonero O
 9 O
 ne O
-Maroons O
+Maroons B-ORG
 mu O
 kyokusatu O
 , O
@@ -26983,13 +26983,13 @@ emizannyo O
 mu O
 ggye O
 lya O
-UPDF O
+UPDF B-ORG
 , O
 Col O
 . O
-John O
-Mark O
-Ssemmanda O
+John B-PER
+Mark I-PER
+Ssemmanda I-PER
 , O
 pulezidenti O
 wa O
@@ -26998,8 +26998,8 @@ Africa I-ORG
 Boxing I-ORG
 Union I-ORG
 Major O
-Herbert O
-Ndiwalana O
+Herbert B-PER
+Ndiwalana I-PER
 ne O
 Ssalongo O
 Kasawuli O
@@ -27037,21 +27037,21 @@ emukansa O
 , O
 erina O
 okuliyirira O
-Spurs B-ORG
+Spurs O
 obukadde O
 bwa O
 pawundi O
 32 O
 . O
 
-St O
-Mary O
-Marys O
-Kitende O
+St B-ORG
+Mary I-ORG
+Marys I-ORG
+Kitende I-ORG
 be O
 bannantameggwa O
-bwomwaka B-DATE
-guno I-DATE
+bwomwaka O
+guno O
 mu O
 mpaka O
 za O
@@ -27060,14 +27060,14 @@ Coca O
 Cola O
 bwe O
 bamegga O
-Jinja O
-SS O
+Jinja B-ORG
+SS I-ORG
 31 O
 e O
-Jinja O
-mu O
-Kakindu O
-Stadium O
+Jinja B-LOC
+mu I-LOC
+Kakindu I-LOC
+Stadium I-LOC
 . O
 
 Kyokka O
@@ -27083,7 +27083,7 @@ teri O
 mu O
 ntegeka O
 zitunda O
-Sterling O
+Sterling B-PER
 kati O
 kuba O
 yaakamwongera O
@@ -27101,8 +27101,8 @@ pawundi O
 , O
 000 O
 zafuna O
-buli O
-wiiki O
+buli B-DATE
+wiiki I-DATE
 , O
 ze O
 zimu O
@@ -27117,8 +27117,8 @@ Nomutendesi O
 wa O
 Sudan O
 , O
-Zdravko O
-Logarusic O
+Zdravko B-PER
+Logarusic I-PER
 naye O
 avuddeyo O
 ne O
@@ -27131,12 +27131,12 @@ tabwabalibwa O
 
 Endagaano O
 ya O
-Pogba O
+Pogba B-PER
 ne O
-ManU O
+ManU B-ORG
 eggwaako O
 mu O
-2021 O
+2021 B-DATE
 . O
 
 Bagamba O
@@ -27152,8 +27152,8 @@ bwesimbu O
 kuba O
 tebalaba O
 ngeri O
-Van B-PER
-Dijk I-PER
+Van O
+Dijk O
 gye O
 yalemeddwa O
 kufuna O
@@ -27175,9 +27175,9 @@ ekisinge O
 . O
 
 Eno O
-sizoni O
-ya O
-8 O
+sizoni B-DATE
+ya I-DATE
+8 I-DATE
 nga O
 liigi O
 ya O
@@ -27186,14 +27186,14 @@ ezannyibwa O
 , O
 MUBS O
 ne O
-KU O
+KU B-ORG
 balina O
 ebikopo O
 bibiri O
 buli O
 omu O
 ate O
-MUK O
+MUK B-ORG
 , O
 Kyambogo B-ORG
 ne O
@@ -27205,7 +27205,7 @@ kimu O
 
 Kigambibwa O
 nti O
-Proline B-ORG
+Proline O
 yawandikira O
 FUFA B-ORG
 ebbaluwa O
@@ -27216,11 +27216,11 @@ kuzannya O
 mupiira O
 olwabazannyi O
 baayo O
-Mustafa O
-Mujuzi O
+Mustafa B-PER
+Mujuzi I-PER
 ne O
-Bright B-PER
-Anukani I-PER
+Bright O
+Anukani O
 abaali O
 ku O
 ttiimu O
@@ -27233,9 +27233,9 @@ endala O
 , O
 Kyaddondo B-ORG
 ekyaza O
-Bulemeezi O
+Bulemeezi B-ORG
 e O
-Mwereerwe O
+Mwereerwe B-LOC
 , O
 nga O
 buli O
@@ -27267,7 +27267,7 @@ zikoobedde O
 Nakula O
 ndoota O
 kuzannyira O
-Barcelona B-ORG
+Barcelona O
 era O
 sinnafuna O
 kirowoozo O
@@ -27290,9 +27290,9 @@ tamanyi O
 Ku O
 fayinolo O
 baakuzannya O
-Black B-ORG
-Street I-ORG
-FC I-ORG
+Black O
+Street O
+FC O
 . O
 
 Alina O
@@ -27304,9 +27304,9 @@ Olympics O
 gwe O
 yawangula O
 ne O
-Cameroon B-LOC
+Cameroon O
 mu O
-2000 B-DATE
+2000 O
 . O
 
 Abaaliko O
@@ -27318,7 +27318,7 @@ okuli O
 Carles O
 Puyol O
 , O
-Xavi O
+Xavi B-PER
 ne O
 Andres O
 Iniesta O
@@ -27338,56 +27338,56 @@ Iniesta O
 baakomekkereza O
 bagenze O
 mu O
-Qatar B-LOC
+Qatar O
 ne O
-Japan B-LOC
+Japan O
 . O
 
 Abazannyi O
 abayitiddwa O
 kuliko O
-Onyango O
-Denis O
-Mamelodi B-ORG
-Sundowns I-ORG
+Onyango B-PER
+Denis I-PER
+Mamelodi O
+Sundowns O
 , O
-South B-LOC
-Africa I-LOC
+South O
+Africa O
 , O
-Lukwago B-PER
-Charles I-PER
+Lukwago O
+Charles O
 KCCA O
 FC O
 , O
-Odongkara O
-Robert O
-Horoya B-ORG
-AC I-ORG
+Odongkara B-PER
+Robert I-PER
+Horoya O
+AC O
 , O
-Guinea B-LOC
+Guinea O
 , O
 Mutakubwa O
 Joel O
-Kyetume B-ORG
-FC I-ORG
+Kyetume O
+FC O
 , O
 Willa O
 Paul O
 Vipers O
 SC O
 , O
-Kizza O
-Mustafa O
+Kizza B-PER
+Mustafa I-PER
 KCCA B-ORG
 FC I-ORG
 , O
-Ochaya B-PER
-Joseph I-PER
+Ochaya O
+Joseph O
 TP B-ORG
 Mazembe I-ORG
 , O
-DR O
-Congo O
+DR B-LOC
+Congo I-LOC
 , O
 Awany O
 Timothy O
@@ -27401,7 +27401,7 @@ Murushid O
 Wydad B-ORG
 Casablanca I-ORG
 , O
-Morocco B-LOC
+Morocco O
 , O
 Revita B-PER
 John I-PER
@@ -27413,10 +27413,10 @@ Mustafa O
 Proline O
 FC O
 , O
-Lwaliwa O
-Halid O
-Vipers O
-SC O
+Lwaliwa B-PER
+Halid I-PER
+Vipers B-ORG
+SC I-ORG
 , O
 Kasozi B-PER
 Nicholas I-PER
@@ -27428,22 +27428,22 @@ Tadeo I-PER
 Tanta O
 FC O
 , O
-Egypt B-LOC
+Egypt O
 , O
-Lumala O
-Abdu O
+Lumala B-PER
+Abdu I-PER
 Pyramids B-ORG
 FC I-ORG
 
 , O
-Egypt O
+Egypt B-LOC
 , O
-Kizito O
-Luwagga O
-Shaktar O
-Karagandy O
+Kizito B-PER
+Luwagga I-PER
+Shaktar B-ORG
+Karagandy I-ORG
 , O
-Kazakhstan O
+Kazakhstan B-LOC
 , O
 Miya O
 Faruku O
@@ -27453,37 +27453,37 @@ Turkey O
 , O
 Kyambadde B-PER
 Allan I-PER
-El O
-Gouna O
-FC O
+El B-ORG
+Gouna I-ORG
+FC I-ORG
 , O
 Egypt O
 , O
 Kayiwa B-PER
 Allan I-PER
-Vipers B-ORG
-SC I-ORG
+Vipers O
+SC O
 , O
-Aucho B-PER
-Khalid I-PER
-El B-ORG
-Miskir I-ORG
+Aucho O
+Khalid O
+El O
+Miskir O
+FC O
+, O
+Egypt O
+, O
+Okello B-PER
+Alan I-PER
+KCCA B-ORG
 FC I-ORG
 , O
-Egypt B-LOC
+Mutyaba O
+Muzamir O
+KCCA B-ORG
+FC I-ORG
 , O
-Okello O
-Alan O
-KCCA O
-FC O
-, O
-Mutyaba B-PER
-Muzamir I-PER
-KCCA O
-FC O
-, O
-Okwi B-PER
-Emmanuel I-PER
+Okwi O
+Emmanuel O
 Al O
 Ittihad O
 , O
@@ -27494,8 +27494,8 @@ Patrick I-PER
 KCCA B-ORG
 FC I-ORG
 ne O
-Bayo O
-Fahad O
+Bayo B-PER
+Fahad I-PER
 Vipers B-ORG
 SC I-ORG
 . O
@@ -27503,14 +27503,14 @@ SC I-ORG
 Mu O
 ngeri O
 yemu O
-Busoga O
-United O
+Busoga B-ORG
+United I-ORG
 eyigga O
 buwanguzi O
 busooka O
 ngettunka O
 ne O
-KCCA B-ORG
+KCCA O
 e O
 Jinja O
 , O
@@ -27524,8 +27524,8 @@ ne O
 Wasswa O
 Bbosa O
 atendeka O
-Tooro B-ORG
-United I-ORG
+Tooro O
+United O
 e O
 Kitende B-LOC
 . O
@@ -27547,7 +27547,7 @@ bannaabwe O
 be O
 basanzeewo O
 wabula O
-Silva B-PER
+Silva O
 agamba O
 nti O
 kino O
@@ -27591,10 +27591,10 @@ Bulemeezi O
 ku O
 kisaawe O
 kya O
-Bishops O
-SS O
+Bishops B-ORG
+SS I-ORG
 e O
-Mukono B-LOC
+Mukono O
 . O
 
 Mu O
@@ -27605,15 +27605,15 @@ Uganda O
 Premeir O
 League O
 , O
-URA B-ORG
+URA O
 eggulawo O
 ne O
-Maroons O
+Maroons B-ORG
 ku O
-Lwokutaano B-DATE
-nga I-DATE
-August I-DATE
-30 I-DATE
+Lwokutaano O
+nga O
+August O
+30 O
 . O
 
 Wabula O
@@ -27627,7 +27627,7 @@ kuba O
 we O
 baabakansiza O
 nga O
-KCCA O
+KCCA B-ORG
 emaze O
 okuweereza O
 amannya O
@@ -27654,15 +27654,15 @@ okwerowoozaako O
 Camavinga B-PER
 nzaalwa O
 ye O
-Angola B-LOC
+Angola O
 wabula O
 yagenda O
 e O
-Bufalansa B-LOC
+Bufalansa O
 nga O
 wa O
-myaka B-DATE
-6 I-DATE
+myaka O
+6 O
 era O
 kati O
 ali O
@@ -27671,7 +27671,7 @@ ntegeka O
 ezifuna O
 obutuuze O
 bwe O
-Bufalansa O
+Bufalansa B-LOC
 asobole O
 okugizanyira O
 . O
@@ -27682,24 +27682,24 @@ mu O
 mpaka O
 zino O
 kuliko O
-KCCA O
+KCCA B-ORG
 , O
 Vipers O
 , O
-Onduparaka B-ORG
+Onduparaka O
 , O
 Mbarara O
 City O
 , O
 URA B-ORG
 , O
-Wakiso B-ORG
-Giants I-ORG
+Wakiso O
+Giants O
 , O
 Proline O
 ne O
-Tooro O
-United O
+Tooro B-ORG
+United I-ORG
 . O
 
 Ensimbi O
@@ -27710,19 +27710,19 @@ Coutinho O
 , O
 baazigulamu O
 omuzibizi O
-Virgil O
-van O
-Dijk O
+Virgil B-PER
+van I-PER
+Dijk I-PER
 ne O
 ggoolokipa O
-Alisson B-PER
+Alisson O
 . O
 
-Baker B-PER
-Mbowa I-PER
+Baker O
+Mbowa O
 ne O
-Issa B-PER
-Sserwanja I-PER
+Issa O
+Sserwanja O
 be O
 bagenda O
 okumyuka O
@@ -27734,8 +27734,8 @@ eno O
 
 Abalala O
 kuliko O
-Geoffrey O
-Sserunkuuma O
+Geoffrey B-PER
+Sserunkuuma I-PER
 Napsa O
 Stars O
 , O
@@ -27744,26 +27744,26 @@ Zambia O
 Simon O
 Namwanja O
 , O
-Ibrahim O
-Kiyemba O
-Vipers O
+Ibrahim B-PER
+Kiyemba I-PER
+Vipers B-ORG
 , O
-Hassan B-PER
-Agogo I-PER
+Hassan O
+Agogo O
 , O
 Emmanuel B-PER
 Mutebi I-PER
 , O
-Hassan B-PER
-Ssenyonjo I-PER
+Hassan O
+Ssenyonjo O
 , O
-Muwadda B-PER
-Mawejje I-PER
-Vipers O
+Muwadda O
+Mawejje O
+Vipers B-ORG
 , O
-Duncan O
-Sseninde O
-Vipers O
+Duncan B-PER
+Sseninde I-PER
+Vipers B-ORG
 , O
 Derrick B-PER
 Emukule I-PER
@@ -27776,10 +27776,10 @@ Nyamityobora B-ORG
 , O
 Aggrey O
 Madoi O
-Police O
+Police B-ORG
 ne O
-Martin B-PER
-Ssegawa I-PER
+Martin O
+Ssegawa O
 . O
 
 Wiikendi B-DATE
@@ -27795,8 +27795,8 @@ ggoolo O
 21 O
 nga O
 mu O
-kiseera O
-kino O
+kiseera B-DATE
+kino I-DATE
 be O
 bali O
 ku O
@@ -27843,7 +27843,7 @@ Solskjaer I-PER
 agamba O
 nti O
 takyabala O
-Sanchez O
+Sanchez B-PER
 mu O
 ttiimu O
 esooka O
@@ -27870,11 +27870,11 @@ nkola O
 eno O
 nga O
 bakuumirwa O
-Mutundwe O
+Mutundwe B-LOC
 mu O
-munisipaali O
-ye O
-Lubaga O
+munisipaali B-LOC
+ye I-LOC
+Lubaga I-LOC
 . O
 
 Abawanguzi O
@@ -27882,7 +27882,7 @@ okuva O
 mu O
 ligyoni O
 zombi O
-Northern B-LOC
+Northern O
 ne O
 West O
 Nile O
@@ -27909,7 +27909,7 @@ mu O
 ddakiika O
 90 O
 , O
-KCCA O
+KCCA B-ORG
 newangulira O
 ku O
 peneti O
@@ -27919,9 +27919,9 @@ mu O
 Uganda O
 Cup O
 mu O
-2018 B-DATE
+2018 O
 e O
-Bukedea O
+Bukedea B-LOC
 , O
 KCCA B-ORG
 era O
@@ -27932,21 +27932,21 @@ ggoolo O
 
 Lino O
 lyejoogo O
-Onduparaka O
+Onduparaka B-ORG
 lyeyagala O
 okukomya O
 bwe O
 banaaba O
 basisinkanye O
 ku O
-Lwokutaano O
+Lwokutaano B-DATE
 . O
 
 Baker O
 Mbowa O
 ne O
-Isa B-PER
-Sserwanja I-PER
+Isa O
+Sserwanja O
 be O
 basigadde O
 mu O
@@ -27959,7 +27959,7 @@ ngerangiridde O
 ekiddako O
 . O
 
-Wasswa B-PER
+Wasswa O
 omupiira O
 yagutandikira O
 mu O
@@ -27971,22 +27971,22 @@ Wabula O
 era O
 beetegese O
 okukansaayo O
-Andy O
-Lonergan O
+Andy B-PER
+Lonergan I-PER
 abadde O
 akwatira O
-Middlesbrough B-ORG
+Middlesbrough O
 . O
 
 Ekibinja O
 kino O
 kikulembeddwa O
-Ssingo B-ORG
+Ssingo O
 ku O
 bubonero O
 14 O
 , O
-Bugerere B-ORG
+Bugerere O
 esibaganye O
 ne O
 Ssese O
@@ -28003,8 +28003,8 @@ kabonero O
 . O
 
 Mu O
-ddaakiika B-DATE
-90 I-DATE
+ddaakiika O
+90 O
 tewali O
 yabadde O
 alengedde O
@@ -28032,11 +28032,11 @@ okuzannya O
 Ku O
 semi O
 , O
-Enkima O
+Enkima B-ORG
 yakuttunka O
-nEkkobe B-ORG
+nEkkobe O
 eryawanduddemu O
-Ekinyomo O
+Ekinyomo B-ORG
 ku O
 mugatte O
 gwa O
@@ -28051,7 +28051,7 @@ ManU O
 gwe O
 yasoose O
 okukuba O
-Chelsea B-ORG
+Chelsea O
 obubi O
 ennyo O
 bwetyo O
@@ -28062,7 +28062,7 @@ myaka O
 
 Omutendesi O
 wa O
-Real O
+Real B-ORG
 , O
 Zinedine B-PER
 Zidane I-PER
@@ -28070,7 +28070,7 @@ ayagala O
 kuzzaawo O
 kitiibwa O
 kya O
-Real B-ORG
+Real O
 ngawangula O
 ekikopo O
 kya O
@@ -28099,7 +28099,7 @@ Zidane B-PER
 yali O
 asazeewo O
 okutunda O
-Zidane O
+Zidane B-PER
 ngagamba O
 nti O
 talina O
@@ -28118,17 +28118,17 @@ nti O
 akyayagala O
 okusigala O
 mu O
-Real B-ORG
+Real O
 . O
 
 Koscielny O
 azannyidde O
-Arsenal B-ORG
+Arsenal O
 emipiira O
 351 O
 mu O
-myaka O
-omwenda O
+myaka B-DATE
+omwenda I-DATE
 gyagimazeemu O
 . O
 
@@ -28149,10 +28149,10 @@ FC I-ORG
 ne O
 Eria B-PER
 Ssekisambu I-PER
-Gor B-ORG
-Mahia I-ORG
+Gor O
+Mahia O
 e O
-Kenya O
+Kenya B-LOC
 . O
 
 Inter B-ORG
@@ -28171,8 +28171,8 @@ ye O
 , O
 abadde O
 ebuzaako O
-emyezi B-DATE
-12 I-DATE
+emyezi O
+12 O
 era O
 babadde O
 baagala O
@@ -28186,7 +28186,7 @@ Derby B-ORG
 County I-ORG
 eyagala O
 okutwala O
-Rooney B-PER
+Rooney O
 , O
 bamuwe O
 ogwobuzannyi O
@@ -28200,10 +28200,10 @@ ye O
 mutendesi O
 . O
 
-Uganda B-ORG
+Uganda O
 yesooka O
 okukyalira O
-Burundi O
+Burundi B-ORG
 nga O
 September O
 20 O
@@ -28217,7 +28217,7 @@ olwasoose O
 ku O
 Mmande B-DATE
 , O
-Empindi O
+Empindi B-ORG
 yawanudde O
 ggoolo O
 10 O
@@ -28228,7 +28228,7 @@ Gogola O
 yagambye O
 nti O
 , O
-Lwanga B-PER
+Lwanga O
 yomu O
 ku O
 bazannyi O
@@ -28263,7 +28263,7 @@ bwa O
 pawundi O
 60 O
 kuba O
-Everton O
+Everton B-ORG
 eyali O
 etutte O
 obukadde O
@@ -28274,13 +28274,13 @@ pawundi O
 baazigigobya O
 . O
 
-Liverpool O
+Liverpool B-ORG
 yeetegekera O
 Man O
 City O
 gyezannya O
 ku O
-Ssande O
+Ssande B-DATE
 mu O
 Community O
 Shield O
@@ -28303,18 +28303,18 @@ waakwegatta O
 ku O
 ManU B-ORG
 , O
-Dybala O
+Dybala B-PER
 waakusuvwa O
 okuzannya O
 Champions O
 League O
 kuba O
-ManU O
+ManU B-ORG
 , O
 mu O
 Premier O
-sizoni B-DATE
-ewedde I-DATE
+sizoni O
+ewedde O
 yamalira O
 mu O
 kifo O
@@ -28325,19 +28325,19 @@ League O
 . O
 
 Omutendesi O
-Unai B-PER
-Emery I-PER
+Unai O
+Emery O
 agamba O
 nti O
 ayagala O
 ekisenge O
 ekiggumivu O
-sizoni B-DATE
-ejja I-DATE
+sizoni O
+ejja O
 . O
 
 Wadde O
-Kaddu O
+Kaddu B-PER
 yatendekeddwa O
 yekka O
 wabweru O
@@ -28361,7 +28361,7 @@ ogwokuddingana O
 Yayongeddeko O
 nti O
 , O
-Vipers B-ORG
+Vipers O
 agiwa O
 ekitiibwa O
 wabula O
@@ -28379,8 +28379,8 @@ okukyalizanga O
 emipiira O
 gya O
 liigi O
-sizoni B-DATE
-ejja I-DATE
+sizoni O
+ejja O
 . O
 
 Ttiimu O
@@ -28388,26 +28388,26 @@ okuva O
 mu O
 ligyoni O
 ya O
-Kampala O
+Kampala B-LOC
 okuli O
 St B-ORG
 . I-ORG
 Juliana I-ORG
 Gayaza I-ORG
 , O
-St O
-. O
-Andrews O
-Kaggwa O
+St B-ORG
+. I-ORG
+Andrews I-ORG
+Kaggwa I-ORG
 , O
 Lubiri B-ORG
 High I-ORG
 School I-ORG
 ne O
-St B-ORG
-. I-ORG
-Marys I-ORG
-Academy I-ORG
+St O
+. O
+Marys O
+Academy O
 ze O
 zimu O
 ku O
@@ -28430,11 +28430,11 @@ ngejja O
 kuba O
 ettunka O
 ne O
-AC O
-Milan O
+AC B-ORG
+Milan I-ORG
 mu O
 kibuga O
-Cardiff B-LOC
+Cardiff O
 . O
 
 Mu O
@@ -28451,11 +28451,11 @@ asuubirwa O
 okuba O
 ngateredde O
 ku O
-ntandikwa B-DATE
-ya I-DATE
-sizoni I-DATE
+ntandikwa O
+ya O
+sizoni O
 , O
-Arsenal B-ORG
+Arsenal O
 bweneeba O
 ezannya O
 Newcastle B-ORG
@@ -28463,7 +28463,7 @@ mu O
 mupiira O
 gwayo O
 oguggulawo O
-sizoni B-DATE
+sizoni O
 . O
 
 Ttiimu O
@@ -28488,10 +28488,10 @@ bafuna O
 000 O
 . O
 
-Arsenal B-ORG
+Arsenal O
 eggulawo O
 ne O
-Newcastle O
+Newcastle B-ORG
 ku O
 bugenyi O
 nga O
@@ -28528,8 +28528,8 @@ Bannayuganda O
 abalala O
 abaliyo O
 okuli O
-Geoffrey O
-Sserunkuuma O
+Geoffrey B-PER
+Sserunkuuma I-PER
 Napsa O
 Stars O
 , O
@@ -28539,13 +28539,13 @@ BUILDCON O
 , O
 Mathias B-PER
 Kigoonya I-PER
-Forest B-ORG
-Rangers I-ORG
+Forest O
+Rangers O
 , O
 Umar B-PER
 Kasumba I-PER
-ZESCO O
-United O
+ZESCO B-ORG
+United I-ORG
 nabalala O
 . O
 
@@ -28555,46 +28555,46 @@ mu O
 kiro O
 ekikeeseza O
 ku O
-Ssande O
+Ssande B-DATE
 negenderawo O
 mu O
 nkambi O
 ku O
 wooteri O
 ya O
-Sky O
-e O
-Naalya O
+Sky B-LOC
+e I-LOC
+Naalya I-LOC
 okwetegekera O
 ogwokuddingana O
 . O
 
-Foden O
+Foden B-PER
 yatandika O
 okuzannya O
 pulofeesono O
 mu O
-2017 B-DATE
+2017 O
 nga O
 nzaalwa O
 ya O
-Bungereza O
+Bungereza B-LOC
 . O
 
-Jiangsu B-PER
-Suning I-PER
+Jiangsu O
+Suning O
 , O
 ezannyira O
 mu O
 liigi O
 ye O
-China O
+China B-LOC
 eyoku O
 ntikko O
 , O
 esuubizza O
 okuwa O
-Bale B-PER
+Bale O
 akakadde O
 ka O
 pawundi O
@@ -28618,8 +28618,8 @@ bwemuguze O
 Kyokka O
 tekinnamanyika O
 oba O
-Crystal B-ORG
-Palace I-ORG
+Crystal O
+Palace O
 eneezikirizza O
 naddala O
 nga O
@@ -28636,7 +28636,7 @@ Abaagala O
 Coutinho O
 akomewo O
 mu O
-Liverpool O
+Liverpool B-ORG
 bali O
 ku O
 byabwe O
@@ -28660,7 +28660,7 @@ olwagudde O
 matu O
 gabazannyi O
 ba O
-Royal B-ORG
+Royal O
 ne O
 beekumakuma O
 okuzannya O
@@ -28702,7 +28702,7 @@ atuula O
 ku O
 kakiiko O
 ka O
-FIFA B-ORG
+FIFA O
 . O
 
 Mu O
@@ -28718,7 +28718,7 @@ Leicester B-ORG
 , O
 okumuguza O
 omuzibizi O
-Maguire B-PER
+Maguire O
 . O
 
 Wabula O
@@ -28726,8 +28726,8 @@ tetulina O
 kubanyooma O
 kubanga O
 bamaze O
-emyaka O
-ebiri O
+emyaka B-DATE
+ebiri I-DATE
 nga O
 beetegekera O
 empaka O
@@ -28740,7 +28740,7 @@ yategeezezza O
 
 Abawagizi O
 ba O
-Spartans O
+Spartans B-ORG
 naba O
 KJT O
 bakira O
@@ -28761,12 +28761,12 @@ ggoolo O
 
 Omupiira O
 gwakubeera O
-Djibouti O
+Djibouti B-LOC
 ku O
-Lwomukaaga O
-nga O
-July O
-27 O
+Lwomukaaga B-DATE
+nga I-DATE
+July I-DATE
+27 I-DATE
 , O
 oluvannyuma O
 lwa O
@@ -28775,7 +28775,7 @@ okugukyusa O
 okuva O
 mu O
 kibuga O
-Mogadishu B-LOC
+Mogadishu O
 , O
 olwebyokwerinda O
 . O
@@ -28819,9 +28819,9 @@ July B-DATE
 23 I-DATE
 , O
 e O
-Kasana B-LOC
-mu I-LOC
-Luweero I-LOC
+Kasana O
+mu O
+Luweero O
 . O
 
 Bbaasi O
@@ -28830,7 +28830,7 @@ mukaaga O
 ze O
 zaavudde O
 e O
-Mbarara B-ORG
+Mbarara O
 , O
 nga O
 zaabadde O
@@ -28838,13 +28838,13 @@ zikulembeddwamu O
 amyuka O
 ssentebe O
 wa O
-NRM O
+NRM B-ORG
 mu O
 kitundu O
 ekyo O
 , O
-Herbert O
-Kamugisha O
+Herbert B-PER
+Kamugisha I-PER
 . O
 
 Dayirekita O
@@ -28855,7 +28855,7 @@ Marina B-PER
 Granovskaia I-PER
 agamba O
 nti O
-Lampard O
+Lampard B-PER
 gyabadde O
 mu O
 Derby B-ORG
@@ -28893,7 +28893,7 @@ Ye O
 muzannyi O
 owookubiri O
 , O
-ManU B-ORG
+ManU O
 gwekansizza O
 mu O
 katale O
@@ -28905,11 +28905,11 @@ James I-PER
 gwe O
 yaguze O
 mu O
-Swansea B-ORG
+Swansea O
 . O
 
-Crystal O
-Palace O
+Crystal B-ORG
+Palace I-ORG
 egamba O
 nti O
 emutunda O
@@ -28923,7 +28923,7 @@ pawundi O
 50 O
 era O
 singa O
-ManU O
+ManU B-ORG
 ekkirizza O
 okumugula O
 , O
@@ -28938,21 +28938,21 @@ ensimbi O
 ennyingi O
 . O
 
-Benitez B-PER
+Benitez O
 , O
 atendeeseeko O
 ttiimu O
 okuli O
-Real B-ORG
-Madrid I-ORG
+Real O
+Madrid O
 , O
 Liverpool B-ORG
 , O
-Chelsea O
+Chelsea B-ORG
 wa O
 kiseera O
 , O
-Napoli O
+Napoli B-ORG
 nendala O
 . O
 
@@ -28992,14 +28992,14 @@ ejja I-DATE
 Empaka O
 ziddamu O
 ku O
-Lwamukaaga B-DATE
+Lwamukaaga O
 nga O
 Buganda B-ORG
 ekyalira O
-Lango O
+Lango B-ORG
 mu O
 kibuga O
-Lira B-LOC
+Lira O
 . O
 
 Ozil O
@@ -29007,17 +29007,17 @@ Ozil O
 yasinga O
 okusasulwa O
 mu O
-Arsenal B-ORG
+Arsenal O
 ku O
 pawundi O
 350 O
 , O
 000 O
-buli B-DATE
-wiiki I-DATE
+buli O
+wiiki O
 . O
 
-Ogwel O
+Ogwel B-PER
 asikidde O
 Nicholas B-PER
 Muramagi I-PER
@@ -29043,7 +29043,7 @@ mu O
 eza O
 pawundi O
 ngate O
-Leicester O
+Leicester B-ORG
 nnyini O
 muzannyi O
 ono O
@@ -29090,7 +29090,7 @@ ye O
 obuwanguzi O
 . O
 
-Ssemwanga B-PER
+Ssemwanga O
 yagambye O
 nti O
 agenderera O
@@ -29099,7 +29099,7 @@ bitone O
 nokugatta O
 abantu O
 be O
-Buyamba O
+Buyamba B-LOC
 , O
 nasuubiza O
 okugenda O
@@ -29109,15 +29109,15 @@ nokukulaakulanya O
 emizannyo O
 . O
 
-Butema O
-SM O
+Butema B-ORG
+SM I-ORG
 , O
 omwava O
 eyaliko O
 kapiteeni O
 wa O
-Uganda B-ORG
-Cranes I-ORG
+Uganda O
+Cranes O
 , O
 kati O
 erinze O
@@ -29141,13 +29141,13 @@ Buganda O
 Emiralala O
 kwabadekoegyekibinja O
 kya O
-Bulange B-LOC
+Bulange O
 omuli O
 . O
 
 Oluvannyuma O
 lwokukubwa O
-Liverpool O
+Liverpool B-ORG
 40 O
 nebaggya O
 mu O
@@ -29158,8 +29158,8 @@ essuubi O
 lyokutwala O
 ebikopo O
 ebibiri O
-sizoni O
-eno O
+sizoni B-DATE
+eno I-DATE
 , O
 Valencia B-ORG
 yalimazeewo O
@@ -29175,14 +29175,14 @@ mpaka O
 ezenjawulo O
 . O
 
-Lampard B-PER
+Lampard O
 agamba O
 nti O
 engeri O
 gyakyalina O
 endagaano O
 ne O
-Derby B-ORG
+Derby O
 , O
 ebyokugivaamu O
 okugenda O
@@ -29228,8 +29228,8 @@ kimugwanidde O
 . O
 
 Wabula O
-Aisha B-PER
-Nalule I-PER
+Aisha O
+Nalule O
 , O
 akulira O
 okutegeka O
@@ -29241,8 +29241,8 @@ yagambye O
 nti O
 ensonga O
 ya O
-Kansai B-ORG
-Plascon I-ORG
+Kansai O
+Plascon O
 tennatuuka O
 mu O
 ofiisi O
@@ -29252,7 +29252,7 @@ ye O
 Kino O
 kitegeeza O
 nti O
-Rashford O
+Rashford B-PER
 waakuzannyira O
 mu O
 Europa O
@@ -29269,12 +29269,12 @@ emabega O
 Ngomupiira O
 guwedde O
 , O
-Muhabi O
+Muhabi B-PER
 yategeezezza O
 ngensonga O
 bwagenda O
 okuzikwasa O
-FUFA O
+FUFA B-ORG
 esalewo O
 ebisingawo O
 . O
@@ -29286,17 +29286,17 @@ agawangudde O
 empaka O
 zino O
 mu O
-myaka B-DATE
-10 I-DATE
+myaka O
+10 O
 egisembyeyo O
 . O
 
 Eya O
-COSAFA O
+COSAFA B-ORG
 egenze O
 Bushenyi B-LOC
-olwa O
-leero O
+olwa B-DATE
+leero I-DATE
 okusamba O
 ogwa O
 Cranes O
@@ -29328,7 +29328,7 @@ mu O
 ggwanga O
 ndi O
 mu O
-Amerika O
+Amerika B-LOC
 ku O
 mbaga O
 ya O
@@ -29337,7 +29337,7 @@ wange O
 , O
 bye O
 twateesezzaako O
-ekiseera O
+ekiseera B-DATE
 tekinnaba O
 kutuuka O
 kubifulumya O
@@ -29359,7 +29359,7 @@ Museveni O
 bwe O
 yali O
 alambula O
-Kasangati O
+Kasangati B-LOC
 gye O
 buvuddeko O
 nagiyita O
@@ -29370,7 +29370,7 @@ gwe O
 yalaba O
 . O
 
-Bukenya B-PER
+Bukenya O
 ayagala O
 bagattululwe O
 ngalumiriza O
@@ -29382,17 +29382,17 @@ Okutuuka O
 ku O
 bino O
 , O
-Mohammad B-PER
-Kibirige I-PER
-Mayanja I-PER
+Mohammad O
+Kibirige O
+Mayanja O
 owa O
 JEEMA B-ORG
 yamaze O
 kubuuza O
 Pulezidenti O
 lwaki O
-Bobi O
-Wine O
+Bobi B-PER
+Wine I-PER
 agaanibwa O
 okukola O
 ebivvulu O
@@ -29447,7 +29447,7 @@ bungi O
 bwemisolo O
 . O
 
-Kibazanga B-PER
+Kibazanga O
 yasabye O
 poliisi O
 nebitongole O
@@ -29474,7 +29474,7 @@ okusuubiza O
 okuggya O
 amasanyalaze O
 e O
-Ngoma B-LOC
+Ngoma O
 okugenda O
 mu O
 bitundu O
@@ -29519,7 +29519,7 @@ lulwe O
 era O
 ngabaserikale O
 abaalondoola O
-Ssebulime B-PER
+Ssebulime O
 waaliwo O
 okubawubisa O
 . O
@@ -29552,8 +29552,8 @@ gwa O
 mukamaawe O
 . O
 
-Erish O
-Elpers O
+Erish B-PER
+Elpers I-PER
 eyabazimbidde O
 ebizimbe O
 bino O
@@ -29566,7 +29566,7 @@ ssomero O
 elyazimbiddwa O
 . O
 
-Leero O
+Leero B-DATE
 Bugingo O
 ali O
 mu O
@@ -29584,7 +29584,7 @@ Ali B-PER
 Sserunjogi I-PER
 ngawakanya O
 ekya O
-Bugingo O
+Bugingo B-PER
 nekkanisa O
 okumulekaanira O
 nga O
@@ -29625,8 +29625,8 @@ Disitulikiti O
 nga O
 bakuliddwa O
 kansala O
-Ruth O
-Komugisha O
+Ruth B-PER
+Komugisha I-PER
 owebyensimbi O
 ne O
 banne O
@@ -29669,11 +29669,11 @@ poliisi O
 mu O
 disitulikiti O
 ye O
-Gomba B-LOC
+Gomba O
 . O
 
-Moses O
-Bbosa O
+Moses B-PER
+Bbosa I-PER
 akulira O
 Multiplex B-ORG
 yeeyamye O
@@ -29718,7 +29718,7 @@ okuva O
 mu O
 Buvanjuba O
 bwa O
-Afrika B-LOC
+Afrika O
 ne O
 mu O
 ggwanga O
@@ -29738,11 +29738,11 @@ egenda O
 okubayamba O
 . O
 
-Omwak B-DATE
-2016 I-DATE
+Omwak O
+2016 O
 , O
 pulezidenti O
-Museveni B-PER
+Museveni O
 yalonda O
 akakiiko O
 okubuuliriza O
@@ -29750,9 +29750,9 @@ ku O
 mivuyo O
 egyali O
 mu O
-yunivasite O
-e O
-Makerere O
+yunivasite B-ORG
+e I-ORG
+Makerere I-ORG
 okuli O
 okwekalakaasa O
 okwali O
@@ -29805,8 +29805,8 @@ bwe O
 yagambye O
 . O
 
-Luke O
-Owoyesigyireomwogezi O
+Luke B-PER
+Owoyesigyireomwogezi I-PER
 wa O
 poliisi O
 mu O
@@ -29816,7 +29816,7 @@ yategeezezza O
 nti O
 poliisi O
 ne O
-LC B-ORG
+LC O
 bakola O
 omulimu O
 gwe O
@@ -29890,7 +29890,7 @@ Jinja B-LOC
 . O
 
 Wano O
-Nkonge O
+Nkonge B-PER
 yasabye O
 Gavumenti O
 esitukiremu O
@@ -29914,8 +29914,8 @@ mu O
 Kampala O
 nemiriraano O
 , O
-Luke O
-Owoyesigyire O
+Luke B-PER
+Owoyesigyire I-PER
 , O
 agamba O
 nti O
@@ -29984,7 +29984,7 @@ tetutoolangako O
 wadde O
 nekikumi O
 , O
-Bugingo O
+Bugingo B-PER
 obwedda O
 bwakakasa O
 abagoberezi O
@@ -30054,7 +30054,7 @@ nti O
 yasalawo O
 okuva O
 e O
-Kampala O
+Kampala B-LOC
 mu O
 mugotteko O
 agende O
@@ -30144,7 +30144,7 @@ yeeee O
 nti O
 abaana O
 ba O
-Yesu O
+Yesu B-PER
 mubasobola O
 yeeee O
 , O
@@ -30181,14 +30181,14 @@ abazimbi O
 bamalirize O
 . O
 
-Ronald O
-Ssebulime O
+Ronald B-PER
+Ssebulime I-PER
 yattibwa O
 nga O
-March B-DATE
-24 I-DATE
-, I-DATE
-2019 I-DATE
+March O
+24 O
+, O
+2019 O
 e O
 Nagojje O
 bwe O
@@ -30226,10 +30226,10 @@ ensonda O
 endala O
 zaagambye O
 nti O
-Margaret O
+Margaret B-PER
 aludde O
 ne O
-Bukenya O
+Bukenya B-PER
 era O
 amanyi O
 engeri O
@@ -30303,7 +30303,7 @@ mu O
 kibeere O
 . O
 
-Mawanda B-PER
+Mawanda O
 yagambye O
 nti O
 ababba O
@@ -30317,10 +30317,10 @@ Mengo B-LOC
 Ben B-PER
 Majwega I-PER
 owe O
-Namasuba O
+Namasuba B-PER
 , O
-Kabenge O
-Robert O
+Kabenge B-PER
+Robert I-PER
 , O
 Ronald O
 Mukiibi O
@@ -30334,9 +30334,9 @@ Nani I-PER
 , O
 Opata B-PER
 , O
-Medi B-PER
+Medi O
 owe O
-Namungona O
+Namungona B-LOC
 , O
 Ntulume O
 owe O
@@ -30378,7 +30378,7 @@ kitundu O
 kino O
 . O
 
-Kitatta O
+Kitatta B-PER
 abadde O
 tanjuza O
 kuba O
@@ -30413,7 +30413,7 @@ okutandika O
 tebagenda O
 kusoma O
 , O
-Nakyanzi B-PER
+Nakyanzi O
 bwe O
 yannyonnyodde O
 wakati O
@@ -30470,12 +30470,12 @@ Ggulu O
 Kaddu B-PER
 muwalra O
 wa O
-Adoram O
+Adoram B-PER
 ne O
-Evelyn O
-Nadiope O
+Evelyn B-PER
+Nadiope I-PER
 abe O
-BugabulaKamuli O
+BugabulaKamuli B-LOC
 mu O
 Busoga O
 . O
@@ -30500,12 +30500,12 @@ byombi O
 . O
 
 Ate O
-Daniel B-PER
-Bakayana I-PER
+Daniel O
+Bakayana O
 , O
 Omumyuka O
 wa O
-Kasumba O
+Kasumba B-PER
 yabakubirizza O
 okwetabanga O
 mu O
@@ -30533,7 +30533,7 @@ gwokutunda O
 abantu O
 abava O
 mu O
-Africa O
+Africa B-LOC
 naddala O
 e O
 Libya O
@@ -30542,7 +30542,7 @@ buddu O
 mu O
 mawanga O
 ga O
-Bulaya B-LOC
+Bulaya O
 . O
 
 Amakubo O
@@ -30551,29 +30551,29 @@ mu O
 mbeera O
 embi O
 mu O
-Kawempe B-LOC
+Kawempe O
 kuliko O
 eriva O
 ku O
 Kaleerwe B-LOC
 okwambuka O
 e O
-Mulago O
+Mulago B-LOC
 ku O
 limbo O
 , O
 eriva O
 e O
-Bwaise O
+Bwaise B-LOC
 okudda O
 e O
-Kawaala O
+Kawaala B-LOC
 , O
 eriva O
 mu O
 kabuga O
 ke O
-Nammere O
+Nammere B-LOC
 okudda O
 . O
 
@@ -30593,8 +30593,8 @@ bitundu O
 . O
 
 Omubaka O
-Cissy B-PER
-Namujju I-PER
+Cissy O
+Namujju O
 twamukubidde O
 essimu O
 obwedda O
@@ -30649,7 +30649,7 @@ bwe O
 yategeezezza O
 . O
 
-Mwesigwa O
+Mwesigwa B-PER
 yasabye O
 nabatambula O
 ekiro O
@@ -30668,7 +30668,7 @@ Omwogezi O
 wa O
 poliisi O
 mu O
-Kampala O
+Kampala B-LOC
 Patrick B-PER
 Onyango I-PER
 yategeezezza O
@@ -30739,11 +30739,11 @@ kitongozeddwa O
 Kamuswaga O
 wa O
 Kooki B-LOC
-Apollo B-PER
-Ssansa I-PER
-Kabumbuli I-PER
-II I-PER
-Lwampanja I-PER
+Apollo O
+Ssansa O
+Kabumbuli O
+II O
+Lwampanja O
 ku O
 mikolo O
 egyokukuza O
@@ -30753,7 +30753,7 @@ agomulundi O
 ogwa O
 15 O
 e O
-Lwamaggwa B-LOC
+Lwamaggwa O
 ku O
 kisaawe O
 ngali O
@@ -30769,8 +30769,8 @@ ku O
 bigwawo O
 bitalaze O
 , O
-Musa O
-Ecweru O
+Musa B-PER
+Ecweru I-PER
 ngono O
 awaddeyo O
 obukadde O
@@ -30778,7 +30778,7 @@ obukadde O
 ku O
 lwa O
 Pulezidenti O
-Museveni B-PER
+Museveni O
 . O
 Kamuswaga O
 agamba O
@@ -30810,7 +30810,7 @@ akamazeewo O
 ebitooke O
 nemmwanyi O
 mu O
-Kooki O
+Kooki B-LOC
 nokubakolera O
 ku O
 nguudo O
@@ -30820,7 +30820,7 @@ disitulikiti O
 endala O
 . O
 Oluvannyuma O
-Kamuswaga B-PER
+Kamuswaga O
 agabudde O
 abantu O
 be O
@@ -30907,15 +30907,15 @@ Bunyoro B-LOC
 okuli O
 Buliisa B-LOC
 , O
-Hoima O
+Hoima B-LOC
 , O
-Kagadi O
+Kagadi B-LOC
 , O
-Kakumiro B-LOC
+Kakumiro O
 , O
 Kibaale O
 , O
-Kikuube O
+Kikuube B-LOC
 , O
 Kiryandongo B-LOC
 , O
@@ -30934,7 +30934,7 @@ emirimu O
 gyomu O
 mutwe O
 mu O
-Kampala O
+Kampala B-LOC
 era O
 kati O
 agenda O
@@ -31027,7 +31027,7 @@ mu O
 lubiri O
 lwe O
 e O
-Hoima B-LOC
+Hoima O
 . O
 Abakulu O
 bombi O
@@ -31077,7 +31077,7 @@ banaamala O
 okuwuliriza O
 oludda O
 lwa O
-Bugingo O
+Bugingo B-PER
 , O
 bajja O
 kugezaako O
@@ -31187,14 +31187,14 @@ yaffe O
 Omumyuka O
 wa O
 Pulezidenti O
-Edward O
-Ssekandi O
+Edward B-PER
+Ssekandi I-PER
 naye O
 asula O
 okumpi O
 ne O
 webasse O
-Walugembe B-PER
+Walugembe O
 yatuusewo O
 nasaasira O
 abafiirwa O
@@ -31202,11 +31202,11 @@ nabaawa O
 namabugo O
 gattako O
 omubaka O
-Moses B-PER
-Kasibante I-PER
+Moses O
+Kasibante O
 ne O
-Joseph B-PER
-Mabirizi I-PER
+Joseph O
+Mabirizi O
 eyavuganya O
 ku O
 bwa O
@@ -31215,10 +31215,10 @@ pulezident O
 
 Yazaalibwa O
 nga O
-August O
-5 O
-, O
-1949 O
+August B-DATE
+5 I-DATE
+, I-DATE
+1949 I-DATE
 nga O
 mu O
 kiseera O
@@ -31229,24 +31229,24 @@ myaka B-DATE
 . O
 
 Baziikibwa O
-leero B-DATE
-ku I-DATE
-Lwokusatu I-DATE
+leero O
+ku O
+Lwokusatu O
 ku O
 kyalo O
-Kapeke B-LOC
+Kapeke O
 mu O
 ggombolola O
 ye O
-Nama B-LOC
-e I-LOC
-Mukono I-LOC
+Nama O
+e O
+Mukono O
 mu O
 maka O
 ga O
 taata O
 wa O
-Kibuule B-PER
+Kibuule O
 , O
 Zephania B-PER
 Lusebeya I-PER
@@ -31289,7 +31289,7 @@ eri O
 kumpi O
 awo O
 e O
-Kibuye O
+Kibuye B-LOC
 , O
 kyagitwalira O
 eddakiika O
@@ -31335,7 +31335,7 @@ SD O
 5105042019 O
 ku O
 Paasita O
-Bugingo B-PER
+Bugingo O
 ku O
 poliisi B-ORG
 ye I-ORG
@@ -31362,7 +31362,7 @@ ekkyaamu O
 
 Abamu O
 baanenyezza O
-Kibuule B-PER
+Kibuule O
 obutateeka O
 lukomera O
 ku O
@@ -31537,7 +31537,7 @@ era O
 akakasa O
 nti O
 mu O
-Uganda B-LOC
+Uganda O
 mulimu O
 abasawo O
 abakola O
@@ -31553,14 +31553,14 @@ hawusigaalo O
 ebyabaddewo O
 . O
 
-Fujairah O
+Fujairah B-LOC
 gwe O
 mwalo O
 ogusinga O
 okuyisibwako O
 amafuta O
-Saudi O
-Arabia O
+Saudi B-LOC
+Arabia I-LOC
 getunda O
 ebweru O
 , O
@@ -31609,7 +31609,7 @@ gyokuzimba O
 gyayimirira O
 dda O
 nalagira O
-Kakooza O
+Kakooza B-PER
 annyonnyole O
 kwe O
 kutegeeza O
@@ -31627,7 +31627,7 @@ kino I-DATE
 endagaano O
 baaziweereza O
 wa O
-Ssabaluhhamya B-PER
+Ssabaluhhamya O
 wa O
 Gavumenti O
 mu O
@@ -31645,7 +31645,7 @@ okuva O
 . O
 
 Embeera O
-Bugingo B-PER
+Bugingo O
 mwe O
 yafunira O
 mukazi O
@@ -31658,7 +31658,7 @@ kyokka O
 oluvannyuma O
 namusasulamu O
 kuwasa O
-Nantaba B-PER
+Nantaba O
 kiraga O
 nti O
 mu O
@@ -31694,7 +31694,7 @@ gyatwaliddwa O
 mu O
 ddwaaliro O
 e O
-Mulago B-LOC
+Mulago O
 okwekebejjebwa O
 . O
 
@@ -31716,7 +31716,7 @@ eya O
 IPOD O
 ngegamba O
 nti O
-NRM O
+NRM B-ORG
 eremeddwa O
 okutereeza O
 embeera O
@@ -31797,8 +31797,8 @@ ku O
 mu O
 mannya O
 ga O
-Cate O
-Nalubowa O
+Cate B-PER
+Nalubowa I-PER
 oba O
 0757441070 O
 mu O
@@ -31817,10 +31817,10 @@ S O
 ku O
 ssomero O
 lya O
-Mengo O
-S O
-. O
-S O
+Mengo B-ORG
+S I-ORG
+. I-ORG
+S I-ORG
 . O
 
 Bwoba O
@@ -31854,7 +31854,7 @@ gwoyagala O
 avuganye O
 . O
 
-Uganda O
+Uganda B-LOC
 erina O
 obugagga O
 obwetaaga O
@@ -31867,8 +31867,8 @@ bakulaakulana O
 . O
 
 Mu O
-kiseera B-DATE
-kino I-DATE
+kiseera O
+kino O
 , O
 tulinawo O
 enkoko O
@@ -31883,9 +31883,9 @@ tulondamu O
 ttule O
 zamagi O
 8089 O
-olunaku O
+olunaku B-DATE
 , O
-Kaggwa O
+Kaggwa B-PER
 akulira O
 enkoko O
 bwagamba O
@@ -31916,25 +31916,25 @@ ngamakanda O
 gali O
 mu O
 kibuga O
-DaresSalam O
+DaresSalam B-LOC
 okuweereza O
 mu O
 nsi O
 okuli O
-Tanzania O
+Tanzania B-LOC
 , O
 Zambia B-LOC
 , O
-Angola O
+Angola B-LOC
 , O
-Mozambique O
+Mozambique B-LOC
 ne O
 Congo B-LOC
 Brazaville I-LOC
 . O
 
-Emmanuel O
-Mugerwa O
+Emmanuel B-PER
+Mugerwa I-PER
 , O
 kansala O
 wekitundu O
@@ -31990,7 +31990,7 @@ obwomu O
 maaso O
 . O
 
-Bugingo B-PER
+Bugingo O
 bwanaawasa O
 Makula O
 nga O
@@ -31999,7 +31999,7 @@ mu O
 mitendera O
 egyo O
 , O
-Teddy O
+Teddy B-PER
 aba O
 asobola O
 okubaggulako O
@@ -32009,7 +32009,7 @@ bombi O
 
 Twagezezaako O
 okufuna O
-Gashirabake B-PER
+Gashirabake O
 abeeko O
 kyatangaaza O
 ku O
@@ -32019,8 +32019,8 @@ ne O
 tutamufuna O
 . O
 
-Tonny O
-Mutabingwa O
+Tonny B-PER
+Mutabingwa I-PER
 owa O
 Hour O
 of O
@@ -32030,7 +32030,7 @@ mu O
 Ndeeba O
 yatenderezza O
 Omusumba O
-Nanar B-PER
+Nanar O
 gwe O
 yayogeddeko O
 ngomusajja O
@@ -32039,7 +32039,7 @@ ekinene O
 okutambuza O
 enjiri O
 ya O
-Yesu O
+Yesu B-PER
 mu O
 mawanga O
 agenjawulo O
@@ -32052,7 +32052,7 @@ muntu O
 nomu O
 yasengulwa O
 ku O
-Railway O
+Railway B-LOC
 abanja O
 KCCA O
 era O
@@ -32319,7 +32319,7 @@ nga O
 biraga O
 nti O
 , O
-Bugingo B-PER
+Bugingo O
 yewandiisizzaayo O
 nga O
 Dayirekita O
@@ -32392,7 +32392,7 @@ Kataonda O
 . O
 
 Nze O
-Teddy B-PER
+Teddy O
 ne O
 bwakola O
 atya O
@@ -32407,7 +32407,7 @@ kudda O
 mu O
 nnyumba O
 ye O
-Kitende O
+Kitende B-LOC
 gye O
 yali O
 anzitiramu O
@@ -32421,7 +32421,7 @@ essaawa O
 yonna O
 nammwe O
 mumulabe O
-Bugingo B-PER
+Bugingo O
 bwe O
 yategeezezza O
 abagoberezi O
@@ -32498,7 +32498,7 @@ munnaabwe O
 omulala O
 amanyidddwaako O
 erya O
-Abubaker B-PER
+Abubaker O
 nga O
 balina O
 omusajja O
@@ -32564,8 +32564,8 @@ Yahaya B-PER
 Sekagya I-PER
 , O
 Hajjat O
-Aisha O
-Nakasujja O
+Aisha B-PER
+Nakasujja I-PER
 , O
 Dr O
 . O
@@ -32618,10 +32618,10 @@ Omwogezi O
 wa O
 poliisi O
 mu O
-Katonga B-LOC
+Katonga O
 , O
-Joseph B-PER
-Tulya I-PER
+Joseph O
+Tulya O
 yagambye O
 nti O
 abatemu O
@@ -32646,9 +32646,9 @@ ku O
 mulambo O
 . O
 
-Akiiza O
+Akiiza B-PER
 ne O
-Kembabazi B-PER
+Kembabazi O
 bombi O
 baakwatiddwa O
 poliisi B-ORG
@@ -32701,12 +32701,12 @@ okwonoona O
 embeera O
 ate O
 ye O
-Teddy O
+Teddy B-PER
 okuwulira O
 ebya O
-Susan O
-Makula O
-Nantaba O
+Susan B-PER
+Makula I-PER
+Nantaba I-PER
 akola O
 ku O
 mikutu O
@@ -32746,8 +32746,8 @@ batabuka O
 
 Capt O
 . O
-Yahaya B-PER
-KakoozaRDC I-PER
+Yahaya O
+KakoozaRDC O
 ategezezza O
 nti O
 okukwata O
@@ -32837,12 +32837,12 @@ ebanguyire O
 . O
 
 Omulangira O
-Harry O
+Harry B-PER
 ne O
-Meghan O
+Meghan B-PER
 enzaalwa O
 ya O
-Amerika B-LOC
+Amerika O
 ngalimu O
 omusaayi O
 omuddugavu O
@@ -32858,12 +32858,12 @@ mbaga O
 eyamenya O
 nebidaala O
 mu O
-Bungereza B-LOC
+Bungereza O
 . O
 
-Naluswa O
+Naluswa B-PER
 alumiriza O
-Bugingo B-PER
+Bugingo O
 obwenzi O
 ate O
 ne O
@@ -32899,9 +32899,9 @@ Atwala O
 poliisi O
 ye O
 Matugga O
-Bosco B-PER
-Patrick I-PER
-Obotol I-PER
+Bosco O
+Patrick O
+Obotol O
 yagambye O
 nti O
 , O
@@ -32932,7 +32932,7 @@ bulabi O
 Ezimu O
 ku O
 nsonga O
-Mabiriizi B-PER
+Mabiriizi O
 ze O
 yawadde O
 ngawaaba O
@@ -32987,10 +32987,10 @@ zokka O
 
 Bba O
 wa O
-Nalubega B-PER
+Nalubega O
 yagambye O
 nti O
-Natunda B-PER
+Natunda O
 abadde O
 mukozi O
 nga O
@@ -33015,10 +33015,10 @@ birekeddwa O
 Eno O
 Pulogulaamu O
 ya O
-Ssenyonga O
+Ssenyonga B-PER
 ebeerawo O
-buli B-DATE
-lunaku I-DATE
+buli O
+lunaku O
 ngagamba O
 nti O
 mwayita O
@@ -33039,7 +33039,7 @@ abantu O
 mu O
 lukuhhaana O
 e O
-Namboole B-LOC
+Namboole O
 era O
 nasaba O
 abalina O
@@ -33078,7 +33078,7 @@ ensimbi O
 zokuddaabiriza O
 kleziya O
 ye O
-Katikamu O
+Katikamu B-LOC
 ezaasusse O
 obukadde O
 10 O
@@ -33131,15 +33131,15 @@ Abamu O
 ku O
 baasomerako O
 e O
-Budini O
+Budini B-LOC
 kuliko O
 eyali O
 omumyuka O
 wa O
 pulezidenti O
-Specioza O
-Wandira O
-Kazibwe O
+Specioza B-PER
+Wandira I-PER
+Kazibwe I-PER
 ne O
 Ssaabawandiisi O
 wa O
@@ -33160,12 +33160,12 @@ wansi O
 nazirika O
 . O
 
-Ssemuggo B-PER
+Ssemuggo O
 ajjanjabirwa O
 mu O
 ddwaaliro O
 e O
-Mulago B-LOC
+Mulago O
 yategeezezza O
 nti O
 ababbi O
@@ -33215,13 +33215,13 @@ zettaka O
 
 Baabadde O
 ku O
-Bishop B-LOC
-Ddungu I-LOC
-Memorial I-LOC
-Gardens I-LOC
-e I-LOC
-Nsambya I-LOC
-Ggogonya I-LOC
+Bishop O
+Ddungu O
+Memorial O
+Gardens O
+e O
+Nsambya O
+Ggogonya O
 . O
 
 Charles O
@@ -33268,8 +33268,8 @@ Rina O
 Namatovu O
 4 O
 ne O
-Linda O
-Nalwadde O
+Linda B-PER
+Nalwadde I-PER
 11 O
 baddusiddwa O
 mu O
@@ -33280,8 +33280,8 @@ okuli O
 ne O
 maama O
 waabwe O
-Annet B-PER
-Namwanje I-PER
+Annet O
+Namwanje O
 kyokka O
 nga O
 ye O
@@ -33296,8 +33296,8 @@ Rina O
 Namatovu O
 4 O
 ne O
-Linda B-PER
-Nalwadde I-PER
+Linda O
+Nalwadde O
 11 O
 baddusiddwa O
 mu O
@@ -33332,13 +33332,13 @@ bizinga O
 tebamanyiiyo O
 . O
 
-DP O
+DP B-ORG
 bayanjude O
 bye O
 baagala O
 bateeseeko O
 naba O
-JEEMA O
+JEEMA B-ORG
 ne O
 balaga O
 ngenteeseganya O
@@ -33420,7 +33420,7 @@ okwahhanga O
 buli O
 anaagezaako O
 okuziyiza O
-Teddy O
+Teddy B-PER
 okuyingira O
 . O
 
@@ -33428,21 +33428,21 @@ Ssentebe O
 wa O
 LC1 O
 e O
-KyebandoNsooba B-LOC
+KyebandoNsooba O
 , O
 Joseph B-PER
 Ssebambulidde I-PER
 yakakasizza O
 nga O
-Bugingo B-PER
+Bugingo O
 bwe O
 yakyaddeko O
 mu O
 maka O
 gomugenzi O
 Kibuuka B-PER
-ku O
-Ssande O
+ku B-DATE
+Ssande I-DATE
 naye O
 tamanyi O
 kyamuleese O
@@ -33476,8 +33476,8 @@ yabbibwa O
 ku O
 musirikale O
 CPL O
-Yakut O
-Mbogo O
+Yakut B-PER
+Mbogo I-PER
 abazigu O
 gwe O
 baalumba O
@@ -33491,7 +33491,7 @@ May B-DATE
 2019 I-DATE
 natwalibwa O
 e O
-Mulago O
+Mulago B-LOC
 . O
 
 Poliisi O
@@ -33516,7 +33516,7 @@ abaana O
 bano O
 omusaayi O
 ne O
-Zziwa B-PER
+Zziwa O
 bamukebere O
 obwongo O
 kubanga O
@@ -33529,7 +33529,7 @@ muwala O
 we O
 , O
 bwatyo O
-Ssenyonga O
+Ssenyonga B-PER
 bwe O
 yawunzise O
 . O
@@ -33557,14 +33557,14 @@ eyokumpi O
 Obubaka O
 bwomulangira O
 , O
-Harry O
+Harry B-PER
 yasoose O
 kubuteeka O
 ku O
 mukutu O
 gwe O
 ogwa O
-Instagram O
+Instagram B-ORG
 era O
 ngomukutu O
 ogwo O
@@ -33585,7 +33585,7 @@ okumanya O
 ebiddirira O
 . O
 
-Kitatta B-PER
+Kitatta O
 ne O
 banne O
 mwenda O
@@ -33701,7 +33701,7 @@ ekisoboka O
 okulaba O
 nga O
 banna O
-Uganda B-LOC
+Uganda O
 babeera O
 mu O
 bulamu O
@@ -33774,8 +33774,8 @@ mukyala O
 asekula O
 kiro O
 2 O
-buli B-DATE
-lunaku I-DATE
+buli O
+lunaku O
 ngafuna O
 2 O
 , O
@@ -33785,14 +33785,14 @@ ngafuna O
 Akulira O
 ebikwekweto O
 ku O
-poliisi B-ORG
-ye I-ORG
-Kawanda I-ORG
+poliisi O
+ye O
+Kawanda O
 , O
-Steven B-PER
-Nyaika I-PER
+Steven O
+Nyaika O
 asabye O
-Katumba O
+Katumba B-PER
 okugenda O
 ku O
 poliisi O
@@ -33955,13 +33955,13 @@ wo O
 . O
 
 Meeya O
-Bakitte B-PER
+Bakitte O
 yabasabye O
 okuwandiikira O
 aba O
 munisipaali O
 ye O
-Nansana O
+Nansana B-LOC
 okulaba O
 ngakatale O
 kaabwe O
@@ -33989,7 +33989,7 @@ kika O
 kibeerako O
 nomuweereza O
 e O
-Mmengo O
+Mmengo B-LOC
 nakyo O
 kyatuusiddwa O
 ewa O
@@ -34016,7 +34016,7 @@ Mmengo O
 Ku O
 nkolagana O
 ya O
-Uganda B-LOC
+Uganda O
 namawanga O
 gebweru O
 , O
@@ -34035,21 +34035,21 @@ kwensubulagana O
 
 Ye O
 omulamuzi O
-Pamela B-PER
-Lamunu I-PER
+Pamela O
+Lamunu O
 omusango O
 agwongzzaayo O
 okutuusa O
 nga O
-June B-DATE
-10 I-DATE
-, I-DATE
-2019 I-DATE
+June O
+10 O
+, O
+2019 O
 era O
 nayongezaayo O
 nekiragiro O
 ekiyita O
-Munyagwa B-PER
+Munyagwa O
 mu O
 kkooti O
 . O
@@ -34066,7 +34066,7 @@ ku O
 nguudo O
 zonna O
 mu O
-Kampala O
+Kampala B-LOC
 okugoba O
 enzikiza O
 kyokka O
@@ -34142,10 +34142,10 @@ kukwasisa O
 abasirikale O
 empisa O
 ekya O
-Professional B-ORG
-Standards I-ORG
-Unit I-ORG
-PSU I-ORG
+Professional O
+Standards O
+Unit O
+PSU O
 . O
 
 Bandibadde O
@@ -34178,7 +34178,7 @@ wabavubuka O
 mu O
 disitulikiti O
 ye O
-Masaka B-LOC
+Masaka O
 agambye O
 nti O
 omukago O
@@ -34186,13 +34186,13 @@ guno O
 bagenda O
 kugweyambisa O
 okutalaaga O
-Uganda O
+Uganda B-LOC
 yonna O
 nga O
-wiiki B-DATE
-ejja I-DATE
+wiiki O
+ejja O
 bagenda O
-Luweero O
+Luweero B-LOC
 . O
 
 Abali O
@@ -34212,8 +34212,8 @@ ateekwa O
 okudda O
 mu O
 kkanisa O
-olunaku B-DATE
-lweggulo I-DATE
+olunaku O
+lweggulo O
 era O
 be O
 baakoze O
@@ -34237,7 +34237,7 @@ Basilios O
 , O
 Bannabyabufuzi O
 e O
-Lubaga O
+Lubaga B-LOC
 nabagenyi O
 abalala O
 betabye O
@@ -34312,8 +34312,8 @@ ezenjawulo O
 mu O
 Uganda O
 mu O
-mwaka B-DATE
-2017 I-DATE
+mwaka O
+2017 O
 . O
 
 Mu B-DATE
@@ -34332,10 +34332,10 @@ yamututte O
 mu O
 ddwaaliro O
 lya O
-Kyamuliibwa B-ORG
-Health I-ORG
-Centre I-ORG
-IV I-ORG
+Kyamuliibwa O
+Health O
+Centre O
+IV O
 , O
 gye O
 baamukeberedde O
@@ -34347,8 +34347,8 @@ yabadde O
 asobezeddwaako O
 , O
 era O
-Ssaalongo B-PER
-Kiwanuka I-PER
+Ssaalongo O
+Kiwanuka O
 naggulwako O
 omusango O
 gwokujjula O
@@ -34373,14 +34373,14 @@ omulamuzi O
 agwongeddeyo O
 okutuusa O
 nga O
-June B-DATE
-4 I-DATE
-, I-DATE
-2019 I-DATE
+June O
+4 O
+, O
+2019 O
 . O
 
-Omwaka O
-oguwedde O
+Omwaka B-DATE
+oguwedde I-DATE
 oluvannyuma O
 lweyali O
 omubaka O
@@ -34399,7 +34399,7 @@ yomulamuzi O
 Noah O
 Ssajjabbi O
 e O
-Nakawa O
+Nakawa B-LOC
 ne O
 bamuvunaana O
 omusango O
@@ -34419,8 +34419,8 @@ ka O
 kkooti O
 . O
 
-Spice B-PER
-Diana I-PER
+Spice O
+Diana O
 yawuliddwa O
 nga O
 yeewaana O

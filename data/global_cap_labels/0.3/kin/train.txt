@@ -81,9 +81,9 @@ y’imari O
 / O
 2020 O
 na O
-2020 O
-/ O
-2021 O
+2020 B-DATE
+/ I-DATE
+2021 I-DATE
 . O
 
 Uretse O
@@ -128,15 +128,15 @@ y’abaturage O
 . O
 
 Ambasaderi O
-w’Umuryango B-ORG
-w’Ubumwe I-ORG
-bw’u I-ORG
-Burayi I-ORG
+w’Umuryango O
+w’Ubumwe O
+bw’u O
+Burayi O
 mu O
 Rwanda O
 , O
-Nicola O
-Bellomo O
+Nicola B-PER
+Bellomo I-PER
 , O
 aherutse O
 gushima O
@@ -170,8 +170,8 @@ z’iterambere O
 Yakomeje O
 ashimira O
 ingamba O
-u B-LOC
-Rwanda I-LOC
+u O
+Rwanda O
 rwafashe O
 mu O
 gukumira O
@@ -198,7 +198,7 @@ nyinshi O
 . O
 
 Ambasaderi O
-Bellomo O
+Bellomo B-PER
 yavuze O
 ko O
 bishimira O
@@ -217,9 +217,9 @@ bufatanye O
 hagati O
 y’imigabane O
 ya O
-Afurika O
-n’u O
-Burayi O
+Afurika B-LOC
+n’u I-LOC
+Burayi I-LOC
 . O
 
 Yavuze O
@@ -233,7 +233,7 @@ Coronavirus O
 barimo O
 gukorana O
 n’u O
-Rwanda B-LOC
+Rwanda O
 mu O
 kurebera O
 hamwe O
@@ -248,12 +248,12 @@ cyorezo O
 Mu O
 mwaka O
 wa O
-2020 O
-/ O
-21 O
+2020 B-DATE
+/ I-DATE
+21 I-DATE
 , O
-u O
-Rwanda O
+u B-LOC
+Rwanda I-LOC
 ruteganya O
 kuzakoresha O
 ingengo O
@@ -336,9 +336,9 @@ ni O
 ukuvuga O
 uyu O
 wa O
-2019 B-DATE
-/ I-DATE
-20 I-DATE
+2019 O
+/ O
+20 O
 n’utaha O
 wa O
 2020 B-DATE
@@ -452,9 +452,9 @@ kubigeraho O
 Sosiyete O
 y’Ubwishingizi O
 ya O
-Prime O
-Life O
-Insurance O
+Prime B-ORG
+Life I-ORG
+Insurance I-ORG
 yatangije O
 ku O
 mugaragaro O
@@ -678,7 +678,7 @@ akabikuza O
 % O
 . O
 
-Habarurema B-PER
+Habarurema O
 yagiriye O
 inama O
 Abanyarwanda O
@@ -775,13 +775,13 @@ Umuyobozi O
 w’Inama O
 y’Ubutegetsi O
 ya O
-Prime O
-Life O
-Insurance O
+Prime B-ORG
+Life I-ORG
+Insurance I-ORG
 , O
-Ceaser O
-Nkusi O
-Nkwesi O
+Ceaser B-PER
+Nkusi I-PER
+Nkwesi I-PER
 , O
 yavuze O
 ko O
@@ -823,9 +823,9 @@ gihe O
 yitabye O
 Imana O
 , O
-Prime O
-Life O
-Insurance O
+Prime B-ORG
+Life I-ORG
+Insurance I-ORG
 iha O
 umuryango O
 we O
@@ -914,7 +914,7 @@ Boston O
 Consulting O
 Group O
 ( O
-BCG B-ORG
+BCG O
 ) O
 , O
 ku O
@@ -944,9 +944,9 @@ ishize O
 Reporo O
 y’Ikigo O
 cyitwa O
-Boston B-ORG
-Consulting I-ORG
-Group I-ORG
+Boston O
+Consulting O
+Group O
 ( O
 BCG O
 ) O
@@ -979,16 +979,16 @@ Iyi O
 raporo O
 yasohotse O
 kuri O
-uyu O
-wa O
-Kane O
+uyu B-DATE
+wa I-DATE
+Kane I-DATE
 , O
 yerekanye O
 ko O
 mu O
-mpera O
-za O
-2019 O
+mpera B-DATE
+za I-DATE
+2019 I-DATE
 , O
 abarenga O
 miliyoni O
@@ -1145,14 +1145,14 @@ ibarurishamibare O
 mu O
 Rwanda O
 ( O
-NISR B-ORG
+NISR O
 ) O
 , O
 cyatangaje O
 ko O
 muri O
-Mata B-DATE
-2020 I-DATE
+Mata O
+2020 O
 , O
 ibiciro O
 bikomatanyirijwe O
@@ -1188,8 +1188,8 @@ NISR O
 cyatangaje O
 ko O
 muri O
-Mata O
-2020 O
+Mata B-DATE
+2020 I-DATE
 , O
 ibiciro O
 bikomatanyirijwe O
@@ -1215,10 +1215,10 @@ Mata O
 Ihinduka O
 ry’ibiciro O
 mu O
-Rwanda O
+Rwanda B-LOC
 muri O
-Werurwe O
-2020 O
+Werurwe B-DATE
+2020 I-DATE
 , O
 ryari O
 ku O
@@ -1241,12 +1241,12 @@ Itangazo O
 ryashyizwe O
 ahagaragara O
 na O
-NISR B-ORG
+NISR O
 , O
-kuwa B-DATE
-10 I-DATE
-Gicurasi I-DATE
-2020 I-DATE
+kuwa O
+10 O
+Gicurasi O
+2020 O
 , O
 rigaragaza O
 ko O
@@ -1262,8 +1262,8 @@ byiyongeraho O
 mu O
 kwezi O
 kwa O
-Mata B-DATE
-2020 I-DATE
+Mata O
+2020 O
 ‘ni O
 ibiciro O
 by’ibiribwa O
@@ -1322,7 +1322,7 @@ mu O
 byaro O
 . O
 
-NISR O
+NISR B-ORG
 iti O
 “ O
 Iri O
@@ -1380,8 +1380,8 @@ Mata O
 2020 O
 ugereranyije O
 na O
-Mata B-DATE
-2019 I-DATE
+Mata O
+2019 O
 . O
 
 Ihinduka O
@@ -1464,8 +1464,8 @@ ugereranyije O
 Mata O
 2020 O
 na O
-Mata B-DATE
-2019 I-DATE
+Mata O
+2019 O
 , O
 usanga O
 ibiciro O
@@ -1494,8 +1494,8 @@ n’ukwezi O
 kwa O
 gatatu O
 ( O
-Werurwe B-DATE
-2020 I-DATE
+Werurwe O
+2020 O
 ) O
 , O
 ibiciro O
@@ -1521,7 +1521,7 @@ byagabanutseho O
 % O
 . O
 
-NISR O
+NISR B-ORG
 ivuga O
 ko O
 muri O
@@ -1548,11 +1548,11 @@ mu O
 byaro O
 mu O
 kwezi O
-kwa O
-gatatu O
+kwa B-DATE
+gatatu I-DATE
 ( O
-Werurwe O
-2020 O
+Werurwe B-DATE
+2020 I-DATE
 ) O
 ryari O
 ku O
@@ -1565,7 +1565,7 @@ na O
 % O
 . O
 
-NISR O
+NISR B-ORG
 yagize O
 iti O
 “ O
@@ -1581,7 +1581,7 @@ byiyongeraho O
 mu O
 kwezi O
 kwa O
-Mata O
+Mata B-DATE
 ni O
 ibiciro O
 by’ibiribwa O
@@ -1604,11 +1604,11 @@ byazamutseho O
 
 Ugereranyije O
 ukwezi O
-kwa O
-kane O
+kwa B-DATE
+kane I-DATE
 ( O
-Mata B-DATE
-2020 I-DATE
+Mata O
+2020 O
 ) O
 n’ukwezi O
 kwa O
@@ -1667,10 +1667,10 @@ bihe O
 bya O
 Coronavirus O
 
-Banki O
-Nkuru O
-y’u O
-Rwanda O
+Banki B-ORG
+Nkuru I-ORG
+y’u I-ORG
+Rwanda I-ORG
 yatangaje O
 ko O
 amabanki O
@@ -1704,10 +1704,10 @@ bukungu O
 bwabo O
 . O
 
-Banki O
-Nkuru O
-y’u O
-Rwanda O
+Banki B-ORG
+Nkuru I-ORG
+y’u I-ORG
+Rwanda I-ORG
 yatangaje O
 ko O
 amabanki O
@@ -1773,9 +1773,9 @@ kwishyura O
 . O
 
 Nka O
-Banki O
-ya O
-Kigali O
+Banki B-ORG
+ya I-ORG
+Kigali I-ORG
 kimwe O
 n’izindi O
 z’ubucuruzi O
@@ -1826,10 +1826,10 @@ Mata O
 igaragaza O
 ko O
 kugeza O
-ku O
-wa O
-10 O
-Mata O
+ku B-DATE
+wa I-DATE
+10 I-DATE
+Mata I-DATE
 , O
 amabanki O
 yavuguruye O
@@ -1883,9 +1883,9 @@ COVID O
 Mu O
 zindi O
 mpinduka O
-Banki B-ORG
-Nkuru I-ORG
-y’Igihugu I-ORG
+Banki O
+Nkuru O
+y’Igihugu O
 yakoze O
 , O
 harimo O
@@ -1981,7 +1981,7 @@ gikwirakwira O
 
 Guverinoma O
 y’u O
-Rwanda O
+Rwanda B-LOC
 igeze O
 kure O
 gahunda O
@@ -2076,11 +2076,11 @@ ko O
 muri O
 iki O
 gihembwe O
-hagati O
-ya O
-Mata O
-na O
-Kamena O
+hagati B-DATE
+ya I-DATE
+Mata I-DATE
+na I-DATE
+Kamena I-DATE
 izaguza O
 miliyari O
 $ O
@@ -2096,8 +2096,8 @@ n’ingengo O
 y’imari O
 . O
 
-Banki B-ORG
-y’Isi I-ORG
+Banki O
+y’Isi O
 iherutse O
 gukora O
 ikigereranyo O
@@ -2105,7 +2105,7 @@ yerekana O
 ko O
 ubukungu O
 bwa O
-Afurika B-LOC
+Afurika O
 buzasubira O
 inyuma O
 mu O
@@ -2125,8 +2125,8 @@ Coronavirus O
 
 Imibare O
 ya O
-Banki O
-y’Isi O
+Banki B-ORG
+y’Isi I-ORG
 yo O
 kuwa O
 9 O
@@ -2136,12 +2136,12 @@ ko O
 ubukungu O
 bwo O
 muri O
-Afurika B-LOC
-yo I-LOC
-munsi I-LOC
-y’Ubutayu I-LOC
-bwa I-LOC
-Sahara I-LOC
+Afurika O
+yo O
+munsi O
+y’Ubutayu O
+bwa O
+Sahara O
 , O
 bwagizweho O
 ingaruka O
@@ -2171,11 +2171,11 @@ mu O
 2019 O
 . O
 
-Ikigega B-ORG
-Mpuzamahanga I-ORG
-cy’Imari I-ORG
-ku I-ORG
-Isi I-ORG
+Ikigega O
+Mpuzamahanga O
+cy’Imari O
+ku O
+Isi O
 , O
 IMF O
 , O
@@ -2188,8 +2188,8 @@ umusaruro O
 mbumbe O
 w’Isi O
 muri O
-uyu B-DATE
-mwaka I-DATE
+uyu O
+mwaka O
 uzamanuka O
 ku O
 mpuzandengo O
@@ -2218,8 +2218,8 @@ w’Imari O
 n’Igenamigambi O
 , O
 Dr O
-Ndagijimana O
-Uzziel O
+Ndagijimana B-PER
+Uzziel I-PER
 , O
 ati O
 “ O
@@ -2335,7 +2335,7 @@ bisanga O
 urwego O
 rw’ubukerarugendo O
 mu O
-Rwanda B-LOC
+Rwanda O
 rufite O
 inguzanyo O
 za O
@@ -2363,7 +2363,7 @@ miliyari O
 
 Minisitiri O
 Dr O
-Ndagijimana O
+Ndagijimana B-PER
 yavuze O
 ko O
 ubu O
@@ -2471,8 +2471,8 @@ zigamije O
 kuzahura O
 ubukungu O
 , O
-u O
-Rwanda O
+u B-LOC
+Rwanda I-LOC
 rwashyize O
 ingufu O
 mu O
@@ -2820,7 +2820,7 @@ guteza O
 imbere O
 ibikorerwa O
 mu O
-Rwanda O
+Rwanda B-LOC
 , O
 abanyarwanda O
 bagakangukira O
@@ -2981,7 +2981,7 @@ bwashyizweho O
 
 Uruganda O
 rwa O
-Kinazi B-LOC
+Kinazi O
 rwasabye O
 abantu O
 kwita O
@@ -3098,10 +3098,10 @@ nabi O
 . O
 
 Tariki O
-7 B-DATE
-Kamena I-DATE
-buri I-DATE
-mwaka I-DATE
+7 O
+Kamena O
+buri O
+mwaka O
 , O
 Isi O
 yizihiza O
@@ -3183,12 +3183,12 @@ Kinazi O
 rufite O
 icyicaro O
 mu O
-Ntara B-LOC
-y’Amajyepfo I-LOC
+Ntara O
+y’Amajyepfo O
 mu O
 Karere O
 ka O
-Ruhango O
+Ruhango B-LOC
 rugeza O
 ifu O
 ku O
@@ -3222,13 +3222,13 @@ gupfa O
 Umuyobozi O
 w’Uruganda O
 , O
-Mbabazi O
-Christian O
+Mbabazi B-PER
+Christian I-PER
 , O
 mu O
 kiganiro O
 yahaye O
-IGIHE B-ORG
+IGIHE O
 , O
 yavuze O
 ko O
@@ -3260,7 +3260,7 @@ Burasirazuba O
 mu O
 Karere O
 ka O
-Bugesera O
+Bugesera B-LOC
 , O
 aho O
 batangiye O
@@ -3589,8 +3589,8 @@ muri O
 uru O
 ruganda O
 , O
-Ngabonzima B-PER
-Viateur I-PER
+Ngabonzima O
+Viateur O
 , O
 yavuze O
 ko O
@@ -3651,9 +3651,9 @@ muri O
 uru O
 ruganda O
 , O
-Rutagungira B-PER
-Eve I-PER
-Nicolas I-PER
+Rutagungira O
+Eve O
+Nicolas O
 , O
 we O
 yavuze O
@@ -3678,12 +3678,12 @@ Kinazi O
 rufite O
 isoko O
 mu O
-Rwanda B-LOC
+Rwanda O
 no O
 ku O
 mugabane O
 w’u O
-Burayi B-LOC
+Burayi O
 , O
 ibijya O
 hanze O
@@ -3741,7 +3741,7 @@ Amabwiriza O
 yagenaga O
 amafaranga O
 ntarengwa O
-SACCO O
+SACCO B-ORG
 zemerewe O
 kubikuriza O
 abanyamuryango O
@@ -3775,12 +3775,12 @@ abanyamuryango O
 bayo O
 . O
 
-Banki O
-Nkuru O
-y’u O
-Rwanda O
+Banki B-ORG
+Nkuru I-ORG
+y’u I-ORG
+Rwanda I-ORG
 , O
-BNR O
+BNR B-ORG
 , O
 yakuyeho O
 amabwiriza O
@@ -3852,7 +3852,7 @@ mu O
 cyumweru O
 . O
 
-SACCO O
+SACCO B-ORG
 kandi O
 ntabwo O
 yari O
@@ -3874,7 +3874,7 @@ by’ibanze O
 mu O
 gihe O
 aho O
-SACCO B-ORG
+SACCO O
 ikorana O
 n’amatsinda O
 , O
@@ -3927,8 +3927,8 @@ Guverineri O
 wa O
 BNR O
 , O
-John B-PER
-Rwangombwa I-PER
+John O
+Rwangombwa O
 rigira O
 riti O
 “ O
@@ -4281,7 +4281,7 @@ rugo O
 
 Urubuga O
 rwa O
-Netflix B-ORG
+Netflix O
 kuri O
 ubu O
 rwabaye O
@@ -4338,7 +4338,7 @@ kuba O
 umufatabuguzi O
 . O
 
-Netflix O
+Netflix B-ORG
 irebwa O
 mu O
 bihugu O
@@ -4397,8 +4397,8 @@ mu O
 bindi O
 bihugu O
 birimo O
-n’u O
-Bwongereza O
+n’u B-LOC
+Bwongereza I-LOC
 . O
 
 Icyo O
@@ -4423,11 +4423,11 @@ ihanganye O
 ku O
 isoko O
 na O
-Netflix B-ORG
+Netflix O
 . O
 
 Ikigo O
-Spotify O
+Spotify B-ORG
 , O
 gifasha O
 abantu O
@@ -4493,7 +4493,7 @@ cyane O
 Urundi O
 rubuga O
 rwa O
-Peloton B-ORG
+Peloton O
 , O
 rwerekana O
 amashusho O
@@ -4585,8 +4585,8 @@ Uru O
 rubuga O
 rwashinzwe O
 na O
-Jeff B-PER
-Bezos I-PER
+Jeff O
+Bezos O
 , O
 umuherwe O
 wa O
@@ -4608,7 +4608,7 @@ Coronavirus O
 Agaciro O
 k’imigabane O
 ya O
-Amazon O
+Amazon B-ORG
 ku O
 isoko O
 karazamutse O
@@ -4689,7 +4689,7 @@ Sosiyete O
 itwara O
 abantu O
 , O
-Uber B-ORG
+Uber O
 , O
 yagabanyije O
 abakozi O
@@ -4734,14 +4734,14 @@ benshi O
 bayihugiraho O
 . O
 
-BRD O
+BRD B-ORG
 yabaye O
 banki O
 ya O
 mbere O
 yo O
 mu O
-Rwanda O
+Rwanda B-LOC
 igenzuwe O
 na O
 Fitch O
@@ -4753,20 +4753,66 @@ rya O
 B O
 + O
 
-Banki O
-y’u O
-Rwanda O
-Itsura O
-Amajyambere O
+Banki B-ORG
+y’u I-ORG
+Rwanda I-ORG
+Itsura I-ORG
+Amajyambere I-ORG
 , O
-BRD O
+BRD B-ORG
 , O
 yabaye O
 iya O
 mbere O
 yo O
 mu O
-Rwanda B-LOC
+Rwanda O
+igenzuwe O
+n’Ikigo O
+Mpuzamahanga O
+gikurikirana O
+ibijyanye O
+n’imyenda O
+n’Ubushakashatsi O
+mu O
+by’Imari O
+, O
+Fitch O
+Ratings O
+, O
+iyiha O
+inota O
+rya O
+‘B O
++ O
+’ O
+rigaragaza O
+ko O
+imari O
+yayo O
+ihagaze O
+neza O
+ndetse O
+n’ahazaza O
+hayo O
+hameze O
+neza O
+. O
+
+Banki O
+y’u O
+Rwanda O
+Itsura O
+Amajyambere O
+, O
+BRD B-ORG
+, O
+yabaye O
+iya O
+mbere O
+yo O
+mu O
+Rwanda O
 igenzuwe O
 n’Ikigo O
 Mpuzamahanga O
@@ -4799,52 +4845,6 @@ hameze O
 neza O
 . O
 
-Banki O
-y’u O
-Rwanda O
-Itsura O
-Amajyambere O
-, O
-BRD O
-, O
-yabaye O
-iya O
-mbere O
-yo O
-mu O
-Rwanda O
-igenzuwe O
-n’Ikigo O
-Mpuzamahanga O
-gikurikirana O
-ibijyanye O
-n’imyenda O
-n’Ubushakashatsi O
-mu O
-by’Imari O
-, O
-Fitch O
-Ratings O
-, O
-iyiha O
-inota O
-rya O
-‘B O
-+ O
-’ O
-rigaragaza O
-ko O
-imari O
-yayo O
-ihagaze O
-neza O
-ndetse O
-n’ahazaza O
-hayo O
-hameze O
-neza O
-. O
-
 Ubusanzwe O
 Fitch B-ORG
 yatangaga O
@@ -4853,17 +4853,17 @@ kuri O
 za O
 Guverinoma O
 nk’u O
-Rwanda B-LOC
+Rwanda O
 . O
 
 Nko O
 mu O
 2016 O
-Fitch O
-Ratings O
+Fitch B-ORG
+Ratings I-ORG
 yahaye O
-u B-LOC
-Rwanda I-LOC
+u O
+Rwanda O
 inota O
 rya O
 ‘B O
@@ -4962,7 +4962,7 @@ ihamye O
 Iri O
 nota O
 ryahawe O
-BRD B-ORG
+BRD O
 rigaragaza O
 intambwe O
 iyi O
@@ -4985,7 +4985,7 @@ mu O
 mutungo O
 . O
 
-BRD O
+BRD B-ORG
 itangaza O
 ko O
 rizagira O
@@ -5006,13 +5006,13 @@ uruhare O
 mu O
 iterambere O
 ry’u O
-Rwanda B-LOC
+Rwanda O
 . O
 
 Umuyobozi O
 Mukuru O
 wa O
-BRD B-ORG
+BRD O
 , O
 Kampeta O
 Sayinzoga O
@@ -5067,7 +5067,7 @@ ihamye O
 
 Abakozi O
 ba O
-BRD B-ORG
+BRD O
 bari O
 gukora O
 ubutaruhuka O
@@ -5085,7 +5085,7 @@ neza O
 igishoro O
 . O
 
-BRD O
+BRD B-ORG
 ni O
 banki O
 ya O
@@ -5104,8 +5104,8 @@ Nkuru O
 y’u O
 Rwanda O
 muri O
-Kanama B-DATE
-2009 I-DATE
+Kanama O
+2009 O
 . O
 
 Ifite O
@@ -5124,7 +5124,7 @@ zitandukanye O
 zirimo O
 Guverinoma O
 y’u O
-Rwanda O
+Rwanda B-LOC
 ifite O
 97 O
 % O
@@ -5144,7 +5144,7 @@ n’Ikigo O
 cy’Igihugu O
 cy’Ubwiteganyirize O
 , O
-RSSB O
+RSSB B-ORG
 , O
 gifitemo O
 imigabane O
@@ -5238,7 +5238,7 @@ kuri O
 34 O
 % O
 mu O
-2018 O
+2018 B-DATE
 zigera O
 kuri O
 7 O
@@ -5270,8 +5270,8 @@ y’Abaturage O
 y’u O
 Rwanda O
 ( O
-BPR O
-Plc O
+BPR B-ORG
+Plc I-ORG
 . O
 
 yatanze O
@@ -5452,7 +5452,7 @@ BPR B-ORG
 twahaye O
 Guverinoma O
 y’u O
-Rwanda O
+Rwanda B-LOC
 umusanzu O
 wa O
 miliyoni O
@@ -5632,7 +5632,7 @@ nazo O
 
 Abakiliya O
 ba O
-BPR B-ORG
+BPR O
 imishahara O
 yabo O
 yakoreshejwe O
@@ -5790,8 +5790,8 @@ bifuza O
 inguzanyo O
 ni O
 ukwandikira O
-BPR O
-Plc O
+BPR B-ORG
+Plc I-ORG
 kuri O
 email O
 [ O
@@ -5944,9 +5944,9 @@ ukuvuga O
 uyu O
 turimo O
 wa O
-2019 O
-/ O
-20 O
+2019 B-DATE
+/ I-DATE
+20 I-DATE
 n’utaha O
 wa O
 2020 O
@@ -5954,7 +5954,7 @@ wa O
 21 O
 uzatangira O
 muri O
-Nyakanga O
+Nyakanga B-DATE
 . O
 
 Gahunda O
@@ -5967,8 +5967,8 @@ cya O
 Coronavirus O
 igaragaza O
 ko O
-u O
-Rwanda O
+u B-LOC
+Rwanda I-LOC
 rushobora O
 kuzakoresha O
 agera O
@@ -5987,9 +5987,9 @@ ukuvuga O
 uyu O
 turimo O
 wa O
-2019 B-DATE
-/ I-DATE
-20 I-DATE
+2019 O
+/ O
+20 O
 n’utaha O
 wa O
 2020 O
@@ -6122,8 +6122,8 @@ cyabo O
 bizashingira O
 ku O
 byacurujwe O
-uyu O
-mwaka O
+uyu B-DATE
+mwaka I-DATE
 . O
 
 Ibinyabiziga O
@@ -6153,7 +6153,7 @@ ndetse O
 udupfukamunwa O
 dukorerwa O
 mu O
-Rwanda O
+Rwanda B-LOC
 natwo O
 twasonewe O
 umusoro O
@@ -6189,8 +6189,8 @@ y’Imbere O
 mu O
 gihugu O
 , O
-Kayigi B-PER
-Aimable I-PER
+Kayigi O
+Aimable O
 , O
 yabwiye O
 itangazamakuru O
@@ -6209,10 +6209,10 @@ gihugu O
 uhereye O
 hagati O
 ya O
-Werurwe O
+Werurwe B-DATE
 ubwo O
-u O
-Rwanda O
+u B-LOC
+Rwanda I-LOC
 rwafungaga O
 ibikorwa O
 kugeza O
@@ -6220,7 +6220,7 @@ muri O
 uku O
 kwezi O
 kwa O
-Gicurasi O
+Gicurasi B-DATE
 ubwo O
 bimwe O
 muri O
@@ -6358,8 +6358,8 @@ zigamije O
 kuzahura O
 ubukungu O
 , O
-u B-LOC
-Rwanda I-LOC
+u O
+Rwanda O
 rwashyize O
 ingufu O
 mu O
@@ -6698,15 +6698,15 @@ mu O
 mahanga O
 n’ibitumizwayo O
 , O
-u O
-Rwanda O
+u B-LOC
+Rwanda I-LOC
 rurateganya O
 gukomeza O
 guteza O
 imbere O
 ibikorerwa O
 mu O
-Rwanda B-LOC
+Rwanda O
 , O
 abanyarwanda O
 bagakangukira O
@@ -6734,10 +6734,10 @@ rw’ingufu O
 
 Guverinoma O
 y’u O
-Rwanda O
+Rwanda B-LOC
 na O
-Banki O
-y’Isi O
+Banki B-ORG
+y’Isi I-ORG
 byasinye O
 amasezerano O
 y’inkunga O
@@ -6768,7 +6768,7 @@ urwego O
 rw’amashanyarazi O
 , O
 Third O
-Rwanda O
+Rwanda B-LOC
 Energy O
 Sector O
 Development O
@@ -6834,7 +6834,7 @@ iciriritse O
 izafasha O
 Guverinoma O
 y’u O
-Rwanda B-LOC
+Rwanda O
 kuvugurura O
 ingengo O
 y’imari O
@@ -6884,14 +6884,14 @@ mushinga O
 ikaba O
 yaratanzwe O
 mu O
-Ukuboza B-DATE
-2017 I-DATE
+Ukuboza O
+2017 O
 , O
 iya O
 nyuma O
 yatanzwe O
-umwaka O
-ushize O
+umwaka B-DATE
+ushize I-DATE
 . O
 
 Uwo O
@@ -6908,7 +6908,7 @@ iterambere O
 ry’urwego O
 rw’amashanyarazi O
 mu O
-Rwanda O
+Rwanda B-LOC
 nkuko O
 biri O
 muri O
@@ -6937,8 +6937,8 @@ n’Igenamigambi O
 Dr O
 . O
 
-Uzziel O
-Ndagijimana O
+Uzziel B-PER
+Ndagijimana I-PER
 , O
 yavuze O
 ko O
@@ -7002,16 +7002,16 @@ kwatabwaho O
 
 Umuyobozi O
 wa O
-Banki B-ORG
-y’Isi I-ORG
+Banki O
+y’Isi O
 , O
 Ishami O
 ry’u O
-Rwanda O
+Rwanda B-LOC
 , O
-Yasser B-PER
-El I-PER
-Gammal I-PER
+Yasser O
+El O
+Gammal O
 , O
 yavuze O
 ko O
@@ -7020,8 +7020,8 @@ ko O
 inkunga O
 yatanzwe O
 izafasha O
-u O
-Rwanda O
+u B-LOC
+Rwanda I-LOC
 gusubira O
 vuba O
 mu O
@@ -7048,15 +7048,15 @@ Guverinoma O
 , O
 inkunga O
 ya O
-Banki B-ORG
-y’Isi I-ORG
+Banki O
+y’Isi O
 n’abandi O
 bafatanyabikorwa O
 mu O
 iterambere O
 izafasha O
-u B-LOC
-Rwanda I-LOC
+u O
+Rwanda O
 kwigobotora O
 iki O
 cyorezo O
@@ -7143,7 +7143,7 @@ cyo O
 kuzahura O
 ubukungu O
 bw’u O
-Rwanda O
+Rwanda B-LOC
 kizakora O
 . O
 
@@ -7168,7 +7168,7 @@ Nkuru O
 y’u O
 Rwanda O
 , O
-BNR B-ORG
+BNR O
 , O
 yashyizeho O
 umurongo O
@@ -7178,7 +7178,7 @@ cyo O
 kuzahura O
 ubukungu O
 bw’u O
-Rwanda O
+Rwanda B-LOC
 kizakora O
 . O
 
@@ -7301,9 +7301,9 @@ by’imari O
 biciriritse O
 . O
 
-Banki B-ORG
-Nkuru I-ORG
-y’Igihugu I-ORG
+Banki O
+Nkuru O
+y’Igihugu O
 niyo O
 izagicunga O
 , O
@@ -7372,9 +7372,9 @@ COVID O
 19 O
 . O
 
-Banki B-ORG
-Nkuru I-ORG
-y’Igihugu I-ORG
+Banki O
+Nkuru O
+y’Igihugu O
 izacunga O
 imikorere O
 yacyo O
@@ -7405,7 +7405,7 @@ ikibazo O
 nyuma O
 zohereza O
 kuri O
-BNR O
+BNR B-ORG
 ibyifuzo O
 by’abasabye O
 gufashwa O
@@ -7505,7 +7505,7 @@ PSF O
 yagaragazaga O
 ko O
 muri O
-Werurwe B-DATE
+Werurwe O
 bwagize O
 igihombo O
 cya O
@@ -7533,7 +7533,7 @@ bisanga O
 urwego O
 rw’ubukerarugendo O
 mu O
-Rwanda B-LOC
+Rwanda O
 rufite O
 inguzanyo O
 za O
@@ -7554,12 +7554,12 @@ ko O
 ubukungu O
 bwo O
 muri O
-Afurika O
+Afurika B-LOC
 yo O
-munsi B-LOC
-y’Ubutayu I-LOC
-bwa I-LOC
-Sahara I-LOC
+munsi O
+y’Ubutayu O
+bwa O
+Sahara O
 , O
 bwagizweho O
 ingaruka O
@@ -7586,7 +7586,7 @@ kuri O
 % O
 bwariho O
 mu O
-2019 O
+2019 B-DATE
 . O
 
 Ikigega O
@@ -7595,7 +7595,7 @@ cy’Imari O
 ku O
 Isi O
 , O
-IMF B-ORG
+IMF O
 , O
 nacyo O
 giherutse O
@@ -7636,8 +7636,8 @@ w’Imari O
 n’Igenamigambi O
 , O
 Dr O
-Ndagijimana B-PER
-Uzziel I-PER
+Ndagijimana O
+Uzziel O
 , O
 ati O
 “ O
@@ -7692,7 +7692,7 @@ ubu O
 igipimo O
 cy’ubukungu O
 bw’u O
-Rwanda B-LOC
+Rwanda O
 kigaragaza O
 ko O
 butazazamuka O
@@ -7781,7 +7781,7 @@ ishinzwe O
 ubucuruzi O
 n’iterambere O
 ( O
-UNCTAD B-ORG
+UNCTAD O
 ) O
 , O
 yagaragaje O
@@ -7812,14 +7812,14 @@ Coronavirus O
 . O
 
 Raporo O
-y’Inama B-ORG
-ya I-ORG
-Loni I-ORG
-ishinzwe I-ORG
-ubucuruzi I-ORG
-n’iterambere I-ORG
+y’Inama O
+ya O
+Loni O
+ishinzwe O
+ubucuruzi O
+n’iterambere O
 ( O
-UNCTAD B-ORG
+UNCTAD O
 ) O
 , O
 yagaragaje O
@@ -7881,9 +7881,9 @@ bikaba O
 ari O
 ubwa O
 mbere O
-kuva B-DATE
-mu I-DATE
-2005 I-DATE
+kuva O
+mu O
+2005 O
 . O
 
 Ishoramari O
@@ -7904,7 +7904,7 @@ hanyuma O
 ryongere O
 kuzamuka O
 mu O
-2022 B-DATE
+2022 O
 . O
 
 Umunyamabanga O
@@ -7912,8 +7912,8 @@ Mukuru O
 wa O
 UNCTAD O
 , O
-Mukhisa O
-Kituyi O
+Mukhisa B-PER
+Kituyi I-PER
 , O
 yabwiye O
 itangazamakuru O
@@ -7929,7 +7929,7 @@ harenze O
 uko O
 byagenze O
 mu O
-2008 O
+2008 B-DATE
 , O
 ubwo O
 habagaho O
@@ -7979,8 +7979,8 @@ ishoramari O
 muri O
 UNCTAD O
 , O
-James B-PER
-Zhan I-PER
+James O
+Zhan O
 , O
 yagize O
 ati O
@@ -8011,20 +8011,20 @@ rikenera O
 """" O
 . O
 
-RwandAir O
+RwandAir B-ORG
 yatangiye O
 gutwara O
 amafi O
 yo O
 muri O
-Tanzania O
+Tanzania B-LOC
 iyageza O
 mu O
 Burayi B-LOC
 
 Sosiyete O
 ya O
-RwandAir O
+RwandAir B-ORG
 yatangaje O
 ko O
 indege O
@@ -8039,9 +8039,9 @@ muri O
 Tanzania O
 ziyajyanye O
 i O
-Bruxelles O
+Bruxelles B-LOC
 mu O
-Bubiligi B-LOC
+Bubiligi O
 . O
 
 Sosiyete O
@@ -8056,7 +8056,7 @@ gutwara O
 amafi O
 aturutse O
 i O
-Mwanza O
+Mwanza B-LOC
 muri O
 Tanzania O
 ziyajyanye O
@@ -8082,7 +8082,7 @@ nk’uko O
 biri O
 mu O
 itangazo O
-RwandAir B-ORG
+RwandAir O
 yashyize O
 kuri O
 Twitter O
@@ -8143,8 +8143,8 @@ ushize O
 muri O
 Werurwe O
 nibwo O
-u O
-Rwanda O
+u B-LOC
+Rwanda I-LOC
 na O
 Tanzania O
 byemeranyije O
@@ -8165,7 +8165,7 @@ no O
 ku O
 mugabane O
 w’u O
-Burayi B-LOC
+Burayi O
 . O
 
 Ibihugu O
@@ -8180,7 +8180,7 @@ ku O
 kibuga O
 cy’Indege O
 cya O
-Mwanza O
+Mwanza B-LOC
 zijya O
 ku O
 masoko O
@@ -8203,7 +8203,7 @@ muri O
 Tanzania O
 akagezwa O
 mu O
-Burayi B-LOC
+Burayi O
 , O
 ni O
 amahirwe O
@@ -8248,11 +8248,11 @@ ku O
 bibuga O
 by’indege O
 bya O
-Entebbe O
+Entebbe B-LOC
 muri O
 Uganda O
 na O
-Nairobi B-LOC
+Nairobi O
 muri O
 Kenya O
 , O
@@ -8312,7 +8312,7 @@ kugeza O
 ku O
 masoko O
 ya O
-Israel O
+Israel B-LOC
 no O
 mu O
 Buyapani O
@@ -8329,7 +8329,7 @@ Uko O
 umusaruro O
 mbumbe O
 w’u O
-Rwanda B-LOC
+Rwanda O
 wiyongereyeho O
 miliyari O
 zirenga O
@@ -8431,14 +8431,14 @@ Ikigo O
 cy’Igihugu O
 cy’Ibarurishamibare O
 ( O
-NISR O
+NISR B-ORG
 ) O
 , O
 cyatangaje O
-kuwa B-DATE
-24 I-DATE
-Werurwe I-DATE
-2020 I-DATE
+kuwa O
+24 O
+Werurwe O
+2020 O
 , O
 igaragaza O
 ko O
@@ -8448,7 +8448,7 @@ mu O
 umusaruro O
 mbumbe O
 w’u O
-Rwanda B-LOC
+Rwanda O
 ( O
 GDP O
 ) O
@@ -8475,7 +8475,7 @@ miliyari O
 Frw O
 wariho O
 mu O
-2018 B-DATE
+2018 O
 . O
 
 Muri O
@@ -8522,8 +8522,8 @@ ko O
 nta O
 gihindutse O
 ibyo O
-u B-LOC
-Rwanda I-LOC
+u O
+Rwanda O
 ruteganya O
 ko O
 nibura O
@@ -8610,7 +8610,7 @@ aho O
 iterambere O
 ry’ubukungu O
 bw’u O
-Rwanda B-LOC
+Rwanda O
 rigeze O
 harivugira O
 kuko O
@@ -8629,7 +8629,7 @@ miliyari O
 956 O
 Frw O
 mu O
-2015 O
+2015 B-DATE
 , O
 ugera O
 kuri O
@@ -8648,9 +8648,9 @@ mbumbe O
 w’u O
 Rwanda O
 mu O
-myaka B-DATE
-itanu I-DATE
-ishize I-DATE
+myaka O
+itanu O
+ishize O
 ( O
 2015 B-DATE
 - I-DATE
@@ -8770,7 +8770,7 @@ warazamutse O
 % O
 , O
 mu O
-2018 O
+2018 B-DATE
 wageze O
 kuri O
 miliyari O
@@ -8804,8 +8804,8 @@ w’Imari O
 n’Igenamigambi O
 , O
 Dr O
-Uzziel O
-Ndagijimana O
+Uzziel B-PER
+Ndagijimana I-PER
 , O
 yavuze O
 ko O
@@ -8834,7 +8834,7 @@ gahunda O
 ya O
 Made O
 in O
-Rwanda B-LOC
+Rwanda O
 no O
 korohereza O
 ibikorwa O
@@ -8855,7 +8855,7 @@ cyane O
 . O
 
 Minisitiri O
-Ndagijimana O
+Ndagijimana B-PER
 yavuze O
 ko O
 mu O
@@ -8914,7 +8914,7 @@ byuma O
 . O
 
 Mu O
-2019 O
+2019 B-DATE
 , O
 umusaruro O
 mbumbe O
@@ -8930,7 +8930,7 @@ miliyari O
 Frw O
 wariho O
 mu O
-2018 B-DATE
+2018 O
 . O
 
 Bisobanuye O
@@ -8950,7 +8950,7 @@ rwashinze O
 imizi O
 
 Mu O
-2015 B-DATE
+2015 O
 , O
 urwego O
 rwa O
@@ -8973,7 +8973,7 @@ rwa O
 . O
 
 Mu O
-2016 B-DATE
+2016 O
 serivisi O
 zazamutse O
 ku O
@@ -9053,7 +9053,7 @@ kuri O
 . O
 
 Mu O
-2018 O
+2018 B-DATE
 umusaruro O
 wa O
 serivisi O
@@ -9065,7 +9065,7 @@ rwa O
 % O
 naho O
 mu O
-2019 B-DATE
+2019 O
 uzamuka O
 ku O
 rugero O
@@ -9083,7 +9083,7 @@ GDP O
 . O
 
 Mu O
-2016 O
+2016 B-DATE
 , O
 uwari O
 Minisitiri O
@@ -9129,8 +9129,8 @@ kugeza O
 Gashyantare O
 2019 O
 , O
-u O
-Rwanda O
+u B-LOC
+Rwanda I-LOC
 rwari O
 rumaze O
 kwinjiza O
@@ -9158,9 +9158,9 @@ w’ingengo O
 y’imari O
 ushize O
 ( O
-2018 B-DATE
-/ I-DATE
-2019 I-DATE
+2018 O
+/ O
+2019 O
 ) O
 igihugu O
 cyari O
@@ -9228,7 +9228,7 @@ ibintu O
 icyarimwe O
 bw’ibyakorewe O
 mu O
-Rwanda B-LOC
+Rwanda O
 bukomeje O
 kongera O
 umusaruro O
@@ -9237,7 +9237,7 @@ serivisi O
 , O
 aho O
 mu O
-2019 O
+2019 B-DATE
 bwiyongereye O
 ku O
 kigero O
@@ -9297,7 +9297,7 @@ ubukungu O
 
 Kuva O
 mu O
-2015 O
+2015 B-DATE
 , O
 urwego O
 rw’inganda O
@@ -9315,7 +9315,7 @@ gahunda O
 ya O
 Made O
 in O
-Rwanda O
+Rwanda B-LOC
 , O
 yatangiraga O
 gushyirwa O
@@ -9352,7 +9352,7 @@ no O
 mu O
 Mujyi O
 wa O
-Kigali O
+Kigali B-LOC
 , O
 iki O
 cyanya O
@@ -9362,7 +9362,7 @@ Masoro O
 mu O
 Karere O
 ka O
-Gasabo O
+Gasabo B-LOC
 . O
 
 Mu O
@@ -9424,7 +9424,7 @@ ziyongeraho O
 . O
 
 Mu O
-2017 B-DATE
+2017 O
 inganda O
 zazamutse O
 ku O
@@ -9450,7 +9450,7 @@ kuri O
 . O
 
 Mu O
-2019 O
+2019 B-DATE
 , O
 izamuka O
 ry’umusaruro O
@@ -9472,7 +9472,7 @@ y’agaciro O
 Kuri O
 ubu O
 mu O
-Rwanda B-LOC
+Rwanda O
 habarirwa O
 inganda O
 nto O
@@ -9484,7 +9484,7 @@ inganda O
 zitari O
 zisanzwe O
 mu O
-Rwanda O
+Rwanda B-LOC
 nk’izikora O
 telefoni O
 , O
@@ -9527,7 +9527,7 @@ mbumbe O
 . O
 
 Mu O
-2018 O
+2018 B-DATE
 , O
 umusaruro O
 w’ubuhinzi O
@@ -9620,7 +9620,7 @@ cyane O
 
 Leta O
 y’u O
-Rwanda B-LOC
+Rwanda O
 kandi O
 yashyize O
 imbere O
@@ -9721,7 +9721,7 @@ hose O
 buzagabanuka O
 , O
 ubw’u O
-Rwanda B-LOC
+Rwanda O
 byitezwe O
 ko O
 buzazamuka O
@@ -9733,7 +9733,7 @@ cya O
 mu O
 mwaka O
 wa O
-2020 B-DATE
+2020 O
 buvuye O
 kuri O
 9 O
@@ -9758,7 +9758,7 @@ biteganyijwe O
 ko O
 ubukungu O
 bw’u O
-Rwanda B-LOC
+Rwanda O
 mu O
 mwaka O
 wa O
@@ -9776,7 +9776,7 @@ na O
 8 O
 % O
 mu O
-2022 B-DATE
+2022 O
 . O
 
 Amazon O
@@ -9799,11 +9799,11 @@ ku O
 Ikoranabuhanga O
 cyo O
 muri O
-Leta O
-Zunze O
-Ubumwe O
-za O
-Amerika O
+Leta B-LOC
+Zunze I-LOC
+Ubumwe I-LOC
+za I-LOC
+Amerika I-LOC
 , O
 Amazon O
 cyatangiye O
@@ -9813,7 +9813,7 @@ ku O
 isoko O
 ryagutse O
 ry’u O
-Buhinde O
+Buhinde B-LOC
 , O
 kinyuze O
 mu O
@@ -9841,11 +9841,11 @@ ku O
 Ikoranabuhanga O
 cyo O
 muri O
-Leta O
-Zunze O
-Ubumwe O
-za O
-Amerika O
+Leta B-LOC
+Zunze I-LOC
+Ubumwe I-LOC
+za I-LOC
+Amerika I-LOC
 , O
 Amazon B-ORG
 cyatangiye O
@@ -9855,7 +9855,7 @@ ku O
 isoko O
 ryagutse O
 ry’u O
-Buhinde O
+Buhinde B-LOC
 , O
 kinyuze O
 mu O
@@ -9871,7 +9871,7 @@ kinafite O
 ishami O
 rikorera O
 mu O
-Rwanda B-LOC
+Rwanda O
 . O
 
 Ibiganiro O
@@ -9899,7 +9899,7 @@ cyane O
 ubukungu O
 bw’ikoranabuhanga O
 ry’u O
-Buhinde B-LOC
+Buhinde O
 . O
 
 Biteganyijwe O
@@ -9948,7 +9948,7 @@ bitanga O
 serivisi O
 z’itumanaho O
 mu O
-Buhinde O
+Buhinde B-LOC
 igaragaza O
 guhangana O
 gukomeye O
@@ -9986,8 +9986,8 @@ by’itumanaho O
 mu O
 Buhinde O
 na O
-Bharti B-ORG
-Airtel I-ORG
+Bharti O
+Airtel O
 yabushobora O
 . O
 
@@ -10053,7 +10053,7 @@ bibahendukiye O
 
 Umuvugizi O
 wa O
-Amazon B-ORG
+Amazon O
 yanze O
 kugira O
 icyo O
@@ -10082,8 +10082,8 @@ Gusa O
 itangazo O
 ryasohowe O
 na O
-Bharti O
-Airtel O
+Bharti B-ORG
+Airtel I-ORG
 rivuga O
 ko O
 isanzwe O
@@ -10132,19 +10132,19 @@ y’ibiganiro O
 hagati O
 yayo O
 na O
-Amazon O
+Amazon B-ORG
 . O
 
 Mu O
-byumweru O
-bitandatu O
-bishize O
+byumweru B-DATE
+bitandatu I-DATE
+bishize I-DATE
 ikigo O
 cya O
-Jio B-ORG
+Jio O
 gihanganye O
 na O
-Bharti B-ORG
+Bharti O
 cyabonye O
 miliyari O
 10 O
@@ -10175,21 +10175,21 @@ Idea O
 ya O
 kabiri O
 mu O
-Buhinde O
+Buhinde B-LOC
 mu O
 gutanga O
 serivisi O
 z’itumanaho O
 . O
 
-Amazon B-ORG
+Amazon O
 iri O
 kwirukira O
 ku O
 isoko O
 ry’ikoranabuhanga O
 mu O
-Buhinde B-LOC
+Buhinde O
 bitewe O
 no O
 kuba O
@@ -10254,8 +10254,8 @@ Mu O
 Ukuboza O
 2017 O
 nibwo O
-Bharti B-ORG
-Airtel I-ORG
+Bharti O
+Airtel O
 ibarizwamo O
 Airtel B-ORG
 Rwanda I-ORG
@@ -10270,10 +10270,10 @@ Tigo O
 Rwanda O
 ibarizwa O
 muri O
-Millicom B-ORG
-International I-ORG
-Cellular I-ORG
-SA I-ORG
+Millicom O
+International O
+Cellular O
+SA O
 . O
 
 Amasezerano O
@@ -10294,8 +10294,8 @@ kwegukana O
 by’imigabane O
 yose O
 ya O
-Tigo B-ORG
-Rwanda I-ORG
+Tigo O
+Rwanda O
 . O
 
 Bharti B-ORG
@@ -10319,7 +10319,7 @@ bihugu O
 bya O
 Afurika B-LOC
 na O
-Aziya B-LOC
+Aziya O
 gikoreramo O
 . O
 
@@ -10342,10 +10342,10 @@ mezi O
 atatu O
 abanza O
 ya O
-2020 B-DATE
+2020 O
 , O
-u B-LOC
-Rwanda I-LOC
+u O
+Rwanda O
 rwohereje O
 mu O
 mahanga O
@@ -10459,16 +10459,16 @@ bikomoka I-ORG
 ku I-ORG
 Buhinzi I-ORG
 , O
-NAEB O
+NAEB B-ORG
 , O
 igaragaza O
 ko O
-hagati O
-ya O
-Mutarama O
-na O
-Werurwe O
-2020 O
+hagati B-DATE
+ya I-DATE
+Mutarama I-DATE
+na I-DATE
+Werurwe I-DATE
+2020 I-DATE
 , O
 icyayi O
 cyoherejwe O
@@ -10498,7 +10498,7 @@ zisaga O
 Imibare O
 yo O
 mu O
-2019 O
+2019 B-DATE
 igaragaza O
 ko O
 mu O
@@ -10551,7 +10551,7 @@ Ugushyingo O
 umusaruro O
 w’icyayi O
 cy’u O
-Rwanda B-LOC
+Rwanda O
 wazamutseho O
 12 O
 % O
@@ -10626,7 +10626,7 @@ toni O
 180 O
 zabonetse O
 mu O
-2018 B-DATE
+2018 O
 zigera O
 kuri O
 toni O
@@ -10635,7 +10635,7 @@ toni O
 
 617 O
 mu O
-2019 B-DATE
+2019 O
 . O
 
 Mu O
@@ -10691,7 +10691,7 @@ wa O
 , O
 icyayi O
 cy’u O
-Rwanda B-LOC
+Rwanda O
 kizaba O
 cyinjiriza O
 igihugu O
@@ -10805,7 +10805,7 @@ ubu O
 igipimo O
 cy’ubukungu O
 bw’u O
-Rwanda O
+Rwanda B-LOC
 kigaragaza O
 ko O
 butazazamuka O
@@ -10860,7 +10860,7 @@ ukomeje O
 gututumba O
 hagati O
 ya O
-Amerika O
+Amerika B-LOC
 na O
 Iran B-LOC
 
@@ -10868,11 +10868,11 @@ Nyuma O
 y’igitero O
 cyagabwe O
 na O
-Leta B-LOC
-Zunze I-LOC
-Ubumwe I-LOC
-za I-LOC
-Amerika I-LOC
+Leta O
+Zunze O
+Ubumwe O
+za O
+Amerika O
 mu O
 rukerera O
 rwo O
@@ -10883,8 +10883,8 @@ Gatanu O
 , O
 kigahitana O
 Gen O
-Qasem O
-Soleimani O
+Qasem B-PER
+Soleimani I-PER
 , O
 wari O
 usanzwe O
@@ -10896,7 +10896,7 @@ zirinda O
 abategetsi O
 bakomeye O
 muri O
-Iran B-LOC
+Iran O
 ; O
 impungenge O
 n’ubwoba O
@@ -10943,8 +10943,8 @@ Gatanu I-DATE
 , O
 kigahitana O
 Gen O
-Qasem O
-Soleimani O
+Qasem B-PER
+Soleimani I-PER
 , O
 wari O
 usanzwe O
@@ -10970,11 +10970,11 @@ bakurikiranira O
 hafi O
 politiki O
 ya O
-Leta O
-Zunze O
-Ubumwe O
-za O
-Amerika O
+Leta B-LOC
+Zunze I-LOC
+Ubumwe I-LOC
+za I-LOC
+Amerika I-LOC
 , O
 ndetse O
 n’abatuye O
@@ -10990,21 +10990,21 @@ cyategetswe O
 na O
 Perezida O
 wa O
-Leta O
-Zunze O
-Ubumwe O
-za O
-Amerika O
+Leta B-LOC
+Zunze I-LOC
+Ubumwe I-LOC
+za I-LOC
+Amerika I-LOC
 , O
 Donald O
 Trump O
 , O
 cyanahitanye O
-Abu O
-Mahdi O
-al O
-- O
-Muhandis O
+Abu B-PER
+Mahdi I-PER
+al I-PER
+- I-PER
+Muhandis I-PER
 , O
 wari O
 umuyobozi O
@@ -11017,9 +11017,9 @@ na O
 Iran O
 witwa O
 ( O
-Popular B-ORG
-Mobilization I-ORG
-Forces I-ORG
+Popular O
+Mobilization O
+Forces O
 ) O
 , O
 ibiro O
@@ -11038,11 +11038,11 @@ igitero O
 kuri O
 Ambasade O
 ya O
-Amerika O
+Amerika B-LOC
 mu O
 mujyi O
 wa O
-Bagdad O
+Bagdad B-LOC
 mu O
 minsi O
 ishize O
@@ -11078,7 +11078,7 @@ batanu O
 Umuyobozi O
 w’ikirenga O
 muri O
-Iran B-LOC
+Iran O
 , O
 Ayatollah O
 Ali O
@@ -11101,16 +11101,16 @@ gukomeye O
 ku O
 bishe O
 Gen O
-Qasem O
-Soleimani O
+Qasem B-PER
+Soleimani I-PER
 . O
 
 Perezida O
 wa O
 Iran O
 , O
-Hassan O
-Rouhani O
+Hassan B-PER
+Rouhani I-PER
 , O
 na O
 we O
@@ -11165,7 +11165,7 @@ kandi O
 agafatwaga O
 n’abanya O
 - O
-Iran B-LOC
+Iran O
 benshi O
 nk’umwe O
 mu O
@@ -11193,15 +11193,15 @@ mu O
 bafata O
 ibyemezo O
 muri O
-Iran O
+Iran B-LOC
 . O
 
 Abasesenguzi O
 bavuga O
 iki O
 kuri O
-uyu O
-mwuka O
+uyu B-DATE
+mwuka I-DATE
 w’intambara O
 ? O
 
@@ -11211,7 +11211,7 @@ bavuga O
 ko O
 icyemezo O
 cya O
-Trump B-PER
+Trump O
 gishobora O
 gutuma O
 intambara O
@@ -11225,17 +11225,17 @@ yagifashe O
 atabanje O
 kugisha O
 inama O
-Inteko O
-Ishinga O
-Amategeko O
+Inteko B-ORG
+Ishinga I-ORG
+Amategeko I-ORG
 . O
 
 Kuba O
-Soleimani O
+Soleimani B-PER
 yari O
 umwanzi O
 wa O
-Amerika B-LOC
+Amerika O
 hari O
 abademokarate O
 babyemeza O
@@ -11248,14 +11248,14 @@ wa O
 kabiri O
 ukomeye O
 muri O
-Iran O
+Iran B-LOC
 kandi O
 bigakorwa O
 nta O
 bwumvikane O
-n’Inteko B-ORG
-ishinga I-ORG
-amategeko I-ORG
+n’Inteko O
+ishinga O
+amategeko O
 ari O
 ikosa O
 rishobora O
@@ -11268,8 +11268,8 @@ mu O
 ntambara O
 . O
 
-Joe O
-Biden O
+Joe B-PER
+Biden I-PER
 wabaye O
 Visi O
 perezida O
@@ -11292,8 +11292,8 @@ mu O
 ntozi O
 . O
 
-Andrew O
-Yang O
+Andrew B-PER
+Yang I-PER
 uteganya O
 kwiyamamaza O
 ku O
@@ -11312,7 +11312,7 @@ mbibona O
 turashaka O
 intambara O
 na O
-Iran B-LOC
+Iran O
 ariko O
 nsanga O
 byaba O
@@ -11335,8 +11335,8 @@ n’abanzi O
 bacu O
 . O
 
-Elizabeth O
-Warren O
+Elizabeth B-PER
+Warren I-PER
 , O
 na O
 we O
@@ -11393,10 +11393,10 @@ mu O
 karere O
 ko O
 mu O
-burasirazuba B-LOC
-bwo I-LOC
-hagati I-LOC
-Iran I-LOC
+burasirazuba O
+bwo O
+hagati O
+Iran O
 iherereyemo O
 . O
 
@@ -11413,7 +11413,7 @@ Minisitiri O
 w’ububanyi O
 n’amahanga O
 w’u O
-Burusiya B-LOC
+Burusiya O
 , O
 busanzwe O
 ari O
@@ -11427,13 +11427,13 @@ yavuze O
 ko O
 igitero O
 cya O
-Amerika O
+Amerika B-LOC
 kirongera O
 ibibazo O
 mu O
-burasirazuba O
-bwo O
-hagati O
+burasirazuba B-LOC
+bwo I-LOC
+hagati I-LOC
 . O
 
 Ku O
@@ -11472,15 +11472,15 @@ mu O
 karere O
 ko O
 mu O
-burasirazuba B-LOC
-bwo I-LOC
-hagati I-LOC
+burasirazuba O
+bwo O
+hagati O
 n’inyungu O
 zabo O
 . O
 
-Lindsey B-PER
-Graham I-PER
+Lindsey O
+Graham O
 , O
 umusenateri O
 uhagarariye O
@@ -11496,7 +11496,7 @@ bwana O
 Perezida O
 kubwo O
 guhagararira O
-Amerika O
+Amerika B-LOC
 . O
 
 Iki O
@@ -11513,13 +11513,13 @@ nyacyo O
 ku O
 bushotoranyi O
 bwa O
-Iran O
+Iran B-LOC
 bwari O
 burangajwe O
 imbere O
 na O
 Gen O
-Soleimani B-PER
+Soleimani O
 n’abamushyigikiye O
 . O
 
@@ -11551,7 +11551,7 @@ peteroli O
 Kuri O
 leta O
 ya O
-Iran O
+Iran B-LOC
 , O
 niba O
 mushaka O
@@ -11562,7 +11562,7 @@ bwa O
 peteroli O
 , O
 mureke O
-Amerika B-LOC
+Amerika O
 n’abadushyigikiye O
 , O
 kandi O
@@ -11625,15 +11625,15 @@ gihugu O
 
 Umutwe O
 wa O
-Hezbollah B-ORG
+Hezbollah O
 ubarizwa O
 muri O
-Liban B-LOC
+Liban O
 , O
 ukaba O
 ushyigikiwe O
 na O
-Iran B-LOC
+Iran O
 wahamagariye O
 isi O
 yose O
@@ -11643,7 +11643,7 @@ bagahorera O
 urupfu O
 rwa O
 Gen O
-Soleimani O
+Soleimani B-PER
 . O
 
 Umuyobozi O
@@ -11659,11 +11659,11 @@ ati O
 “ O
 Intego O
 ya O
-Leta O
-Zunze O
-Ubummwe O
-za O
-Amerika O
+Leta B-LOC
+Zunze I-LOC
+Ubummwe I-LOC
+za I-LOC
+Amerika I-LOC
 mu O
 karere O
 ntikwiye O
@@ -11680,12 +11680,12 @@ abajenerali O
 Minisitiri O
 w’intebe O
 wa O
-Israel O
+Israel B-LOC
 wari O
 mu O
 ruzinduko O
 mu O
-Bugereki B-LOC
+Bugereki O
 , O
 yahise O
 arusubika O
@@ -11696,12 +11696,12 @@ kumva O
 urupfu O
 rwa O
 Gen O
-Soleimani B-PER
+Soleimani O
 , O
 mu O
 gihe O
-Naftali O
-Bennett O
+Naftali B-PER
+Bennett I-PER
 , O
 wari O
 wamusigariyeho O
@@ -11713,8 +11713,8 @@ yigaga O
 ku O
 mutekano O
 i O
-Tel B-LOC
-Aviv I-LOC
+Tel O
+Aviv O
 , O
 ndetse O
 na O
@@ -11765,7 +11765,7 @@ hagati O
 nyuma O
 y’ibitero O
 bya O
-Amerika O
+Amerika B-LOC
 . O
 
 Ati O
@@ -11852,7 +11852,7 @@ mu O
 masezerano O
 yo O
 muri O
-2015 B-DATE
+2015 O
 arebana O
 no O
 kubuza O
@@ -11866,7 +11866,7 @@ kirimbuzi O
 Aya O
 masezerano O
 yabuzaga O
-Iran B-LOC
+Iran O
 kwigwizaho O
 ibitwaro O
 bya O
@@ -11884,8 +11884,8 @@ ikomeye O
 yatewe O
 na O
 Perezida O
-Barack O
-Obama O
+Barack B-PER
+Obama I-PER
 muri O
 politiki O
 y’ububanyi O
@@ -11917,7 +11917,7 @@ bamagana O
 urupfu O
 rwa O
 Gen O
-Soleimani O
+Soleimani B-PER
 . O
 
 Ikindi O
@@ -11972,42 +11972,6 @@ umubano O
 w’u O
 Rwanda O
 na O
-Uganda B-LOC
-utifashe O
-neza O
-, O
-Uganda O
-ikomeje O
-ibikorwa O
-byayo O
-byo O
-gushyigikira O
-imitwe O
-ibangamiye O
-umutekano O
-w’u O
-Rwanda O
-, O
-aho O
-ibinyamakuru O
-bya O
-Kampala B-LOC
-bikomeje O
-ubuvugizi O
-ku O
-mitwe O
-y’iterabwoba O
-irimo O
-na O
-RNC O
-. O
-
-Mu O
-gihe O
-umubano O
-w’u O
-Rwanda B-LOC
-na O
 Uganda O
 utifashe O
 neza O
@@ -12038,6 +12002,42 @@ na O
 RNC O
 . O
 
+Mu O
+gihe O
+umubano O
+w’u O
+Rwanda O
+na O
+Uganda O
+utifashe O
+neza O
+, O
+Uganda B-LOC
+ikomeje O
+ibikorwa O
+byayo O
+byo O
+gushyigikira O
+imitwe O
+ibangamiye O
+umutekano O
+w’u O
+Rwanda O
+, O
+aho O
+ibinyamakuru O
+bya O
+Kampala B-LOC
+bikomeje O
+ubuvugizi O
+ku O
+mitwe O
+y’iterabwoba O
+irimo O
+na O
+RNC O
+. O
+
 Kimwe O
 mu O
 bikorwa O
@@ -12056,10 +12056,10 @@ cyateruye O
 kivuganira O
 abarwanashyaka O
 ba O
-RNC O
+RNC B-ORG
 baba O
 mu O
-Bwongereza O
+Bwongereza B-LOC
 , O
 ko O
 bashaka O
@@ -12094,8 +12094,8 @@ byiyongera O
 ku O
 kuba O
 Perezida O
-Yoweri O
-Museveni O
+Yoweri B-PER
+Museveni I-PER
 aheruka O
 kwiyemerera O
 ko O
@@ -12104,10 +12104,10 @@ n’umwe O
 mu O
 barwanashyaka O
 ba O
-RNC O
+RNC B-ORG
 , O
-Charlotte O
-Mukankusi O
+Charlotte B-PER
+Mukankusi I-PER
 ushinzwe O
 dipolomasi O
 muri O
@@ -12124,7 +12124,7 @@ abagamije O
 guhungabanya O
 umutekano O
 w’u O
-Rwanda B-LOC
+Rwanda O
 yagarutsweho O
 kenshi O
 , O
@@ -12134,7 +12134,7 @@ yahaye O
 rugari O
 umutwe O
 wa O
-RNC O
+RNC B-ORG
 ari O
 naho O
 ukorera O
@@ -12157,7 +12157,7 @@ gisirikare O
 rushinzwe O
 ubutasi O
 , O
-CMI B-ORG
+CMI O
 , O
 abatemeranyije O
 n’uwo O
@@ -12223,8 +12223,8 @@ gukeza O
 RNC O
 kandi O
 harimo O
-Yolande O
-Makolo O
+Yolande B-PER
+Makolo I-PER
 , O
 wibajije O
 niba O
@@ -12232,7 +12232,7 @@ ubu O
 ari O
 uburyo O
 bushya O
-Uganda B-LOC
+Uganda O
 izanye O
 nyuma O
 y’imigambi O
@@ -12257,8 +12257,8 @@ com O
 KWCfgoPN2V O
 
 — O
-Yolande B-PER
-Makolo I-PER
+Yolande O
+Makolo O
 🇷 O
 🇼 O
 ( O
@@ -12277,8 +12277,8 @@ bibangamiye O
 abanyarwanda O
 , O
 byanatumye O
-u O
-Rwanda O
+u B-LOC
+Rwanda I-LOC
 rubuza O
 abaturage O
 barwo O
@@ -12307,15 +12307,15 @@ muri O
 yombi O
 abakirisitu O
 ba O
-ADEPR O
-Kibuye O
+ADEPR B-ORG
+Kibuye I-ORG
 bagera O
 kuri O
 40 O
 mu O
 murwa O
 mukuru O
-Kampala O
+Kampala B-LOC
 , O
 ubu O
 bafunzwe O
@@ -12351,7 +12351,7 @@ n’abahagarariye O
 u O
 Rwanda O
 muri O
-Uganda O
+Uganda B-LOC
 . O
 
 Ni O
@@ -12360,7 +12360,7 @@ gihe O
 Itegeko O
 Nshinga O
 rya O
-Uganda B-LOC
+Uganda O
 riteganya O
 ko O
 nta O
@@ -12390,7 +12390,7 @@ ibice O
 bapfa O
 uruhare O
 rw’u O
-Bufaransa B-LOC
+Bufaransa O
 muri O
 Jenoside O
 
@@ -12407,7 +12407,7 @@ ba O
 Parti O
 socialiste O
 ( O
-PS O
+PS B-ORG
 ) O
 mu O
 Bufaransa O
@@ -12415,8 +12415,8 @@ bahoze O
 muri O
 Guverinoma O
 ya O
-François B-PER
-Mitterand I-PER
+François O
+Mitterand O
 , O
 bandikiye O
 umunyamabanga O
@@ -12424,8 +12424,8 @@ wa O
 mbere O
 w’iryo O
 shyaka O
-Olivier B-PER
-Faure I-PER
+Olivier O
+Faure O
 , O
 bamusaba O
 kwihaniza O
@@ -12438,7 +12438,7 @@ b’u O
 Burayi O
 , O
 washinje O
-Mitterand B-PER
+Mitterand O
 n’ubutegetsi O
 bwe O
 uruhare O
@@ -12450,7 +12450,7 @@ mu O
 1994 O
 . O
 
-Gabon O
+Gabon B-LOC
 iri O
 mu O
 bihugu O
@@ -12568,7 +12568,7 @@ hirya O
 no O
 hino O
 muri O
-Afurika B-LOC
+Afurika O
 acika O
 , O
 avuga O
@@ -12594,26 +12594,26 @@ mwiza O
 Byombi O
 bihuriye O
 mu O
-Muryango B-ORG
-w’Ubukungu I-ORG
-bw’Ibihugu I-ORG
-bya I-ORG
-Afurika I-ORG
-yo I-ORG
-Hagati I-ORG
+Muryango O
+w’Ubukungu O
+bw’Ibihugu O
+bya O
+Afurika O
+yo O
+Hagati O
 , O
-CEEAC B-ORG
+CEEAC O
 . O
 
-U B-LOC
-Rwanda I-LOC
+U O
+Rwanda O
 na O
 Gabon O
 basinyanye O
 amasezerano O
 y’imikoranire O
 mu O
-1976 B-DATE
+1976 O
 , O
 aza O
 kuvugururwa O
@@ -12629,18 +12629,18 @@ dore O
 ko O
 indege O
 ya O
-RwandAir O
+RwandAir B-ORG
 ikorera O
 ingendo O
 mu O
 Mujyi O
 wa O
-Libreville O
+Libreville B-LOC
 . O
 
 Muri O
-Kamena O
-2016 O
+Kamena B-DATE
+2016 I-DATE
 ibihugu O
 byombi O
 byakuyeho O
@@ -12663,8 +12663,8 @@ iruzuye O
 ! O
 
 Icyumweru O
-u O
-Rwanda O
+u B-LOC
+Rwanda I-LOC
 rwahereyemo O
 isomo O
 Uganda O
@@ -12694,7 +12694,7 @@ isomo O
 iza O
 Uganda O
 ( O
-UPDF O
+UPDF B-ORG
 ) O
 , O
 haniyongeraho O
@@ -12705,7 +12705,7 @@ neza O
 n’intambara O
 y’iminsi O
 itandatu O
-Israel B-LOC
+Israel O
 yamaze O
 ihata O
 ikibatsi O
@@ -12734,7 +12734,7 @@ Rwanda O
 ziha O
 isomo O
 iza O
-Uganda O
+Uganda B-LOC
 ( O
 UPDF O
 ) O
@@ -12771,7 +12771,7 @@ mu O
 mu O
 gihe O
 aya O
-Israel O
+Israel B-LOC
 hari O
 mu O
 1967 O
@@ -12791,8 +12791,8 @@ ya O
 kugera O
 tariki O
 ya O
-10 O
-Kamena O
+10 B-DATE
+Kamena I-DATE
 , O
 ingabo O
 z’u O
@@ -12812,7 +12812,7 @@ y’umubano O
 w’u O
 Rwanda O
 na O
-Uganda O
+Uganda B-LOC
 ushatse O
 wayahera O
 mu O
@@ -12828,8 +12828,8 @@ rugamba O
 rwakuyeho O
 ubutegetsi O
 bwa O
-Milton B-PER
-Obote I-PER
+Milton O
+Obote O
 . O
 
 Igisirikare O
@@ -12841,8 +12841,8 @@ z’Abanyarwanda O
 barimo O
 na O
 Perezida O
-Paul B-PER
-Kagame I-PER
+Paul O
+Kagame O
 wayoboye O
 ubutasi O
 icyo O
@@ -12885,8 +12885,8 @@ byatumye O
 Museveni O
 yishyiramo O
 ko O
-u O
-Rwanda O
+u B-LOC
+Rwanda I-LOC
 igihugu O
 cye O
 kirufiteho O
@@ -12904,7 +12904,7 @@ guhabwa O
 amategeko O
 aturutse O
 i O
-Kampala O
+Kampala B-LOC
 n’igihe O
 bageze O
 mu O
@@ -12915,13 +12915,13 @@ cy’inkomoko O
 Nyuma O
 yo O
 kubohora O
-u B-LOC
-Rwanda I-LOC
+u O
+Rwanda O
 no O
 guhagarika O
 Jenoside O
 , O
-Inkotanyi B-ORG
+Inkotanyi O
 zamenesheje O
 abayikoraga O
 bahungira O
@@ -12934,7 +12934,7 @@ Demokarasi O
 ya O
 Congo O
 yitwaga O
-Zaire B-LOC
+Zaire O
 , O
 hakurikiraho O
 urugamba O
@@ -12950,7 +12950,7 @@ ayo O
 mashyamba O
 . O
 
-Uganda B-LOC
+Uganda O
 yatumiwe O
 muri O
 urwo O
@@ -12998,7 +12998,7 @@ Sese I-PER
 Seko I-PER
 no O
 kugeza O
-Kabila B-PER
+Kabila O
 ku O
 butegetsi O
 . O
@@ -13043,7 +13043,7 @@ Ntambara O
 ya O
 II O
 ya O
-Congo B-LOC
+Congo O
 , O
 Ingabo O
 za O
@@ -13064,7 +13064,7 @@ RDC O
 harimo O
 Umujyi O
 wa O
-Kisangani B-LOC
+Kisangani O
 n’ikibuga O
 cy’indege O
 cya O
@@ -13105,7 +13105,7 @@ yari O
 ihagaritswe O
 by’agateganyo O
 , O
-UPDF B-ORG
+UPDF O
 nta O
 mujyi O
 yari O
@@ -13118,12 +13118,12 @@ igumyemo O
 Abayobozi O
 b’ingabo O
 za O
-Uganda O
+Uganda B-LOC
 basabye O
 u O
 Rwanda O
 kubaha O
-Kisangani O
+Kisangani B-LOC
 kubera O
 ko O
 rwari O
@@ -13131,7 +13131,7 @@ rufite O
 n’indi O
 mijyi O
 nka O
-Goma O
+Goma B-LOC
 , O
 Bukavu O
 , O
@@ -13163,7 +13163,7 @@ Mu O
 nama O
 yabereye O
 i O
-Goma B-LOC
+Goma O
 yarimo O
 uwari O
 uhagarariye O
@@ -13184,7 +13184,7 @@ biganiro O
 yabwiye O
 itsinda O
 ry’u O
-Rwanda O
+Rwanda B-LOC
 ati O
 “ O
 muraduha O
@@ -13196,13 +13196,13 @@ tuyibure O
 
 Nk’uko O
 Colonel O
-Akhram O
-Hossein O
+Akhram B-PER
+Hossein I-PER
 wo O
 mu O
 ngabo O
 za O
-Loni B-ORG
+Loni O
 yabitangarije O
 Ikinyamakuru O
 Liberation B-ORG
@@ -13210,11 +13210,11 @@ Liberation B-ORG
 mu O
 rukerera O
 rwo O
-ku B-DATE
-wa I-DATE
-05 I-DATE
-Kanama I-DATE
-2000 I-DATE
+ku O
+wa O
+05 O
+Kanama O
+2000 O
 nibwo O
 ingabo O
 za O
@@ -13239,7 +13239,7 @@ rurambikana O
 , O
 Igisirikare O
 cy’u O
-Rwanda B-LOC
+Rwanda O
 gikora O
 ku O
 ntwaro O
@@ -13248,17 +13248,17 @@ kirasa O
 kitababariye O
 ingabo O
 za O
-Uganda O
+Uganda B-LOC
 , O
 gitwika O
 ibifaru O
 bya O
-UPDF O
+UPDF B-ORG
 karahava O
 , O
 ingabo O
 za O
-Uganda B-LOC
+Uganda O
 zihatakariza O
 abasirikare O
 babarwa O
@@ -13282,23 +13282,23 @@ kiri O
 ku O
 mugezi O
 wa O
-Tshopo B-LOC
+Tshopo O
 gitandukanya O
 Kisangani O
 y’Amajyepfo O
 yarimo O
 Ingabo O
 z’u O
-Rwanda B-LOC
+Rwanda O
 n’iy’Amajyaruguru O
 yarimo O
 iza O
-Uganda O
+Uganda B-LOC
 , O
 ariko O
 ingabo O
 z’u O
-Rwanda B-LOC
+Rwanda O
 zizibera O
 ibamba O
 . O
@@ -13326,9 +13326,9 @@ i O
 Kisangani O
 , O
 yabwiye O
-The O
-Washington O
-Post O
+The B-ORG
+Washington I-ORG
+Post I-ORG
 ku B-DATE
 wa I-DATE
 12 I-DATE
@@ -13368,7 +13368,7 @@ barwanira O
 Tugiye O
 gusohoka O
 muri O
-Kisangani B-LOC
+Kisangani O
 tutitaye O
 ku O
 byo O
@@ -13391,7 +13391,7 @@ n’ibindi O
 bikoresho O
 ingabo O
 za O
-Uganda O
+Uganda B-LOC
 zari O
 zimaze O
 kuhasiga O
@@ -13403,8 +13403,8 @@ urugamba O
 rwahagaze O
 , O
 Gen O
-James O
-Kazini O
+James B-PER
+Kazini I-PER
 wari O
 uyoboye O
 Ingabo O
@@ -13438,15 +13438,15 @@ Kisangani O
 . O
 
 Col O
-Danilo O
-Paiva O
+Danilo B-PER
+Paiva I-PER
 wo O
 mu O
 ngabo O
 za O
 Loni O
 i O
-Kisangani O
+Kisangani B-LOC
 , O
 ni O
 we O
@@ -13464,13 +13464,13 @@ Perezida O
 wa O
 Zambia O
 , O
-Frederic O
-Chiluba O
+Frederic B-PER
+Chiluba I-PER
 wari O
 ukubutse O
 Kampala O
 na O
-Kigali O
+Kigali B-LOC
 kubonana O
 na O
 ba O
@@ -13517,7 +13517,7 @@ akanayitsindwa O
 , O
 abanya O
 - O
-Uganda O
+Uganda B-LOC
 bakahagwa O
 ari O
 benshi O
@@ -13530,8 +13530,8 @@ kwijundika O
 ibi O
 bya O
 cyane O
-u B-LOC
-Rwanda I-LOC
+u O
+Rwanda O
 . O
 
 Uganda O
@@ -13595,7 +13595,7 @@ Muri O
 urwo O
 rwandiko O
 , O
-Uganda B-LOC
+Uganda O
 yavugaga O
 ko O
 u O
@@ -13633,12 +13633,12 @@ yabiteye O
 utwatsi O
 , O
 abwira O
-PanaPress B-ORG
+PanaPress O
 ikorera O
 i O
-Dakar B-LOC
+Dakar O
 muri O
-Senegal B-LOC
+Senegal O
 ko O
 ahubwo O
 ari O
@@ -13649,8 +13649,8 @@ macenga O
 yo O
 gushaka O
 gutera O
-u O
-Rwanda O
+u B-LOC
+Rwanda I-LOC
 . O
 
 Yagize O
@@ -13692,13 +13692,13 @@ yakurikijeho O
 guhimba O
 ikinyoma O
 cy’uko O
-u B-LOC
-Rwanda I-LOC
+u O
+Rwanda O
 rwateraga O
 inkunga O
 umutwe O
 wa O
-PRA B-ORG
+PRA O
 ( O
 People’s O
 Redemption O
@@ -13711,8 +13711,8 @@ wari O
 uyobowe O
 na O
 Col O
-Samson B-PER
-Mande I-PER
+Samson O
+Mande O
 na O
 Antony B-PER
 Kyakabale I-PER
@@ -13726,7 +13726,7 @@ Kaguta I-PER
 Museveni I-PER
 . O
 
-Museveni B-PER
+Museveni O
 ntarakira O
 ugutsindwa O
 
@@ -13755,13 +13755,13 @@ yabajijwe O
 niba O
 bidashoboka O
 ko O
-Museveni B-PER
+Museveni O
 yaba O
 atarakira O
 kuba O
 Ingabo O
 z’u O
-Rwanda B-LOC
+Rwanda O
 zaratsindiye O
 ize O
 i O
@@ -13778,7 +13778,7 @@ ku O
 bushotoranyi O
 budasiba O
 bwa O
-Uganda B-LOC
+Uganda O
 ku O
 Rwanda O
 , O
@@ -13836,7 +13836,7 @@ Birashoka O
 . O
 
 Perezida O
-Kagame O
+Kagame B-PER
 yavuze O
 ko O
 yubaha O
@@ -13844,13 +13844,13 @@ Museveni O
 nka O
 Perezida O
 wa O
-Uganda B-LOC
+Uganda O
 ariko O
 ‘ntabwo O
 ari O
 Perezida O
 w’u O
-Rwanda B-LOC
+Rwanda O
 nta O
 nubwo O
 azigera O
@@ -13887,8 +13887,8 @@ ati O
 Mu O
 ngano O
 , O
-u B-LOC
-Rwanda I-LOC
+u O
+Rwanda O
 ni O
 igihugu O
 gito O
@@ -13925,7 +13925,7 @@ ko O
 byose O
 bishingiye O
 kuri O
-Museveni B-PER
+Museveni O
 . O
 
 Ati O
@@ -14021,12 +14021,12 @@ mucuruzi O
 w’Umunyarwanda O
 wakoreraga O
 i O
-Kampala O
+Kampala B-LOC
 yafashwe O
 tariki O
-7 O
-Kanama O
-2017 O
+7 B-DATE
+Kanama I-DATE
+2017 I-DATE
 . O
 
 Imyaka O
@@ -14043,20 +14043,20 @@ Kigo O
 cya O
 Gisirikare O
 cya O
-Makindye B-LOC
+Makindye O
 nyamara O
 ari O
 umusivile O
 . O
 
-Rutagungira B-PER
+Rutagungira O
 uheruka O
 mu O
 rukiko O
 muri O
-Gicurasi B-DATE
-uyu I-DATE
-mwaka I-DATE
+Gicurasi O
+uyu O
+mwaka O
 , O
 bivugwa O
 ko O
@@ -14160,7 +14160,7 @@ bajya O
 cyangwa O
 baba O
 muri O
-Uganda O
+Uganda B-LOC
 , O
 baba O
 inzirakarengane O
@@ -14262,18 +14262,18 @@ Tumukunde B-PER
 
 Ibyabaye O
 kuri O
-Rutagungira O
+Rutagungira B-PER
 ni O
 kimwe O
 n’ibyabaye O
 kuri O
-Emmanuel B-PER
-Rwamuco I-PER
+Emmanuel O
+Rwamuco O
 , O
 umucuruzi O
 wakoreraga O
 i O
-Mbarara O
+Mbarara B-LOC
 ndetse O
 n’inshuti O
 ye O
@@ -14295,7 +14295,7 @@ mbere O
 yo O
 kujyanwa O
 i O
-Kampala O
+Kampala B-LOC
 . O
 
 Aba O
@@ -14313,8 +14313,8 @@ umuvandimwe O
 wa O
 Brig O
 Gen O
-Abel O
-Kandiho O
+Abel B-PER
+Kandiho I-PER
 uyobora O
 Urwego O
 rushinzwe O
@@ -14329,7 +14329,7 @@ usanzwe O
 ashinzwe O
 umutekano O
 muri O
-Mbarara B-LOC
+Mbarara O
 yahamagaye O
 ushinzwe O
 ibikorwa O
@@ -14342,7 +14342,7 @@ ka O
 Mbarara B-LOC
 , O
 Maj O
-Mushambo B-PER
+Mushambo O
 , O
 akihagera O
 amwereka O
@@ -14390,7 +14390,7 @@ Mbarara O
 Mukama O
 Kandiho O
 na O
-Mushambo O
+Mushambo B-PER
 bafashe O
 ayo O
 mafaranga O
@@ -14401,9 +14401,9 @@ imbunda O
 baziha O
 ku O
 ngufu O
-Rwamucyo O
+Rwamucyo B-PER
 na O
-Rutayisire B-PER
+Rutayisire O
 babajyana O
 muri O
 gereza O
@@ -14523,7 +14523,7 @@ cyangwa O
 mu O
 buroko O
 bwa O
-CMI B-ORG
+CMI O
 . O
 
 Ubuhamya O
@@ -14569,18 +14569,18 @@ Vuba O
 aha O
 , O
 tariki O
-23 O
-Kamena O
+23 B-DATE
+Kamena I-DATE
 , O
-Eric B-PER
-Rugorotsi I-PER
+Eric O
+Rugorotsi O
 yajugunywe O
 mu O
 mugezi O
 witwa O
 Umuyanja O
 uherereye O
-Ntungamo O
+Ntungamo B-LOC
 . O
 
 Yahajugunywe O
@@ -14592,7 +14592,7 @@ w’Imbere O
 mu O
 Gihugu O
 ( O
-ISO O
+ISO B-ORG
 ) O
 , O
 ategekwa O
@@ -14622,11 +14622,11 @@ ko O
 yarekuwe O
 n’abakozi O
 ba O
-ISO O
+ISO B-ORG
 . O
 
 Ikindi O
-Rugorotsi B-PER
+Rugorotsi O
 yahishuye O
 ni O
 uko O
@@ -14651,7 +14651,7 @@ ivuga O
 by’uko O
 ubutegetsi O
 bwa O
-Uganda B-LOC
+Uganda O
 bukorana O
 cyane O
 n’Umutwe O
@@ -14695,7 +14695,7 @@ abo O
 mu O
 idini O
 ya O
-Islam O
+Islam B-ORG
 . O
 
 Leta O
@@ -14759,7 +14759,7 @@ bwo O
 kubona O
 ubwenegihugu O
 mu O
-Buhinde O
+Buhinde B-LOC
 , O
 rije O
 nyuma O
@@ -14784,24 +14784,24 @@ y’aba O
 - O
 Hindus O
 , O
-Sikhs B-ORG
+Sikhs O
 , O
-Buddhists O
+Buddhists B-ORG
 , O
-Jains O
+Jains B-ORG
 , O
-Parsis B-ORG
+Parsis O
 , O
 n’abakirisitu O
 bava O
 mu O
 bihugu O
 nka O
-Bangladesh O
+Bangladesh B-LOC
 , O
-Afghanistan O
+Afghanistan B-LOC
 na O
-Pakistan B-LOC
+Pakistan O
 , O
 ariko O
 ntirigire O
@@ -14815,11 +14815,11 @@ Iri O
 tegeko O
 ryageze O
 mu O
-nteko B-ORG
-Ishinga I-ORG
-Amategeko I-ORG
-y’u I-ORG
-Buhinde I-ORG
+nteko O
+Ishinga O
+Amategeko O
+y’u O
+Buhinde O
 bigizwemo O
 uruhare O
 cyane O
@@ -14841,16 +14841,16 @@ na O
 perezida O
 w’iki O
 gihugu O
-Ram O
-Nath O
-Kovind O
+Ram B-PER
+Nath I-PER
+Kovind I-PER
 , O
 tariki O
 ya O
-12 B-DATE
-Ukuboza I-DATE
-, I-DATE
-2019 I-DATE
+12 O
+Ukuboza O
+, O
+2019 O
 . O
 
 Amashyaka O
@@ -14869,7 +14869,7 @@ kuko O
 rirobanura O
 idini O
 ya O
-Islam O
+Islam B-ORG
 mu O
 gihugu O
 gituwe O
@@ -14891,7 +14891,7 @@ yose O
 
 Aba O
 - O
-Islam O
+Islam B-ORG
 bo O
 mu O
 Buhinde O
@@ -14958,12 +14958,12 @@ Congress O
 party O
 ] O
 , O
-Sanjay B-PER
-Jha I-PER
+Sanjay O
+Jha O
 , O
 yatangarije O
-Al O
-Jazeera O
+Al B-ORG
+Jazeera I-ORG
 ko O
 iri O
 tegeko O
@@ -14976,9 +14976,9 @@ yo O
 kurema O
 amacakubiri O
 y’ishyaka O
-Bharatiya O
-Janata O
-Party O
+Bharatiya B-ORG
+Janata I-ORG
+Party I-ORG
 , O
 BJP B-ORG
 . O
@@ -14990,8 +14990,8 @@ ya O
 ‘BJP’ O
 ni O
 uguhoza O
-u B-LOC
-Buhinde I-LOC
+u O
+Buhinde O
 mu O
 mwuka O
 mubi O
@@ -15010,8 +15010,8 @@ Mu O
 kwezi O
 gushize O
 , O
-Amit B-PER
-Shah I-PER
+Amit O
+Shah O
 , O
 Minisitiri O
 w’umutekano O
@@ -15050,8 +15050,8 @@ ibyangombwa O
 . O
 
 Muri O
-Kanama O
-2019 O
+Kanama B-DATE
+2019 I-DATE
 , O
 ibarura O
 nk’iryo O
@@ -15081,8 +15081,8 @@ rw’abenegihugu O
 . O
 
 Minisitiri O
-Amit O
-Shah O
+Amit B-PER
+Shah I-PER
 aherutse O
 kwita O
 abimukira O
@@ -15137,7 +15137,7 @@ b’abayisilamu O
 buri O
 kwicirwa O
 muri O
-Myanmar O
+Myanmar B-LOC
 . O
 
 Uyu O
@@ -15191,9 +15191,9 @@ nyuma O
 yo O
 kwemezwa O
 n’abagize O
-inteko O
-Ishinga O
-Amategeko O
+inteko B-ORG
+Ishinga I-ORG
+Amategeko I-ORG
 , O
 umutwe O
 w’abadepite O
@@ -15235,7 +15235,7 @@ kuri O
 leta O
 zo O
 mu O
-majyaruguru O
+majyaruguru B-LOC
 ashyira O
 uburasirazuba O
 zari O
@@ -15251,7 +15251,7 @@ by’aba O
 Hindus O
 bava O
 muri O
-Bangladesh B-LOC
+Bangladesh O
 guhungira O
 mu O
 Buhinde O
@@ -15308,7 +15308,7 @@ ya O
 y’itegeko O
 Nshinga O
 ry’u O
-Buhinde B-LOC
+Buhinde O
 , O
 itanga O
 uburenganzira O
@@ -15322,7 +15322,7 @@ bavuga O
 ko O
 rimeze O
 nk’irya O
-Trump O
+Trump B-PER
 wa O
 Leta B-LOC
 Zunze I-LOC
@@ -15406,15 +15406,15 @@ yazasimburwa O
 n’umugore O
 ku O
 kuyobora O
-u O
-Rwanda O
+u B-LOC
+Rwanda I-LOC
 . O
 
 Yabigarutseho O
 kuri O
-uyu B-DATE
-wa I-DATE
-Kane I-DATE
+uyu O
+wa O
+Kane O
 tariki O
 19 O
 Ukuboza O
@@ -15493,8 +15493,8 @@ bagera O
 ngirango O
 abantu O
 bakarambirwa O
-u O
-Rwanda O
+u B-LOC
+Rwanda I-LOC
 bagashaka O
 kurugabanyiriza O
 ubundi O
@@ -15516,7 +15516,7 @@ turabyemera O
 . O
 
 Perezida O
-Kagame O
+Kagame B-PER
 yagaragaje O
 ko O
 uwo O
@@ -15728,10 +15728,10 @@ w’Urwego O
 Ngishwanama O
 rw’inararibonye O
 mu O
-Rwanda B-LOC
+Rwanda O
 , O
-Rutaremara B-PER
-Tito I-PER
+Rutaremara O
+Tito O
 yigeze O
 gusobanura O
 ko O
@@ -15813,9 +15813,9 @@ kugira O
 abagore O
 benshi O
 mu O
-Nteko O
-Ishinga O
-Amategeko O
+Nteko B-ORG
+Ishinga I-ORG
+Amategeko I-ORG
 . O
 
 Mu O
@@ -15889,7 +15889,7 @@ kuri O
 8 O
 % O
 muri O
-2018 B-DATE
+2018 O
 , O
 mu O
 gihe O
@@ -15906,7 +15906,7 @@ kuri O
 9 O
 % O
 muri O
-2010 O
+2010 B-DATE
 bakagera O
 kuri O
 42 O
@@ -15975,7 +15975,7 @@ kuri O
 36 O
 % O
 muri O
-2012 O
+2012 B-DATE
 bagera O
 kuri O
 63 O
@@ -15987,8 +15987,8 @@ muri O
 Harabura O
 iki O
 ngo O
-u O
-Bufaransa O
+u B-LOC
+Bufaransa I-LOC
 bugire O
 ambasaderi O
 mu O
@@ -16004,13 +16004,13 @@ budafite O
 ambasaderi O
 ubuhagarariye O
 i O
-Kigali B-LOC
+Kigali O
 . O
 
 Uhaheruka O
 ni O
-Michel O
-Flesch O
+Michel B-PER
+Flesch I-PER
 wagiye O
 mu O
 2015 O
@@ -16025,13 +16025,13 @@ umusimbura O
 Imyaka O
 ibaye O
 ine O
-u B-LOC
-Bufaransa I-LOC
+u O
+Bufaransa O
 budafite O
 ambasaderi O
 ubuhagarariye O
 i O
-Kigali B-LOC
+Kigali O
 . O
 
 Uhaheruka O
@@ -16057,7 +16057,7 @@ ambasade O
 y’u O
 Bufaransa O
 i O
-Kigali B-LOC
+Kigali O
 ikurikiranwa O
 na O
 Chargé O
@@ -16088,11 +16088,11 @@ agenda O
 , O
 Leta O
 y’u O
-Bufaransa O
+Bufaransa B-LOC
 yari O
 yarahaye O
-u O
-Rwanda O
+u B-LOC
+Rwanda I-LOC
 izina O
 rishya O
 ry’uwo O
@@ -16118,7 +16118,7 @@ Guyane O
 Ntiyaje O
 koherezwa O
 mu O
-Rwanda O
+Rwanda B-LOC
 kuko O
 hashize O
 igihe O
@@ -16143,16 +16143,16 @@ Umunyamabanga O
 wa O
 Leta O
 muri O
-Minisiteri B-ORG
-y’Ububanyi I-ORG
-n’Amahanga I-ORG
-, I-ORG
-Ubutwererane I-ORG
-n’Ibikorwa I-ORG
-by’Umuryango I-ORG
-wa I-ORG
-Afurika I-ORG
-y’Iburasirazuba I-ORG
+Minisiteri O
+y’Ububanyi O
+n’Amahanga O
+, O
+Ubutwererane O
+n’Ibikorwa O
+by’Umuryango O
+wa O
+Afurika O
+y’Iburasirazuba O
 , O
 Amb O
 . O
@@ -16169,7 +16169,7 @@ mushya O
 w’u O
 Bufaransa O
 i O
-Kigali O
+Kigali B-LOC
 , O
 Jérémie O
 Blin O
@@ -16183,11 +16183,11 @@ y’ibihugu O
 byombi O
 . O
 
-Blin O
+Blin B-PER
 asimbuye O
-Etienne O
-de O
-Souza O
+Etienne B-PER
+de I-PER
+Souza I-PER
 wari O
 umaze O
 igihe O
@@ -16206,12 +16206,12 @@ yagiranye O
 ikiganiro O
 na O
 Amb O
-Nduhungirehe O
+Nduhungirehe B-PER
 , O
 imubaza O
 impamvu O
-u B-LOC
-Bufaransa I-LOC
+u O
+Bufaransa O
 bukomeje O
 kohereza O
 ba O
@@ -16259,7 +16259,7 @@ ubu O
 
 Umubano O
 w’u O
-Rwanda B-LOC
+Rwanda O
 n’u O
 Bufaransa O
 wagiye O
@@ -16271,8 +16271,8 @@ Jenoside O
 yakorewe O
 Abatutsi O
 , O
-u B-LOC
-Rwanda I-LOC
+u O
+Rwanda O
 rushinja O
 icyo O
 gihugu O
@@ -16292,14 +16292,14 @@ mu O
 bayobozi O
 bakuru O
 b’u O
-Rwanda O
+Rwanda B-LOC
 guhanura O
 indege O
 yari O
 itwaye O
 Perezida O
-Juvénal B-PER
-Habyarimana I-PER
+Juvénal O
+Habyarimana O
 . O
 
 Umubano O
@@ -16307,10 +16307,10 @@ watangiye O
 kuba O
 mwiza O
 mu O
-2017 B-DATE
+2017 O
 ubwo O
-Emmanuel O
-Macron O
+Emmanuel B-PER
+Macron I-PER
 yatorerwaga O
 kuyobora O
 u O
@@ -16323,12 +16323,12 @@ bubanyi O
 n’amahanga O
 . O
 
-Umwaka B-DATE
-ushize I-DATE
+Umwaka O
+ushize O
 , O
 ubushinjacyaha O
 bw’u O
-Bufaransa B-LOC
+Bufaransa O
 bwahagaritse O
 burundu O
 iperereza O
@@ -16336,7 +16336,7 @@ ku O
 ihanurwa O
 ry’indege O
 ya O
-Habyarimana O
+Habyarimana B-PER
 nyuma O
 yo O
 kubura O
@@ -16369,7 +16369,7 @@ yakorewe O
 Abatutsi O
 . O
 
-IGIHE B-ORG
+IGIHE O
 yabajije O
 Nduhungirehe O
 niba O
@@ -16383,7 +16383,7 @@ kwemeza O
 ba O
 ambasaderi O
 b’u O
-Bufaransa B-LOC
+Bufaransa O
 , O
 maze O
 abihakana O
@@ -16404,8 +16404,8 @@ vuba O
 aha O
 busaba O
 ko O
-u O
-Rwanda O
+u B-LOC
+Rwanda I-LOC
 rwamwemeza O
 nka O
 ambasaderi O
@@ -16477,8 +16477,8 @@ Rwanda O
 rumushyiraho O
 . O
 
-U B-LOC
-Bufaransa I-LOC
+U O
+Bufaransa O
 igihe O
 cyose O
 buzamushyiraho O
@@ -16501,8 +16501,8 @@ Bufaransa B-LOC
 utangirira O
 mu O
 1962 O
-u O
-Rwanda O
+u B-LOC
+Rwanda I-LOC
 rukibona O
 ubwigenge O
 . O
@@ -16518,17 +16518,17 @@ cy’Abafaransa O
 gishinzwe O
 Iterambere O
 ( O
-Agence B-ORG
-Française I-ORG
-de I-ORG
-Developpément I-ORG
+Agence O
+Française O
+de O
+Developpément O
 , O
 AFD B-ORG
 ) O
 , O
 yaje O
 mu O
-Rwanda O
+Rwanda B-LOC
 yizeza O
 gukomeza O
 gufatanya O
@@ -16542,15 +16542,15 @@ w’icyo O
 kigo O
 yahaherukaga O
 mu O
-1992 O
+1992 B-DATE
 . O
 
 Guhera O
 mu O
 1962 O
 , O
-u O
-Bufaransa O
+u B-LOC
+Bufaransa I-LOC
 bumaze O
 kohereza O
 mu O
@@ -16775,9 +16775,9 @@ Gashyantare O
 . O
 
 Mu O
-kwezi B-DATE
-kwa I-DATE
-cumi I-DATE
+kwezi O
+kwa O
+cumi O
 , O
 ishyaka O
 ritavuga O
@@ -16833,15 +16833,15 @@ Aya O
 matora O
 ateganyijwe O
 tariki O
-20 B-DATE
-Gicurasi I-DATE
-uyu I-DATE
-mwaka I-DATE
+20 O
+Gicurasi O
+uyu O
+mwaka O
 . O
 
 Perezida O
-Nkurunziza B-PER
-Pierre I-PER
+Nkurunziza O
+Pierre O
 yatangaje O
 ko O
 ataziyamamariza O
@@ -16864,7 +16864,7 @@ guhera O
 mu O
 2015 O
 ubwo O
-Nkurunziza B-PER
+Nkurunziza O
 yiyamarizaga O
 manda O
 ya O
@@ -16877,9 +16877,9 @@ Andi O
 matora O
 ateganyijwe O
 tariki O
-4 O
-Ukwakira O
-2020 O
+4 B-DATE
+Ukwakira I-DATE
+2020 I-DATE
 , O
 ni O
 ay’Umukuru O
@@ -16892,10 +16892,10 @@ Pombe I-PER
 Magufuli I-PER
 wayoboye O
 Tanzania O
-kuva B-DATE
-mu I-DATE
-mwaka I-DATE
-2015 I-DATE
+kuva O
+mu O
+mwaka O
+2015 O
 yitezwe O
 kuyobora O
 indi O
@@ -16930,18 +16930,18 @@ y’Umukuru O
 w’igihugu O
 ataganyijwe O
 tariki O
-31 B-DATE
-Ukwakira I-DATE
-uyu I-DATE
-mwaka I-DATE
+31 O
+Ukwakira O
+uyu O
+mwaka O
 . O
 
 Perezida O
 w’iki O
 gihugu O
 , O
-Alassane B-PER
-Ouattara I-PER
+Alassane O
+Ouattara O
 , O
 wari O
 waratangaje O
@@ -16963,8 +16963,8 @@ ayo O
 matora O
 . O
 
-Burkina O
-Faso O
+Burkina B-LOC
+Faso I-LOC
 Hateganyijwe O
 amatora O
 y’Umukuru O
@@ -16985,9 +16985,9 @@ muri O
 iki O
 gihugu O
 , O
-Kadré B-PER
-Désiré I-PER
-Ouédraogo I-PER
+Kadré O
+Désiré O
+Ouédraogo O
 yamaze O
 gutangaza O
 ko O
@@ -17038,8 +17038,8 @@ Umukuru O
 w’iki O
 gihugu O
 , O
-John O
-Mahama O
+John B-PER
+Mahama I-PER
 ari O
 we O
 uzaba O
@@ -17049,10 +17049,10 @@ na O
 Perezida O
 uriho O
 , O
-Nana O
-Akufo O
-- O
-Addo O
+Nana B-PER
+Akufo I-PER
+- I-PER
+Addo I-PER
 . O
 
 Muri O
@@ -17062,9 +17062,9 @@ hateganyijwe O
 amatora O
 y’Umukuru O
 w’igihugu O
-n’Inteko O
-Ishinga O
-Amategeko O
+n’Inteko B-ORG
+Ishinga I-ORG
+Amategeko I-ORG
 tariki O
 27 O
 Ukuboza O
@@ -17075,7 +17075,7 @@ bayobozi O
 batandukanye O
 ateganyijwe O
 mu O
-Ukwakira O
+Ukwakira B-DATE
 . O
 
 Amatora O
@@ -17083,24 +17083,24 @@ y’Umukuru O
 w’igihugu O
 ateganyijwe O
 tariki O
-27 O
-Ukuboza O
+27 B-DATE
+Ukuboza I-DATE
 . O
 
 Umuvugizi O
 w’ishyaka O
 """" O
-Kwa O
-Na O
-Kwa O
+Kwa B-ORG
+Na I-ORG
+Kwa I-ORG
 """" O
 ry’uwahoze O
 ari O
 Perezida O
 w’iki O
 gihugu O
-Francois B-PER
-Bozizé I-PER
+Francois O
+Bozizé O
 , O
 yatangaje O
 ko O
@@ -17123,9 +17123,9 @@ ritavuga O
 rumwe O
 n’ubutegetsi O
 , O
-Seychelles O
-National O
-Party O
+Seychelles B-ORG
+National I-ORG
+Party I-ORG
 ryamaze O
 gutanga O
 Ramkalawan O
@@ -17164,9 +17164,9 @@ Ku O
 wa O
 Kabiri O
 tariki O
-19 B-DATE
-Nyakanga I-DATE
-1994 I-DATE
+19 O
+Nyakanga O
+1994 O
 nibwo O
 hagiyeho O
 Guverinoma O
@@ -17178,9 +17178,9 @@ Imyaka O
 irashize O
 ! O
 
-Ku O
-wa O
-Kabiri O
+Ku B-DATE
+wa I-DATE
+Kabiri I-DATE
 tariki O
 19 O
 Nyakanga O
@@ -17206,8 +17206,8 @@ gusa O
 ingabo O
 zari O
 iza O
-FPR O
-Inkotanyi O
+FPR B-ORG
+Inkotanyi I-ORG
 zimaze O
 kubohora O
 imijyi O
@@ -17319,8 +17319,8 @@ harahiye O
 abandi O
 bongerwamo O
 tariki O
-20 B-DATE
-Nyakanga I-DATE
+20 O
+Nyakanga O
 . O
 
 Mu O
@@ -17416,16 +17416,16 @@ y’iterambere O
 
 Guverinoma O
 yo O
-ku B-DATE
-wa I-DATE
-19 I-DATE
-Nyakanga I-DATE
+ku O
+wa O
+19 O
+Nyakanga O
 , O
 imyanya O
 umunani O
 yahawe O
-FPR B-ORG
-Inkotanyi I-ORG
+FPR O
+Inkotanyi O
 , O
 itatu O
 ihabwa O
@@ -17436,14 +17436,14 @@ itatu O
 ihabwa O
 PL O
 , O
-PSD B-ORG
+PSD O
 ihabwa O
 imyanya O
 ibiri O
 naho O
 umwe O
 uhabwa O
-PDC B-ORG
+PDC O
 . O
 
 Abari O
@@ -17458,8 +17458,8 @@ Perezida O
 Pasteur B-PER
 Bizimungu I-PER
 
-Pasteur B-PER
-Bizimungu I-PER
+Pasteur O
+Bizimungu O
 ni O
 we O
 wahise O
@@ -17472,7 +17472,7 @@ Uyu O
 mugabo O
 uvuka O
 muri O
-Gisenyi B-LOC
+Gisenyi O
 , O
 yari O
 umunyamuryango O
@@ -17505,9 +17505,9 @@ yabaye O
 Perezida O
 kugeza O
 kuwa O
-23 B-DATE
-Werurwe I-DATE
-2000 I-DATE
+23 O
+Werurwe O
+2000 O
 ubwo O
 yeguraga O
 ku O
@@ -17550,7 +17550,7 @@ imyaka O
 . O
 
 Mu O
-2006 B-DATE
+2006 O
 Bizimungu O
 yandikiye O
 ibaruwa O
@@ -17561,7 +17561,7 @@ imbabazi O
 , O
 azihabwa O
 mu O
-2007 B-DATE
+2007 O
 ahita O
 arekurwa O
 . O
@@ -17569,7 +17569,7 @@ arekurwa O
 Ubu O
 aba O
 mu O
-Rwanda B-LOC
+Rwanda O
 mu O
 bikorwa O
 bye O
@@ -17604,20 +17604,20 @@ Visi O
 Perezida O
 . O
 
-Paul B-PER
-Kagame I-PER
+Paul O
+Kagame O
 yagumye O
 kuri O
 uwo O
 mwanya O
 kugeza O
 muri O
-Werurwe B-DATE
-2000 I-DATE
+Werurwe O
+2000 O
 ubwo O
 yatorerwaga O
 gusimbura O
-Bizimungu O
+Bizimungu B-PER
 ku O
 mwanya O
 wa O
@@ -17662,7 +17662,7 @@ Minisitiri O
 w’Intebe O
 . O
 
-Twagiramungu B-PER
+Twagiramungu O
 w’ishyaka O
 MDR O
 ni O
@@ -17691,14 +17691,14 @@ yahoze O
 ari O
 perefegitura O
 ya O
-Cyangugu B-LOC
+Cyangugu O
 , O
 yaje O
 kwegura O
 tariki O
-28 O
-Kanama O
-1995 O
+28 B-DATE
+Kanama I-DATE
+1995 I-DATE
 , O
 ahita O
 afata O
@@ -17728,14 +17728,14 @@ ry’amashyaka O
 aba O
 hanze O
 y’u O
-Rwanda B-LOC
+Rwanda O
 , O
 atavuga O
 rumwe O
 na O
 Guverinoma O
 y’u O
-Rwanda B-LOC
+Rwanda O
 . O
 
 Minisitiri O
@@ -17748,13 +17748,13 @@ w’umurimo O
 Alexis B-PER
 Kanyarengwe I-PER
 
-Kanyarengwe O
-Alexis O
+Kanyarengwe B-PER
+Alexis I-PER
 wo O
 mu O
 Muryango O
-FPR O
-Inkotanyi O
+FPR B-ORG
+Inkotanyi I-ORG
 ni O
 we O
 wahawe O
@@ -17777,7 +17777,7 @@ yahoze O
 ari O
 Ruhengeri O
 ( O
-Amajyaruguru B-LOC
+Amajyaruguru O
 ) O
 , O
 ni O
@@ -17811,7 +17811,7 @@ Nyakanga I-DATE
 1973 I-DATE
 . O
 
-Kanyarengwe O
+Kanyarengwe B-PER
 wafatwaga O
 nka O
 nimero O
@@ -17850,28 +17850,28 @@ Kanyarengwe O
 wabaye O
 umuyobozi O
 w’Umuryango O
-FPR O
-Inkotanyi O
+FPR B-ORG
+Inkotanyi I-ORG
 kugeza O
 mu O
-1998 B-DATE
+1998 O
 , O
 yaje O
 kuvanwa O
 muri O
 Guverinoma O
 mu O
-1997 B-DATE
+1997 O
 . O
 
-Alexis B-PER
-Kanyarengwe I-PER
+Alexis O
+Kanyarengwe O
 yitabye O
 Imana O
 tariki O
-13 B-DATE
-Ugushyingo I-DATE
-2006 I-DATE
+13 O
+Ugushyingo O
+2006 O
 azize O
 uburwayi O
 , O
@@ -17879,11 +17879,11 @@ ashyingurwa O
 mu O
 irimbi O
 rya O
-Remera B-LOC
+Remera O
 mu O
 mujyi O
 wa O
-Kigali B-LOC
+Kigali O
 . O
 
 Minisitiri O
@@ -17924,7 +17924,7 @@ Ndagijimana O
 wari O
 mu O
 ishyaka O
-MDR B-ORG
+MDR O
 ni O
 we O
 wahawe O
@@ -17940,7 +17940,7 @@ uvuka O
 mu O
 yahoze O
 ari O
-Cyangugu O
+Cyangugu B-LOC
 yamaze O
 amezi O
 ane O
@@ -18058,8 +18058,8 @@ w’Umutekano O
 Uwo O
 mwanya O
 wahawe O
-Seth O
-Sendashonga O
+Seth B-PER
+Sendashonga I-PER
 wakomokaga O
 mu O
 yahoze O
@@ -18071,7 +18071,7 @@ Kibuye O
 wari O
 impunzi O
 muri O
-Kenya B-LOC
+Kenya O
 ku O
 butegetsi O
 bwa O
@@ -18079,24 +18079,24 @@ Perezida O
 Habyarimana O
 . O
 
-Sendashonga O
+Sendashonga B-PER
 wari O
 umunyamuryango O
 wa O
-FPR O
-Inkotanyi O
+FPR B-ORG
+Inkotanyi I-ORG
 , O
 yavuye O
 muri O
 Guverinoma O
 mu O
-1995 O
+1995 B-DATE
 ahita O
 ajya O
 mu O
 buhungiro O
 muri O
-Kenya B-LOC
+Kenya O
 . O
 
 Aho O
@@ -18110,12 +18110,12 @@ Gicurasi O
 . O
 
 Perezida O
-Paul B-PER
-Kagame I-PER
+Paul O
+Kagame O
 aherutse O
 kuvuga O
 ko O
-Sendashonga B-PER
+Sendashonga O
 nyuma O
 yo O
 guhunga O
@@ -18139,12 +18139,12 @@ Alphonse B-PER
 Marie I-PER
 Nkubito I-PER
 
-Minisiteri B-ORG
-y’ubutabera I-ORG
+Minisiteri O
+y’ubutabera O
 yahawe O
 umunya O
 - O
-Cyangugu B-LOC
+Cyangugu O
 , O
 Alphonse O
 Marie O
@@ -18192,8 +18192,8 @@ uvuka O
 i O
 Gitarama O
 mu O
-Ntara B-LOC
-y’Amajyepfo I-LOC
+Ntara O
+y’Amajyepfo O
 ubu O
 , O
 ni O
@@ -18211,11 +18211,11 @@ ya O
 Jenoside O
 . O
 
-Rwigema O
+Rwigema B-PER
 wari O
 mu O
 ishyaka O
-MDR B-ORG
+MDR O
 , O
 yaje O
 kuva O
@@ -18263,8 +18263,8 @@ gutorerwa O
 kuba O
 umudepite O
 uhagarariye O
-u O
-Rwanda O
+u B-LOC
+Rwanda I-LOC
 mu O
 Nteko O
 Ishinga O
@@ -18274,7 +18274,7 @@ wa O
 Afurika O
 y’Iburasirazuba O
 ( O
-EALA O
+EALA B-ORG
 ) O
 ari O
 nawo O
@@ -18293,7 +18293,7 @@ Joseph B-PER
 Nsengimana I-PER
 
 Dr O
-Nsengimana B-PER
+Nsengimana O
 ni O
 we O
 wagizwe O
@@ -18307,9 +18307,9 @@ Uyu O
 mugabo O
 wavukiye O
 i O
-Busogo O
+Busogo B-LOC
 muri O
-Musanze O
+Musanze B-LOC
 yashyizwe O
 kuri O
 uyu O
@@ -18332,9 +18332,9 @@ muri O
 Kaminuza O
 zirimo O
 iy’u O
-Rwanda O
+Rwanda B-LOC
 n’iya O
-Lubumbashi B-LOC
+Lubumbashi O
 . O
 
 Nyuma O
@@ -18364,8 +18364,8 @@ umujyanama O
 wihariye O
 wa O
 Perezida O
-Paul O
-Kagame O
+Paul B-PER
+Kagame I-PER
 . O
 
 Guhera O
@@ -18384,8 +18384,8 @@ mu O
 ubwo O
 yari O
 ahagarariye O
-u B-LOC
-Rwanda I-LOC
+u O
+Rwanda O
 muri O
 Ethiopia O
 no O
@@ -18401,7 +18401,7 @@ Ubu O
 Nsengimana O
 aba O
 mu O
-Rwanda O
+Rwanda B-LOC
 aho O
 akorera O
 imirimo O
@@ -18431,7 +18431,7 @@ Gitarama B-LOC
 wo O
 mu O
 ishyaka O
-PSD B-ORG
+PSD O
 . O
 
 Uwo O
@@ -18479,7 +18479,7 @@ Higiro O
 , O
 umurwanashyaka O
 wa O
-PL B-ORG
+PL O
 ukomoka O
 mu O
 yahoze O
@@ -18514,15 +18514,15 @@ mu O
 matora O
 yo O
 mu O
-2010 B-DATE
+2010 O
 . O
 
-Higiro O
+Higiro B-PER
 aherutse O
 kugirwa O
 ambasaderi O
 muri O
-Canada B-LOC
+Canada O
 . O
 
 Uyu O
@@ -18535,22 +18535,22 @@ zirimo O
 kuba O
 Umunyamabanga O
 Mukuru O
-w’Ihuriro O
-ry’Inteko O
-zishinga O
-Amategeko O
-z’Umuryango O
-uhuza O
-ibihugu O
-byo O
-mu O
-Karere O
-k’Ibiyaga O
-Bigari O
+w’Ihuriro B-ORG
+ry’Inteko I-ORG
+zishinga I-ORG
+Amategeko I-ORG
+z’Umuryango I-ORG
+uhuza I-ORG
+ibihugu I-ORG
+byo I-ORG
+mu I-ORG
+Karere I-ORG
+k’Ibiyaga I-ORG
+Bigari I-ORG
 ( O
-FP O
-- O
-ICGRL O
+FP B-ORG
+- I-ORG
+ICGRL I-ORG
 ) O
 . O
 
@@ -18584,7 +18584,7 @@ wa O
 mbere O
 w’ubuzima O
 w’u O
-Rwanda B-LOC
+Rwanda O
 rwa O
 nyuma O
 ya O
@@ -18631,7 +18631,7 @@ Immaculée B-PER
 Gahima I-PER
 Kayumba I-PER
 
-Gahima B-PER
+Gahima O
 wo O
 mu O
 muryango O
@@ -18659,13 +18659,13 @@ atakivugwa O
 cyane O
 , O
 Madamu O
-Gahima B-PER
+Gahima O
 wanabaye O
 umusenateri O
 ubu O
 ari O
 mu O
-Rwanda O
+Rwanda B-LOC
 aho O
 akorera O
 imirimo O
@@ -18808,12 +18808,12 @@ ry’umugore O
 Inyumba B-PER
 Aloysia I-PER
 
-Inyumba O
+Inyumba B-PER
 wakomokaga O
 mu O
 muryango O
-FPR O
-Inkotanyi O
+FPR B-ORG
+Inkotanyi I-ORG
 ni O
 we O
 wagizwe O
@@ -18827,10 +18827,10 @@ n’umugore O
 Nk’uwaturukaga O
 mu O
 muryango O
-FPR O
-Inkotanyi O
+FPR B-ORG
+Inkotanyi I-ORG
 , O
-Inyumba O
+Inyumba B-PER
 yatangije O
 urugamba O
 rwo O
@@ -18859,9 +18859,9 @@ igihugu O
 Yitabye O
 Imana O
 tariki O
-6 O
-Ukuboza O
-2012 O
+6 B-DATE
+Ukuboza I-DATE
+2012 I-DATE
 azize O
 uburwayi O
 . O
@@ -18904,7 +18904,7 @@ Jenoside O
 . O
 
 Muri O
-2003 B-DATE
+2003 O
 yatorewe O
 kuba O
 umuyobozi O
@@ -18913,18 +18913,18 @@ muri O
 Komisiyo O
 y’Akanama O
 ka O
-Afurika B-ORG
-yunze I-ORG
-Ubumwe I-ORG
+Afurika O
+yunze O
+Ubumwe O
 . O
 
 Yitabye O
 Imana O
 ku O
 wa O
-25 B-DATE
-Mutarama I-DATE
-2018 I-DATE
+25 O
+Mutarama O
+2018 O
 azize O
 uburwayi O
 . O
@@ -18955,7 +18955,7 @@ ku O
 Gikongoro B-LOC
 , O
 mu O
-2001 B-DATE
+2001 O
 afatanyije O
 na O
 Pasteur B-PER
@@ -18981,7 +18981,7 @@ kimwe O
 na O
 Bizimungu B-PER
 mu O
-2002 O
+2002 B-DATE
 , O
 ahamywa O
 ibyaha O
@@ -19004,7 +19004,7 @@ icumi O
 , O
 ayirangiza O
 mu O
-2012 O
+2012 B-DATE
 . O
 
 Ubu O
@@ -19039,11 +19039,11 @@ guverinoma O
 yaguye O
 y’inzibacyuho O
 yatangajwe O
-ku O
-wa O
-19 O
-Nyakanga O
-1994 O
+ku B-DATE
+wa I-DATE
+19 I-DATE
+Nyakanga I-DATE
+1994 I-DATE
 , O
 yari O
 iyobowe O
@@ -19109,10 +19109,10 @@ Werurwe O
 , O
 yitabye O
 Imana O
-kuwa O
-13 O
-Kanama O
-2014 O
+kuwa B-DATE
+13 I-DATE
+Kanama I-DATE
+2014 I-DATE
 . O
 
 Minisitiri O
@@ -19125,7 +19125,7 @@ Dr O
 Iyamuremye B-PER
 Augustin I-PER
 
-Iyamuremye O
+Iyamuremye B-PER
 wo O
 mu O
 ishyaka O
@@ -19196,7 +19196,7 @@ mu O
 
 Kuri O
 ubu O
-Iyamuremye B-PER
+Iyamuremye O
 ni O
 umuyobozi O
 w’Urwego O
@@ -19213,7 +19213,7 @@ Jean I-PER
 - I-PER
 Berchmas I-PER
 
-Birara O
+Birara B-PER
 yagizwe O
 Minisitiri O
 tariki O
@@ -19258,7 +19258,7 @@ aba O
 mu O
 Mujyi O
 wa O
-Kigali O
+Kigali B-LOC
 . O
 
 Minisitiri O
@@ -19371,7 +19371,7 @@ Umudepite O
 akaba O
 n’Umuyobozi O
 w’ishyaka O
-Envol O
+Envol B-ORG
 muri O
 Repubulika O
 Iharanira O
@@ -19385,8 +19385,47 @@ Sesanga O
 yamaganye O
 igitekerezo O
 cy’umunyapolitiki O
-Adolphe B-PER
-Muzito I-PER
+Adolphe O
+Muzito O
+uherutse O
+gusaba O
+ko O
+igihugu O
+cye O
+gitera O
+u B-LOC
+Rwanda I-LOC
+rukomekwa O
+kuri O
+RDC O
+kugira O
+ngo O
+amahoro O
+aboneke O
+mu O
+Burasirazuba O
+. O
+
+Umudepite O
+akaba O
+n’Umuyobozi O
+w’ishyaka O
+Envol B-ORG
+muri O
+Repubulika O
+Iharanira O
+Demokarasi O
+ya O
+Congo O
+, O
+Delly O
+Sesanga O
+, O
+yamaganye O
+igitekerezo O
+cy’umunyapolitiki O
+Adolphe O
+Muzito O
 uherutse O
 gusaba O
 ko O
@@ -19404,45 +19443,6 @@ amahoro O
 aboneke O
 mu O
 Burasirazuba O
-. O
-
-Umudepite O
-akaba O
-n’Umuyobozi O
-w’ishyaka O
-Envol O
-muri O
-Repubulika B-LOC
-Iharanira I-LOC
-Demokarasi I-LOC
-ya I-LOC
-Congo I-LOC
-, O
-Delly O
-Sesanga O
-, O
-yamaganye O
-igitekerezo O
-cy’umunyapolitiki O
-Adolphe B-PER
-Muzito I-PER
-uherutse O
-gusaba O
-ko O
-igihugu O
-cye O
-gitera O
-u B-LOC
-Rwanda I-LOC
-rukomekwa O
-kuri O
-RDC O
-kugira O
-ngo O
-amahoro O
-aboneke O
-mu O
-Burasirazuba B-LOC
 . O
 
 Amagambo O
@@ -19474,9 +19474,9 @@ barimo O
 Moise O
 Katumbi O
 na O
-Jean B-PER
-Pierre I-PER
-Bemba I-PER
+Jean O
+Pierre O
+Bemba O
 . O
 
 Kuri O
@@ -19505,7 +19505,7 @@ amahoro O
 mu O
 Burasirazuba O
 bwa O
-Congo B-LOC
+Congo O
 azaturuka O
 mu O
 gutera O
@@ -19516,7 +19516,7 @@ bakarwiyomekaho O
 
 Umuyobozi O
 wa O
-Envol O
+Envol B-ORG
 akaba O
 n’Umudepite O
 mu O
@@ -19524,7 +19524,7 @@ Nteko B-ORG
 Ishinga I-ORG
 Amategeko I-ORG
 ya O
-Congo B-LOC
+Congo O
 , O
 Sesanga O
 yamaganye O
@@ -19536,11 +19536,11 @@ avuga O
 ko O
 amahoro O
 ya O
-Congo B-LOC
+Congo O
 azaturuka O
 imbere O
 muri O
-Congo O
+Congo B-LOC
 . O
 
 Yagize O
@@ -19608,7 +19608,7 @@ Ati O
 “ O
 Abanye O
 - O
-Congo B-LOC
+Congo O
 bazi O
 kurwana O
 , O
@@ -19668,7 +19668,7 @@ w’igenamigambi O
 
 Musenyeri O
 wa O
-Kinshasa O
+Kinshasa B-LOC
 , O
 Fridolin O
 Ambongo O
@@ -19683,8 +19683,8 @@ bituranye O
 na O
 Congo O
 birimo O
-u O
-Rwanda O
+u B-LOC
+Rwanda I-LOC
 bifite O
 umugambi O
 wo O
@@ -19717,8 +19717,8 @@ w’Ububanyi O
 n’Amahanga O
 , O
 Dr O
-Vincent B-PER
-Biruta I-PER
+Vincent O
+Biruta O
 , O
 aherutse O
 kuvuga O
@@ -19728,9 +19728,9 @@ z’abanyapolitiki O
 bamwe O
 bo O
 muri O
-RDC O
+RDC B-LOC
 ku O
-Rwanda O
+Rwanda B-LOC
 zibabaje O
 kuko O
 ahanini O
@@ -19790,8 +19790,8 @@ ari O
 uko O
 bavuga O
 nabi O
-u O
-Rwanda O
+u B-LOC
+Rwanda I-LOC
 . O
 
 Dr O
@@ -19817,7 +19817,7 @@ ubaho O
 U O
 Rwanda O
 na O
-RDC O
+RDC B-LOC
 bifitanye O
 umubano O
 mwiza O
@@ -19825,8 +19825,8 @@ cyane O
 cyane O
 nyuma O
 y’aho O
-Félix B-PER
-Tshisekedi I-PER
+Félix O
+Tshisekedi O
 atorewe O
 kuyobora O
 icyo O
@@ -19844,15 +19844,15 @@ by’ibituranyi O
 . O
 
 Minisitiri O
-Mateke O
+Mateke B-PER
 wa O
-Uganda O
+Uganda B-LOC
 yahishuye O
 ko O
 atemeranya O
 n’amasezerano O
 n’u O
-Rwanda B-LOC
+Rwanda O
 n’umugambi O
 mushya O
 barufiteho O
@@ -19866,9 +19866,64 @@ hatekerezwa O
 ko O
 umubano O
 w’u O
+Rwanda B-LOC
+na O
+Uganda B-LOC
+waba O
+utangiye O
+kugana O
+mu O
+cyerekezo O
+kizima O
+nyuma O
+y’irekurwa O
+ry’abanyarwanda O
+icyenda O
+bari O
+bafungiweyo O
+binyuranyije O
+n’amategeko O
+, O
+ibintu O
+byabaye O
+nk’ibisubira O
+i O
+Rudubi O
+ubwo O
+Umunyamabanga O
+wa O
+Leta O
+Ushinzwe O
+ubutwererane O
+n’akarere O
+, O
+Philemon O
+Mateke O
+, O
+yavugaga O
+uburyo O
+atemera O
+amasezerano O
+yasinywe O
+hagati O
+ya O
+Uganda O
+n’u O
+Rwanda B-LOC
+. O
+
+Mu O
+gihe O
+hashize O
+iminsi O
+mike O
+hatekerezwa O
+ko O
+umubano O
+w’u O
 Rwanda O
 na O
-Uganda O
+Uganda B-LOC
 waba O
 utangiye O
 kugana O
@@ -19912,61 +19967,6 @@ n’u O
 Rwanda B-LOC
 . O
 
-Mu O
-gihe O
-hashize O
-iminsi O
-mike O
-hatekerezwa O
-ko O
-umubano O
-w’u O
-Rwanda B-LOC
-na O
-Uganda O
-waba O
-utangiye O
-kugana O
-mu O
-cyerekezo O
-kizima O
-nyuma O
-y’irekurwa O
-ry’abanyarwanda O
-icyenda O
-bari O
-bafungiweyo O
-binyuranyije O
-n’amategeko O
-, O
-ibintu O
-byabaye O
-nk’ibisubira O
-i O
-Rudubi O
-ubwo O
-Umunyamabanga O
-wa O
-Leta O
-Ushinzwe O
-ubutwererane O
-n’akarere O
-, O
-Philemon O
-Mateke O
-, O
-yavugaga O
-uburyo O
-atemera O
-amasezerano O
-yasinywe O
-hagati O
-ya O
-Uganda O
-n’u O
-Rwanda B-LOC
-. O
-
 Ni O
 amasezerano O
 yasinyiwe O
@@ -19974,18 +19974,18 @@ i O
 Luanda O
 muri O
 Angola O
-ku O
-wa O
-21 O
-Kanama O
-2019 O
+ku B-DATE
+wa I-DATE
+21 I-DATE
+Kanama I-DATE
+2019 I-DATE
 , O
 agamije O
 gushakira O
 umuti O
 ibibazo O
-u B-LOC
-Rwanda I-LOC
+u O
+Rwanda O
 rwashinjaga O
 icyo O
 gihugu O
@@ -20016,9 +20016,9 @@ yanditse O
 kuri O
 Twitter O
 kuri O
-uyu B-DATE
-wa I-DATE
-Kane I-DATE
+uyu O
+wa O
+Kane O
 , O
 Mateke O
 yahishuye O
@@ -20031,7 +20031,7 @@ atemeraga O
 amasezerano O
 basinyanye O
 n’u O
-Rwanda B-LOC
+Rwanda O
 agamije O
 guhosha O
 umwuka O
@@ -20075,9 +20075,9 @@ Kugarura O
 amahoro O
 ntibyakunze O
 kuri O
-Chamberlain B-PER
+Chamberlain O
 mu O
-1938 B-DATE
+1938 O
 , O
 ntabwo O
 natwe O
@@ -20177,7 +20177,7 @@ January B-DATE
 
 Aha O
 mu O
-1938 B-DATE
+1938 O
 yashakaga O
 kuvuga O
 ku O
@@ -20205,13 +20205,13 @@ Budage O
 bwari O
 buyobowe O
 na O
-Adolf O
-Hitler O
+Adolf B-PER
+Hitler I-PER
 kwiyomekaho O
 ibice O
 bimwe O
 bya O
-Czechoslovakia B-LOC
+Czechoslovakia O
 , O
 mu O
 buryo O
@@ -20220,11 +20220,11 @@ kwirinda O
 intambara O
 . O
 
-Hitler B-PER
+Hitler O
 yasabaga O
 igice O
 cya O
-Sudetenland O
+Sudetenland B-LOC
 , O
 Neville O
 Chamberlain O
@@ -20232,7 +20232,7 @@ wari O
 Minisitiri O
 w’Intebe O
 w’u O
-Bwongereza O
+Bwongereza B-LOC
 afata O
 iya O
 mbere O
@@ -20248,12 +20248,12 @@ na O
 Benito O
 Mussolini O
 wayoboraga O
-u B-LOC
-Butaliyani I-LOC
+u O
+Butaliyani O
 , O
 bahurira O
 i O
-Munich O
+Munich B-LOC
 na O
 Hitler O
 , O
@@ -20261,7 +20261,7 @@ bemeranya O
 ko O
 agace O
 ka O
-Sudetenland O
+Sudetenland B-LOC
 komekwa O
 k’u O
 Budage O
@@ -20276,14 +20276,14 @@ amahoro O
 Nyuma O
 y’amezi O
 atanu O
-Hitler O
+Hitler B-PER
 yarenze O
 ku O
 byemeranyijweho O
 agaba O
 igitero O
 kuri O
-Czechoslovakia O
+Czechoslovakia B-LOC
 yose O
 arayifata O
 . O
@@ -20363,9 +20363,9 @@ Ruth O
 Nankabirwa O
 , O
 kuri O
-uyu B-DATE
-wa I-DATE
-Gatatu I-DATE
+uyu O
+wa O
+Gatatu O
 wabwiye O
 bagenzi O
 be O
@@ -20444,7 +20444,7 @@ w’Inteko B-ORG
 Ishinga I-ORG
 Amategeko I-ORG
 ya O
-Uganda B-LOC
+Uganda O
 , O
 Rebecca O
 Kadaga O
@@ -20490,11 +20490,11 @@ buzima O
 Gusa O
 imvugo O
 ya O
-Mateke O
+Mateke B-PER
 yamaganywe O
 n’umudepite O
 wa O
-Uganda B-LOC
+Uganda O
 mu O
 Nteko B-ORG
 Ishinga I-ORG
@@ -20550,7 +20550,7 @@ ariko O
 twe O
 Abanya O
 - O
-Uganda O
+Uganda B-LOC
 turi O
 maso O
 """" O
@@ -20628,15 +20628,15 @@ Umunyamabanga O
 wa O
 Leta O
 muri O
-Minisiteri O
-y’Ububanyi O
-n’Amahanga O
-y’u O
-Rwanda O
+Minisiteri B-ORG
+y’Ububanyi I-ORG
+n’Amahanga I-ORG
+y’u I-ORG
+Rwanda I-ORG
 , O
 Amb O
-Olivier B-PER
-Nduhungirehe I-PER
+Olivier O
+Nduhungirehe O
 , O
 yasubije O
 Mateke O
@@ -20743,7 +20743,7 @@ Olivier B-PER
 J O
 . O
 
-Nduhungirehe O
+Nduhungirehe B-PER
 ( O
 @ O
 onduhungirehe O
@@ -20761,13 +20761,13 @@ intumwa O
 z’u O
 Rwanda O
 na O
-Uganda O
+Uganda B-LOC
 mu O
 Ukuboza O
 2019 O
 , O
-u O
-Rwanda O
+u B-LOC
+Rwanda I-LOC
 rwagaragaje O
 uburyo O
 Mateke B-PER
@@ -20799,7 +20799,7 @@ imitwe O
 yitwaje O
 intwaro O
 , O
-Nduhungirehe O
+Nduhungirehe B-PER
 yatanze O
 urugero O
 rw’igitero O
@@ -20816,11 +20816,11 @@ aho O
 abarwanyi O
 b’umutwe O
 wa O
-RUD B-ORG
-Urunana I-ORG
+RUD O
+Urunana O
 bateye O
 mu O
-Kinigi O
+Kinigi B-LOC
 . O
 
 Mu O
@@ -20841,7 +20841,7 @@ n’abafashwe O
 byagaragaje O
 uruhare O
 rwa O
-Uganda B-LOC
+Uganda O
 muri O
 iki O
 gitero O
@@ -20860,8 +20860,8 @@ icyo O
 gitero O
 ari O
 uwitwa O
-Philemon B-PER
-Mateke I-PER
+Philemon O
+Mateke O
 akaba O
 Umunyamabanga O
 wa O
@@ -20892,8 +20892,8 @@ ushinzwe O
 ibikorwa O
 byihariye O
 muri O
-RUD O
-Urunana O
+RUD B-ORG
+Urunana I-ORG
 , O
 atuye O
 hariya O
@@ -20909,8 +20909,8 @@ ko O
 akunda O
 kujya O
 muri O
-Kivu B-LOC
-y’Amajyaruguru I-LOC
+Kivu O
+y’Amajyaruguru O
 ahitwa O
 Benza B-LOC
 gutegura O
@@ -20922,8 +20922,8 @@ wakoranaga O
 bya O
 hafi O
 na O
-Philemon B-PER
-Mateke I-PER
+Philemon O
+Mateke O
 . O
 
 Urwo O
@@ -20947,7 +20947,7 @@ abaturwanya O
 Si O
 ubwa O
 mbere O
-Mateke O
+Mateke B-PER
 avuzwe O
 mu O
 bikorwa O
@@ -20966,9 +20966,9 @@ Ukuboza O
 yakoranyaga O
 inama O
 yahuje O
-FDLR B-ORG
+FDLR O
 na O
-RNC B-ORG
+RNC O
 i O
 Kampala B-LOC
 , O
@@ -21056,11 +21056,11 @@ rukomeye O
 
 Gutsindirwa O
 i O
-Kisangani B-LOC
+Kisangani O
 byatumye O
 abaturage O
 ba O
-Uganda B-LOC
+Uganda O
 n’Inteko O
 Ishinga O
 Amategeko O
@@ -21079,8 +21079,8 @@ he O
 Muri O
 kwa O
 gusuzugura O
-u B-LOC
-Rwanda I-LOC
+u O
+Rwanda O
 , O
 abadepite O
 barakariye O
@@ -21091,14 +21091,14 @@ no O
 kwikoma O
 Guverinoma O
 y’u O
-Rwanda O
+Rwanda B-LOC
 , O
 nk’uko O
 raporo O
 ya O
-International B-ORG
-Crisis I-ORG
-Group I-ORG
+International O
+Crisis O
+Group O
 yo O
 mu O
 2000 O
@@ -21107,7 +21107,7 @@ ibigaragaza O
 
 Icyo O
 gihe O
-Museveni O
+Museveni B-PER
 yabonye O
 ko O
 uburyo O
@@ -21128,9 +21128,9 @@ ijambo O
 ryo O
 ku O
 wa O
-30 B-DATE
-Kanama I-DATE
-1999 I-DATE
+30 O
+Kanama O
+1999 O
 , O
 Museveni O
 yabaye O
@@ -21184,10 +21184,10 @@ iminsi O
 numva O
 ni O
 uko O
-RPA O
+RPA B-ORG
 yashatse O
 kwigarurira O
-Congo O
+Congo B-LOC
 ariko O
 ko O
 turimo O
@@ -21241,7 +21241,7 @@ cyane O
 
 Igisirikare O
 cya O
-Uganda O
+Uganda B-LOC
 nticyigeze O
 cyakira O
 inshuro O
@@ -21271,7 +21271,7 @@ bagapfa O
 
 Raporo O
 ya O
-ICG O
+ICG B-ORG
 ivuga O
 ko O
 hahise O
@@ -21328,14 +21328,14 @@ wahoze O
 nyuma O
 y’ibyabereye O
 i O
-Kisangani B-LOC
+Kisangani O
 . O
 
 Nyuma O
 y’imyaka O
 myinshi O
 , O
-Uganda O
+Uganda B-LOC
 ikomeje O
 gushotora O
 u B-LOC
@@ -21390,7 +21390,7 @@ rwa O
 Minisitiri O
 Mateke O
 wa O
-Uganda O
+Uganda B-LOC
 mu O
 gitero O
 cyagabwe O
@@ -21400,7 +21400,7 @@ Kinigi B-LOC
 Raporo O
 yo O
 mu O
-2000 O
+2000 B-DATE
 : O
 Uko O
 impuguke O
@@ -21423,7 +21423,7 @@ hagati O
 ya O
 Uganda B-LOC
 n’u O
-Rwanda O
+Rwanda B-LOC
 ; O
 Yaba O
 koko O
@@ -21432,7 +21432,7 @@ akomeje O
 
 Imvugo O
 ya O
-Museveni B-PER
+Museveni O
 yo O
 gushyira O
 iherezo O
@@ -21442,12 +21442,12 @@ biri O
 mu O
 mubano O
 n’u O
-Rwanda B-LOC
+Rwanda O
 niyo O
 yasorejeho O
 umwaka O
 wa O
-2019 O
+2019 B-DATE
 , O
 gusa O
 usesenguye O
@@ -21459,7 +21459,7 @@ n’ugushidikanya O
 
 Imvugo O
 ya O
-Museveni O
+Museveni B-PER
 yo O
 gushyira O
 iherezo O
@@ -21525,11 +21525,11 @@ byashingirwa O
 ku O
 magambo O
 ya O
-Museveni B-PER
+Museveni O
 asoza O
 umwaka O
 wa O
-2019 B-DATE
+2019 O
 . O
 
 Mu O
@@ -21539,7 +21539,7 @@ ku O
 rukuta O
 rwe O
 rwa O
-Twitter B-ORG
+Twitter O
 mbere O
 y’uko O
 twinjira O
@@ -21565,14 +21565,14 @@ afite O
 ubutumwa O
 bugenewe O
 Perezida O
-Kagame B-PER
+Kagame O
 ku O
 mubano O
 w’ibihugu O
 byombi O
 . O
 
-Museveni B-PER
+Museveni O
 yavuze O
 ko O
 Ayebare O
@@ -21625,7 +21625,7 @@ mubi O
 
 Ndabizeza O
 ko O
-Uganda B-LOC
+Uganda O
 izakora O
 ibyo O
 isabwa O
@@ -21652,8 +21652,8 @@ Uganda O
 . O
 
 Ambasaderi O
-Adonia B-PER
-Ayebare I-PER
+Adonia O
+Ayebare O
 wakiriwe O
 muri O
 Village O
@@ -21689,7 +21689,7 @@ bwanyujijwe O
 ku O
 rukuta O
 rwa O
-Twitter O
+Twitter B-ORG
 rw’Ibiro O
 by’Umukuru O
 w’Igihugu O
@@ -21697,7 +21697,7 @@ bwavugaga O
 ko O
 ubutumwa O
 Ambasaderi O
-Ayebare B-PER
+Ayebare O
 yari O
 afite O
 , O
@@ -21727,7 +21727,7 @@ wa O
 Kabiri O
 , O
 Perezida O
-Kagame O
+Kagame B-PER
 yavuze O
 ko O
 iyo O
@@ -21813,7 +21813,7 @@ kuganira O
 
 Ubutumwa O
 bwa O
-Museveni O
+Museveni B-PER
 ku O
 kibazo O
 cya O
@@ -21912,9 +21912,9 @@ igamije O
 guhungabanya O
 umutekano O
 w’u O
-Rwanda B-LOC
+Rwanda O
 irimo O
-RNC O
+RNC B-ORG
 na O
 FDLR O
 ndetse O
@@ -21932,9 +21932,9 @@ nibyo O
 byatumye O
 intumwa O
 z’u O
-Rwanda B-LOC
+Rwanda O
 na O
-Uganda O
+Uganda B-LOC
 zinanirwa O
 kumvikana O
 mu O
@@ -21942,7 +21942,7 @@ biganiro O
 biheruka O
 kubera O
 i O
-Kampala O
+Kampala B-LOC
 . O
 
 Mu O
@@ -22007,7 +22007,7 @@ imbere O
 mu O
 gihugu O
 , O
-ISO B-ORG
+ISO O
 . O
 
 Red O
@@ -22027,8 +22027,8 @@ mu O
 binyamakuru O
 byakunze O
 gusiga O
-u B-LOC
-Rwanda I-LOC
+u O
+Rwanda O
 icyasha O
 no O
 guha O
@@ -22059,7 +22059,7 @@ Subwanone O
 umunyarwanda O
 uba O
 muri O
-Uganda O
+Uganda B-LOC
 aho O
 acuruza O
 ibyuma O
@@ -22091,7 +22091,7 @@ kuri O
 Ikigaragaza O
 umugambi O
 wa O
-Uganda B-LOC
+Uganda O
 udahinduka O
 ni O
 uko O
@@ -22118,7 +22118,7 @@ buryo O
 bunyuranyije O
 n’amategeko O
 na O
-ISO B-ORG
+ISO O
 mu O
 nzu O
 zayo O
@@ -22136,14 +22136,14 @@ cy’igituranyi O
 . O
 
 Perezida O
-Kagame O
+Kagame B-PER
 mu O
 kiganiro O
 yagiranye O
 na O
-Televiziyo O
-y’u O
-Rwanda O
+Televiziyo B-ORG
+y’u I-ORG
+Rwanda I-ORG
 , O
 yavuze O
 ko O
@@ -22223,7 +22223,7 @@ biberaho O
 nk’uko O
 abanya O
 - O
-Uganda B-LOC
+Uganda O
 benshi O
 bari O
 hano O
@@ -22233,8 +22233,8 @@ Perezida O
 Kagame O
 yavuze O
 ko O
-u O
-Rwanda O
+u B-LOC
+Rwanda I-LOC
 rutigeze O
 rukora O
 nk’umuturanyi O
@@ -22244,7 +22244,7 @@ rutangire O
 ruhige O
 abaturage O
 ba O
-Uganda B-LOC
+Uganda O
 . O
 
 Ibimenyetso O
@@ -22297,7 +22297,7 @@ Abanyarwanda O
 ku O
 kujya O
 muri O
-Uganda B-LOC
+Uganda O
 – O
 Min O
 . O
@@ -22306,15 +22306,15 @@ Umunyamabanga O
 wa O
 Leta O
 muri O
-Minisiteri B-ORG
-y’Ububanyi I-ORG
-n’Amahanga I-ORG
+Minisiteri O
+y’Ububanyi O
+n’Amahanga O
 , O
 Amb O
 . O
 
-Nduhungirehe O
-Olivier O
+Nduhungirehe B-PER
+Olivier I-PER
 , O
 yanyomoje O
 amakuru O
@@ -22374,7 +22374,7 @@ barwo O
 bashaka O
 kujye O
 muri O
-Uganda O
+Uganda B-LOC
 , O
 ashimangira O
 ko O
@@ -22396,11 +22396,11 @@ Ibi O
 Nduhungirehe O
 yabitangaje O
 kuri O
-uyu B-DATE
-wa I-DATE
-3 I-DATE
-Mutarama I-DATE
-2020 I-DATE
+uyu O
+wa O
+3 O
+Mutarama O
+2020 O
 yifashishije O
 Twitter O
 , O
@@ -22425,7 +22425,7 @@ ku O
 mupaka O
 bajya O
 muri O
-Uganda’ O
+Uganda’ B-LOC
 . O
 
 Ati O
@@ -22456,7 +22456,7 @@ barwo O
 bifuza O
 kujya O
 muri O
-Uganda B-LOC
+Uganda O
 ntiwahindutse O
 . O
 
@@ -22466,14 +22466,14 @@ cyigeze O
 gihinduka O
 guhera O
 muri O
-Gashyantare O
-2019 O
+Gashyantare B-DATE
+2019 I-DATE
 . O
 
 Ayo O
 makuru O
-Chimp B-ORG
-reports I-ORG
+Chimp O
+reports O
 yayatangaje O
 ivuga O
 ko O
@@ -22484,7 +22484,7 @@ bagiye O
 bambuka O
 bakajya O
 muri O
-Uganda B-LOC
+Uganda O
 , O
 babanje O
 “ O
@@ -22497,8 +22497,8 @@ Muri O
 Gashyantare O
 2019 O
 nibwo O
-u O
-Rwanda O
+u B-LOC
+Rwanda I-LOC
 rwafashe O
 umwanzuro O
 wo O
@@ -22506,7 +22506,7 @@ gusaba O
 abanyarwanda O
 kutajya O
 muri O
-Uganda B-LOC
+Uganda O
 kubera O
 umutekano O
 wabo O
@@ -22541,7 +22541,7 @@ yasozaga O
 umwaka O
 ushize O
 wa O
-2019 O
+2019 B-DATE
 , O
 yavuze O
 ko O
@@ -22594,9 +22594,9 @@ ku B-DATE
 Cyumweru I-DATE
 tariki O
 ya O
-29 B-DATE
-Ukuboza I-DATE
-2019 I-DATE
+29 O
+Ukuboza O
+2019 O
 afite O
 ubutumwa O
 bugenewe O
@@ -22614,7 +22614,7 @@ ko O
 Ayebare O
 na O
 Perezida O
-Kagame O
+Kagame B-PER
 bagiranye O
 ibiganiro O
 byiza O
@@ -22684,7 +22684,7 @@ bacu O
 b’abanyarwanda O
 n’abaturage O
 ba O
-Uganda B-LOC
+Uganda O
 . O
 
 Ku B-DATE
@@ -22692,14 +22692,14 @@ wa I-DATE
 31 I-DATE
 Ukuboza I-DATE
 Perezida O
-Kagame O
+Kagame B-PER
 yavuze O
 ko O
 iyo O
 ntumwa O
 yari O
 i O
-Kigali O
+Kigali B-LOC
 mu O
 bikorwa O
 bimaze O
@@ -22784,8 +22784,8 @@ y’amahoro O
 ya O
 Luanda O
 mu O
-mwaka B-DATE
-ushize I-DATE
+mwaka O
+ushize O
 , O
 abanyarwanda O
 baketse O
@@ -22832,7 +22832,7 @@ bagizwe O
 intere O
 . O
 
-Uganda O
+Uganda B-LOC
 kandi O
 ntiyahagaritse O
 umubano O
@@ -22846,14 +22846,14 @@ Rwanda O
 irimo O
 RNC O
 na O
-FDLR B-ORG
+FDLR O
 ndetse O
 irinangira O
 ubwo O
 yasabwaga O
 kubahiriza O
 amasezerano O
-Museveni O
+Museveni B-PER
 yasinye O
 . O
 
@@ -22862,9 +22862,9 @@ nibyo O
 byatumye O
 intumwa O
 z’u O
-Rwanda B-LOC
+Rwanda O
 na O
-Uganda O
+Uganda B-LOC
 zinanirwa O
 kumvikana O
 mu O
@@ -22885,9 +22885,9 @@ w’umukobwa O
 Ubushinjacyaha O
 bwo O
 muri O
-Leta O
-ya O
-Minnesota O
+Leta B-LOC
+ya I-LOC
+Minnesota I-LOC
 bukurikiranye O
 umuhanzi O
 R O
@@ -22933,15 +22933,15 @@ Karere O
 ka O
 Hennepin O
 , O
-Mike O
-Freeman O
+Mike B-PER
+Freeman I-PER
 niwe O
 watangaje O
 ibyaha O
 bishinjwa O
-Robert B-PER
-Sylvester I-PER
-Kelly I-PER
+Robert O
+Sylvester O
+Kelly O
 w’imyaka O
 50 O
 . O
@@ -22953,7 +22953,7 @@ ibyo O
 R O
 . O
 
-Kelly B-PER
+Kelly O
 ashinjwa O
 byabaye O
 muri O
@@ -22977,7 +22977,7 @@ autograph O
 ] O
 . O
 
-Kelly B-PER
+Kelly O
 ngo O
 yasinyiye O
 uyu O
@@ -23090,9 +23090,9 @@ yagannye O
 inzego O
 z’ubutabera O
 muri O
-Mutarama B-DATE
-uyu I-DATE
-mwaka I-DATE
+Mutarama O
+uyu O
+mwaka O
 , O
 ubwo O
 ibindi O
@@ -23107,8 +23107,8 @@ R O
 Umuvugizi O
 w’ubushinjacyaha O
 , O
-Mike B-PER
-Freeman I-PER
+Mike O
+Freeman O
 yavuze O
 ko O
 bibabaje O
@@ -23127,8 +23127,8 @@ b’abakobwa O
 Ntabwo O
 haramenyekana O
 igihe O
-R B-PER
-Kelly I-PER
+R O
+Kelly O
 azagerezwa O
 imbere O
 y’urukiko O
@@ -23254,9 +23254,9 @@ yashinjwaga O
 n’ubushinjacyaha O
 bwo O
 muri O
-Leta O
-ya O
-Illinois O
+Leta B-LOC
+ya I-LOC
+Illinois I-LOC
 arafungwa O
 aza O
 kurekurwa O
@@ -23273,15 +23273,15 @@ ubu O
 R O
 . O
 
-Kelly B-PER
+Kelly O
 azitaba O
 urukiko O
 rwo O
 muri O
-Chicago O
+Chicago B-LOC
 tariki O
-4 O
-Nzeri O
+4 B-DATE
+Nzeri I-DATE
 aho O
 azaburana O
 ku O
@@ -23298,7 +23298,7 @@ bataruzuza O
 imyaka O
 y’ubukure O
 mu O
-1998 B-DATE
+1998 O
 . O
 
 Abagore O
@@ -23371,14 +23371,14 @@ kibazo O
 cy’icuruzwa O
 ry’abantu O
 mu O
-Rwanda B-LOC
+Rwanda O
 bwamuritswe O
 kuri O
 uyu O
 wa O
-19 O
-Nyakanga O
-2019 O
+19 B-DATE
+Nyakanga I-DATE
+2019 I-DATE
 , O
 bwakozwe O
 n’ O
@@ -23386,11 +23386,11 @@ Umuryango O
 Never O
 Again O
 Rwanda O
-hagati O
-ya O
-2017 O
-na O
-2018 O
+hagati B-DATE
+ya I-DATE
+2017 I-DATE
+na I-DATE
+2018 I-DATE
 . O
 
 Imibare O
@@ -23493,7 +23493,7 @@ ari O
 Ku O
 ruhanda O
 rw’u O
-Rwanda B-LOC
+Rwanda O
 , O
 ubu O
 bushakashatsi O
@@ -23545,15 +23545,15 @@ nko O
 mu O
 Turere O
 twa O
-Rusizi B-LOC
+Rusizi O
 , O
-Burera B-LOC
+Burera O
 , O
-Nyagatare O
+Nyagatare B-LOC
 , O
 Rubavu O
 , O
-Gicumbi O
+Gicumbi B-LOC
 na O
 Kirehe O
 . O
@@ -23596,22 +23596,22 @@ Tanzania O
 , O
 Malawi O
 , O
-Afurika O
-y’Epfo O
+Afurika B-LOC
+y’Epfo I-LOC
 , O
-Zambia O
+Zambia B-LOC
 , O
 Malaysia O
 , O
-Omar O
+Omar B-LOC
 , O
-Qatar O
+Qatar B-LOC
 , O
-Kuwait O
-Leta O
-Zunze O
-Ubumwe O
-z’Abarabu O
+Kuwait B-LOC
+Leta I-LOC
+Zunze I-LOC
+Ubumwe I-LOC
+z’Abarabu I-LOC
 n’ahandi O
 . O
 
@@ -23725,8 +23725,8 @@ n’abasohoka O
 Urwego O
 rw’Ubugenzacyaha O
 , O
-Polisi O
-n’urw’Ubutabera O
+Polisi B-ORG
+n’urw’Ubutabera I-ORG
 , O
 kuko O
 kugira O
@@ -23774,8 +23774,8 @@ muri O
 Minisiteri B-ORG
 y’Ubutabera I-ORG
 , O
-Umurungi O
-Providence O
+Umurungi B-PER
+Providence I-PER
 , O
 yavuze O
 ko O
@@ -23838,7 +23838,7 @@ ryita O
 ku O
 murimo O
 ( O
-ILO O
+ILO B-ORG
 ) O
 riheruka O
 kugaragaza O
@@ -23860,7 +23860,7 @@ mu O
 bucuruzi O
 bw’abantu O
 mu O
-2017 B-DATE
+2017 O
 . O
 
 Umuzimu O
@@ -23871,7 +23871,7 @@ Rwanda O
 uzorohera O
 Twagiramungu O
 na O
-Rusesabagina O
+Rusesabagina B-PER
 bihuje O
 ? O
 
@@ -23881,7 +23881,7 @@ rumwe O
 na O
 Leta O
 y’u O
-Rwanda O
+Rwanda B-LOC
 , O
 Faustin O
 Twagiramungu O
@@ -23890,7 +23890,7 @@ yihuje O
 ku O
 mugaragaro O
 n’Ihuriro O
-MRCD B-ORG
+MRCD O
 , O
 riyobowe O
 na O
@@ -23907,7 +23907,7 @@ mu O
 kurwanya O
 ubutegetsi O
 bw’u O
-Rwanda B-LOC
+Rwanda O
 , O
 hakoreshejwe O
 inzira O
@@ -23920,10 +23920,10 @@ rumwe O
 na O
 Leta O
 y’u O
-Rwanda B-LOC
+Rwanda O
 , O
-Faustin B-PER
-Twagiramungu I-PER
+Faustin O
+Twagiramungu O
 , O
 yihuje O
 ku O
@@ -23956,9 +23956,9 @@ zose O
 Amasezerano O
 hagati O
 y’ishyaka O
-RDI B-ORG
-Rwanda I-ORG
-Rwiza I-ORG
+RDI O
+Rwanda O
+Rwiza O
 , O
 rya O
 Twagiramungu B-PER
@@ -23990,7 +23990,7 @@ Irategeka B-PER
 Wilson I-PER
 wiyomoye O
 kuri O
-FDLR O
+FDLR B-ORG
 , O
 yasinywe O
 kuri O
@@ -24000,13 +24000,13 @@ Kabiri O
 i O
 Bruxelles B-LOC
 mu O
-Bubiligi O
+Bubiligi B-LOC
 . O
 
 MRCD O
 niyo O
-Nsabimana O
-‘Sankara’ O
+Nsabimana B-PER
+‘Sankara’ I-PER
 , O
 yari O
 abereye O
@@ -24023,7 +24023,7 @@ ishami O
 rya O
 gisirikare O
 ryitwa O
-FLN O
+FLN B-ORG
 , O
 ikaba O
 ari O
@@ -24059,13 +24059,13 @@ yumvikanye O
 ku O
 maradiyo O
 ya O
-BBC B-ORG
+BBC O
 na O
 VOA O
 , O
 n’imbuga O
 nka O
-YouTube B-ORG
+YouTube O
 yigamba O
 ibyo O
 bitero O
@@ -24077,8 +24077,8 @@ ibya O
 FLN O
 iyobowe O
 na O
-Habimana B-PER
-Hamada I-PER
+Habimana O
+Hamada O
 . O
 
 Umusesenguzi O
@@ -24099,7 +24099,7 @@ Rudatsimburwa O
 avuga O
 ko O
 kuba O
-Twagiramungu B-PER
+Twagiramungu O
 yahisemo O
 kwihuza O
 ku O
@@ -24107,7 +24107,7 @@ mugaragaro O
 n’umutwe O
 w’iterabwoba O
 , O
-MRCD B-ORG
+MRCD O
 , O
 bisobanura O
 ko O
@@ -24178,7 +24178,7 @@ gihari O
 
 Inenge O
 kuri O
-Rusesabagina B-PER
+Rusesabagina O
 na O
 Twagiramungu B-PER
 
@@ -24209,8 +24209,8 @@ Abatutsi O
 mu O
 1994 O
 , O
-Paul O
-Rusesabagina O
+Paul B-PER
+Rusesabagina I-PER
 yari O
 umuntu O
 usanzwe O
@@ -24231,9 +24231,9 @@ nyuma O
 yagiye O
 gutura O
 i O
-Bruxelles O
+Bruxelles B-LOC
 mu O
-Bubiligi B-LOC
+Bubiligi O
 na O
 Leta O
 Zunze O
@@ -24285,8 +24285,8 @@ Bush O
 wa O
 Amerika B-LOC
 mu O
-Ugushyingo O
-2005 O
+Ugushyingo B-DATE
+2005 I-DATE
 . O
 
 Rudatsimburwa B-PER
@@ -24294,7 +24294,7 @@ agaruka O
 ku O
 mateka O
 ya O
-Rusesabagina B-PER
+Rusesabagina O
 akavuga O
 ko O
 atari O
@@ -24430,7 +24430,7 @@ Umuzimu O
 wasaritse O
 abarwanya O
 u O
-Rwanda B-LOC
+Rwanda O
 bazawukira O
 ? O
 
@@ -24441,7 +24441,7 @@ abatavuga O
 rumwe O
 n’ubutegetsi O
 bw’u O
-Rwanda B-LOC
+Rwanda O
 , O
 bifatanyije O
 bagashyiraho O
@@ -24471,8 +24471,8 @@ utazi O
 uko O
 RNC O
 ya O
-Kayumba B-PER
-Nyamwasa I-PER
+Kayumba O
+Nyamwasa O
 yashwanyutse O
 . O
 
@@ -24490,7 +24490,7 @@ Nyamwasa O
 bari O
 bahuriye O
 muri O
-RNC B-ORG
+RNC O
 , O
 mbere O
 y’uko O
@@ -24511,12 +24511,12 @@ havutsemo O
 amashyaka O
 atemewe O
 mu O
-Rwanda O
+Rwanda B-LOC
 arimo O
 na O
 RRM O
 ya O
-Nsabimana B-PER
+Nsabimana O
 , O
 nayo O
 yacitsemo O
@@ -24563,7 +24563,7 @@ andi O
 makosa O
 . O
 
-Twagiramungu O
+Twagiramungu B-PER
 ubwe O
 nawe O
 yashinze O
@@ -24576,13 +24576,13 @@ Leta O
 y’u O
 Rwanda O
 ( O
-CPC B-ORG
+CPC O
 ) O
 , O
 ryari O
 rigizwe O
 na O
-FDLR B-ORG
+FDLR O
 , O
 UDR O
 , O
@@ -24871,7 +24871,7 @@ nabo O
 kubera O
 aho O
 u O
-Rwanda O
+Rwanda B-LOC
 rugeze O
 nta O
 ngaruka O
@@ -24885,7 +24885,7 @@ ryabo O
 . O
 
 U O
-Budage O
+Budage B-LOC
 ntibwakwicarana O
 n’abahoze O
 ari O
@@ -24893,13 +24893,13 @@ aba O
 - O
 Nazi B-ORG
 
-Twagiramungu O
+Twagiramungu B-PER
 n’abandi O
 bafatanyije O
 kurwanya O
 ubutegetsi O
 bw’u O
-Rwanda B-LOC
+Rwanda O
 , O
 ntibasiba O
 kumvikana O
@@ -24944,7 +24944,7 @@ bahindura O
 ku O
 cyerekezo O
 cy’u O
-Rwanda B-LOC
+Rwanda O
 , O
 bakagikora O
 . O
@@ -24962,7 +24962,7 @@ no O
 kuvuga O
 uti O
 ‘u O
-Budage B-LOC
+Budage O
 bw’iki O
 gihe O
 bukwiye O
@@ -24971,11 +24971,11 @@ n’abahoze O
 ari O
 aba O
 - O
-Nazi O
+Nazi B-ORG
 cya O
 gihe O
 cya O
-Hitler’ O
+Hitler’ B-PER
 kuko O
 abuzukuru O
 babo O
@@ -24994,7 +24994,7 @@ zibata O
 muri O
 yombi O
 , O
-Rudatsimburwa B-PER
+Rudatsimburwa O
 avuga O
 ko O
 nta O
@@ -25053,7 +25053,7 @@ iyo O
 umudepite O
 ageze O
 mu O
-Nteko O
+Nteko B-ORG
 ntatange O
 ibitekerezo O
 ? O
@@ -25113,9 +25113,9 @@ yaritoreye O
 ngo O
 amuhagararire O
 mu O
-Nteko O
-Ishinga O
-Amategeko O
+Nteko B-ORG
+Ishinga I-ORG
+Amategeko I-ORG
 atanga O
 ibitekerezo O
 by’impinduka O
@@ -25201,8 +25201,8 @@ indahiro O
 z’Abadepite O
 , O
 Perezida O
-Paul O
-Kagame O
+Paul B-PER
+Kagame I-PER
 , O
 yavuze O
 ko O
@@ -25250,7 +25250,7 @@ bafite O
 . O
 
 Mu O
-nteko O
+nteko B-ORG
 habamo O
 imirimo O
 myinshi O
@@ -25283,7 +25283,7 @@ ngingo O
 zitandukanye O
 zizanwa O
 mu O
-Nteko O
+Nteko B-ORG
 , O
 kubasura O
 n’ibindi O
@@ -25294,7 +25294,7 @@ ibihugu O
 umudepite O
 ugeze O
 mu O
-nteko B-ORG
+nteko O
 ntiyongere O
 kumvikana O
 ku O
@@ -25325,7 +25325,7 @@ rw’abadepite O
 batajya O
 bavuga O
 mu O
-Nteko O
+Nteko B-ORG
 . O
 
 Havugwaga O
@@ -25454,11 +25454,11 @@ baritangeho O
 ibitekerezo O
 . O
 
-Inteko B-ORG
-Ishinga I-ORG
-Amategeko I-ORG
-ya I-ORG
-Kenya I-ORG
+Inteko O
+Ishinga O
+Amategeko O
+ya O
+Kenya O
 yavuze O
 ko O
 70 O
@@ -25487,7 +25487,7 @@ nshingano O
 . O
 
 Mu O
-Rwanda O
+Rwanda B-LOC
 bihagaze O
 gute O
 ? O
@@ -25511,9 +25511,9 @@ Sena O
 
 Kuva O
 tariki O
-19 B-DATE
-Nzeri I-DATE
-2018 I-DATE
+19 O
+Nzeri O
+2018 O
 umutwe O
 w’abadepite O
 wabonye O
@@ -25525,13 +25525,13 @@ muri O
 manda O
 izageza O
 mu O
-2023 B-DATE
+2023 O
 , O
 naho O
 kuva O
 mu O
-Ukwakira B-DATE
-2019 I-DATE
+Ukwakira O
+2019 O
 hatowe O
 abasenateri O
 , O
@@ -25580,8 +25580,8 @@ kuvuga O
 Depite O
 , O
 Dr O
-Frank B-PER
-Habineza I-PER
+Frank O
+Habineza O
 , O
 usanzwe O
 ari O
@@ -25597,7 +25597,7 @@ DGPR O
 ) O
 , O
 yabwiye O
-IGIHE O
+IGIHE B-ORG
 ati O
 “ O
 Abadepite O
@@ -25729,9 +25729,9 @@ cye O
 intego O
 yajyanye O
 mu O
-Nteko B-ORG
-Ishinga I-ORG
-Amategeko I-ORG
+Nteko O
+Ishinga O
+Amategeko O
 , O
 ni O
 uko O
@@ -25772,8 +25772,8 @@ mu O
 2008 O
 , O
 Depite O
-Nyirahirwa B-PER
-Veneranda I-PER
+Nyirahirwa O
+Veneranda O
 ari O
 mu O
 Nteko O
@@ -25872,11 +25872,11 @@ Tuba O
 twatangiriye O
 muri O
 komisiyo O
-saa O
-tatu O
+saa B-DATE
+tatu I-DATE
 ikageza O
-saa O
-sita O
+saa B-DATE
+sita I-DATE
 , O
 nyuma O
 saa O
@@ -25902,7 +25902,7 @@ ibitekerezo O
 , O
 ntibabitange O
 mu O
-nteko B-ORG
+nteko O
 rusange O
 . O
 
@@ -25954,7 +25954,7 @@ kuko O
 iyo O
 bageze O
 mu O
-nteko B-ORG
+nteko O
 , O
 nta O
 muntu O
@@ -25988,9 +25988,9 @@ wazabikubaza O
 Depite O
 , O
 Sheikh O
-Harerimana O
-Musa O
-Fazil O
+Harerimana B-PER
+Musa I-PER
+Fazil I-PER
 , O
 Visi O
 Perezida O
@@ -26007,7 +26007,7 @@ umutwe O
 w’abadepite O
 , O
 yabwiye O
-IGIHE O
+IGIHE B-ORG
 ko O
 kugeza O
 ubu O
@@ -26078,7 +26078,7 @@ ko O
 gahunda O
 nyinshi O
 mu O
-nteko O
+nteko B-ORG
 zibera O
 muri O
 za O
@@ -26106,7 +26106,7 @@ kuvuga O
 . O
 
 Sheikh O
-Harerimana B-PER
+Harerimana O
 yavuze O
 ko O
 bari O
@@ -26140,7 +26140,7 @@ Twamaze O
 kuganira O
 n’ubuyobozi O
 bwa O
-RBA O
+RBA B-ORG
 ngo O
 turebe O
 ukuntu O
@@ -26223,7 +26223,7 @@ rimwe O
 . O
 
 Mu O
-2011 O
+2011 B-DATE
 , O
 mu O
 Bwongereza B-LOC
@@ -26277,9 +26277,9 @@ ibibazo O
 byabo O
 . O
 
-Sir B-PER
-Stuart I-PER
-Bell I-PER
+Sir O
+Stuart O
+Bell O
 yaje O
 kwitaba O
 Imana O
@@ -26295,7 +26295,7 @@ ku O
 cyiswe O
 ‘‘balkanisation’’ O
 y’u O
-Rwanda B-LOC
+Rwanda O
 kuri O
 RDC B-LOC
 
@@ -26311,16 +26311,16 @@ y’abatavuga O
 rumwe O
 n’ubutegetsi O
 muri O
-Repubulika O
-Iharanira O
-Demokarasi O
-ya O
-Congo O
+Repubulika B-LOC
+Iharanira I-LOC
+Demokarasi I-LOC
+ya I-LOC
+Congo I-LOC
 , O
 kuva O
 Perezida O
-Félix B-PER
-Tshisekedi I-PER
+Félix O
+Tshisekedi O
 yatorerwa O
 kuyobora O
 iki O
@@ -26361,14 +26361,14 @@ ko O
 amahoro O
 agaruka O
 muri O
-RDC O
+RDC B-LOC
 , O
 bakomeje O
 guhimba O
 ikinyoma O
 ko O
 u O
-Rwanda B-LOC
+Rwanda O
 rushaka O
 kwigarura O
 Uburasirazuba O
@@ -26381,7 +26381,7 @@ ku O
 Banyarwanda O
 n’Abanye O
 - O
-Congo B-LOC
+Congo O
 bavuga O
 Ikinyarwanda O
 . O
@@ -26399,8 +26399,8 @@ kinyejana O
 cya O
 20 O
 mu O
-Burayi O
-bw’Amajyepfo O
+Burayi B-LOC
+bw’Amajyepfo I-LOC
 , O
 mu O
 gace O
@@ -26434,11 +26434,11 @@ Kosovo O
 Macédoine O
 y’Amajyaruguru O
 , O
-Monténégro O
+Monténégro B-LOC
 , O
-Serbie B-LOC
+Serbie O
 na O
-Turquie O
+Turquie B-LOC
 ; O
 byari O
 byarigaruriwe O
@@ -26466,13 +26466,13 @@ bivugirwa O
 mu O
 mihanda O
 ya O
-Kinshasa O
+Kinshasa B-LOC
 , O
 aho O
 ababiyoboye O
 badakomoka O
 muri O
-Hongrie B-LOC
+Hongrie O
 cyangwa O
 Turikiya B-LOC
 , O
@@ -26502,7 +26502,7 @@ mu O
 mpera O
 y’imyaka O
 ya O
-1990 B-DATE
+1990 O
 , O
 ubwo O
 u O
@@ -26531,7 +26531,7 @@ mbere O
 y’uko O
 Abanyaburayi O
 bigabagabanya O
-Afurika O
+Afurika B-LOC
 , O
 ariko O
 ntibyigeze O
@@ -26559,7 +26559,7 @@ ko O
 afite O
 inkomoko O
 mu O
-Rwanda B-LOC
+Rwanda O
 kandi O
 akaba O
 afite O
@@ -26570,7 +26570,7 @@ mpuzamahanga O
 wo O
 gucamo O
 ibice O
-RDC O
+RDC B-LOC
 , O
 ibice O
 byayo O
@@ -26581,7 +26581,7 @@ mabuye O
 y’agaciro O
 bikomekwa O
 ku O
-Rwanda O
+Rwanda B-LOC
 . O
 
 Kujya O
@@ -26608,7 +26608,7 @@ atavuga O
 rumwe O
 n’Ubutegetsi O
 ya O
-Lamuka O
+Lamuka B-ORG
 ririmo O
 na O
 Martin O
@@ -26656,7 +26656,7 @@ Kiliziya O
 ntibigeze O
 bemera O
 ko O
-Fayulu O
+Fayulu B-PER
 yatsinzwe O
 . O
 
@@ -26679,7 +26679,7 @@ umubano O
 w’igihugu O
 cye O
 n’u O
-Rwanda O
+Rwanda B-LOC
 , O
 mbere O
 yo O
@@ -26689,7 +26689,7 @@ w’ingabo O
 za O
 Congo O
 mu O
-Burasirazuba B-LOC
+Burasirazuba O
 bw’igihugu O
 ngo O
 zijye O
@@ -26707,7 +26707,7 @@ Ingabo O
 za O
 Congo O
 ( O
-FARDC B-ORG
+FARDC O
 ) O
 zimaze O
 kwigarurira O
@@ -26726,7 +26726,7 @@ yo O
 kwigarurira O
 ibice O
 bya O
-RDC B-LOC
+RDC O
 iyo O
 iza O
 kuba O
@@ -26795,7 +26795,7 @@ ikibazo O
 cy’umutekano O
 muke O
 mu O
-Burasirazuba B-LOC
+Burasirazuba O
 bwa O
 RDC O
 cyafashije O
@@ -26849,7 +26849,7 @@ Nyamwisi O
 ubu O
 wituriye O
 muri O
-Uganda B-LOC
+Uganda O
 . O
 
 Uyu O
@@ -26869,7 +26869,7 @@ naryo O
 
 Mu O
 gihe O
-RDC B-LOC
+RDC O
 iri O
 kugerageza O
 kwivana O
@@ -26958,8 +26958,8 @@ ari O
 Minisitiri O
 w’Intebe O
 , O
-Adolphe O
-Muzito O
+Adolphe B-PER
+Muzito I-PER
 , O
 yagaragaje O
 mu O
@@ -26973,7 +26973,7 @@ Rwanda O
 byanashoboka O
 bakarwomeka O
 kuri O
-RDC O
+RDC B-LOC
 ; O
 uyu O
 ni O
@@ -27072,7 +27072,7 @@ by’ibibazo O
 nyabyo O
 Abanye O
 - O
-Congo B-LOC
+Congo O
 bafite O
 ubu O
 nk’ubushomeri O
@@ -27110,8 +27110,8 @@ abatavuga O
 rumwe O
 n’ubutegetsi O
 muri O
-RD B-LOC
-Congo I-LOC
+RD O
+Congo O
 bahisemo O
 gushyushya O
 imitwe O
@@ -27153,7 +27153,7 @@ ku O
 mupaka O
 uhuza O
 u O
-Rwanda O
+Rwanda B-LOC
 na O
 RDC O
 , O
@@ -27192,7 +27192,7 @@ bayo O
 . O
 
 Muri O
-Afurika B-LOC
+Afurika O
 yose O
 , O
 umutungo O
@@ -27219,8 +27219,8 @@ bwabo O
 Ku O
 ngoma O
 ya O
-Félix O
-Tshisekedi O
+Félix B-PER
+Tshisekedi I-PER
 , O
 RDC O
 ifite O
@@ -27249,13 +27249,13 @@ zigize O
 ubukungu O
 nyabwo O
 bwa O
-RDC B-LOC
+RDC O
 . O
 
 Gushaka O
 kwihorera O
 ku O
-Rwanda O
+Rwanda B-LOC
 barugira O
 umwanzi O
 bahuriyeho O
@@ -27279,8 +27279,8 @@ ni O
 ibitekerezo O
 bwite O
 by’umwanditsi O
-Gatete B-PER
-Nyiringabo I-PER
+Gatete O
+Nyiringabo O
 , O
 umunyamategeko O
 akaba O
@@ -27309,8 +27309,8 @@ Minisitiri O
 y’Urubyiruko O
 n’Umuco O
 , O
-Rosemary B-PER
-Mbabazi I-PER
+Rosemary O
+Mbabazi O
 , O
 yatangije O
 imurikabitabo O
@@ -27344,8 +27344,8 @@ Minisitiri O
 y’Urubyiruko O
 n’Umuco O
 , O
-Rosemary B-PER
-Mbabazi I-PER
+Rosemary O
+Mbabazi O
 , O
 yatangije O
 imurikabitabo O
@@ -27391,7 +27391,7 @@ na O
 Serivisi O
 z’Inkoranyabitabo O
 , O
-RALSA O
+RALSA B-ORG
 . O
 
 Muri O
@@ -27433,7 +27433,7 @@ niyo O
 mpamvu O
 leta O
 y’u O
-Rwanda O
+Rwanda B-LOC
 ishyira O
 imbaraga O
 mu O
@@ -27557,14 +27557,14 @@ mu O
 buryo O
 bw’ikoranabuhanga O
 rizakorwa O
-kuva B-DATE
-tariki I-DATE
-15 I-DATE
-Kamena I-DATE
-kugeza I-DATE
-tariki I-DATE
-15 I-DATE
-Kanama I-DATE
+kuva O
+tariki O
+15 O
+Kamena O
+kugeza O
+tariki O
+15 O
+Kanama O
 uyu O
 mwaka O
 . O
@@ -27664,20 +27664,20 @@ n’Ababiligi O
 
 Stade O
 ya O
-Rwinkwavu O
+Rwinkwavu B-LOC
 ni O
 yo O
 yubatswe O
 bwa O
 mbere O
 mu O
-Rwanda B-LOC
+Rwanda O
 , O
 iherereye O
 mu O
 Murenge O
 wa O
-Rwinkwavu B-LOC
+Rwinkwavu O
 mu O
 Karere O
 ka O
@@ -27713,10 +27713,10 @@ stade O
 abenshi O
 bitirira O
 Umwami O
-Mutara B-PER
-wa I-PER
-III I-PER
-Rudahigwa I-PER
+Mutara O
+wa O
+III O
+Rudahigwa O
 [ O
 Charles O
 Leon O
@@ -27724,7 +27724,7 @@ Pierre O
 ] O
 watwaye O
 u O
-Rwanda O
+Rwanda B-LOC
 kuva O
 mu O
 1931 O
@@ -27783,7 +27783,7 @@ ufite O
 imyaka O
 102 O
 yabwiye O
-IGIHE O
+IGIHE B-ORG
 ko O
 igitekerezo O
 cyo O
@@ -27828,9 +27828,9 @@ mu O
 Rwanda B-LOC
 bwatangiye O
 mu O
-1930 O
-- O
-1931 O
+1930 B-DATE
+- I-DATE
+1931 I-DATE
 ubwo O
 gasegereti O
 yavumburwaga O
@@ -27897,9 +27897,9 @@ ndetse O
 akanaba O
 inshuti O
 y’Umwami O
-Mutara B-PER
-III I-PER
-Rudahigwa I-PER
+Mutara O
+III O
+Rudahigwa O
 . O
 
 Uyu O
@@ -27942,7 +27942,7 @@ umupira O
 w’amaguru O
 , O
 Umwami O
-Rudahigwa O
+Rudahigwa B-PER
 yarahazaga O
 cyane O
 nawe O
@@ -28012,8 +28012,8 @@ Uko O
 abakinnyi O
 bahembwaga O
 
-Kabemba O
-Musafiri O
+Kabemba B-PER
+Musafiri I-PER
 yavuze O
 ko O
 abakinnyi O
@@ -28075,8 +28075,8 @@ yacishagamo O
 agakina O
 umupira O
 
-Kabemba O
-Musafiri O
+Kabemba B-PER
+Musafiri I-PER
 yavuze O
 ko O
 Umwami O
@@ -28183,7 +28183,7 @@ bo O
 mu O
 Murenge O
 wa O
-Rwinkwavu O
+Rwinkwavu B-LOC
 bavuze O
 ko O
 bifuza O
@@ -28230,7 +28230,7 @@ ya O
 mbere O
 yubatswe O
 mu O
-Rwanda B-LOC
+Rwanda O
 , O
 binabaye O
 byiza O
@@ -28242,8 +28242,8 @@ imipira O
 ikomeye O
 . O
 
-Buregeya O
-Emmanuel O
+Buregeya B-PER
+Emmanuel I-PER
 we O
 yagize O
 ati O
@@ -28312,7 +28312,7 @@ umusaruro O
 
 Ati O
 “ O
-Rwinkwavu B-LOC
+Rwinkwavu O
 hari O
 mu O
 hantu O
@@ -28419,11 +28419,11 @@ ndangamuco O
 
 Guverinoma O
 ya O
-Repubulika B-LOC
-Iharanira I-LOC
-Demokarasi I-LOC
-ya I-LOC
-Congo I-LOC
+Repubulika O
+Iharanira O
+Demokarasi O
+ya O
+Congo O
 yatangaje O
 ko O
 iri O
@@ -28471,8 +28471,8 @@ Shungu I-PER
 Wembadio I-PER
 uzwi O
 nka O
-Papa B-PER
-Wemba I-PER
+Papa O
+Wemba O
 , O
 igahindurwa O
 inzu O
@@ -28518,8 +28518,8 @@ Urbaines O
 d’Anoumabo O
 ryaberaga O
 muri O
-Côte B-LOC
-d’Ivoire I-LOC
+Côte O
+d’Ivoire O
 . O
 
 Mu O
@@ -28573,7 +28573,7 @@ yamenyekanishije O
 cyane O
 umuziki O
 wa O
-Congo B-LOC
+Congo O
 , O
 yasabye O
 Guverinoma O
@@ -28609,17 +28609,17 @@ w’injyana O
 ya O
 Rumba O
 muri O
-Repubilika O
-Iharanira O
-Demokarasi O
-ya O
-Congo O
+Repubilika B-LOC
+Iharanira I-LOC
+Demokarasi I-LOC
+ya I-LOC
+Congo I-LOC
 . O
 
 Yamamaye O
 cyane O
 muri O
-Afurika B-LOC
+Afurika O
 mu O
 ndirimbo O
 zakanyujijeho O
@@ -28651,8 +28651,8 @@ up O
 ft O
 . O
 
-Koffi O
-Olomide O
+Koffi B-PER
+Olomide I-PER
 """" O
 , O
 “ O
@@ -28688,15 +28688,15 @@ basubiranye O
 ijambo O
 
 Umwanditsi O
-Hategekimana B-PER
-Richard I-PER
+Hategekimana O
+Richard O
 , O
 Umuyobozi O
 Mukuru O
 w’Urugaga O
 rw’Abanditsi O
 mu O
-Rwanda B-LOC
+Rwanda O
 agiye O
 kumurika O
 igitabo O
@@ -28715,8 +28715,8 @@ Rwanda O
 . O
 
 Umwanditsi O
-Hategekimana O
-Richard O
+Hategekimana B-PER
+Richard I-PER
 , O
 Umuyobozi O
 Mukuru O
@@ -28745,7 +28745,7 @@ Gikubiyemo O
 amateka O
 y’abagore O
 mu O
-Rwanda B-LOC
+Rwanda O
 rwa O
 mbere O
 y’ubukoloni O
@@ -28780,9 +28780,9 @@ mugaragaro O
 kuwa O
 Gatanu O
 tariki O
-15 B-DATE
-Ugushyingo I-DATE
-2019 I-DATE
+15 O
+Ugushyingo O
+2019 O
 muri O
 Kigali O
 Convention O
@@ -28879,7 +28879,7 @@ cyubashywe O
 
 Aganira O
 na O
-IGIHE O
+IGIHE B-ORG
 , O
 Hategekimana O
 yavuze O
@@ -28943,8 +28943,8 @@ Imiyoborere O
 myiza O
 ya O
 Perezda O
-Paul O
-Kagame O
+Paul B-PER
+Kagame I-PER
 n’umuryango O
 FPR B-ORG
 Inkotanyi I-ORG
@@ -29013,10 +29013,10 @@ Ingabire O
 Marie O
 Immaculée O
 uyobora O
-Umuryango O
-Transparency O
-International O
-Rwanda O
+Umuryango B-ORG
+Transparency I-ORG
+International I-ORG
+Rwanda I-ORG
 . O
 
 Hategekimana O
@@ -29054,8 +29054,8 @@ n’ibirimo O
 “ O
 Intwari O
 Mpinduramatwara O
-Paul O
-Kagame O
+Paul B-PER
+Kagame I-PER
 """" O
 n’ikindi O
 cyitwa O
@@ -29145,7 +29145,7 @@ imyaka O
 2020 I-DATE
 ) O
 u O
-Rwanda B-LOC
+Rwanda O
 rubaye O
 igihugu O
 gihamye O
@@ -29246,9 +29246,9 @@ Mu O
 bakoreye O
 mu O
 ngata O
-Gihanga B-PER
-I I-PER
-Ngomijana I-PER
+Gihanga O
+I O
+Ngomijana O
 harimo O
 ubuvivi O
 bwe O
@@ -29259,9 +29259,9 @@ Rwanda B-LOC
 ahasaga O
 mu O
 wa O
-1213 O
-kugera O
-1246 O
+1213 B-DATE
+kugera I-DATE
+1246 I-DATE
 arangwa O
 n’ibitekerezo O
 bihanitse O
@@ -29277,7 +29277,7 @@ rw’ibinyabuzima O
 
 Muri O
 make O
-Ndoba O
+Ndoba B-PER
 yari O
 afite O
 ubuhanga O
@@ -29320,11 +29320,11 @@ tubikesha O
 Hari O
 kandi O
 na O
-Ruganzu O
-Bwimba O
+Ruganzu B-PER
+Bwimba I-PER
 watwaye O
 u O
-Rwanda O
+Rwanda B-LOC
 kuva O
 mu O
 1312 O
@@ -29338,7 +29338,7 @@ ndwanyi O
 zaranze O
 amateka O
 y’u O
-Rwanda B-LOC
+Rwanda O
 mu O
 guhirimbanira O
 ubuhangange O
@@ -29383,8 +29383,8 @@ gisangiwe O
 Nta O
 n’uwarenza O
 ingohe O
-Cyilima O
-Rugwe O
+Cyilima B-PER
+Rugwe I-PER
 , O
 watwaye O
 u O
@@ -29426,7 +29426,7 @@ bagomye O
 Yashakaga O
 ko O
 u O
-Rwanda B-LOC
+Rwanda O
 ruba O
 igihugu O
 kizira O
@@ -29452,12 +29452,12 @@ Ndoli O
 watwaye O
 u O
 Rwanda O
-kuva B-DATE
-mu I-DATE
-1510 I-DATE
-kugera I-DATE
-mu I-DATE
-1543 I-DATE
+kuva O
+mu O
+1510 O
+kugera O
+mu O
+1543 O
 wari O
 indwanyi O
 karundura O
@@ -29574,7 +29574,7 @@ n’inshingano O
 zabo O
 nk’aho O
 Umwami O
-Mutara O
+Mutara B-PER
 yabaga O
 ashinzwe O
 kwagura O
@@ -29587,12 +29587,12 @@ wari O
 umwami O
 w’intambara O
 , O
-Mibambwe B-PER
+Mibambwe O
 wari O
 ushinzwe O
 uburumbuke O
 , O
-Yuhi B-PER
+Yuhi O
 wari O
 umwami O
 usigasira O
@@ -29607,9 +29607,9 @@ nka O
 Cyilima O
 Rujugira O
 ( O
-1675 O
-– O
-1708 O
+1675 B-DATE
+– I-DATE
+1708 I-DATE
 ) O
 , O
 wadukanye O
@@ -29619,12 +29619,12 @@ Rwanda O
 rutera O
 rudaterwa O
 , O
-Yuhi B-PER
-Gahindiro I-PER
+Yuhi O
+Gahindiro O
 ( O
-1746 B-DATE
-- I-DATE
-1802 I-DATE
+1746 O
+- O
+1802 O
 ) O
 wazanye O
 gahunda O
@@ -29644,7 +29644,7 @@ ibihugu O
 byashakaga O
 kwiyomora O
 ku O
-Rwanda O
+Rwanda B-LOC
 . O
 
 Mu O
@@ -29654,7 +29654,7 @@ n’ibihangange O
 byayibayemo O
 nk’Abami O
 b’u O
-Rwanda O
+Rwanda B-LOC
 , O
 benshi O
 baburiwe O
@@ -29741,14 +29741,14 @@ mafoto O
 mpangano O
 y’Abami O
 b’u O
-Rwanda B-LOC
+Rwanda O
 n’Abagabekazi O
 babo O
 , O
 yakozwe O
 n’umunyabugeni O
-Mugisha O
-Paul O
+Mugisha B-PER
+Paul I-PER
 wize O
 ku O
 Nyundo O
@@ -29764,7 +29764,7 @@ z’Imbanza O
 , O
 zubatse O
 u O
-Rwanda O
+Rwanda B-LOC
 rugahamya O
 igitinyiro O
 """" O
@@ -29825,7 +29825,7 @@ rwego O
 hariho O
 amafoto O
 ya O
-Yesu B-PER
+Yesu O
 , O
 Mariya O
 , O
@@ -29833,7 +29833,7 @@ Yozefu O
 , O
 intumwa O
 za O
-Yesu B-PER
+Yesu O
 12 O
 , O
 Musa O
@@ -29975,7 +29975,7 @@ bikomeye O
 mu O
 kubaka O
 u O
-Rwanda B-LOC
+Rwanda O
 , O
 aho O
 ntiyasaga O
@@ -30110,7 +30110,7 @@ uburiza O
 bw’andi O
 yaranze O
 u O
-Rwanda O
+Rwanda B-LOC
 mu O
 bihe O
 bitandukanye O
@@ -30123,7 +30123,7 @@ bitabo O
 
 Umusozi O
 wa O
-Kigali B-LOC
+Kigali O
 wasabirwagaho O
 kugira O
 Umutima O
@@ -30150,82 +30150,6 @@ ku O
 musozi O
 wa O
 Kigali O
-bafataga O
-nk’igicumbi O
-cy’Umutima O
-w’u O
-Rwanda O
-. O
-
-Ese O
-Abanyarwanda O
-b’ubu O
-bawusabira O
-he O
-? O
-
-Cyangwa O
-se O
-ntawo O
-bagikeneye O
-? O
-
-None O
-se O
-iyo O
-Imbuto B-ORG
-Foundation I-ORG
-igarutse O
-ku O
-bidindiza O
-“ O
-Ndi O
-Umunyarwanda O
-"""" O
-, O
-aho O
-si O
-ibyo O
-iba O
-ishaka O
-kumenya O
-? O
-
-Reka O
-twumve O
-icyo O
-Abacukumbuzi O
-b’ireme O
-ry’Umuco O
-n’Amateka O
-by’u O
-Rwanda O
-babivugaho O
-mu O
-bushakashatsi O
-bwabo O
-. O
-
-Abanyarwanda O
-ba O
-kera O
-bahoranye O
-umuhango O
-mwiza O
-wo O
-gusaba O
-Imana O
-kugira O
-Umutima O
-w’u O
-Rwanda O
-. O
-
-Bakawusabira O
-ku O
-musozi O
-wa O
-Kigali B-LOC
 bafataga O
 nk’igicumbi O
 cy’Umutima O
@@ -30282,9 +30206,85 @@ bushakashatsi O
 bwabo O
 . O
 
+Abanyarwanda O
+ba O
+kera O
+bahoranye O
+umuhango O
+mwiza O
+wo O
+gusaba O
+Imana O
+kugira O
+Umutima O
+w’u O
+Rwanda O
+. O
+
+Bakawusabira O
+ku O
+musozi O
+wa O
+Kigali O
+bafataga O
+nk’igicumbi O
+cy’Umutima O
+w’u O
+Rwanda B-LOC
+. O
+
+Ese O
+Abanyarwanda O
+b’ubu O
+bawusabira O
+he O
+? O
+
+Cyangwa O
+se O
+ntawo O
+bagikeneye O
+? O
+
+None O
+se O
+iyo O
+Imbuto B-ORG
+Foundation I-ORG
+igarutse O
+ku O
+bidindiza O
+“ O
+Ndi O
+Umunyarwanda O
+"""" O
+, O
+aho O
+si O
+ibyo O
+iba O
+ishaka O
+kumenya O
+? O
+
+Reka O
+twumve O
+icyo O
+Abacukumbuzi O
+b’ireme O
+ry’Umuco O
+n’Amateka O
+by’u O
+Rwanda O
+babivugaho O
+mu O
+bushakashatsi O
+bwabo O
+. O
+
 Umusozi O
 wa O
-Kigali B-LOC
+Kigali O
 n’Igenamigambi O
 ry’ingoma O
 inye O
@@ -30416,14 +30416,14 @@ cy’Abami O
 
 Inshingano O
 z’abami O
-Kigeli O
+Kigeli B-PER
 na O
-Mibambwe B-PER
+Mibambwe O
 zabaga O
 ari O
 ukwagura O
 u O
-Rwanda O
+Rwanda B-LOC
 kuko O
 ku O
 ngoma O
@@ -30501,7 +30501,7 @@ rirerire O
 ? O
 
 Yaba O
-Yuhi B-PER
+Yuhi O
 , O
 Kigeli O
 na O
@@ -30516,7 +30516,7 @@ na O
 Mutara O
 cyangwa O
 na O
-Cyilima O
+Cyilima B-PER
 . O
 
 Musenyeri O
@@ -30588,7 +30588,7 @@ bakoraga O
 ujyanye O
 n’icyerekezo O
 cy’u O
-Rwanda B-LOC
+Rwanda O
 mu O
 ngoma O
 eshatu O
@@ -30684,7 +30684,7 @@ imwe O
 bayikoreraga O
 ahitwa O
 i O
-Karama O
+Karama B-LOC
 ku O
 murwa O
 wa O
@@ -30704,7 +30704,7 @@ yose O
 y’Abami O
 umurwa O
 wa O
-Kigali B-LOC
+Kigali O
 ari O
 wo O
 wari O
@@ -30736,7 +30736,7 @@ Kalinga O
 Mu O
 gihe O
 ingoma O
-Kalinga O
+Kalinga B-PER
 yari O
 Ingabe O
 y’ubwami O
@@ -30779,7 +30779,7 @@ maze O
 Mpatsibihugu O
 ikaba O
 iya O
-Kigeli O
+Kigeli B-PER
 bitewe O
 n’uko O
 bose O
@@ -30807,7 +30807,7 @@ ushinzwe O
 imihango O
 y’ubwami O
 bw’u O
-Rwanda O
+Rwanda B-LOC
 nk’uko O
 na O
 none O
@@ -30834,7 +30834,7 @@ gutambira O
 ku O
 musozi O
 wa O
-Gabaon B-LOC
+Gabaon O
 nk’uko O
 tubisoma O
 mu O
@@ -30869,13 +30869,13 @@ bwo O
 kuyobora O
 ishyanga O
 rya O
-Israel B-LOC
+Israel O
 . O
 
 Uriya O
 muhango O
 wa O
-Salomo O
+Salomo B-PER
 wo O
 gusaba O
 Imana O
@@ -30976,22 +30976,22 @@ y’ingoma O
 Ngo O
 Umwami O
 mu O
-Rwanda O
+Rwanda B-LOC
 agire O
 umutima O
 Ingoma O
 mu O
-Rwanda O
+Rwanda B-LOC
 zigire O
 umutima O
 Abagabo O
 mu O
-Rwanda O
+Rwanda B-LOC
 bagire O
 umutima O
 Abagore O
 mu O
-Rwanda B-LOC
+Rwanda O
 bagire O
 umutima O
 Inka O
@@ -31000,7 +31000,7 @@ Rwanda O
 zigire O
 umutima O
 U O
-Rwanda O
+Rwanda B-LOC
 rwose O
 rugire O
 umutima O
@@ -31013,7 +31013,7 @@ niba O
 Ingoma O
 y’Ingabe O
 y’u O
-Rwanda B-LOC
+Rwanda O
 ari O
 yo O
 Kalinga O
@@ -31054,7 +31054,7 @@ ijana O
 bw’Abami O
 Kigeli B-PER
 , O
-Mibambwe B-PER
+Mibambwe O
 na O
 Yuhi O
 burangwa O
@@ -31078,7 +31078,7 @@ Ibyo O
 birangira O
 ari O
 u O
-Rwanda B-LOC
+Rwanda O
 rwose O
 rubonye O
 umutima O
@@ -31093,7 +31093,7 @@ Ibyo O
 bimeze O
 nk’uko O
 Umwami O
-Salomo B-PER
+Salomo O
 yasabye O
 ubwenge O
 Imana O
@@ -31153,7 +31153,7 @@ zibe O
 umurame O
 Abagabo O
 b’i O
-Rwanda O
+Rwanda B-LOC
 babe O
 umurame O
 Abagore O
@@ -31186,7 +31186,7 @@ byari O
 bihagije O
 kuko O
 u O
-Rwanda B-LOC
+Rwanda O
 rwose O
 rwagombaga O
 kuzira O
@@ -31236,7 +31236,7 @@ abe O
 isugi O
 Ingoma O
 i O
-Rwanda O
+Rwanda B-LOC
 zibe O
 amasugi O
 Abagabo O
@@ -31246,7 +31246,7 @@ babe O
 amasugi O
 Abagore O
 mu O
-Rwanda B-LOC
+Rwanda O
 babe O
 amasugi O
 Inka O
@@ -31268,7 +31268,7 @@ bwiru O
 yo O
 gusabira O
 u O
-Rwanda O
+Rwanda B-LOC
 rwose O
 umutima O
 , O
@@ -31292,7 +31292,7 @@ ubuhoro O
 amahoro O
 ) O
 mu O
-Rwanda O
+Rwanda B-LOC
 rw’Umwami O
 . O
 
@@ -31303,7 +31303,7 @@ agira O
 ubuhoro O
 Ingoma O
 z’i O
-Rwanda B-LOC
+Rwanda O
 zigira O
 ubuhoro O
 , O
@@ -31332,7 +31332,7 @@ Nyuma O
 y’ibyo O
 byose O
 u O
-Rwanda B-LOC
+Rwanda O
 rukagira O
 uburumbuke O
 bw’amata O
@@ -31362,7 +31362,7 @@ amata O
 n’ubuki O
 Ingoma O
 mu O
-Rwanda B-LOC
+Rwanda O
 zigire O
 amata O
 nubuki O
@@ -31410,7 +31410,7 @@ Bwiru O
 
 Twacyamura O
 u O
-Burundi B-LOC
+Burundi O
 ku O
 ngoma O
 Twacyamura O
@@ -31428,7 +31428,7 @@ yose O
 adatura O
 umwami O
 w’u O
-Rwanda O
+Rwanda B-LOC
 Twayacyamura O
 
 Ibi O
@@ -31449,7 +31449,7 @@ cyawe O
 Amahame O
 remezo O
 y’u O
-Rwanda B-LOC
+Rwanda O
 gakondo O
 
 Iyi O
@@ -31457,9 +31457,9 @@ mihango O
 yakorwaga O
 n’Abami O
 bitwa O
-Mutara B-PER
+Mutara O
 na O
-Cyilima B-PER
+Cyilima O
 hari O
 ibintu O
 idusobanurira O
@@ -31558,7 +31558,7 @@ kandi O
 rikagenga O
 ibyo O
 mu O
-Rwanda B-LOC
+Rwanda O
 byose O
 ; O
 ni O
@@ -31584,7 +31584,7 @@ bwose O
 bw’aho O
 twita O
 mu O
-Rwanda O
+Rwanda B-LOC
 gusa O
 ; O
 ahubwo O
@@ -31631,7 +31631,7 @@ ngenga O
 bitekerezo O
 ry’abahanze O
 u O
-Rwanda O
+Rwanda B-LOC
 , O
 ni O
 uko O
@@ -31680,7 +31680,7 @@ hatakaje O
 kuba O
 “ O
 u O
-Rwanda O
+Rwanda B-LOC
 rwose O
 . O
 
@@ -31689,7 +31689,7 @@ ni O
 ko O
 ikihagira O
 u O
-Rwanda B-LOC
+Rwanda O
 rwose O
 ari O
 izi O
@@ -31727,7 +31727,7 @@ n’Umwami O
 ni O
 nako O
 u O
-Rwanda B-LOC
+Rwanda O
 rwose O
 rwabaga O
 ruhatswe O
@@ -31790,7 +31790,7 @@ gakondo O
 ryo O
 gusabira O
 u O
-Rwanda B-LOC
+Rwanda O
 na O
 ryo O
 ari O
@@ -31809,7 +31809,7 @@ Seka O
 seka O
 gasani O
 k’i O
-Rwanda B-LOC
+Rwanda O
 Rusekere O
 rugubwe O
 neza O
@@ -31858,7 +31858,7 @@ Ihame O
 ngengabitekerezo O
 ry’abahanze O
 u O
-Rwanda B-LOC
+Rwanda O
 ni O
 ukugira O
 Ishyanga O
@@ -31987,7 +31987,7 @@ kugarura O
 amahanga O
 adatura O
 u O
-Rwanda B-LOC
+Rwanda O
 . O
 
 Ibi O
@@ -32037,7 +32037,7 @@ Ndoli I-PER
 amaze O
 kubohora O
 u O
-Rwanda O
+Rwanda B-LOC
 amacakubiri O
 yatumye O
 rugirwa O
@@ -32087,7 +32087,7 @@ nda O
 sibo O
 batumye O
 u O
-Rwanda B-LOC
+Rwanda O
 rutabohoka O
 burundu O
 ? O
@@ -32118,7 +32118,7 @@ kubyibutsa O
 Abanyarwanda O
 bo O
 mu O
-Rwanda B-LOC
+Rwanda O
 rutugendamo O
 ! O
 
@@ -32141,7 +32141,7 @@ remezo O
 yagengaga O
 ishyaka O
 ry’u O
-Rwanda O
+Rwanda B-LOC
 n’Abanyarwanda O
 . O
 
@@ -32150,15 +32150,15 @@ bya O
 Gérard B-PER
 Nyirimanzi I-PER
 na O
-Nyirishema O
-Célestin O
+Nyirishema B-PER
+Célestin I-PER
 , O
 Abacukumbuzi O
 b’Ireme O
 ry’Umuco O
 n’Amateka O
 by’u O
-Rwanda B-LOC
+Rwanda O
 . O
 
 Babikuye O
@@ -32283,8 +32283,8 @@ amateka O
 agaragaza O
 ko O
 na O
-Ruganzu B-PER
-Ndoli I-PER
+Ruganzu O
+Ndoli O
 yawukinnye O
 kuko O
 hirya O
@@ -32301,7 +32301,7 @@ bitare O
 bya O
 Mpushi O
 muri O
-Kamonyi B-LOC
+Kamonyi O
 ahari O
 igisoro O
 , O
@@ -32322,17 +32322,17 @@ yateguye O
 ayo O
 marushanwa O
 , O
-Nshimyumuremyi B-PER
-Justin I-PER
+Nshimyumuremyi O
+Justin O
 yabwiye O
-IGIHE B-ORG
+IGIHE O
 ko O
 amarushanwa O
 yatangiye O
 mu O
-Ukwakira O
-uyu O
-mwaka O
+Ukwakira B-DATE
+uyu I-DATE
+mwaka I-DATE
 , O
 umukino O
 wa O
@@ -32341,13 +32341,13 @@ ukazaba O
 kuwa B-DATE
 Gatanu I-DATE
 tariki O
-22 O
-Ugushyingo O
+22 B-DATE
+Ugushyingo I-DATE
 muri O
-Olympique B-ORG
-Hotel I-ORG
+Olympique O
+Hotel O
 ku O
-Kimironko B-LOC
+Kimironko O
 . O
 
 Ababugu O
@@ -32501,7 +32501,7 @@ kumenyekanisha O
 uwo O
 mukino O
 , O
-Nshimyumuremyi O
+Nshimyumuremyi B-PER
 yavuze O
 ko O
 bashaka O
@@ -32611,7 +32611,7 @@ muri O
 Diyosezi O
 Gatolika O
 ya O
-Kabgayi O
+Kabgayi B-LOC
 agiye O
 kumurika O
 igitabo O
@@ -32635,13 +32635,13 @@ z’idini O
 . O
 
 Padiri O
-Amerika O
-Victor O
+Amerika B-PER
+Victor I-PER
 , O
 uyobora O
 Paruwasi O
 ya O
-Nyabinyenga O
+Nyabinyenga B-LOC
 muri O
 Diyosezi O
 Gatolika O
@@ -32899,7 +32899,7 @@ Bibiliya O
 ivuga O
 ityo O
 , O
-Aburahamu B-PER
+Aburahamu O
 ufatwa O
 nka O
 sekuruza O
@@ -33006,7 +33006,7 @@ izarangirira O
 . O
 
 Yabwiye O
-IGIHE B-ORG
+IGIHE O
 ko O
 ntawe O
 ukwiriye O
@@ -33086,8 +33086,8 @@ Diyosezi O
 ya O
 Kabgayi O
 , O
-Smaragde B-PER
-Mbonyintege I-PER
+Smaragde O
+Mbonyintege O
 ni O
 we O
 wanditse O
@@ -33097,7 +33097,7 @@ ry’iki O
 gitabo O
 . O
 
-Mbonyintege O
+Mbonyintege B-PER
 mu O
 ijambo O
 ry’ikaze O
@@ -33187,7 +33187,7 @@ uyu O
 wa O
 Gatanu O
 i O
-Kigali B-LOC
+Kigali O
 kuri O
 Hotel B-ORG
 St I-ORG
@@ -33203,7 +33203,7 @@ z’umugoroba O
 Uruzinduko O
 rw’amasaha O
 arindwi O
-Bush O
+Bush B-PER
 yakoreye O
 mu O
 Rwanda O
@@ -33215,27 +33215,27 @@ y’umubano O
 mu O
 ishoramari O
 
-Ku O
-wa O
-kabiri O
+Ku B-DATE
+wa I-DATE
+kabiri I-DATE
 tariki O
-19 O
-Gashyantare O
-2008 O
+19 B-DATE
+Gashyantare I-DATE
+2008 I-DATE
 , O
 uwari O
 Perezida O
 wa O
-Leta O
-Zunze O
-Ubumwe O
-za O
-Amerika O
+Leta B-LOC
+Zunze I-LOC
+Ubumwe I-LOC
+za I-LOC
+Amerika I-LOC
 George B-PER
 W I-PER
 . I-PER
 
-Bush B-PER
+Bush O
 yagiriye O
 uruzinduko O
 rw’amasaha O
@@ -33254,13 +33254,13 @@ cy’umubano O
 mushya O
 . O
 
-Ku B-DATE
-wa I-DATE
-kabiri I-DATE
+Ku O
+wa O
+kabiri O
 tariki O
-19 B-DATE
-Gashyantare I-DATE
-2008 I-DATE
+19 O
+Gashyantare O
+2008 O
 , O
 uwari O
 Perezida O
@@ -33312,7 +33312,7 @@ Tanzania O
 , O
 Ghana O
 na O
-Liberia O
+Liberia B-LOC
 . O
 
 Bush B-PER
@@ -33398,8 +33398,8 @@ Bush O
 yazanye O
 n’umufasha O
 we O
-Laura B-PER
-Bush I-PER
+Laura O
+Bush O
 , O
 bahitira O
 ku O
@@ -33407,7 +33407,7 @@ rwibutso O
 rwa O
 Jenoside O
 rwa O
-Kigali B-LOC
+Kigali O
 kunamira O
 inzirakarengane O
 zazize O
@@ -33450,7 +33450,7 @@ yavuze O
 ko O
 ibyabaye O
 mu O
-Rwanda O
+Rwanda B-LOC
 bidakwiriye O
 kugira O
 ahandi O
@@ -33542,7 +33542,7 @@ rwibutso O
 rwa O
 Jenoside O
 , O
-Bush O
+Bush B-PER
 yakomereje O
 muri O
 Village O
@@ -33561,7 +33561,7 @@ byombi O
 . O
 
 Mu O
-2007 O
+2007 B-DATE
 , O
 u O
 Rwanda O
@@ -33576,7 +33576,7 @@ miliyoni O
 13 O
 z’amadolari O
 ya O
-Amerika B-LOC
+Amerika O
 , O
 ruvanayo O
 ibicuruzwa O
@@ -33600,7 +33600,7 @@ ikiganiro O
 n’abanyamakuru O
 , O
 Perezida O
-Kagame O
+Kagame B-PER
 avuga O
 ko O
 ayo O
@@ -33651,11 +33651,11 @@ bishya O
 bya O
 Ambasade O
 ya O
-Leta B-LOC
-Zunze I-LOC
-Ubumwe I-LOC
-za I-LOC
-Amerika I-LOC
+Leta O
+Zunze O
+Ubumwe O
+za O
+Amerika O
 , O
 avuga O
 ko O
@@ -33672,7 +33672,7 @@ ikururira O
 abashoramari O
 bo O
 muri O
-Amerika O
+Amerika B-LOC
 kuza O
 gushora O
 mu O
@@ -33691,7 +33691,7 @@ Ambasade O
 ya O
 Amerika O
 mu O
-Rwanda B-LOC
+Rwanda O
 , O
 bishimira O
 imyaka O
@@ -33704,7 +33704,7 @@ byubakwa O
 Ni O
 ibiro O
 Perezida O
-Bush B-PER
+Bush O
 yitiriye O
 Martin B-PER
 Luther I-PER
@@ -33732,7 +33732,7 @@ Ambasaderi O
 wa O
 Amerika O
 mu O
-Rwanda O
+Rwanda B-LOC
 yavuze O
 ko O
 uwo O
@@ -33742,7 +33742,7 @@ uw’amateka O
 mu O
 mubano O
 w’u O
-Rwanda O
+Rwanda B-LOC
 na O
 Amerika B-LOC
 . O
@@ -33821,7 +33821,7 @@ ko O
 ejo O
 heza O
 h’u O
-Rwanda O
+Rwanda B-LOC
 hashoboka O
 cyane O
 ashingiye O
@@ -33915,12 +33915,12 @@ Rwanda O
 . O
 
 Ahagana O
-saa B-DATE
-cyenda I-DATE
+saa O
+cyenda O
 , O
 Bush O
 na O
-Laura B-PER
+Laura O
 bagiye O
 muri O
 Lycée O
@@ -34024,7 +34024,7 @@ mu O
 kiganiro O
 n’abanyamakuru O
 , O
-Bush O
+Bush B-PER
 yabikomojeho O
 , O
 avuga O
@@ -34039,9 +34039,9 @@ biganisha O
 ku O
 byabaye O
 mu O
-Rwanda O
+Rwanda B-LOC
 mu O
-1994 O
+1994 B-DATE
 . O
 
 Bush O
@@ -34060,8 +34060,8 @@ uwa O
 kabiri O
 nyuma O
 ya O
-Bill B-PER
-Clinton I-PER
+Bill O
+Clinton O
 wahaje O
 mu O
 1998 B-DATE
@@ -34106,7 +34106,7 @@ miliyoni O
 $ O
 13 O
 mu O
-2007 O
+2007 B-DATE
 ibyo O
 ruvanayo O
 biba O
@@ -34121,7 +34121,7 @@ miliyoni O
 $ O
 16 O
 mu O
-2007 B-DATE
+2007 O
 . O
 
 Ibigwi O
@@ -34142,7 +34142,7 @@ mbere O
 Abatekereza O
 b’amateka O
 y’u O
-Rwanda B-LOC
+Rwanda O
 n’abayatekererezwa O
 , O
 bakunze O
@@ -34181,8 +34181,8 @@ bakunze O
 gutangarira O
 ibikorwa O
 by’umwami O
-Kigeli B-PER
-Rwabugili I-PER
+Kigeli O
+Rwabugili O
 , O
 wazengereje O
 amahanga O
@@ -34197,7 +34197,7 @@ no O
 kumva O
 izina O
 “ O
-Rwanda’’ B-LOC
+Rwanda’’ O
 mu O
 matwi O
 yabo O
@@ -34232,8 +34232,8 @@ ku O
 bigwi O
 n’ibirindiro O
 by’umwami O
-Kigeli O
-Rwabugili O
+Kigeli B-PER
+Rwabugili I-PER
 , O
 dore O
 ko O
@@ -34265,10 +34265,10 @@ rugahaya O
 igitinyiro’’ O
 cyanditswe O
 n’Umusizi O
-Nsanzabera O
-Jean O
-de O
-Dieu O
+Nsanzabera B-PER
+Jean I-PER
+de I-PER
+Dieu I-PER
 , O
 inzobere O
 ku O
@@ -34315,7 +34315,7 @@ icy’Imigogo O
 Rwabugili O
 yagabye O
 muri O
-Nkore O
+Nkore B-LOC
 , O
 cyabaye O
 mu O
@@ -34325,7 +34325,7 @@ bari O
 batangiye O
 gusesekara O
 muri O
-Afurika B-LOC
+Afurika O
 y’Iburasirazuba O
 ngo O
 bayikoronize O
@@ -34355,7 +34355,7 @@ byabo O
 . O
 
 Mu O
-Rwanda B-LOC
+Rwanda O
 ho O
 bari O
 bakihasunasuna O
@@ -34435,7 +34435,7 @@ ni O
 ukuvuga O
 mu O
 wa O
-1892 O
+1892 B-DATE
 . O
 
 Bitewe O
@@ -34456,7 +34456,7 @@ Rwanda B-LOC
 icyari O
 kiraje O
 ishinga O
-Rwabugili B-PER
+Rwabugili O
 , O
 ni O
 ibihugu O
@@ -34509,7 +34509,7 @@ rwa O
 Migereka O
 umwami O
 wa O
-Nkore O
+Nkore B-LOC
 watwaraga O
 icyo O
 gihe O
@@ -34536,14 +34536,14 @@ Nyagatare O
 
 Icyo O
 gihe O
-Rwabugili O
+Rwabugili B-PER
 yari O
 yaragabye O
 ibitero O
 mu O
 Burengerazuba O
 bw’u O
-Rwanda O
+Rwanda B-LOC
 ku O
 Ijwi O
 ryari O
@@ -34563,7 +34563,7 @@ akanyaga O
 Inka O
 ze O
 zari O
-Rutaraka B-LOC
+Rutaraka O
 muri O
 Nyagatare O
 . O
@@ -34582,7 +34582,7 @@ ya O
 Rwabugili O
 yari O
 i O
-Rutaraka O
+Rutaraka B-LOC
 mu O
 Ndorwa O
 , O
@@ -34628,7 +34628,7 @@ Rwabugili O
 yayabariwe O
 n’ O
 umuhima O
-Bukomangando B-PER
+Bukomangando O
 wabaciye O
 mu O
 rihumye O
@@ -34649,7 +34649,7 @@ ubuhangange O
 n’ubudatsindwa O
 . O
 
-Rwabugili B-PER
+Rwabugili O
 uburakari O
 buramusaba O
 yibaza O
@@ -34677,7 +34677,7 @@ cyagabwe O
 ku O
 Banyankore O
 muri O
-Gashyantare O
+Gashyantare B-DATE
 umwaka O
 wa O
 1894 O
@@ -34734,11 +34734,11 @@ rw’Abanyankore O
 rwari O
 rukambitse O
 i O
-Kagitumba O
+Kagitumba B-LOC
 , O
-Nyamuhenda B-PER
-wa I-PER
-Kajeje I-PER
+Nyamuhenda O
+wa O
+Kajeje O
 yasanze O
 atari O
 ukunyaga O
@@ -34751,7 +34751,7 @@ no O
 kurwana O
 . O
 
-Nyamuhenda O
+Nyamuhenda B-PER
 n’Ibisumizi O
 , O
 bakabona O
@@ -34812,7 +34812,7 @@ gitero O
 Abanyankore O
 bagabye O
 mu O
-Rwanda B-LOC
+Rwanda O
 , O
 nicyo O
 kiswe O
@@ -34825,7 +34825,7 @@ Nkore B-LOC
 “ O
 Ehururu O
 ya O
-Rwanda B-LOC
+Rwanda O
 """" O
 . O
 
@@ -34834,9 +34834,9 @@ rwaremeye O
 mu O
 Kibande O
 cya O
-Ruhumba B-LOC
-rwa I-LOC
-Kiyojo I-LOC
+Ruhumba O
+rwa O
+Kiyojo O
 . O
 
 Nyamuhenda O
@@ -34883,7 +34883,7 @@ atanga O
 ubutumwa O
 ibukuru O
 aho O
-Rwabugili B-PER
+Rwabugili O
 yari O
 , O
 amutangariza O
@@ -34956,7 +34956,7 @@ kuri O
 , O
 baravunura O
 batera O
-Nkore B-LOC
+Nkore O
 . O
 
 Bageze O
@@ -35043,9 +35043,9 @@ kirere O
 , O
 niko O
 kubaza O
-Nyamuhenda O
-wa O
-Kajeje O
+Nyamuhenda B-PER
+wa I-PER
+Kajeje I-PER
 , O
 ati O
 “ O
@@ -35152,9 +35152,9 @@ yo O
 kugirwa O
 Minisitiri O
 
-Ku O
-wa O
-Mbere O
+Ku B-DATE
+wa I-DATE
+Mbere I-DATE
 tariki O
 4 O
 Ugushyingo O
@@ -35163,8 +35163,8 @@ nibwo O
 Perezida O
 wa O
 Repubulika O
-Paul B-PER
-Kagame I-PER
+Paul O
+Kagame O
 yashyize O
 mu O
 murimo O
@@ -35175,8 +35175,8 @@ bayobozi O
 banyuranye O
 . O
 
-Bamporiki B-PER
-Edouard I-PER
+Bamporiki O
+Edouard O
 yagizwe O
 Umunyamabanga O
 wa O
@@ -35246,7 +35246,7 @@ ku O
 rukuta O
 rwe O
 rwa O
-Twitter B-ORG
+Twitter O
 , O
 Bamporiki B-PER
 yagize O
@@ -35293,7 +35293,7 @@ kurasaniraho O
 . O
 
 U O
-Rwanda B-LOC
+Rwanda O
 nirweme O
 . O
 
@@ -35324,7 +35324,7 @@ Usibye O
 kuzishimira O
 , O
 ikindi O
-Bamporiki O
+Bamporiki B-PER
 yavuzemo O
 ni O
 uko O
@@ -35374,7 +35374,7 @@ urunana O
 aho O
 akina O
 yitwa O
-Tadeyo B-PER
+Tadeyo O
 cyangwa O
 se O
 Kideyo O
@@ -35390,7 +35390,7 @@ Solina O
 , O
 inshuti O
 ya O
-Bushombe O
+Bushombe B-PER
 na O
 Sitefano O
 b’i O
@@ -35404,7 +35404,7 @@ Ukuboza O
 1983 O
 , O
 i O
-Nyamasheke B-LOC
+Nyamasheke O
 mu O
 Ntara O
 y’Iburengerazuba O
@@ -35423,11 +35423,11 @@ yiga O
 amategeko O
 mpuzamahanga O
 muri O
-Kaminuza B-ORG
-yigenga I-ORG
-ya I-ORG
-Kigali I-ORG
-ULK I-ORG
+Kaminuza O
+yigenga O
+ya O
+Kigali O
+ULK O
 . O
 
 Yakuze O
@@ -35546,7 +35546,7 @@ N’ubwo O
 abantu O
 bagiye O
 bumva O
-Tadeyo O
+Tadeyo B-PER
 akina O
 ari O
 umusaza O
@@ -35582,7 +35582,7 @@ bindi O
 bijyanye O
 n’ubuhanzi O
 , O
-Bamporiki B-PER
+Bamporiki O
 yakunze O
 kugaragara O
 muri O
@@ -35627,7 +35627,7 @@ iyitwa O
 take O
 two’ O
 ya O
-Pia O
+Pia B-PER
 nawe O
 wo O
 muri O
@@ -35636,8 +35636,8 @@ Amerika O
 n’iyitwa O
 ’Imitoma’ O
 ya O
-Kwezi O
-John O
+Kwezi B-PER
+John I-PER
 . O
 
 Mu O
@@ -35670,7 +35670,7 @@ ry’amafilime O
 rya O
 Cannes O
 mu O
-Bufaransa O
+Bufaransa B-LOC
 , O
 mu O
 2010 O
@@ -35682,7 +35682,7 @@ mu O
 Buholandi O
 , O
 mu O
-2011 B-DATE
+2011 O
 yitabira O
 iryabereye O
 muri O
@@ -35701,14 +35701,14 @@ yabonye O
 igihembo O
 yakuye O
 i O
-New O
-York O
+New B-LOC
+York I-LOC
 muri O
-Leta B-LOC
-Zunze I-LOC
-Ubumwe I-LOC
-za I-LOC
-Amerika I-LOC
+Leta O
+Zunze O
+Ubumwe O
+za O
+Amerika O
 , O
 akaba O
 yarahembewe O
@@ -35733,11 +35733,11 @@ nka O
 Nirere B-PER
 Shanel I-PER
 , O
-Mani O
-Martin O
+Mani B-PER
+Martin I-PER
 n’umukinnyi O
-Jimmy B-PER
-Gatete I-PER
+Jimmy O
+Gatete O
 . O
 
 Mu O
@@ -35765,7 +35765,7 @@ bitandukanye O
 , O
 Bamporiki O
 mu O
-2013 O
+2013 B-DATE
 yatorewe O
 kuba O
 intumwa O
@@ -35775,11 +35775,11 @@ rubanda O
 aba O
 Umudepite O
 mu O
-Nteko O
-Ishinga O
-Amategeko O
-y’u O
-Rwanda O
+Nteko B-ORG
+Ishinga I-ORG
+Amategeko I-ORG
+y’u I-ORG
+Rwanda I-ORG
 . O
 
 Ku O
@@ -35817,7 +35817,7 @@ Ukuboza O
 2010 O
 . O
 
-Bamporiki B-PER
+Bamporiki O
 yize O
 amasomo O
 atandukanye O
@@ -35873,8 +35873,8 @@ mpuzamahanga O
 
 Ubutumwa O
 bwa O
-Bamporiki B-PER
-Edouard I-PER
+Bamporiki O
+Edouard O
 nyuma O
 yo O
 guhabwa O
@@ -35925,11 +35925,11 @@ nirweme O
 . O
 
 — O
-Bamporiki O
-Edouard O
+Bamporiki B-PER
+Edouard I-PER
 ( O
 @ O
-Bamporikie O
+Bamporikie B-PER
 ) O
 November B-DATE
 4 I-DATE
@@ -35986,7 +35986,7 @@ igihugu O
 kimwe O
 aricyo O
 u O
-Rwanda O
+Rwanda B-LOC
 . O
 
 Abantu O
@@ -36141,7 +36141,7 @@ mbere O
 ku O
 butaka O
 bw’u O
-Rwanda B-LOC
+Rwanda O
 , O
 bafite O
 inkomoko O
@@ -36291,11 +36291,11 @@ u O
 Burengerazuba O
 , O
 mu O
-Rwanda O
+Rwanda B-LOC
 rw’Amajyepfo O
 no O
 mu O
-Rwanda B-LOC
+Rwanda O
 rwo O
 Hagati O
 ndetse O
@@ -36328,7 +36328,7 @@ Kigeyo O
 , O
 Mushonyi O
 , O
-Musasa B-LOC
+Musasa O
 , O
 Ruhango B-LOC
 , O
@@ -36375,7 +36375,7 @@ kuri O
 ubu O
 butaka O
 bw’u O
-Rwanda B-LOC
+Rwanda O
 bakurikiye O
 bene O
 wabo O
@@ -36463,8 +36463,8 @@ rwo O
 hagati O
 no O
 mu O
-Majyepfo B-LOC
-y’Iburasirazuba I-LOC
+Majyepfo O
+y’Iburasirazuba O
 . O
 
 Gakondo O
@@ -36485,7 +36485,7 @@ yo O
 mu O
 Karere O
 ka O
-Kayonza B-LOC
+Kayonza O
 , O
 ukongeraho O
 Umurenge O
@@ -36522,7 +36522,7 @@ Afurika O
 mu O
 gihugu O
 cya O
-Ethiopia B-LOC
+Ethiopia O
 . O
 
 Inkomoko O
@@ -36552,8 +36552,8 @@ ya O
 300 O
 nyuma O
 ya O
-Yezu B-PER
-Kirisitu I-PER
+Yezu O
+Kirisitu O
 . O
 
 Abanyiginya O
@@ -36561,8 +36561,8 @@ basesekaye O
 mu O
 Karere O
 ka O
-Afurika O
-y’Iburasirazuba O
+Afurika B-LOC
+y’Iburasirazuba I-LOC
 no O
 mu O
 Rwanda B-LOC
@@ -36579,7 +36579,7 @@ nk’abandi O
 bose O
 ry’abatuye O
 muri O
-Afurika B-LOC
+Afurika O
 , O
 bashaka O
 ubwinyagamburiro O
@@ -36600,10 +36600,10 @@ rwo O
 mu O
 muhora O
 uhuza O
-Afurika O
-y’Amajyaruguru O
-y’Iburasirazuba O
-n’iy’Amajyepfo O
+Afurika B-LOC
+y’Amajyaruguru I-LOC
+y’Iburasirazuba I-LOC
+n’iy’Amajyepfo I-LOC
 , O
 bagaca O
 mu O
@@ -36613,7 +36613,7 @@ Somaliya O
 , O
 Kenya O
 na O
-Uganda O
+Uganda B-LOC
 , O
 niko O
 gusesekara O
@@ -36621,23 +36621,23 @@ kuri O
 ubu O
 butaka O
 bw’u O
-Rwanda O
+Rwanda B-LOC
 . O
 
 Barasukiye O
 mu O
-Burasirazuba O
-bw’u O
-Rwanda O
+Burasirazuba B-LOC
+bw’u I-LOC
+Rwanda I-LOC
 mu O
 Murenge O
 wa O
-Gatsibo O
+Gatsibo B-LOC
 wo O
 mu O
 Karere O
 ka O
-Gatsibo B-LOC
+Gatsibo O
 , O
 basanga O
 Abazigaba O
@@ -36654,7 +36654,7 @@ ikomatanyije O
 Imirenge O
 y’Akarere O
 ka O
-Gatsibo B-LOC
+Gatsibo O
 , O
 n’imirenge O
 imwe O
@@ -36763,7 +36763,7 @@ bahanga O
 igihugu O
 cyabo O
 kitwaga O
-Gasabo B-LOC
+Gasabo O
 , O
 cyinjira O
 mu O
@@ -36788,15 +36788,15 @@ cya O
 , O
 gihangwa O
 na O
-Gihanga O
-Ngomijana O
+Gihanga B-PER
+Ngomijana I-PER
 , O
 umukurambere O
 w’Abangiyinya O
 bahanze O
 ingoma O
 y’u O
-Rwanda B-LOC
+Rwanda O
 . O
 
 I O
@@ -36829,10 +36829,10 @@ Gihanga B-PER
 muri O
 byo O
 dusangamo O
-Ndorwa O
+Ndorwa B-LOC
 y’Abashambo O
 , O
-Kibali B-LOC
+Kibali O
 y’Abega O
 , O
 u O
@@ -36867,30 +36867,30 @@ Mirenge O
 ya O
 Nduba O
 , O
-Bumbogo B-LOC
+Bumbogo O
 , O
-Rutunga O
+Rutunga B-LOC
 , O
 Gikomero B-LOC
 , O
 Ndera O
 na O
-Rusororo B-LOC
+Rusororo O
 yo O
 mu O
 Karere O
 ka O
-Gasabo B-LOC
+Gasabo O
 , O
 ukongeraho O
 n’Umurenge O
 wa O
-Fumbwe O
+Fumbwe B-LOC
 wo O
 mu O
 Karere O
 ka O
-Rwamagana B-LOC
+Rwamagana O
 . O
 
 Nyuma O
@@ -36932,8 +36932,8 @@ cya O
 Rubaduka B-PER
 Frank I-PER
 
-Rubaduka B-PER
-Frank I-PER
+Rubaduka O
+Frank O
 yanditse O
 igitabo O
 kigaragaza O
@@ -37033,7 +37033,7 @@ Kizacururizwa O
 ku O
 rubuga O
 rwa O
-Amazon B-ORG
+Amazon O
 . O
 
 Uyu O
@@ -37299,7 +37299,7 @@ cyo O
 yiyemeje O
 . O
 
-Rubaduka O
+Rubaduka B-PER
 yavuze O
 ko O
 amaze O
@@ -37349,13 +37349,13 @@ Rubaduka O
 Frank O
 yavukiye O
 muri O
-Uganda B-LOC
+Uganda O
 , O
 umuryango O
 we O
 utahuka O
 mu O
-Rwanda O
+Rwanda B-LOC
 nyuma O
 y’uko O
 Ingabo O
@@ -37367,12 +37367,12 @@ Jenoside O
 yakorewe O
 Abatutsi O
 muri O
-Mata O
-1994 O
+Mata B-DATE
+1994 I-DATE
 . O
 
-Village B-LOC
-Urugwiro I-LOC
+Village O
+Urugwiro O
 , O
 inyubako O
 y’amateka O
@@ -37380,8 +37380,8 @@ akomeye O
 mu O
 Rwanda B-LOC
 
-Village B-LOC
-Urugwiro I-LOC
+Village O
+Urugwiro O
 , O
 ni O
 inyubako O
@@ -37416,8 +37416,8 @@ mu O
 mahanga O
 . O
 
-Village B-LOC
-Urugwiro I-LOC
+Village O
+Urugwiro O
 , O
 ni O
 inyubako O
@@ -37467,16 +37467,16 @@ iriho O
 , O
 iganje O
 ku O
-Kacyiru O
+Kacyiru B-LOC
 , O
 mu O
 Karere O
 ka O
-Gasabo O
+Gasabo B-LOC
 mu O
 Mujyi O
 wa O
-Kigali O
+Kigali B-LOC
 aho O
 imaze O
 imyaka O
@@ -37495,7 +37495,7 @@ cyane O
 cyane O
 ibyakolonijwe O
 n’u O
-Bufaransa B-LOC
+Bufaransa O
 n’ibikoresha O
 Igifaransa O
 , O
@@ -37516,7 +37516,7 @@ ubu O
 wazimye O
 , O
 u O
-Rwanda B-LOC
+Rwanda O
 rwawinjiyemo O
 mu O
 1965 O
@@ -37545,7 +37545,7 @@ rikomeye O
 ku O
 gihugu O
 nk’u O
-Rwanda O
+Rwanda B-LOC
 cyari O
 gifite O
 hoteli O
@@ -37592,8 +37592,8 @@ mafaranga O
 ya O
 OCAM O
 nkuko O
-Rucagu B-PER
-Boniface I-PER
+Rucagu O
+Boniface O
 , O
 umwe O
 mu O
@@ -37654,14 +37654,14 @@ Leta O
 Urugero O
 ni O
 tariki O
-21 B-DATE
-na I-DATE
-22 I-DATE
-Gicurasi I-DATE
-1979 I-DATE
+21 O
+na O
+22 O
+Gicurasi O
+1979 O
 ubwo O
 u O
-Rwanda O
+Rwanda B-LOC
 rwakiraga O
 inama O
 ya O
@@ -37681,12 +37681,12 @@ Bufaransa O
 icyo O
 gihe O
 , O
-Valéry O
-Marie O
-René O
-Georges O
-Giscard O
-d’Estaing O
+Valéry B-PER
+Marie I-PER
+René I-PER
+Georges I-PER
+Giscard I-PER
+d’Estaing I-PER
 . O
 
 Mbere O
@@ -37702,8 +37702,8 @@ bwatanze O
 amafaranga O
 yo O
 kwagura O
-Village O
-Urugwiro O
+Village B-LOC
+Urugwiro I-LOC
 no O
 kuyivugurura O
 kugira O
@@ -37723,9 +37723,9 @@ mu O
 nyandiko O
 z’ibanga O
 za O
-Ambasade B-ORG
-ya I-ORG
-Amerika I-ORG
+Ambasade O
+ya O
+Amerika O
 mu O
 Rwanda O
 muri O
@@ -37758,7 +37758,7 @@ ku O
 mafaranga O
 yatanzwe O
 n’u O
-Bufaransa O
+Bufaransa B-LOC
 . O
 
 Rucagu O
@@ -37801,7 +37801,7 @@ amaze O
 gufata O
 ubutegetsi O
 mu O
-1973 B-DATE
+1973 O
 , O
 yahise O
 asesa O
@@ -37813,7 +37813,7 @@ Amategeko I-ORG
 Yongeye O
 kuyisubizaho O
 mu O
-1981 O
+1981 B-DATE
 , O
 abadepite O
 ba O
@@ -37838,8 +37838,8 @@ buri O
 mudepite O
 icumbi O
 muri O
-Village O
-Urugwiro O
+Village B-LOC
+Urugwiro I-LOC
 dore O
 ko O
 abenshi O
@@ -37871,7 +37871,7 @@ ubwo O
 yatangiraga O
 imirimo O
 mu O
-1984 B-DATE
+1984 O
 na O
 we O
 ahabwa O
@@ -37926,7 +37926,7 @@ amafaranga O
 y’icumbi O
 . O
 
-Rucagu B-PER
+Rucagu O
 ati O
 “ O
 Uwabaga O
@@ -37985,7 +37985,7 @@ n’amacumbi O
 y’abadepite O
 , O
 Perezida O
-Habyarimana B-PER
+Habyarimana O
 na O
 we O
 yahashyize O
@@ -38071,8 +38071,8 @@ izo O
 zari O
 zigize O
 Hotel O
-Village O
-Urugwiro O
+Village B-LOC
+Urugwiro I-LOC
 yabaga O
 ifite O
 icyiciro O
@@ -38198,8 +38198,8 @@ bari O
 barahawe O
 amacumbi O
 muri O
-Village O
-Urugwiro O
+Village B-LOC
+Urugwiro I-LOC
 basabwaga O
 kuvamo O
 bakazagaruka O
@@ -38233,8 +38233,8 @@ y’Inteko O
 twariyeranjaga O
 . O
 
-Village O
-Urugwiro O
+Village B-LOC
+Urugwiro I-LOC
 yakomeje O
 kuba O
 hoteli O
@@ -38252,7 +38252,7 @@ imaze O
 guhagarikwa O
 , O
 muri O
-Nyakanga O
+Nyakanga B-DATE
 uwo O
 mwaka O
 Leta O
@@ -38284,8 +38284,8 @@ cyahawe O
 intebe O
 muri O
 Miss O
-Rwanda B-LOC
-2020 O
+Rwanda O
+2020 B-DATE
 , O
 urundi O
 rurimi O
@@ -38301,7 +38301,7 @@ ikamba O
 rya O
 Miss O
 Rwanda O
-2020 O
+2020 B-DATE
 batangiye O
 kwiyandikisha O
 binyuze O
@@ -38331,8 +38331,8 @@ guhatanira O
 ikamba O
 rya O
 Miss O
-Rwanda O
-2020 O
+Rwanda B-LOC
+2020 B-DATE
 batangiye O
 kwiyandikisha O
 binyuze O
@@ -38371,10 +38371,10 @@ bujuje O
 nkuko O
 byatangajwe O
 na O
-Rwanda O
-Inspiration O
-Back O
-Up O
+Rwanda B-ORG
+Inspiration I-ORG
+Back I-ORG
+Up I-ORG
 isanzwe O
 itegura O
 iri O
@@ -38464,7 +38464,7 @@ Kuba O
 yiteguye O
 kuguma O
 mu O
-Rwanda O
+Rwanda B-LOC
 byibuze O
 mu O
 gihe O
@@ -38489,7 +38489,7 @@ Kuba O
 yiteguye O
 guhagararira O
 u O
-Rwanda O
+Rwanda B-LOC
 ahantu O
 hose O
 n’igihe O
@@ -38569,16 +38569,16 @@ Rwanda O
 
 Umuyobozi O
 wa O
-Rwanda O
-Inspiration O
-Back O
-Up O
+Rwanda B-ORG
+Inspiration I-ORG
+Back I-ORG
+Up I-ORG
 , O
-Ishimwe B-PER
-Dieudonne I-PER
+Ishimwe O
+Dieudonne O
 , O
 yabwiye O
-IGIHE B-ORG
+IGIHE O
 ko O
 aribyo O
 koko O
@@ -38649,8 +38649,8 @@ mahitamo O
 y’uhatana O
 . O
 
-Prince O
-Kid O
+Prince B-PER
+Kid I-PER
 yavuze O
 ko O
 mu O
@@ -38721,13 +38721,13 @@ ikoreshwa O
 ry’indimi O
 z’amahanga O
 ni O
-Ange O
-Kagame O
+Ange B-PER
+Kagame I-PER
 , O
 ubwo O
 hasozwaga O
 Miss O
-Rwanda B-LOC
+Rwanda O
 2019 B-DATE
 yagaragaje O
 ko O
@@ -38779,13 +38779,13 @@ ntacyo O
 
 Igitekerezo O
 cya O
-Ange B-PER
-Kagame I-PER
+Ange O
+Kagame O
 cyakiriwe O
 neza O
 n’abamukurikira O
 kuri O
-Twitter O
+Twitter B-ORG
 , O
 urebye O
 uburyo O
@@ -38801,7 +38801,7 @@ benshi O
 bifuzaga O
 ko O
 Miss O
-Rwanda B-LOC
+Rwanda O
 yajya O
 ikorwa O
 mu O
@@ -38815,8 +38815,8 @@ igitekerezo O
 cyari O
 cyatanzwe O
 na O
-Ange B-PER
-Kagame I-PER
+Ange O
+Kagame O
 ku O
 irushanwa O
 rya O
@@ -38856,7 +38856,7 @@ poor O
 english O
 . O
 
-Kagame O
+Kagame B-PER
 ( O
 @ O
 AngeKagame O
@@ -38876,7 +38876,7 @@ Kigali O
 nka O
 Nyarugenge O
 , O
-Kacyiru O
+Kacyiru B-LOC
 n’utundi O
 
 Ikigo B-ORG
@@ -38936,7 +38936,7 @@ z’Umurage O
 w’u O
 Rwanda O
 ( O
-INMR B-ORG
+INMR O
 ) O
 cyatangaje O
 ko O
@@ -38999,7 +38999,7 @@ runaka O
 
 Izina O
 """" O
-Nyarugenge O
+Nyarugenge B-LOC
 """" O
 rituruka O
 ku O
@@ -39039,8 +39039,8 @@ byitwa O
 ‘Imironko’ O
 ryatewe O
 na O
-Cyilima O
-Rujugira O
+Cyilima B-PER
+Rujugira I-PER
 , O
 kugira O
 ngo O
@@ -39055,7 +39055,7 @@ guhangana O
 n’amahanga O
 adakunda O
 u O
-Rwanda O
+Rwanda B-LOC
 . O
 
 Kimihurura O
@@ -39074,7 +39074,7 @@ z’Umurage O
 w’u O
 Rwanda O
 ( O
-INMR O
+INMR B-ORG
 ) O
 kivuga O
 ko O
@@ -39091,7 +39091,7 @@ runaka O
 
 Nka O
 “ O
-Kacyiru O
+Kacyiru B-LOC
 """" O
 bivugwa O
 ko O
@@ -39106,7 +39106,7 @@ wari O
 umutware O
 na O
 “ O
-Rwabutabura O
+Rwabutabura B-LOC
 """" O
 ryatanzwe O
 riturutse O
@@ -39140,7 +39140,7 @@ De O
 Dieu O
 avuga O
 ko O
-‘Kacyiru O
+‘Kacyiru B-LOC
 ( O
 agasozi O
 k’icyiru O
@@ -39161,7 +39161,7 @@ banze O
 kuyoboka O
 ingoma O
 ya O
-Mukobanya B-PER
+Mukobanya O
 , O
 nyuma O
 yo O
@@ -39169,12 +39169,12 @@ kuhigarurira O
 ahasaga O
 mu O
 wa O
-1378 O
+1378 B-DATE
 ubwo O
 yicaga O
-Nkuba B-PER
-ya I-PER
-Nyabakonjo I-PER
+Nkuba O
+ya O
+Nyabakonjo O
 umwami O
 w’u O
 Bwanacyambwe O
@@ -39190,7 +39190,7 @@ amacumu O
 yo O
 kwagura O
 u O
-Rwanda B-LOC
+Rwanda O
 rwubatswe O
 na O
 Kigeli O
@@ -39212,7 +39212,7 @@ bw’inka O
 . O
 
 “ O
-Kicukiro B-LOC
+Kicukiro O
 """" O
 risobanuye O
 umusozi O
@@ -39249,8 +39249,8 @@ hubatse O
 ibiraro O
 by’inka O
 za O
-Kigeli O
-Mukobanya O
+Kigeli B-PER
+Mukobanya I-PER
 n’umuhungu O
 we O
 Mibambwe B-PER
@@ -39272,7 +39272,7 @@ waraturutse O
 i O
 Karagwe O
 witwa O
-‘Gasunzu’ B-PER
+‘Gasunzu’ O
 nyuma O
 aho O
 atuye O
@@ -39292,7 +39292,7 @@ kuri O
 Radiyo O
 ko O
 ari O
-‘Kabusunzu’ O
+‘Kabusunzu’ B-LOC
 rihama O
 rityo O
 . O
@@ -39311,7 +39311,7 @@ ubwo O
 abanyoro O
 bateraga O
 u O
-Rwanda B-LOC
+Rwanda O
 . O
 
 Amateka O
@@ -39321,8 +39321,8 @@ mu O
 nzu O
 ndangamateka O
 yitiriwe O
-Richard B-PER
-Kandt I-PER
+Richard O
+Kandt O
 ( O
 Kandt O
 House O
@@ -39364,7 +39364,7 @@ Semakamba B-LOC
 habereye O
 urubanza O
 rwa O
-Semakamba B-PER
+Semakamba O
 n’Umwami O
 Kigeli O
 Rwabugiri O
@@ -39376,7 +39376,7 @@ yagizwe O
 umurwa O
 mukuru O
 w’u O
-Rwanda O
+Rwanda B-LOC
 bwa O
 mbere O
 ku O
@@ -39384,7 +39384,7 @@ bwa O
 Kigeli O
 Mukobanya O
 ahasaga O
-1378 O
+1378 B-DATE
 . O
 
 Umurwa O
@@ -39402,7 +39402,7 @@ Gasabo O
 mu O
 Murenge O
 wa O
-Rutunga B-LOC
+Rutunga O
 h’ubu O
 . O
 
@@ -39528,10 +39528,10 @@ mu O
 Buvanganzo’’ O
 cyanditswe O
 n’Umusizi O
-Nsanzabera B-PER
-Jean I-PER
-de I-PER
-Dieu I-PER
+Nsanzabera O
+Jean O
+de O
+Dieu O
 , O
 Inzobere O
 ku O
@@ -39864,7 +39864,7 @@ ko O
 bwaba O
 bukomoka O
 mu O
-Gisaka B-LOC
+Gisaka O
 , O
 aho O
 bwadutse O
@@ -40010,7 +40010,7 @@ cyakoreshwaga O
 mu O
 ntambara O
 y’I O
-Gisaka O
+Gisaka B-LOC
 n’u O
 Rwanda O
 kugira O
@@ -40217,9 +40217,9 @@ na O
 zimwe O
 . O
 
-1884 B-DATE
-- I-DATE
-1885 I-DATE
+1884 O
+- O
+1885 O
 : O
 Uko O
 byagenze O
@@ -40257,7 +40257,7 @@ bajya O
 umugambi O
 wo O
 kugira O
-Afurika O
+Afurika B-LOC
 iyabo O
 . O
 
@@ -40266,7 +40266,7 @@ y’imyaka O
 300 O
 yo O
 gusahura O
-Afurika O
+Afurika B-LOC
 abaturage O
 bayo O
 bajyanwa O
@@ -40277,10 +40277,10 @@ mirimo O
 y’agahato O
 n’ubucakara O
 muri O
-Amerika B-LOC
+Amerika O
 , O
 mu O
-1884 B-DATE
+1884 O
 Abanyaburayi O
 bahinduye O
 umuvuno O
@@ -40289,7 +40289,7 @@ bajya O
 umugambi O
 wo O
 kugira O
-Afurika O
+Afurika B-LOC
 iyabo O
 . O
 
@@ -40319,7 +40319,7 @@ basahura O
 mutungo O
 kamere O
 wa O
-Afurika B-LOC
+Afurika O
 . O
 
 Mu O
@@ -40355,17 +40355,17 @@ ukwawo O
 . O
 
 Ku O
-gicamunsi O
-cyo O
-kuwa O
-Gatandatu O
+gicamunsi B-DATE
+cyo I-DATE
+kuwa I-DATE
+Gatandatu I-DATE
 tariki O
-15 B-DATE
-Ugushyingo I-DATE
-1884 I-DATE
+15 O
+Ugushyingo O
+1884 O
 , O
 i O
-Berlin B-LOC
+Berlin O
 mu O
 ngoro O
 y’ubwami O
@@ -40388,9 +40388,9 @@ Chancelier O
 w’u O
 Budage O
 , O
-Otto B-PER
-von I-PER
-Bismarck I-PER
+Otto O
+von O
+Bismarck O
 . O
 
 Intego O
@@ -40443,7 +40443,7 @@ abayobozi O
 b’ibihugu O
 13 O
 by’i O
-Burayi O
+Burayi B-LOC
 . O
 
 Leta O
@@ -40484,30 +40484,30 @@ bimaze O
 kwemeranya O
 uko O
 bizigabanya O
-Afurika B-LOC
+Afurika O
 , O
 by’umwihariko O
 ibyifataga O
 nk’ibikomeye O
 birimo O
 u O
-Budage O
+Budage B-LOC
 , O
 u O
-Bufaransa O
+Bufaransa B-LOC
 , O
 u O
 Bwongereza O
 , O
 u O
-Buholandi O
+Buholandi B-LOC
 , O
 u O
 Bubiligi O
 , O
 Portugal O
 na O
-Espagne B-LOC
+Espagne O
 . O
 
 Mu O
@@ -40564,7 +40564,7 @@ Afurika O
 uvanyemo O
 Liberia O
 na O
-Ethiopia O
+Ethiopia B-LOC
 y’ubu O
 , O
 byaragabanywe O
@@ -40577,7 +40577,7 @@ ibyagabanwaga O
 ari O
 ubukungu O
 bwa O
-Afurika B-LOC
+Afurika O
 , O
 nta O
 munyafurika O
@@ -40608,12 +40608,12 @@ Inzobere O
 mu O
 mateka O
 ya O
-Afurika B-LOC
+Afurika O
 , O
 Umunyanijeriya O
 Prof O
-Olyaemi O
-Akinwumi O
+Olyaemi B-PER
+Akinwumi I-PER
 yavuze O
 ko O
 kugabanya O
@@ -40652,10 +40652,10 @@ yatangiriye O
 mu O
 nama O
 y’i O
-Berlin O
+Berlin B-LOC
 . O
 
-Akinwumi O
+Akinwumi B-PER
 avuga O
 ko O
 nk’ubwoko O
@@ -40816,7 +40816,7 @@ batangiye O
 kwinjira O
 imbere O
 muri O
-Afurika O
+Afurika B-LOC
 bashakisha O
 ibyo O
 kwifashisha O
@@ -40833,7 +40833,7 @@ nganda O
 zikora O
 ibinyabiziga O
 mu O
-Burayi B-LOC
+Burayi O
 n’ibindi O
 . O
 
@@ -40892,7 +40892,7 @@ mu O
 bice O
 byose O
 bigize O
-Congo B-LOC
+Congo O
 . O
 
 Nubwo O
@@ -40901,7 +40901,7 @@ II O
 yari O
 yemeye O
 ko O
-Congo O
+Congo B-LOC
 izabyazwa O
 umusaruro O
 n’abanyaburayi O
@@ -40918,29 +40918,29 @@ gutwara O
 umutungo O
 kamere O
 wa O
-Congo O
+Congo B-LOC
 amenshi O
 yasinyishwaga O
 sosiyete O
 zo O
 mu O
-Bubiligi O
+Bubiligi B-LOC
 . O
 
 Mu O
-1908 B-DATE
+1908 O
 byaje O
 kumenyekana O
 ko O
 ku O
 mabwiriza O
 ya O
-Leopold B-PER
-II I-PER
+Leopold O
+II O
 , O
 abaturage O
 ba O
-Congo O
+Congo B-LOC
 bategekwaga O
 kujya O
 gushaka O
@@ -40959,15 +40959,15 @@ cyangwa O
 ibirenge O
 . O
 
-Leopold B-PER
-II I-PER
+Leopold O
+II O
 yaje O
 kwamburwa O
-Congo B-LOC
+Congo O
 iherezwa O
-Guverinoma B-ORG
-y’u I-ORG
-Bubiligi I-ORG
+Guverinoma O
+y’u O
+Bubiligi O
 . O
 
 Kuva O
@@ -41007,16 +41007,16 @@ byahe O
 byokajya O
 . O
 
-Kugeza O
-mu O
-1914 O
+Kugeza B-DATE
+mu I-DATE
+1914 I-DATE
 , O
 nibura O
 90 O
 % O
 by’ibihugu O
 bya O
-Afurika B-LOC
+Afurika O
 byari O
 mu O
 maboko O
@@ -41066,7 +41066,7 @@ igihugu O
 kibakolonije O
 . O
 
-Akinwumi B-PER
+Akinwumi O
 avuga O
 ko O
 kubera O
@@ -41134,7 +41134,7 @@ yashyiriweho O
 mu O
 nama O
 y’i O
-Berlin B-LOC
+Berlin O
 ariko O
 basanga O
 byateza O
@@ -41150,7 +41150,7 @@ ku O
 mateka O
 y’ubukoloni O
 muri O
-Afurika O
+Afurika B-LOC
 , O
 akaba O
 n’umwarimu O
@@ -41216,7 +41216,7 @@ kurushaho O
 Mu O
 mwaka O
 wa O
-2010 B-DATE
+2010 O
 ubwo O
 hizihizwaga O
 imyaka O
@@ -41224,14 +41224,14 @@ imyaka O
 ishize O
 inama O
 y’i O
-Berlin O
+Berlin B-LOC
 irangiye O
 , O
 abari O
 bahagarariye O
 ibihugu O
 bya O
-Afurika B-LOC
+Afurika O
 muri O
 uwo O
 munsi O
@@ -41239,7 +41239,7 @@ wizihirijwe O
 Berlin B-LOC
 bavuze O
 ko O
-Afurika B-LOC
+Afurika O
 ikeneye O
 impozamarira O
 y’ibyangijwe O
@@ -41270,7 +41270,7 @@ ko O
 bidatunguranye O
 kuba O
 ntacyo O
-Afurika O
+Afurika B-LOC
 yahawe O
 . O
 
@@ -41283,7 +41283,7 @@ bivugwa O
 byo O
 guha O
 impozamarira O
-Afurika O
+Afurika B-LOC
 kubw’ubucakara O
 ndetse O
 n’impozamarira O
@@ -41304,7 +41304,7 @@ ijana O
 abanyaburayi O
 bamaze O
 muri O
-Afurika O
+Afurika B-LOC
 bayikoloniza O
 . O
 
@@ -41321,7 +41321,7 @@ ingoyi O
 cyashyizweho O
 n’inama O
 y’i O
-Berlin O
+Berlin B-LOC
 , O
 kibona O
 ubwigenge O
@@ -41359,7 +41359,7 @@ akaboko O
 mu O
 miyoborere O
 ya O
-Afurika B-LOC
+Afurika O
 ndetse O
 rimwe O
 na O
@@ -41409,13 +41409,13 @@ cy’amafaranga O
 n’amadevize O
 yacyo O
 muri O
-Banki O
-Nkuru O
-y’u O
-Bufaransa O
+Banki B-ORG
+Nkuru I-ORG
+y’u I-ORG
+Bufaransa I-ORG
 . O
 
-Mutaganzwa O
+Mutaganzwa B-PER
 agiye O
 gusohora O
 igitabo O
@@ -41449,9 +41449,9 @@ Perezida O
 Kagame O
 yatanze O
 tariki O
-5 O
-Ugushyingo O
-2016 O
+5 B-DATE
+Ugushyingo I-DATE
+2016 I-DATE
 ubwo O
 hizihizwaga O
 imyaka O
@@ -41513,8 +41513,8 @@ gishya O
 Isoko O
 tuvomaho O
 Impanuro’’ O
-Mutaganzwa B-PER
-Charles I-PER
+Mutaganzwa O
+Charles O
 agiye O
 gusohora O
 , O
@@ -41571,7 +41571,7 @@ by’umwanditsi O
 byiyongeraho O
 . O
 
-Mutaganzwa B-PER
+Mutaganzwa O
 avuga O
 ko O
 impanuro O
@@ -41618,7 +41618,7 @@ umusemburo O
 w’impinduka O
 nziza O
 mu O
-Rwanda B-LOC
+Rwanda O
 ku O
 bariho O
 ubu O
@@ -41698,7 +41698,7 @@ ko O
 impanuro O
 za O
 Perezida O
-Kagame O
+Kagame B-PER
 zifitemo O
 ubushobozi O
 bwo O
@@ -41812,7 +41812,7 @@ ngorane O
 n’ibindi O
 . O
 
-Mutaganzwa B-PER
+Mutaganzwa O
 yavuze O
 ko O
 igitabo O
@@ -41910,7 +41910,7 @@ kwibaza O
 uko O
 ubutaka O
 bw’u O
-Rwanda O
+Rwanda B-LOC
 bwo O
 mu O
 bice O
@@ -41969,7 +41969,7 @@ y’imwe O
 mu O
 misozi O
 y’u O
-Rwanda B-LOC
+Rwanda O
 rwo O
 hambere O
 , O
@@ -42019,11 +42019,11 @@ wo O
 mu O
 Kagali O
 ka O
-Kibagabaga O
+Kibagabaga B-LOC
 mu O
 Murenge O
 wa O
-Kimironko O
+Kimironko B-LOC
 ho O
 mu O
 Karere O
@@ -42035,7 +42035,7 @@ ingoma O
 ngabe O
 y’igihugu O
 cy’u O
-Bwanacyambwe B-LOC
+Bwanacyambwe O
 mu O
 bihe O
 byo O
@@ -42077,7 +42077,7 @@ butaka O
 butaraba O
 igihugu O
 cy’u O
-Bwanacyambwe O
+Bwanacyambwe B-LOC
 bwari O
 ubutaka O
 bw’imigina O
@@ -42086,8 +42086,8 @@ by’imifunzo O
 by’amasanzure O
 y’umugezi O
 wa O
-Nyabugogo O
-n’Akagera O
+Nyabugogo B-LOC
+n’Akagera I-LOC
 , O
 n’ikiyaga O
 cya O
@@ -42106,7 +42106,7 @@ cyari O
 gikikijwe O
 n’ingoma O
 y’i O
-Gisaka B-LOC
+Gisaka O
 cy’Abagesera O
 b’Abazirankende O
 mu O
@@ -42117,11 +42117,11 @@ y’Abanyiginya O
 mu O
 Majyaruguru O
 , O
-Nduga O
+Nduga B-LOC
 y’Ababanda O
 mu O
-Burengerazuba O
-bw’Amajyepfo O
+Burengerazuba B-LOC
+bw’Amajyepfo I-LOC
 , O
 u O
 Buliza O
@@ -42136,7 +42136,7 @@ Bugesera B-LOC
 bw’Abahondogo O
 yari O
 mu O
-Majyepfo O
+Majyepfo B-LOC
 . O
 
 Igihugu O
@@ -42152,9 +42152,9 @@ by’Abongera O
 , O
 bakomoka O
 kuri O
-Mwongera B-PER
-wa I-PER
-Rurenge I-PER
+Mwongera O
+wa O
+Rurenge O
 Sekuruza O
 wabo O
 . O
@@ -42176,7 +42176,7 @@ Nyarugenge O
 , O
 Akarere O
 ka O
-Kicukiro B-LOC
+Kicukiro O
 , O
 Akarere O
 ka O
@@ -42190,22 +42190,22 @@ Gisozi O
 , O
 Kinyinya O
 , O
-Kimihurura B-LOC
+Kimihurura O
 , O
-Remera B-LOC
+Remera O
 na O
-Kimironko B-LOC
+Kimironko O
 ) O
 hamwe O
 n’Akarere O
 ka O
-Rwamagana O
-y’Iburengerazuba O
+Rwamagana B-LOC
+y’Iburengerazuba I-LOC
 ( O
 Mu O
 mirenge O
 ya O
-Karenge O
+Karenge B-LOC
 , O
 Nyakariro O
 , O
@@ -42213,7 +42213,7 @@ Nzige B-LOC
 , O
 Muyumbu B-LOC
 na O
-Gahengeri B-LOC
+Gahengeri O
 ) O
 . O
 
@@ -42253,7 +42253,7 @@ Mu O
 ihangwa O
 ry’igihugu O
 cy’u O
-Bwanacyambwe O
+Bwanacyambwe B-LOC
 , O
 ryanzuwe O
 n’umuhungu O
@@ -42299,7 +42299,7 @@ Nyirabwana O
 , O
 Ramiro O
 , O
-Rindiro B-LOC
+Rindiro O
 na O
 Kageyo O
 yo O
@@ -42311,12 +42311,12 @@ Kibagabaga O
 mu O
 Murenge O
 wa O
-Kimironko O
+Kimironko B-LOC
 wo O
 mu O
 Karere O
 ka O
-Gasabo O
+Gasabo B-LOC
 . O
 
 Ingoma O
@@ -42330,7 +42330,7 @@ Mudugudu O
 wa O
 Nyirabwana O
 ( O
-Nyirabwanacyambwe O
+Nyirabwanacyambwe B-PER
 ) O
 wiswe O
 izina O
@@ -42340,7 +42340,7 @@ aho O
 kuryuzuza O
 ngo O
 witwe O
-’’Nyirabwanacyambwe B-PER
+’’Nyirabwanacyambwe O
 """" O
 . O
 
@@ -42359,8 +42359,8 @@ Amahoro O
 mu O
 Kagali O
 ka O
-Rukiri O
-II O
+Rukiri B-LOC
+II I-LOC
 mu O
 Murenge O
 wa O
@@ -42374,7 +42374,7 @@ ko O
 mu O
 Mujyi O
 wa O
-Kigali B-LOC
+Kigali O
 , O
 ari O
 naho O
@@ -42396,7 +42396,7 @@ Mukobanya I-PER
 ahasaga O
 mu O
 wa O
-1378 B-DATE
+1378 O
 , O
 akivugana O
 Nkuba B-PER
@@ -42404,7 +42404,7 @@ ya I-PER
 Nyabakonjo I-PER
 watwaraga O
 u O
-Bwanacyambwe B-LOC
+Bwanacyambwe O
 muri O
 ibyo O
 bihe O
@@ -42448,7 +42448,7 @@ umwamikazi O
 wa O
 nyuma O
 w’u O
-Rwanda O
+Rwanda B-LOC
 , O
 Rosalie B-PER
 Gicanda I-PER
@@ -42485,9 +42485,9 @@ umututsi O
 . O
 
 Tariki O
-20 O
-Mata O
-1994 O
+20 B-DATE
+Mata I-DATE
+1994 I-DATE
 nibwo O
 inkuru O
 mbi O
@@ -42497,7 +42497,7 @@ umwamikazi O
 wa O
 nyuma O
 w’u O
-Rwanda B-LOC
+Rwanda O
 , O
 Rosalie B-PER
 Gicanda I-PER
@@ -42514,16 +42514,16 @@ ari O
 umututsi O
 . O
 
-Gicanda B-PER
+Gicanda O
 yashakanye O
 n’Umwami O
-Mutara O
-wa O
-III O
-Rudahigwa O
-Charles O
-Léon O
-Pierre O
+Mutara B-PER
+wa I-PER
+III I-PER
+Rudahigwa I-PER
+Charles I-PER
+Léon I-PER
+Pierre I-PER
 Kuwa O
 13 O
 Mutarama O
@@ -42573,10 +42573,10 @@ byayo O
 . O
 
 Mu O
-1961 O
+1961 B-DATE
 Perezida O
-Kayibanda O
-Grégoire O
+Kayibanda B-PER
+Grégoire I-PER
 yirukanye O
 mu O
 rukari O
@@ -42625,7 +42625,7 @@ n’iya O
 kabiri O
 , O
 umwamikazi O
-Gicanda O
+Gicanda B-PER
 nubwo O
 yari O
 mu O
@@ -42680,9 +42680,9 @@ Umwamikazi O
 Gicanda O
 yagiye O
 yishingikiriza O
-Jean O
-Baptiste O
-Habyarimana O
+Jean B-PER
+Baptiste I-PER
+Habyarimana I-PER
 wari O
 Perefe O
 wa O
@@ -42727,9 +42727,9 @@ we O
 
 Raporo O
 ya O
-Human O
-Rights O
-Watch O
+Human B-ORG
+Rights I-ORG
+Watch I-ORG
 yasohotse O
 mu O
 1999 O
@@ -42737,7 +42737,7 @@ mu O
 ivuga O
 ko O
 Umwamikazi O
-Gicanda B-PER
+Gicanda O
 wari O
 ufite O
 imyaka O
@@ -42771,21 +42771,21 @@ abasirikare O
 bayobowe O
 na O
 Lt O
-Pierre O
-Bizimana O
+Pierre B-PER
+Bizimana I-PER
 binjiye O
 mu O
 rugo O
 rw’umwamikazi O
-Gicanda O
+Gicanda B-PER
 ku O
 mabwiriza O
 yari O
 yatanzwe O
 na O
 Capt O
-Ildephonse B-PER
-Nizeyimana I-PER
+Ildephonse O
+Nizeyimana O
 wari O
 umuyobozi O
 ushinzwe O
@@ -42797,7 +42797,7 @@ rikuru O
 rya O
 gisirikare O
 , O
-ESO B-ORG
+ESO O
 ubwo O
 Jenoside O
 yakorwaga O
@@ -42839,7 +42839,7 @@ kumwitaho O
 
 Abasirikare O
 bafashe O
-Gicanda B-PER
+Gicanda O
 n’abo O
 bari O
 bafatanywe O
@@ -42887,13 +42887,13 @@ wasabye O
 ko O
 umubiri O
 wa O
-Gicanda O
+Gicanda B-PER
 washyingurwa O
 mu O
 cyubahiro O
 , O
 burugumesitiri O
-Kanyabashi B-PER
+Kanyabashi O
 yohereza O
 abagororwa O
 bo O
@@ -42921,7 +42921,7 @@ yamubwiye O
 ko O
 mbere O
 y’uko O
-Gicanda B-PER
+Gicanda O
 n’abo O
 bari O
 kumwe O
@@ -42944,15 +42944,15 @@ u O
 Rwanda B-LOC
 rwakatiye O
 Capt O
-Ildephonse O
-Nizeyimana O
+Ildephonse B-PER
+Nizeyimana I-PER
 igifungo O
 cya O
 burundu O
 ashinjwa O
 kwica O
 Umwamikazi O
-Gicanda O
+Gicanda B-PER
 n’abandi O
 batutsi O
 muri O
@@ -42965,7 +42965,7 @@ Nizeyimana O
 yari O
 yafatiwe O
 muri O
-Uganda B-LOC
+Uganda O
 mu O
 2009 O
 . O
@@ -42973,8 +42973,8 @@ mu O
 Mu O
 1998 B-DATE
 Lt O
-Pierre B-PER
-Bizimana I-PER
+Pierre O
+Bizimana O
 yakatiwe O
 urwo O
 gupfa O
@@ -43029,11 +43029,11 @@ atarobanuye O
 Mu O
 buhamya O
 Perezida O
-Paul B-PER
-Kagame I-PER
+Paul O
+Kagame O
 yatanze O
 mu O
-2017 B-DATE
+2017 O
 avuga O
 ku O
 mateka O
@@ -43051,7 +43051,7 @@ bw’ubuhunzi O
 , O
 yashimiye O
 na O
-Gicanda O
+Gicanda B-PER
 nk’umwe O
 mu O
 bamufashije O
@@ -43066,8 +43066,8 @@ mu O
 nimero O
 2944 O
 ya O
-Jeune O
-Afrique O
+Jeune B-ORG
+Afrique I-ORG
 yasohotse O
 ku O
 wa O
@@ -43104,7 +43104,7 @@ Condé O
 . O
 
 Perezida O
-Kagame B-PER
+Kagame O
 yasobanuye O
 ko O
 mu O
@@ -43113,7 +43113,7 @@ mbere O
 gato O
 y’uko O
 u O
-Rwanda O
+Rwanda B-LOC
 rubona O
 ubwigenge O
 , O
@@ -43178,7 +43178,7 @@ Gicanda B-PER
 wari O
 utuye O
 i O
-Nyanza O
+Nyanza B-LOC
 mu O
 rugendo O
 rw’iminota O
@@ -43191,8 +43191,8 @@ bari O
 batuye O
 . O
 
-Rosalie B-PER
-Gicanda I-PER
+Rosalie O
+Gicanda O
 yari O
 amusabye O
 kubahungisha O
@@ -43234,7 +43234,7 @@ ngo O
 basanze O
 Umwamikazi O
 i O
-Nyanza O
+Nyanza B-LOC
 , O
 mbere O
 y’uko O
@@ -43242,22 +43242,22 @@ bafata O
 inzira O
 bakerekeza O
 mu O
-Mutara B-LOC
+Mutara O
 aho O
 naho O
 ubwicanyi O
 bwabasanze O
 bakabuhungira O
 muri O
-Uganda O
+Uganda B-LOC
 . O
 
-Gicanda O
+Gicanda B-PER
 yavukiye O
 i O
 Rwamagana O
 mu O
-1928 O
+1928 B-DATE
 . O
 
 Yakuze O
@@ -43268,13 +43268,13 @@ nabyo O
 byatumye O
 abengukwa O
 n’Umwami O
-Mutara O
-III O
-Rudahigwa O
+Mutara B-PER
+III I-PER
+Rudahigwa I-PER
 . O
 
 Umwamikazi O
-Gicanda O
+Gicanda B-PER
 aruhukiye O
 i O
 Mwima B-LOC
@@ -43301,8 +43301,8 @@ gahunda O
 yo O
 kwibuka O
 Umwamikazi O
-Rosalie O
-Gicanda O
+Rosalie B-PER
+Gicanda I-PER
 , O
 itegurwa O
 ku O
@@ -43346,10 +43346,10 @@ mateka O
 y’ibigwi O
 by’inka O
 mu O
-Rwanda O
+Rwanda B-LOC
 rugari O
 rwa O
-Gasabo O
+Gasabo B-LOC
 , O
 inka O
 yafatiweho O
@@ -43358,7 +43358,7 @@ byinshi O
 mu O
 mateka O
 y’u O
-Rwanda B-LOC
+Rwanda O
 no O
 mu O
 ruhando O
@@ -43379,7 +43379,7 @@ mateka O
 y’ibigwi O
 by’inka O
 mu O
-Rwanda O
+Rwanda B-LOC
 rugari O
 rwa O
 Gasabo O
@@ -43391,7 +43391,7 @@ byinshi O
 mu O
 mateka O
 y’u O
-Rwanda B-LOC
+Rwanda O
 no O
 mu O
 ruhando O
@@ -43411,7 +43411,7 @@ by’amateka O
 y’ibigwi O
 by’inka O
 mu O
-Rwanda O
+Rwanda B-LOC
 , O
 dore O
 ko O
@@ -43438,7 +43438,7 @@ z’imbanza O
 , O
 zubatse O
 u O
-Rwanda B-LOC
+Rwanda O
 rugahamya O
 igitinyiro’’ O
 cyanditswe O
@@ -43525,7 +43525,7 @@ mateka O
 bagira O
 bati O
 “ O
-Gihanga O
+Gihanga B-PER
 niwe O
 wahanze O
 inka O
@@ -43646,7 +43646,7 @@ ukuvuga O
 ahasaga O
 mu O
 wa O
-700 B-DATE
+700 O
 , O
 nibwo O
 hadutse O
@@ -43700,7 +43700,7 @@ Mubali O
 mu O
 mirenge O
 ya O
-Murundi O
+Murundi B-LOC
 na O
 Mwili O
 yo O
@@ -43709,12 +43709,12 @@ Karere O
 ka O
 Kayonza O
 na O
-Rwimbogo O
+Rwimbogo B-LOC
 yo O
 mu O
 Karere O
 ka O
-Gatsibo B-LOC
+Gatsibo O
 ) O
 . O
 
@@ -43731,7 +43731,7 @@ bishimiye O
 umukenke O
 w’Iburasirazuba O
 bw’u O
-Rwanda O
+Rwanda B-LOC
 , O
 ugaragiwe O
 n’ubutohe O
@@ -43756,9 +43756,9 @@ Imyaka O
 isaga O
 300 O
 ( O
-700 O
-- O
-1091 O
+700 B-DATE
+- I-DATE
+1091 I-DATE
 ) O
 , O
 umuryango O
@@ -43770,8 +43770,8 @@ busembere O
 mu O
 ngoma O
 y’u O
-Rweya B-LOC
-rw’Abazigaba I-LOC
+Rweya O
+rw’Abazigaba O
 , O
 nta O
 kindi O
@@ -43815,7 +43815,7 @@ umwihariko O
 w’inka O
 zitirirwa O
 u O
-Rwanda O
+Rwanda B-LOC
 z’Inyambo O
 aribyo O
 bivuga O
@@ -43886,9 +43886,9 @@ yo O
 twavuga O
 Imisozi O
 ya O
-Nyagihanga O
+Nyagihanga B-LOC
 , O
-Rugarama B-LOC
+Rugarama O
 , O
 Ngarama O
 , O
@@ -43916,14 +43916,14 @@ mu O
 mu O
 Murenge O
 wa O
-Remera B-LOC
+Remera O
 na O
 Muhura O
 yo O
 mu O
 Karere O
 ka O
-Gatsibo O
+Gatsibo B-LOC
 . O
 
 Uko O
@@ -43975,12 +43975,12 @@ Kabeja O
 , O
 washatswe O
 na O
-Kazi O
-ka O
-Kizira O
+Kazi B-PER
+ka I-PER
+Kizira I-PER
 , O
 bakabyarana O
-Gihanga O
+Gihanga B-PER
 . O
 
 Abanyiginya O
@@ -44028,7 +44028,7 @@ banennye O
 akabuhangaho O
 igihugu O
 cy’i O
-Gasabo O
+Gasabo B-LOC
 . O
 
 Gihanga O
@@ -44047,7 +44047,7 @@ busembere O
 mu O
 ngoma O
 y’u O
-Rweya O
+Rweya B-LOC
 , O
 yashyizeho O
 igenamigambi O
@@ -44136,7 +44136,7 @@ b’ O
 ibihugu O
 byanga O
 u O
-Rwanda B-LOC
+Rwanda O
 , O
 bityo O
 bikagabanya O
@@ -44245,11 +44245,11 @@ guhashya O
 amahanga O
 adakunda O
 u O
-Rwanda B-LOC
+Rwanda O
 . O
 
 Niho O
-Gihanga O
+Gihanga B-PER
 , O
 yahereyeho O
 ashyiraho O
@@ -44300,7 +44300,7 @@ Aho O
 buri O
 muturage O
 u O
-Rwanda O
+Rwanda B-LOC
 rwabaga O
 rwanyaze O
 mu O
@@ -44339,7 +44339,7 @@ y’iwabo O
 , O
 akaganza O
 i O
-Rwanda B-LOC
+Rwanda O
 . O
 
 Gahunda O
@@ -44350,7 +44350,7 @@ b’ibindi O
 bihugu O
 banyazwe O
 n’u O
-Rwanda O
+Rwanda B-LOC
 , O
 yatumye O
 benshi O
@@ -44402,7 +44402,7 @@ ari O
 nayo O
 mpamvu O
 u O
-Rwanda O
+Rwanda B-LOC
 , O
 rwihatiye O
 kwigarurira O
@@ -44572,15 +44572,15 @@ hari O
 inshuti O
 yanjye O
 yitwa O
-Ken B-PER
-Chartrand I-PER
+Ken O
+Chartrand O
 twigeze O
 kuganira O
 turi O
 gutembera O
 i O
-New O
-York O
+New B-LOC
+York I-LOC
 , O
 ambwira O
 ko O
@@ -44709,7 +44709,7 @@ mwiza O
 ufasha O
 kubaka O
 u O
-Rwanda B-LOC
+Rwanda O
 twifuza O
 ndetse O
 n’Afurika O
@@ -44770,10 +44770,10 @@ kuba O
 abarinzi O
 b’ibyagezweho O
 mu O
-Rwanda O
+Rwanda B-LOC
 no O
 muri O
-Afurika O
+Afurika B-LOC
 bityo O
 tubisigasire O
 ndetse O
@@ -44785,8 +44785,8 @@ kandi O
 byiza O
 . O
 
-HATEGEKIMANA O
-Richard O
+HATEGEKIMANA B-PER
+Richard I-PER
 Perezida O
 w’Urugaga O
 rw’Abanditsi O
@@ -44883,8 +44883,8 @@ ufite O
 inkomoko O
 ku O
 Mwami O
-Yuhi B-PER
-Mazimpaka I-PER
+Yuhi O
+Mazimpaka O
 twifashishije O
 igitabo O
 “ O
@@ -44912,13 +44912,13 @@ y’u O
 Rwanda O
 . O
 
-Yuhi O
-III O
-Mazimpaka O
+Yuhi B-PER
+III I-PER
+Mazimpaka I-PER
 ni O
 mwene O
-Sekarongoro B-PER
-Gisanura I-PER
+Sekarongoro O
+Gisanura O
 cya O
 Kigeli O
 Nyamuheshera O
@@ -44996,7 +44996,7 @@ umwe O
 mu O
 Bami O
 b’u O
-Rwanda B-LOC
+Rwanda O
 bagize O
 inzu O
 z’imiryango O
@@ -45007,7 +45007,7 @@ bami O
 , O
 akaba O
 akurikira O
-Ndoba O
+Ndoba B-PER
 na O
 we O
 wagize O
@@ -45020,10 +45020,10 @@ Amateka O
 atugaragariza O
 ko O
 Umwami O
-Yuhi O
-Mazimpaka O
-ya O
-Gisanura O
+Yuhi B-PER
+Mazimpaka I-PER
+ya I-PER
+Gisanura I-PER
 , O
 yabyaye O
 abana O
@@ -45033,19 +45033,19 @@ biganjemo O
 abahungu O
 10 O
 barimo O
-Rwaka B-PER
+Rwaka O
 , O
-Rujugira O
+Rujugira B-PER
 , O
 Nyarwaya O
 , O
 Gakomba O
 , O
-Mureganshuro B-PER
+Mureganshuro O
 , O
-Gapfizi B-PER
+Gapfizi O
 , O
-Mukungu O
+Mukungu B-PER
 , O
 Mukuku O
 , O
@@ -45184,8 +45184,8 @@ we O
 akaba O
 n’umuvandimwe O
 wabo O
-Cyilima O
-Rujugira O
+Cyilima B-PER
+Rujugira I-PER
 , O
 aribo O
 aba O
@@ -45196,10 +45196,10 @@ Abakemba O
 : O
 Batwarwaga O
 na O
-Sharangabo O
-ya O
-Cyilima O
-Rujugira O
+Sharangabo B-PER
+ya I-PER
+Cyilima I-PER
+Rujugira I-PER
 , O
 
 Imvejuru O
@@ -45219,36 +45219,36 @@ Rugamba O
 : O
 Zatwarwaga O
 na O
-Muciye B-PER
-ya I-PER
-Serutaro I-PER
-rwa I-PER
-Mukuku I-PER
-wa I-PER
-Mazimpaka I-PER
+Muciye O
+ya O
+Serutaro O
+rwa O
+Mukuku O
+wa O
+Mazimpaka O
 , O
 
 Abarima O
 : O
 Batwarwaga O
 na O
-Mitunga B-PER
-ya I-PER
-Cyilima I-PER
-Rujugira I-PER
-n’umugabo I-PER
-we I-PER
-Seruhuga I-PER
+Mitunga O
+ya O
+Cyilima O
+Rujugira O
+n’umugabo O
+we O
+Seruhuga O
 , O
 
 Abatanyagwa O
 : O
 Batwarwaga O
 na O
-Gihana O
-cya O
-Cyilima O
-Rujugira O
+Gihana B-PER
+cya I-PER
+Cyilima I-PER
+Rujugira I-PER
 , O
 
 Intarindwa O
@@ -45265,21 +45265,21 @@ Ababito O
 : O
 Batwarwaga O
 na O
-Ndabarasa O
-ba O
-Cyilima O
-Rujugira O
+Ndabarasa B-PER
+ba I-PER
+Cyilima I-PER
+Rujugira I-PER
 , O
 
 Indara O
 : O
 Zatwarwaga O
 na O
-Cyilima B-PER
-Rujugira I-PER
-rwa I-PER
-Yuhi I-PER
-Mazimpaka I-PER
+Cyilima O
+Rujugira O
+rwa O
+Yuhi O
+Mazimpaka O
 , O
 
 Ababanda O
@@ -45359,14 +45359,14 @@ Abanyiginya O
 b’Abahwege O
 bakomoka O
 kuri O
-Segahwege O
-ka O
-Nsigaye O
-ya O
-Gakombe O
-ka O
-Yuhi O
-mazimpaka O
+Segahwege B-PER
+ka I-PER
+Nsigaye I-PER
+ya I-PER
+Gakombe I-PER
+ka I-PER
+Yuhi I-PER
+mazimpaka I-PER
 ; O
 
 Abanyiginya O
@@ -45383,10 +45383,10 @@ Abanyiginya O
 b’ABAREGANSHURO O
 bakomoka O
 kuri O
-Mureganshuro O
-ya O
-Yuhi O
-Mazimpaka O
+Mureganshuro B-PER
+ya I-PER
+Yuhi I-PER
+Mazimpaka I-PER
 ; O
 
 Abanyiginya O
@@ -45441,7 +45441,7 @@ zihamye O
 mu O
 mateka O
 y’u O
-Rwanda B-LOC
+Rwanda O
 zikomoka O
 kwa O
 Yuhi O
@@ -45450,8 +45450,8 @@ Mazimpaka O
 harimo O
 n’izo O
 kwa O
-Cyilima O
-Rujugira O
+Cyilima B-PER
+Rujugira I-PER
 umuhungu O
 we O
 w’ubuheta O
@@ -45471,24 +45471,24 @@ Abanyiginya O
 b’Abadenge O
 bakomoka O
 kuri O
-Mudenge B-PER
-wa I-PER
-Cyilima I-PER
-Rujugira I-PER
+Mudenge O
+wa O
+Cyilima O
+Rujugira O
 ; O
 
 Abanyiginya O
 b’Abakore O
 bakomoka O
 kuri O
-Kanyankore B-PER
-ka I-PER
-Kanyoni I-PER
-ka I-PER
-Baziga I-PER
-ba I-PER
-Cyilima I-PER
-Rujugira I-PER
+Kanyankore O
+ka O
+Kanyoni O
+ka O
+Baziga O
+ba O
+Cyilima O
+Rujugira O
 ; O
 
 Abanyiginya O
@@ -45519,12 +45519,12 @@ Abanyiginya O
 b’Abanana O
 bakomoka O
 kuri O
-Munana B-PER
-wa I-PER
-Gihana I-PER
-cya I-PER
-Cyilima I-PER
-Rujugira I-PER
+Munana O
+wa O
+Gihana O
+cya O
+Cyilima O
+Rujugira O
 ; O
 
 Abanyigiya O
@@ -45668,11 +45668,11 @@ bihugu O
 . O
 
 Muri O
-uyu B-DATE
-mwaka I-DATE
+uyu O
+mwaka O
 , O
-uyu B-DATE
-munsi I-DATE
+uyu O
+munsi O
 wahawe O
 insanganyamatsiko O
 ivuga O
@@ -45821,7 +45821,7 @@ bibarizwamo O
 abari O
 n’abategarugori O
 mu O
-Rwanda B-LOC
+Rwanda O
 , O
 usanga O
 baragize O
@@ -45839,7 +45839,7 @@ Jenoside O
 yakorewe O
 Abatutsi O
 mu O
-1994 O
+1994 B-DATE
 ; O
 ariko O
 basigara O
@@ -46035,7 +46035,7 @@ ya O
 Congo O
 . O
 
-INMR O
+INMR B-ORG
 yateguye O
 iri O
 murika O
@@ -46043,8 +46043,8 @@ ifatanyije O
 n’Ikigo O
 Ndangamuco O
 cy’Abadage O
-Goethe B-ORG
-Institut I-ORG
+Goethe O
+Institut O
 - O
 Kigali O
 . O
@@ -46083,7 +46083,7 @@ uzanyuzwa O
 kuri O
 murandasi O
 ( O
-Webex O
+Webex B-ORG
 ) O
 ku O
 wa O
@@ -46215,7 +46215,7 @@ byo O
 ha O
 mbere O
 mu O
-Rwanda B-LOC
+Rwanda O
 iyo O
 hadukaga O
 ibiza O
@@ -46314,7 +46314,7 @@ buri O
 cyorezo O
 cyateraga O
 u O
-Rwanda B-LOC
+Rwanda O
 , O
 habaga O
 hari O
@@ -46555,7 +46555,7 @@ kubyamurura O
 ku O
 butaka O
 bw’u O
-Rwanda B-LOC
+Rwanda O
 . O
 
 Abahaditsi O
@@ -46594,7 +46594,7 @@ imiti O
 yo O
 kubyamurura O
 mu O
-Rwanda B-LOC
+Rwanda O
 . O
 
 Abahennyi O
@@ -46763,7 +46763,7 @@ mu O
 mizi O
 y’ubukene O
 bwa O
-Afurika O
+Afurika B-LOC
 n’inkomoko O
 yabwo O
 n’uburyo O
@@ -46774,10 +46774,10 @@ babishatse O
 . O
 
 Apôtre O
-Mutabazi B-PER
-Kabarira I-PER
+Mutabazi O
+Kabarira O
 ( O
-Brain B-PER
+Brain O
 ) O
 yasohoye O
 igitabo O
@@ -46816,7 +46816,7 @@ ingingo O
 zitandukanye O
 zigaragaza O
 ibyahejeje O
-Afurika B-LOC
+Afurika O
 mu O
 bukene O
 , O
@@ -46916,7 +46916,7 @@ wayo O
 ari O
 nacyo O
 kibazo O
-Afurika O
+Afurika B-LOC
 ifite O
 , O
 ntabwo O
@@ -46974,7 +46974,7 @@ batekereza O
 ko O
 ubukene O
 bwa O
-Afurika B-LOC
+Afurika O
 buterwa O
 n’ubuyobozi O
 , O
@@ -46992,7 +46992,7 @@ kuko O
 nta O
 wakoze O
 ibifitiye O
-Afurika B-LOC
+Afurika O
 inyungu O
 ngo O
 asubizwe O
@@ -47124,7 +47124,7 @@ gukoresha O
 ibyo O
 bize O
 bafasha O
-Afurika B-LOC
+Afurika O
 kuvumbura O
 no O
 gukemura O
@@ -47185,7 +47185,7 @@ abakoloni O
 ngo O
 nibo O
 bahejeje O
-Afurika B-LOC
+Afurika O
 inyuma O
 , O
 Apôtre O
@@ -47255,9 +47255,9 @@ ariko O
 nituvuga O
 ko O
 dukeneye O
-Kaminuza O
-ya O
-Harvard O
+Kaminuza B-ORG
+ya I-ORG
+Harvard I-ORG
 cyangwa O
 MIT O
 ngo O
@@ -47320,9 +47320,9 @@ nzira O
 ibihugu O
 byinshi O
 nk’u O
-Bushinwa O
+Bushinwa B-LOC
 n’u O
-Buyapani B-LOC
+Buyapani O
 byagiye O
 bikoresha O
 ngo O
@@ -47334,7 +47334,7 @@ Ikindi O
 atangaho O
 inama O
 kizavana O
-Afurika B-LOC
+Afurika O
 mu O
 bukene O
 , O
@@ -47390,12 +47390,12 @@ hagati O
 ya O
 tariki O
 ya O
-12 B-DATE
-n’iya I-DATE
-23 I-DATE
-Kanama I-DATE
-uyu I-DATE
-mwaka I-DATE
+12 O
+n’iya O
+23 O
+Kanama O
+uyu O
+mwaka O
 . O
 
 Imikino O
@@ -47421,7 +47421,7 @@ bibuga O
 bibiri O
 byo O
 muri O
-Lisbon O
+Lisbon B-LOC
 - O
 Estadio O
 da O
@@ -47452,9 +47452,9 @@ UEFA O
 mu O
 nama O
 izaba O
-ku O
-wa O
-Gatatu O
+ku B-DATE
+wa I-DATE
+Gatatu I-DATE
 tariki O
 ya O
 17 O
@@ -47470,10 +47470,10 @@ hagati O
 ya O
 tariki O
 ya O
-12 B-DATE
-n’iya I-DATE
-15 I-DATE
-Kanama I-DATE
+12 O
+n’iya O
+15 O
+Kanama O
 , O
 iya O
 ½ O
@@ -47482,10 +47482,10 @@ hagati O
 ya O
 tariki O
 y O
-18 O
-n’iya O
-19 O
-Kanama O
+18 B-DATE
+n’iya I-DATE
+19 I-DATE
+Kanama I-DATE
 mu O
 gihe O
 umukino O
@@ -47525,25 +47525,25 @@ wari O
 kuba O
 tariki O
 ya O
-17 O
-Werurwe O
+17 B-DATE
+Werurwe I-DATE
 nyuma O
 y’uko O
 yari O
 yatsindiye O
 muri O
-Espagne B-LOC
+Espagne O
 ibitego O
 2 O
 - O
 1 O
 . O
 
-Bayern B-ORG
-Munich I-ORG
+Bayern O
+Munich O
 yari O
 yatsinze O
-Chelsea O
+Chelsea B-ORG
 ibitego O
 3 O
 - O
@@ -47552,7 +47552,7 @@ ibitego O
 Juventus O
 itsindwa O
 na O
-Lyon O
+Lyon B-ORG
 igitego O
 1 O
 - O
@@ -47564,7 +47564,7 @@ Barcelone O
 yari O
 yanganyije O
 na O
-Napoli O
+Napoli B-ORG
 igitego O
 1 O
 - O
@@ -47573,12 +47573,12 @@ igitego O
 
 Amakipe O
 ya O
-Paris B-ORG
-Saint I-ORG
-- I-ORG
-Germain I-ORG
+Paris O
+Saint O
+- O
+Germain O
 , O
-Atalanta B-ORG
+Atalanta O
 , O
 Atlético B-ORG
 Madrid I-ORG
@@ -47605,8 +47605,8 @@ wa O
 UEFA O
 Champions O
 League O
-uyu O
-mwaka O
+uyu B-DATE
+mwaka I-DATE
 , O
 ushobora O
 guhabwa O
@@ -47643,7 +47643,7 @@ cyangwa O
 uwa O
 Düsseldorf O
 mu O
-Budage O
+Budage B-LOC
 . O
 
 Ku O
@@ -47653,7 +47653,7 @@ ry’umwaka O
 utaha O
 w’imikino O
 , O
-UEFA B-ORG
+UEFA O
 iri O
 kwiga O
 uburyo O
@@ -47679,8 +47679,8 @@ matsinda O
 Simba O
 SC O
 ikinamo O
-Kagere O
-Meddie O
+Kagere B-PER
+Meddie I-PER
 yegukanye O
 Shampiyona O
 ya O
@@ -47690,47 +47690,6 @@ nshuro O
 ya O
 gatatu O
 yikurikiranya O
-
-Simba O
-SC O
-ikinamo O
-Umunyarwanda O
-Kagere O
-Meddie O
-, O
-yegukanye O
-igikombe O
-cya O
-gatatu O
-cyikurikiranya O
-cya O
-Shampiyona O
-y’Icyiciro O
-cya O
-Mbere O
-muri O
-Tanzania B-LOC
-nyuma O
-yo O
-kunganya O
-ubusa O
-ku O
-busa O
-na O
-Tanzania B-ORG
-Prisons I-ORG
-mu O
-mukino O
-wabaye O
-kuri O
-iki O
-Cyumweru O
-kuri O
-Stade O
-Sokoine O
-i O
-Mbeya O
-. O
 
 Simba O
 SC O
@@ -47773,6 +47732,47 @@ i O
 Mbeya O
 . O
 
+Simba O
+SC O
+ikinamo O
+Umunyarwanda O
+Kagere O
+Meddie O
+, O
+yegukanye O
+igikombe O
+cya O
+gatatu O
+cyikurikiranya O
+cya O
+Shampiyona O
+y’Icyiciro O
+cya O
+Mbere O
+muri O
+Tanzania B-LOC
+nyuma O
+yo O
+kunganya O
+ubusa O
+ku O
+busa O
+na O
+Tanzania O
+Prisons O
+mu O
+mukino O
+wabaye O
+kuri B-DATE
+iki I-DATE
+Cyumweru I-DATE
+kuri O
+Stade O
+Sokoine O
+i O
+Mbeya B-LOC
+. O
+
 Muri O
 uyu O
 mukino O
@@ -47786,16 +47786,16 @@ Vandenbroeck O
 yari O
 yagiriye O
 icyizere O
-Kagere B-PER
-Meddie I-PER
+Kagere O
+Meddie O
 wakinnye O
 iminota O
 yose O
 y’umukino O
 . O
 
-Simba B-ORG
-SC I-ORG
+Simba O
+SC O
 yari O
 ikeneye O
 inota O
@@ -47830,9 +47830,9 @@ ibitego O
 3 O
 - O
 2 O
-ku B-DATE
-wa I-DATE
-Gatanu I-DATE
+ku O
+wa O
+Gatanu O
 , O
 ikagira O
 amanota O
@@ -47847,8 +47847,8 @@ Prisons O
 Jeremiah O
 Kasubi O
 na O
-Aishi B-PER
-Manula I-PER
+Aishi O
+Manula O
 urinda O
 izamu O
 rya O
@@ -47869,8 +47869,8 @@ kiwubonetsemo O
 
 Kunganya O
 byatumye O
-Simba B-ORG
-SC I-ORG
+Simba O
+SC O
 igira O
 amanota O
 79 O
@@ -47926,8 +47926,8 @@ inshuro O
 . O
 
 Kuri O
-Kagere B-PER
-Meddie I-PER
+Kagere O
+Meddie O
 , O
 ni O
 igikombe O
@@ -47954,12 +47954,12 @@ wa O
 , O
 avuye O
 muri O
-Gor B-ORG
-Mahia I-ORG
-FC I-ORG
+Gor O
+Mahia O
+FC O
 yo O
 muri O
-Kenya B-LOC
+Kenya O
 . O
 
 Biteganyijwe O
@@ -47988,42 +47988,19 @@ TFF O
 ) O
 . O
 
-AS O
-Muhanga O
+AS B-ORG
+Muhanga I-ORG
 yabonye O
 umutoza O
 mushya O
 w’Umurundi O
 
 Umurundi O
-Nduwantare O
-Ismail O
-Jean O
-Marie O
-Vianney O
-ni O
-we O
-wemejwe O
-nk’umutoza O
-mushya O
-wa O
-AS B-ORG
-Muhanga I-ORG
-, O
-ku O
-masezerano O
-y’umwaka O
-umwe O
-ushobora O
-kongerwa O
-. O
-
-Umurundi O
-Nduwantare O
-Ismail O
-Jean O
-Marie O
-Vianney O
+Nduwantare B-PER
+Ismail I-PER
+Jean I-PER
+Marie I-PER
+Vianney I-PER
 ni O
 we O
 wemejwe O
@@ -48041,16 +48018,39 @@ ushobora O
 kongerwa O
 . O
 
-AS B-ORG
-Muhanga I-ORG
+Umurundi O
+Nduwantare B-PER
+Ismail I-PER
+Jean I-PER
+Marie I-PER
+Vianney I-PER
+ni O
+we O
+wemejwe O
+nk’umutoza O
+mushya O
+wa O
+AS O
+Muhanga O
+, O
+ku O
+masezerano O
+y’umwaka O
+umwe O
+ushobora O
+kongerwa O
+. O
+
+AS O
+Muhanga O
 nta O
 mutoza O
 yari O
 ifite O
 nyuma O
 y’uko O
-Mbarushimana B-PER
-Abdu I-PER
+Mbarushimana O
+Abdu O
 wayitozaga O
 yerekeje O
 muri O
@@ -48086,32 +48086,32 @@ Ruremesha O
 Emmanuel O
 nyuma O
 wasinyiye O
-Gorilla O
-FC O
+Gorilla B-ORG
+FC I-ORG
 , O
-Nduwantare O
-Ismail O
+Nduwantare B-PER
+Ismail I-PER
 na O
-Bisengimana O
-Justin O
+Bisengimana B-PER
+Justin I-PER
 . O
 
 Umunyamabanga O
 Mukuru O
 wa O
-AS B-ORG
-Muhanga I-ORG
+AS O
+Muhanga O
 , O
 Bisangwabagabo O
 Youssuf O
 , O
 yabwiye O
-IGIHE B-ORG
+IGIHE O
 ko O
 bamaze O
 kwemeza O
-Nduwantare O
-Ismail O
+Nduwantare B-PER
+Ismail I-PER
 nk’umutoza O
 mushya O
 ku O
@@ -48166,7 +48166,7 @@ cya O
 mbere O
 . O
 
-Nduwantare B-PER
+Nduwantare O
 yaherukaga O
 mu O
 Rwanda O
@@ -48175,8 +48175,8 @@ mwaka O
 ushize O
 ubwo O
 yatozaga O
-Gicumbi O
-FC O
+Gicumbi B-ORG
+FC I-ORG
 , O
 ariko O
 akaba O
@@ -48203,15 +48203,15 @@ Nduwantare B-PER
 aje O
 gutoza O
 mu O
-Rwanda O
+Rwanda B-LOC
 nyuma O
 yo O
 kuba O
 umutoza O
-Aspor B-ORG
-FC I-ORG
+Aspor O
+FC O
 mu O
-2008 O
+2008 B-DATE
 mbere O
 y’uko O
 asubira O
@@ -48231,15 +48231,15 @@ Yatoje O
 kandi O
 amakipe O
 arimo O
-Inter O
-Stars O
+Inter B-ORG
+Stars I-ORG
 , O
-Flambeau O
-de O
-l’Est O
+Flambeau B-ORG
+de I-ORG
+l’Est I-ORG
 , O
-Kayanza B-ORG
-United I-ORG
+Kayanza O
+United O
 , O
 Delta O
 Star O
@@ -48262,6 +48262,43 @@ ikinwa O
 mu O
 buryo O
 bwihariye O
+
+Shampiyona O
+ya O
+Basketball O
+muri O
+Leta B-LOC
+Zunze I-LOC
+Ubumwe I-LOC
+za I-LOC
+Amerika I-LOC
+( O
+NBA O
+) O
+ikunzwe O
+kurusha O
+izindi O
+ku O
+Isi O
+, O
+yatangaje O
+ko O
+izasubukurwa O
+tariki O
+ya O
+30 O
+Nyakanga O
+nyuma O
+y’uko O
+ihagaze O
+guhera O
+muri O
+Werurwe O
+kubera O
+icyorezo O
+cya O
+Coronavirus O
+. O
 
 Shampiyona O
 ya O
@@ -48293,53 +48330,16 @@ y’uko O
 ihagaze O
 guhera O
 muri O
-Werurwe B-DATE
+Werurwe O
 kubera O
 icyorezo O
 cya O
 Coronavirus O
 . O
 
-Shampiyona O
-ya O
-Basketball O
-muri O
-Leta O
-Zunze O
-Ubumwe O
-za O
-Amerika O
-( O
-NBA O
-) O
-ikunzwe O
-kurusha O
-izindi O
-ku O
-Isi O
-, O
-yatangaje O
-ko O
-izasubukurwa O
-tariki O
-ya O
-30 O
-Nyakanga O
-nyuma O
-y’uko O
-ihagaze O
-guhera O
-muri O
-Werurwe B-DATE
-kubera O
-icyorezo O
-cya O
-Coronavirus O
-. O
-
-Kuri B-DATE
-iki I-DATE
-Cyumweru I-DATE
+Kuri O
+iki O
+Cyumweru O
 tariki O
 ya O
 27 O
@@ -48392,7 +48392,7 @@ Disney O
 World O
 Resort O
 muri O
-Florida O
+Florida B-LOC
 . O
 
 Imikino O
@@ -48408,12 +48408,12 @@ ya O
 Nyakanga O
 ni O
 uzahuza O
-Utah O
-Jazz O
+Utah B-ORG
+Jazz I-ORG
 na O
-New B-ORG
-Orleans I-ORG
-Pelicans I-ORG
+New O
+Orleans O
+Pelicans O
 , O
 ndetse O
 n’uzahuza O
@@ -48438,18 +48438,18 @@ imikino O
 itandatu O
 irimo O
 uwo O
-Boston O
-Celtics O
+Boston B-ORG
+Celtics I-ORG
 izakinamo O
 na O
-Milwaukee B-ORG
-Bucks I-ORG
+Milwaukee O
+Bucks O
 naho O
 Houston O
 Rockets O
 ihure O
-Dallas O
-Mavericks O
+Dallas B-ORG
+Mavericks I-ORG
 . O
 
 Muri O
@@ -48472,12 +48472,12 @@ bitatu O
 bitandukanye O
 byo O
 muri O
-ESPN B-LOC
-Wide I-LOC
-World I-LOC
-of I-LOC
-Sports I-LOC
-Complex I-LOC
+ESPN O
+Wide O
+World O
+of O
+Sports O
+Complex O
 . O
 
 Buri O
@@ -48502,8 +48502,8 @@ NBA O
 yasubikwagwa O
 tariki O
 ya O
-11 O
-Werurwe O
+11 B-DATE
+Werurwe I-DATE
 , O
 hari O
 hasigaye O
@@ -48568,8 +48568,8 @@ mikino O
 izasozwa O
 tariki O
 ya O
-14 O
-Kanama O
+14 B-DATE
+Kanama I-DATE
 mu O
 gihe O
 biteganyijwe O
@@ -48639,13 +48639,13 @@ bakinnyi O
 
 Ubuyobozi O
 bwa O
-Rayon B-ORG
-Sports I-ORG
+Rayon O
+Sports O
 buvuga O
 ko O
 butarasinyisha O
-Nishimwe B-PER
-Blaise I-PER
+Nishimwe O
+Blaise O
 ukina O
 muri O
 Marines B-ORG
@@ -48713,23 +48713,23 @@ ari O
 mu O
 bakinnyi O
 bashya O
-Rayon O
-Sports O
+Rayon B-ORG
+Sports I-ORG
 yamaze O
 kugura O
 . O
 
 Umuvugizi O
 wa O
-Rayon B-ORG
-Sports I-ORG
+Rayon O
+Sports O
 , O
 Nkurunziza O
 Jean O
 Paul O
 , O
 yabwiye O
-IGIHE B-ORG
+IGIHE O
 ko O
 bari O
 kuganira O
@@ -48761,7 +48761,7 @@ birabaho O
 
 Uwo O
 [ O
-Nishimwe B-PER
+Nishimwe O
 ] O
 ntabwo O
 nakubwira O
@@ -48784,11 +48784,11 @@ Rayon O
 Sports O
 . O
 
-Ku B-DATE
-wa I-DATE
-Gatanu I-DATE
-w’icyumweru I-DATE
-gishize I-DATE
+Ku O
+wa O
+Gatanu O
+w’icyumweru O
+gishize O
 , O
 ubuyobozi O
 bwa O
@@ -48813,7 +48813,7 @@ andi O
 makipe O
 . O
 
-Nkurunziza B-PER
+Nkurunziza O
 yakomeje O
 agira O
 ati O
@@ -48837,17 +48837,17 @@ wasezeye O
 Rayon O
 Sports O
 , O
-Michael O
-Sarpong O
+Michael B-PER
+Sarpong I-PER
 wari O
 wirukanywe O
 na O
-Hakizimana B-PER
-Muhadjiri I-PER
+Hakizimana O
+Muhadjiri O
 watandukanye O
 na O
-Emirates O
-FC O
+Emirates B-ORG
+FC I-ORG
 , O
 bari O
 mu O
@@ -48888,20 +48888,20 @@ Inama O
 ya O
 Komite O
 Nyobozi O
-y’Impuzamashyirahamwe B-ORG
-y’Umupira I-ORG
-w’Amaguru I-ORG
-ku I-ORG
-Mugabane I-ORG
-w’Uburayi I-ORG
+y’Impuzamashyirahamwe O
+y’Umupira O
+w’Amaguru O
+ku O
+Mugabane O
+w’Uburayi O
 ( O
 UEFA O
 ) O
 yabaye O
-kuri O
-uyu O
-wa O
-Gatatu O
+kuri B-DATE
+uyu I-DATE
+wa I-DATE
+Gatatu I-DATE
 , O
 yanzuye O
 ko O
@@ -48974,7 +48974,7 @@ cya O
 Coronavirus O
 . O
 
-UEFA O
+UEFA B-ORG
 yemeje O
 ko O
 aya O
@@ -49015,7 +49015,7 @@ Lisbon O
 Umurwa O
 mukuru O
 wa O
-Portugal O
+Portugal B-LOC
 uzakira O
 imikino O
 ya O
@@ -49033,16 +49033,16 @@ nyuma O
 , O
 yose O
 izakinwa O
-hagati B-DATE
-ya I-DATE
-tariki I-DATE
-ya I-DATE
-12 I-DATE
-n’iya I-DATE
-23 I-DATE
-Kanama I-DATE
-uyu I-DATE
-mwaka I-DATE
+hagati O
+ya O
+tariki O
+ya O
+12 O
+n’iya O
+23 O
+Kanama O
+uyu O
+mwaka O
 mu O
 gihe O
 imikino O
@@ -49066,7 +49066,7 @@ Estádio O
 do O
 Dragão O
 y’i O
-Porto O
+Porto B-LOC
 na O
 Estádio O
 D O
@@ -49116,13 +49116,13 @@ byo O
 muri O
 Lisbon B-LOC
 - O
-Estadio B-LOC
-da I-LOC
-Luz I-LOC
+Estadio O
+da O
+Luz O
 na O
-Estadio B-LOC
-Jose I-LOC
-Alvalade I-LOC
+Estadio O
+Jose O
+Alvalade O
 . O
 
 Champions O
@@ -49135,8 +49135,8 @@ Coronavirus O
 kuva O
 tariki O
 ya O
-11 O
-Werurwe O
+11 B-DATE
+Werurwe I-DATE
 , O
 ubwo O
 imikino O
@@ -49148,8 +49148,8 @@ igeze O
 hagati O
 . O
 
-Manchester O
-City O
+Manchester B-ORG
+City I-ORG
 yagombaga O
 kwakira O
 Real B-ORG
@@ -49162,8 +49162,8 @@ wari O
 kuba O
 tariki O
 ya O
-17 O
-Werurwe O
+17 B-DATE
+Werurwe I-DATE
 nyuma O
 y’uko O
 yari O
@@ -49176,11 +49176,11 @@ ibitego O
 1 O
 . O
 
-Bayern B-ORG
-Munich I-ORG
+Bayern O
+Munich O
 yari O
 yatsinze O
-Chelsea O
+Chelsea B-ORG
 ibitego O
 3 O
 - O
@@ -49215,7 +49215,7 @@ Saint O
 - O
 Germain O
 , O
-Atalanta O
+Atalanta B-ORG
 , O
 Atlético O
 Madrid O
@@ -49321,19 +49321,19 @@ yagombaga O
 kubera O
 cyangwa O
 mu O
-Budage O
+Budage B-LOC
 mu O
 gihe O
-Inter O
-Milan O
+Inter B-ORG
+Milan I-ORG
 na O
 Getafe O
 , O
-Seville B-ORG
-FC I-ORG
+Seville O
+FC O
 na O
-AS O
-Roma O
+AS B-ORG
+Roma I-ORG
 zitakinnye O
 umukino O
 n’umwe O
@@ -49355,7 +49355,7 @@ wa O
 Gdańsk O
 wo O
 muri O
-Pologne B-LOC
+Pologne O
 wagombaga O
 kwakira O
 umukino O
@@ -49382,10 +49382,10 @@ Werurwe O
 izasubukurwa O
 tariki O
 ya O
-5 B-DATE
-n’iya I-DATE
-6 I-DATE
-Kanama I-DATE
+5 O
+n’iya O
+6 O
+Kanama O
 haba O
 imikino O
 yo O
@@ -49430,8 +49430,8 @@ wa I-DATE
 Kabiri I-DATE
 tariki O
 ya O
-16 O
-Werurwe O
+16 B-DATE
+Werurwe I-DATE
 yafatiwemo O
 umwanzuro O
 uvuga O
@@ -49543,7 +49543,7 @@ byose O
 by’imikino O
 byahagaritswe O
 mu O
-Rwanda B-LOC
+Rwanda O
 , O
 umunsi O
 umwe O
@@ -49588,7 +49588,7 @@ ishobora O
 gusubukurwa O
 ari O
 muri O
-Nzeri B-DATE
+Nzeri O
 mu O
 gihe O
 imyitozo O
@@ -49599,8 +49599,8 @@ Kanama O
 
 Ku O
 wa O
-4 B-DATE
-Kamena I-DATE
+4 O
+Kamena O
 Minisiteri O
 ya O
 Siporo O
@@ -49661,8 +49661,8 @@ mu O
 gihe O
 bakorera O
 muri O
-Stade O
-Amahoro O
+Stade B-LOC
+Amahoro I-LOC
 n’ahandi O
 haba O
 inzira O
@@ -49860,7 +49860,7 @@ intambwe O
 amakipe O
 yo O
 mu O
-Rwanda B-LOC
+Rwanda O
 ategereje O
 kuzahabwaho O
 umurongo O
@@ -49872,7 +49872,7 @@ Bwongereza O
 u O
 Budage O
 , O
-Espagne O
+Espagne B-LOC
 n’ahandi O
 imikino O
 yasubukuwe O
@@ -49905,10 +49905,10 @@ abakinnyi O
 bategerena O
 , O
 aho O
-mu O
-cyumweru O
-cya O
-mbere O
+mu B-DATE
+cyumweru I-DATE
+cya I-DATE
+mbere I-DATE
 imyitozo O
 yakorwaga O
 mu O
@@ -49973,11 +49973,11 @@ amakipe O
 yitegura O
 amarushanwa O
 
-Lomami O
-Marcel O
+Lomami B-PER
+Marcel I-PER
 utoza O
-Gorilla O
-FC O
+Gorilla B-ORG
+FC I-ORG
 yo O
 mu O
 cyiciro O
