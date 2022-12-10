@@ -3,8 +3,8 @@ touch datastore2
 for i in `cat all_exps`; do 
     # echo $i;
     # continue
-    NUM_JOBS=`squeue | grep mbeukman | wc -l`
-    N=10
+    NUM_JOBS=`squeue | grep mbeukman | grep batch | wc -l`
+    N=15
     if grep -q $i datastore2; then
         echo "Found $i in datastore. Not Running"
     else
