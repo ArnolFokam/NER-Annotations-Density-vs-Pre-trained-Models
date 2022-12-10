@@ -8,7 +8,7 @@ from ner.dataset import read_examples_from_file
 import os
 log = logging.getLogger(__name__)
 
-percentage = [{'percentage': i / 10} for i in range(1, 11)]
+percentage = [{'percentage': i / 10} for i in range(1, 11)] + [{'percentage': 0.01}, {'percentage': 0.05}]
 number = [{'number': i} for i in range(1, 11)]
 
 ALL_FUNCS_PARAMS = {
