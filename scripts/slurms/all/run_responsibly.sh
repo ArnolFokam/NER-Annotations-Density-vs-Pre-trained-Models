@@ -1,8 +1,6 @@
 touch datastore2
 # v0150_1-a v0150_1-b v0150_1-c v0150_1-d v0150_1-e v0150_1-f v0150_1-g v0150_1-h v0150_1-i v0150_1-j v0150_1-k v0150_1-l v0151_4-a v0151_4-b v0151_4-c v0151_4-d v0148-a v0148-b v0148-c 
 for i in `cat all_exps`; do 
-    # echo $i;
-    # continue
     NUM_JOBS=`squeue | grep mbeukman | grep batch | wc -l`
     N=15
     if grep -q $i datastore2; then

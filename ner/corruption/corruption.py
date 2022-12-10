@@ -7,6 +7,7 @@ import numpy as np
 from ner.dataset import InputExample, get_labels_position
 
 labels_suffix = ["PER", "ORG", "LOC", "DATE"]
+labels_suffix_con = ["PER", "ORG", "LOC"]
 
 
 def write_modified_examples_general(mode: str, X: List[InputExample], new_filename: str,
@@ -57,7 +58,7 @@ def swap_number_of_labels(X: List[InputExample], number: int) -> List[InputExamp
             
             # choose a label at random excluding the label we currently have
             current = labels[x].split("-")[-1]
-            available_labels = labels_suffix.copy()
+            available_labels = labels_suffix_con.copy()
             available_labels.remove(current)
             label = np.random.choice(available_labels)
 
@@ -107,7 +108,7 @@ def swap_percentage_of_labels(X: List[InputExample], percentage: float) -> List[
         
         # choose a label at random excluding the label we currently have
         current = n_examples[example_index].labels[temp[0]].split("-")[-1]
-        available_labels = labels_suffix.copy()
+        available_labels = labels_suffix_con.copy()
         available_labels.remove(current)
         label = np.random.choice(available_labels)
         

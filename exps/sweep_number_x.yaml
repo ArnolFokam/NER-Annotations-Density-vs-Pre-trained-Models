@@ -1,0 +1,28 @@
+data.param:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+
+data.method:
+  - local_swap_labels
+
+data.language:
+  - conll_2003_en
+
+model.conf:
+  - [bert,castorini/afriberta_large,afriberta]
+  - [bert,Davlan/afro-xlmr-base,afro_xlmr]
+  - [bert,bert-base-multilingual-cased,mbert]
+  - [bert,xlm-roberta-base,xlmr]
+  
+device.seed:
+  - 1
+  - 2
+  - 3

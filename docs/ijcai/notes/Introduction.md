@@ -1,0 +1,10 @@
+- Language datasets collected in low-ressource setting are often of low quality compared to thier high-resourced counterpart.
+- 
+- Massive correlation between the quantity and the quality of the data.
+- Because we then look at corruption at a token len. Since  NER is a token classification annotators usually have to  classify a span of words from a sentence into different catergories  
+- Therefore a situation where the annotors misclassifies a  token is not far from happening.  
+- Therefore we look at the performance of the model and  the certainty of its prediction  
+- Explain why look at these two metrics  
+- Then talk about about the contributions of the paper  
+- Breifly give the results obtained  
+- Finally, talk about the outline of the paper
