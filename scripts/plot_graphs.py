@@ -48,6 +48,7 @@ def main():
             ranges = range(1, 11)
             if mode == 'original': ranges = [1]
             if mode.startswith('local_swap_labels'): ranges = range(0, 11)
+            if mode.startswith('global_cap_sentences'): ranges = [0.1, 0.5] + list(range(1, 11))
             for nums in ranges:
                 perc = nums / 10
                 if mode.startswith('local'): perc = nums
@@ -115,6 +116,8 @@ def main():
         x = np.unique(df['num'])
         if mode == 'local_swap_labels':
             plt.plot(x, 1 - np.arange(0, 11)/10)
+        elif mode == 'global_cap_sentences':
+            plt.plot(x, np.array([0.1, 0.5] + list(np.arange(1, 11)))/10)
         # elif mode.startswith('local'):
             # plt.plot(x, np.arange(0, 11)/10)
         else:
