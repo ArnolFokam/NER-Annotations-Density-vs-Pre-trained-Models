@@ -113,7 +113,7 @@ def main():
         print(len(df))
         print(df)             
         # plt.plot(df['num'], df['good'])
-        sns.lineplot(df, x='num', y='good', hue='model')
+        sns.lineplot(df, x='num', y='good', hue='model', errorbar='sd')
         # sns.lineplot(df, x='num', y='good', hue='lang')
         # plt.plot(df['num'], df['num'])
         x = np.unique(df['num'])
