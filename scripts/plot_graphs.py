@@ -62,7 +62,10 @@ def main():
                         try:
                             lines = pathlib.Path(dir).read_text().split("\n")
                         except Exception as e:
-                            print("BAD", dir, e)
+                            _, model_val, perturb, param_val, lang_val, seed_val, _ =  dir.split("/")
+                            print("BAD", dir, e, f"model_{perturb}_{param_val}_{lang_val}_{model_val}_{seed_val}_.bash")
+                            
+                            
                             continue
                         line = [l for l in lines if 'f1 = ' in l]
                         assert len(line) == 1
