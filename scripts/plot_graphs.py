@@ -257,5 +257,5 @@ def plot_entity_frequency():
     plt.show()
 if __name__ == '__main__':
     # main(True)
-    plot_dataset_stats()
-    # plot_entity_frequency()
+    # plot_dataset_stats()
+    plot_entity_frequency()
