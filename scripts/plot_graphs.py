@@ -226,6 +226,7 @@ def plot_entity_frequency():
     ALL_FUNCS_PARAMS['original'] = (None, [{'number': i} for i in range(1, 2)])
 
     df = {key: np.zeros(70) for key in LANGS}
+    df_temp = {key: 0 for key in LANGS}
     for key, value in ALL_FUNCS_PARAMS.items():
         if key != 'original': continue
         for lang in LANGS:
@@ -240,10 +241,21 @@ def plot_entity_frequency():
                         if l == 'O': continue
                         num_entities += 1
                     df[lang][num_entities] += 1
+                    df_temp[lang] += 1
+    for l in df:
+        for i in range(len(df[l])):
+            df[l][i] = df[l][i] / df_temp[l]
     df = pd.DataFrame(df)      
     print(df)
-    df['Nums'] = df.index
+    df['Number of Entities'] = df.index
+    temp = pd.melt(df, id_vars='Number of Entities', var_name='lang', value_name='Fraction of Sentences')
+    sns.lineplot(temp, x='Number of Entities', y='Fraction of Sentences', hue='lang', palette=sns.color_palette("Paired"))
+    plt.xlim(0, 15)
+    # plt.show()
+    savefig("analysis/entity_distribution.png")
     # L = df.loc[:, 'swa']
+    print(temp)
+    exit()
     L = df
     print(L)
     for l in LANGS:
@@ -251,7 +263,6 @@ def plot_entity_frequency():
         sns.lineplot(L, x='Nums', y=l)
     # sns.lineplot(L, x='Nums', y='kin')
     # plt.plot(L['Nums'], L['swa'])
-    
     
     
     plt.show()
