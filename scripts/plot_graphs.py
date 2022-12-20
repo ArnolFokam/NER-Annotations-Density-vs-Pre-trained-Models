@@ -15,7 +15,8 @@ MODES = ['global_cap_labels', 'global_cap_sentences', 'global_swap_labels',
          'local_cap_labels',
          'local_swap_labels',
          'original']
-
+def clean_model(model):
+    return {'afriberta': "AfriBERTa", 'mbert': "mBERT", 'xlmr': "XLM-R", 'afro_xlmr': "Afro-XLM-R"}[model]
 
 
 def savefig(name, pad=0):
@@ -30,6 +31,7 @@ def savefig(name, pad=0):
     plt.savefig(name, bbox_inches='tight', pad_inches=pad, dpi=200)
 
 def main(lang_to_use=None):
+    global MODELS
     model = 'afriberta'
     mode = 'global_cap_labels'
     # for nums in range(1, 11):
@@ -76,13 +78,22 @@ def main(lang_to_use=None):
                         all_dics['mode'].append(mode)
                         all_dics['num'].append(perc)
                         all_dics['lang'].append(lang)
-                        all_dics['model'].append(model)
+                        all_dics['model'].append(clean_model(model))
                         all_dics['seed'].append(seed)
                         all_dics['f1'].append(f1)
+    MODELS = [clean_model(m) for m in MODELS]
     if SHOULD_READ:
         df = pd.DataFrame(all_dics)
-        df = df.groupby(['mode', 'num', 'lang', 'model'], as_index=False).mean()
+        # df_std = df.groupby(['mode', 'num', 'lang', 'model'], as_index=False).std()
+        # df = df.groupby(['mode', 'num', 'lang', 'model'], as_index=False).mean()
+        df = df.groupby(['mode', 'num', 'lang', 'model'], as_index=False).agg(['mean','std'])
+        df.columns = ['_'.join(col) for col in df.columns.values]
+        df = df.reset_index(['num', 'lang', 'model', 'mode'])
+        df['f1'] = df['f1_mean']
+        print(df)
+        print(df.columns)
         df.to_csv("analysis/main_results.csv")
+        # exit()
     # exit()
     df = pd.read_csv("analysis/main_results.csv")
     old = copy.deepcopy(df)
@@ -130,17 +141,48 @@ def main(lang_to_use=None):
         
         AX.set_ylabel("Fraction of F1 when using original dataset")
         
-    for mode in MODES[:-1]:
-        single_plot(mode, plt.gca())
-        savefig(f'analysis/plots/corruption/{mode}.png')
-        plt.close()
-    if lang_to_use is not None:
+    if 1:
         for mode in MODES[:-1]:
-            fig, axs = plt.subplots(4, 3, figsize=(18, 24))
-            for ax, lang in zip(axs.ravel(), LANGS):
-                single_plot(mode, ax, lang)
-            savefig(f'analysis/plots/corruption/langs/all_{mode}.png')
+            single_plot(mode, plt.gca())
+            savefig(f'analysis/plots/corruption/{mode}.png')
             plt.close()
+        if lang_to_use is not None:
+            for mode in MODES[:-1]:
+                fig, axs = plt.subplots(4, 3, figsize=(18, 24))
+                for ax, lang in zip(axs.ravel(), LANGS):
+                    single_plot(mode, ax, lang)
+                savefig(f'analysis/plots/corruption/langs/all_{mode}.png')
+                plt.close()
+    # Make table for the langs
+    temp     = df[df['mode'] == 'original']
+    # temp_std = df_std[df_std['mode'] == 'original']
+    # print((len(temp)))
+    # print(temp)
+    
+    # temp['two'] = (((temp['f1'].round(2).astype(str) + " (").str.cat(temp['f1_std'].round(2).astype(str))) + ")")
+    # print(temp['two'])
+    # exit()
+    # temp.loc[:, 'actual'] == alls 
+    X = pd.pivot_table(temp, columns='model', index='lang', values='f1')
+    X2 = ' (' + pd.pivot_table(temp, columns='model', index='lang', values='f1_std', aggfunc=np.sum).round(2).astype(str) + ')'
+    # X = X.round(2)
+    # print(X.mean(axis=0))
+    X['avg'] = X.mean(axis=1)
+    X.loc['avg'] = X.mean()
+    
+    X2['avg'] = ''
+    X2.loc['avg'] = ''
+    
+    X = (X.round(2).astype(str) + X2)
+    s = X.to_latex(column_format='lllll|l')
+    print(s)
+    splits = s.split("\n")
+    
+    splits.insert(-4, r'\midrule')
+    s = '\n'.join(splits)
+    print(s)
+    with open("analysis/performance_all.tex", 'w+') as f:
+        f.write(s)
 
 
 def plot_dataset_stats():
@@ -170,6 +212,14 @@ def plot_dataset_stats():
     df = df.fillna(0).astype(np.int32)
     print(df)
     df.to_latex("analysis/number_entities.tex")
+    # sns.barplot(df, x='lang', 
+    df = df.drop('Total', axis=1)
+    df.plot(kind='bar', stacked=True)
+    plt.xlabel('Language')
+    plt.ylabel("Number of Entities")
+    plt.yscale('log')
+    plt.tight_layout()
+    savefig("analysis/number_entities.png")
 
 def plot_entity_frequency():
     root_dir = 'data'
@@ -201,8 +251,11 @@ def plot_entity_frequency():
         sns.lineplot(L, x='Nums', y=l)
     # sns.lineplot(L, x='Nums', y='kin')
     # plt.plot(L['Nums'], L['swa'])
+    
+    
+    
     plt.show()
 if __name__ == '__main__':
-    main(True)
-    # plot_dataset_stats()
+    # main(True)
+    plot_dataset_stats()
     # plot_entity_frequency()
