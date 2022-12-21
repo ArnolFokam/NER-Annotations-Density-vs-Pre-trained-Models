@@ -30,10 +30,10 @@ ma O
 Rachuonyo O
 East O
 e O
-County O
-ma O
-Homa O
-Bay O
+County B-LOC
+ma I-LOC
+Homa I-LOC
+Bay I-LOC
 ewii O
 odhiambo B-DATE
 makawuononi I-DATE
@@ -122,7 +122,7 @@ o O
 kochimo O
 godo O
 chiro O
-Ringa B-LOC
+Ringa O
 ema O
 lorino O
 mabende O
@@ -444,7 +444,7 @@ jotho O
 ei O
 kawuononi B-DATE
 
-Kagwe O
+Kagwe B-PER
 ne O
 okwayo O
 oganda O
@@ -490,7 +490,7 @@ Coronavirus O
 e O
 pachoka O
 koro O
-kawuono B-DATE
+kawuono O
 ochopo O
 alufu O
 7 O
@@ -549,9 +549,9 @@ jii O
 mane O
 oyudi O
 kawuonogo O
-county O
-ma O
-siaya O
+county B-LOC
+ma I-LOC
+siaya I-LOC
 ne O
 nigi O
 ng' O
@@ -743,8 +743,8 @@ apedha O
 mane O
 otim O
 ei O
-okinyi O
-makawuononi O
+okinyi B-DATE
+makawuononi I-DATE
 kendo O
 ne O
 otergi O
@@ -807,11 +807,11 @@ giruako O
 masks O
 
 E O
-Sub O
-County O
-ma O
-Suna O
-East O
+Sub B-LOC
+County I-LOC
+ma I-LOC
+Suna I-LOC
+East I-LOC
 bende O
 apedha O
 dhiyoe O
@@ -837,11 +837,11 @@ wachno O
 jatend O
 obila O
 ma O
-Sub O
-County O
-ma O
-Suna O
-East O
+Sub B-LOC
+County I-LOC
+ma I-LOC
+Suna I-LOC
+East I-LOC
 migosi O
 Stanley O
 Atachavi O
@@ -905,9 +905,9 @@ alufu O
 e O
 doho O
 
-County O
-ma O
-Kisumu O
+County B-LOC
+ma I-LOC
+Kisumu I-LOC
 kawuono O
 osidho O
 ayanga O
@@ -978,9 +978,9 @@ ma O
 Kisumu O
 kuno O
 ngire O
-Anyang B-PER
-Nyong' I-PER
-o I-PER
+Anyang O
+Nyong' O
+o O
 mane O
 owacho O
 ni O
@@ -1195,7 +1195,7 @@ Nyong' O
 o O
 . O
 
-Oraro B-PER
+Oraro O
 wacho O
 ni O
 gigeto O
@@ -1264,8 +1264,8 @@ migao O
 mar O
 somo O
 ngire O
-George B-PER
-Magoha I-PER
+George O
+Magoha O
 olero O
 ni O
 pod O
@@ -1362,8 +1362,8 @@ gi O
 jatend O
 piny O
 Kenya O
-Uhuru B-PER
-Kenyatta I-PER
+Uhuru O
+Kenyatta O
 tarik O
 6 O
 dweni O
@@ -1448,10 +1448,10 @@ ringre O
 oduog O
 okwany O
 mana O
-ndalo O
-3 O
-bang' O
-e O
+ndalo B-DATE
+3 I-DATE
+bang' I-DATE
+e I-DATE
 kopandi O
 e O
 puodho O
@@ -1494,8 +1494,8 @@ Komanda O
 mar O
 obila O
 ma O
-Rachuonyo O
-South O
+Rachuonyo B-LOC
+South I-LOC
 Esau O
 Ochorokodi O
 okoo O
@@ -1828,8 +1828,8 @@ e O
 Homabay O
 omaki O
 
-Magoha O
-kawuono B-DATE
+Magoha B-PER
+kawuono O
 owacho O
 ni O
 pod O
@@ -1942,7 +1942,7 @@ jii O
 ma O
 oyudi O
 ei O
-kawuononi B-DATE
+kawuononi O
 ni O
 nikod O
 Covid O
@@ -2007,8 +2007,8 @@ yiene O
 jo O
 ohala O
 ma O
-chiro O
-Kibuye O
+chiro B-LOC
+Kibuye I-LOC
 mondo O
 jodogi O
 e O
@@ -2058,7 +2058,7 @@ daro O
 e O
 miere O
 
-Kenya B-LOC
+Kenya O
 oloro O
 tong O
 mare O
@@ -2083,9 +2083,9 @@ wach O
 yao O
 skunde O
 
-Kenya O
+Kenya B-LOC
 mar O
-Jubilee B-ORG
+Jubilee O
 gi O
 KANU O
 ochungi O
@@ -2161,10 +2161,10 @@ njore O
 
 Nyasi O
 mane O
-sirkand B-ORG
-county I-ORG
-ma I-ORG
-Kisumu I-ORG
+sirkand O
+county O
+ma O
+Kisumu O
 obago O
 Jomo O
 Kenyatta O
@@ -2213,8 +2213,8 @@ duond O
 bura O
 mar O
 Jubilee O
-Raphael O
-Tuju O
+Raphael B-PER
+Tuju I-PER
 oter O
 gi O
 ndege O
@@ -2259,13 +2259,13 @@ Bura O
 mane O
 omako O
 Seneta O
-Outa O
+Outa B-PER
 owit O
 oko O
 
 Gavanas O
 ma O
-Nyanza O
+Nyanza B-LOC
 gi O
 BBI O
 
@@ -2325,7 +2325,7 @@ Homabay I-ORG
 onge O
 chudo O
 
-Nyongo O
+Nyongo B-PER
 owacho O
 ni O
 pod O
@@ -2359,11 +2359,11 @@ County I-ORG
 ma I-ORG
 Migori I-ORG
 
-Kitayama B-PER
+Kitayama O
 obalo O
 gi O
-Junet B-PER
-Mohamed I-PER
+Junet O
+Mohamed O
 ewii O
 dhok O
 mane O
@@ -2373,7 +2373,7 @@ ni O
 piny O
 owacho O
 mar O
-Jubilee B-ORG
+Jubilee O
 pok O
 oketo O
 okenge O
@@ -2432,7 +2432,7 @@ pachoka O
 Familia O
 maloyo O
 320 O
-sani O
+sani B-DATE
 pii O
 mapong O
 kendo O
@@ -2471,7 +2471,7 @@ okelo O
 tho O
 egweng O
 ma O
-Kokara O
+Kokara B-LOC
 e O
 Sub B-LOC
 County I-LOC
@@ -2595,8 +2595,8 @@ Raila O
 Odinga O
 , O
 mama O
-Ida B-PER
-Odinga I-PER
+Ida O
+Odinga O
 koro O
 kawuono O
 ogolo O
@@ -3004,7 +3004,7 @@ gin O
 447 O
 
 Kenya O
-kawuono B-DATE
+kawuono O
 ne O
 ohango O
 bedo O
@@ -3126,11 +3126,11 @@ ma O
 Gem O
 kuno O
 
-Apis B-ORG
-jaod I-ORG
-bura I-ORG
-ma I-ORG
-Gem I-ORG
+Apis O
+jaod O
+bura O
+ma O
+Gem O
 migosi O
 Elisha O
 Odhiambo O
@@ -3152,7 +3152,7 @@ Rural O
 Roads O
 Authority O
 - O
-KERRA O
+KERRA B-ORG
 - O
 mane O
 oger O
@@ -3194,7 +3194,7 @@ apaya O
 mawuok O
 Muhanda O
 kochimo O
-Nyangweso B-LOC
+Nyangweso O
 ma O
 owacho O
 ni O
@@ -3205,7 +3205,7 @@ Kanomedowuoyo O
 ewii O
 wachno O
 migosi O
-Audi O
+Audi B-PER
 nowacho O
 ni O
 kar O
@@ -3339,8 +3339,8 @@ jaod O
 bura O
 margi O
 migosi O
-Elisha B-PER
-Odhiambo I-PER
+Elisha O
+Odhiambo O
 nogono O
 mondo O
 mi O
@@ -3386,10 +3386,10 @@ ma O
 Wang' O
 chieng' O
 e O
-county O
-ma O
-ma O
-Homabay O
+county B-LOC
+ma I-LOC
+ma I-LOC
+Homabay I-LOC
 bang' O
 ka O
 pii O
@@ -3465,10 +3465,10 @@ dak O
 mong' O
 ohore O
 ma O
-boma O
-ma O
-Homa O
-Bay O
+boma B-LOC
+ma I-LOC
+Homa I-LOC
+Bay I-LOC
 ma O
 gidhi O
 ndiko O
@@ -3636,7 +3636,7 @@ Kanomedowuoyo O
 ewii O
 wachno O
 migosi O
-Kipkemei O
+Kipkemei B-PER
 nowacho O
 ni O
 piny O
@@ -3744,7 +3744,7 @@ yudo O
 jii O
 278 O
 ei O
-kawuononi O
+kawuononi B-DATE
 mane O
 nigi O
 midusino O
@@ -3901,8 +3901,8 @@ omendago O
 ochak O
 tiyo O
 e O
-higa O
-manyien O
+higa B-DATE
+manyien I-DATE
 koseyawu O
 skunde O
 . O
@@ -3930,8 +3930,8 @@ nek O
 mar O
 nyathi O
 ma O
-jahigni B-DATE
-13 I-DATE
+jahigni O
+13 O
 ma O
 nyinge O
 Yassin O
@@ -3942,9 +3942,9 @@ dak O
 ma O
 Huruma O
 e O
-county B-LOC
-ma I-LOC
-Nairobi I-LOC
+county O
+ma O
+Nairobi O
 . O
 
 Doho O
@@ -4008,10 +4008,10 @@ e O
 seche O
 ma O
 okadho O
-saa B-DATE
-achiel I-DATE
-mar I-DATE
-odhiambo I-DATE
+saa O
+achiel O
+mar O
+odhiambo O
 . O
 
 Jayal O
@@ -4476,7 +4476,7 @@ tiyo O
 gi O
 sitondego O
 kapok O
-jumani B-DATE
+jumani O
 korumo O
 . O
 
@@ -4560,13 +4560,13 @@ mamoko O
 
 Jakom O
 mar O
-riwruok O
-jo O
-ohala O
-ma O
-tindo O
-ma O
-Kisumo O
+riwruok B-ORG
+jo I-ORG
+ohala I-ORG
+ma I-ORG
+tindo I-ORG
+ma I-ORG
+Kisumo I-ORG
 Anthony O
 Kwache O
 , O
@@ -4593,7 +4593,7 @@ jii O
 maromo O
 12 O
 otho O
-kawuono O
+kawuono B-DATE
 kaluwore O
 gi O
 midhusi O
@@ -4696,7 +4696,7 @@ bang O
 bedo O
 e O
 piny O
-Dubai B-LOC
+Dubai O
 kama O
 noyude O
 thieth O
@@ -4739,10 +4739,10 @@ dakika O
 bang O
 wuok O
 al O
-Maktoum B-ORG
-iInternational I-ORG
-Airport I-ORG
-Dubai B-LOC
+Maktoum O
+iInternational O
+Airport O
+Dubai O
 saa O
 5 O
 . O
@@ -4768,8 +4768,8 @@ ma O
 Nairobi O
 Dr O
 . O
-Evans B-PER
-Kidero I-PER
+Evans O
+Kidero O
 ; O
 mano O
 wach O
@@ -4786,8 +4786,8 @@ mar O
 doho O
 ma O
 malo O
-John B-PER
-Onyiego I-PER
+John O
+Onyiego O
 ogolo O
 chik O
 ni O
@@ -4936,7 +4936,7 @@ gormahiafc O
 com O
 . O
 
-Mbara B-PER
+Mbara O
 okoo O
 ni O
 chike O
@@ -5032,7 +5032,7 @@ goyo O
 ombulu O
 ka O
 ma O
-higani O
+higani B-DATE
 timore O
 e O
 yoo O
@@ -5057,8 +5057,8 @@ Noard O
 mar O
 yierono O
 mar O
-Gor O
-Mahia O
+Gor B-ORG
+Mahia I-ORG
 otelne O
 gi O
 jakom O
@@ -5112,10 +5112,10 @@ ma O
 North O
 Kanyikela O
 e O
-Sub O
-county O
-ma O
-Ndhiwa O
+Sub B-LOC
+county I-LOC
+ma I-LOC
+Ndhiwa I-LOC
 e O
 county O
 ma O
@@ -5129,10 +5129,10 @@ ja O
 klass O
 6 O
 e O
-skund O
-primar O
-ma O
-Unga O
+skund B-ORG
+primar I-ORG
+ma I-ORG
+Unga I-ORG
 , O
 nyo O
 orado O
@@ -5256,11 +5256,11 @@ wachno O
 omako O
 chunygi O
 e O
-dwe B-DATE
-mar I-DATE
-4 I-DATE
+dwe O
+mar O
+4 O
 ka O
-sani B-DATE
+sani O
 to O
 koro O
 kwan O
@@ -5376,8 +5376,8 @@ Jotend O
 dho O
 wedhe O
 ma O
-Rachuonyo B-LOC
-North I-LOC
+Rachuonyo O
+North O
 ogolo O
 siem O
 ewii O
@@ -5551,8 +5551,8 @@ ma O
 Miti O
 Mbili O
 migosi O
-Joram O
-Otieno O
+Joram B-PER
+Otieno I-PER
 ne O
 oseyo O
 malit O
@@ -5648,12 +5648,12 @@ midusi O
 mar O
 Coronavirus O
 e O
-County B-LOC
-ma I-LOC
-Homa I-LOC
-Bay I-LOC
+County O
+ma O
+Homa O
+Bay O
 koro O
-kawuono B-DATE
+kawuono O
 ochopo O
 jii O
 6 O
@@ -5688,10 +5688,10 @@ mag O
 Kochia O
 Ward O
 e O
-Sub O
-County O
-ma O
-Rangwe O
+Sub B-LOC
+County I-LOC
+ma I-LOC
+Rangwe I-LOC
 ne O
 obiro O
 dala O
@@ -5774,10 +5774,10 @@ ma O
 Oasis O
 Hospital O
 e O
-boma O
-ma O
-Homa O
-Bay O
+boma B-LOC
+ma I-LOC
+Homa I-LOC
+Bay I-LOC
 kuno O
 mane O
 opimee O
@@ -5808,7 +5808,7 @@ Homa O
 Bay O
 kuno O
 ngire O
-Muga B-PER
+Muga O
 mane O
 owacho O
 ni O
@@ -5824,12 +5824,12 @@ ne O
 oduog O
 odhi O
 e O
-kar B-ORG
-thieth I-ORG
-maduong I-ORG
-ma I-ORG
-Homa I-ORG
-Bay I-ORG
+kar O
+thieth O
+maduong O
+ma O
+Homa O
+Bay O
 tarik O
 7 O
 dweni O
@@ -5981,8 +5981,8 @@ Doho O
 otamo O
 familia O
 mar O
-James B-PER
-Oyugi I-PER
+James O
+Oyugi O
 e O
 golo O
 ringre O
@@ -6052,7 +6052,7 @@ kwan O
 maduong O
 mokalo O
 
-Wetangula B-PER
+Wetangula O
 othich O
 oko O
 ayanga O
@@ -6087,7 +6087,7 @@ Kisumu O
 ikwayo O
 ni O
 jondikne O
-KENHA B-ORG
+KENHA O
 ewii O
 nderni O
 mekgi O
@@ -6168,7 +6168,7 @@ adiera O
 ni O
 ratich O
 mosenindo O
-Oyugi O
+Oyugi B-PER
 to O
 ne O
 okethi O
@@ -6314,9 +6314,9 @@ yoore O
 mag O
 thieth O
 e O
-County O
-ma O
-Siaya O
+County B-LOC
+ma I-LOC
+Siaya I-LOC
 kuno O
 mondo O
 oyienegi O
@@ -6442,8 +6442,8 @@ higni O
 mane O
 otho O
 e O
-Nam B-LOC
-Lolwe I-LOC
+Nam O
+Lolwe O
 gi O
 owadgi O
 moro O
@@ -6454,8 +6454,8 @@ e O
 dho O
 wath O
 ma O
-Obondo B-LOC
-Beach I-LOC
+Obondo O
+Beach O
 e O
 Sub O
 County O
@@ -6497,7 +6497,7 @@ kod O
 jolupo O
 wetene O
 
-Ojaro O
+Ojaro B-PER
 kod O
 owadgi O
 Arthur O
@@ -6614,7 +6614,7 @@ owere O
 gi O
 bura O
 ma O
-nyocha B-DATE
+nyocha O
 omako O
 ne O
 ja O
@@ -6623,14 +6623,14 @@ bura O
 maa O
 Kanduyi O
 migosi O
-Wafula O
-Wamunyinyi O
+Wafula B-PER
+Wamunyinyi I-PER
 gi O
 ja O
 od O
 bura O
 ma O
-Tongaren O
+Tongaren B-LOC
 migosi O
 Eseli O
 Simiyu O
@@ -6679,8 +6679,8 @@ e O
 lemo O
 mare O
 migosi O
-moses O
-wetangula O
+moses B-PER
+wetangula I-PER
 kaka O
 ogai O
 mar O
@@ -6866,7 +6866,7 @@ ni O
 Nkurunziza O
 nyo O
 otho O
-nyoro O
+nyoro B-DATE
 e O
 kar O
 thieth O
@@ -6928,9 +6928,9 @@ ema O
 kendo O
 kanyo O
 ochopo O
-nyoro O
-wuok O
-tich O
+nyoro B-DATE
+wuok I-DATE
+tich I-DATE
 to O
 adundo O
 mare O
@@ -7049,11 +7049,11 @@ laro O
 kom O
 jatend O
 piny O
-tarik O
-20 O
-mar O
-dwe O
-mokalo O
+tarik B-DATE
+20 I-DATE
+mar I-DATE
+dwe I-DATE
+mokalo I-DATE
 bang O
 campaign O
 mane O
@@ -7169,7 +7169,7 @@ tuo O
 mar O
 Coronavirusno O
 ei O
-kawuononi O
+kawuononi B-DATE
 makoro O
 kelo O
 kwan O
@@ -7298,14 +7298,14 @@ ayanga O
 kaka O
 jakom O
 mar O
-Ford O
-Kenya O
+Ford B-ORG
+Kenya I-ORG
 kendo O
 kare O
 okau O
 kod O
-Wafula B-PER
-Wamunyinyi I-PER
+Wafula O
+Wamunyinyi O
 . O
 
 Maeri O
@@ -7340,8 +7340,8 @@ oboke O
 ma O
 kawuono O
 ka O
-Chris B-PER
-Mandu I-PER
+Chris O
+Mandu O
 bende O
 koro O
 e O
@@ -7424,7 +7424,7 @@ Supreme O
 Maraga O
 nowacho O
 ni O
-Kenyatta O
+Kenyatta B-PER
 osedagi O
 romo O
 kode O
@@ -7493,7 +7493,7 @@ e O
 doho O
 ma O
 kaok O
-Uhuru B-PER
+Uhuru O
 opuodho O
 yiero O
 mar O
@@ -7506,7 +7506,7 @@ ng' O
 ato O
 omako O
 bura O
-sani B-DATE
+sani O
 e O
 doho O
 to O
@@ -7525,9 +7525,9 @@ buche O
 
 Jotelo O
 ma O
-County O
-ma O
-Kisumu O
+County B-LOC
+ma I-LOC
+Kisumu I-LOC
 ma O
 gwengegi O
 apaya O
@@ -7537,11 +7537,11 @@ kilomita O
 mawuok O
 Mamboleo O
 kakalo O
-Chemelil O
+Chemelil B-LOC
 - O
 Muhoroni O
 nyaka O
-Kipsitet B-LOC
+Kipsitet O
 biro O
 kalee O
 koro O
@@ -7661,15 +7661,15 @@ maduong O
 mawuok O
 Mamboleo O
 nyaka O
-Kipsitetno B-LOC
+Kipsitetno O
 biro O
 kalo O
 e O
 Sub O
 Counties O
 kaka O
-Kisumu O
-West O
+Kisumu B-LOC
+West I-LOC
 , O
 Kisumu O
 East O
@@ -7745,7 +7745,7 @@ o O
 nyaka O
 jatend O
 piny O
-Kenya O
+Kenya B-LOC
 migosi O
 Uhuru O
 Kenyata O
@@ -7821,7 +7821,7 @@ olero O
 ni O
 jatend O
 piny O
-Kenya B-LOC
+Kenya O
 migosi O
 Uhuru O
 Kenyatta O
@@ -7856,13 +7856,13 @@ Kisumu O
 yuakne O
 onjuaria O
 
-Public O
-Service O
-Board O
-ma O
-County O
-ma O
-Kisumu O
+Public B-ORG
+Service I-ORG
+Board I-ORG
+ma I-ORG
+County I-ORG
+ma I-ORG
+Kisumu I-ORG
 koro O
 ne O
 jogolo O
@@ -8220,7 +8220,7 @@ Covid O
 e O
 pachoka O
 koro O
-kawuono B-DATE
+kawuono O
 ochopo O
 jii O
 1 O
@@ -8318,7 +8318,7 @@ jii O
 moko O
 mane O
 otho O
-kawuononi O
+kawuononi B-DATE
 kod O
 tuono O
 
@@ -8569,7 +8569,7 @@ maromo O
 123 O
 mane O
 oyudi O
-kawuononi O
+kawuononi B-DATE
 kod O
 midusi O
 mar O
@@ -8587,7 +8587,7 @@ moloyo O
 nyakane O
 chakre O
 
-Kenya B-LOC
+Kenya O
 kawuono O
 oyudo O
 kwan O
@@ -8655,11 +8655,11 @@ kowuok O
 Afya O
 House O
 buore O
-Nairobika B-LOC
+Nairobika O
 Kagwe O
 nowacho O
 ni O
-Nairobi B-LOC
+Nairobi O
 emapod O
 okao O
 namba O
@@ -8742,10 +8742,10 @@ Moko O
 kuom O
 MCAs O
 ma O
-County O
-ma O
-Homa O
-Bay O
+County B-LOC
+ma I-LOC
+Homa I-LOC
+Bay I-LOC
 jodhiyoe O
 nyime O
 gi O
@@ -8825,8 +8825,8 @@ Hospital O
 kambi O
 mogo O
 ma O
-chiro B-LOC
-Kigoti I-LOC
+chiro O
+Kigoti O
 kod O
 kar O
 pidho O
@@ -8910,7 +8910,7 @@ kuno O
 Kanomeodwuoyo O
 ewii O
 wachno O
-Ayieta B-PER
+Ayieta O
 nowacho O
 ni O
 gidhi O
@@ -8918,10 +8918,10 @@ keto O
 piny O
 owacho O
 mar O
-County B-LOC
-ma I-LOC
-Homa I-LOC
-Bayno I-LOC
+County O
+ma O
+Homa O
+Bayno O
 e O
 nyong' O
 ong O
@@ -9029,8 +9029,8 @@ thieth O
 e O
 pachoka O
 laktar O
-Rashid B-PER
-Aman I-PER
+Rashid O
+Aman O
 mane O
 owacho O
 ni O
@@ -9316,7 +9316,7 @@ jochich O
 gi O
 jagono O
 
-Obuo B-PER
+Obuo O
 nowacho O
 ni O
 achijno O
@@ -9484,7 +9484,7 @@ gi O
 pedhogi O
 
 Jatugo O
-Makaka O
+Makaka B-PER
 owito O
 ngimane O
 
@@ -9542,14 +9542,14 @@ otieno O
 ma O
 piny O
 orugo O
-kawuono B-DATE
+kawuono O
 . O
 
 Kambi O
 mar O
-Royal O
-Media O
-Services O
+Royal B-ORG
+Media I-ORG
+Services I-ORG
 bende O
 nikod O
 kuyo O
@@ -9622,10 +9622,10 @@ County O
 ma O
 Rangwe O
 e O
-County B-LOC
-ma I-LOC
-Homa I-LOC
-Bay I-LOC
+County O
+ma O
+Homa O
+Bay O
 ne O
 pii O
 mapong O
@@ -9645,8 +9645,8 @@ kod O
 wach O
 pong O
 mar O
-Nam B-LOC
-Lolwe I-LOC
+Nam O
+Lolwe O
 masani O
 opong O
 ma O
@@ -9699,9 +9699,9 @@ ewii O
 wachno O
 ruoth O
 ma O
-West O
-Kochia O
-Location O
+West B-LOC
+Kochia I-LOC
+Location I-LOC
 migosi O
 Joshua O
 Juma O
@@ -9848,15 +9848,15 @@ ma O
 Central O
 Kochia O
 kod O
-East O
-Kochia O
-Location O
+East B-LOC
+Kochia I-LOC
+Location I-LOC
 bende O
 piigno O
 ohinyo O
 bang O
-aora B-LOC
-Oluch I-LOC
+aora O
+Oluch O
 pong O
 ma O
 ochwe O
@@ -9950,7 +9950,7 @@ Bende O
 aman O
 nowacho O
 ni O
-kawuono O
+kawuono B-DATE
 ne O
 giyudo O
 kwa O
@@ -10014,7 +10014,7 @@ pachoka O
 Kanyomedowuoyo O
 ewii O
 wachno O
-Bonaya B-PER
+Bonaya O
 nyowacho O
 ni O
 mana O
@@ -10189,7 +10189,7 @@ e O
 yoor O
 mbui O
 
-Mumina B-PER
+Mumina O
 bende O
 nyo O
 okwayo O
@@ -10233,10 +10233,10 @@ Chancellor O
 ma O
 Mbalariany O
 ma O
-Jaramogi O
-Oginga O
-Odinga O
-University O
+Jaramogi B-ORG
+Oginga I-ORG
+Odinga I-ORG
+University I-ORG
 kuno O
 ngire O
 Stephen O
@@ -10428,11 +10428,11 @@ Coronavirus O
 
 Governor O
 ma O
-Kisumu O
+Kisumu B-LOC
 ngire O
-Anyang B-PER
-Nyong' I-PER
-o I-PER
+Anyang O
+Nyong' O
+o O
 koro O
 wacho O
 ni O
@@ -11016,7 +11016,7 @@ Kanomedowuoyo O
 ewii O
 wachno O
 laktar O
-Oluoch O
+Oluoch B-PER
 nowacho O
 ni O
 jomane O
@@ -11154,7 +11154,7 @@ Bondo O
 migosi O
 Gideon O
 Ochanda O
-kawuono O
+kawuono B-DATE
 ne O
 okwayo O
 piny O
@@ -11292,7 +11292,7 @@ kinde O
 midhiero O
 
 Migosi O
-Ochanda O
+Ochanda B-PER
 mane O
 rik O
 wuoyo O
@@ -11302,7 +11302,7 @@ chung O
 od O
 buche O
 ma O
-Bondo B-LOC
+Bondo O
 nowacho O
 ni O
 ma O
@@ -11433,7 +11433,7 @@ Kanomedowuoyo O
 ewii O
 wachno O
 migosi O
-Kagwe O
+Kagwe B-PER
 nowacho O
 ni O
 kuonde O
@@ -11634,7 +11634,7 @@ dweni O
 . O
 
 Mikayi O
-aora O
+aora B-PER
 okone O
 jokenya O
 mondo O
@@ -11805,11 +11805,11 @@ Sub O
 Location O
 Masala O
 , O
-Rarieda B-LOC
+Rarieda O
 e O
-county B-LOC
-ma I-LOC
-siaya I-LOC
+county O
+ma O
+siaya O
 bang O
 tho O
 wuok O
@@ -11862,8 +11862,8 @@ County I-LOC
 ma I-LOC
 Rarieda I-LOC
 migosi O
-Thomas O
-Ototo O
+Thomas B-PER
+Ototo I-PER
 mane O
 owacho O
 ni O
@@ -11879,9 +11879,9 @@ Otieno O
 mabende O
 japuony O
 ma O
-Dagamoyo B-ORG
-Primary I-ORG
-School I-ORG
+Dagamoyo O
+Primary O
+School O
 ne O
 otho O
 bang O
@@ -11930,10 +11930,10 @@ e O
 kar O
 thieth O
 ma O
-Bondo B-ORG
-Sub I-ORG
-County I-ORG
-Hospital I-ORG
+Bondo O
+Sub O
+County O
+Hospital O
 mar O
 timone O
 thieth O
@@ -11980,8 +11980,8 @@ nikech O
 ne O
 gigore O
 ei O
-okinyi O
-makawuononi O
+okinyi B-DATE
+makawuononi I-DATE
 motelo O
 ne O
 weche O
@@ -12008,10 +12008,10 @@ ma O
 kar O
 thieth O
 ma O
-Madiany B-ORG
-Sub I-ORG
-County I-ORG
-Hospital I-ORG
+Madiany O
+Sub O
+County O
+Hospital O
 ma O
 idhi O
 timonee O
@@ -12058,7 +12058,7 @@ kisian O
 e O
 apaya O
 mawuok O
-Kisumu B-LOC
+Kisumu O
 kochimo O
 Busia B-LOC
 
@@ -12126,7 +12126,7 @@ mane O
 rik O
 wuok O
 yoo O
-Maseno O
+Maseno B-LOC
 kochimo O
 Kisumu O
 ne O
@@ -12451,7 +12451,7 @@ one O
 ma O
 omako O
 piny O
-Kenya B-LOC
+Kenya O
 ma O
 onegobed O
 piny O
@@ -12571,7 +12571,7 @@ jokalee O
 
 Kambi O
 mar O
-Infotrackno B-ORG
+Infotrackno O
 nyochane O
 okao O
 pach O
@@ -12586,12 +12586,12 @@ mane O
 gitimo O
 e O
 kind O
-tarik B-DATE
-28 I-DATE
-mar I-DATE
-dwe I-DATE
-mar I-DATE
-5 I-DATE
+tarik O
+28 O
+mar O
+dwe O
+mar O
+5 O
 kod O
 tarik O
 2 O
@@ -12683,7 +12683,7 @@ Kanomedowuoyo O
 ewii O
 wachno O
 Bishop O
-Kodia B-PER
+Kodia O
 nowacho O
 ni O
 duarore O
@@ -12876,8 +12876,8 @@ ma O
 Kisumu O
 , O
 migosi O
-Mathew B-PER
-Owili I-PER
+Mathew O
+Owili O
 wacho O
 ni O
 giseyango O
@@ -13015,7 +13015,7 @@ lwenyno O
 
 Dr O
 . O
-Tedros O
+Tedros B-PER
 okwayo O
 jotelo O
 mag O
@@ -13071,9 +13071,9 @@ ne O
 jotich O
 piny O
 owacho O
-Public B-ORG
-Service I-ORG
-Board I-ORG
+Public O
+Service O
+Board O
 . O
 
 Jii O
@@ -13115,8 +13115,8 @@ Ondondi O
 kodo O
 to O
 kod O
-Sarah B-PER
-Owino I-PER
+Sarah O
+Owino O
 . O
 
 Jii O
@@ -13168,8 +13168,8 @@ maler O
 mar O
 pasaka O
 kata O
-‘Good B-DATE
-Friday' I-DATE
+‘Good O
+Friday' O
 ka O
 ma O
 wang' O
@@ -13252,9 +13252,9 @@ e O
 od O
 bura O
 mar O
-county B-LOC
-ma I-LOC
-omabay I-LOC
+county O
+ma O
+omabay O
 kaluowre O
 gi O
 lokruoge O
@@ -13317,8 +13317,8 @@ MCA O
 ma O
 Kanyaluo O
 ward O
-Jeff O
-Ongoro O
+Jeff B-PER
+Ongoro I-PER
 ka O
 lemo O
 mar O
@@ -13327,8 +13327,8 @@ ne O
 omii O
 MCA O
 ma O
-Kabondo O
-West O
+Kabondo B-LOC
+West I-LOC
 migosi O
 Godfrey O
 Anyango O
@@ -13402,10 +13402,10 @@ ohala O
 mamoko O
 mani O
 e O
-dhoo B-LOC
-wath I-LOC
-ma I-LOC
-Chuowe I-LOC
+dhoo O
+wath O
+ma O
+Chuowe O
 koro O
 nigi O
 luoro O
@@ -13417,15 +13417,15 @@ midhierono O
 
 Ruoth O
 ma O
-wang' O
-chieng' O
-location O
+wang' B-LOC
+chieng' I-LOC
+location I-LOC
 Peter O
 Agunga O
 yango O
 pii O
-nam O
-lolwe O
+nam B-LOC
+lolwe I-LOC
 ne O
 ochako O
 medore O
@@ -13585,7 +13585,7 @@ mag O
 duol O
 matayo O
 yiero O
-IEBC B-ORG
+IEBC O
 e O
 kinde O
 mane O
@@ -13931,12 +13931,12 @@ buora O
 kaka O
 kanisa O
 mar O
-Catholic O
+Catholic B-ORG
 , O
-Anglican B-ORG
+Anglican O
 kod O
-Deliverence O
-Church O
+Deliverence B-ORG
+Church I-ORG
 kuom O
 mamoko O
 
@@ -14012,8 +14012,8 @@ lamogo O
 
 Kanowuoyo O
 gi O
-Radio O
-Ramogi O
+Radio B-ORG
+Ramogi I-ORG
 , O
 jadolono O
 katakamano O
@@ -14112,9 +14112,9 @@ coronavirus O
 
 MCA O
 ma O
-ward B-LOC
-ma I-LOC
-Usonga I-LOC
+ward O
+ma O
+Usonga O
 e O
 kar O
 chung O
@@ -14251,11 +14251,11 @@ mar O
 telebisen O
 kowuok O
 e O
-County B-LOC
-ma I-LOC
-Embu I-LOC
+County O
+ma O
+Embu O
 migosi O
-Kagwe O
+Kagwe B-PER
 bende O
 ne O
 oyango O
@@ -14358,8 +14358,8 @@ Dichuo O
 moro O
 ma O
 ja O
-higni O
-41 O
+higni B-DATE
+41 I-DATE
 ma O
 nyocha O
 omaki O
@@ -14397,7 +14397,7 @@ gweng O
 ma O
 Matundu O
 yoo O
-Kakamega O
+Kakamega B-LOC
 , O
 nodere O
 kotiyo O
@@ -14424,8 +14424,8 @@ ja O
 higni O
 68 O
 no O
-alfred B-PER
-isutsi I-PER
+alfred O
+isutsi O
 . O
 
 Joyuak O
@@ -14579,7 +14579,7 @@ no O
 mabende O
 osir O
 gi O
-USaid B-ORG
+USaid O
 nowacho O
 ni O
 githiedho O
@@ -14651,8 +14651,8 @@ tuo O
 mar O
 kaherano O
 
-George O
-Oliech O
+George B-PER
+Oliech I-PER
 maen O
 jatij O
 kar O
@@ -14735,8 +14735,8 @@ tesend O
 obila O
 ma O
 Kilimani O
-otieno O
-mokalo O
+otieno B-DATE
+mokalo I-DATE
 . O
 
 Kokalo O
@@ -14746,7 +14746,7 @@ mare O
 mar O
 twitter O
 , O
-Sakaja B-PER
+Sakaja O
 wacho O
 ni O
 jok O
@@ -15050,7 +15050,7 @@ chirono O
 Doho O
 wacho O
 ni O
-Ombara B-PER
+Ombara O
 kuom O
 mano O
 ne O
@@ -15174,9 +15174,9 @@ MCA O
 ma O
 Kanyadoto O
 ward O
-Walter O
-Were O
-Muok O
+Walter B-PER
+Were I-PER
+Muok I-PER
 manyo O
 omaa O
 lemo O
@@ -15216,8 +15216,8 @@ MCA O
 ma O
 Kanyaluo O
 ward O
-Jeff O
-Ongoro O
+Jeff B-PER
+Ongoro I-PER
 ka O
 lemo O
 mar O
@@ -15402,7 +15402,7 @@ mar O
 duond O
 bura O
 mar O
-Jubilee O
+Jubilee B-ORG
 Raphael O
 Tuju O
 ne O
@@ -15450,8 +15450,8 @@ directa O
 mochungne O
 yore O
 tudruok O
-Albert B-PER
-Nemusi I-PER
+Albert O
+Nemusi O
 , O
 wachoni O
 familia O
@@ -15474,7 +15474,7 @@ thiedhe O
 e O
 pachoka O
 
-Tuju B-PER
+Tuju O
 kaluwore O
 gi O
 memusi O
@@ -15530,9 +15530,9 @@ mar O
 2 O
 mapachoka O
 jaduong O
-Daniel O
-Arap O
-Moi O
+Daniel B-PER
+Arap I-PER
+Moi I-PER
 Kabarak O
 . O
 
@@ -15612,8 +15612,8 @@ ano O
 East O
 location O
 , O
-Suba O
-North O
+Suba B-LOC
+North I-LOC
 e O
 County B-LOC
 ma I-LOC
@@ -15752,12 +15752,12 @@ koyo O
 Obila O
 mawuok O
 e O
-tesend B-ORG
-obila I-ORG
-ma I-ORG
-Sena I-ORG
-Patrol I-ORG
-Base I-ORG
+tesend O
+obila O
+ma O
+Sena O
+Patrol O
+Base O
 mane O
 joringo O
 odhi O
@@ -15832,13 +15832,13 @@ wuon O
 duka O
 moro O
 e O
-gweng O
-ma O
-Chaani O
-eodbura O
-ma O
-Changamwe O
-Mombasa O
+gweng B-LOC
+ma I-LOC
+Chaani I-LOC
+eodbura I-LOC
+ma I-LOC
+Changamwe I-LOC
+Mombasa I-LOC
 kuma O
 ne O
 gikwale O
@@ -16348,9 +16348,9 @@ machuok O
 kowuok O
 e O
 kar O
-chiro O
-ma O
-Ranen O
+chiro B-LOC
+ma I-LOC
+Ranen I-LOC
 . O
 
 Komanda O
@@ -16517,9 +16517,9 @@ osingo O
 ne O
 oganda O
 jo O
-county B-LOC
-ma I-LOC
-siaya I-LOC
+county O
+ma O
+siaya O
 ni O
 gichiwore O
 mar O
@@ -16594,9 +16594,9 @@ romo O
 gi O
 jopiny O
 e O
-boma O
-ma O
-siaya O
+boma B-LOC
+ma I-LOC
+siaya I-LOC
 kama O
 bende O
 ne O
@@ -16625,7 +16625,7 @@ konyogi O
 Masich O
 ot O
 ma O
-Tassia O
+Tassia B-LOC
 osenego O
 jii O
 5 O
@@ -16665,8 +16665,8 @@ sub B-LOC
 county I-LOC
 ma I-LOC
 Embakassi I-LOC
-james B-PER
-wanyoike I-PER
+james O
+wanyoike O
 wacho O
 ni O
 nyako O
@@ -16709,9 +16709,9 @@ auchielno O
 ne O
 oruombore O
 piny O
-okinyi B-DATE
-ma I-DATE
-nyoro I-DATE
+okinyi O
+ma O
+nyoro O
 . O
 
 Olero O
@@ -16832,11 +16832,11 @@ miere O
 
 Maneja O
 mar O
-CDF O
-ma O
-Muhoroni O
-sospeter B-PER
-ngere I-PER
+CDF B-ORG
+ma I-ORG
+Muhoroni I-ORG
+sospeter O
+ngere O
 mane O
 olimo O
 gwengego O
@@ -17114,8 +17114,8 @@ ruoth O
 morito O
 gwengno O
 migosi O
-Joseph B-PER
-Aloo I-PER
+Joseph O
+Aloo O
 , O
 miyono O
 ne O
@@ -17135,9 +17135,9 @@ matiyo O
 kaka O
 chukdar O
 e O
-boma B-LOC
-ma I-LOC
-Siaya I-LOC
+boma O
+ma O
+Siaya O
 . O
 
 Ne O
@@ -17195,7 +17195,7 @@ kendo O
 gi O
 janyiewo O
 maen O
-Ireen O
+Ireen B-PER
 onogo O
 ma O
 chalo O
@@ -17206,7 +17206,7 @@ obedogi O
 too O
 moko O
 nekech O
-Shaaron O
+Shaaron B-PER
 en O
 jathi O
 kiich O
@@ -17317,7 +17317,7 @@ nyocha O
 otimo O
 penjno O
 ka O
-sani O
+sani B-DATE
 thoth O
 jopuonjre O
 biro O
@@ -17360,7 +17360,7 @@ bende O
 . O
 
 Kenya O
-sani B-DATE
+sani O
 nikod O
 skunde O
 madito O
@@ -17484,7 +17484,7 @@ Kabonyo O
 , O
 to O
 kod O
-Kanyagwal B-LOC
+Kanyagwal O
 e O
 kind O
 mamoko O
@@ -17506,10 +17506,10 @@ jomany O
 jot O
 e O
 kar O
-skul O
-ma O
-Ogenya O
-primary O
+skul B-ORG
+ma I-ORG
+Ogenya I-ORG
+primary I-ORG
 . O
 
 Midhiero O
@@ -17756,13 +17756,13 @@ Rarieda B-LOC
 
 Jodak O
 ma O
-ochieng'o O
-sub O
-location O
+ochieng'o B-LOC
+sub I-LOC
+location I-LOC
 ei O
-Rarieda O
-sub O
-county O
+Rarieda B-LOC
+sub I-LOC
+county I-LOC
 ne O
 kawuono O
 dhoogi O
@@ -17772,8 +17772,8 @@ bang O
 kane O
 jago O
 moro O
-majahigni B-DATE
-60 I-DATE
+majahigni O
+60 O
 ne O
 otuch O
 ogoyo O
@@ -17802,9 +17802,9 @@ ne O
 ogoyo O
 yuoreno O
 manyinge O
-Susan B-PER
-Awino I-PER
-Omollo I-PER
+Susan O
+Awino O
+Omollo O
 mochwe O
 otho O
 mano O
@@ -18198,8 +18198,8 @@ gi O
 mibadhi O
 
 ker O
-Uhuru O
-Kenyataa O
+Uhuru B-PER
+Kenyataa I-PER
 koro O
 osingo O
 ni O
@@ -18274,8 +18274,8 @@ ogolo O
 paro O
 madwani O
 ker O
-Uhuru B-PER
-Kenyatta I-PER
+Uhuru O
+Kenyatta O
 ochuogi O
 tribunal O
 mabiro O
@@ -18371,8 +18371,8 @@ jJackton O
 Ojwang O
 , O
 Justice O
-Smokin O
-Wanjala O
+Smokin B-PER
+Wanjala I-PER
 kod O
 justice O
 Njoki O
@@ -18380,7 +18380,7 @@ Ndung' O
 u O
 . O
 
-Maraga O
+Maraga B-PER
 bende O
 oyangoni O
 giseyudo O
@@ -18512,8 +18512,8 @@ jok O
 mapok O
 oyangi O
 chieng O
-jumapil O
-godhiambo O
+jumapil B-DATE
+godhiambo I-DATE
 . O
 
 Familia O
@@ -18531,11 +18531,11 @@ majahigni O
 kendo O
 japuonjre O
 e O
-skund O
-primar O
-ma O
-rody O
-kopany O
+skund B-ORG
+primar I-ORG
+ma I-ORG
+rody I-ORG
+kopany I-ORG
 e O
 cals O
 6 O
@@ -18601,8 +18601,8 @@ migosi O
 Kowuo O
 kod O
 jaode O
-Carolyn B-PER
-sang I-PER
+Carolyn O
+sang O
 jokoni O
 ng'ato O
 nonyisogi O
@@ -18831,8 +18831,8 @@ ma O
 gwenge O
 go O
 migoi O
-Richard B-PER
-ogindo I-PER
+Richard O
+ogindo O
 e O
 kinde O
 maneochwalo O
@@ -18969,9 +18969,9 @@ e O
 pau O
 ndeke O
 ma O
-kisumu O
-international O
-airportno O
+kisumu B-ORG
+international I-ORG
+airportno I-ORG
 ijiwo O
 mondomi O
 otudre O
@@ -18993,9 +18993,9 @@ kuong O
 gi O
 angénge O
 e O
-mbalarieny O
-ma O
-Maseno O
+mbalarieny B-ORG
+ma I-ORG
+Maseno I-ORG
 omaki O
 . O
 
@@ -19095,8 +19095,8 @@ Jii O
 kech O
 ochako O
 onego O
-Baringo O
-county O
+Baringo B-LOC
+county I-LOC
 , O
 oketo O
 kwanno O

@@ -65,8 +65,8 @@ safe O
 
 UFC B-ORG
 presido O
-Dana B-PER
-White I-PER
+Dana O
+White O
 tok O
 for O
 press O
@@ -169,14 +169,14 @@ number O
 one O
 lightweight O
 fighter O
-Tony B-PER
-Ferguson I-PER
+Tony O
+Ferguson O
 go O
 face O
 number O
 four O
-Justin O
-Gaethje O
+Justin B-PER
+Gaethje I-PER
 , O
 for O
 di O
@@ -195,8 +195,8 @@ multiple O
 time O
 title O
 holder O
-Dominick O
-Cruz O
+Dominick B-PER
+Cruz I-PER
 . O
 
 Di O
@@ -211,7 +211,7 @@ as O
 football O
 matches O
 for O
-Europe B-LOC
+Europe O
 and O
 oda O
 parts O
@@ -238,8 +238,8 @@ for O
 May I-DATE
 and O
 for O
-South B-LOC
-Korea I-LOC
+South O
+Korea O
 live O
 league O
 football O
@@ -272,8 +272,8 @@ dey O
 hold O
 . O
 
-Christian O
-Seifert O
+Christian B-PER
+Seifert I-PER
 , O
 di O
 CEO O
@@ -364,8 +364,8 @@ injury O
 dem O
 wey O
 some O
-Manchester B-ORG
-United I-ORG
+Manchester O
+United O
 players O
 don O
 get O
@@ -375,9 +375,9 @@ coronavirus O
 lockdown O
 . O
 
-Ole O
-Gunnar O
-Solskjaer O
+Ole B-PER
+Gunnar I-PER
+Solskjaer I-PER
 team O
 dey O
 train O
@@ -396,8 +396,8 @@ pandemic O
 
 United B-ORG
 doctor O
-Steve O
-McNally O
+Steve B-PER
+McNally I-PER
 say O
 even O
 though O
@@ -544,9 +544,9 @@ dia O
 training O
 base O
 for O
-Carrington B-LOC
+Carrington O
 , O
-Solskjaer's O
+Solskjaer's B-PER
 staff O
 still O
 dey O
@@ -597,7 +597,7 @@ live O
 Two O
 rival O
 clubs O
-Dortmund B-ORG
+Dortmund O
 and O
 Schalke B-ORG
 go O
@@ -607,7 +607,7 @@ one O
 of O
 di O
 six O
-Saturday B-DATE
+Saturday O
 matches O
 wey O
 dem O
@@ -636,7 +636,7 @@ point O
 di O
 gap O
 wey O
-Bayern O
+Bayern B-ORG
 dey O
 give O
 dem O
@@ -657,7 +657,7 @@ Popular O
 cable O
 satellite O
 broadcaster O
-DsTV O
+DsTV B-ORG
 , O
 no O
 get O
@@ -703,13 +703,13 @@ kontris O
 for O
 Africa B-LOC
 wey O
-StarTimes B-ORG
+StarTimes O
 no O
 cover O
 na O
-Algeria B-LOC
+Algeria O
 , O
-Morocco O
+Morocco B-LOC
 , O
 Libya B-LOC
 and O
@@ -754,7 +754,7 @@ one O
 billion O
 pipo O
 wey O
-Bayern B-ORG
+Bayern O
 CEO O
 Karl B-PER
 - I-PER
@@ -780,16 +780,16 @@ MAY I-DATE
 2020 I-DATE
 B B-ORG
 Dortmund I-ORG
-14 O
-: O
-30 O
+14 B-DATE
+: I-DATE
+30 I-DATE
 Schalke B-ORG
 Augsburg I-ORG
 14 B-DATE
 : I-DATE
 30 I-DATE
-Wolfsburg O
-Düsseldorf O
+Wolfsburg B-ORG
+Düsseldorf I-ORG
 14 O
 : O
 30 O
@@ -799,23 +799,23 @@ Leipzig I-ORG
 14 O
 : O
 30 O
-Freiburg B-ORG
-Hoffenheim I-ORG
-14 B-DATE
-: I-DATE
-30 I-DATE
-Hertha B-ORG
-Berlin I-ORG
-Frankfurt I-ORG
-17 B-DATE
-: I-DATE
-30 I-DATE
+Freiburg O
+Hoffenheim O
+14 O
+: O
+30 O
+Hertha O
+Berlin O
+Frankfurt O
+17 O
+: O
+30 O
 B B-ORG
 Mgladbach I-ORG
 
-Two O
-long O
-months O
+Two B-DATE
+long I-DATE
+months I-DATE
 don O
 reach O
 now O
@@ -876,7 +876,7 @@ don O
 ready O
 for O
 Euro O
-2020 B-DATE
+2020 O
 . O
 
 If O
@@ -897,7 +897,7 @@ dey O
 pick O
 up O
 across O
-Europe B-LOC
+Europe O
 now O
 , O
 as O
@@ -958,8 +958,8 @@ action O
 go O
 return O
 on O
-16 O
-May O
+16 B-DATE
+May I-DATE
 , O
 as O
 dem O
@@ -981,8 +981,8 @@ lockdown O
 Di O
 kontri O
 Chancellor O
-Angela O
-Merkel O
+Angela B-PER
+Merkel I-PER
 say O
 di O
 goment O
@@ -1045,7 +1045,7 @@ date O
 . O
 
 Conditions O
-Spain O
+Spain B-LOC
 top O
 league O
 and O
@@ -1056,8 +1056,8 @@ Lionel B-PER
 Messi I-PER
 dey O
 torchlight O
-June B-DATE
-12 I-DATE
+June O
+12 O
 as O
 di O
 date O
@@ -1079,7 +1079,7 @@ dia O
 current O
 season O
 for O
-April B-DATE
+April O
 , O
 say O
 whichever O
@@ -1148,8 +1148,8 @@ of O
 Thrones O
 actor O
 , O
-Hafthor O
-Bjornsson O
+Hafthor B-PER
+Bjornsson I-PER
 don O
 set O
 world O
@@ -1166,7 +1166,7 @@ lift O
 ) O
 . O
 
-Bjornsson B-PER
+Bjornsson O
 , O
 wey O
 be O
@@ -1198,7 +1198,7 @@ for O
 Im O
 hometown O
 , O
-Iceland B-LOC
+Iceland O
 . O
 
 He O
@@ -1206,8 +1206,8 @@ lift O
 di O
 barbell O
 for O
-two B-DATE
-seconds I-DATE
+two O
+seconds O
 , O
 before O
 im O
@@ -1220,7 +1220,7 @@ weights O
 Na O
 sports O
 broadcaster O
-ESPN B-ORG
+ESPN O
 stream O
 di O
 event O
@@ -1234,7 +1234,7 @@ YouTube O
 channel O
 . O
 
-Bjornsson O
+Bjornsson B-PER
 , O
 wey O
 be O
@@ -1255,7 +1255,7 @@ Strongest O
 Man O
 competition O
 for O
-2018 B-DATE
+2018 O
 . O
 
 As O
@@ -1378,8 +1378,8 @@ deal O
 for O
 me O
 Na O
-Eddie B-PER
-Hall I-PER
+Eddie O
+Hall O
 , O
 one O
 British O
@@ -1389,8 +1389,8 @@ become O
 di O
 first O
 
-Manchester O
-United O
+Manchester B-ORG
+United I-ORG
 and O
 Nigerian O
 striker O
@@ -1409,14 +1409,14 @@ and O
 below O
 . O
 
-Ighalo B-PER
+Ighalo O
 wey O
 join O
-United B-ORG
+United O
 on O
 loan O
 from O
-China B-LOC
+China O
 club O
 Shanghai B-ORG
 Shenhua I-ORG
@@ -1461,8 +1461,8 @@ Nigerian O
 born O
 British O
 boxer O
-Anthony O
-Joshua O
+Anthony B-PER
+Joshua I-PER
 dey O
 number O
 two O
@@ -1526,8 +1526,8 @@ years I-DATE
 and O
 below O
 na O
-Real O
-Madrid O
+Real B-ORG
+Madrid I-ORG
 player O
 , O
 Gareth B-PER
@@ -1542,7 +1542,7 @@ at O
 . O
 
 Aside O
-Ighalo O
+Ighalo B-PER
 , O
 four O
 other O
@@ -1554,9 +1554,9 @@ including O
 Paul O
 Pogba O
 , O
-Davide O
-de O
-Gea O
+Davide B-PER
+de I-PER
+Gea I-PER
 , O
 Anthony B-PER
 Martial I-PER
@@ -1666,7 +1666,7 @@ unti O
 further O
 notice O
 for O
-France O
+France B-LOC
 on O
 13 B-DATE
 March I-DATE
@@ -1760,10 +1760,10 @@ and O
 10 O
 points O
 behind O
-Amiens B-ORG
+Amiens O
 . O
 
-Nimes B-ORG
+Nimes O
 na O
 18th O
 and O
@@ -1801,7 +1801,7 @@ four O
 points O
 , O
 with O
-Lorient O
+Lorient B-ORG
 and O
 Lens B-ORG
 currently O
@@ -1814,7 +1814,7 @@ spots O
 . O
 
 Di O
-LFP B-ORG
+LFP O
 bin O
 meet O
 10 B-DATE
@@ -1921,7 +1921,7 @@ goment O
 join O
 - O
 bodi O
-Uefa B-ORG
+Uefa O
 weda O
 dem O
 wan O
@@ -1939,7 +1939,7 @@ Dutch O
 top O
 flight O
 on O
-Friday B-DATE
+Friday O
 wit O
 no O
 promotion O
@@ -1951,7 +1951,7 @@ champions O
 , O
 and O
 on O
-Monday O
+Monday B-DATE
 Belgian O
 clubs O
 postpone O
@@ -1997,13 +1997,13 @@ go O
 fit O
 complete O
 di O
-2019 B-DATE
-- I-DATE
-20 I-DATE
+2019 O
+- O
+20 O
 campaign O
 . O
 
-Uefa B-ORG
+Uefa O
 don O
 tok O
 say O
@@ -2103,7 +2103,7 @@ action O
 go O
 continue O
 on O
-Sunday O
+Sunday B-DATE
 as O
 league O
 leaders O
@@ -2123,7 +2123,7 @@ go O
 be O
 Köln B-ORG
 vs O
-Mainz B-ORG
+Mainz O
 by O
 2 O
 : O
@@ -2178,8 +2178,8 @@ inside O
 di O
 stadium O
 for O
-RB O
-Leipzig O
+RB B-ORG
+Leipzig I-ORG
 tell O
 pipo O
 to O
@@ -2211,8 +2211,8 @@ celebrate O
 On O
 Saturday B-DATE
 , O
-Borussia O
-Dortmund O
+Borussia B-ORG
+Dortmund I-ORG
 players O
 run O
 to O
@@ -2228,8 +2228,8 @@ Bank O
 RB B-ORG
 Leipzig I-ORG
 striker O
-Yussuf O
-Poulsen O
+Yussuf B-PER
+Poulsen I-PER
 na O
 from O
 a O
@@ -2260,7 +2260,7 @@ call O
 emergency O
 meeting O
 for O
-Tuesday B-DATE
+Tuesday O
 wia O
 dem O
 go O
@@ -2315,16 +2315,16 @@ suppose O
 take O
 place O
 from O
-12 B-DATE
-June I-DATE
-- I-DATE
-12 I-DATE
-July I-DATE
+12 O
+June O
+- O
+12 O
+July O
 for O
 venues O
 all O
 ova O
-Europe O
+Europe B-LOC
 . O
 
 Uefa B-ORG
@@ -2342,9 +2342,9 @@ di O
 boards O
 of O
 di O
-European O
-Club O
-Association O
+European B-ORG
+Club I-ORG
+Association I-ORG
 , O
 di O
 European O
@@ -2367,8 +2367,8 @@ di O
 second O
 leg O
 of O
-Manchester B-ORG
-City I-ORG
+Manchester O
+City O
 last O
 - O
 16 O
@@ -2378,17 +2378,17 @@ Champions O
 League O
 tie O
 against O
-Real O
-Madrid O
+Real B-ORG
+Madrid I-ORG
 , O
 wey O
 dem O
 wan O
 play O
 on O
-Tuesday B-DATE
-17 I-DATE
-March I-DATE
+Tuesday O
+17 O
+March O
 . O
 
 La O
@@ -2413,8 +2413,8 @@ of O
 say O
 dem O
 quarantine O
-Real B-ORG
-Madrid I-ORG
+Real O
+Madrid O
 squad O
 because O
 of O
@@ -2424,9 +2424,9 @@ coronavirus O
 In O
 addition O
 , O
-Danish O
-Football O
-Association O
+Danish B-ORG
+Football I-ORG
+Association I-ORG
 don O
 cancel O
 all O
@@ -2440,14 +2440,14 @@ two B-DATE
 weeks I-DATE
 while O
 di O
-Netherlands' B-LOC
+Netherlands' O
 Eredivisie O
 don O
 dey O
 suspended O
 until O
-31 O
-March O
+31 B-DATE
+March I-DATE
 . O
 
 For O
@@ -2458,8 +2458,8 @@ A O
 dey O
 suspended O
 until O
-3 B-DATE
-April I-DATE
+3 O
+April O
 , O
 and O
 di O
@@ -2472,11 +2472,11 @@ lockdown O
 Two O
 players O
 - O
-Juventus' B-ORG
+Juventus' O
 Daniele B-PER
 Rugani I-PER
 and O
-Sampdoria's B-ORG
+Sampdoria's O
 Manolo B-PER
 Gabbiadini I-PER
 - O
@@ -2490,7 +2490,7 @@ Football O
 fans O
 dey O
 use O
-Liverpool O
+Liverpool B-ORG
 do O
 yeye O
 for O
@@ -2511,7 +2511,7 @@ for O
 Champions O
 League O
 on O
-Wednesday B-DATE
+Wednesday O
 . O
 
 Liverpool O
@@ -2525,8 +2525,8 @@ lose O
 - O
 2 O
 to O
-Atletico O
-Madrid O
+Atletico B-ORG
+Madrid I-ORG
 for O
 Anfield B-LOC
 and O
@@ -2555,7 +2555,7 @@ for O
 Atletico B-ORG
 house O
 for O
-Spain B-LOC
+Spain O
 end O
 1 O
 - O
@@ -2605,8 +2605,8 @@ half O
 For O
 extra O
 time O
-Roberto B-PER
-Firmino I-PER
+Roberto O
+Firmino O
 score O
 to O
 make O
@@ -2626,7 +2626,7 @@ Two O
 quick O
 goals O
 from O
-Atletico B-ORG
+Atletico O
 substitute O
 Marcos O
 Llorente O
@@ -2634,8 +2634,8 @@ change O
 di O
 game O
 before O
-Alvaro O
-Morata O
+Alvaro B-PER
+Morata I-PER
 score O
 for O
 injury O
@@ -2759,8 +2759,8 @@ postpone O
 di O
 event O
 for O
-one O
-year O
+one B-DATE
+year I-DATE
 sake O
 of O
 di O
@@ -2770,13 +2770,13 @@ coronavirus O
 Japan's O
 Prime O
 Minister O
-Shinzo O
-Abe O
+Shinzo B-PER
+Abe I-PER
 say O
 di O
-International B-ORG
-Olympic I-ORG
-Committee I-ORG
+International O
+Olympic O
+Committee O
 don O
 agree O
 to O
@@ -2820,14 +2820,14 @@ also O
 apply O
 to O
 di O
-Tokyo O
+Tokyo B-LOC
 Paralympic O
 Games O
 . O
 
 Prime O
 Minister O
-Abe O
+Abe B-PER
 add O
 : O
 """" O
@@ -2874,42 +2874,42 @@ BOA O
 dey O
 meet O
 for O
-Tuesday O
+Tuesday B-DATE
 to O
 discuss O
 di O
 matter O
 . O
 
-BOA O
+BOA B-ORG
 chairman O
 Hugh B-PER
 Robertson I-PER
 don O
 already O
 say O
-Great B-LOC
-Britain I-LOC
+Great O
+Britain O
 dey O
 unlikely O
 to O
 send O
 team O
 to O
-Tokyo O
+Tokyo B-LOC
 for O
 dis O
-summer B-DATE
+summer O
 . O
 
-Nigeria O
-Football O
-Federation O
+Nigeria B-ORG
+Football I-ORG
+Federation I-ORG
 and O
 di O
-League B-ORG
-Management I-ORG
-Company I-ORG
+League O
+Management O
+Company O
 dey O
 mourn O
 di O
@@ -2927,8 +2927,8 @@ dia O
 league O
 match O
 against O
-Katsina O
-United O
+Katsina B-ORG
+United I-ORG
 for O
 Lafia B-LOC
 on O
@@ -2938,11 +2938,11 @@ Sunday B-DATE
 For O
 inside O
 statement O
-LMC B-ORG
+LMC O
 chairman O
 , O
-Shehu B-PER
-Dikko I-PER
+Shehu O
+Dikko O
 , O
 tell O
 di O
@@ -2959,7 +2959,7 @@ Im O
 add O
 say O
 """" O
-LMC O
+LMC B-ORG
 expect O
 to O
 get O
@@ -2998,8 +2998,8 @@ collapse O
 for O
 inside O
 di O
-43 B-DATE
-minute I-DATE
+43 O
+minute O
 of O
 di O
 match O
@@ -3020,12 +3020,12 @@ dem O
 rush O
 am O
 go O
-Dalhatu B-ORG
-Araf I-ORG
-Specialist I-ORG
-Hospital I-ORG
+Dalhatu O
+Araf O
+Specialist O
+Hospital O
 , O
-Lafia B-LOC
+Lafia O
 wia O
 dem O
 confam O
@@ -3047,8 +3047,8 @@ match O
 - O
 0 O
 , O
-Chinedum O
-Ohanachom O
+Chinedum B-PER
+Ohanachom I-PER
 score O
 hat O
 trick O
@@ -3072,11 +3072,11 @@ with O
 points O
 . O
 
-Nigeria B-LOC
+Nigeria O
 international O
 striker O
-Ifeanyi B-PER
-George I-PER
+Ifeanyi O
+George O
 don O
 die O
 for O
@@ -3089,7 +3089,7 @@ of I-DATE
 26 I-DATE
 . O
 
-George B-PER
+George O
 , O
 wey O
 get O
@@ -3119,8 +3119,8 @@ travel O
 to O
 Lagos B-LOC
 on O
-Sunday O
-morning O
+Sunday B-DATE
+morning I-DATE
 . O
 
 Two O
@@ -3140,12 +3140,12 @@ car O
 anoda O
 player O
 from O
-George B-PER
+George O
 club O
 side O
-Enugu O
-Rangers O
-FC O
+Enugu B-ORG
+Rangers I-ORG
+FC I-ORG
 , O
 and O
 dia O
@@ -3169,7 +3169,7 @@ bin O
 dey O
 travel O
 from O
-Enugu B-LOC
+Enugu O
 , O
 east B-LOC
 of I-LOC
@@ -3178,11 +3178,11 @@ kontri I-LOC
 to O
 Lagos B-LOC
 , O
-south B-LOC
-west I-LOC
-of I-LOC
-di I-LOC
-kontri I-LOC
+south O
+west O
+of O
+di O
+kontri O
 sake O
 of O
 di O
@@ -3195,11 +3195,11 @@ di O
 Nigerian O
 league O
 on O
-Friday B-DATE
-20 I-DATE
-March I-DATE
-, I-DATE
-2020 I-DATE
+Friday O
+20 O
+March O
+, O
+2020 O
 sake O
 of O
 coronavirus O
@@ -3216,8 +3216,8 @@ Joshua I-PER
 fight O
 against O
 Bulgaria B-LOC
-Kubrat O
-Pulev O
+Kubrat B-PER
+Pulev I-PER
 to O
 defend O
 im O
@@ -3248,10 +3248,10 @@ Tottenham B-LOC
 Hotspur I-LOC
 Stadium I-LOC
 on O
-Saturday O
-, O
-20 O
-June O
+Saturday B-DATE
+, I-DATE
+20 I-DATE
+June I-DATE
 . O
 
 Dem O
@@ -3274,7 +3274,7 @@ come O
 from O
 statement O
 from O
-Joshua B-PER
+Joshua O
 promoter O
 Matchroom B-ORG
 Boxing I-ORG
@@ -3338,7 +3338,7 @@ na O
 compulsory O
 fight O
 for O
-Joshua B-PER
+Joshua O
 IBF O
 belt O
 . O
@@ -3347,10 +3347,10 @@ Im O
 bin O
 suppose O
 fight O
-Joshua B-PER
+Joshua O
 for O
-October O
-2017 O
+October B-DATE
+2017 I-DATE
 but O
 n O
 fit O
@@ -3388,12 +3388,12 @@ coronavirus O
 Di O
 President O
 of O
-Gabon B-ORG
-football I-ORG
-federation I-ORG
-Pierre B-PER
-Alain I-PER
-Mounguengui I-PER
+Gabon O
+football O
+federation O
+Pierre O
+Alain O
+Mounguengui O
 , O
 don O
 advise O
@@ -3413,7 +3413,7 @@ anything O
 dia O
 . O
 
-Aubamayeng B-PER
+Aubamayeng O
 wey O
 be O
 Arsenal B-ORG
@@ -3432,8 +3432,8 @@ since O
 im O
 join O
 from O
-Borussia B-ORG
-Dortmund I-ORG
+Borussia O
+Dortmund O
 for O
 January B-DATE
 2018 I-DATE
@@ -3459,7 +3459,7 @@ never O
 fit O
 help O
 di O
-Gunners O
+Gunners B-ORG
 to O
 win O
 anything O
@@ -3489,13 +3489,13 @@ I O
 no O
 wan O
 say O
-Arsenal B-ORG
+Arsenal O
 no O
 dey O
 ginger O
 , O
 but O
-Arsenal B-ORG
+Arsenal O
 no O
 get O
 ambitions O
@@ -3621,7 +3621,7 @@ higher O
 level O
 . O
 
-Wright B-PER
+Wright O
 tell O
 Premier O
 League O
@@ -3723,8 +3723,8 @@ tok O
 
 Everton B-ORG
 boss O
-Carlo B-PER
-Ancelotti I-PER
+Carlo O
+Ancelotti O
 don O
 tok O
 say O
@@ -3739,7 +3739,7 @@ as O
 e O
 dey O
 face O
-Chelsea O
+Chelsea B-ORG
 today B-DATE
 for O
 Stamford B-LOC
@@ -3749,8 +3749,8 @@ Bridge I-LOC
 Di O
 Italian O
 spend O
-two O
-seasons O
+two B-DATE
+seasons I-DATE
 for O
 Chelsea B-ORG
 , O
@@ -3761,13 +3761,13 @@ di O
 Premier O
 League O
 and O
-FA B-ORG
+FA O
 Cup O
 Double O
 in O
-2009 B-DATE
-- I-DATE
-10 I-DATE
+2009 O
+- O
+10 O
 . O
 
 Dem O
@@ -3781,18 +3781,18 @@ for O
 di O
 league O
 in O
-2010 B-DATE
-- I-DATE
-11 I-DATE
+2010 O
+- O
+11 O
 . O
 
 Today B-DATE
 game O
 go O
 pit O
-Ancelotti O
+Ancelotti B-PER
 against O
-Chelsea B-ORG
+Chelsea O
 manager O
 Frank B-PER
 Lampard I-PER
@@ -3810,22 +3810,22 @@ man O
 when O
 e O
 dey O
-Stamford B-LOC
-Bridge I-LOC
+Stamford O
+Bridge O
 . O
 
 Oga O
-Ancelotti O
+Ancelotti B-PER
 neva O
 face O
-Chelsea O
+Chelsea B-ORG
 wey O
 im O
 manage O
 between O
 2009 O
 and O
-2011 B-DATE
+2011 O
 before O
 . O
 
@@ -3837,11 +3837,11 @@ on O
 Boxing B-DATE
 Day I-DATE
 as O
-Everton B-ORG
+Everton O
 oga O
 , O
 only O
-Liverpool O
+Liverpool B-ORG
 ( O
 30 O
 ) O
@@ -3893,8 +3893,8 @@ champion O
 afta O
 e O
 defeat O
-Yoel B-PER
-Romero I-PER
+Yoel O
+Romero O
 for O
 fight O
 wey O
@@ -4004,10 +4004,10 @@ bin O
 happun O
 for O
 di O
-T B-LOC
-- I-LOC
-Mobile I-LOC
-Arena I-LOC
+T O
+- O
+Mobile O
+Arena O
 for O
 Las B-LOC
 Vegas I-LOC
@@ -4017,11 +4017,11 @@ early O
 mor O
 mor O
 on O
-Sunday O
+Sunday B-DATE
 . O
 
-Israel B-PER
-Adesanya I-PER
+Israel O
+Adesanya O
 wey O
 im O
 nickname O
@@ -4030,8 +4030,8 @@ Stylebender O
 , O
 dey O
 represent O
-New B-LOC
-Zealand I-LOC
+New O
+Zealand O
 wey O
 be O
 di O
@@ -4052,9 +4052,9 @@ fight O
 Kubrat O
 Pulev O
 for O
-Tottenham B-LOC
-Hotspur I-LOC
-Stadium I-LOC
+Tottenham O
+Hotspur O
+Stadium O
 on O
 Saturday B-DATE
 20 I-DATE
@@ -4082,7 +4082,7 @@ join O
 - O
 body O
 say O
-Joshua O
+Joshua B-PER
 wey O
 get O
 di O
@@ -4096,7 +4096,7 @@ must O
 fight O
 . O
 
-Joshua B-PER
+Joshua O
 win O
 im O
 belts O
@@ -4141,7 +4141,7 @@ tok O
 Dis O
 go O
 be O
-Joshua B-PER
+Joshua O
 first O
 fight O
 for O
@@ -4149,10 +4149,10 @@ UK B-LOC
 since O
 im O
 beat O
-Alexander O
-Povetkin O
+Alexander B-PER
+Povetkin I-PER
 for O
-Wembley B-LOC
+Wembley O
 for O
 September B-DATE
 2018 I-DATE
@@ -4164,9 +4164,9 @@ suppose O
 fight O
 Pulev O
 for O
-Cardiff B-LOC
-Principality I-LOC
-Stadium I-LOC
+Cardiff O
+Principality O
+Stadium O
 for O
 October B-DATE
 2017 I-DATE
@@ -4188,8 +4188,8 @@ training O
 alias O
 sparring O
 , O
-Carlos B-PER
-Takam I-PER
+Carlos O
+Takam O
 gatzs O
 step O
 up O
@@ -4198,13 +4198,13 @@ replace O
 am O
 with O
 just O
-12 B-DATE
-days' I-DATE
+12 O
+days' O
 notice O
 . O
 
-Last B-DATE
-week I-DATE
+Last O
+week O
 , O
 Joshua B-PER
 promoter O
@@ -4232,7 +4232,7 @@ Tyson B-PER
 Fury I-PER
 . O
 
-Fury O
+Fury B-PER
 beat O
 Deontay O
 Wilder O
@@ -4261,7 +4261,7 @@ division O
 . O
 
 But O
-Wilder O
+Wilder B-PER
 wey O
 be O
 American O
@@ -4274,22 +4274,22 @@ clause O
 wey O
 mean O
 say O
-Fury B-PER
+Fury O
 vs O
-Wilder O
+Wilder B-PER
 part O
 three O
 go O
 happun O
 before O
-Fury B-PER
+Fury O
 and O
-Joshua B-PER
+Joshua O
 go O
 fight O
 . O
 
-Pulev B-PER
+Pulev O
 , O
 na O
 former O
@@ -4299,7 +4299,7 @@ champion O
 . O
 
 Di O
-Bulgaria O
+Bulgaria B-LOC
 don O
 lose O
 once O
@@ -4321,13 +4321,13 @@ November B-DATE
 . O
 
 For O
-2015 O
+2015 B-DATE
 , O
 im O
 beat O
 Britain B-LOC
-Hughie B-PER
-Fury I-PER
+Hughie O
+Fury O
 on O
 points O
 for O
@@ -4335,7 +4335,7 @@ IBF O
 final O
 eliminator O
 for O
-Bulgaria O
+Bulgaria B-LOC
 for O
 October B-DATE
 2018 I-DATE
@@ -4388,11 +4388,11 @@ die O
 for O
 Sagamu B-LOC
 - O
-Ogun B-LOC
-state I-LOC
-South I-LOC
-West I-LOC
-Nigeria I-LOC
+Ogun O
+state O
+South O
+West O
+Nigeria O
 , O
 don O
 tok O
@@ -4413,7 +4413,7 @@ affect O
 dem O
 . O
 
-Tiamiyu O
+Tiamiyu B-PER
 na O
 rising O
 footballer O
@@ -4462,7 +4462,7 @@ Fasasi I-PER
 , O
 wey O
 bi O
-Kazeem O
+Kazeem B-PER
 papa O
 tell O
 BBC B-ORG
@@ -4472,8 +4472,8 @@ e O
 never O
 reach O
 like O
-two O
-weeks O
+two B-DATE
+weeks I-DATE
 wen O
 im O
 pikin O
@@ -4491,7 +4491,7 @@ football O
 ] O
 trial O
 for O
-Sweden O
+Sweden B-LOC
 . O
 
 E O
@@ -4587,10 +4587,10 @@ into O
 am O
 . O
 
-Kazeem B-PER
+Kazeem O
 mama O
 tell O
-BBC O
+BBC B-ORG
 how O
 e O
 don O
@@ -4653,8 +4653,8 @@ am O
 """" O
 na O
 im O
-Selimotu B-PER
-Tiamiyu I-PER
+Selimotu O
+Tiamiyu O
 tok O
 about O
 her O
@@ -4706,12 +4706,12 @@ success O
 
 Im O
 coach O
-Daniel O
-Ogunmodede O
+Daniel B-PER
+Ogunmodede I-PER
 , O
 say O
 na O
-Kazeem O
+Kazeem B-PER
 good O
 behaviour O
 make O
@@ -4751,19 +4751,19 @@ Police O
 harass O
 dia O
 player O
-Kazeem O
+Kazeem B-PER
 wey O
 lead O
 to O
 im O
 death O
 for O
-Sagamu O
+Sagamu B-LOC
 , O
 on O
-Saturday B-DATE
-22 I-DATE
-February I-DATE
+Saturday O
+22 O
+February O
 . O
 
 Dem O
@@ -4795,7 +4795,7 @@ during O
 dis O
 gbege O
 with O
-SARS O
+SARS B-ORG
 anoda O
 car O
 hit O
@@ -4823,11 +4823,11 @@ by O
 men O
 of O
 di O
-Special O
-Anti O
-- O
-Robbery O
-Squad O
+Special B-ORG
+Anti I-ORG
+- I-ORG
+Robbery I-ORG
+Squad I-ORG
 ( O
 SARS B-ORG
 ) O
@@ -4902,8 +4902,8 @@ show O
 England B-LOC
 international O
 player O
-Raheem B-PER
-Sterling I-PER
+Raheem O
+Sterling O
 wit O
 Real B-ORG
 Madrid I-ORG
@@ -4916,8 +4916,8 @@ about O
 im O
 future O
 wit O
-Manchester O
-City O
+Manchester B-ORG
+City I-ORG
 . O
 
 """" O
@@ -4945,7 +4945,7 @@ big O
 """" O
 na O
 wetin O
-Sterling B-PER
+Sterling O
 tok O
 . O
 
@@ -4968,9 +4968,9 @@ leg O
 go O
 happun O
 for O
-Spain B-LOC
+Spain O
 on O
-Wednesday O
+Wednesday B-DATE
 . O
 
 Di O
@@ -4978,8 +4978,8 @@ return O
 leg O
 na O
 for O
-Etihad O
-Stadium O
+Etihad B-LOC
+Stadium I-LOC
 for O
 Manchester B-LOC
 on O
@@ -4993,8 +4993,8 @@ come O
 afta O
 Uefa B-ORG
 ban O
-Manchester B-ORG
-City I-ORG
+Manchester O
+City O
 wey O
 be O
 di O
@@ -5057,7 +5057,7 @@ fly O
 upandan O
 weda O
 di O
-City B-ORG
+City O
 top O
 players O
 go O
@@ -5137,8 +5137,8 @@ pictures O
 Manchester B-ORG
 City I-ORG
 manager O
-Pep B-PER
-Guardiola I-PER
+Pep O
+Guardiola O
 say O
 im O
 players O
@@ -5167,7 +5167,7 @@ tok O
 """" O
 . O
 
-Sterling B-PER
+Sterling O
 don O
 score O
 11 O
@@ -5176,8 +5176,8 @@ dis O
 season O
 . O
 
-Deontay O
-Wilder O
+Deontay B-PER
+Wilder I-PER
 don O
 blame O
 im O
@@ -5190,8 +5190,8 @@ enta O
 ring O
 for O
 why O
-Tyson B-PER
-Fury I-PER
+Tyson O
+Fury O
 defeat O
 am O
 for O
@@ -5224,7 +5224,7 @@ fight O
 
 Fury B-PER
 from O
-Britain O
+Britain B-LOC
 use O
 ogbonge O
 fight O
@@ -5233,12 +5233,12 @@ win O
 di O
 title O
 for O
-Las B-LOC
-Vegas I-LOC
+Las O
+Vegas O
 on O
 Saturday B-DATE
 after O
-Wilder B-PER
+Wilder O
 pipo O
 ask O
 say O
@@ -5252,7 +5252,7 @@ seventh O
 round O
 . O
 
-Wilder B-PER
+Wilder O
 also O
 tell O
 US B-LOC
@@ -5330,9 +5330,9 @@ and O
 na O
 tribute O
 to O
-Black B-DATE
-History I-DATE
-Month I-DATE
+Black O
+History O
+Month O
 . O
 
 Fury B-PER
@@ -5388,7 +5388,7 @@ again O
 , O
 """" O
 tok O
-Wilder B-PER
+Wilder O
 . O
 
 """" O
@@ -5408,7 +5408,7 @@ that O
 Although O
 dem O
 carri O
-Wilder B-PER
+Wilder O
 go O
 hospital O
 after O
@@ -5444,7 +5444,7 @@ tok O
 Former O
 Brazil B-LOC
 forward O
-Ronaldinho O
+Ronaldinho B-PER
 dey O
 police O
 custody O
@@ -5477,7 +5477,7 @@ capital O
 Asuncion B-LOC
 , O
 on O
-Wednesday O
+Wednesday B-DATE
 , O
 wia O
 im O
@@ -5488,7 +5488,7 @@ im O
 brother O
 . O
 
-Paraguay O
+Paraguay B-LOC
 interior O
 minister O
 bin O
@@ -5630,14 +5630,14 @@ you O
 , O
 """" O
 Oga O
-Acevedo O
+Acevedo B-PER
 tell O
 local O
 tori O
 pipo O
 . O
 
-Ronaldinho O
+Ronaldinho B-PER
 dey O
 Paraguay B-LOC
 to O
@@ -5679,14 +5679,14 @@ di O
 World O
 Cup O
 for O
-2002 O
+2002 B-DATE
 wit O
 fellow O
 superstar O
 strikers O
 Ronaldo B-PER
 and O
-Rivaldo B-PER
+Rivaldo O
 . O
 
 One O
@@ -5739,13 +5739,13 @@ police O
 tok O
 . O
 
-Hannah B-PER
-Baxter I-PER
+Hannah O
+Baxter O
 , O
 wey O
 be O
-31 O
-years O
+31 B-DATE
+years I-DATE
 , O
 die O
 later O
@@ -5817,8 +5817,8 @@ burn O
 
 Police O
 find O
-Rowan B-PER
-Baxter I-PER
+Rowan O
+Baxter O
 , O
 42 B-DATE
 , O
@@ -5827,12 +5827,12 @@ im O
 three O
 pikin O
 - O
-age B-DATE
-three I-DATE
+age O
+three O
 , O
 four B-DATE
 and O
-six B-DATE
+six O
 - O
 wey O
 don O
@@ -5879,7 +5879,7 @@ say O
 dem O
 see O
 madam O
-Baxter B-PER
+Baxter O
 , O
 31 B-DATE
 , O
@@ -5905,11 +5905,11 @@ dem O
 cari O
 her O
 go O
-Royal B-ORG
-Brisbane I-ORG
-and I-ORG
-Women's I-ORG
-Hospital I-ORG
+Royal O
+Brisbane O
+and O
+Women's O
+Hospital O
 , O
 police O
 tok O
@@ -5924,7 +5924,7 @@ she O
 later O
 die O
 on O
-Wednesday B-DATE
+Wednesday O
 . O
 
 Tori O
@@ -5936,8 +5936,8 @@ bin O
 don O
 separate O
 late O
-last B-DATE
-year I-DATE
+last O
+year O
 , O
 and O
 dem O
@@ -5960,8 +5960,8 @@ had O
 reportedly O
 separated O
 late O
-last B-DATE
-year I-DATE
+last O
+year O
 , O
 and O
 were O
@@ -6024,11 +6024,11 @@ reach O
 bone O
 . O
 
-Tyson O
-Fury O
+Tyson B-PER
+Fury I-PER
 and O
-Deontay B-PER
-Wilder I-PER
+Deontay O
+Wilder O
 go O
 face O
 each O
@@ -6040,7 +6040,7 @@ mor O
 - O
 mor O
 on O
-Sunday O
+Sunday B-DATE
 , O
 almost O
 15 B-DATE
@@ -6053,15 +6053,15 @@ end O
 for O
 draw O
 for O
-Los O
-Angeles O
+Los B-LOC
+Angeles I-LOC
 . O
 
 Tickets O
 for O
 dia O
-Las O
-Vegas O
+Las B-LOC
+Vegas I-LOC
 fights O
 dey O
 go O
@@ -6178,10 +6178,10 @@ wey O
 go O
 happun O
 for O
-MGM B-LOC
-Grand I-LOC
-Garden I-LOC
-Arena I-LOC
+MGM O
+Grand O
+Garden O
+Arena O
 , O
 di O
 ticket O
@@ -6257,7 +6257,7 @@ wey O
 dey O
 live O
 for O
-US B-LOC
+US O
 , O
 e O
 mean O
@@ -6298,7 +6298,7 @@ eight O
 figure O
 for O
 dat O
-night O
+night B-DATE
 alone O
 . O
 
@@ -6308,14 +6308,14 @@ biggest O
 heavyweight O
 fight O
 for O
-20 B-DATE
+20 O
 , O
-30 O
+30 B-DATE
 , O
 or O
 even O
-50 B-DATE
-years I-DATE
+50 O
+years O
 - O
 dat O
 na O
@@ -6324,7 +6324,7 @@ you O
 listen O
 to O
 wetin O
-Fury O
+Fury B-PER
 dey O
 tok O
 . O
@@ -6355,12 +6355,12 @@ fight O
 """" O
 na O
 wetin O
-BBC B-ORG
-Sport I-ORG
+BBC O
+Sport O
 boxing O
 correspondent O
-Mike O
-Costello O
+Mike B-PER
+Costello I-PER
 tok O
 . O
 
@@ -6410,12 +6410,12 @@ monster O
 """" O
 
 Some O
-UK O
+UK B-LOC
 betting O
 company O
 dey O
 put O
-Wilder O
+Wilder B-PER
 as O
 slight O
 favourite O
@@ -6501,11 +6501,11 @@ say O
 we O
 go O
 see O
-Wilder O
+Wilder B-PER
 box O
 small O
 and O
-Fury B-PER
+Fury O
 go O
 dey O
 more O
@@ -6576,7 +6576,7 @@ tey O
 dat O
 na O
 wetin O
-Wilder B-PER
+Wilder O
 tok O
 dis B-DATE
 week I-DATE
@@ -6601,7 +6601,7 @@ nearly O
 over O
 . O
 
-Wilder B-PER
+Wilder O
 neva O
 too O
 change O
@@ -6634,7 +6634,7 @@ gym O
 im O
 profile O
 for O
-US B-LOC
+US O
 don O
 rise O
 , O
@@ -6683,12 +6683,12 @@ box O
 for O
 di O
 legendary O
-Detroit B-ORG
-Kronk I-ORG
-Gym I-ORG
+Detroit O
+Kronk O
+Gym O
 . O
 
-Fury B-PER
+Fury O
 get O
 new O
 cuts O
@@ -6704,7 +6704,7 @@ need O
 stitches O
 after O
 im O
-September B-DATE
+September O
 win O
 over O
 Otto B-PER
@@ -6832,7 +6832,7 @@ say O
 deh O
 di O
 watch O
-Cameroon B-LOC
+Cameroon O
 as O
 host O
 for O
@@ -6855,12 +6855,12 @@ Cameroon O
 go O
 host O
 CHAN O
-2020 O
+2020 B-DATE
 from O
-4 B-DATE
-- I-DATE
-25 I-DATE
-April I-DATE
+4 O
+- O
+25 O
+April O
 and O
 na O
 one O
@@ -6910,13 +6910,13 @@ get O
 de O
 virus O
 : O
-Egypt O
+Egypt B-LOC
 , O
 Algeria O
 , O
-Tunisia B-LOC
+Tunisia O
 , O
-Morocco B-LOC
+Morocco O
 , O
 Nigeria B-LOC
 , O
@@ -6968,19 +6968,19 @@ for O
 Cameroon B-LOC
 . O
 
-Cameroon B-LOC
+Cameroon O
 also O
 apply O
 for O
 host O
-CAF B-ORG
+CAF O
 Champions O
 League O
 . O
 
 Just O
 now O
-CAF O
+CAF B-ORG
 medical O
 teams O
 di O
@@ -6997,7 +6997,7 @@ de O
 situation O
 wowo O
 , O
-CAF B-ORG
+CAF O
 for O
 decide O
 make O
@@ -7015,10 +7015,10 @@ cancel O
 
 For O
 now O
-CAF O
+CAF B-ORG
 di O
 promote O
-WHO O
+WHO B-ORG
 guideline O
 for O
 keep O
@@ -7035,7 +7035,7 @@ five B-DATE
 years I-DATE
 suspension O
 for O
-France B-LOC
+France O
 sake O
 of O
 say O
@@ -7057,7 +7057,7 @@ Di O
 incident O
 happun O
 for O
-France O
+France B-LOC
 for O
 November B-DATE
 17 I-DATE
@@ -7067,7 +7067,7 @@ second O
 division O
 match O
 between O
-Terville B-ORG
+Terville O
 and O
 Soetrich B-ORG
 . O
@@ -7098,7 +7098,7 @@ fight O
 demself O
 , O
 another O
-Terville B-ORG
+Terville O
 player O
 come O
 join O
@@ -7137,8 +7137,8 @@ and O
 e O
 gatz O
 take O
-four O
-days O
+four B-DATE
+days I-DATE
 off O
 work O
 . O
@@ -7167,13 +7167,13 @@ worse O
 ' O
 na O
 wetin O
-Emmanuel O
-Saling O
+Emmanuel B-PER
+Saling I-PER
 of O
 di O
-Mosellan O
-football O
-district O
+Mosellan B-ORG
+football I-ORG
+district I-ORG
 tok O
 , O
 'im O
@@ -7190,7 +7190,7 @@ add O
 put O
 . O
 
-Saling O
+Saling B-PER
 say O
 because O
 di O
@@ -7224,8 +7224,8 @@ injured O
 Terville O
 player O
 chop O
-six B-DATE
-months I-DATE
+six O
+months O
 suspension O
 . O
 
@@ -7326,8 +7326,8 @@ Vegas I-LOC
 Dis O
 don O
 end O
-Deontay O
-Wilder O
+Deontay B-PER
+Wilder I-PER
 five O
 - O
 year O
@@ -7346,8 +7346,8 @@ heavy O
 punch O
 knock O
 out O
-Deontay O
-Wilder O
+Deontay B-PER
+Wilder I-PER
 for O
 di O
 seventh O
@@ -7367,7 +7367,7 @@ fight O
 stop O
 . O
 
-Wilder O
+Wilder B-PER
 no O
 dey O
 happy O
@@ -7392,7 +7392,7 @@ na O
 im O
 win O
 dis O
-night B-DATE
+night O
 . O
 
 My O
@@ -7452,7 +7452,7 @@ tok O
 . O
 
 Afta O
-Fury O
+Fury B-PER
 win O
 e O
 come O
@@ -7546,7 +7546,7 @@ throne O
 . O
 """" O
 
-Fury O
+Fury B-PER
 later O
 tell O
 tori O
@@ -7593,16 +7593,16 @@ complete O
 if O
 e O
 face O
-Anthony B-PER
-Joshua I-PER
+Anthony O
+Joshua O
 . O
 
 Former O
 world O
 heavyweight O
 champion O
-David B-PER
-Haye I-PER
+David O
+Haye O
 say O
 Tyson B-PER
 Fury I-PER
@@ -7643,18 +7643,18 @@ greatness O
 
 Haye O
 tell O
-BT B-ORG
-Sport I-ORG
-Box I-ORG
-Office I-ORG
+BT O
+Sport O
+Box O
+Office O
 . O
 
-Tyson B-PER
-Fury I-PER
+Tyson O
+Fury O
 former O
 trainer O
-Ben B-PER
-Davison I-PER
+Ben O
+Davison O
 , O
 tweet O
 say O
@@ -7688,8 +7688,8 @@ Manchester B-ORG
 United I-ORG
 new O
 signing O
-Odion B-PER
-Ighalo I-PER
+Odion O
+Ighalo O
 dey O
 train O
 separate O
@@ -7749,7 +7749,7 @@ break O
 training O
 camp O
 for O
-Spain O
+Spain B-LOC
 becos O
 of O
 concern O
@@ -7817,9 +7817,9 @@ game O
 Na O
 for O
 di O
-National O
-Taekwondo O
-Centre O
+National B-ORG
+Taekwondo I-ORG
+Centre I-ORG
 wey O
 dey O
 close O
@@ -7847,7 +7847,7 @@ ago I-DATE
 
 Ighalo B-PER
 join O
-United O
+United B-ORG
 on O
 loan O
 for O
@@ -7857,9 +7857,9 @@ of O
 di O
 season O
 from O
-China B-ORG
-Super I-ORG
-League I-ORG
+China O
+Super O
+League O
 club O
 Shanghai B-ORG
 Shenhua I-ORG
@@ -7877,7 +7877,7 @@ dey O
 come O
 into O
 di O
-UK B-LOC
+UK O
 from O
 specific O
 kontris O
@@ -7894,17 +7894,17 @@ for O
 days I-DATE
 . O
 
-Nigeria O
-Football O
-Federation O
+Nigeria B-ORG
+Football I-ORG
+Federation I-ORG
 don O
 appoint O
 former O
 Super O
 Eagles O
 captain O
-Joseph B-PER
-Yobo I-PER
+Joseph O
+Yobo O
 as O
 assistant O
 coach O
@@ -7913,7 +7913,7 @@ di O
 team O
 . O
 
-Yobo B-PER
+Yobo O
 wey O
 play O
 for O
@@ -7926,8 +7926,8 @@ as O
 defender O
 go O
 replace O
-Imama O
-Amapakabo O
+Imama B-PER
+Amapakabo I-PER
 for O
 Nigeria B-LOC
 technical O
@@ -7957,7 +7957,7 @@ dem O
 win O
 di O
 2013 O
-Africa O
+Africa B-LOC
 Cup O
 of O
 Nations O
@@ -8007,7 +8007,7 @@ racial O
 abuse O
 wey O
 former O
-Nigeria O
+Nigeria B-LOC
 captain O
 John O
 Mikel O
@@ -8019,7 +8019,7 @@ win O
 over O
 Fenerbahce B-ORG
 on O
-Saturday B-DATE
+Saturday O
 . O
 
 Fans O
@@ -8035,7 +8035,7 @@ afta O
 victory O
 wey O
 move O
-Trabzonspor B-ORG
+Trabzonspor O
 above O
 dia O
 opponents O
@@ -8082,7 +8082,7 @@ for O
 Twitter B-ORG
 . O
 
-Mikel B-PER
+Mikel O
 wey O
 also O
 play O
@@ -8131,8 +8131,8 @@ season O
 Dem O
 don O
 kick O
-Manchester O
-City O
+Manchester B-ORG
+City I-ORG
 comot O
 from O
 Champions O
@@ -8141,7 +8141,7 @@ until O
 2022 B-DATE
 . O
 
-City B-ORG
+City O
 dey O
 vex O
 , O
@@ -8194,13 +8194,13 @@ club O
 For O
 di O
 last O
-two O
-weeks O
+two B-DATE
+weeks I-DATE
 , O
-City O
+City B-ORG
 manager O
-Pep O
-Guardiola O
+Pep B-PER
+Guardiola I-PER
 , O
 don O
 dey O
@@ -8225,7 +8225,7 @@ im O
 contract O
 wit O
 di O
-Blues B-ORG
+Blues O
 . O
 
 Di O
@@ -8238,7 +8238,7 @@ for O
 
 Also O
 , O
-Guardiola O
+Guardiola B-PER
 continue O
 to O
 insist O
@@ -8246,7 +8246,7 @@ say O
 im O
 trust O
 di O
-City B-ORG
+City O
 management O
 afta O
 dem O
@@ -8270,7 +8270,7 @@ eye O
 inside O
 . O
 
-Guardiola O
+Guardiola B-PER
 feel O
 say O
 dem O
@@ -8339,7 +8339,7 @@ low O
 
 Even O
 if O
-City B-ORG
+City O
 win O
 di O
 Champions O
@@ -8385,7 +8385,7 @@ determine O
 di O
 future O
 of O
-Guardiola O
+Guardiola B-PER
 for O
 Man B-ORG
 City I-ORG
@@ -8408,8 +8408,8 @@ know O
 say O
 veteran O
 midfielder O
-David O
-Silva O
+David B-PER
+Silva I-PER
 go O
 comot O
 for O
@@ -8430,7 +8430,7 @@ contracts O
 go O
 expire O
 before O
-City B-ORG
+City O
 go O
 return O
 back O
@@ -8459,11 +8459,11 @@ deal O
 go O
 expire O
 for O
-2021 B-DATE
+2021 O
 . O
 
-Leroy O
-Sane O
+Leroy B-PER
+Sane I-PER
 deal O
 go O
 ends O
@@ -8501,17 +8501,17 @@ contract O
 dey O
 go O
 pass O
-2022 O
+2022 B-DATE
 , O
 like O
-Kevin B-PER
-de I-PER
-Bruyne I-PER
+Kevin O
+de O
+Bruyne O
 , O
-Ederson O
+Ederson B-PER
 , O
-Bernardo B-PER
-Silva I-PER
+Bernardo O
+Silva O
 , O
 Raheem B-PER
 Sterling I-PER
@@ -8524,7 +8524,7 @@ Mahrez I-PER
 ? O
 
 If O
-Guardiola B-PER
+Guardiola O
 leave O
 , O
 e O
@@ -8553,8 +8553,8 @@ di O
 scratch O
 . O
 
-Manchester B-ORG
-United I-ORG
+Manchester O
+United O
 brand O
 new O
 player O
@@ -8588,7 +8588,7 @@ im O
 no O
 sleep O
 di O
-night B-DATE
+night O
 di O
 agreement O
 take O
@@ -8604,7 +8604,7 @@ year I-DATE
 - I-DATE
 old I-DATE
 from O
-Nigeria B-LOC
+Nigeria O
 tok O
 say O
 im O
@@ -8631,7 +8631,7 @@ up O
 
 Di O
 former O
-Watford B-ORG
+Watford O
 striker O
 join O
 di O
@@ -8640,8 +8640,8 @@ devil O
 on O
 load O
 from O
-Shanghai O
-Shenhua O
+Shanghai B-ORG
+Shenhua I-ORG
 until O
 di O
 end O
@@ -8678,7 +8678,7 @@ dey O
 possible' O
 , O
 """" O
-Ighalo B-PER
+Ighalo O
 tok O
 inside O
 statement O
@@ -8742,7 +8742,7 @@ speak O
 to O
 you O
 , O
-United O
+United B-ORG
 dey O
 come O
 for O
@@ -8852,7 +8852,7 @@ you O
 to O
 fit O
 go O
-United' O
+United' B-ORG
 . O
 
 """" O
@@ -8903,7 +8903,7 @@ happun' O
 . O
 """" O
 
-Ighalo O
+Ighalo B-PER
 say O
 e O
 don O
@@ -9033,8 +9033,8 @@ know O
 say O
 I O
 love O
-Manchester B-ORG
-United I-ORG
+Manchester O
+United O
 , O
 I O
 support O
@@ -9045,8 +9045,8 @@ dem O
 Manchester B-ORG
 United I-ORG
 striker O
-Odion O
-Ighalo O
+Odion B-PER
+Ighalo I-PER
 go O
 miss O
 di O
@@ -9054,7 +9054,7 @@ club O
 training O
 camp O
 for O
-Spain B-LOC
+Spain O
 sake O
 of O
 fear O
@@ -9081,11 +9081,11 @@ Nigerian O
 striker O
 fly O
 from O
-China B-LOC
+China O
 come O
 Manchester O
-last B-DATE
-weekend I-DATE
+last O
+weekend O
 afta O
 di O
 club O
@@ -9154,8 +9154,8 @@ chances O
 Meanwhile O
 , O
 midfielder O
-Scott B-PER
-McTominay I-PER
+Scott O
+McTominay O
 and O
 defender O
 Axel B-PER
@@ -9168,7 +9168,7 @@ injury O
 go O
 travel O
 go O
-Spain O
+Spain B-LOC
 . O
 
 Tori O
@@ -9179,22 +9179,22 @@ go O
 return O
 back O
 on O
-Friday O
+Friday B-DATE
 before O
 dia O
 Premier O
 League O
 game O
 against O
-Chelsea O
+Chelsea B-ORG
 for O
-Stamford O
-Bridge O
+Stamford B-LOC
+Bridge I-LOC
 on O
-Monday B-DATE
-, I-DATE
-17 I-DATE
-February I-DATE
+Monday O
+, O
+17 O
+February O
 . O
 
 Dis O
@@ -9238,9 +9238,9 @@ Lisbon O
 
 United B-ORG
 boss O
-Ole O
-Gunnar O
-Solskjaer O
+Ole B-PER
+Gunnar I-PER
+Solskjaer I-PER
 say O
 : O
 """" O
@@ -9248,7 +9248,7 @@ We O
 don O
 dey O
 track O
-Bruno B-PER
+Bruno O
 for O
 many O
 months O
@@ -9295,7 +9295,7 @@ to O
 see O
 . O
 
-United B-ORG
+United O
 go O
 pay O
 initial O
@@ -9310,11 +9310,11 @@ euros O
 ) O
 for O
 di O
-25 B-DATE
-- I-DATE
-year I-DATE
-- I-DATE
-old I-DATE
+25 O
+- O
+year O
+- O
+old O
 , O
 plus O
 oda O
@@ -9366,7 +9366,7 @@ di O
 transfer O
 window O
 until O
-Tuesday B-DATE
+Tuesday O
 wey O
 dem O
 get O
@@ -9401,12 +9401,12 @@ agree O
 deal O
 ] O
 with O
-Sporting B-ORG
+Sporting O
 , O
 """" O
 na O
 wetin O
-United B-ORG
+United O
 manager O
 Ole B-PER
 Gunnar I-PER
@@ -9470,7 +9470,7 @@ it O
 
 Fernandes B-PER
 join O
-Sporting B-ORG
+Sporting O
 from O
 Sampdoria B-ORG
 for O
@@ -9506,12 +9506,12 @@ look O
 im O
 side O
 until O
-Jorge B-PER
-Jesus I-PER
+Jorge O
+Jesus O
 , O
 di O
 current O
-Flamengo O
+Flamengo B-ORG
 boss O
 decided O
 to O
@@ -9535,15 +9535,15 @@ media O
 dey O
 ask O
 why O
-Benfica O
+Benfica B-ORG
 , O
-Sporting B-ORG
+Sporting O
 or O
-Porto B-ORG
+Porto O
 no O
 go O
 for O
-Fernandes B-PER
+Fernandes O
 because O
 im O
 be O
@@ -9553,10 +9553,10 @@ player O
 """" O
 
 Since O
-2017 O
-- O
-18 O
-season O
+2017 B-DATE
+- I-DATE
+18 I-DATE
+season I-DATE
 start O
 , O
 Fernandes B-PER
@@ -9627,7 +9627,7 @@ competitions O
 last O
 term O
 for O
-Sporting O
+Sporting B-ORG
 or O
 di O
 14 O
@@ -9683,7 +9683,7 @@ im O
 fit O
 deliver O
 for O
-United B-ORG
+United O
 ? O
 
 Na O
@@ -9772,7 +9772,7 @@ challenge O
 . O
 
 For O
-Italy B-LOC
+Italy O
 , O
 im O
 do O
@@ -9812,11 +9812,11 @@ foto O
 of O
 her O
 daughter O
-Gianna B-PER
-"""" I-PER
-Gigi I-PER
-"""" I-PER
-Bryant I-PER
+Gianna O
+"""" O
+Gigi O
+"""" O
+Bryant O
 , O
 for O
 social O
@@ -9852,7 +9852,7 @@ number O
 24 O
 . O
 
-Vanessa B-PER
+Vanessa O
 post O
 for O
 her O
@@ -9897,8 +9897,8 @@ ova O
 likes O
 . O
 
-LA O
-Lakers O
+LA B-ORG
+Lakers I-ORG
 legend O
 Kobe B-PER
 Bryant I-PER
@@ -9928,7 +9928,7 @@ January I-DATE
 
 Kobe O
 and O
-Vanessa O
+Vanessa B-PER
 get O
 four O
 daughters O
@@ -9938,9 +9938,9 @@ Gianna B-PER
 , O
 wey O
 be O
-13 B-DATE
-years I-DATE
-old I-DATE
+13 O
+years O
+old O
 wey O
 also O
 die O
@@ -9962,8 +9962,8 @@ celebs O
 honour O
 Kobe B-PER
 for O
-LA O
-Lakers O
+LA B-ORG
+Lakers I-ORG
 first O
 basketball O
 game O
@@ -9990,8 +9990,8 @@ Ighalo I-PER
 from O
 Chinese O
 club O
-Shanghai O
-Shenhua O
+Shanghai B-ORG
+Shenhua I-ORG
 on O
 loan O
 until O
@@ -10047,7 +10047,7 @@ few O
 days O
 . O
 
-Ighalo B-PER
+Ighalo O
 bin O
 play O
 for O
@@ -10071,16 +10071,16 @@ be O
 say O
 dis O
 na O
-United O
+United B-ORG
 first O
 senior O
 loan O
 signing O
 since O
-Radamel B-PER
-Falcao I-PER
+Radamel O
+Falcao O
 for O
-2014 B-DATE
+2014 O
 . O
 
 Manchester B-ORG
@@ -10091,7 +10091,7 @@ Gunnar I-PER
 Solskjaer I-PER
 say O
 """" O
-Odion B-PER
+Odion O
 na O
 experienced O
 player O
@@ -10193,7 +10193,7 @@ most O
 popular O
 clubs O
 for O
-Nigeria O
+Nigeria B-LOC
 and O
 as O
 soon O
@@ -10203,7 +10203,7 @@ hear O
 di O
 tori O
 about O
-Ighalo B-PER
+Ighalo O
 move O
 dem O
 begin O
@@ -10254,7 +10254,7 @@ from O
 Sporting B-ORG
 Lisbon I-ORG
 and O
-Southend O
+Southend B-ORG
 goalkeeper O
 Nathan B-PER
 Bishop I-PER
@@ -10267,8 +10267,8 @@ Kenya B-LOC
 don O
 win O
 di O
-2020 O
-Lagos B-LOC
+2020 B-DATE
+Lagos O
 City O
 Marathon O
 . O
@@ -10290,12 +10290,12 @@ start O
 from O
 National O
 Stadium O
-Surulere O
+Surulere B-LOC
 and O
 end O
 for O
-Eko O
-Atlantic O
+Eko B-LOC
+Atlantic I-LOC
 on O
 Saturday O
 8 O
@@ -10368,16 +10368,16 @@ commercial O
 capital O
 city O
 for O
-2016 B-DATE
+2016 O
 . O
 
-West O
-Ham O
+West B-ORG
+Ham I-ORG
 don O
 sack O
 manager O
-Manuel O
-Pellegrini O
+Manuel B-PER
+Pellegrini I-PER
 afta O
 dem O
 chop O
@@ -10404,8 +10404,8 @@ last O
 matches O
 . O
 
-Di B-ORG
-Hammers I-ORG
+Di O
+Hammers O
 last O
 defeat O
 on O
@@ -10430,8 +10430,8 @@ Former O
 West O
 Ham O
 boss O
-David B-PER
-Moyes I-PER
+David O
+Moyes O
 dey O
 among O
 di O
@@ -10520,14 +10520,14 @@ goal O
 . O
 """" O
 
-Pellegrini B-PER
+Pellegrini O
 lose O
 im O
-West O
-Ham O
+West B-ORG
+Ham I-ORG
 job O
-18 O
-months O
+18 B-DATE
+months I-DATE
 afta O
 dem O
 employ O
@@ -10568,7 +10568,7 @@ hours I-DATE
 of O
 losing O
 to O
-Leicester B-ORG
+Leicester O
 na O
 im O
 West B-ORG
@@ -10606,7 +10606,7 @@ Na O
 just O
 40 B-DATE
 seconds I-DATE
-McGregor O
+McGregor B-PER
 use O
 defeat O
 am O
@@ -10615,7 +10615,7 @@ am O
 Irishman O
 McGregor B-PER
 , O
-31 O
+31 B-DATE
 , O
 claim O
 victory O
@@ -10650,10 +10650,10 @@ main O
 event O
 area O
 of O
-T B-LOC
-- I-LOC
-Mobile I-LOC
-Arena I-LOC
+T O
+- O
+Mobile O
+Arena O
 . O
 
 But O
@@ -10676,12 +10676,12 @@ afta O
 blow O
 land O
 ontop O
-'Cowbow' O
+'Cowbow' B-PER
 """" O
 I O
 make O
 history O
-tonight B-DATE
+tonight O
 . O
 
 I O
@@ -10697,7 +10697,7 @@ di O
 first O
 fighter O
 in O
-UFC O
+UFC B-ORG
 history O
 to O
 give O
@@ -10754,7 +10754,7 @@ November B-DATE
 and O
 afta O
 undefeated O
-UFC O
+UFC B-ORG
 lightweight O
 champion O
 Khabib B-PER
@@ -10827,11 +10827,11 @@ before O
 . O
 """" O
 
-Sadio B-PER
-Mane I-PER
+Sadio O
+Mane O
 and O
-Asisat O
-Oshoala O
+Asisat B-PER
+Oshoala I-PER
 na O
 dem O
 be O
@@ -10855,13 +10855,13 @@ beat O
 both O
 Egypt O
 player O
-Mohammed O
-Salah O
+Mohammed B-PER
+Salah I-PER
 and O
 Algeria B-LOC
 winger O
-Riyad O
-Mahrez O
+Riyad B-PER
+Mahrez I-PER
 to O
 win O
 di O
@@ -10906,19 +10906,19 @@ di O
 women O
 category O
 , O
-Asisat B-PER
-Oshoala I-PER
+Asisat O
+Oshoala O
 beat O
-Ajara O
-Nchout O
+Ajara B-PER
+Nchout I-PER
 from O
 Cameroon B-LOC
 and O
 Thembi B-PER
 Kgatlana I-PER
 from O
-South B-LOC
-Africa I-LOC
+South O
+Africa O
 to O
 win O
 her O
@@ -10943,8 +10943,8 @@ Mahrez I-PER
 ( O
 Algeria B-LOC
 & O
-Manchester B-ORG
-City I-ORG
+Manchester O
+City O
 ) O
 Sadio O
 Mane O
@@ -10955,10 +10955,10 @@ Liverpool B-ORG
 ) O
 - O
 Winner O
-Ajara O
-Nchout O
+Ajara B-PER
+Nchout I-PER
 ( O
-Cameroon O
+Cameroon B-LOC
 & O
 Valerenga B-ORG
 ) O
@@ -10967,48 +10967,48 @@ Oshoala I-PER
 ( O
 Nigeria B-LOC
 & O
-Barcelona O
+Barcelona B-ORG
 ) O
 - O
 Winner O
 Thembi B-PER
 Kgatlana I-PER
 ( O
-South O
-Africa O
+South B-LOC
+Africa I-LOC
 & O
-Beijing B-ORG
-Phoenix I-ORG
-FC I-ORG
+Beijing O
+Phoenix O
+FC O
 ) O
 Anice O
 Badri O
 ( O
-Tunisia B-LOC
+Tunisia O
 & O
-Esperance O
+Esperance B-ORG
 ) O
-Tarek B-PER
-Hamed I-PER
+Tarek O
+Hamed O
 ( O
-Egypt B-LOC
+Egypt O
 & O
 Zamalek B-ORG
 ) O
-Youcef B-PER
-Belaïli I-PER
+Youcef O
+Belaïli O
 ( O
 Algeria O
 & O
 Esperance O
 / O
-Ahli O
-Jeddah O
+Ahli B-ORG
+Jeddah I-ORG
 ) O
 - O
 Winner O
-Achraf O
-Hakimi O
+Achraf B-PER
+Hakimi I-PER
 ( O
 Morocco B-LOC
 & O
@@ -11029,22 +11029,22 @@ Osimhen I-PER
 ( O
 Nigeria O
 & O
-Lille O
+Lille B-ORG
 ) O
 Aliou B-PER
 Cisse I-PER
 ( O
 Senegal B-LOC
 - O
-Senegal O
+Senegal B-LOC
 ) O
 Djamel B-PER
 
 Belmadi I-PER
 ( O
-Algeria O
+Algeria B-LOC
 - O
-Algeria O
+Algeria B-LOC
 ) O
 - O
 Winner O
@@ -11053,7 +11053,7 @@ Chaâbani I-PER
 ( O
 Tunisia B-LOC
 - O
-Esperance B-ORG
+Esperance O
 ) O
 Alain B-PER
 Djeumfa I-PER
@@ -11068,17 +11068,17 @@ Africa I-LOC
 ) O
 - O
 Winner O
-Thomas O
-Dennerby O
+Thomas B-PER
+Dennerby I-PER
 ( O
 Nigeria B-LOC
 ) O
-Algeria B-LOC
+Algeria O
 - O
 Winner O
-Madagascar B-LOC
-Senegal I-LOC
-Cameroon I-LOC
+Madagascar O
+Senegal O
+Cameroon O
 - O
 Winner O
 Nigeria B-LOC
@@ -11096,9 +11096,9 @@ semi O
 final O
 Kodjovi B-PER
 Obilale I-PER
-Egypt O
-Football O
-Federation O
+Egypt B-ORG
+Football I-ORG
+Federation I-ORG
 Mois B-PER
 Katumbi I-PER
 - O
@@ -11113,12 +11113,12 @@ don O
 end O
 , O
 Former O
-Chelsea O
+Chelsea B-ORG
 and O
-Ghana B-LOC
+Ghana O
 star O
-Michael B-PER
-Essien I-PER
+Michael O
+Essien O
 don O
 choose O
 im O
@@ -11127,15 +11127,15 @@ best O
 African O
 players O
 from O
-2010 B-DATE
+2010 O
 to O
 2019 B-DATE
 . O
 
 Di O
 last O
-10 B-DATE
-years I-DATE
+10 O
+years O
 see O
 significant O
 moments O
@@ -11172,15 +11172,15 @@ also O
 end O
 wit O
 di O
-2019 O
-Africa B-LOC
+2019 B-DATE
+Africa O
 Cup O
 of O
 Nations O
 wey O
 hold O
 for O
-June B-DATE
+June O
 and O
 July B-DATE
 for O
@@ -11231,7 +11231,7 @@ Nations O
 
 We O
 ask O
-Essien O
+Essien B-PER
 who O
 be O
 im O
@@ -11243,7 +11243,7 @@ last O
 decade O
 . O
 
-Enyeama B-PER
+Enyeama O
 na O
 one O
 of O
@@ -11266,11 +11266,11 @@ Israeli O
 League O
 title O
 with O
-Maccabi O
-Tel O
-Aviv O
+Maccabi B-ORG
+Tel I-ORG
+Aviv I-ORG
 for O
-2013 B-DATE
+2013 O
 . O
 
 Im O
@@ -11284,12 +11284,12 @@ clean O
 sheets O
 while O
 with O
-Lille B-ORG
+Lille O
 and O
 bin O
 dey O
-115 B-DATE
-minutes I-DATE
+115 O
+minutes O
 away O
 from O
 beating O
@@ -11309,17 +11309,17 @@ clean O
 sheets O
 set O
 by O
-Gaetan O
-Huard O
+Gaetan B-PER
+Huard I-PER
 for O
 1993 B-DATE
 wia O
 e O
 play O
-1 O
-, O
-176 O
-minutes O
+1 B-DATE
+, I-DATE
+176 I-DATE
+minutes I-DATE
 without O
 conceding O
 one O
@@ -11336,7 +11336,7 @@ help O
 Nigeria B-LOC
 win O
 di O
-Africa O
+Africa B-LOC
 Cup O
 of O
 Nations O
@@ -11345,8 +11345,8 @@ for O
 , O
 as O
 di O
-Super O
-Eagles O
+Super B-ORG
+Eagles I-ORG
 end O
 19 B-DATE
 - I-DATE
@@ -11357,8 +11357,8 @@ di O
 trophy O
 . O
 
-Vincent B-PER
-Enyeama I-PER
+Vincent O
+Enyeama O
 arguably O
 be O
 Nigeria B-LOC
@@ -11366,7 +11366,7 @@ best O
 player O
 for O
 di O
-2014 B-DATE
+2014 O
 World O
 Cup O
 wen O
@@ -11400,7 +11400,7 @@ Cup O
 of O
 Nations O
 for O
-2015 B-DATE
+2015 O
 . O
 
 For O
@@ -11415,8 +11415,8 @@ di O
 first O
 signings O
 by O
-Manchester B-ORG
-City I-ORG
+Manchester O
+City O
 owners O
 Sheikh B-PER
 Mansour I-PER
@@ -11456,7 +11456,7 @@ After O
 a O
 stint O
 with O
-Liverpool O
+Liverpool B-ORG
 wey O
 see O
 am O
@@ -11516,7 +11516,7 @@ Di O
 Cameroonian O
 peak O
 for O
-Tottenham O
+Tottenham B-ORG
 for O
 di O
 beginning O
@@ -11569,7 +11569,7 @@ form O
 deadly O
 partnership O
 with O
-Bale B-PER
+Bale O
 and O
 dem O
 become O
@@ -11586,9 +11586,9 @@ League O
 
 Unfortunately O
 for O
-Assou O
-- O
-Ekotto O
+Assou B-PER
+- I-PER
+Ekotto I-PER
 , O
 knee O
 surgery O
@@ -11620,7 +11620,7 @@ Premier O
 League O
 . O
 
-Benatia B-PER
+Benatia O
 bin O
 be O
 big O
@@ -11630,7 +11630,7 @@ Italian O
 Serie O
 A O
 side O
-Udinese B-ORG
+Udinese O
 , O
 but O
 na O
@@ -11659,14 +11659,14 @@ di O
 - O
 season O
 for O
-2014 B-DATE
+2014 O
 before O
 e O
 join O
-Pep B-PER
-Guardiola I-PER
-Bayern B-ORG
-Munich I-ORG
+Pep O
+Guardiola O
+Bayern O
+Munich O
 for O
 di O
 end O
@@ -11675,7 +11675,7 @@ dat O
 season O
 . O
 
-Benatia O
+Benatia B-PER
 move O
 to O
 Juventus B-ORG
@@ -11708,7 +11708,7 @@ seasons I-DATE
 
 Im O
 help O
-Senegal B-LOC
+Senegal O
 to O
 reach O
 dia O
@@ -11720,8 +11720,8 @@ Nations O
 final O
 for O
 over O
-10 B-DATE
-years I-DATE
+10 O
+years O
 dis O
 year O
 and O
@@ -11749,7 +11749,7 @@ reason O
 e O
 still O
 dey O
-Napoli O
+Napoli B-ORG
 na O
 say O
 di O
@@ -11792,7 +11792,7 @@ still O
 dey O
 important O
 for O
-Ghana B-LOC
+Ghana O
 as O
 dem O
 qualify O
@@ -11833,10 +11833,10 @@ come O
 - O
 back O
 against O
-Napoli B-ORG
+Napoli O
 which O
 help O
-Chelsea O
+Chelsea B-ORG
 win O
 dia O
 first O
@@ -11846,16 +11846,16 @@ for O
 2012 O
 . O
 
-Yaya B-PER
+Yaya O
 don O
 win O
 di O
-Confederation O
-of O
-African O
-Football O
+Confederation B-ORG
+of I-ORG
+African I-ORG
+Football I-ORG
 ( O
-Caf B-ORG
+Caf O
 ) O
 African O
 Player O
@@ -11868,8 +11868,8 @@ times O
 in O
 di O
 last O
-10 O
-years O
+10 B-DATE
+years I-DATE
 . O
 
 E O
@@ -11878,8 +11878,8 @@ score O
 79 O
 goals O
 for O
-Manchester B-ORG
-City I-ORG
+Manchester O
+City O
 , O
 di O
 most O
@@ -11920,11 +11920,11 @@ bin O
 don O
 win O
 di O
-2010 O
+2010 B-DATE
 La O
 Liga O
 with O
-Barcelona B-ORG
+Barcelona O
 . O
 
 E O
@@ -11944,7 +11944,7 @@ for O
 . O
 
 Di O
-Liverpool O
+Liverpool B-ORG
 star O
 don O
 be O
@@ -12006,12 +12006,12 @@ From O
 im O
 days O
 for O
-Salzburg O
+Salzburg B-ORG
 through O
 to O
 Southampton B-ORG
 and O
-Liverpool O
+Liverpool B-ORG
 - O
 plus O
 e O
@@ -12062,7 +12062,7 @@ don O
 exceed O
 expectations O
 for O
-Liverpool B-ORG
+Liverpool O
 wia O
 e O
 win O
@@ -12100,8 +12100,8 @@ for O
 2019 O
 . O
 
-Mohamed B-PER
-Salah I-PER
+Mohamed O
+Salah O
 don O
 net O
 more O
@@ -12151,10 +12151,10 @@ Boot O
 For O
 di O
 year O
-2012 O
+2012 B-DATE
 , O
-Didier B-PER
-Drogba I-PER
+Didier O
+Drogba O
 cement O
 e O
 legendary O
@@ -12192,7 +12192,7 @@ continue O
 afta O
 e O
 leave O
-Chelsea O
+Chelsea B-ORG
 with O
 three O
 more O
@@ -12201,7 +12201,7 @@ Turkey B-LOC
 as O
 e O
 help O
-Galatasaray B-ORG
+Galatasaray O
 win O
 di O
 league O
@@ -12219,8 +12219,8 @@ end O
 im O
 career O
 for O
-north B-LOC
-America I-LOC
+north O
+America O
 e O
 show O
 say O
@@ -12244,8 +12244,8 @@ Major O
 League O
 Soccer O
 side O
-Montreal B-ORG
-Impact I-ORG
+Montreal O
+Impact O
 and O
 den O
 made O
@@ -12271,8 +12271,8 @@ of O
 all O
 time O
 , O
-Samuel B-PER
-Eto'o I-PER
+Samuel O
+Eto'o O
 win O
 e O
 second O
@@ -12296,8 +12296,8 @@ following O
 season O
 e O
 be O
-Inter O
-Milan O
+Inter B-ORG
+Milan I-ORG
 top O
 scorer O
 with O
@@ -12306,7 +12306,7 @@ goals O
 as O
 dem O
 win O
-Fifa O
+Fifa B-ORG
 Club O
 World O
 Cup O
@@ -12332,13 +12332,13 @@ the O
 Year O
 awards O
 for O
-2010 O
+2010 B-DATE
 . O
 
 Im O
 move O
 to O
-England O
+England B-LOC
 for O
 di O
 end O
@@ -12364,7 +12364,7 @@ hat O
 - O
 trick O
 for O
-Chelsea B-ORG
+Chelsea O
 against O
 Manchester B-ORG
 United I-ORG
@@ -12398,8 +12398,8 @@ from O
 Australian O
 Open O
 on O
-Friday B-DATE
-morning I-DATE
+Friday O
+morning O
 and O
 lose O
 6 O
@@ -12456,13 +12456,13 @@ cool O
 . O
 """" O
 
-Senera B-PER
+Senera O
 tok O
 As O
 e O
 be O
 so O
-Serena B-PER
+Serena O
 search O
 for O
 her O
@@ -12474,7 +12474,7 @@ go O
 continue O
 . O
 
-Wang B-PER
+Wang O
 bin O
 dey O
 serve O
@@ -12509,10 +12509,10 @@ game O
 . O
 
 Di O
-28 B-DATE
-year I-DATE
-old I-DATE
-Wang B-PER
+28 O
+year O
+old O
+Wang O
 wey O
 be O
 number O
@@ -12604,8 +12604,8 @@ for O
 dis O
 stage O
 to O
-Daniela B-PER
-Hantuchova I-PER
+Daniela O
+Hantuchova O
 . O
 
 Dis O
@@ -12622,8 +12622,8 @@ she O
 still O
 dey O
 eye O
-Margaret O
-Court O
+Margaret B-PER
+Court I-PER
 record O
 of O
 24 O
@@ -12637,9 +12637,9 @@ Di O
 last O
 time O
 wey O
-38 B-DATE
-year I-DATE
-old I-DATE
+38 O
+year O
+old O
 Serena O
 win O
 grand O
@@ -12663,8 +12663,8 @@ title O
 and O
 na O
 di O
-same O
-year O
+same B-DATE
+year I-DATE
 she O
 born O
 her O
@@ -12690,7 +12690,7 @@ half O
 of O
 dem O
 two O
-FA O
+FA B-ORG
 Cup O
 fourth O
 round O
@@ -12708,8 +12708,8 @@ di O
 game O
 afta O
 just O
-four O
-minutes O
+four B-DATE
+minutes I-DATE
 when O
 e O
 tap O
@@ -12770,8 +12770,8 @@ Match O
 
 E O
 tell O
-BBC B-ORG
-MOTD I-ORG
+BBC O
+MOTD O
 : O
 """" O
 We O
@@ -12904,7 +12904,7 @@ wen O
 dem O
 lose O
 to O
-Germany O
+Germany B-LOC
 for O
 di O
 2014 O
@@ -13030,8 +13030,8 @@ match O
 """" O
 , O
 Dr O
-Martha O
-Newson O
+Martha B-PER
+Newson I-PER
 , O
 researcher O
 for O
@@ -13196,7 +13196,7 @@ cry O
 , O
 """" O
 Dr O
-Newson O
+Newson B-PER
 tell O
 BBC B-ORG
 News I-ORG
@@ -13323,7 +13323,7 @@ dey O
 di O
 province O
 of O
-Cabinda B-LOC
+Cabinda O
 , O
 dey O
 prepare O
@@ -13497,8 +13497,8 @@ some O
 odas O
 . O
 
-10 O
-years O
+10 B-DATE
+years I-DATE
 afta O
 , O
 dis O
@@ -13528,7 +13528,7 @@ spirits O
 days O
 before O
 di O
-2010 B-DATE
+2010 O
 Nations O
 Cup O
 . O
@@ -13565,12 +13565,12 @@ for O
 African O
 football O
 - O
-Drogba O
-Ivory B-LOC
-Coast I-LOC
+Drogba B-PER
+Ivory O
+Coast O
 and O
-Michael O
-Essien O
+Michael B-PER
+Essien I-PER
 Ghana B-LOC
 bin O
 dey O
@@ -13591,9 +13591,9 @@ for O
 Pointe B-LOC
 Noir I-LOC
 for O
-Republic B-LOC
-of I-LOC
-Congo I-LOC
+Republic O
+of O
+Congo O
 , O
 just O
 over O
@@ -13620,7 +13620,7 @@ from O
 di O
 rest O
 of O
-Angola B-LOC
+Angola O
 , O
 and O
 instead O
@@ -13637,7 +13637,7 @@ dey O
 to O
 di O
 capital O
-Luanda O
+Luanda B-LOC
 and O
 den O
 fly O
@@ -13669,8 +13669,8 @@ di O
 evening B-DATE
 , O
 di O
-night O
-before O
+night B-DATE
+before I-DATE
 - O
 dem O
 travel O
@@ -13693,7 +13693,7 @@ di O
 bus O
 . O
 
-Angola B-LOC
+Angola O
 security O
 forces O
 join O
@@ -13757,7 +13757,7 @@ of O
 everyone O
 inside O
 di O
-Togo O
+Togo B-LOC
 team O
 bus O
 . O
@@ -13780,12 +13780,12 @@ forest O
 
 Looking O
 back O
-10 O
-years O
+10 B-DATE
+years I-DATE
 , O
 midfielder O
-Junior B-PER
-Senaya I-PER
+Junior O
+Senaya O
 recall O
 di O
 journey O
@@ -13828,8 +13828,8 @@ music O
 I O
 remember O
 afta O
-15 B-DATE
-minutes I-DATE
+15 O
+minutes O
 wey O
 we O
 don O
@@ -13873,7 +13873,7 @@ on O
 
 Senaya B-PER
 remember O
-Togo O
+Togo B-LOC
 media O
 officer O
 , O
@@ -13887,7 +13887,7 @@ video O
 dia O
 arrival O
 for O
-Angola B-LOC
+Angola O
 at O
 di O
 moment O
@@ -13912,8 +13912,8 @@ crazy O
 moments O
 na O
 goalkeeper O
-Kodjovi B-PER
-Obilale I-PER
+Kodjovi O
+Obilale O
 . O
 
 Im O
@@ -14064,8 +14064,8 @@ remember O
 as O
 assistant O
 coach O
-Amelete B-PER
-Abalo I-PER
+Amelete O
+Abalo O
 shout O
 say O
 dem O
@@ -14186,15 +14186,15 @@ e O
 last O
 . O
 
-Adebayor B-PER
+Adebayor O
 tok O
 about O
 how O
 serious O
 di O
 longest O
-half O
-hour O
+half B-DATE
+hour I-DATE
 of O
 e O
 life O
@@ -14220,7 +14220,7 @@ our O
 bus O
 , O
 """" O
-Adebayor B-PER
+Adebayor O
 tell O
 me O
 afta O
@@ -14331,7 +14331,7 @@ all O
 end O
 different O
 - O
-Adebayor B-PER
+Adebayor O
 describe O
 one O
 fleet O
@@ -14355,7 +14355,7 @@ di O
 forest O
 , O
 while O
-Senaya O
+Senaya B-PER
 remember O
 silence O
 . O
@@ -14373,8 +14373,8 @@ for O
 di O
 outskirts O
 of O
-Cabinda O
-City O
+Cabinda B-LOC
+City I-LOC
 , O
 wia O
 those O
@@ -14417,7 +14417,7 @@ di O
 hospital O
 , O
 """" O
-Adebayor O
+Adebayor B-PER
 tok O
 . O
 
@@ -14574,8 +14574,8 @@ di O
 same O
 compound O
 and O
-Kolo B-PER
-Toure I-PER
+Kolo O
+Toure O
 and O
 couple O
 of O
@@ -14610,7 +14610,7 @@ bin O
 dey O
 late O
 for O
-evening O
+evening B-DATE
 , O
 by O
 dis O
@@ -14678,10 +14678,10 @@ and O
 representatives O
 of O
 di O
-Confederation O
-of O
-African O
-Football O
+Confederation B-ORG
+of I-ORG
+African I-ORG
+Football I-ORG
 fly O
 in O
 from O
@@ -14988,7 +14988,7 @@ dia O
 terrifying O
 experience O
 , O
-Togo O
+Togo B-LOC
 Sparrowhawks O
 come O
 out O
@@ -15054,7 +15054,7 @@ na O
 di O
 goalkeeper O
 , O
-Obilale B-PER
+Obilale O
 . O
 
 Initially O
@@ -15093,8 +15093,8 @@ am O
 go O
 hospital O
 for O
-South O
-Africa O
+South B-LOC
+Africa I-LOC
 , O
 to O
 begin O
@@ -15205,7 +15205,7 @@ e O
 life O
 - O
 for O
-Cabinda O
+Cabinda B-LOC
 and O
 e O
 dey O
@@ -15223,10 +15223,10 @@ in O
 leadership O
 for O
 di O
-Confederation B-ORG
-of I-ORG
-African I-ORG
-Football I-ORG
+Confederation O
+of O
+African O
+Football O
 for O
 2017 B-DATE
 , O
@@ -15254,16 +15254,16 @@ body O
 . O
 
 On O
-Tuesday O
-night O
+Tuesday B-DATE
+night I-DATE
 Caf B-ORG
 give O
 am O
 special O
 award O
 , O
-10 B-DATE
-years I-DATE
+10 O
+years O
 from O
 Cabinda O
 , O
@@ -15285,7 +15285,7 @@ help O
 odas O
 . O
 
-Cameroon B-LOC
+Cameroon O
 legend O
 Samuel B-PER
 Eto'o I-PER
@@ -15293,7 +15293,7 @@ na O
 di O
 host O
 for O
-Hurghada O
+Hurghada B-LOC
 , O
 and O
 e O
@@ -15315,25 +15315,25 @@ na O
 e O
 former O
 captain O
-Adebayor B-PER
+Adebayor O
 and O
-Ghana B-LOC
-Ayew O
+Ghana O
+Ayew B-PER
 brothers O
 - O
-Andre O
-Ayew O
+Andre B-PER
+Ayew I-PER
 and O
 e O
 brother O
-Rahim O
+Rahim B-PER
 bin O
 dey O
 part O
 of O
 di O
-Black O
-Stars O
+Black B-ORG
+Stars I-ORG
 squad O
 wey O
 play O
@@ -15361,8 +15361,8 @@ di O
 attack O
 . O
 
-Junior B-PER
-Senaya I-PER
+Junior O
+Senaya O
 , O
 wey O
 be O
@@ -15378,9 +15378,9 @@ first O
 World O
 Cup O
 for O
-Germany O
+Germany B-LOC
 for O
-2006 O
+2006 B-DATE
 , O
 bin O
 dey O
@@ -15515,24 +15515,24 @@ research O
 and O
 reporting O
 by O
-Blame O
-Ekoue O
+Blame B-PER
+Ekoue I-PER
 for O
-Lome O
+Lome B-LOC
 and O
-Victoire O
-Eyoum O
+Victoire B-PER
+Eyoum I-PER
 in O
-London B-LOC
+London O
 . O
 
-Nigeria O
+Nigeria B-LOC
 Super B-ORG
 Falcons I-ORG
 captain O
 , O
-Asisat O
-Oshoala O
+Asisat B-PER
+Oshoala I-PER
 say O
 she O
 want O
@@ -15544,7 +15544,7 @@ afta O
 she O
 win O
 di O
-2019 O
+2019 B-DATE
 Confederation B-ORG
 of I-ORG
 African I-ORG
@@ -15559,7 +15559,7 @@ di O
 Year O
 award O
 on O
-Tuesday O
+Tuesday B-DATE
 . O
 
 Dis O
@@ -15584,7 +15584,7 @@ Perpetua B-PER
 Nkwocha I-PER
 . O
 
-Oshoala O
+Oshoala B-PER
 year O
 include O
 goal O
@@ -15600,7 +15600,7 @@ di O
 last O
 16 O
 inside O
-France O
+France B-LOC
 and O
 10 O
 goals O
@@ -15614,7 +15614,7 @@ Spanish O
 side O
 Barcelona B-ORG
 for O
-February B-DATE
+February O
 . O
 
 """" O
@@ -15638,9 +15638,9 @@ remember O
 """" O
 she O
 tell O
-BBC B-ORG
-Sport I-ORG
-Africa I-ORG
+BBC O
+Sport O
+Africa O
 . O
 
 """" O
@@ -15685,14 +15685,14 @@ own O
 . O
 """" O
 
-Oshoala O
+Oshoala B-PER
 , O
 wey O
 claim O
 di O
 award O
 for O
-2014 B-DATE
+2014 O
 , O
 2016 O
 and O
@@ -15709,8 +15709,8 @@ forward O
 Ajara B-PER
 Nchout I-PER
 plus O
-last B-DATE
-year I-DATE
+last O
+year O
 winner O
 Thembi B-PER
 Kgatlana I-PER
@@ -15747,7 +15747,7 @@ dis O
 but O
 na O
 historical O
-night B-DATE
+night O
 for O
 me O
 , O
@@ -15779,7 +15779,7 @@ back O
 for O
 2004 B-DATE
 and O
-2005 B-DATE
+2005 O
 and O
 again O
 for O
@@ -15808,11 +15808,11 @@ before O
 according O
 to O
 former O
-Manchester O
-City O
+Manchester B-ORG
+City I-ORG
 midfielder O
-Yaya O
-Toure O
+Yaya B-PER
+Toure I-PER
 . O
 
 Many O
@@ -15845,7 +15845,7 @@ Italy B-LOC
 I've O
 chat O
 wit O
-Fifa O
+Fifa B-ORG
 because O
 dis O
 na O
@@ -15856,8 +15856,8 @@ something O
 """" O
 di O
 former O
-Ivory B-LOC
-Coast I-LOC
+Ivory O
+Coast O
 international O
 tok O
 . O
@@ -15927,9 +15927,9 @@ am O
 during O
 match O
 between O
-Brescia B-ORG
+Brescia O
 and O
-Verona O
+Verona B-ORG
 . O
 
 E O
@@ -15948,8 +15948,8 @@ head O
 
 Fans O
 of O
-Cagliari O
-club O
+Cagliari B-ORG
+club I-ORG
 begin O
 do O
 like O
@@ -15959,8 +15959,8 @@ provoke O
 Inter B-ORG
 Milan I-ORG
 forward O
-Romelu B-PER
-Lukaku I-PER
+Romelu O
+Lukaku O
 earlier O
 dis O
 season O
@@ -16002,11 +16002,11 @@ just O
 no O
 plenty O
 reach O
-Italy O
+Italy B-LOC
 own O
 . O
 
-Toure O
+Toure B-PER
 add O
 : O
 """" O
@@ -16052,14 +16052,14 @@ that O
 . O
 """" O
 
-Arsenal B-ORG
+Arsenal O
 don O
 appoint O
 dia O
 former O
 player O
-Mikel B-PER
-Arteta I-PER
+Mikel O
+Arteta O
 as O
 dia O
 new O
@@ -16074,8 +16074,8 @@ bin O
 dey O
 work O
 with O
-Pep B-PER
-Guardiola I-PER
+Pep O
+Guardiola O
 as O
 coach O
 for O
@@ -16097,8 +16097,8 @@ for O
 Im O
 go O
 replace O
-Unai O
-Emery O
+Unai B-PER
+Emery I-PER
 wey O
 Arsenal B-ORG
 sack O
@@ -16127,8 +16127,8 @@ two O
 times O
 for O
 di O
-five O
-years O
+five B-DATE
+years I-DATE
 wey O
 im O
 spend O
@@ -16154,7 +16154,7 @@ game O
 """" O
 na O
 wetin O
-Arteta O
+Arteta B-PER
 tok O
 """" O
 Dat O
@@ -16175,8 +16175,8 @@ owners O
 ] O
 Stan B-PER
 and O
-Josh O
-Kroenke O
+Josh B-PER
+Kroenke I-PER
 and O
 senior O
 pipo O
@@ -16202,16 +16202,16 @@ with O
 points O
 . O
 
-Arteta O
+Arteta B-PER
 sign O
-three B-DATE
-- I-DATE
-and I-DATE
-- I-DATE
-a I-DATE
-- I-DATE
-half I-DATE
-year I-DATE
+three O
+- O
+and O
+- O
+a O
+- O
+half O
+year O
 contract O
 with O
 Premier O
@@ -16227,7 +16227,7 @@ old I-DATE
 , O
 na O
 former O
-Arsenal B-ORG
+Arsenal O
 club O
 captain O
 , O
@@ -16240,7 +16240,7 @@ di O
 club O
 , O
 from O
-2011 O
+2011 B-DATE
 to O
 2016 B-DATE
 . O
@@ -16261,7 +16261,7 @@ titles O
 Before O
 im O
 join O
-Arsenal O
+Arsenal B-ORG
 as O
 dia O
 new O
@@ -16271,8 +16271,8 @@ bin O
 dey O
 part O
 of O
-Pep O
-Guardiola O
+Pep B-PER
+Guardiola I-PER
 coaching O
 staff O
 for O
@@ -16292,9 +16292,9 @@ go O
 appoint O
 inside O
 dia O
-133 B-DATE
-- I-DATE
-year I-DATE
+133 O
+- O
+year O
 history O
 . O
 
@@ -16338,8 +16338,8 @@ too O
 Nigeria B-LOC
 Welterweight O
 champion O
-Kamaru B-PER
-Usman I-PER
+Kamaru O
+Usman O
 knock O
 out O
 Colby B-PER
@@ -16354,7 +16354,7 @@ welterweight O
 title O
 for O
 di O
-UFC B-ORG
+UFC O
 245 O
 . O
 
@@ -16363,13 +16363,13 @@ fight O
 happun O
 for O
 di O
-T B-LOC
-- I-LOC
-Mobile I-LOC
-Arena I-LOC
+T O
+- O
+Mobile O
+Arena O
 inside O
-Las B-LOC
-Vegas I-LOC
+Las O
+Vegas O
 , O
 United B-LOC
 States I-LOC
@@ -16389,11 +16389,11 @@ June B-DATE
 8 I-DATE
 , O
 na O
-Kamaru B-PER
+Kamaru O
 first O
 fight O
 since O
-March O
+March B-DATE
 wen O
 im O
 beat O
@@ -16409,7 +16409,7 @@ Kamaru B-PER
 kpo O
 - O
 kpo O
-Covington B-PER
+Covington O
 patapata O
 for O
 di O
@@ -16439,8 +16439,8 @@ punch O
 am O
 before O
 referee O
-Marc O
-Goddard O
+Marc B-PER
+Goddard I-PER
 come O
 dey O
 force O
@@ -16461,14 +16461,14 @@ plenti O
 post O
 from O
 di O
-twitter B-ORG
+twitter O
 handle O
 of O
 UFC B-ORG
 , O
 dem O
 say O
-Kamaru B-PER
+Kamaru O
 'retain O
 im O
 championship O
@@ -16529,7 +16529,7 @@ me O
 Covington B-PER
 even O
 insult O
-Kamaru O
+Kamaru B-PER
 say O
 im O
 dey O
@@ -16568,14 +16568,14 @@ for O
 Benin B-LOC
 City I-LOC
 , O
-Nigeria O
+Nigeria B-LOC
 for O
-May O
-11 O
-, O
-1987 O
+May B-DATE
+11 I-DATE
+, I-DATE
+1987 I-DATE
 and O
-Kamaru B-PER
+Kamaru O
 na O
 di O
 first O
@@ -16589,7 +16589,7 @@ Championship I-ORG
 title O
 . O
 
-Kamaru O
+Kamaru B-PER
 tok O
 say O
 na O
@@ -16738,7 +16738,7 @@ year I-DATE
 deal O
 . O
 
-Ancelotti B-PER
+Ancelotti O
 wey O
 Napoli B-ORG
 bin O
@@ -16751,18 +16751,18 @@ go O
 take O
 ova O
 from O
-Marco O
-Silva O
+Marco B-PER
+Silva I-PER
 , O
 wey O
-Everton B-ORG
+Everton O
 sack O
 for O
-6 B-DATE
-December I-DATE
+6 O
+December O
 . O
 
-Ancelotti O
+Ancelotti B-PER
 , O
 wey O
 be O
@@ -16799,7 +16799,7 @@ announce O
 Ancelotti B-PER
 arrival O
 on O
-Saturday B-DATE
+Saturday O
 before O
 di O
 home O
@@ -16807,7 +16807,7 @@ Premier O
 League O
 game O
 against O
-Arsenal O
+Arsenal B-ORG
 , O
 wey O
 appoint O
@@ -16829,9 +16829,9 @@ Friday B-DATE
 Ancelotti B-PER
 wey O
 be O
-60 B-DATE
-years I-DATE
-old I-DATE
+60 O
+years O
+old O
 go O
 officially O
 take O
@@ -16851,8 +16851,8 @@ game O
 against O
 Burnley B-ORG
 on O
-26 O
-December O
+26 B-DATE
+December I-DATE
 . O
 
 Oga O
@@ -16869,10 +16869,10 @@ Madrid I-ORG
 Bayern B-ORG
 Munich I-ORG
 and O
-Paris O
-St O
-- O
-Germain O
+Paris B-ORG
+St I-ORG
+- I-ORG
+Germain I-ORG
 boss O
 tok O
 say O
@@ -16989,7 +16989,7 @@ Zidane O
 
 E O
 guide O
-Chelsea B-ORG
+Chelsea O
 go O
 di O
 Premier O
@@ -17024,7 +17024,7 @@ following O
 campaign O
 . O
 
-Everton B-ORG
+Everton O
 director O
 of O
 football O
@@ -17033,7 +17033,7 @@ Marcel B-PER
 Brands I-PER
 tok O
 say O
-Ancelotti O
+Ancelotti B-PER
 na O
 """" O
 one O
@@ -17101,7 +17101,7 @@ ahead O
 . O
 """" O
 
-Everton B-ORG
+Everton O
 start O
 di O
 weekend B-DATE
@@ -17123,8 +17123,8 @@ zone O
 Nigeria B-LOC
 Welterweight O
 champion O
-Kamaru B-PER
-Usman I-PER
+Kamaru O
+Usman O
 , O
 go O
 fight O
@@ -17142,8 +17142,8 @@ Vegas I-LOC
 United B-LOC
 States I-LOC
 on O
-Saturday O
-night O
+Saturday B-DATE
+night I-DATE
 . O
 
 Tori O
@@ -17167,7 +17167,7 @@ main O
 event O
 of O
 di O
-night B-DATE
+night O
 , O
 sake O
 of O
@@ -17189,7 +17189,7 @@ di O
 biggest O
 competition O
 for O
-MMA O
+MMA B-ORG
 , O
 wia O
 di O
@@ -17251,7 +17251,7 @@ na O
 1 O
 . O
 
-Usman O
+Usman B-PER
 get O
 six O
 career O
@@ -17380,7 +17380,7 @@ na O
 1 O
 . O
 
-Covington O
+Covington B-PER
 get O
 four O
 career O
@@ -17519,7 +17519,7 @@ dia O
 fight O
 . O
 
-Arsenal O
+Arsenal B-ORG
 new O
 coach O
 Mikel B-PER
@@ -17545,14 +17545,14 @@ League O
 Di O
 Gunners B-ORG
 appoint O
-Arteta B-PER
+Arteta O
 as O
 dia O
 manager O
 to O
 replace O
-Unai O
-Emery O
+Unai B-PER
+Emery I-PER
 on O
 20 B-DATE
 December I-DATE
@@ -17577,10 +17577,10 @@ first O
 half O
 . O
 
-Pierre O
-- O
-Emerick O
-Aubameyang O
+Pierre B-PER
+- I-PER
+Emerick I-PER
+Aubameyang I-PER
 later O
 score O
 di O
@@ -17611,10 +17611,10 @@ lose O
 - O
 0 O
 to O
-Southampton B-ORG
+Southampton O
 for O
-Stamford B-LOC
-Bridge I-LOC
+Stamford O
+Bridge O
 while O
 Tottenham B-ORG
 come O
@@ -17628,8 +17628,8 @@ Brighton O
 1 O
 . O
 
-Carlo B-PER
-Ancelotti I-PER
+Carlo O
+Ancelotti O
 begin O
 life O
 as O
@@ -17643,7 +17643,7 @@ with O
 0 O
 win O
 ova O
-Burnley B-ORG
+Burnley O
 for O
 Goodison B-LOC
 Park I-LOC
@@ -17652,7 +17652,7 @@ Park I-LOC
 Manchester B-ORG
 United I-ORG
 sama O
-Newcastle B-ORG
+Newcastle O
 4 O
 - O
 1 O
@@ -17688,13 +17688,13 @@ Hotspur I-ORG
 2 O
 - O
 1 O
-Brighton O
-Bournemouth O
+Brighton B-ORG
+Bournemouth I-ORG
 1 O
 - O
 1 O
-Arsenal B-ORG
-Chelsea I-ORG
+Arsenal O
+Chelsea O
 0 O
 - O
 2 O
@@ -17733,8 +17733,8 @@ Unite I-ORG
 Newcastle B-ORG
 United I-ORG
 
-Tyson B-PER
-Fury I-PER
+Tyson O
+Fury O
 rematch O
 with O
 WBC O
@@ -17746,8 +17746,8 @@ Wilder I-PER
 go O
 happun O
 for O
-Las B-LOC
-Vegas I-LOC
+Las O
+Vegas O
 on O
 22 B-DATE
 February I-DATE
@@ -17816,7 +17816,7 @@ start O
 """" O
 . O
 
-Fury B-PER
+Fury O
 tell O
 fans O
 ontop O
@@ -17861,7 +17861,7 @@ fight O
 Luis B-PER
 Ortiz I-PER
 from O
-Cuba O
+Cuba B-LOC
 , O
 wey O
 im O
@@ -17886,19 +17886,19 @@ get O
 draw O
 during O
 di O
-Los O
-Angeles O
+Los B-LOC
+Angeles I-LOC
 fight O
 . O
 
-Fury B-PER
+Fury O
 defeat O
-Germany O
+Germany B-LOC
 fighter O
 Tom B-PER
 Schwarz I-PER
 for O
-June B-DATE
+June O
 , O
 but O
 im O
@@ -17912,8 +17912,8 @@ im O
 give O
 Swedish O
 man O
-Otto B-PER
-Wallin I-PER
+Otto O
+Wallin O
 for O
 September B-DATE
 . O
@@ -17928,7 +17928,7 @@ say O
 im O
 rematch O
 wit O
-Wilder B-PER
+Wilder O
 fit O
 delay O
 . O
@@ -18007,7 +18007,7 @@ Madrid I-ORG
 while O
 reigning O
 champions O
-Liverpool O
+Liverpool B-ORG
 go O
 play O
 Atletico B-ORG
@@ -18024,17 +18024,17 @@ Champions O
 League O
 . O
 
-Chelsea O
+Chelsea B-ORG
 go O
 take O
 on O
-Bayern O
-Munich O
+Bayern B-ORG
+Munich I-ORG
 for O
 repeat O
 of O
 di O
-2012 O
+2012 B-DATE
 final O
 wey O
 di O
@@ -18044,8 +18044,8 @@ while O
 Tottenham B-ORG
 go O
 face O
-RB B-ORG
-Leipzig I-ORG
+RB O
+Leipzig O
 . O
 
 Oda O
@@ -18054,15 +18054,15 @@ big O
 matches O
 go O
 see O
-Borussia B-ORG
-Dortmund I-ORG
+Borussia O
+Dortmund O
 play O
 Paris B-ORG
 St I-ORG
 - I-ORG
 Germain I-ORG
 and O
-Napoli O
+Napoli B-ORG
 go O
 take O
 on O
@@ -18077,7 +18077,7 @@ draw O
 go O
 hold O
 on O
-18 B-DATE
+18 O
 , O
 19 B-DATE
 , O
@@ -18110,12 +18110,12 @@ final O
 go O
 happun O
 on O
-30 O
-May O
+30 B-DATE
+May I-DATE
 for O
 di O
-Ataturk B-LOC
-Stadium I-LOC
+Ataturk O
+Stadium O
 for O
 Istanbul O
 , O
@@ -18135,8 +18135,8 @@ di O
 Champions O
 League O
 against O
-AC B-ORG
-Milan I-ORG
+AC O
+Milan O
 . O
 
 Dis O
@@ -18160,7 +18160,7 @@ Gabrielle I-PER
 , O
 captain O
 for O
-Cameroon O
+Cameroon B-LOC
 women O
 national O
 team O
@@ -18186,7 +18186,7 @@ Di O
 Russian O
 champion O
 for O
-2019 B-DATE
+2019 O
 with O
 CSKA O
 Mosco O
@@ -18282,7 +18282,7 @@ Onguéné B-PER
 tok O
 . O
 
-Cameroon B-LOC
+Cameroon O
 women O
 football O
 shine O
@@ -18290,7 +18290,7 @@ for O
 world O
 stage O
 for O
-2015 O
+2015 B-DATE
 wen O
 Lionesses O
 go O
@@ -18377,13 +18377,13 @@ boots O
 and O
 moni O
 from O
-Aboudi B-PER
+Aboudi O
 weh O
 e O
 dey O
 shortlist O
 for O
-CAF O
+CAF B-ORG
 Awards O
 wit O
 four O
@@ -18537,7 +18537,7 @@ award O
 Ah O
 glad O
 as O
-Aboudi O
+Aboudi B-PER
 weh O
 e O
 don O
@@ -18571,7 +18571,7 @@ football O
 league O
 , O
 say O
-Cameroon B-LOC
+Cameroon O
 football O
 executive O
 committee O
@@ -18678,7 +18678,7 @@ di O
 last O
 time O
 wey O
-Mourinho O
+Mourinho B-PER
 coach O
 for O
 Premier O
@@ -18689,7 +18689,7 @@ VAR O
 bin O
 dey O
 for O
-England O
+England B-LOC
 . O
 
 Mourinho B-PER
@@ -18795,8 +18795,8 @@ be O
 like O
 many O
 of O
-Manchester B-ORG
-City I-ORG
+Manchester O
+City O
 players O
 don O
 complain O
@@ -18807,9 +18807,9 @@ am O
 . O
 
 From O
-Kevin O
-De O
-Bruyne O
+Kevin B-PER
+De I-PER
+Bruyne I-PER
 , O
 to O
 Raheem B-PER
@@ -18883,14 +18883,14 @@ For O
 November B-DATE
 2019 I-DATE
 , O
-Chelsea B-ORG
+Chelsea O
 coach O
 and O
 former O
 midfielder O
 , O
-Frank O
-Lampard O
+Frank B-PER
+Lampard I-PER
 draw O
 ear O
 give O
@@ -18912,7 +18912,7 @@ Premier O
 League O
 . O
 
-Lampard O
+Lampard B-PER
 own O
 be O
 say O
@@ -18927,8 +18927,8 @@ Premier O
 League O
 legends O
 like O
-Alan B-PER
-Shearer I-PER
+Alan O
+Shearer O
 , O
 Robbie O
 Fowler O
@@ -18991,15 +18991,15 @@ life O
 Former O
 Arsenal B-ORG
 oga O
-Arsene B-PER
-Wenger I-PER
+Arsene O
+Wenger O
 go O
 hold O
 tok O
 tok O
 wit O
-Bayern B-ORG
-Munich I-ORG
+Bayern O
+Munich O
 next B-DATE
 week I-DATE
 on O
@@ -19012,7 +19012,7 @@ job O
 70 B-DATE
 year I-DATE
 old I-DATE
-Wenger O
+Wenger B-PER
 , O
 tell O
 Bein B-ORG
@@ -19028,10 +19028,10 @@ Bayern B-ORG
 executive O
 board O
 chairman O
-Karl O
-- O
-Heinz O
-Rummenigge O
+Karl B-PER
+- I-PER
+Heinz I-PER
+Rummenigge I-PER
 afta O
 di O
 Bundesliga O
@@ -19039,16 +19039,16 @@ champions O
 sack O
 Niko B-PER
 Kovac I-PER
-earlier B-DATE
-dis I-DATE
-week I-DATE
+earlier O
+dis O
+week O
 . O
 
 E O
 dey O
 come O
 afta O
-Rummenigge O
+Rummenigge B-PER
 tok O
 say O
 Wenger O
@@ -19073,15 +19073,15 @@ say O
 we O
 go O
 tok O
-next O
-week O
+next B-DATE
+week I-DATE
 becos O
 I O
 dey O
 inside O
 Doha B-LOC
 until O
-Sunday O
+Sunday B-DATE
 . O
 
 Dis O
@@ -19133,13 +19133,13 @@ for O
 di O
 game O
 against O
-Olympiakos O
+Olympiakos B-ORG
 . O
 
 We O
 tok O
 for O
-four B-DATE
+four O
 to O
 five B-DATE
 minutes I-DATE
@@ -19224,7 +19224,7 @@ years I-DATE
 in O
 charge O
 of O
-Arsenal B-ORG
+Arsenal O
 , O
 e O
 win O
@@ -19264,7 +19264,7 @@ di O
 Bundesliga O
 campaign O
 , O
-Bayern O
+Bayern B-ORG
 carri O
 fourth O
 , O
@@ -19309,7 +19309,7 @@ dia O
 0 O
 win O
 over O
-Olympiakos B-ORG
+Olympiakos O
 inside O
 Flick B-PER
 first O
@@ -19338,14 +19338,14 @@ For O
 di O
 start O
 of O
-October B-DATE
+October O
 , O
 Bayern B-ORG
 , O
 still O
 managed O
 by O
-Kovac O
+Kovac B-PER
 , O
 thrash O
 Tottenham B-ORG
@@ -19361,7 +19361,7 @@ in O
 London B-LOC
 . O
 
-Nigeria B-LOC
+Nigeria O
 Golden B-ORG
 Eaglets I-ORG
 don O
@@ -19369,7 +19369,7 @@ crash O
 out O
 of O
 di O
-2019 O
+2019 B-DATE
 Fifa B-ORG
 U O
 - O
@@ -19392,7 +19392,7 @@ suffer O
 - O
 1 O
 to O
-Netherlands O
+Netherlands B-LOC
 for O
 dia O
 round O
@@ -19404,7 +19404,7 @@ dis O
 morning O
 . O
 
-Netherlands B-LOC
+Netherlands O
 striker O
 Sontje B-PER
 Hansen I-PER
@@ -19433,8 +19433,8 @@ stage O
 match O
 . O
 
-Olakunle O
-Olusegun O
+Olakunle B-PER
+Olusegun I-PER
 na O
 im O
 score O
@@ -19493,22 +19493,22 @@ night I-DATE
 go O
 be O
 for O
-Anthony O
-Joshua O
+Anthony B-PER
+Joshua I-PER
 . O
 
 Six B-DATE
 months I-DATE
 afta O
-Joshua O
+Joshua B-PER
 lose O
 to O
 Andy B-PER
 Ruiz I-PER
 Jr I-PER
 for O
-New O
-York O
+New B-LOC
+York I-LOC
 im O
 get O
 second O
@@ -19552,18 +19552,18 @@ fight O
 go O
 start O
 from O
-8 O
-: O
-30 O
-PM O
+8 B-DATE
+: I-DATE
+30 I-DATE
+PM I-DATE
 Nigerian O
 Time O
 on O
 Saturday B-DATE
 . O
 
-Muhammad O
-Ali O
+Muhammad B-PER
+Ali I-PER
 : O
 On O
 February B-DATE
@@ -19587,9 +19587,9 @@ decision O
 Seven B-DATE
 months I-DATE
 later O
-Ali O
+Ali B-PER
 defeat O
-Spinks O
+Spinks B-PER
 for O
 15 O
 rounds O
@@ -19627,8 +19627,8 @@ Lennox B-PER
 Lewis I-PER
 : O
 On O
-April B-DATE
-22 I-DATE
+April O
+22 O
 for O
 2001 B-DATE
 , O
@@ -19659,8 +19659,8 @@ fight O
 wey O
 happun O
 for O
-South O
-Africa O
+South B-LOC
+Africa I-LOC
 . O
 
 But O
@@ -19673,7 +19673,7 @@ seven O
 months O
 later O
 with O
-Lewis O
+Lewis B-PER
 , O
 as O
 di O
@@ -19686,12 +19686,12 @@ for O
 round O
 four O
 for O
-Las B-LOC
-Vegas I-LOC
+Las O
+Vegas O
 . O
 
-Evander O
-Holyfield O
+Evander B-PER
+Holyfield I-PER
 : O
 Holyfield B-PER
 lose O
@@ -19718,10 +19718,10 @@ pipo O
 . O
 
 Afta O
-Moorer B-PER
+Moorer O
 victory O
 to O
-Holyfield B-PER
+Holyfield O
 e O
 come O
 choose O
@@ -19746,7 +19746,7 @@ dat O
 fight O
 . O
 
-Foreman O
+Foreman B-PER
 win O
 di O
 fight O
@@ -19755,7 +19755,7 @@ knockout O
 afta O
 im O
 land O
-Moorer B-PER
+Moorer O
 heavy O
 blow O
 for O
@@ -19781,7 +19781,7 @@ rematch O
 By O
 dat O
 time O
-Holyfield O
+Holyfield B-PER
 don O
 collect O
 im O
@@ -19806,27 +19806,27 @@ title O
 afta O
 im O
 defeat O
-Axel O
-Schulz O
+Axel B-PER
+Schulz I-PER
 . O
 
 Nigerian O
 born O
 British O
 boxer O
-Anthony O
-Joshua O
+Anthony B-PER
+Joshua I-PER
 go O
 meet O
 Andy B-PER
 Ruiz I-PER
 Jr I-PER
 inside O
-Saudi B-LOC
-Arabia I-LOC
+Saudi O
+Arabia O
 on O
-Saturday B-DATE
-night I-DATE
+Saturday O
+night O
 for O
 fight O
 wey O
@@ -19863,9 +19863,9 @@ go O
 takes O
 place O
 on O
-Dec B-DATE
-. I-DATE
-7 I-DATE
+Dec O
+. O
+7 O
 for O
 Diriyah O
 Arena O
@@ -19880,10 +19880,10 @@ built O
 seater O
 venue O
 inside O
-Diriyah O
+Diriyah B-LOC
 , O
-Saudi B-LOC
-Arabia I-LOC
+Saudi O
+Arabia O
 . O
 
 Di O
@@ -19891,10 +19891,10 @@ fight O
 go O
 happun O
 from O
-8 B-DATE
-: I-DATE
-30 I-DATE
-PM I-DATE
+8 O
+: O
+30 O
+PM O
 Nigerian O
 Time O
 on O
@@ -19908,8 +19908,8 @@ world O
 heavyweight O
 titles O
 to O
-Ruiz B-PER
-jr I-PER
+Ruiz O
+jr O
 wen O
 dem O
 first O
@@ -19960,7 +19960,7 @@ Saturday B-DATE
 """" O
 Na O
 wetin O
-Joshua O
+Joshua B-PER
 tok O
 . O
 
@@ -20020,8 +20020,8 @@ history O
 """" O
 Na O
 wetin O
-Ruiz O
-Jr O
+Ruiz B-PER
+Jr I-PER
 tok O
 . O
 
@@ -20040,7 +20040,7 @@ Age O
 : O
 30 B-DATE
 - O
-30 O
+30 B-DATE
 Height O
 : O
 6ft O
@@ -20085,22 +20085,22 @@ Rounds O
 151 O
 Debut O
 : O
-5 B-DATE
-/ I-DATE
-10 I-DATE
-/ I-DATE
-2013 I-DATE
+5 O
+/ O
+10 O
+/ O
+2013 O
 - O
-28 O
-/ O
-03 O
-/ O
-2009 O
+28 B-DATE
+/ I-DATE
+03 I-DATE
+/ I-DATE
+2009 I-DATE
 Nickname O
 : O
-AJ O
+AJ B-PER
 - O
-Destroyer O
+Destroyer B-PER
 Tori O
 be O
 say O
@@ -20127,11 +20127,11 @@ match O
 here O
 : O
 Na O
-Sky B-ORG
-Sports I-ORG
+Sky O
+Sports O
 and O
-DAZN O
-USA O
+DAZN B-ORG
+USA I-ORG
 be O
 di O
 major O
@@ -20144,8 +20144,8 @@ di O
 fight O
 . O
 
-Deontay B-PER
-Wilder I-PER
+Deontay O
+Wilder O
 knockout O
 Luis B-PER
 Ortiz I-PER
@@ -20225,8 +20225,8 @@ Ortiz B-PER
 , O
 wey O
 be O
-40 B-DATE
-years I-DATE
+40 O
+years O
 , O
 manage O
 to O
@@ -20298,8 +20298,8 @@ Klitschko I-PER
 11 O
 ) O
 , O
-Wladimir B-PER
-Klitschko I-PER
+Wladimir O
+Klitschko O
 ( O
 18 O
 ) O
@@ -20329,8 +20329,8 @@ without O
 defeat O
 . O
 
-Six O
-months O
+Six B-DATE
+months I-DATE
 afta O
 Anthony B-PER
 Joshua I-PER
@@ -20354,21 +20354,21 @@ im O
 belts O
 back O
 for O
-Saudi B-LOC
-Arabia I-LOC
+Saudi O
+Arabia O
 . O
 
 Joshua B-PER
 jam O
-Andy B-PER
-Ruiz I-PER
+Andy O
+Ruiz O
 again O
 for O
 di O
 second O
 time O
-dis O
-year O
+dis B-DATE
+year I-DATE
 for O
 Dariya O
 sport O
@@ -20404,13 +20404,13 @@ Ruiz I-PER
 Jr I-PER
 bin O
 scata O
-Joshua O
+Joshua B-PER
 perfect O
 record O
 for O
 boxing O
 for O
-June O
+June B-DATE
 but O
 now O
 , O
@@ -20438,8 +20438,8 @@ include O
 Muhammad B-PER
 Ali I-PER
 , O
-Lennox O
-Lewis O
+Lennox B-PER
+Lewis I-PER
 , O
 Evander B-PER
 Holyfield I-PER
@@ -20462,8 +20462,8 @@ follow O
 to O
 jollificate O
 with O
-Anthony O
-Joshua O
+Anthony B-PER
+Joshua I-PER
 afta O
 im O
 win O
@@ -20491,15 +20491,15 @@ Development O
 , O
 for O
 Nigeria B-LOC
-Sunday B-PER
-Dare I-PER
+Sunday O
+Dare O
 , O
 say O
-Africa B-LOC
+Africa O
 richest O
 man O
-Aliko O
-Dangote O
+Aliko B-PER
+Dangote I-PER
 godo O
 collabo O
 wit O
@@ -20529,7 +20529,7 @@ di O
 official O
 home O
 for O
-Nigeria B-LOC
+Nigeria O
 national O
 sport O
 teams O
@@ -20539,8 +20539,8 @@ to O
 something O
 else O
 , O
-16 O
-years O
+16 B-DATE
+years I-DATE
 afta O
 dem O
 launch O
@@ -20556,7 +20556,7 @@ oga O
 Dare B-PER
 thank O
 oga O
-Dangote B-PER
+Dangote O
 and O
 im O
 company O
@@ -20586,10 +20586,10 @@ Cable I-ORG
 also O
 report O
 on O
-Friday O
+Friday B-DATE
 say O
 oga O
-Dare B-PER
+Dare O
 follow O
 journalists O
 tok O
@@ -20616,13 +20616,13 @@ Muhammadu B-PER
 Buhari I-PER
 officially O
 add O
-'Moshood O
-Abiola' O
+'Moshood B-PER
+Abiola' I-PER
 to O
 di O
 name O
-'National B-LOC
-Stadium' I-LOC
+'National O
+Stadium' O
 to O
 take O
 honour O
@@ -20641,12 +20641,12 @@ believe O
 say O
 win O
 di O
-1993 B-DATE
+1993 O
 elections O
 . O
 
 Wen O
-Nigeria B-LOC
+Nigeria O
 use O
 di O
 national O
@@ -20661,7 +20661,7 @@ U O
 World O
 Cup O
 for O
-2009 B-DATE
+2009 O
 , O
 di O
 grass O
@@ -20680,7 +20680,7 @@ work O
 . O
 
 But O
-today B-DATE
+today O
 , O
 na O
 di O
@@ -20743,19 +20743,19 @@ dis B-DATE
 week I-DATE
 . O
 
-England O
+England B-LOC
 go O
 face O
 di O
-Czech B-LOC
-Republic I-LOC
+Czech O
+Republic O
 on O
 Friday B-DATE
 and O
 play O
 Bulgaria B-LOC
 on O
-Monday O
+Monday B-DATE
 inside O
 stadium O
 wey O
@@ -20791,14 +20791,14 @@ of O
 us O
 , O
 """" O
-Abraham B-PER
+Abraham O
 bin O
 tok O
 . O
 
 """" O
-Harry B-PER
-Kane I-PER
+Harry O
+Kane O
 even O
 chook O
 mouth O
@@ -20858,7 +20858,7 @@ Republic I-LOC
 and O
 Kosovo B-LOC
 for O
-June O
+June B-DATE
 . O
 
 For O
@@ -20866,15 +20866,15 @@ August O
 , O
 Bulgaria O
 clubs O
-PFC O
-Levski O
-Sofia O
+PFC B-ORG
+Levski I-ORG
+Sofia I-ORG
 and O
 PFC B-ORG
 Lokomotiv I-ORG
 Plovdiv I-ORG
 chop O
-Uefa O
+Uefa B-ORG
 punishment O
 for O
 racism O
@@ -21042,13 +21042,13 @@ im O
 load O
 waka O
 on O
-Tuesday B-DATE
+Tuesday O
 afta O
 di O
 racist O
 abuse O
 of O
-England O
+England B-LOC
 players O
 inside O
 di O
@@ -21056,7 +21056,7 @@ Euro O
 2020 B-DATE
 qualifier O
 for O
-Sofia B-LOC
+Sofia O
 . O
 
 Di O
@@ -21096,7 +21096,7 @@ chants O
 . O
 
 Di O
-BFU O
+BFU B-ORG
 say O
 """" O
 dis O
@@ -21165,7 +21165,7 @@ di O
 chanting O
 , O
 """" O
-Balakov O
+Balakov B-PER
 bin O
 tok O
 . O
@@ -21179,8 +21179,8 @@ match O
 England O
 players O
 including O
-Tammy B-PER
-Abraham I-PER
+Tammy O
+Abraham O
 , O
 don O
 already O
@@ -21208,8 +21208,8 @@ e O
 happun O
 , O
 di O
-Three B-ORG
-Lions I-ORG
+Three O
+Lions O
 decide O
 to O
 play O
@@ -21218,8 +21218,8 @@ di O
 end O
 . O
 
-Marcus O
-Rashford O
+Marcus B-PER
+Rashford I-PER
 bin O
 praise O
 di O
@@ -21240,8 +21240,8 @@ Twitter B-ORG
 Dis O
 na O
 afta O
-Ivelin B-PER
-Popov I-PER
+Ivelin O
+Popov O
 bin O
 go O
 meet O
@@ -21277,7 +21277,7 @@ di O
 fans O
 and O
 ask O
-Mihalov B-PER
+Mihalov O
 to O
 resign O
 """" O
@@ -21319,8 +21319,8 @@ including O
 financial O
 , O
 until O
-Borislav B-PER
-Mihaylov I-PER
+Borislav O
+Mihaylov O
 comot O
 from O
 di O
@@ -21330,9 +21330,9 @@ position O
 hala O
 Borissov B-PER
 
-Nigeria O
-Super B-ORG
-Falcons I-ORG
+Nigeria B-LOC
+Super O
+Falcons O
 don O
 troway O
 dia O
@@ -21373,7 +21373,7 @@ Agege O
 Stadium O
 Lagos O
 , O
-Nigeria O
+Nigeria B-LOC
 lose O
 based O
 on O
@@ -21418,16 +21418,16 @@ four O
 years O
 : O
 For O
-2012 O
+2012 B-DATE
 ( O
 London B-LOC
 ) O
 and O
-2016 B-DATE
+2016 O
 ( O
-Rio O
-de O
-Janeiro O
+Rio B-LOC
+de I-LOC
+Janeiro I-LOC
 ) O
 . O
 
@@ -21446,8 +21446,8 @@ Paris B-LOC
 ) O
 . O
 
-Les O
-Elephantes O
+Les B-ORG
+Elephantes I-ORG
 and O
 Super B-ORG
 Falcons I-ORG
@@ -21458,13 +21458,13 @@ play O
 0 O
 draw O
 for O
-Abidjan O
-four O
-days O
-earlier O
+Abidjan B-LOC
+four B-DATE
+days I-DATE
+earlier I-DATE
 , O
 and O
-Nigeria O
+Nigeria B-LOC
 be O
 di O
 favourite O
@@ -21472,12 +21472,12 @@ to O
 win O
 am O
 for O
-Agege O
+Agege B-LOC
 , O
 but O
 coach O
-Clementine O
-Toure O
+Clementine B-PER
+Toure I-PER
 and O
 her O
 girls O
@@ -21510,7 +21510,7 @@ Zote I-PER
 Kpaho I-PER
 . O
 
-Nigeria B-LOC
+Nigeria O
 captain O
 Asisat B-PER
 Oshoala I-PER
@@ -21531,9 +21531,9 @@ dey O
 for O
 Africa O
 and O
-Cote O
-d' O
-Ivoire O
+Cote B-LOC
+d' I-LOC
+Ivoire I-LOC
 go O
 feel O
 say O
@@ -21549,16 +21549,16 @@ am O
 . O
 
 Boxer O
-Patrick B-PER
-Day I-PER
+Patrick O
+Day O
 don O
 die O
 at O
 age B-DATE
 27 I-DATE
 - O
-four B-DATE
-days I-DATE
+four O
+days O
 afta O
 im O
 suffer O
@@ -21591,7 +21591,7 @@ super O
 welterweight O
 bout O
 for O
-Chicago B-LOC
+Chicago O
 . O
 
 Promoter O
@@ -21599,10 +21599,10 @@ Lou B-PER
 DiBella I-PER
 confam O
 say O
-Day O
+Day B-PER
 die O
 on O
-Wednesday O
+Wednesday B-DATE
 """" O
 and O
 im O
@@ -21665,7 +21665,7 @@ meet O
 
 Dem O
 carry O
-Day B-PER
+Day O
 from O
 di O
 ring O
@@ -21742,7 +21742,7 @@ ring O
 Boxing O
 na O
 wetin O
-Pat B-PER
+Pat O
 love O
 to O
 do O
@@ -21781,7 +21781,7 @@ di O
 fight O
 . O
 
-Day O
+Day B-PER
 win O
 17 O
 of O
@@ -21838,9 +21838,9 @@ Saturday B-DATE
 26 I-DATE
 October I-DATE
 for O
-Barcelona B-ORG
+Barcelona O
 but O
-RFEF O
+RFEF B-ORG
 postpone O
 am O
 after O
@@ -21886,8 +21886,8 @@ di O
 new O
 date O
 be O
-4 B-DATE
-December I-DATE
+4 O
+December O
 . O
 
 Wen O
@@ -21906,10 +21906,10 @@ want O
 dem O
 say O
 na O
-Wednesday O
-, O
-18 O
-December O
+Wednesday B-DATE
+, I-DATE
+18 I-DATE
+December I-DATE
 . O
 
 Di O
@@ -21949,7 +21949,7 @@ dem O
 reach O
 agreement O
 wit O
-Barcelona O
+Barcelona B-ORG
 and O
 Real B-ORG
 Madrid I-ORG
@@ -22025,7 +22025,7 @@ di O
 plan O
 . O
 
-Catalonia B-LOC
+Catalonia O
 - O
 wey O
 Barcelona B-ORG
@@ -22049,9 +22049,9 @@ wey O
 dem O
 do O
 on O
-1 B-DATE
-October I-DATE
-2017 I-DATE
+1 O
+October O
+2017 O
 , O
 around O
 90 O
@@ -22077,9 +22077,9 @@ referendum O
 illegal O
 . O
 
-Spain O
-Supreme O
-Court O
+Spain B-ORG
+Supreme I-ORG
+Court I-ORG
 convict O
 nine O
 separatist O
@@ -22103,11 +22103,11 @@ and I-DATE
 years I-DATE
 . O
 
-Senegal B-LOC
+Senegal O
 make O
 sure O
 say O
-Brazil O
+Brazil B-LOC
 no O
 win O
 for O
@@ -22144,7 +22144,7 @@ Senegal B-LOC
 make O
 sure O
 say O
-Brazil B-LOC
+Brazil O
 no O
 beat O
 dem O
@@ -22157,8 +22157,8 @@ togeda O
 
 Liverpool B-ORG
 forward O
-Roberto B-PER
-Firmino I-PER
+Roberto O
+Firmino O
 na O
 im O
 score O
@@ -22194,16 +22194,16 @@ convert O
 to O
 equalise O
 for O
-Senegal O
+Senegal B-LOC
 . O
 
-Brazil B-LOC
+Brazil O
 go O
 now O
 face O
-Nigeria O
-Super O
-Eagles O
+Nigeria B-LOC
+Super B-ORG
+Eagles I-ORG
 on O
 Sunday B-DATE
 for O
@@ -22241,7 +22241,7 @@ ma O
 five O
 colleagues O
 from O
-Europe B-LOC
+Europe O
 know O
 bi O
 know O
@@ -22261,8 +22261,8 @@ World O
 Cup O
 """" O
 , O
-Etienne B-PER
-Eto'o I-PER
+Etienne O
+Eto'o O
 react O
 . O
 
@@ -22274,8 +22274,8 @@ sign O
 for O
 2014 B-DATE
 disqualify O
-Etienne O
-Eto'o O
+Etienne B-PER
+Eto'o I-PER
 , O
 Samuel B-PER
 Eto'o I-PER
@@ -22287,15 +22287,15 @@ five O
 oda O
 players O
 for O
-2019 O
+2019 B-DATE
 World O
 Cup O
 for O
 Brazil B-LOC
 . O
 
-Etienne B-PER
-Eto'o I-PER
+Etienne O
+Eto'o O
 , O
 key O
 player O
@@ -22370,8 +22370,8 @@ ma O
 life O
 """" O
 , O
-Etienne O
-Eto'o O
+Etienne B-PER
+Eto'o I-PER
 tok O
 . O
 
@@ -22381,7 +22381,7 @@ weh O
 President O
 Biya B-PER
 for O
-2014 O
+2014 B-DATE
 say O
 competition O
 for O
@@ -22450,11 +22450,11 @@ tok O
 . O
 
 Coach O
-Libiih B-PER
-Thomas I-PER
+Libiih O
+Thomas O
 , O
 former O
-Cameroon O
+Cameroon B-LOC
 international O
 weh O
 e O
@@ -22486,11 +22486,11 @@ for O
 Fifa O
 . O
 
-Cameroon O
-Football O
-Federation O
+Cameroon B-ORG
+Football I-ORG
+Federation I-ORG
 , O
-Fecafoot O
+Fecafoot B-ORG
 send O
 de O
 message O
@@ -22525,8 +22525,8 @@ inside O
 
 Na O
 only O
-eight B-DATE
-day I-DATE
+eight O
+day O
 remain O
 make O
 de O
@@ -22538,11 +22538,11 @@ young O
 plyers O
 start O
 for O
-Brazil B-LOC
+Brazil O
 from O
 number O
-26 B-DATE
-day I-DATE
+26 O
+day O
 for O
 October B-DATE
 go O
@@ -22554,9 +22554,9 @@ for O
 November O
 . O
 
-Today B-DATE
+Today O
 , O
-Fifa O
+Fifa B-ORG
 confirm O
 squad O
 list O
@@ -22574,7 +22574,7 @@ dis O
 competition O
 . O
 
-Cameroon B-LOC
+Cameroon O
 dey O
 for O
 Group O
@@ -22584,9 +22584,9 @@ Argentina B-LOC
 , O
 Spain B-LOC
 , O
-Tajikistan B-LOC
+Tajikistan O
 and O
-Brazil O
+Brazil B-LOC
 . O
 
 For O
@@ -22598,7 +22598,7 @@ for O
 dis O
 category O
 , O
-Cameroon O
+Cameroon B-LOC
 komot O
 for O
 first O
@@ -22627,11 +22627,11 @@ World O
 Cup O
 na O
 , O
-Senegal B-LOC
+Senegal O
 , O
 Nigeria B-LOC
 and O
-Angola O
+Angola B-LOC
 . O
 
 Nigeria B-LOC
@@ -22649,13 +22649,13 @@ match O
 for O
 Singapore B-LOC
 on O
-Sunday B-DATE
+Sunday O
 . O
 
-Joe B-PER
-Aribo I-PER
+Joe O
+Aribo O
 score O
-Nigeria B-LOC
+Nigeria O
 first O
 goal O
 for O
@@ -22681,13 +22681,13 @@ box O
 For O
 second O
 half O
-Real B-ORG
-Madrid I-ORG
+Real O
+Madrid O
 midfielder O
 Casemero B-PER
 equalise O
 for O
-Brazil B-LOC
+Brazil O
 . O
 
 Casimero B-PER
@@ -22710,7 +22710,7 @@ bar O
 
 Top O
 star O
-Neymar B-PER
+Neymar O
 play O
 only O
 12 B-DATE
@@ -22727,8 +22727,8 @@ oda O
 ogbonge O
 stars O
 like O
-Philipe O
-Coutinho O
+Philipe B-PER
+Coutinho I-PER
 , O
 Gabriel B-PER
 Jesus I-PER
@@ -22737,8 +22737,8 @@ Roberto B-PER
 Firmino I-PER
 and O
 veteran O
-Dani O
-Alves O
+Dani B-PER
+Alves I-PER
 show O
 wella O
 for O
@@ -22756,7 +22756,7 @@ loose O
 - O
 0 O
 to O
-Brazil O
+Brazil B-LOC
 for O
 dia O
 last O
@@ -22767,8 +22767,8 @@ Stadium I-LOC
 Abuja I-LOC
 . O
 
-Super B-ORG
-Eagles I-ORG
+Super O
+Eagles O
 coach O
 , O
 Gernot B-PER
@@ -22783,7 +22783,7 @@ im O
 team O
 for O
 dia O
-Africa B-LOC
+Africa O
 Cup O
 of O
 Nations O
@@ -22794,14 +22794,14 @@ di O
 Brazilian O
 Consulate O
 inside O
-Lagos O
+Lagos B-LOC
 , O
 our O
 reporter O
 send O
 fotos O
 as O
-Nigeria B-LOC
+Nigeria O
 fans O
 go O
 dia O
@@ -22824,8 +22824,8 @@ score O
 two O
 goals O
 against O
-Real B-ORG
-Madrid I-ORG
+Real O
+Madrid O
 as O
 im O
 club O
@@ -22841,7 +22841,7 @@ European O
 champions O
 . O
 
-Bonaventure O
+Bonaventure B-PER
 score O
 im O
 first O
@@ -22874,8 +22874,8 @@ na O
 from O
 mistake O
 from O
-Real O
-Madrid O
+Real B-ORG
+Madrid I-ORG
 midfielder O
 Luka B-PER
 Modric I-PER
@@ -22893,7 +22893,7 @@ go O
 score O
 . O
 
-Salah B-PER
+Salah O
 and O
 Mane B-PER
 burst O
@@ -22928,8 +22928,8 @@ Anfield B-LOC
 Senegal B-LOC
 International O
 player O
-Sadio O
-Mane O
+Sadio B-PER
+Mane I-PER
 score O
 di O
 first O
@@ -22940,11 +22940,11 @@ defending O
 champions O
 . O
 
-Osimhen B-PER
+Osimhen O
 dey O
 form O
-Victor B-PER
-Osimhen I-PER
+Victor O
+Osimhen O
 score O
 for O
 Lille B-ORG
@@ -22989,13 +22989,13 @@ yards O
 Morocco O
 international O
 player O
-Hakim O
-Ziyech O
+Hakim B-PER
+Ziyech I-PER
 score O
 fine O
 goal O
 as O
-Ajax O
+Ajax B-ORG
 continue O
 dis O
 fine O
@@ -23012,7 +23012,7 @@ Valencia B-ORG
 - O
 0 O
 for O
-Spain O
+Spain B-LOC
 , O
 Ziyech B-PER
 waya O
@@ -23036,9 +23036,9 @@ Genk B-ORG
 0 O
 - O
 0 O
-Napoli O
-Slavia O
-Prague O
+Napoli B-ORG
+Slavia I-ORG
+Prague I-ORG
 0 O
 - O
 2 O
@@ -23054,14 +23054,14 @@ Barcelona I-ORG
 2 O
 - O
 1 O
-Inter B-ORG
-Milan I-ORG
-Lille I-ORG
+Inter O
+Milan O
+Lille O
 1 O
 - O
 2 O
-Chelsea B-ORG
-Valencia I-ORG
+Chelsea O
+Valencia O
 0 O
 - O
 3 O
@@ -23071,14 +23071,14 @@ Leipzig I-ORG
 0 O
 - O
 2 O
-Lyon O
-Zenit O
-St O
-Petersburg O
+Lyon B-ORG
+Zenit I-ORG
+St I-ORG
+Petersburg I-ORG
 3 O
 - O
 1 O
-Benfica B-ORG
+Benfica O
 Tuesday B-DATE
 Results O
 Real B-ORG
@@ -23098,12 +23098,12 @@ Galatasaray I-ORG
 0 O
 - O
 1 O
-Paris B-ORG
-Saint I-ORG
-- I-ORG
-Germain I-ORG
-Tottenham I-ORG
-Hotspur I-ORG
+Paris O
+Saint O
+- O
+Germain O
+Tottenham O
+Hotspur O
 2 O
 - O
 7 O
@@ -23140,22 +23140,22 @@ Madrid I-ORG
 Arsenal B-ORG
 record O
 signing O
-Nicolas O
-Pepe O
+Nicolas B-PER
+Pepe I-PER
 score O
 two O
 late O
 goals O
 for O
-Arsenal O
+Arsenal B-ORG
 comeback O
 3 O
 - O
 2 O
 win O
 over O
-Vitoria B-ORG
-Guimaraes I-ORG
+Vitoria O
+Guimaraes O
 for O
 Europa O
 League O
@@ -23182,7 +23182,7 @@ free O
 kicks O
 to O
 show O
-Arsenal O
+Arsenal B-ORG
 fans O
 say O
 im O
@@ -23212,15 +23212,15 @@ in O
 appearance O
 for O
 di O
-gunners O
+gunners B-ORG
 since O
 im O
 £ O
 72m O
-summer O
+summer B-DATE
 signing O
 from O
-Lyon B-ORG
+Lyon O
 . O
 
 Arsenal B-ORG
@@ -23236,21 +23236,21 @@ from O
 Marcus B-PER
 Edwards I-PER
 and O
-Duarte B-PER
-da I-PER
-Silva I-PER
+Duarte O
+da O
+Silva O
 bin O
 give O
-Victoria B-ORG
+Victoria O
 shock O
 lead O
 for O
-Emirates B-LOC
-Stadium I-LOC
+Emirates O
+Stadium O
 . O
 
-Gabriel B-PER
-Martinelli I-PER
+Gabriel O
+Martinelli O
 na O
 im O
 score O
@@ -23269,7 +23269,7 @@ cross O
 to O
 equalise O
 for O
-Arsenal O
+Arsenal B-ORG
 earlier O
 . O
 
@@ -23278,8 +23278,8 @@ di O
 game O
 Arsenal B-ORG
 coach O
-Unai O
-Emery O
+Unai B-PER
+Emery I-PER
 call O
 Pepe B-PER
 match O
@@ -23292,7 +23292,7 @@ perfect O
 """" O
 . O
 
-Emery O
+Emery B-PER
 say O
 : O
 """" O
@@ -23305,7 +23305,7 @@ to O
 adapt O
 . O
 
-Pepe B-PER
+Pepe O
 na O
 very O
 good O
@@ -23372,8 +23372,8 @@ three O
 goals O
 to O
 beat O
-Manchester B-ORG
-City I-ORG
+Manchester O
+City O
 3 O
 - O
 2 O
@@ -23388,7 +23388,7 @@ run O
 
 Goals O
 from O
-Norwich O
+Norwich B-ORG
 top O
 scorer O
 Teemu B-PER
@@ -23397,8 +23397,8 @@ Pukki I-PER
 Todd B-PER
 Cantwell I-PER
 and O
-Kenny B-PER
-McLean I-PER
+Kenny O
+McLean O
 na O
 im O
 help O
@@ -23415,8 +23415,8 @@ champions O
 
 Even O
 though O
-Sergio B-PER
-Aguero I-PER
+Sergio O
+Aguero O
 and O
 Rodri B-PER
 score O
@@ -23447,7 +23447,7 @@ di O
 game O
 , O
 11 O
-Norwich B-ORG
+Norwich O
 players O
 suffer O
 injury O
@@ -23455,8 +23455,8 @@ wey O
 make O
 dia O
 coach O
-Daniel B-PER
-Farke I-PER
+Daniel O
+Farke O
 use O
 some O
 new O
@@ -23480,10 +23480,10 @@ Premier O
 League O
 na O
 for O
-January B-DATE
-29 I-DATE
-, I-DATE
-2019 I-DATE
+January O
+29 O
+, O
+2019 O
 wen O
 Newcastle B-ORG
 bin O
@@ -23520,12 +23520,12 @@ gold O
 for O
 di O
 17th O
-IAAF B-ORG
+IAAF O
 World O
 Athletics O
 Championships O
 for O
-Doha O
+Doha B-LOC
 to O
 become O
 di O
@@ -23536,7 +23536,7 @@ win O
 100m O
 title O
 since O
-1995 O
+1995 B-DATE
 . O
 
 Di O
@@ -23572,7 +23572,7 @@ say O
 """" O
 My O
 son O
-Zyon B-PER
+Zyon O
 , O
 my O
 family O
@@ -23632,15 +23632,15 @@ start O
 """" O
 . O
 
-Fraser B-PER
-- I-PER
-Pryce I-PER
+Fraser O
+- O
+Pryce O
 , O
 wey O
 be O
-32 B-DATE
-- I-DATE
-years I-DATE
+32 O
+- O
+years O
 don O
 become O
 di O
@@ -23662,7 +23662,7 @@ born O
 her O
 pikin O
 , O
-Zyon O
+Zyon B-PER
 . O
 
 Dina B-PER
@@ -23687,23 +23687,23 @@ seconds I-DATE
 while O
 Ivoriy B-LOC
 Coast I-LOC
-Marie B-PER
-- I-PER
-Josee I-PER
-Ta I-PER
-Lou I-PER
+Marie O
+- O
+Josee O
+Ta O
+Lou O
 win O
 bronze O
 . O
 . O
 
 Former O
-Nigeria O
+Nigeria B-LOC
 coach O
 and O
 player O
-Samson O
-Siasia O
+Samson B-PER
+Siasia I-PER
 say O
 im O
 no O
@@ -23743,13 +23743,13 @@ Bayelsa O
 , O
 southern B-LOC
 Nigeria I-LOC
-ten O
-weeks O
-ago O
+ten B-DATE
+weeks I-DATE
+ago I-DATE
 . O
 
 But O
-Siasia O
+Siasia B-PER
 say O
 di O
 police O
@@ -23880,7 +23880,7 @@ wey O
 world O
 football O
 joinbodi O
-Fifa O
+Fifa B-ORG
 nack O
 ontop O
 im O
@@ -23904,14 +23904,14 @@ dem O
 don O
 kidnap O
 Mrs O
-Siasia B-PER
+Siasia O
 afta O
 gunmen O
 hold O
 am O
 for O
-12 O
-days O
+12 B-DATE
+days I-DATE
 , O
 before O
 dem O
@@ -23930,7 +23930,7 @@ over O
 50 O
 times O
 for O
-Nigeria O
+Nigeria B-LOC
 and O
 score O
 16 O
@@ -23953,7 +23953,7 @@ well O
 
 Although O
 di O
-Bayelsa O
+Bayelsa B-LOC
 sState O
 police O
 dem O
@@ -23967,9 +23967,9 @@ injury O
 , O
 di O
 former O
-Nantes O
+Nantes B-ORG
 and O
-Lokeren O
+Lokeren B-ORG
 striker O
 say O
 im O
@@ -23993,12 +23993,12 @@ tok O
 tok O
 pesin O
 for O
-Bayelsa O
-state O
+Bayelsa B-LOC
+state I-LOC
 , O
 SP O
-Butswat B-PER
-Asinim I-PER
+Butswat O
+Asinim O
 tell O
 BBC B-ORG
 Pidgin I-ORG
@@ -24017,8 +24017,8 @@ di O
 mata O
 to O
 rescue O
-Samson B-PER
-Siasia I-PER
+Samson O
+Siasia O
 mama O
 . O
 
@@ -24061,7 +24061,7 @@ family O
 member O
 bin O
 tell O
-BBC O
+BBC B-ORG
 But O
 SP O
 Butswat O
@@ -24105,7 +24105,7 @@ and O
 coach O
 , O
 """" O
-Siasia O
+Siasia B-PER
 tok O
 . O
 
@@ -24141,8 +24141,8 @@ now O
 
 """" O
 For O
-three B-DATE
-years I-DATE
+three O
+years O
 , O
 I O
 never O
@@ -24178,11 +24178,11 @@ As O
 former O
 international O
 , O
-Siasia O
+Siasia B-PER
 win O
 di O
-1994 B-DATE
-Africa O
+1994 O
+Africa B-LOC
 Cup O
 of O
 Nations O
@@ -24246,20 +24246,20 @@ im O
 win O
 silver O
 for O
-Beijing O
+Beijing B-LOC
 Games O
 in O
 2008 B-DATE
 and O
 bronze O
 for O
-2016 B-DATE
+2016 O
 Games O
 in O
-Rio B-LOC
+Rio O
 . O
 
-Nigeria O
+Nigeria B-LOC
 Super B-ORG
 Eagles I-ORG
 don O
@@ -24285,8 +24285,8 @@ Rohr I-PER
 put O
 players O
 like O
-Alex B-PER
-Iwobi I-PER
+Alex O
+Iwobi O
 , O
 William B-PER
 Troost I-PER
@@ -24296,8 +24296,8 @@ Ekong I-PER
 Samuel B-PER
 Chukwueze I-PER
 and O
-Wilfred O
-Ndidi O
+Wilfred B-PER
+Ndidi I-PER
 for O
 di O
 list O
@@ -24320,8 +24320,8 @@ Lille B-ORG
 of O
 France B-LOC
 striker O
-Victor O
-Osimhen O
+Victor B-PER
+Osimhen I-PER
 wey O
 don O
 score O
@@ -24347,8 +24347,8 @@ time O
 call O
 up O
 to O
-Peter O
-Olayinka O
+Peter B-PER
+Olayinka I-PER
 and O
 also O
 recall O
@@ -24378,10 +24378,10 @@ Singapore O
 National O
 Stadium O
 on O
-October O
-13 O
-, O
-2019 O
+October B-DATE
+13 I-DATE
+, I-DATE
+2019 I-DATE
 . O
 
 Goalkeepers O
@@ -24392,31 +24392,31 @@ Uzoho I-PER
 Omonia B-ORG
 FC I-ORG
 , O
-Cyprus O
+Cyprus B-LOC
 ) O
 ; O
 Ikechukwu B-PER
 Ezenwa I-PER
 ( O
-Heartland O
-FC O
+Heartland B-ORG
+FC I-ORG
 ) O
 ; O
 Emil B-PER
 Maduka I-PER
 Okoye I-PER
 ( O
-Fortuna B-ORG
-Dusseldorf I-ORG
+Fortuna O
+Dusseldorf O
 , O
-Germany O
+Germany B-LOC
 ) O
 . O
 
 Defenders O
 : O
-Olaoluwa B-PER
-Aina I-PER
+Olaoluwa O
+Aina O
 ( O
 Torino B-ORG
 FC I-ORG
@@ -24424,8 +24424,8 @@ FC I-ORG
 Italy B-LOC
 ) O
 ; O
-Abdullahi B-PER
-Shehu I-PER
+Abdullahi O
+Shehu O
 ( O
 Bursaspor O
 FC O
@@ -24433,11 +24433,11 @@ FC O
 Turkey B-LOC
 ) O
 ; O
-Chidozie O
-Awaziem O
+Chidozie B-PER
+Awaziem I-PER
 ( O
-CD B-ORG
-Leganes I-ORG
+CD O
+Leganes O
 , O
 Spain B-LOC
 ) O
@@ -24451,21 +24451,21 @@ FC I-ORG
 Italy B-LOC
 ) O
 ; O
-Kenneth O
-Omeruo O
+Kenneth B-PER
+Omeruo I-PER
 ( O
-CD B-ORG
-Leganes I-ORG
+CD O
+Leganes O
 , O
-Spain O
+Spain B-LOC
 ) O
 ; O
 Jamilu B-PER
 Collins I-PER
 ( O
-SC B-ORG
-Padeborn I-ORG
-07 I-ORG
+SC O
+Padeborn O
+07 O
 , O
 Germany B-LOC
 ) O
@@ -24473,11 +24473,11 @@ Germany B-LOC
 Oluwasemilogo B-PER
 Ajayi I-PER
 ( O
-West B-ORG
-Bromwich I-ORG
-Albion I-ORG
+West O
+Bromwich O
+Albion O
 , O
-England B-LOC
+England O
 ) O
 . O
 
@@ -24486,27 +24486,27 @@ Midfielders O
 Alexander B-PER
 Iwobi I-PER
 ( O
-Everton B-ORG
-FC I-ORG
+Everton O
+FC O
 , O
-England O
+England B-LOC
 ) O
 ; O
 Anderson B-PER
 Esiti I-PER
 ( O
-PAOK B-ORG
-Salonica I-ORG
+PAOK O
+Salonica O
 , O
 Greece B-LOC
 ) O
 ; O
-Oghenekaro O
-Etebo O
+Oghenekaro B-PER
+Etebo I-PER
 ( O
-Stoke O
-City O
-FC O
+Stoke B-ORG
+City I-ORG
+FC I-ORG
 , O
 England B-LOC
 ) O
@@ -24514,10 +24514,10 @@ England B-LOC
 Wilfred B-PER
 Ndidi I-PER
 ( O
-Leicester O
-City O
+Leicester B-ORG
+City I-ORG
 , O
-England O
+England B-LOC
 ) O
 ; O
 Joseph B-PER
@@ -24525,8 +24525,8 @@ Ayodele I-PER
 - I-PER
 Aribo I-PER
 ( O
-Glasgow B-ORG
-Rangers I-ORG
+Glasgow O
+Rangers O
 , O
 Scotland B-LOC
 ) O
@@ -24537,14 +24537,14 @@ Azeez I-PER
 Granada B-ORG
 FC I-ORG
 , O
-Spain O
+Spain B-LOC
 ) O
 . O
 
 Forwards O
 : O
-Victor O
-Osimhen O
+Victor B-PER
+Osimhen I-PER
 ( O
 Lille O
 OSC O
@@ -24558,7 +24558,7 @@ Simon I-PER
 FC B-ORG
 Nantes I-ORG
 , O
-France B-LOC
+France O
 ) O
 ; O
 Samuel B-PER
@@ -24591,21 +24591,21 @@ Belgium B-LOC
 Emmanuel B-PER
 Dennis I-PER
 ( O
-Club O
-Brugge O
+Club B-ORG
+Brugge I-ORG
 , O
 Belgium B-LOC
 ) O
 ; O
-Peter B-PER
-Olayinka I-PER
+Peter O
+Olayinka O
 ( O
 SK O
 Slavia O
 Prague O
 , O
-Czech O
-Republic O
+Czech B-LOC
+Republic I-LOC
 ) O
 . O
 
@@ -24634,9 +24634,9 @@ Andy B-PER
 Ruiz I-PER
 Jr I-PER
 . O
-Joshua B-PER
+Joshua O
 , O
-29 B-DATE
+29 O
 , O
 dey O
 target O
@@ -24663,7 +24663,7 @@ wey O
 go O
 happun O
 for O
-Diriyah B-LOC
+Diriyah O
 on O
 7 O
 December O
@@ -24742,7 +24742,7 @@ boxing O
 match O
 of O
 di O
-night B-DATE
+night O
 , O
 to O
 take O
@@ -24912,8 +24912,8 @@ bad O
 . O
 
 For O
-Saudi O
-Arabia O
+Saudi B-LOC
+Arabia I-LOC
 , O
 freedom O
 of O
@@ -24953,7 +24953,7 @@ Na O
 just O
 recently O
 for O
-2018 B-DATE
+2018 O
 , O
 dem O
 begin O
@@ -25051,8 +25051,8 @@ dey O
 reduce O
 . O
 
-Pushan O
-Dutt O
+Pushan B-PER
+Dutt I-PER
 , O
 professor O
 of O
@@ -25103,7 +25103,7 @@ kontri O
 afta O
 China B-LOC
 for O
-February O
+February B-DATE
 . O
 
 In O
@@ -25130,7 +25130,7 @@ to O
 June I-DATE
 . O
 
-Japan O
+Japan B-LOC
 sef O
 bin O
 get O
@@ -25228,8 +25228,8 @@ dia O
 coronavirus O
 commissioner O
 , O
-Domenico B-PER
-Arcuri I-PER
+Domenico O
+Arcuri O
 tok O
 , O
 """" O
@@ -25320,9 +25320,9 @@ hand O
 . O
 
 Di O
-International B-ORG
-Monetary I-ORG
-Fund I-ORG
+International O
+Monetary O
+Fund O
 ( O
 IMF B-ORG
 ) O
@@ -25352,9 +25352,9 @@ start O
 . O
 
 Di O
-International B-ORG
-Labour I-ORG
-Organization I-ORG
+International O
+Labour O
+Organization O
 ( O
 ILO B-ORG
 ) O
@@ -25480,10 +25480,10 @@ industries O
 don O
 open O
 plenti O
-last B-DATE
-week I-DATE
-of I-DATE
-April I-DATE
+last O
+week O
+of O
+April O
 even O
 as O
 di O
@@ -25499,7 +25499,7 @@ of I-DATE
 May I-DATE
 . O
 
-Bangladesh O
+Bangladesh B-LOC
 wey O
 be O
 di O
@@ -25522,21 +25522,21 @@ orders O
 from O
 Europe B-LOC
 and O
-South B-LOC
-America I-LOC
+South O
+America O
 . O
 
-Rubana B-PER
-Huq I-PER
+Rubana O
+Huq O
 , O
 president O
 of O
-Bangladesh O
-Garment O
-Manufacturers O
-and O
-Exporters O
-Association O
+Bangladesh B-ORG
+Garment I-ORG
+Manufacturers I-ORG
+and I-ORG
+Exporters I-ORG
+Association I-ORG
 say O
 two O
 million O
@@ -25560,7 +25560,7 @@ dey O
 work O
 . O
 
-Belgium B-LOC
+Belgium O
 dey O
 pressure O
 dia O
@@ -25620,7 +25620,7 @@ dey O
 test O
 am O
 for O
-America O
+America B-LOC
 . O
 
 But O
@@ -25670,7 +25670,7 @@ palava O
 'e O
 . O
 g O
-India O
+India B-LOC
 we O
 don O
 lose O
@@ -25744,7 +25744,7 @@ dia O
 schools O
 according O
 to O
-Unesco O
+Unesco B-ORG
 . O
 
 Na O
@@ -25794,7 +25794,7 @@ pipo O
 for O
 class O
 , O
-UK B-LOC
+UK O
 dey O
 only O
 let O
@@ -25991,7 +25991,7 @@ oda O
 plans O
 . O
 
-Milan B-LOC
+Milan O
 wia O
 coronavirus O
 finish O
@@ -26033,11 +26033,11 @@ April I-DATE
 . O
 
 For O
-Paris O
+Paris B-LOC
 , O
 Mayor O
-Anne B-PER
-Hildalgo I-PER
+Anne O
+Hildalgo O
 get O
 plan O
 of O
@@ -26068,8 +26068,8 @@ dia O
 national O
 lockdown O
 for O
-11 O
-May O
+11 B-DATE
+May I-DATE
 . O
 
 Religious O
@@ -26103,7 +26103,7 @@ Judaism O
 for O
 Easter B-DATE
 and O
-Passover O
+Passover B-DATE
 , O
 wey O
 be O
@@ -26229,7 +26229,7 @@ soon O
 . O
 
 For O
-Italy B-LOC
+Italy O
 , O
 goment O
 no O
@@ -26284,10 +26284,10 @@ Korea I-LOC
 Headlines O
 wey O
 say O
-Kim O
-Jong O
-- O
-un O
+Kim B-PER
+Jong I-PER
+- I-PER
+un I-PER
 dey O
 """" O
 seriously O
@@ -26334,11 +26334,11 @@ to O
 indicate O
 say O
 di O
-36 B-DATE
-- I-DATE
-year I-DATE
-- I-DATE
-old I-DATE
+36 O
+- O
+year O
+- O
+old O
 dey O
 """" O
 seriously O
@@ -26374,10 +26374,10 @@ am O
 later O
 . O
 
-Kim O
-Jong O
-- O
-un O
+Kim B-PER
+Jong I-PER
+- I-PER
+un I-PER
 recently O
 miss O
 di O
@@ -26387,8 +26387,8 @@ im O
 grandpapa O
 birthday O
 on O
-15 O
-April O
+15 B-DATE
+April I-DATE
 . O
 
 Dis O
@@ -26459,18 +26459,18 @@ to O
 prove O
 . O
 
-Kim B-PER
-Jong I-PER
-- I-PER
-un I-PER
+Kim O
+Jong O
+- O
+un O
 last O
 appear O
 for O
 state O
 media O
 on O
-12 B-DATE
-April I-DATE
+12 O
+April O
 as O
 im O
 """" O
@@ -26530,8 +26530,8 @@ for O
 one O
 missile O
 test O
-last B-DATE
-week I-DATE
+last O
+week O
 . O
 
 Im O
@@ -26575,10 +26575,10 @@ source O
 tell O
 tori O
 pipo O
-Daily O
-NK O
+Daily B-ORG
+NK I-ORG
 say O
-Kim O
+Kim B-PER
 dey O
 struggle O
 with O
@@ -26596,8 +26596,8 @@ afta O
 many O
 visits O
 to O
-Mount O
-Paektu O
+Mount B-LOC
+Paektu I-LOC
 """" O
 . O
 
@@ -26643,14 +26643,14 @@ from O
 intelligence O
 agencies O
 for O
-South O
-Korea O
+South B-LOC
+Korea I-LOC
 and O
 also O
 show O
 say O
 di O
-US O
+US B-LOC
 too O
 dey O
 monitor O
@@ -26664,7 +26664,7 @@ one O
 sensational O
 headline O
 for O
-US B-LOC
+US O
 media O
 comot O
 say O
@@ -26698,7 +26698,7 @@ intelligence O
 for O
 interview O
 with O
-Reuters O
+Reuters B-ORG
 news O
 agency O
 - O
@@ -26732,8 +26732,8 @@ surgery O
 Di O
 statement O
 from O
-South O
-Korea O
+South B-LOC
+Korea I-LOC
 and O
 China B-LOC
 merely O
@@ -26749,19 +26749,19 @@ sick O
 . O
 
 For O
-2014 B-DATE
+2014 O
 , O
-Kim B-PER
-Jong I-PER
-- I-PER
-un I-PER
+Kim O
+Jong O
+- O
+un O
 disappear O
 for O
 40 B-DATE
 days I-DATE
 from O
-early O
-September O
+early B-DATE
+September I-DATE
 - O
 wey O
 spark O
@@ -26866,7 +26866,7 @@ look O
 secure O
 . O
 
-Kim B-PER
+Kim O
 sister O
 , O
 Kim B-PER
@@ -26991,14 +26991,14 @@ darkness O
 . O
 
 Greater O
-Accra B-LOC
+Accra O
 lead O
 Covid O
 - O
 19 O
 infections O
 for O
-Ghana O
+Ghana B-LOC
 as O
 1 O
 , O
@@ -27084,9 +27084,9 @@ de O
 last O
 declaration O
 by O
-Ghana O
-Health O
-Service O
+Ghana B-ORG
+Health I-ORG
+Service I-ORG
 . O
 
 One O
@@ -27151,7 +27151,7 @@ and I-ORG
 di I-ORG
 Environment I-ORG
 ( O
-RIVM B-ORG
+RIVM O
 ) O
 say O
 make O
@@ -27210,7 +27210,7 @@ dey O
 in O
 place O
 for O
-Netherlands O
+Netherlands B-LOC
 since O
 23 B-DATE
 March I-DATE
@@ -27411,7 +27411,7 @@ coronavirus O
 """" O
 
 Di O
-RIVM B-ORG
+RIVM O
 also O
 issue O
 advice O
@@ -27537,8 +27537,8 @@ therapy O
 to O
 reopen O
 from O
-11 B-DATE
-May I-DATE
+11 O
+May O
 . O
 
 43 O
@@ -27601,7 +27601,7 @@ life O
 according O
 to O
 di O
-UN O
+UN B-ORG
 . O
 
 E O
@@ -27652,7 +27652,7 @@ im O
 story O
 wit O
 di O
-BBC O
+BBC B-ORG
 , O
 on O
 condition O
@@ -27923,7 +27923,7 @@ I O
 bin O
 sleep O
 with O
-Ira B-PER
+Ira O
 back O
 for O
 dat O
@@ -27956,8 +27956,8 @@ sex O
 bin O
 last O
 for O
-five O
-hours O
+five B-DATE
+hours I-DATE
 and O
 e O
 pain O
@@ -28003,10 +28003,10 @@ e O
 go O
 last O
 for O
-one O
-to O
-two O
-hours O
+one B-DATE
+to I-DATE
+two I-DATE
+hours I-DATE
 . O
 
 Pesin O
@@ -28085,7 +28085,7 @@ dey O
 fear O
 to O
 lose O
-Ira B-PER
+Ira O
 , O
 so O
 I O
@@ -28449,8 +28449,8 @@ from O
 Saturday B-DATE
 morning I-DATE
 till O
-Sunday O
-night O
+Sunday B-DATE
+night I-DATE
 . O
 
 I O
@@ -28492,7 +28492,7 @@ dey O
 in O
 touch O
 with O
-Ira B-PER
+Ira O
 or O
 even O
 to O
@@ -28918,8 +28918,8 @@ go O
 start O
 again O
 di O
-next O
-day O
+next B-DATE
+day I-DATE
 . O
 
 No O
@@ -28958,8 +28958,8 @@ work O
 , O
 12 B-DATE
 , O
-14 B-DATE
-hours I-DATE
+14 O
+hours O
 every O
 day O
 , O
@@ -28995,24 +28995,24 @@ Kryvuliak I-PER
 head O
 of O
 the O
-La O
-Strada O
-- O
-Ukraine O
-National O
-Hotline O
-Department O
+La B-ORG
+Strada I-ORG
+- I-ORG
+Ukraine I-ORG
+National I-ORG
+Hotline I-ORG
+Department I-ORG
 , O
 and O
-Olena O
-Kochemyrovska O
+Olena B-PER
+Kochemyrovska I-PER
 , O
 adviser O
 to O
 the O
-UN B-ORG
-Population I-ORG
-Fund I-ORG
+UN O
+Population O
+Fund O
 on O
 prevention O
 and O
@@ -29212,10 +29212,10 @@ but O
 later O
 , O
 like O
-three B-DATE
-to I-DATE
-four I-DATE
-years I-DATE
+three O
+to O
+four O
+years O
 of O
 do O
 relationship O
@@ -29236,7 +29236,7 @@ E O
 go O
 happun O
 wen O
-Ira B-PER
+Ira O
 find O
 am O
 and O
@@ -29275,7 +29275,7 @@ di O
 room O
 . O
 
-Ira O
+Ira B-PER
 think O
 say O
 we O
@@ -29333,10 +29333,10 @@ Na O
 so O
 dem O
 see O
-Indonesia B-LOC
+Indonesia O
 President O
-Joko O
-Widodo O
+Joko B-PER
+Widodo I-PER
 dey O
 follow O
 tori O
@@ -29375,7 +29375,7 @@ and O
 like O
 day O
 , O
-Sita B-PER
+Sita O
 turn O
 di O
 face O
@@ -29403,8 +29403,8 @@ am O
 but O
 then O
 for O
-17 B-DATE
-February I-DATE
+17 O
+February O
 morning O
 she O
 wake O
@@ -29432,10 +29432,10 @@ professor O
 of O
 dance O
 for O
-Jakarta O
-Institute O
-of O
-Arts O
+Jakarta B-ORG
+Institute I-ORG
+of I-ORG
+Arts I-ORG
 ( O
 JIA B-ORG
 ) O
@@ -29446,8 +29446,8 @@ dat O
 week O
 and O
 for O
-23 B-DATE
-February I-DATE
+23 O
+February O
 afta O
 one O
 dance O
@@ -29529,8 +29529,8 @@ equipment O
 
 Na O
 on O
-27 O
-February O
+27 B-DATE
+February I-DATE
 when O
 one O
 of O
@@ -29610,9 +29610,9 @@ di O
 test O
 . O
 
-Tyasutami B-PER
+Tyasutami O
 and O
-Darmaningsih O
+Darmaningsih B-PER
 bin O
 expect O
 say O
@@ -29625,7 +29625,7 @@ result O
 instead O
 of O
 Presido O
-Widod O
+Widod B-PER
 wey O
 broadcast O
 am O
@@ -29695,8 +29695,8 @@ Jarkata B-LOC
 law O
 sabi O
 pesin O
-Bivitri B-PER
-Susanti I-PER
+Bivitri O
+Susanti O
 tok O
 say O
 e O
@@ -29781,7 +29781,7 @@ bin O
 sick O
 . O
 
-Tyasutami B-PER
+Tyasutami O
 enta O
 public O
 trial O
@@ -29828,7 +29828,7 @@ and O
 900 O
 deaths O
 till O
-today O
+today B-DATE
 . O
 
 E O
@@ -29839,7 +29839,7 @@ who O
 cari O
 coronavirus O
 enta O
-Indonesia O
+Indonesia B-LOC
 but O
 di O
 first O
@@ -29857,7 +29857,7 @@ on O
 record O
 . O
 
-Tyasutami O
+Tyasutami B-PER
 tok O
 say O
 before O
@@ -29905,8 +29905,8 @@ clothes O
 . O
 
 For O
-3 B-DATE
-March I-DATE
+3 O
+March O
 , O
 Presido O
 Widodo B-PER
@@ -29939,13 +29939,13 @@ di O
 mata O
 when O
 di O
-Indonesia B-LOC
+Indonesia O
 health O
 minister O
 , O
-Terewan O
-Agus O
-Putranto O
+Terewan B-PER
+Agus I-PER
+Putranto I-PER
 cause O
 more O
 wahala O
@@ -29990,7 +29990,7 @@ no O
 gree O
 follow O
 di O
-BBC O
+BBC B-ORG
 tok O
 . O
 
@@ -30102,7 +30102,7 @@ stay O
 for O
 Vienna O
 , O
-Anindyajati O
+Anindyajati B-PER
 go O
 need O
 join O
@@ -30134,8 +30134,8 @@ For O
 March I-DATE
 , O
 afta O
-13 B-DATE
-days I-DATE
+13 O
+days O
 of O
 isolation O
 , O
@@ -30143,7 +30143,7 @@ dem O
 discharge O
 Anindyajati B-PER
 and O
-Tyasutami B-PER
+Tyasutami O
 but O
 dia O
 mama O
@@ -30239,19 +30239,19 @@ action O
 Additional O
 reporting O
 by O
-Resty B-PER
-Woro I-PER
-Yuniar I-PER
+Resty O
+Woro O
+Yuniar O
 of O
 BBC B-ORG
 Indonesia I-ORG
 
 Di O
-World B-ORG
-Health I-ORG
-Organization I-ORG
+World O
+Health O
+Organization O
 ( O
-WHO B-ORG
+WHO O
 ) O
 don O
 sama O
@@ -30267,7 +30267,7 @@ world O
 again O
 . O
 
-WHO O
+WHO B-ORG
 Emergencies O
 Director O
 , O
@@ -30309,7 +30309,7 @@ HIV O
 . O
 
 Oga O
-Ryan O
+Ryan B-PER
 say O
 even O
 if O
@@ -30354,7 +30354,7 @@ world O
 . O
 
 Dr O
-Ryan B-PER
+Ryan O
 say O
 HIV O
 neva O
@@ -30420,7 +30420,7 @@ treat O
 am O
 . O
 
-WHO B-ORG
+WHO O
 Director O
 - O
 General O
@@ -30491,7 +30491,7 @@ vixen O
 and O
 dancer O
 , O
-Kodak O
+Kodak B-PER
 . O
 
 Dem O
@@ -30530,7 +30530,7 @@ come O
 write O
 Rest O
 Up O
-Kodak B-PER
+Kodak O
 with O
 heartbreak O
 emoji O
@@ -30558,7 +30558,7 @@ plenty O
 pipo O
 mouth O
 for O
-Twitter B-ORG
+Twitter O
 as O
 many O
 of O
@@ -30588,13 +30588,13 @@ comment O
 
 One O
 of O
-Kodak B-PER
+Kodak O
 friend O
 wey O
 tok O
 to O
-BBC O
-Pidgin O
+BBC B-ORG
+Pidgin I-ORG
 but O
 no O
 want O
@@ -30675,9 +30675,9 @@ music O
 don O
 die O
 for O
-Paris O
+Paris B-LOC
 on O
-Thursday B-DATE
+Thursday O
 , O
 im O
 manager O
@@ -30716,7 +30716,7 @@ to O
 coronavirus O
 . O
 
-Allen B-PER
+Allen O
 na O
 di O
 drummer O
@@ -30726,19 +30726,19 @@ director O
 and O
 leader O
 of O
-Fela O
-Kuti O
+Fela B-PER
+Kuti I-PER
 famous O
 band O
-Africa O
-'70 O
+Africa B-ORG
+'70 I-ORG
 for O
 1960 B-DATE
 - I-DATE
 70s I-DATE
 . O
 
-Fela O
+Fela B-PER
 , O
 as O
 pipo O
@@ -30748,7 +30748,7 @@ sabi O
 am O
 die O
 for O
-1997 O
+1997 B-DATE
 . O
 
 He O
@@ -30769,8 +30769,8 @@ exist O
 
 UK B-LOC
 musician O
-Brian B-PER
-Eno I-PER
+Brian O
+Eno O
 wen O
 im O
 dey O
@@ -30794,7 +30794,7 @@ live O
 """" O
 . O
 
-Allen B-PER
+Allen O
 career O
 and O
 life O
@@ -30824,8 +30824,8 @@ wey O
 combine O
 tins O
 from O
-West O
-Africa O
+West B-LOC
+Africa I-LOC
 fuji O
 music O
 and O
@@ -30838,15 +30838,15 @@ and O
 jazz O
 . O
 
-Allen O
+Allen B-PER
 , O
 wey O
 dem O
 born O
 for O
-Lagos O
+Lagos B-LOC
 for O
-1940 O
+1940 B-DATE
 , O
 teach O
 imsef O
@@ -30883,7 +30883,7 @@ Allen B-PER
 bin O
 first O
 meet O
-Fela O
+Fela B-PER
 for O
 1964 B-DATE
 , O
@@ -30899,8 +30899,8 @@ during O
 di O
 era O
 of O
-Africa B-ORG
-'70 I-ORG
+Africa O
+'70 O
 band O
 , O
 including O
@@ -30935,9 +30935,9 @@ money O
 Allen B-PER
 migrate O
 to O
-London O
+London B-LOC
 for O
-1984 B-DATE
+1984 O
 , O
 and O
 later O
@@ -30975,11 +30975,11 @@ the O
 Queen O
 , O
 with O
-Damon O
-Albarn O
+Damon B-PER
+Albarn I-PER
 , O
-Paul B-PER
-Simenon I-PER
+Paul O
+Simenon O
 and O
 Simon B-PER
 Tong I-PER
@@ -31036,8 +31036,8 @@ John O
 Legend O
 and O
 Sir O
-Paul B-PER
-McCartney I-PER
+Paul O
+McCartney O
 , O
 go O
 dey O
@@ -31151,14 +31151,14 @@ na O
 David B-PER
 Beckham I-PER
 , O
-Kerry B-PER
-Washington I-PER
+Kerry O
+Washington O
 , O
 Priyanka O
 Chopra O
 Jonas O
 , O
-Idris O
+Idris B-PER
 and O
 Sabrina B-PER
 Elba I-PER
@@ -31179,8 +31179,8 @@ along O
 wit O
 di O
 group O
-Global B-ORG
-Citizen I-ORG
+Global O
+Citizen O
 , O
 don O
 already O
@@ -31189,14 +31189,14 @@ $ O
 35m O
 for O
 di O
-World B-ORG
-Health I-ORG
-Organisation I-ORG
+World O
+Health O
+Organisation O
 within O
 di O
-last O
-seven O
-days O
+last B-DATE
+seven I-DATE
+days I-DATE
 . O
 
 Di O
@@ -31262,21 +31262,21 @@ for O
 hospital O
 for O
 di O
-western B-LOC
-city I-LOC
-of I-LOC
-Mumbai I-LOC
+western O
+city O
+of O
+Mumbai O
 . O
 
 For O
-2018 O
+2018 B-DATE
 , O
 di O
 actor O
 bin O
 post O
 for O
-Twitter O
+Twitter B-ORG
 say O
 im O
 get O
@@ -31372,7 +31372,7 @@ support O
 am O
 . O
 
-Bollywood O
+Bollywood B-ORG
 stars O
 and O
 politicians O
@@ -31434,14 +31434,14 @@ work O
 with O
 am O
 for O
-Piku B-PER
+Piku O
 tweet O
 . O
 
 For O
 2013 B-DATE
 , O
-Khan O
+Khan B-PER
 win O
 India B-LOC
 National O
@@ -31499,7 +31499,7 @@ Na O
 so O
 Teni B-PER
 tok O
-Nigeria O
+Nigeria B-LOC
 musician O
 , O
 Teni B-PER
@@ -31512,7 +31512,7 @@ most O
 celebrated O
 afrobeats O
 artists O
-today O
+today B-DATE
 . O
 
 She O
@@ -31551,7 +31551,7 @@ For O
 her O
 interview O
 with O
-BBC B-ORG
+BBC O
 , O
 she O
 tok O
@@ -31645,7 +31645,7 @@ friend O
 for O
 Orlando B-LOC
 during O
-summer O
+summer B-DATE
 and O
 e O
 dey O
@@ -31675,8 +31675,8 @@ brown O
 ! O
 """" O
 
-Magistrate O
-court O
+Magistrate B-ORG
+court I-ORG
 for O
 Ogba B-LOC
 Lagos I-LOC
@@ -31684,9 +31684,9 @@ don O
 sentence O
 Nigerian O
 actress O
-Funke O
-Akindele O
-Bello O
+Funke B-PER
+Akindele I-PER
+Bello I-PER
 and O
 her O
 husband O
@@ -31699,8 +31699,8 @@ aka O
 JJC B-PER
 Skillz I-PER
 to O
-14 O
-days O
+14 B-DATE
+days I-DATE
 community O
 service O
 and O
@@ -31709,7 +31709,7 @@ afta O
 dem O
 break O
 di O
-Lagos O
+Lagos B-LOC
 state O
 goment O
 law O
@@ -31794,7 +31794,7 @@ per O
 day O
 , O
 excluding O
-Saturday O
+Saturday B-DATE
 and O
 Sunday O
 to O
@@ -31863,10 +31863,10 @@ cases O
 . O
 
 On O
-Monday O
+Monday B-DATE
 Actor O
-Idris O
-Elba O
+Idris B-PER
+Elba I-PER
 reveal O
 say O
 im O
@@ -31881,7 +31881,7 @@ Covid O
 Apart O
 from O
 oga O
-Idris B-PER
+Idris O
 , O
 oda O
 celebs O
@@ -31938,8 +31938,8 @@ im O
 and O
 im O
 wife O
-Rita B-PER
-Wilson I-PER
+Rita O
+Wilson O
 don O
 test O
 positive O
@@ -31974,7 +31974,7 @@ body O
 ache O
 . O
 
-Rita O
+Rita B-PER
 experience O
 some O
 chills O
@@ -31996,8 +31996,8 @@ actor O
 and O
 musician O
 , O
-Idris O
-Elba O
+Idris B-PER
+Elba I-PER
 tok O
 say O
 im O
@@ -32008,8 +32008,8 @@ COVID O
 - O
 19 O
 on O
-March O
-16 O
+March B-DATE
+16 I-DATE
 inside O
 one O
 video O
@@ -32017,7 +32017,7 @@ wey O
 im O
 post O
 for O
-Twitter O
+Twitter B-ORG
 . O
 
 Di O
@@ -32136,15 +32136,15 @@ of O
 Thrones' O
 actor O
 , O
-Kristofer B-PER
-Hivju I-PER
+Kristofer O
+Hivju O
 , O
 wey O
 play O
 di O
 role O
 of O
-Tormund O
+Tormund B-PER
 , O
 also O
 don O
@@ -32281,11 +32281,11 @@ otherwise O
 Kim O
 Kardashian O
 , O
-Naomi O
-Campbell O
+Naomi B-PER
+Campbell I-PER
 , O
-Arnold B-PER
-Schwarzenegger I-PER
+Arnold O
+Schwarzenegger O
 , O
 Taylor B-PER
 Swift I-PER
@@ -32293,7 +32293,7 @@ Swift I-PER
 Ariana O
 Grande O
 , O
-Lizzo B-PER
+Lizzo O
 and O
 oda O
 celebrities O
@@ -32355,7 +32355,7 @@ including O
 Ezequiel O
 Garay O
 ( O
-Valencia O
+Valencia B-ORG
 ) O
 
 Self O
@@ -32393,7 +32393,7 @@ world O
 . O
 
 For O
-Nigeria O
+Nigeria B-LOC
 , O
 more O
 states O
@@ -32481,8 +32481,8 @@ Live O
 wey O
 feature O
 Nigerian O
-DJ O
-Obi O
+DJ B-PER
+Obi I-PER
 . O
 
 She O
@@ -32490,8 +32490,8 @@ tok O
 say O
 , O
 """" O
-DJ B-PER
-Obi I-PER
+DJ O
+Obi O
 party O
 bin O
 get O
@@ -32597,8 +32597,8 @@ im O
 real O
 name O
 na O
-Olisa B-PER
-Ogbolu I-PER
+Olisa O
+Ogbolu O
 also O
 tok O
 how O
@@ -32621,7 +32621,7 @@ release O
 yet O
 . O
 
-LSMK B-PER
+LSMK O
 say O
 """" O
 I O
@@ -32683,7 +32683,7 @@ release O
 . O
 
 Even O
-Nepa B-ORG
+Nepa O
 follow O
 cooperate O
 , O
@@ -32818,10 +32818,10 @@ games O
 Di O
 appointment O
 wey O
-Actors O
-Guild O
-of O
-Nigeria O
+Actors B-ORG
+Guild I-ORG
+of I-ORG
+Nigeria I-ORG
 give O
 one O
 Senator O
@@ -32838,7 +32838,7 @@ sex O
 toy O
 shop O
 for O
-Abuja O
+Abuja B-LOC
 , O
 don O
 provoke O
@@ -32849,12 +32849,12 @@ actress O
 dem O
 . O
 
-41 B-DATE
-year I-DATE
-old I-DATE
+41 O
+year O
+old O
 Senator O
-Elisha B-PER
-Abbo I-PER
+Elisha O
+Abbo O
 turn O
 popular O
 in O
@@ -32896,10 +32896,10 @@ Rollas I-PER
 di O
 leader O
 of O
-Actors O
-Guild O
-of O
-Nigeria O
+Actors B-ORG
+Guild I-ORG
+of I-ORG
+Nigeria I-ORG
 as O
 di O
 Patron O
@@ -32951,7 +32951,7 @@ Henshaw I-PER
 tok O
 say O
 oga O
-Rollas O
+Rollas B-PER
 must O
 give O
 dem O
@@ -33087,7 +33087,7 @@ go O
 fit O
 prove O
 if O
-Henshaw B-PER
+Henshaw O
 be O
 member O
 of O
@@ -33102,8 +33102,8 @@ interview O
 wey O
 im O
 give O
-Plustv B-ORG
-Africa I-ORG
+Plustv O
+Africa O
 im O
 tok O
 dat O
@@ -33129,7 +33129,7 @@ our O
 joinbodi O
 , O
 """" O
-Rollas O
+Rollas B-PER
 tok O
 for O
 di O
@@ -33142,8 +33142,8 @@ some O
 oda O
 actresses O
 like O
-Hilda O
-Dakubo O
+Hilda B-PER
+Dakubo I-PER
 don O
 go O
 social O
@@ -33201,8 +33201,8 @@ association O
 . O
 
 """" O
-Emeka O
-Rollas O
+Emeka B-PER
+Rollas I-PER
 . O
 
 I O
@@ -33238,10 +33238,10 @@ be O
 patron O
 for O
 di O
-Actors B-ORG
-Guild I-ORG
-of I-ORG
-Nigeria I-ORG
+Actors O
+Guild O
+of O
+Nigeria O
 . O
 
 We O
@@ -33268,7 +33268,7 @@ Henshaw B-PER
 tok O
 put O
 for O
-Twitter B-ORG
+Twitter O
 be O
 that O
 . O
@@ -33323,7 +33323,7 @@ Last B-DATE
 year I-DATE
 , O
 senator O
-Abbo O
+Abbo B-PER
 enter O
 news O
 after O
@@ -33343,11 +33343,11 @@ sell O
 sex O
 toy O
 for O
-Abuja B-LOC
+Abuja O
 , O
 capital O
 of O
-Nigeria O
+Nigeria B-LOC
 . O
 
 Di O
@@ -33359,7 +33359,7 @@ over O
 di O
 matter O
 and O
-Henshaw B-PER
+Henshaw O
 tok O
 say O
 until O
@@ -33385,7 +33385,7 @@ for O
 Nigeria B-LOC
 . O
 
-Henshaw O
+Henshaw B-PER
 tell O
 BBC B-ORG
 pidgin I-ORG
@@ -33505,11 +33505,11 @@ ground O
 """" O
 she O
 tell O
-BBC B-ORG
-pidgin I-ORG
+BBC O
+pidgin O
 . O
 
-Rollas O
+Rollas B-PER
 say O
 im O
 no O
@@ -33577,7 +33577,7 @@ na O
 the O
 questions O
 wey O
-Rollas B-PER
+Rollas O
 ask O
 on O
 top O
@@ -33606,7 +33606,7 @@ throw O
 side O
 yab O
 for O
-Henshaw B-PER
+Henshaw O
 and O
 pipo O
 wey O
@@ -33639,7 +33639,7 @@ never O
 tok O
 say O
 Senator O
-Abbo O
+Abbo B-PER
 dey O
 guilty O
 so O
@@ -33696,15 +33696,15 @@ American O
 ogbonge O
 contry O
 musician O
-Kenny B-PER
-Rogers I-PER
+Kenny O
+Rogers O
 don O
 die O
 at O
 di O
-age O
-of O
-81 O
+age B-DATE
+of I-DATE
+81 I-DATE
 . O
 
 Pesin O
@@ -33726,7 +33726,7 @@ causes O
 """" O
 . O
 
-Rogers B-PER
+Rogers O
 win O
 three O
 Grammy O
@@ -33781,8 +33781,8 @@ hear O
 . O
 """" O
 
-Keny O
-Rogers O
+Keny B-PER
+Rogers I-PER
 bin O
 grow O
 up O
@@ -33823,7 +33823,7 @@ Nelson I-PER
 . O
 
 For O
-2013 O
+2013 B-DATE
 , O
 e O
 enta O
@@ -33856,8 +33856,8 @@ di O
 song O
 . O
 
-Kenny O
-Rogers O
+Kenny B-PER
+Rogers I-PER
 don O
 also O
 follow O
@@ -33871,7 +33871,7 @@ shows O
 wey O
 include O
 di O
-1982 O
+1982 B-DATE
 feem O
 Six O
 Pack O
@@ -33910,7 +33910,7 @@ seventh O
 edition O
 of O
 di O
-Africa B-LOC
+Africa O
 Magic O
 Viewers O
 Choice O
@@ -33944,7 +33944,7 @@ follow O
 up O
 to O
 di O
-1992 B-DATE
+1992 O
 classic O
 of O
 di O
@@ -34014,8 +34014,8 @@ neva O
 find O
 work O
 afta O
-five O
-years O
+five B-DATE
+years I-DATE
 wey O
 im O
 don O
@@ -34070,7 +34070,7 @@ of O
 Katwe B-LOC
 , O
 one O
-Disney B-ORG
+Disney O
 film O
 about O
 pikin O
@@ -34118,7 +34118,7 @@ wey O
 she O
 do O
 for O
-2016 O
+2016 B-DATE
 na O
 true O
 life O
@@ -34133,9 +34133,9 @@ play O
 chess O
 for O
 di O
-age B-DATE
-of I-DATE
-nine I-DATE
+age O
+of O
+nine O
 even O
 though O
 say O
@@ -34164,8 +34164,8 @@ Di O
 film O
 feature O
 actress O
-Lupita O
-Nyong'o O
+Lupita B-PER
+Nyong'o I-PER
 as O
 her O
 mama O
@@ -34187,7 +34187,7 @@ Gloria B-PER
 , O
 friend O
 of O
-Phiona O
+Phiona B-PER
 who O
 explained O
 how O
@@ -34218,8 +34218,8 @@ of O
 Queen O
 of O
 Katwe B-LOC
-Mira B-PER
-Nair I-PER
+Mira O
+Nair O
 bin O
 mobilize O
 pipo O
@@ -34283,11 +34283,11 @@ for O
 Los B-LOC
 Angeles I-LOC
 on O
-Sunday O
-night O
-, O
-January O
-26 O
+Sunday B-DATE
+night I-DATE
+, I-DATE
+January I-DATE
+26 I-DATE
 . O
 
 Dem O
@@ -34489,11 +34489,11 @@ wen O
 dem O
 nominate O
 di O
-Nigeria O
+Nigeria B-LOC
 Afrobreat O
 sensation O
-Burna O
-Boy O
+Burna B-PER
+Boy I-PER
 among O
 di O
 nominees O
@@ -34521,7 +34521,7 @@ African O
 Giant O
 album O
 of O
-Burna B-PER
+Burna O
 wey O
 im O
 real O
@@ -34552,8 +34552,8 @@ category O
 Angelique B-PER
 Kidjo I-PER
 from O
-Benin O
-Republic O
+Benin B-LOC
+Republic I-LOC
 na O
 anoda O
 pesin O
@@ -34583,8 +34583,8 @@ for O
 di O
 category O
 na O
-Altin B-PER
-Gün I-PER
+Altin O
+Gün O
 , O
 Bokanté B-PER
 & O
@@ -34594,8 +34594,8 @@ and O
 Nathalie O
 Joachim O
 With O
-Spektral B-ORG
-Quartet I-ORG
+Spektral O
+Quartet O
 . O
 
 Dis O
@@ -34632,14 +34632,14 @@ suspend O
 dia O
 chief O
 executive O
-Deborah B-PER
-Dugan I-PER
+Deborah O
+Dugan O
 with O
 immediate O
 effect O
 . O
 
-Dugan O
+Dugan B-PER
 respond O
 as O
 she O
@@ -34692,7 +34692,7 @@ oda O
 pipo O
 . O
 
-Dungan B-PER
+Dungan O
 still O
 confam O
 am O
@@ -34759,9 +34759,9 @@ dem O
 claim O
 ? O
 
-Lana B-PER
-Del I-PER
-Rey I-PER
+Lana O
+Del O
+Rey O
 na O
 one O
 of O
@@ -34819,8 +34819,8 @@ am O
 or O
 not O
 , O
-Harry B-PER
-Potter I-PER
+Harry O
+Potter O
 don O
 already O
 collect O
@@ -34847,12 +34847,12 @@ year I-DATE
 
 Dem O
 nominate O
-Imogen O
-Heap O
+Imogen B-PER
+Heap I-PER
 song O
 for O
-Harry O
-Potter O
+Harry B-PER
+Potter I-PER
 and O
 di O
 Cursed O
@@ -34909,12 +34909,12 @@ Becoming O
 . O
 
 Rapper O
-Nipsey O
-Hussle O
+Nipsey B-PER
+Hussle I-PER
 bin O
 die O
-last O
-year O
+last B-DATE
+year I-DATE
 afta O
 dem O
 shoot O
@@ -34926,10 +34926,10 @@ im O
 clothing O
 store O
 for O
-Los O
-Angeles O
+Los B-LOC
+Angeles I-LOC
 , O
-US O
+US B-LOC
 . O
 
 Di O
@@ -34963,10 +34963,10 @@ e O
 die O
 , O
 di O
-Los B-ORG
-Angeles I-ORG
-Police I-ORG
-Department I-ORG
+Los O
+Angeles O
+Police O
+Department O
 hail O
 am O
 as O
@@ -35003,8 +35003,8 @@ Khaled I-PER
 John B-PER
 Legend I-PER
 , O
-Meek O
-Mill O
+Meek B-PER
+Mill I-PER
 , O
 and O
 gospel O
@@ -35015,8 +35015,8 @@ Franklin I-PER
 
 E O
 pain O
-Elton B-PER
-John I-PER
+Elton O
+John O
 well O
 - O
 well O
@@ -35044,7 +35044,7 @@ pneumonia O
 Di O
 musician O
 , O
-72 O
+72 B-DATE
 , O
 lose O
 im O
@@ -35056,10 +35056,10 @@ of O
 im O
 set O
 for O
-Auckland's O
-Mount O
-Smart O
-Stadium O
+Auckland's B-LOC
+Mount I-LOC
+Smart I-LOC
+Stadium I-LOC
 for O
 Sunday O
 . O
@@ -35254,7 +35254,7 @@ fans O
 . O
 
 Sir O
-Elton B-PER
+Elton O
 bin O
 announce O
 for O
@@ -35312,7 +35312,7 @@ show O
 for O
 Auckland B-LOC
 on O
-Tuesday B-DATE
+Tuesday O
 and O
 Thursday B-DATE
 go O
@@ -35432,9 +35432,9 @@ day O
 """" O
 
 Di O
-25 O
-year O
-old O
+25 B-DATE
+year I-DATE
+old I-DATE
 pop O
 star O
 don O
@@ -35597,7 +35597,7 @@ Last O
 year O
 , O
 di O
-Biebs O
+Biebs B-PER
 take O
 break O
 from O
@@ -35614,14 +35614,14 @@ dem O
 but O
 announce O
 before O
-Christmas O
+Christmas B-DATE
 say O
 e O
 go O
 come O
 back O
-dis O
-year O
+dis B-DATE
+year I-DATE
 with O
 album O
 and O
@@ -35646,8 +35646,8 @@ bin O
 dey O
 out O
 for O
-a O
-week O
+a B-DATE
+week I-DATE
 on O
 top O
 mata O
@@ -35678,10 +35678,10 @@ for O
 inside O
 statement O
 on O
-Friday O
-, O
-17 O
-January O
+Friday B-DATE
+, I-DATE
+17 I-DATE
+January I-DATE
 . O
 
 Di O
@@ -35725,8 +35725,8 @@ feem O
 Kayode B-PER
 Kasum I-PER
 tell O
-BBC O
-Pidgin O
+BBC B-ORG
+Pidgin I-ORG
 say O
 , O
 """" O
@@ -35824,10 +35824,10 @@ wey O
 dem O
 release O
 for O
-25 B-DATE
-December I-DATE
-last I-DATE
-year I-DATE
+25 O
+December O
+last O
+year O
 , O
 don O
 comot O
@@ -35876,7 +35876,7 @@ time O
 afta O
 , O
 di O
-NFVCB O
+NFVCB B-ORG
 comot O
 with O
 statement O
@@ -35953,7 +35953,7 @@ bin O
 come O
 out O
 in O
-December O
+December B-DATE
 . O
 
 Joseph B-PER
@@ -35978,7 +35978,7 @@ for O
 di O
 age O
 of O
-78 B-DATE
+78 O
 . O
 
 Di O
@@ -35997,9 +35997,9 @@ director O
 of O
 choral O
 group O
-Ladysmith B-ORG
-Black I-ORG
-Mambazo I-ORG
+Ladysmith O
+Black O
+Mambazo O
 , O
 wey O
 don O
@@ -36027,7 +36027,7 @@ number O
 15 O
 for O
 di O
-UK B-LOC
+UK O
 charts O
 with O
 one O
@@ -36040,18 +36040,18 @@ Chariot O
 , O
 for O
 di O
-1995 O
+1995 B-DATE
 Rugby O
 World O
 Cup O
 . O
 
-Shabalala O
+Shabalala B-PER
 die O
 for O
 hospital O
 inside O
-Pretoria B-LOC
+Pretoria O
 , O
 South B-LOC
 Africa I-LOC
@@ -36069,10 +36069,10 @@ true O
 . O
 
 Mr O
-Shabalala B-PER
+Shabalala O
 die O
-dis O
-morning O
+dis B-DATE
+morning I-DATE
 , O
 """" O
 Xolani B-PER
@@ -36080,9 +36080,9 @@ Majozi I-PER
 tell O
 tori O
 pipo O
-South B-ORG
-Africa I-ORG
-Times I-ORG
+South O
+Africa O
+Times O
 . O
 
 """" O
@@ -36229,8 +36229,8 @@ complete O
 
 Dem O
 born O
-Joseph B-PER
-Shabalala I-PER
+Joseph O
+Shabalala O
 for O
 1941 B-DATE
 and O
@@ -36254,10 +36254,10 @@ near O
 di O
 town O
 of O
-Ladysmith B-LOC
+Ladysmith O
 inside O
-South B-LOC
-Africa I-LOC
+South O
+Africa O
 . O
 
 """" O
@@ -36286,13 +36286,13 @@ like O
 dat O
 , O
 """" O
-Shabalala O
+Shabalala B-PER
 tell O
 tori O
 pipo O
 , O
-The B-ORG
-Citizen I-ORG
+The O
+Citizen O
 for O
 2014 B-DATE
 . O
@@ -36307,9 +36307,9 @@ leave O
 school O
 for O
 di O
-age O
-of O
-12 O
+age B-DATE
+of I-DATE
+12 I-DATE
 wen O
 im O
 papa O
@@ -36388,9 +36388,9 @@ again O
 , O
 ' O
 """" O
-Shabalala O
+Shabalala B-PER
 tell O
-BBC B-ORG
+BBC O
 . O
 
 """" O
@@ -36416,7 +36416,7 @@ again' O
 . O
 """" O
 
-Shabalala O
+Shabalala B-PER
 come O
 finally O
 become O
@@ -36469,7 +36469,7 @@ Ladysmith B-ORG
 Black I-ORG
 Mambazo I-ORG
 - O
-Ladysmith B-LOC
+Ladysmith O
 represent O
 dia O
 hometown O
@@ -36514,7 +36514,7 @@ wey O
 dem O
 do O
 for O
-1970 O
+1970 B-DATE
 lead O
 to O
 one O
@@ -36593,7 +36593,7 @@ song O
 Di O
 band O
 join O
-Simon O
+Simon B-PER
 for O
 im O
 world O
@@ -36602,7 +36602,7 @@ and O
 in O
 return O
 , O
-Simon O
+Simon B-PER
 produce O
 dia O
 next O
@@ -36687,7 +36687,7 @@ moments O
 , O
 according O
 toXolani O
-Majozi O
+Majozi B-PER
 . O
 
 As O
@@ -36720,28 +36720,28 @@ giant O
 humble O
 man O
 , O
-Joseph B-PER
-Shabalala I-PER
+Joseph O
+Shabalala O
 , O
 don O
 pass O
 away O
-dis B-DATE
-morning I-DATE
+dis O
+morning O
 , O
 """" O
-South O
-Africa O
+South B-LOC
+Africa I-LOC
 Singer O
 , O
-Sipho B-PER
-"""" I-PER
-Hotstix I-PER
-"""" I-PER
-Mabuse I-PER
+Sipho O
+"""" O
+Hotstix O
+"""" O
+Mabuse O
 write O
 for O
-twitter B-ORG
+twitter O
 . O
 
 """" O
@@ -36798,7 +36798,7 @@ Council I-ORG
 Alhassan B-PER
 Kwalle I-PER
 tell O
-BBC B-ORG
+BBC O
 say O
 nude O
 video O
@@ -36828,7 +36828,7 @@ from O
 acting O
 . O
 
-Kwalle B-PER
+Kwalle O
 add O
 say O
 unlike O
@@ -36957,7 +36957,7 @@ anytime O
 
 Di O
 actress O
-Maryam B-PER
+Maryam O
 , O
 bin O
 release O
@@ -37024,7 +37024,7 @@ wey O
 go O
 viral O
 on O
-Friday O
+Friday B-DATE
 don O
 make O
 many O
@@ -37111,8 +37111,8 @@ inside O
 one O
 house O
 for O
-two B-DATE
-months I-DATE
+two O
+months O
 with O
 di O
 hope O
@@ -37161,7 +37161,7 @@ di O
 Ultimate O
 Couple O
 for O
-Nigeria B-LOC
+Nigeria O
 and O
 na O
 DSTV B-ORG
@@ -37204,8 +37204,8 @@ while O
 media O
 personality O
 , O
-Adesua B-PER
-Onyenokwe I-PER
+Adesua O
+Onyenokwe O
 go O
 be O
 di O
@@ -37217,11 +37217,11 @@ Aunty O
 Theresa B-PER
 Theresa I-PER
 na O
-23 B-DATE
-- I-DATE
-year I-DATE
-- I-DATE
-old I-DATE
+23 O
+- O
+year O
+- O
+old O
 eye O
 doctor O
 wey O
@@ -37266,8 +37266,8 @@ woman O
 anyhow O
 . O
 
-Jenny O
-Jenny O
+Jenny B-PER
+Jenny I-PER
 aka O
 'Jenny B-PER
 Koko' I-PER
@@ -37309,8 +37309,8 @@ for O
 her O
 . O
 
-Arnold B-PER
-Arnold I-PER
+Arnold O
+Arnold O
 na O
 singer O
 and O
@@ -37321,8 +37321,8 @@ see O
 tins O
 for O
 im O
-32 B-DATE
-years I-DATE
+32 O
+years O
 for O
 dis O
 earth O
@@ -37344,9 +37344,9 @@ be O
 former O
 refugee O
 from O
-Sierra B-LOC
-- I-LOC
-Leone I-LOC
+Sierra O
+- O
+Leone O
 wia O
 im O
 mama O
@@ -37365,7 +37365,7 @@ kontri O
 Nigeria B-LOC
 . O
 
-Arnold B-PER
+Arnold O
 believe O
 say O
 di O
@@ -37478,7 +37478,7 @@ from O
 Ondo B-LOC
 state I-LOC
 , O
-Nigeria O
+Nigeria B-LOC
 . O
 
 Only O
@@ -37498,11 +37498,11 @@ company O
 
 For O
 di O
-35 B-DATE
-- I-DATE
-year I-DATE
-- I-DATE
-old I-DATE
+35 O
+- O
+year O
+- O
+old O
 , O
 public O
 proposal O
@@ -37568,15 +37568,15 @@ bad O
 . O
 
 Dis O
-33 B-DATE
-- I-DATE
-year I-DATE
-- I-DATE
-old I-DATE
+33 O
+- O
+year O
+- O
+old O
 MC O
 from O
-Bayelsa O
-State O
+Bayelsa B-LOC
+State I-LOC
 say O
 di O
 only O
@@ -37604,7 +37604,7 @@ year O
 old O
 accountant O
 from O
-Brass B-LOC
+Brass O
 , O
 Bayelsa B-LOC
 State I-LOC
@@ -37654,11 +37654,11 @@ for O
 di O
 house O
 , O
-24 O
-- O
-year O
-- O
-old O
+24 B-DATE
+- I-DATE
+year I-DATE
+- I-DATE
+old I-DATE
 Iyke B-PER
 get O
 only O
@@ -37690,7 +37690,7 @@ im O
 voice O
 . O
 
-Jay O
+Jay B-PER
 believe O
 say O
 love O
@@ -37723,11 +37723,11 @@ France B-LOC
 , O
 near O
 di O
-Eiffel O
-tower O
+Eiffel B-LOC
+tower I-LOC
 . O
 
-Kachi O
+Kachi B-PER
 na O
 di O
 kain O
@@ -37792,15 +37792,15 @@ or O
 accessories O
 . O
 
-Nkechi O
+Nkechi B-PER
 just O
 comot O
 from O
 relationship O
 wey O
-last O
-10 O
-years O
+last B-DATE
+10 I-DATE
+years I-DATE
 and O
 now O
 she O
@@ -37812,7 +37812,7 @@ true O
 love O
 . O
 
-Louis O
+Louis B-PER
 na O
 modern O
 day O
@@ -37865,7 +37865,7 @@ im O
 life O
 . O
 
-Obichukwu O
+Obichukwu B-PER
 just O
 dey O
 find O
@@ -37904,18 +37904,18 @@ sexiest O
 man O
 alive' O
 for O
-2019 O
+2019 B-DATE
 , O
 ( O
 according O
 to O
-Peoples B-ORG
-Magazine I-ORG
+Peoples O
+Magazine O
 ) O
 show O
 face O
 for O
-Lagos O
+Lagos B-LOC
 . O
 
 Di O
@@ -37933,14 +37933,14 @@ di O
 # O
 THISDAYAwards2020 O
 on O
-Monday O
-evening O
+Monday B-DATE
+evening I-DATE
 as O
 part O
 of O
 di O
-25 B-DATE
-years I-DATE
+25 O
+years O
 celebration O
 of O
 operation O
@@ -37965,7 +37965,7 @@ wia O
 dem O
 dey O
 wen O
-America O
+America B-LOC
 singer O
 , O
 John B-PER
@@ -37999,14 +37999,14 @@ through O
 im O
 wife O
 , O
-Christine B-PER
-Teigen I-PER
+Christine O
+Teigen O
 say O
 di O
 singer O
 don O
 enta O
-Lagos B-LOC
+Lagos O
 Afta O
 di O
 plenti O
@@ -38042,12 +38042,12 @@ fans O
 Ghanaian O
 rapper O
 , O
-Sarkodie O
+Sarkodie B-PER
 and O
 Nigerian O
 singer O
-Yemi O
-Alade O
+Yemi B-PER
+Alade I-PER
 don O
 begin O
 dey O
@@ -38061,9 +38061,9 @@ fall O
 apart O
 between O
 dem O
-two B-DATE
-years I-DATE
-ago I-DATE
+two O
+years O
+ago O
 . O
 
 Yesterday B-DATE
@@ -38078,10 +38078,10 @@ follow O
 am O
 back O
 on O
-Twitter O
+Twitter B-ORG
 and O
 di O
-Nigeria B-LOC
+Nigeria O
 singer O
 agree O
 . O
@@ -38094,12 +38094,12 @@ bin O
 get O
 quanta O
 for O
-2017 O
+2017 B-DATE
 wen O
 Yemi B-PER
 Alade I-PER
 feature O
-Sarkodie O
+Sarkodie B-PER
 for O
 her O
 song O
@@ -38120,12 +38120,12 @@ di O
 song O
 . O
 
-Alade O
+Alade B-PER
 come O
 para O
 and O
 accuse O
-Sarkodie B-PER
+Sarkodie O
 say O
 im O
 dey O
@@ -38164,12 +38164,12 @@ di O
 new O
 song O
 wey O
-Alade B-PER
+Alade O
 and O
 Beninese O
 singer O
-Angélique B-PER
-Kidjo I-PER
+Angélique O
+Kidjo O
 sing O
 togeda O
 . O
@@ -38229,8 +38229,8 @@ Angeles I-LOC
 , O
 California O
 for O
-Sunday O
-evening O
+Sunday B-DATE
+evening I-DATE
 . O
 
 Di O
@@ -38573,8 +38573,8 @@ actress O
 singer O
 and O
 songwriter O
-Cynthia B-PER
-Erivo I-PER
+Cynthia O
+Erivo O
 don O
 collect O
 nomination O
@@ -38600,7 +38600,7 @@ Stockwell B-LOC
 , O
 London B-LOC
 for O
-1987 O
+1987 B-DATE
 . O
 
 Di O
@@ -38618,7 +38618,7 @@ original O
 song O
 for O
 di O
-2020 B-DATE
+2020 O
 Academy O
 Awards O
 . O
@@ -38633,10 +38633,10 @@ for O
 her O
 role O
 as O
-Harriet B-PER
-Tubman I-PER
+Harriet O
+Tubman O
 inside O
-Harriet B-PER
+Harriet O
 and O
 best O
 original O
@@ -38663,7 +38663,7 @@ Awards O
 . O
 
 If O
-Erivo O
+Erivo B-PER
 win O
 one O
 of O
@@ -38694,7 +38694,7 @@ win O
 Tony O
 Award O
 for O
-2016 O
+2016 B-DATE
 for O
 di O
 best O
@@ -38714,12 +38714,12 @@ Purple O
 castmates O
 . O
 
-Erivo O
+Erivo B-PER
 bin O
 win O
 Grammy O
 for O
-2017 B-DATE
+2017 O
 for O
 di O
 best O
@@ -38860,7 +38860,7 @@ last O
 album O
 Kamikaze O
 , O
-US O
+US B-LOC
 hip O
 - O
 hop O
@@ -38903,15 +38903,15 @@ wey O
 feature O
 artistes O
 like O
-Ed O
-Sheeran O
+Ed B-PER
+Sheeran I-PER
 , O
 Black O
 Thought O
 , O
-Q B-PER
-- I-PER
-Tip I-PER
+Q O
+- O
+Tip O
 and O
 odas O
 . O
@@ -38929,7 +38929,7 @@ follow O
 do O
 collabo O
 wit O
-Eminem B-PER
+Eminem O
 on O
 di O
 project O
@@ -38944,7 +38944,7 @@ first O
 sabi O
 Emimen B-PER
 for O
-1999 O
+1999 B-DATE
 wen O
 e O
 release O
@@ -38962,14 +38962,14 @@ worldwide O
 hit O
 . O
 
-Eminem B-PER
+Eminem O
 wey O
 im O
 real O
 name O
 na O
-Marshall O
-Mathers O
+Marshall B-PER
+Mathers I-PER
 , O
 also O
 release O
@@ -39001,8 +39001,8 @@ get O
 wit O
 anoda O
 musician O
-Nick B-PER
-Cannon I-PER
+Nick O
+Cannon O
 wia O
 di O
 two O
@@ -39023,14 +39023,14 @@ win O
 three O
 awards O
 including O
-Africa B-LOC
+Africa O
 Artiste O
 of O
 di O
 year O
 for O
 di O
-2020 B-DATE
+2020 O
 Soundcity B-ORG
 MVP O
 Awards O
@@ -39042,22 +39042,22 @@ wey O
 collect O
 award O
 na O
-Teni B-PER
+Teni O
 , O
 Tiwa B-PER
 savage I-PER
 , O
 Joeboi B-PER
 , O
-Naira B-PER
-Marley I-PER
+Naira O
+Marley O
 , O
-Rema O
+Rema B-PER
 , O
-Davido B-PER
+Davido O
 and O
-DJ O
-spinall O
+DJ B-PER
+spinall I-PER
 . O
 
 Di O
@@ -39066,8 +39066,8 @@ music O
 award O
 happun O
 on O
-Saturday O
-night O
+Saturday B-DATE
+night I-DATE
 for O
 Eko B-LOC
 Convention I-LOC
@@ -39076,8 +39076,8 @@ for O
 Lagos B-LOC
 . O
 
-Mr O
-Eazi O
+Mr B-PER
+Eazi I-PER
 , O
 Burna B-PER
 Boy I-PER
@@ -39092,13 +39092,13 @@ album O
 dey O
 totori O
 pipo O
-Tiwa O
-Savage O
+Tiwa B-PER
+Savage I-PER
 , O
 Diamond B-PER
 Platnumz I-PER
 , O
-BigTril B-PER
+BigTril O
 , O
 totori O
 dia O
@@ -39110,7 +39110,7 @@ dia O
 hit O
 songs O
 while O
-Davido B-PER
+Davido O
 close O
 di O
 show O
@@ -39119,8 +39119,8 @@ show O
 South O
 African O
 presenter O
-Bonang O
-Matheba O
+Bonang B-PER
+Matheba I-PER
 , O
 na O
 im O
@@ -39129,39 +39129,39 @@ di O
 event O
 . O
 
-FireBoy O
-DML O
+FireBoy B-PER
+DML I-PER
 ( O
-NG O
+NG B-LOC
 ) O
-JoeBoy B-PER
+JoeBoy O
 ( O
-NG O
+NG B-LOC
 ) O
 Marioo B-PER
 ( O
 TZ B-LOC
 ) O
-Rema B-PER
+Rema O
 ( O
-NG B-LOC
+NG O
 ) O
 - O
 Winner O
 Simmy B-PER
 ( O
-SA B-LOC
+SA O
 ) O
 Wendy B-PER
 Shay I-PER
 ( O
-GH O
+GH B-LOC
 ) O
 Blow O
 My O
 Mind O
 - O
-Davido B-PER
+Davido O
 [ O
 NG O
 ] O
@@ -39176,20 +39176,20 @@ NG B-LOC
 ] O
 Gugulethu O
 - O
-Prince B-PER
-Kaybee I-PER
+Prince O
+Kaybee O
 [ O
-SA B-LOC
+SA O
 ] O
 - O
 Winner O
-Jama O
+Jama B-PER
 - O
-DJ B-PER
-Mic I-PER
-Smith I-PER
+DJ O
+Mic O
+Smith O
 [ O
-GH B-LOC
+GH O
 ] O
 Killin O
 Dem O
@@ -39199,7 +39199,7 @@ Boy I-PER
 [ O
 NG B-LOC
 ] O
-Inama B-PER
+Inama O
 - O
 Diamond B-PER
 PlatNumz I-PER
@@ -39224,25 +39224,25 @@ Winner O
 Otile B-PER
 Brown I-PER
 [ O
-KE O
+KE B-LOC
 ] O
-Kizz O
-Daniel O
+Kizz B-PER
+Daniel I-PER
 [ O
 NG O
 ] O
-Teni B-PER
+Teni O
 [ O
 NG B-LOC
 ] O
-Mayorkun O
+Mayorkun B-PER
 [ O
 NG B-LOC
 ] O
-Rayvanny O
+Rayvanny B-PER
 [ O
 
-TZ B-LOC
+TZ O
 ] O
 Naira B-PER
 Marley I-PER
@@ -39253,26 +39253,26 @@ BlaqBonez B-PER
 ( O
 NG B-LOC
 ) O
-Falz O
+Falz B-PER
 ( O
 NG B-LOC
 ) O
 KHALIGRAPH B-PER
 Jones I-PER
 ( O
-KE B-LOC
+KE O
 ) O
 - O
 Winner O
 Kwesta B-PER
 ( O
-SA B-LOC
+SA O
 ) O
-Medikal O
+Medikal B-PER
 ( O
 GH B-LOC
 ) O
-Shinski O
+Shinski B-PER
 ( O
 KE B-LOC
 ) O
@@ -39280,21 +39280,21 @@ Sarkodie B-PER
 ( O
 GH B-LOC
 ) O
-Reminisce O
+Reminisce B-PER
 ( O
 NG B-LOC
 ) O
-Ricky B-PER
-Rick I-PER
-( O
-SA B-LOC
-) O
-Zakwe B-PER
+Ricky O
+Rick O
 ( O
 SA O
 ) O
-Black B-PER
-Motion I-PER
+Zakwe B-PER
+( O
+SA B-LOC
+) O
+Black O
+Motion O
 ( O
 SA B-LOC
 ) O
@@ -39311,7 +39311,7 @@ GH B-LOC
 Winner O
 Ethic O
 ( O
-KE O
+KE B-LOC
 ) O
 Show B-PER
 Dem I-PER
@@ -39325,28 +39325,28 @@ TG B-LOC
 ) O
 Cracker B-PER
 ( O
-NG B-LOC
+NG O
 ) O
-Prince B-PER
-Kaybee I-PER
+Prince O
+Kaybee O
 ( O
 SA B-LOC
 ) O
-Jay B-PER
-Synth I-PER
-( O
-NG O
-) O
-Kel O
-P O
+Jay O
+Synth O
 ( O
 NG B-LOC
 ) O
+Kel B-PER
+P I-PER
+( O
+NG O
+) O
 MOG B-PER
 ( O
-GH B-LOC
+GH O
 ) O
-Ozedikus O
+Ozedikus B-PER
 ( O
 NG B-LOC
 ) O
@@ -39361,22 +39361,22 @@ NG B-LOC
 ) O
 - O
 Winner O
-S2Kizzy O
+S2Kizzy B-PER
 ( O
 TZ B-LOC
 ) O
-Betty B-PER
-G I-PER
+Betty O
+G O
 ( O
 ETH B-LOC
 ) O
-Daphne B-PER
+Daphne O
 ( O
 CMR B-LOC
 ) O
-Nandy B-PER
+Nandy O
 ( O
-TZ O
+TZ B-LOC
 ) O
 Sho B-PER
 Madjozi I-PER
@@ -39389,20 +39389,20 @@ NG O
 ) O
 - O
 Winner O
-Tiwa O
-Savage O
+Tiwa B-PER
+Savage I-PER
 ( O
-NG B-LOC
+NG O
 ) O
-Yemi B-PER
-Alade I-PER
+Yemi O
+Alade O
 ( O
 NG B-LOC
 ) O
 Burna B-PER
 Boy I-PER
 ( O
-NG O
+NG B-LOC
 ) O
 - O
 Winner O
@@ -39410,27 +39410,27 @@ Davido B-PER
 ( O
 NG O
 ) O
-Diamond O
-Platnumz O
+Diamond B-PER
+Platnumz I-PER
 ( O
-TZ B-LOC
+TZ O
 ) O
 King O
 Promise O
 ( O
-GH O
+GH B-LOC
 ) O
 Sjava B-PER
 ( O
 SA O
 ) O
-Wizkid O
+Wizkid B-PER
 ( O
 NG B-LOC
 ) O
 Zlatan B-PER
 ( O
-NG B-LOC
+NG O
 ) O
 DJ B-PER
 Creme I-PER
@@ -39448,17 +39448,17 @@ NG B-LOC
 DJ B-PER
 Neptune I-PER
 ( O
-NG O
+NG B-LOC
 ) O
-DJ B-PER
-Spinall I-PER
+DJ O
+Spinall O
 ( O
 NG B-LOC
 ) O
 - O
 Winner O
-DJ B-PER
-Vyrusky I-PER
+DJ O
+Vyrusky O
 ( O
 GH B-LOC
 ) O
@@ -39466,14 +39466,14 @@ DJ B-PER
 Zinhle I-PER
 ( O
 
-SA O
-) O
-Cassper B-PER
-Nyovest I-PER
-[ O
 SA B-LOC
+) O
+Cassper O
+Nyovest O
+[ O
+SA O
 ] O
-Davido O
+Davido B-PER
 [ O
 NG B-LOC
 ] O
@@ -39489,17 +39489,17 @@ Daniel O
 [ O
 NG B-LOC
 ] O
-Mr O
-Eazi O
+Mr B-PER
+Eazi I-PER
 [ O
 NG O
 ] O
 Yemi B-PER
 Alade I-PER
 [ O
-NG O
+NG B-LOC
 ] O
-Wizkid O
+Wizkid B-PER
 [ O
 NG O
 ] O
@@ -39511,7 +39511,7 @@ NG B-LOC
 ) O
 Dumebi O
 - O
-Rema B-PER
+Rema O
 ( O
 NG B-LOC
 ) O
@@ -39522,42 +39522,42 @@ Life O
 Prince B-PER
 Kaybee I-PER
 ( O
-SA O
+SA B-LOC
 ) O
 Jealous O
 - O
 Fireboy B-PER
 DML I-PER
 ( O
-NG O
+NG B-LOC
 ) O
 - O
 Winner O
-Jama O
+Jama B-PER
 - O
-DJ O
-Mic O
-Smith O
+DJ B-PER
+Mic I-PER
+Smith I-PER
 ( O
-GH B-LOC
+GH O
 ) O
-Kainama O
+Kainama B-PER
 - O
-Harmonize B-PER
+Harmonize O
 ( O
-TZ O
+TZ B-LOC
 ) O
 Killin O
 Dem O
 - O
-BurnaBoy B-PER
+BurnaBoy O
 ( O
 NG B-LOC
 ) O
 Kpo O
 K3K3 O
 - O
-StoneBwoy B-PER
+StoneBwoy O
 ( O
 GH O
 ) O
@@ -39582,23 +39582,23 @@ NG B-LOC
 Able O
 God O
 - O
-Chinko O
-Ekun O
+Chinko B-PER
+Ekun I-PER
 ( O
-NG B-LOC
+NG O
 ) O
-Banomoya O
+Banomoya B-PER
 - O
 Prince B-PER
 Kaybee I-PER
 ( O
-SA O
+SA B-LOC
 ) O
 My O
 Level O
 - O
-Shatta B-PER
-Wale I-PER
+Shatta O
+Wale O
 ( O
 GH B-LOC
 ) O
@@ -39606,17 +39606,17 @@ On O
 The O
 Low O
 - O
-Burna O
-Boy O
+Burna B-PER
+Boy I-PER
 ( O
-NG B-LOC
+NG O
 ) O
 Soapy O
 - O
 Naira B-PER
 Marley I-PER
 ( O
-NG O
+NG B-LOC
 ) O
 - O
 Winner O
@@ -39624,7 +39624,7 @@ Tetema O
 - O
 Rayvanny O
 ( O
-TZ O
+TZ B-LOC
 ) O
 Zanku O
 ( O
@@ -39657,11 +39657,11 @@ by O
 Clarence B-PER
 Peters I-PER
 ( O
-NG O
+NG B-LOC
 ) O
 Jericho O
 - O
-Simi B-PER
+Simi O
 by O
 Adasa B-PER
 Cookey I-PER
@@ -39678,22 +39678,22 @@ Malope I-PER
 ( O
 SA B-LOC
 ) O
-Ohema B-PER
+Ohema O
 - O
 Kuami O
 Eugene O
 by O
 Rex B-PER
 ( O
-GH B-LOC
+GH O
 ) O
 Jealous O
 
 - O
-FireBoy O
-DML O
+FireBoy B-PER
+DML I-PER
 ( O
-NG B-LOC
+NG O
 ) O
 Killin O
 Dem O
@@ -39701,23 +39701,23 @@ Dem O
 Burna B-PER
 Boy I-PER
 ( O
-NG B-LOC
+NG O
 ) O
 - O
 Winner O
 Malwhede O
 - O
-King O
-Monada O
+King B-PER
+Monada I-PER
 ( O
-SA B-LOC
+SA O
 ) O
 Soapy O
 - O
 Naira B-PER
 Marley I-PER
 ( O
-NG O
+NG B-LOC
 ) O
 Tetema O
 - O
@@ -39730,13 +39730,13 @@ Zanku O
 Legwork O
 ) O
 - O
-Zlatan O
+Zlatan B-PER
 ( O
 NG B-LOC
 ) O
 Baby O
 - O
-JoeBoy O
+JoeBoy B-PER
 ( O
 NG B-LOC
 ) O
@@ -39744,13 +39744,13 @@ Case O
 - O
 Teni B-PER
 ( O
-NG B-LOC
+NG O
 ) O
 Dumebi O
 - O
-Rema B-PER
+Rema O
 ( O
-NG B-LOC
+NG O
 ) O
 Fetch O
 Your O
@@ -39761,7 +39761,7 @@ Kaybee O
 ( O
 SA B-LOC
 ) O
-Jama O
+Jama B-PER
 - O
 DJ B-PER
 Mic I-PER
@@ -39769,16 +39769,16 @@ Smith I-PER
 ( O
 GH B-LOC
 ) O
-Burna B-PER
-Boy I-PER
+Burna O
+Boy O
 ( O
-NG O
+NG B-LOC
 ) O
 - O
 Winner O
-Davido B-PER
+Davido O
 ( O
-NG O
+NG B-LOC
 ) O
 Diamond B-PER
 Platnumz I-PER
@@ -39792,7 +39792,7 @@ GH B-LOC
 ) O
 ShoMadjozi B-PER
 ( O
-SA B-LOC
+SA O
 ) O
 Tiwa B-PER
 Savage I-PER
@@ -39800,14 +39800,14 @@ Savage I-PER
 
 NG B-LOC
 ) O
-Wizkid B-PER
+Wizkid O
 ( O
-NG B-LOC
+NG O
 ) O
 Yemi B-PER
 Alade I-PER
 ( O
-NG O
+NG B-LOC
 ) O
 Excellence O
 in O
@@ -39821,8 +39821,8 @@ Excellence O
 in O
 Sports O
 : O
-Anthony B-PER
-Joshua I-PER
+Anthony O
+Joshua O
 - O
 Winner O
 Excellence O
@@ -39867,8 +39867,8 @@ Dis O
 na O
 di O
 golden O
-year O
-2020 O
+year B-DATE
+2020 I-DATE
 wey O
 pipo O
 ( O
@@ -39923,7 +39923,7 @@ Nigeria B-LOC
 , O
 Cameroon O
 , O
-Ghana B-LOC
+Ghana O
 and O
 di O
 rest O
@@ -39957,22 +39957,22 @@ we O
 go O
 start O
 with O
-Ghana O
+Ghana B-LOC
 wey O
 go O
 hold O
 dia O
 presidential O
 elections O
-dis B-DATE
-year I-DATE
+dis O
+year O
 . O
 
 President O
-Nana B-PER
-Akufo I-PER
-- I-PER
-Addo I-PER
+Nana O
+Akufo O
+- O
+Addo O
 dey O
 offer O
 imsef O
@@ -39993,8 +39993,8 @@ also O
 face O
 former O
 presido O
-John B-PER
-Mahama I-PER
+John O
+Mahama O
 wey O
 dey O
 also O
@@ -40016,7 +40016,7 @@ go O
 repeat O
 imsef O
 for O
-2020 B-DATE
+2020 O
 ? O
 
 America B-LOC
@@ -40029,8 +40029,8 @@ times O
 since O
 dem O
 elect O
-Donald B-PER
-Trump I-PER
+Donald O
+Trump O
 to O
 become O
 dia O
@@ -40049,7 +40049,7 @@ today O
 na O
 anoda O
 wan O
-tomorrow O
+tomorrow B-DATE
 . O
 
 Right O
@@ -40060,15 +40060,15 @@ recent O
 killing O
 of O
 di O
-Iran O
+Iran B-LOC
 General O
-Qasem O
-Soleimani O
+Qasem B-PER
+Soleimani I-PER
 wey O
 Pentagon B-LOC
 say O
 President O
-Trump B-PER
+Trump O
 order O
 dem O
 to O
@@ -40084,8 +40084,8 @@ world O
 . O
 
 But O
-Donald B-PER
-Trump I-PER
+Donald O
+Trump O
 don O
 already O
 start O
@@ -40125,7 +40125,7 @@ house O
 Eh O
 eh O
 , O
-US O
+US B-LOC
 also O
 dey O
 di O
@@ -40144,7 +40144,7 @@ phone O
 call O
 with O
 di O
-Ukraine O
+Ukraine B-LOC
 presido O
 wey O
 dem O
@@ -40177,8 +40177,8 @@ third O
 presido O
 of O
 di O
-United B-LOC
-States I-LOC
+United O
+States O
 wey O
 dem O
 go O
@@ -40194,8 +40194,8 @@ come O
 down O
 though O
 and O
-dis B-DATE
-year I-DATE
+dis O
+year O
 go O
 reveal O
 weda O
@@ -40213,14 +40213,14 @@ or O
 not O
 . O
 
-Somalia O
+Somalia B-LOC
 dey O
 hold O
 anoda O
 presidential O
 election O
-dis O
-year O
+dis B-DATE
+year I-DATE
 . O
 
 Wetin O
@@ -40311,13 +40311,13 @@ for O
 for O
 Africa O
 na O
-Burundi B-LOC
+Burundi O
 own O
 . O
 
 President O
-Pierre B-PER
-Nkurunziza I-PER
+Pierre O
+Nkurunziza O
 don O
 announce O
 say O
@@ -40338,9 +40338,9 @@ since O
 2005 B-DATE
 . O
 
-Every O
-four O
-years O
+Every B-DATE
+four I-DATE
+years I-DATE
 , O
 one O
 sports O
@@ -40365,7 +40365,7 @@ Olympics O
 go O
 start O
 for O
-July O
+July B-DATE
 and O
 end O
 for O
@@ -40388,7 +40388,7 @@ Championship O
 wia O
 kontries O
 for O
-Africa O
+Africa B-LOC
 go O
 play O
 dia O
@@ -40441,7 +40441,7 @@ go O
 also O
 happun O
 for O
-April B-DATE
+April O
 . O
 
 Di O
@@ -40467,8 +40467,8 @@ wan O
 comot O
 from O
 di O
-European O
-Union O
+European B-ORG
+Union I-ORG
 . O
 
 Di O
@@ -40515,8 +40515,8 @@ especially O
 after O
 Prime O
 Minister O
-Boris B-PER
-Johnson I-PER
+Boris O
+Johnson O
 win O
 during O
 di O
@@ -40532,15 +40532,15 @@ Justin B-PER
 Bieber I-PER
 , O
 to O
-Stonebwoy B-PER
+Stonebwoy O
 , O
 many O
 albums O
 dey O
 drop O
 hopefully O
-dis O
-year O
+dis B-DATE
+year I-DATE
 . O
 
 E O
@@ -40575,7 +40575,7 @@ im O
 first O
 album O
 since O
-2015 B-DATE
+2015 O
 . O
 
 Meanwhile O
@@ -40811,7 +40811,7 @@ pikin O
 Ifeanyi B-PER
 ) O
 , O
-Chioma O
+Chioma B-PER
 dis B-DATE
 year I-DATE
 afta O
@@ -40862,11 +40862,11 @@ wedding O
 for O
 Nigeria B-LOC
 since O
-Banky B-PER
-W I-PER
+Banky O
+W O
 and O
-Adesua B-PER
-Etomi I-PER
+Adesua O
+Etomi O
 . O
 
 Make O
@@ -40914,7 +40914,7 @@ Pepper O
 Dem O
 season O
 for O
-2019 B-DATE
+2019 O
 . O
 
 Now O
@@ -40929,7 +40929,7 @@ Economy O
 . O
 Ending O
 of O
-2019 B-DATE
+2019 O
 , O
 French O
 Presido O
@@ -40938,7 +40938,7 @@ Macron I-PER
 announce O
 say O
 for O
-2020 O
+2020 B-DATE
 , O
 dem O
 go O
@@ -40961,7 +40961,7 @@ dey O
 spend O
 . O
 
-Ghana O
+Ghana B-LOC
 follow O
 show O
 interest O
@@ -40969,9 +40969,9 @@ for O
 dis O
 mata O
 because O
-West B-LOC
-African I-LOC
-kontris I-LOC
+West O
+African O
+kontris O
 bin O
 don O
 dey O
@@ -40983,10 +40983,10 @@ helep O
 trade O
 . O
 
-Nigeria B-LOC
+Nigeria O
 Presido O
-Muhammadu O
-Buhari O
+Muhammadu B-PER
+Buhari I-PER
 announce O
 last B-DATE
 year I-DATE
@@ -41067,8 +41067,8 @@ policies O
 wey O
 suppose O
 begin O
-dis O
-year O
+dis B-DATE
+year I-DATE
 . O
 
 Wetin O
@@ -41076,7 +41076,7 @@ go O
 happun O
 with O
 di O
-Cameroon B-LOC
+Cameroon O
 crisis O
 and O
 di O
@@ -41104,8 +41104,8 @@ Last B-DATE
 year I-DATE
 , O
 Presido O
-Paul B-PER
-Biya I-PER
+Paul O
+Biya O
 hold O
 National O
 Dialogue O
@@ -41161,8 +41161,8 @@ di O
 world O
 for O
 dia O
-new B-DATE
-year I-DATE
+new O
+year O
 messages O
 don O
 promise O
@@ -41170,8 +41170,8 @@ wetin O
 dem O
 go O
 do O
-dis B-DATE
-year I-DATE
+dis O
+year O
 to O
 boost O
 dia O
@@ -41182,7 +41182,7 @@ For O
 Nigeria B-LOC
 , O
 President O
-Buhari O
+Buhari B-PER
 promise O
 to O
 complete O
@@ -41211,7 +41211,7 @@ reach O
 higher O
 heights O
 for O
-2020 O
+2020 B-DATE
 . O
 
 Cameroon B-LOC
@@ -41280,17 +41280,17 @@ promises O
 . O
 
 Di O
-National O
-Council O
-for O
-Art O
-and O
-Culture O
+National B-ORG
+Council I-ORG
+for I-ORG
+Art I-ORG
+and I-ORG
+Culture I-ORG
 ( O
-NCAC B-ORG
+NCAC O
 ) O
 on O
-Friday B-DATE
+Friday O
 defend O
 di O
 reason O
@@ -41298,10 +41298,10 @@ why O
 dem O
 close O
 di O
-Art O
-and O
-Craft O
-Village O
+Art B-LOC
+and I-LOC
+Craft I-LOC
+Village I-LOC
 ( O
 AVC B-LOC
 ) O
@@ -41319,17 +41319,17 @@ and O
 Craft O
 Village O
 inside O
-Abuja O
+Abuja B-LOC
 , O
 Nigeria B-LOC
 make O
 one O
-High O
-Court O
+High B-ORG
+Court I-ORG
 for O
 Abuja B-LOC
 on O
-Thursday O
+Thursday B-DATE
 send O
 di O
 Director O
@@ -41376,7 +41376,7 @@ drugs O
 . O
 
 Di O
-NCAC B-ORG
+NCAC O
 describe O
 di O
 Art B-LOC
@@ -41412,7 +41412,7 @@ threat O
 not O
 only O
 to O
-Abuja O
+Abuja B-LOC
 pipo O
 but O
 also O
@@ -41437,9 +41437,9 @@ village O
 wey O
 dey O
 opposite O
-Abuja B-ORG
-Sheraton I-ORG
-Hotels I-ORG
+Abuja O
+Sheraton O
+Hotels O
 ) O
 with O
 value O
@@ -41452,7 +41452,7 @@ billion O
 27 O
 , O
 03 O
-US O
+US B-LOC
 Dollars O
 ) O
 , O
@@ -41507,27 +41507,27 @@ be O
 parastatal O
 of O
 di O
-Federal B-ORG
-Ministry I-ORG
-of I-ORG
-Information I-ORG
-and I-ORG
-Culture I-ORG
+Federal O
+Ministry O
+of O
+Information O
+and O
+Culture O
 , O
 tell O
 tori O
 pipo O
 for O
-Abuja O
+Abuja B-LOC
 . O
 
-Runsewe B-PER
+Runsewe O
 dey O
 chill O
 for O
 prison O
 afta O
-Ummakalif O
+Ummakalif B-PER
 ask O
 court O
 to O
@@ -41599,7 +41599,7 @@ court O
 make O
 court O
 put O
-Runsewe B-PER
+Runsewe O
 for O
 prison O
 for O
@@ -41609,10 +41609,10 @@ wey O
 court O
 give O
 on O
-December B-DATE
-15 I-DATE
-, I-DATE
-2017 I-DATE
+December O
+15 O
+, O
+2017 O
 say O
 make O
 evribodi O
@@ -41649,7 +41649,7 @@ American O
 - O
 Senegalese O
 musician O
-Akon O
+Akon B-PER
 , O
 dey O
 one O
@@ -41659,10 +41659,10 @@ to O
 achieve O
 im O
 ogbonge O
-'Akon O
-City' O
+'Akon B-LOC
+City' I-LOC
 for O
-Senegal B-LOC
+Senegal O
 . O
 
 Di O
@@ -41700,14 +41700,14 @@ crypto O
 city O
 """" O
 for O
-2018 B-DATE
+2018 O
 for O
 di O
-Cannes B-LOC
+Cannes O
 Lion O
 Festival O
 for O
-France O
+France B-LOC
 , O
 wen O
 im O
@@ -41749,8 +41749,8 @@ Presido O
 of O
 Senegal B-LOC
 , O
-Macky B-PER
-Sall I-PER
+Macky O
+Sall O
 dash O
 am O
 . O
@@ -41792,8 +41792,8 @@ city O
 bin O
 start O
 since O
-March B-DATE
-2019 I-DATE
+March O
+2019 O
 and O
 di O
 second O
@@ -41805,7 +41805,7 @@ building O
 go O
 happun O
 for O
-2025 B-DATE
+2025 O
 . O
 
 Dis O
@@ -41823,7 +41823,7 @@ for O
 Africa O
 , O
 for O
-2007 B-DATE
+2007 O
 , O
 he O
 join O
@@ -41851,7 +41851,7 @@ for O
 West B-LOC
 Africa I-LOC
 and O
-America B-LOC
+America O
 . O
 
 Also O
@@ -41861,7 +41861,7 @@ form O
 di O
 Akon O
 Lighting O
-Africa B-LOC
+Africa O
 project O
 for O
 2014 B-DATE
@@ -41886,8 +41886,8 @@ far O
 Canadian O
 pop O
 singer O
-Justin O
-Bieber O
+Justin B-PER
+Bieber I-PER
 on O
 Thursday B-DATE
 reveal O
@@ -41905,9 +41905,9 @@ Di O
 singer O
 wey O
 be O
-25 O
-years O
-old O
+25 B-DATE
+years I-DATE
+old I-DATE
 write O
 for O
 Instagram O
@@ -42173,7 +42173,7 @@ she O
 advise O
 dem O
 for O
-Twitter O
+Twitter B-ORG
 on O
 Wednesday B-DATE
 . O
@@ -42203,8 +42203,8 @@ Marley I-PER
 Di O
 chief O
 magistrate O
-Tajudeen B-PER
-Elias I-PER
+Tajudeen O
+Elias O
 na O
 im O
 troway O
@@ -42216,8 +42216,8 @@ morning I-DATE
 
 Lawyer O
 to O
-Naira O
-marley O
+Naira B-PER
+marley I-PER
 , O
 Ayodeji B-PER
 Awokunlehin I-PER
@@ -42288,8 +42288,8 @@ Marley I-PER
 go O
 court O
 , O
-Ademola O
-Adelekan O
+Ademola B-PER
+Adelekan I-PER
 claim O
 say O
 di O
@@ -42323,7 +42323,7 @@ im O
 name O
 wen O
 Queen O
-Victoria O
+Victoria B-PER
 still O
 dey O
 throne O
@@ -42397,11 +42397,11 @@ den O
 go O
 home O
 on O
-Boxing B-DATE
-Day I-DATE
+Boxing O
+Day O
 to O
 give O
-Christmas B-DATE
+Christmas O
 boxes O
 to O
 dia O
@@ -42424,11 +42424,11 @@ Saint B-DATE
 Stephen's I-DATE
 Day I-DATE
 for O
-Ireland O
+Ireland B-LOC
 and O
 DI O
-Catalonia O
-region O
+Catalonia B-LOC
+region I-LOC
 of O
 Spain B-LOC
 . O
@@ -42439,7 +42439,7 @@ European O
 kontries O
 - O
 like O
-Hungary B-LOC
+Hungary O
 , O
 Germany B-LOC
 , O
@@ -42452,13 +42452,13 @@ Netherlands B-LOC
 Dem O
 dey O
 celebrate O
-Boxing B-DATE
-Day I-DATE
+Boxing O
+Day O
 as O
 a O
 second O
-Christmas O
-Day O
+Christmas B-DATE
+Day I-DATE
 . O
 
 Church O
@@ -42514,8 +42514,8 @@ dem O
 dey O
 open O
 on O
-Christmas O
-Day O
+Christmas B-DATE
+Day I-DATE
 . O
 
 Dem O
@@ -42537,7 +42537,7 @@ Boxing B-DATE
 Day I-DATE
 . O
 
-Today B-DATE
+Today O
 , O
 those O
 boxes O
@@ -42553,13 +42553,13 @@ na O
 di O
 day O
 afta O
-Christmas O
-Day O
+Christmas B-DATE
+Day I-DATE
 and O
 fall O
 on O
-26 O
-December O
+26 B-DATE
+December I-DATE
 . O
 
 Na O
@@ -42578,10 +42578,10 @@ world O
 . O
 . O
 Wen O
-26 O
-December O
+26 B-DATE
+December I-DATE
 na O
-Saturday B-DATE
+Saturday O
 , O
 di O
 Boxing B-DATE
@@ -42591,8 +42591,8 @@ go O
 move O
 to O
 di O
-next O
-Monday O
+next B-DATE
+Monday I-DATE
 . O
 
 If O
@@ -42634,7 +42634,7 @@ before O
 Na O
 for O
 di O
-1950s O
+1950s B-DATE
 , O
 tins O
 begin O
@@ -42645,26 +42645,26 @@ dey O
 play O
 sport O
 on O
-Christmas B-DATE
-Day I-DATE
+Christmas O
+Day O
 change O
 . O
 
 Di O
 final O
-Christmas O
-Day O
+Christmas B-DATE
+Day I-DATE
 football O
 match O
 happun O
 for O
-1957 O
+1957 B-DATE
 , O
 dis O
 wan O
 make O
-Boxing O
-Day O
+Boxing B-DATE
+Day I-DATE
 di O
 traditional O
 festive O
@@ -42721,8 +42721,8 @@ up O
 eating O
 throughout O
 di O
-next O
-week O
+next B-DATE
+week I-DATE
 . O
 
 Hmm O
@@ -42736,7 +42736,7 @@ already O
 . O
 
 Di O
-Marvel B-ORG
+Marvel O
 Cinematic O
 Universe O
 don O
@@ -42786,10 +42786,10 @@ wey O
 dem O
 do O
 for O
-New O
-York O
-Film O
-Academy O
+New B-ORG
+York I-ORG
+Film I-ORG
+Academy I-ORG
 . O
 
 Wen O
@@ -42966,8 +42966,8 @@ one O
 tori O
 pipo O
 , O
-Geeks O
-Worldwide O
+Geeks B-ORG
+Worldwide I-ORG
 suggest O
 say O
 Marvel O
@@ -42984,7 +42984,7 @@ dem O
 wan O
 feem O
 for O
-2020 B-DATE
+2020 O
 . O
 
 Dem O
@@ -43000,7 +43000,7 @@ inside O
 Marvel B-ORG
 Comics I-ORG
 na O
-Sera O
+Sera B-PER
 wey O
 dem O
 recently O
@@ -43048,7 +43048,7 @@ before O
 she O
 come O
 meet O
-Thor O
+Thor B-PER
 long O
 - O
 lost O
@@ -43068,7 +43068,7 @@ interest O
 
 Di O
 next O
-Thor B-PER
+Thor O
 film O
 , O
 Love O
@@ -43079,7 +43079,7 @@ go O
 come O
 out O
 for O
-2021 B-DATE
+2021 O
 according O
 to O
 di O
@@ -43092,7 +43092,7 @@ character O
 Valkyrie O
 - O
 wey O
-Thor O
+Thor B-PER
 make O
 di O
 King O
@@ -43158,8 +43158,8 @@ Pepper O
 Dem O
 season O
 housemate O
-Khafi B-PER
-Kareem I-PER
+Khafi O
+Kareem O
 don O
 engage O
 . O
@@ -43176,10 +43176,10 @@ on O
 Thursday O
 morning O
 , O
-December O
-26 O
+December B-DATE
+26 I-DATE
 , O
-2019 O
+2019 B-DATE
 . O
 
 """" O
@@ -43188,7 +43188,7 @@ I O
 get O
 di O
 best O
-Christmas B-DATE
+Christmas O
 gift O
 ever O
 """" O
@@ -43223,12 +43223,12 @@ her O
 engagement O
 . O
 
-Ekpata O
+Ekpata B-PER
 na O
 di O
 surname O
 of O
-Gedoni O
+Gedoni B-PER
 , O
 anoda O
 housemate O
@@ -43261,7 +43261,7 @@ express O
 im O
 love O
 for O
-Khafi O
+Khafi B-PER
 . O
 
 For O
@@ -43269,7 +43269,7 @@ inside O
 di O
 house O
 , O
-Khafi B-PER
+Khafi O
 close O
 relationship O
 wit O
@@ -43299,8 +43299,8 @@ Police I-ORG
 bin O
 also O
 tell O
-BBC B-ORG
-Pidgin I-ORG
+BBC O
+Pidgin O
 say O
 dem O
 bin O
@@ -43334,8 +43334,8 @@ BBNaija O
 . O
 
 Actress O
-Sharon O
-Stone O
+Sharon B-PER
+Stone I-PER
 say O
 dem O
 block O
@@ -43425,8 +43425,8 @@ app O
 editorial O
 director O
 , O
-Clare O
-O'Connor O
+Clare B-PER
+O'Connor I-PER
 , O
 say O
 """" O
@@ -43450,14 +43450,14 @@ honey O
 . O
 """" O
 
-Sharon O
-Stone O
+Sharon B-PER
+Stone I-PER
 bin O
 popular O
 for O
 1980s O
 and O
-1990s B-DATE
+1990s O
 for O
 feems O
 like O
@@ -43499,18 +43499,18 @@ to O
 tori O
 pesin O
 , O
-Phil B-PER
-Bronstein I-PER
+Phil O
+Bronstein O
 wey O
 she O
 divorce O
 for O
-2004 B-DATE
+2004 O
 . O
 
 Na O
 since O
-2014 B-DATE
+2014 O
 , O
 she O
 don O
@@ -43522,8 +43522,8 @@ available O
 for O
 dating O
 and O
-last O
-year O
+last B-DATE
+year I-DATE
 she O
 say O
 she O
@@ -43652,19 +43652,19 @@ for O
 dia O
 Olathe B-LOC
 , O
-Kansas O
+Kansas B-LOC
 , O
 home O
 on O
-December B-DATE
-20 I-DATE
+December O
+20 O
 , O
 according O
 to O
 di O
-Olathe O
-Police O
-Department O
+Olathe B-ORG
+Police I-ORG
+Department I-ORG
 . O
 
 Port B-LOC
@@ -43704,7 +43704,7 @@ minor O
 injuries O
 . O
 
-Fitzgerald B-PER
+Fitzgerald O
 dey O
 for O
 jail O
@@ -43721,10 +43721,10 @@ to O
 records O
 from O
 di O
-Johnson O
-County O
-Sheriff's O
-Office O
+Johnson B-ORG
+County I-ORG
+Sheriff's I-ORG
+Office I-ORG
 . O
 
 She O
@@ -43736,7 +43736,7 @@ di O
 first O
 time O
 on O
-Thursday B-DATE
+Thursday O
 afta O
 dem O
 charge O
@@ -43753,8 +43753,8 @@ mama O
 Tori O
 pipo O
 for O
-Daily O
-mail O
+Daily B-ORG
+mail I-ORG
 report O
 say O
 di O
@@ -43763,8 +43763,8 @@ year I-DATE
 old I-DATE
 actress O
 , O
-Mollie O
-Fitzgerald O
+Mollie B-PER
+Fitzgerald I-PER
 , O
 tell O
 court O
@@ -43849,7 +43849,7 @@ make O
 for O
 di O
 2011 B-DATE
-Marvel O
+Marvel B-ORG
 film O
 Captain O
 America O
@@ -43866,17 +43866,17 @@ say O
 she O
 dey O
 come O
-Nigeria B-LOC
+Nigeria O
 afta O
 American O
 airstrike O
 kill O
-Iran O
+Iran B-LOC
 Army O
 General O
 , O
-Qasem O
-Soleimani O
+Qasem B-PER
+Soleimani I-PER
 . O
 
 Di O
@@ -43983,8 +43983,8 @@ first O
 trip O
 to O
 Africa B-LOC
-last O
-year O
+last B-DATE
+year I-DATE
 . O
 
 However O
@@ -44042,7 +44042,7 @@ anytin O
 wan O
 happun O
 because O
-Iran O
+Iran B-LOC
 don O
 promise O
 """" O
@@ -44128,8 +44128,8 @@ Di O
 event O
 producer O
 , O
-Adeniji B-PER
-Daniel I-PER
+Adeniji O
+Daniel O
 tok O
 say O
 """" O
@@ -44168,8 +44168,8 @@ di O
 nominees O
 for O
 di O
-2020 O
-Soundcity B-ORG
+2020 B-DATE
+Soundcity O
 MVP O
 Awards O
 . O
@@ -44182,22 +44182,22 @@ NG B-LOC
 ) O
 Joeboy B-PER
 ( O
-NG O
+NG B-LOC
 ) O
-Marioo B-PER
+Marioo O
 ( O
 TZ O
 ) O
 Rema B-PER
 ( O
-NG B-LOC
+NG O
 ) O
 Simmy B-PER
 ( O
-SA O
+SA B-LOC
 ) O
-Wendy O
-Shay O
+Wendy B-PER
+Shay I-PER
 ( O
 GH B-LOC
 ) O
@@ -44219,16 +44219,16 @@ How O
 Star O
 Do O
 - O
-Skiibii O
+Skiibii B-PER
 x O
-Teni B-PER
+Teni O
 , O
 Falz B-PER
 x O
 DJ B-PER
 Neptune I-PER
 ( O
-NG O
+NG B-LOC
 ) O
 Gugulethu O
 - O
@@ -44242,18 +44242,18 @@ Brothers O
 x O
 Supto B-PER
 ( O
-SA B-LOC
+SA O
 ) O
-Jama O
+Jama B-PER
 - O
 DJ O
 Micsmith O
 x O
-Patoranking O
+Patoranking B-PER
 x O
 shaker B-PER
 ( O
-GH O
+GH B-LOC
 ) O
 Killin O
 Dem O
@@ -44267,11 +44267,11 @@ NG O
 ) O
 Inama B-PER
 - O
-Diamond O
-Platinumz O
+Diamond B-PER
+Platinumz I-PER
 x O
-Fally B-PER
-Ipupa I-PER
+Fally O
+Ipupa O
 ( O
 TZ B-LOC
 ) O
@@ -44283,14 +44283,14 @@ B I-PER
 
 CNG B-LOC
 ) O
-Joeboy O
+Joeboy B-PER
 ( O
 NG B-LOC
 ) O
 Kizz B-PER
 Daniel I-PER
 ( O
-NG O
+NG B-LOC
 ) O
 Mayorkun B-PER
 ( O
@@ -44299,11 +44299,11 @@ NG B-LOC
 Naira B-PER
 Marley I-PER
 ( O
-NG O
+NG B-LOC
 ) O
 Nandy B-PER
 ( O
-TZ O
+TZ B-LOC
 ) O
 Otile O
 Brown O
@@ -44312,19 +44312,19 @@ KE B-LOC
 ) O
 Teni B-PER
 ( O
-NG O
+NG B-LOC
 ) O
-Rayvanny B-PER
+Rayvanny O
 ( O
 TZ B-LOC
 ) O
 BEST O
 HIP O
 - O
-HOP O
-Blaqbonez O
+HOP B-PER
+Blaqbonez I-PER
 ( O
-NG B-LOC
+NG O
 ) O
 Falz B-PER
 ( O
@@ -44335,34 +44335,34 @@ Jones I-PER
 ( O
 KE B-LOC
 ) O
-Kwesta B-PER
+Kwesta O
 ( O
-SA O
+SA B-LOC
 ) O
-Medikal O
+Medikal B-PER
 ( O
 GH B-LOC
 ) O
-Nyashinski B-PER
+Nyashinski O
 ( O
-KE B-LOC
+KE O
 ) O
 Sarkodie B-PER
 ( O
 GH B-LOC
 ) O
-Reminisce B-PER
+Reminisce O
 ( O
-NG B-LOC
+NG O
 ) O
-Riky B-PER
-Rick I-PER
-( O
-SA B-LOC
-) O
-Zakwe O
+Riky O
+Rick O
 ( O
 SA O
+) O
+Zakwe B-PER
+( O
+SA B-LOC
 ) O
 BEST O
 DUO O
@@ -44371,7 +44371,7 @@ GROUP O
 Black B-PER
 Motion I-PER
 ( O
-SA O
+SA B-LOC
 ) O
 Blaq O
 Diamond O
@@ -44381,7 +44381,7 @@ SA B-LOC
 Dope B-PER
 Nation I-PER
 ( O
-GH O
+GH B-LOC
 ) O
 Ethic B-PER
 ( O
@@ -44394,7 +44394,7 @@ Camp I-PER
 ( O
 NG B-LOC
 ) O
-Toofan B-PER
+Toofan O
 ( O
 TG B-LOC
 ) O
@@ -44406,8 +44406,8 @@ Cracker B-PER
 ( O
 NG B-LOC
 ) O
-Prince B-PER
-Kaybee I-PER
+Prince O
+Kaybee O
 ( O
 SA B-LOC
 ) O
@@ -44419,7 +44419,7 @@ NG B-LOC
 Kel B-PER
 P I-PER
 ( O
-NG O
+NG B-LOC
 ) O
 MOG B-PER
 ( O
@@ -44429,7 +44429,7 @@ Ozedikus B-PER
 ( O
 NG O
 ) O
-Pheelz B-PER
+Pheelz O
 ( O
 NG B-LOC
 ) O
@@ -44437,19 +44437,19 @@ Rexxie B-PER
 ( O
 NG B-LOC
 ) O
-S2Kizzy B-PER
+S2Kizzy O
 ( O
 TZ B-LOC
 ) O
 BEST O
 DJ O
-DJ B-PER
-Crème I-PER
-de I-PER
-la I-PER
-Crème I-PER
+DJ O
+Crème O
+de O
+la O
+Crème O
 ( O
-KE O
+KE B-LOC
 ) O
 DJ B-PER
 Kaywise I-PER
@@ -44459,17 +44459,17 @@ NG B-LOC
 DJ B-PER
 Neptune I-PER
 ( O
-NG O
+NG B-LOC
 ) O
-DJ O
-Spinall O
+DJ B-PER
+Spinall I-PER
 ( O
 NG B-LOC
 ) O
-DJ O
-Vyrusky O
+DJ B-PER
+Vyrusky I-PER
 ( O
-GH B-LOC
+GH O
 ) O
 DJ B-PER
 Zinhle I-PER
@@ -44505,50 +44505,50 @@ YEAR O
 Tiwa B-PER
 Savage I-PER
 by O
-Meji B-PER
-Alabi I-PER
+Meji O
+Alabi O
 ( O
 NG O
 ) O
-Dangote B-PER
+Dangote O
 - O
 Burna B-PER
 Boy I-PER
 by O
-Clarence B-PER
-Peters I-PER
+Clarence O
+Peters O
 ( O
 NG B-LOC
 ) O
 Jericho O
 - O
-Simi O
+Simi B-PER
 x O
 Patoranking B-PER
 by O
-Adasa O
-Cookey O
+Adasa B-PER
+Cookey I-PER
 ( O
 NG B-LOC
 ) O
 Ngwa B-PER
 - O
-Bassey O
-Blk O
+Bassey B-PER
+Blk I-PER
 by O
-Tebogo O
-Malope O
+Tebogo B-PER
+Malope I-PER
 ( O
 SA B-LOC
 ) O
 Ohema B-PER
 - O
-Kuami B-PER
-Eugene I-PER
+Kuami O
+Eugene O
 by O
 Rex B-PER
 ( O
-GH B-LOC
+GH O
 ) O
 LISTENERS' O
 CHOICE O
@@ -44560,7 +44560,7 @@ NG B-LOC
 ) O
 Dumebi O
 - O
-Rema O
+Rema B-PER
 ( O
 NG O
 ) O
@@ -44573,7 +44573,7 @@ Kaybee O
 x O
 Msaki B-PER
 ( O
-SA O
+SA B-LOC
 ) O
 Jealous O
 - O
@@ -44583,14 +44583,14 @@ NG B-LOC
 ) O
 Jama O
 - O
-DJ O
-Micsmith O
+DJ B-PER
+Micsmith I-PER
 x O
-Patoranking O
+Patoranking B-PER
 x O
 Shaker B-PER
 ( O
-GH B-LOC
+GH O
 ) O
 
 Kainama B-PER
@@ -44617,14 +44617,14 @@ K3K3 O
 - O
 Stonebwoy B-PER
 x O
-Medikal O
+Medikal B-PER
 x O
-Kelvynboy B-PER
+Kelvynboy O
 x O
-Kwesi O
-Arthur O
+Kwesi B-PER
+Arthur I-PER
 x O
-Darkovibes B-PER
+Darkovibes O
 ( O
 GH B-LOC
 ) O
@@ -44632,9 +44632,9 @@ Oil O
 & O
 Gas O
 - O
-Olamide B-PER
+Olamide O
 ( O
-NG O
+NG B-LOC
 ) O
 VIEWERS' O
 CHOICE O
@@ -44645,7 +44645,7 @@ CHOICE O
 Tiwa B-PER
 Savage I-PER
 ( O
-NG B-LOC
+NG O
 ) O
 Able O
 God O
@@ -44658,18 +44658,18 @@ Kesh I-PER
 x O
 Zlatan B-PER
 ( O
-NG O
+NG B-LOC
 ) O
 Banomoya B-PER
 - O
-DJ B-PER
-Kaybee I-PER
+DJ O
+Kaybee O
 x O
-Busisiwa O
+Busisiwa B-PER
 x O
 TNS B-PER
 ( O
-SA B-LOC
+SA O
 ) O
 My O
 Level O
@@ -44683,55 +44683,55 @@ On O
 The O
 Low O
 - O
-Burna B-PER
-Boy I-PER
+Burna O
+Boy O
 ( O
 NG B-LOC
 ) O
 Soapy O
 - O
-Naira B-PER
-Marley I-PER
+Naira O
+Marley O
 ( O
-NG B-LOC
+NG O
 ) O
 
 Tetema O
 - O
-Rayvanny O
+Rayvanny B-PER
 x O
 Diamond B-PER
 Platnumz I-PER
 ( O
-TZ B-LOC
+TZ O
 ) O
 Zanku O
 ( O
 Legwork O
 ) O
 - O
-Zlatan B-PER
+Zlatan O
 ( O
 NG B-LOC
 ) O
 BEST O
 FEMALE O
 MVP O
-Betty B-PER
-G I-PER
+Betty O
+G O
 ( O
-ETH B-LOC
+ETH O
 ) O
-Daphne O
+Daphne B-PER
 ( O
-CMR B-LOC
+CMR O
 ) O
-Nandy O
+Nandy B-PER
 ( O
-TZ B-LOC
+TZ O
 ) O
-Sho B-PER
-Madjozi I-PER
+Sho O
+Madjozi O
 ( O
 SA B-LOC
 ) O
@@ -44739,13 +44739,13 @@ Teni B-PER
 ( O
 NG B-LOC
 ) O
-Tiwa O
-Savage O
+Tiwa B-PER
+Savage I-PER
 ( O
-NG B-LOC
+NG O
 ) O
-Yemi B-PER
-Alade I-PER
+Yemi O
+Alade O
 ( O
 NG B-LOC
 ) O
@@ -44758,27 +44758,27 @@ NG B-LOC
 ) O
 Davido B-PER
 ( O
-NG B-LOC
+NG O
 ) O
-Diamond O
-Platnumz O
+Diamond B-PER
+Platnumz I-PER
 ( O
-TZ O
+TZ B-LOC
 ) O
 King B-PER
 Promise I-PER
 ( O
-GH O
+GH B-LOC
 ) O
-Sjava O
+Sjava B-PER
 ( O
-SA O
+SA B-LOC
 ) O
 Wizkid B-PER
 ( O
 NG B-LOC
 ) O
-Zlatan O
+Zlatan B-PER
 ( O
 NG B-LOC
 ) O
@@ -44788,7 +44788,7 @@ DI O
 YEAR O
 Baby O
 - O
-Joeboy O
+Joeboy B-PER
 ( O
 NG B-LOC
 ) O
@@ -44816,16 +44816,16 @@ Msaki O
 ( O
 SA B-LOC
 ) O
-Jama O
+Jama B-PER
 - O
 DJ B-PER
 Micsmith I-PER
 x O
-Patoranking B-PER
+Patoranking O
 , O
-Shaker B-PER
+Shaker O
 ( O
-GH O
+GH B-LOC
 ) O
 Jealous O
 - O
@@ -44841,19 +44841,19 @@ Boy I-PER
 x O
 Zlatan B-PER
 ( O
-NG O
+NG B-LOC
 ) O
 Malwhede B-PER
 - O
-King B-PER
-Monada I-PER
+King O
+Monada O
 ( O
 SA B-LOC
 ) O
 Soapy O
 - O
-Naira B-PER
-Marley I-PER
+Naira O
+Marley O
 ( O
 NG B-LOC
 ) O
@@ -44873,7 +44873,7 @@ Legwork O
 - O
 Zlatan B-PER
 ( O
-NG B-LOC
+NG O
 ) O
 ARTISTE O
 OF O
@@ -44882,7 +44882,7 @@ YEAR O
 Burna B-PER
 Boy I-PER
 ( O
-NG B-LOC
+NG O
 ) O
 Davido B-PER
 ( O
@@ -44898,8 +44898,8 @@ Wale I-PER
 ( O
 GH B-LOC
 ) O
-Sho B-PER
-Madjozi I-PER
+Sho O
+Madjozi O
 ( O
 SA B-LOC
 ) O
@@ -44909,14 +44909,14 @@ Savage I-PER
 
 NG B-LOC
 ) O
-Wizkid B-PER
+Wizkid O
 ( O
 NG B-LOC
 ) O
-Yemi O
-Alade O
+Yemi B-PER
+Alade I-PER
 ( O
-NG O
+NG B-LOC
 ) O
 
 Organizers O
@@ -44933,14 +44933,14 @@ tok O
 sorry O
 afta O
 dia O
-every O
-year O
+every B-DATE
+year I-DATE
 show O
 wey O
 happun O
 on O
-Thursday B-DATE
-night I-DATE
+Thursday O
+night O
 . O
 
 Tori O
@@ -44986,7 +44986,7 @@ on O
 time O
 but O
 by O
-11pm O
+11pm B-DATE
 when O
 dem O
 bin O
@@ -45216,10 +45216,10 @@ don O
 feature O
 Davido B-PER
 , O
-Burna O
-Boy O
+Burna B-PER
+Boy I-PER
 , O
-Teni B-PER
+Teni O
 di O
 Entertainer O
 before O
@@ -45236,8 +45236,8 @@ crowd O
 
 British O
 actor O
-Idris O
-Elba O
+Idris B-PER
+Elba I-PER
 go O
 visit O
 Sierra B-LOC
@@ -45261,7 +45261,7 @@ Minister O
 Memunatu B-PER
 Pratt I-PER
 describe O
-Elba O
+Elba B-PER
 visit O
 as O
 """" O
@@ -45283,9 +45283,9 @@ actor O
 go O
 meet O
 President O
-Julius B-PER
-Maada I-PER
-Bio I-PER
+Julius O
+Maada O
+Bio O
 , O
 wey O
 go O
@@ -45323,7 +45323,7 @@ afta O
 im O
 act O
 for O
-HBO B-ORG
+HBO O
 series O
 The O
 Wire O
@@ -45408,7 +45408,7 @@ one O
 investment O
 conference O
 for O
-UK O
+UK B-LOC
 and O
 also O
 for O
@@ -45434,8 +45434,8 @@ for O
 di O
 tourist O
 destination O
-Bonthe O
-Island O
+Bonthe B-LOC
+Island I-LOC
 . O
 
 South B-LOC
@@ -45446,14 +45446,14 @@ Zozibini O
 Tunzi O
 na O
 di O
-2019 B-DATE
+2019 O
 Miss O
 Universe O
 winner O
 . O
 
 Ms O
-Tunzi B-PER
+Tunzi O
 come O
 out O
 top O
@@ -45481,14 +45481,14 @@ Miss O
 Puerto B-LOC
 Rico I-LOC
 , O
-Madison B-PER
-Anderson I-PER
+Madison O
+Anderson O
 and O
 Miss O
 Mexico B-LOC
 , O
-Sofia O
-Aragon O
+Sofia B-PER
+Aragon I-PER
 na O
 dem O
 come O
@@ -45503,7 +45503,7 @@ During O
 question O
 time O
 Ms O
-Tunzi B-PER
+Tunzi O
 say O
 di O
 most O
@@ -45603,13 +45603,13 @@ women O
 Ogbonge O
 American O
 musician O
-Cardi O
-B O
+Cardi B-PER
+B I-PER
 say O
 she O
 dey O
 miss O
-Nigeria O
+Nigeria B-LOC
 . O
 
 Di O
@@ -45624,7 +45624,7 @@ for O
 December O
 and O
 for O
-Ghana B-LOC
+Ghana O
 on O
 Sunday B-DATE
 8 I-DATE
@@ -45690,7 +45690,7 @@ weda O
 she O
 dey O
 miss O
-Ghana B-LOC
+Ghana O
 too O
 . O
 
@@ -45707,9 +45707,9 @@ Nigeria O
 don O
 cause O
 anoda O
-Ghana B-LOC
+Ghana O
 v O
-Naija B-LOC
+Naija O
 war O
 for O
 social O
@@ -45724,7 +45724,7 @@ dey O
 yab O
 demself O
 for O
-Twitter B-ORG
+Twitter O
 . O
 
 Dem O
@@ -45768,7 +45768,7 @@ for O
 Kensington B-LOC
 . O
 
-Tamara O
+Tamara B-PER
 na O
 di O
 daughter O
@@ -45820,7 +45820,7 @@ rings O
 earrings O
 , O
 one O
-Cartier O
+Cartier B-PER
 bangle O
 wey O
 reach O
@@ -45917,8 +45917,8 @@ come O
 dia O
 house O
 for O
-Palace B-LOC
-Green I-LOC
+Palace O
+Green O
 , O
 Kensington B-LOC
 , O
@@ -46074,8 +46074,8 @@ write O
 E O
 claim O
 say O
-Imo O
-state O
+Imo B-LOC
+state I-LOC
 goment O
 under O
 di O
@@ -46113,12 +46113,12 @@ top O
 artist O
 and O
 sign O
-M2 O
+M2 B-PER
 under O
-YOUNG O
-WEALTH O
-record O
-label O
+YOUNG B-ORG
+WEALTH I-ORG
+record I-ORG
+label I-ORG
 wey O
 be O
 Duncan B-PER
@@ -46315,7 +46315,7 @@ e O
 suppose O
 to O
 dey O
-Owerri O
+Owerri B-LOC
 , O
 Imo B-LOC
 state I-LOC
@@ -46327,7 +46327,7 @@ show O
 wey O
 dey O
 shelle O
-13th O
+13th B-DATE
 and O
 14th B-DATE
 of I-DATE
@@ -46365,8 +46365,8 @@ Time O
 album O
 dey O
 come O
-seven B-DATE
-years I-DATE
+seven O
+years O
 afta O
 im O
 first O
@@ -46406,15 +46406,15 @@ My O
 Mind O
 wey O
 feature O
-Chris B-PER
-Brown I-PER
+Chris O
+Brown O
 and O
 Risky B-PER
 wey O
 feature O
 Jamaican O
 artist O
-Popcaan O
+Popcaan B-PER
 . O
 
 Davido B-PER
@@ -46425,7 +46425,7 @@ artist O
 from O
 Popcaan B-PER
 , O
-Peruzzi O
+Peruzzi B-PER
 , O
 Zlatan B-PER
 , O
@@ -46434,23 +46434,23 @@ Marley I-PER
 , O
 WurlD B-PER
 , O
-Summer O
-Walker O
+Summer B-PER
+Walker I-PER
 , O
-Chris B-PER
-Brown I-PER
+Chris O
+Brown O
 , O
-Gunna O
+Gunna B-PER
 , O
-Dremo O
+Dremo B-PER
 , O
-A O
-Boogie O
-Wit O
-Da O
-Hoodie O
+A B-PER
+Boogie I-PER
+Wit I-PER
+Da I-PER
+Hoodie I-PER
 and O
-Yonda O
+Yonda B-PER
 . O
 
 Many O
@@ -46465,7 +46465,7 @@ take O
 tok O
 about O
 how O
-Marley B-PER
+Marley O
 sound O
 for O
 Twitter B-ORG
@@ -46493,7 +46493,7 @@ go O
 forget O
 ; O
 for O
-October O
+October B-DATE
 im O
 born O
 im O
@@ -46524,8 +46524,8 @@ Afro O
 beat O
 singer O
 , O
-Burna B-PER
-Boy I-PER
+Burna O
+Boy O
 do O
 togeda O
 with O
@@ -46537,8 +46537,8 @@ English O
 singer O
 - O
 songwriter O
-Ed B-PER
-Sheeran I-PER
+Ed O
+Sheeran O
 don O
 pass O
 one O
@@ -46547,8 +46547,8 @@ view O
 for O
 Youtube O
 under O
-24 B-DATE
-hours I-DATE
+24 O
+hours O
 . O
 
 Dem O
@@ -46568,14 +46568,14 @@ It O
 na O
 part O
 of O
-Stormzy B-PER
+Stormzy O
 album O
 wey O
 im O
 wan O
 release O
 for O
-December O
+December B-DATE
 . O
 
 Di O
@@ -46608,7 +46608,7 @@ for O
 YouTube O
 . O
 
-Stormzy O
+Stormzy B-PER
 na O
 award O
 - O
@@ -46711,8 +46711,8 @@ artists O
 like O
 Beyonce B-PER
 , O
-Jorja O
-Smith O
+Jorja B-PER
+Smith I-PER
 and O
 Lily B-PER
 Allen I-PER
@@ -46721,14 +46721,14 @@ Allen I-PER
 Ogbonge O
 Nigerian O
 and O
-Ghana O
+Ghana B-LOC
 musicians O
 dem O
 like O
 Burna B-PER
 Boy I-PER
 , O
-Stonebwoy O
+Stonebwoy B-PER
 , O
 2baba B-PER
 , O
@@ -46738,7 +46738,7 @@ awards O
 for O
 di O
 All O
-Africa B-LOC
+Africa O
 Music O
 Awards O
 , O
@@ -46746,7 +46746,7 @@ AFRIMA O
 . O
 
 All O
-Africa O
+Africa B-LOC
 Music O
 Awards O
 na O
@@ -46772,8 +46772,8 @@ for O
 Africa B-LOC
 . O
 
-Dis O
-year O
+Dis B-DATE
+year I-DATE
 na O
 di O
 6th O
@@ -46786,13 +46786,13 @@ e O
 happun O
 for O
 di O
-Convention B-LOC
-Centre I-LOC
-for I-LOC
-Eko I-LOC
-Hotel I-LOC
-& I-LOC
-Suites I-LOC
+Convention O
+Centre O
+for O
+Eko O
+Hotel O
+& O
+Suites O
 , O
 Victoria B-LOC
 Island I-LOC
@@ -46801,12 +46801,12 @@ Lagos B-LOC
 . O
 
 on O
-Saturday B-DATE
-night I-DATE
+Saturday O
+night O
 , O
-23 O
-, O
-November O
+23 B-DATE
+, I-DATE
+November I-DATE
 . O
 
 Grammy O
@@ -46816,8 +46816,8 @@ di O
 year O
 nominee O
 , O
-Burna B-PER
-Boy I-PER
+Burna O
+Boy O
 win O
 'Best O
 Male O
@@ -46839,16 +46839,16 @@ award O
 . O
 
 While O
-Tiwa B-PER
-Savage I-PER
+Tiwa O
+Savage O
 win O
 di O
 Best O
 Female O
 Artiste O
 for O
-Western O
-Africa O
+Western B-LOC
+Africa I-LOC
 with O
 her O
 song O
@@ -46936,8 +46936,8 @@ ogbonge O
 Congo O
 musician O
 , O
-Awilo B-PER
-Longomba I-PER
+Awilo O
+Longomba O
 receive O
 Special O
 Recognition O
@@ -47029,9 +47029,9 @@ di O
 event O
 happun O
 for O
-Lagos O
+Lagos B-LOC
 , O
-Nigeria O
+Nigeria B-LOC
 commercial O
 centre O
 and O
@@ -47059,8 +47059,8 @@ abroad O
 """" O
 . O
 
-Dis B-DATE
-year I-DATE
+Dis O
+year O
 ART O
 X O
 Prize O
@@ -47074,14 +47074,14 @@ fair O
 - O
 go O
 to O
-Etinosa B-PER
-Yvonne I-PER
+Etinosa O
+Yvonne O
 wey O
 be O
 documentary O
 photographer O
 for O
-Lagos O
+Lagos B-LOC
 , O
 Nigeria B-LOC
 and O
@@ -47143,10 +47143,10 @@ wey O
 dey O
 happen O
 for O
-north B-LOC
-- I-LOC
-east I-LOC
-Nigeria I-LOC
+north O
+- O
+east O
+Nigeria O
 . O
 
 See O
@@ -47192,7 +47192,7 @@ to O
 di O
 announcement O
 wey O
-Knowles O
+Knowles B-PER
 bin O
 post O
 for O
@@ -47200,15 +47200,15 @@ her O
 Instagram O
 account O
 on O
-Friday O
-November O
-1 O
+Friday B-DATE
+November I-DATE
+1 I-DATE
 , O
 na O
 early O
 dis O
-year O
-2019 O
+year B-DATE
+2019 I-DATE
 she O
 and O
 Ferguson B-PER
@@ -47297,11 +47297,11 @@ tori O
 """" O
 
 Di O
-33 B-DATE
-- I-DATE
-year I-DATE
-- I-DATE
-old I-DATE
+33 O
+- O
+year O
+- O
+old O
 singer O
 bin O
 marry O
@@ -47331,8 +47331,8 @@ journey O
 for O
 di O
 last O
-2 B-DATE
-years I-DATE
+2 O
+years O
 and O
 she O
 dey O
@@ -47425,8 +47425,8 @@ go O
 show O
 wetin O
 happun O
-300 O
-years O
+300 B-DATE
+years I-DATE
 before O
 di O
 tins O
@@ -47517,7 +47517,7 @@ straight O
 to O
 series O
 for O
-HBO B-ORG
+HBO O
 , O
 """" O
 na O
@@ -47535,11 +47535,11 @@ di O
 launch O
 event O
 for O
-Los O
-Angeles O
+Los B-LOC
+Angeles I-LOC
 for O
 di O
-HBO B-ORG
+HBO O
 Max O
 streaming O
 platform O
@@ -47571,8 +47571,8 @@ George O
 RR O
 Martin O
 , O
-Ryan O
-Condal O
+Ryan B-PER
+Condal I-PER
 and O
 Miguel B-PER
 Sapochnik I-PER
@@ -47590,8 +47590,8 @@ go O
 star O
 Oscar O
 nominee O
-Naomi B-PER
-Watts I-PER
+Naomi O
+Watts O
 . O
 
 On O
@@ -47622,11 +47622,11 @@ wey O
 suppose O
 launch O
 for O
-2022 O
+2022 B-DATE
 . O
 
 Di O
-2020 O
+2020 B-DATE
 Oscars O
 don O
 already O
@@ -47654,9 +47654,9 @@ and I-ORG
 Sciences I-ORG
 announce O
 on O
-Monday B-DATE
-4 I-DATE
-November I-DATE
+Monday O
+4 O
+November O
 say O
 dem O
 don O
@@ -47766,8 +47766,8 @@ long O
 and O
 na O
 only O
-11 B-DATE
-minutes I-DATE
+11 O
+minutes O
 inside O
 di O
 whole O
@@ -47807,8 +47807,8 @@ director O
 and O
 actress O
 , O
-Genevieve B-PER
-Nnaji I-PER
+Genevieve O
+Nnaji O
 tok O
 . O
 
@@ -47874,8 +47874,8 @@ former O
 British O
 colony O
 for O
-160 B-DATE
-years I-DATE
+160 O
+years O
 before O
 e O
 gain O
@@ -47919,7 +47919,7 @@ Visit O
 film O
 for O
 ( O
-2007 O
+2007 B-DATE
 ) O
 get O
 """" O
@@ -47965,16 +47965,16 @@ snub O
 Dem O
 bin O
 nominate O
-Francis B-PER
-Ford I-PER
-Coppola I-PER
+Francis O
+Ford O
+Coppola O
 mob O
 feem O
 for O
 11 O
 categories O
 for O
-1973 O
+1973 B-DATE
 Oscars O
 and O
 dem O
@@ -48018,8 +48018,8 @@ Academy O
 find O
 out O
 say O
-Nino B-PER
-Rota I-PER
+Nino O
+Rota O
 wey O
 compose O
 di O
@@ -48047,7 +48047,7 @@ Oscars O
 ceremony O
 for O
 ( O
-1929 O
+1929 B-DATE
 ) O
 get O
 controversy O
@@ -48055,8 +48055,8 @@ wey O
 involve O
 di O
 great O
-Charlie B-PER
-Chaplin I-PER
+Charlie O
+Chaplin O
 . O
 
 Im O
@@ -48156,7 +48156,7 @@ another O
 honorary O
 Oscar O
 for O
-1972 O
+1972 B-DATE
 . O
 
 Dis O
@@ -48183,7 +48183,7 @@ Americans O
 , O
 win O
 di O
-1969 B-DATE
+1969 O
 Oscar O
 for O
 best O
@@ -48224,15 +48224,15 @@ am O
 for O
 theatre O
 for O
-October B-DATE
-1967 I-DATE
+October O
+1967 O
 , O
 wey O
 disqualify O
 for O
 di O
-1968 O
-season O
+1968 B-DATE
+season I-DATE
 . O
 
 High O
@@ -48304,12 +48304,12 @@ one O
 1940 B-DATE
 movie O
 Di O
-Philadelphia O
+Philadelphia B-LOC
 Story O
 . O
 
-13 O
-hours O
+13 B-DATE
+hours I-DATE
 : O
 Di O
 Secret O
@@ -48317,15 +48317,15 @@ Soldiers O
 of O
 Benghazi O
 na O
-2016 B-DATE
+2016 O
 action O
 feem O
 wey O
 dey O
 based O
 on O
-2012 O
-US O
+2012 B-DATE
+US B-LOC
 Consulate O
 attack O
 for O
@@ -48355,9 +48355,9 @@ mixing O
 Tori O
 be O
 say O
-Greg B-PER
-P I-PER
-Russell I-PER
+Greg O
+P O
+Russell O
 , O
 one O
 of O
@@ -48406,8 +48406,8 @@ worse O
 Hours I-DATE
 lost O
 to O
-Mel O
-Gibson's O
+Mel B-PER
+Gibson's I-PER
 World O
 War O
 Two O
@@ -48426,7 +48426,7 @@ na O
 Uruguay B-LOC
 submission O
 for O
-1993 B-DATE
+1993 O
 Oscars O
 , O
 wey O
@@ -48497,8 +48497,8 @@ man O
 
 Na O
 wetin O
-Kevin O
-Hart O
+Kevin B-PER
+Hart I-PER
 post O
 video O
 for O
@@ -48518,7 +48518,7 @@ happun O
 to O
 am O
 for O
-September O
+September B-DATE
 . O
 
 Di O
@@ -48528,8 +48528,8 @@ comedian O
 for O
 im O
 nearly O
-two B-DATE
-minutes I-DATE
+two O
+minutes O
 video O
 say O
 """" O
@@ -48577,7 +48577,7 @@ control O
 """" O
 na O
 wetin O
-Hart B-PER
+Hart O
 tok O
 Hart O
 wey O
@@ -48604,7 +48604,7 @@ September B-DATE
 for O
 Calabasas O
 , O
-California O
+California B-LOC
 . O
 
 Na O
@@ -48620,7 +48620,7 @@ injury O
 
 Di O
 video O
-Hart B-PER
+Hart O
 post O
 for O
 Instagram O
@@ -48732,8 +48732,8 @@ Grammy O
 - O
 winning O
 rapper O
-Cardi B-PER
-B I-PER
+Cardi O
+B O
 dey O
 drop O
 de O
@@ -48759,8 +48759,8 @@ dey O
 push O
 say O
 make O
-Cardi B-PER
-B I-PER
+Cardi O
+B O
 den O
 dema O
 favourite O
@@ -48769,7 +48769,7 @@ like O
 Shatta B-PER
 Wale I-PER
 , O
-Sarkodie B-PER
+Sarkodie O
 for O
 tear O
 collabo O
@@ -48810,7 +48810,7 @@ come O
 visit O
 Nigeria B-LOC
 den O
-Ghana B-LOC
+Ghana O
 for O
 performance O
 for O
@@ -48829,11 +48829,11 @@ Cardi B-PER
 B I-PER
 go O
 visit O
-Nigeria O
+Nigeria B-LOC
 first O
 on O
-December O
-7 O
+December B-DATE
+7 I-DATE
 den O
 come O
 Ghana B-LOC
@@ -48866,7 +48866,7 @@ for O
 many O
 Nigerians O
 on O
-Wednesday B-DATE
+Wednesday O
 ontop O
 debate O
 weda O
@@ -48879,7 +48879,7 @@ Dem O
 dey O
 argue O
 for O
-Twitter B-ORG
+Twitter O
 say O
 Oga O
 Edochie O
@@ -48908,14 +48908,14 @@ di O
 ogbonge O
 actor O
 tell O
-BBC B-ORG
-Pidgin I-ORG
+BBC O
+Pidgin O
 say O
 as O
 di O
-72 B-DATE
-year I-DATE
-old I-DATE
+72 O
+year O
+old O
 actor O
 dey O
 grow O
@@ -48924,7 +48924,7 @@ old O
 writers O
 for O
 di O
-Nollywood B-ORG
+Nollywood O
 movie O
 industry O
 no O
@@ -48952,7 +48952,7 @@ pass O
 . O
 
 Oga O
-Edochie O
+Edochie B-PER
 don O
 act O
 ova O
@@ -48964,7 +48964,7 @@ di O
 movie O
 industry O
 for O
-Nigeria B-LOC
+Nigeria O
 aka O
 Nollywood B-ORG
 , O
@@ -48998,8 +48998,8 @@ Lionheart O
 
 Na O
 one O
-Lotanna O
-Odunze O
+Lotanna B-PER
+Odunze I-PER
 , O
 wey O
 many O
@@ -49010,8 +49010,8 @@ Sugabelly B-PER
 bin O
 call O
 out O
-Pete O
-Edochie O
+Pete B-PER
+Edochie I-PER
 for O
 her O
 Tweet O
@@ -49036,8 +49036,8 @@ tok O
 for O
 Twitter B-ORG
 about O
-Pete O
-Edochie O
+Pete B-PER
+Edochie I-PER
 start O
 im O
 career O
@@ -49048,12 +49048,12 @@ junior O
 programmes O
 assistant O
 for O
-1967 B-DATE
+1967 O
 at O
 di O
-age O
-of O
-20 O
+age B-DATE
+of I-DATE
+20 I-DATE
 before O
 im O
 move O
@@ -49075,7 +49075,7 @@ di O
 movie O
 industry O
 for O
-Nigeria B-LOC
+Nigeria O
 afta O
 im O
 play O
@@ -49085,7 +49085,7 @@ role O
 of O
 Okonkwo B-PER
 for O
-NTA O
+NTA B-ORG
 adaptation O
 of O
 Chinua B-PER
@@ -49101,9 +49101,9 @@ Apart O
 Dem O
 born O
 Oga O
-Edochie O
+Edochie B-PER
 for O
-Kaduna B-LOC
+Kaduna O
 for O
 March B-DATE
 7 I-DATE
@@ -49114,7 +49114,7 @@ im O
 grow O
 up O
 for O
-Zaria B-LOC
+Zaria O
 but O
 leave O
 during O
@@ -49127,13 +49127,13 @@ Im O
 from O
 Nceje B-LOC
 for O
-Oyi B-LOC
-Local I-LOC
-goment I-LOC
-Area I-LOC
+Oyi O
+Local O
+goment O
+Area O
 of O
-Anambra B-LOC
-state I-LOC
+Anambra O
+state O
 for O
 south B-LOC
 east I-LOC
@@ -49159,15 +49159,15 @@ Edochie B-PER
 marry O
 at O
 di O
-age B-DATE
-of I-DATE
-22 I-DATE
+age O
+of O
+22 O
 to O
 im O
 beautiful O
 wife O
 , O
-Josephine B-PER
+Josephine O
 and O
 dem O
 dey O
@@ -49178,24 +49178,24 @@ pikins O
 of O
 which O
 two O
-Yul B-PER
+Yul O
 and O
 Linc B-PER
 Edochie I-PER
 na O
 both O
-Nollywood B-ORG
+Nollywood O
 actors O
 . O
 
 Di O
-Academy B-ORG
-of I-ORG
-Motion I-ORG
-Picture I-ORG
-Arts I-ORG
-and I-ORG
-Sciences I-ORG
+Academy O
+of O
+Motion O
+Picture O
+Arts O
+and O
+Sciences O
 wey O
 dey O
 organise O
@@ -49224,8 +49224,8 @@ am O
 Di O
 feem O
 wey O
-Genevieve B-PER
-Nnaji I-PER
+Genevieve O
+Nnaji O
 direct O
 dey O
 for O
@@ -49280,8 +49280,8 @@ film O
 
 Tori O
 pipo O
-The B-ORG
-Wrap I-ORG
+The O
+Wrap O
 tok O
 say O
 di O
@@ -49300,7 +49300,7 @@ wey O
 dem O
 send O
 on O
-Monday O
+Monday B-DATE
 . O
 
 Di O
@@ -49335,7 +49335,7 @@ di O
 films O
 come O
 from O
-Africa O
+Africa B-LOC
 . O
 
 Lionheart O
@@ -49375,8 +49375,8 @@ official O
 language O
 . O
 
-Genevieve B-PER
-Nnaji I-PER
+Genevieve O
+Nnaji O
 tok O
 for O
 Twitter B-ORG
@@ -49389,7 +49389,7 @@ we O
 dey O
 speak O
 for O
-Nigeria B-LOC
+Nigeria O
 and O
 how O
 English O
@@ -49423,7 +49423,7 @@ reach O
 dem O
 . O
 
-Nigeria O
+Nigeria B-LOC
 Oscar O
 Selection O
 Committee O
@@ -49453,8 +49453,8 @@ of O
 di O
 committee O
 , O
-Chineze B-PER
-Anyaene I-PER
+Chineze O
+Anyaene O
 tok O
 for O
 di O
@@ -49597,7 +49597,7 @@ statement O
 Lionheart O
 movie O
 na O
-Nigeria O
+Nigeria B-LOC
 first O
 submission O
 for O
@@ -49612,7 +49612,7 @@ winners O
 of O
 di O
 2019 B-DATE
-Africa O
+Africa B-LOC
 Movie O
 Academy O
 Awards O
@@ -49625,7 +49625,7 @@ on O
 27 B-DATE
 October I-DATE
 for O
-Lagos B-LOC
+Lagos O
 , O
 Nigeria B-LOC
 . O
@@ -49642,16 +49642,16 @@ actress O
 and O
 producer O
 , O
-Kemi O
-Lala O
-Akindoju O
+Kemi B-PER
+Lala I-PER
+Akindoju I-PER
 , O
 Lorenzo B-PER
 Menakaya I-PER
 and O
 comedian O
 , O
-Funnybone B-PER
+Funnybone O
 na O
 im O
 host O
@@ -49724,8 +49724,8 @@ say O
 go O
 comot O
 on O
-September B-DATE
-27 I-DATE
+September O
+27 O
 plenti O
 times O
 and O
@@ -49789,8 +49789,8 @@ mark O
 new O
 era O
 for O
-Kanye B-PER
-West I-PER
+Kanye O
+West O
 as O
 im O
 don O
@@ -49823,15 +49823,15 @@ drop O
 
 Even O
 though O
-Kanye B-PER
+Kanye O
 feature O
 ogbonge O
 secular O
 artists O
 like O
-Ty O
-Dolla O
-Sign O
+Ty B-PER
+Dolla I-PER
+Sign I-PER
 , O
 Timbaland O
 and O
@@ -49865,12 +49865,12 @@ of O
 gospel O
 superstar O
 , O
-Erica O
-Campbell O
+Erica B-PER
+Campbell I-PER
 wey O
 dey O
-Mary B-PER
-Mary I-PER
+Mary O
+Mary O
 . O
 
 For O
@@ -49883,7 +49883,7 @@ of O
 Beats O
 1 O
 , O
-Kanye O
+Kanye B-PER
 tok O
 say O
 im O
@@ -49934,7 +49934,7 @@ go O
 increase O
 . O
 
-Jesus B-PER
+Jesus O
 is O
 King O
 dey O
@@ -49974,8 +49974,8 @@ King' O
 don O
 comot O
 for O
-IMAX B-ORG
-theatres I-ORG
+IMAX O
+theatres O
 . O
 
 Jesus B-PER
@@ -50012,9 +50012,9 @@ of O
 di O
 world O
 over O
-2000 O
-years O
-ago O
+2000 B-DATE
+years I-DATE
+ago I-DATE
 . O
 
 Nigerians O
@@ -50040,8 +50040,8 @@ Headies O
 2019 B-DATE
 . O
 
-Dis O
-year O
+Dis B-DATE
+year I-DATE
 , O
 some O
 ogbonge O
@@ -50059,12 +50059,12 @@ im O
 gbab O
 ten O
 nominations O
-dis B-DATE
-evening I-DATE
+dis O
+evening O
 for O
-Eko O
-hotel O
-Lagos O
+Eko B-LOC
+hotel I-LOC
+Lagos I-LOC
 wia O
 di O
 award O
@@ -50086,8 +50086,8 @@ cause O
 serious O
 tok O
 tok O
-dis O
-night O
+dis B-DATE
+night I-DATE
 . O
 
 Dis O
@@ -50161,11 +50161,11 @@ Heal O
 D O
 World O
 - O
-Patoranking B-PER
+Patoranking O
 · O
 Olanrewaju B-PER
 - O
-Brymo O
+Brymo B-PER
 · O
 UyoMeyo O
 - O
@@ -50181,34 +50181,34 @@ Single O
 · O
 'Ye' O
 - O
-Burna B-PER
-Boy I-PER
+Burna O
+Boy O
 · O
 'Wetin O
 We O
 Gain' O
 - O
-Victor B-PER
-AD I-PER
+Victor O
+AD O
 · O
 'Fake O
 Love' O
 - O
 Starboy B-PER
 ft O
-Duncan O
-Mighty O
+Duncan B-PER
+Mighty I-PER
 , O
-Wizkid O
+Wizkid B-PER
 · O
 'Case' O
 - O
-Teni B-PER
+Teni O
 · O
 'Jealous' O
 - O
-Fireboy B-PER
-DML I-PER
+Fireboy O
+DML O
 · O
 'Baby' O
 - O
@@ -50228,42 +50228,42 @@ of O
 di O
 Year O
 · O
-Phantom B-PER
+Phantom O
 - O
 'Ye' O
 by O
-Burna B-PER
-Boy I-PER
+Burna O
+Boy O
 · O
-Ozedikus O
+Ozedikus B-PER
 - O
 'Dumebi' O
 by O
 Rema B-PER
 · O
 
-Spellz B-PER
+Spellz O
 - O
 'Askamaya' O
 by O
-Teni O
+Teni B-PER
 · O
-Killertunes O
+Killertunes B-PER
 - O
 'Fake O
 Love' O
 by O
-Starboy O
+Starboy B-PER
 ft O
-Duncan B-PER
-Mighty I-PER
+Duncan O
+Mighty O
 and O
 Wizkid B-PER
 · O
-Kel B-PER
-- I-PER
-P I-PER
-Vibes I-PER
+Kel O
+- O
+P O
+Vibes O
 - O
 'Killing O
 Dem' O
@@ -50271,7 +50271,7 @@ by O
 Burna B-PER
 Boy I-PER
 ft O
-Zlatan B-PER
+Zlatan O
 Best O
 Rap O
 Album O
@@ -50279,7 +50279,7 @@ Album O
 'Moral O
 Instruction' O
 - O
-Falz O
+Falz B-PER
 · O
 'Crown' O
 - O
@@ -50310,7 +50310,7 @@ Vol O
 IV O
 ( O
 These O
-Buhari B-PER
+Buhari O
 Times O
 ) O
 ' O
@@ -50330,7 +50330,7 @@ Album O
 . O
 
 - O
-Odunsi O
+Odunsi B-PER
 ( O
 The O
 Engine O
@@ -50338,8 +50338,8 @@ Engine O
 · O
 'Outside' O
 - O
-Burna B-PER
-Boy I-PER
+Burna O
+Boy O
 · O
 'No O
 Bad O
@@ -50362,16 +50362,16 @@ Gold I-PER
 Best O
 Music O
 Video O
-'Dangote' B-PER
+'Dangote' O
 ( O
-BurnaBoy O
+BurnaBoy B-PER
 ) O
 - O
 Clarence B-PER
 Peters I-PER
 'Available' O
 ( O
-Patoranking B-PER
+Patoranking O
 ) O
 - O
 Clarence B-PER
@@ -50386,7 +50386,7 @@ Aje O
 Films O
 'Talk' O
 ( O
-Falz O
+Falz B-PER
 ) O
 - O
 Prodigeezy O
@@ -50410,7 +50410,7 @@ ft O
 RAYE B-PER
 'Serenade' O
 - O
-Funbi B-PER
+Funbi O
 'UyoMeyo' O
 - O
 Teni B-PER
@@ -50442,8 +50442,8 @@ Savage O
 Fiokee O
 'One O
 Ticket' O
-Kiss B-PER
-Daniel I-PER
+Kiss O
+Daniel O
 ft O
 . O
 Davido B-PER
@@ -50459,14 +50459,14 @@ Wizkid B-PER
 'Killin' O
 Dem O
 - O
-Burna O
-Boy O
+Burna B-PER
+Boy I-PER
 Ft O
 . O
 Zlatan B-PER
 'Amaka' I-PER
 - O
-2baba B-PER
+2baba O
 Ft O
 . O
 Peruzzi B-PER
@@ -50483,14 +50483,14 @@ That O
 Over O
 Here' O
 - O
-Hotyce B-PER
+Hotyce O
 '40ft O
 Container' O
 - O
-Illbliss O
+Illbliss B-PER
 ft O
 . O
-Olamide O
+Olamide B-PER
 'Sacrifice' O
 - O
 Payper O
@@ -50503,10 +50503,10 @@ Ojini I-PER
 'Gang O
 Gang' O
 - O
-AQ O
+AQ B-PER
 and O
-Loose O
-Kaynon O
+Loose B-PER
+Kaynon I-PER
 Best O
 Vocal O
 Performance O
@@ -50521,15 +50521,15 @@ Johnny B-PER
 Drille I-PER
 - O
 'Finding O
-Efe' O
-Nonso O
-Bassey O
+Efe' B-PER
+Nonso I-PER
+Bassey I-PER
 - O
 '411' O
 Funbi B-PER
 - O
 'Serenade' O
-Wurld O
+Wurld B-PER
 - O
 'Wishes O
 & O
@@ -50540,12 +50540,12 @@ Performance O
 ( O
 Female O
 ) O
-GoodGirl O
-LA O
+GoodGirl B-PER
+LA I-PER
 - O
 'Bless O
 me' O
-Waje O
+Waje B-PER
 - O
 'Udue' O
 Teni B-PER
@@ -50555,25 +50555,25 @@ Tems B-PER
 - O
 'Mr O
 Rebel' O
-Falana O
+Falana B-PER
 - O
 'Repeat' O
 Hip O
 Hop O
 World O
 Revolution O
-Odunsi O
-Mayorkun O
-Wurld O
-Humblesmith O
+Odunsi B-PER
+Mayorkun I-PER
+Wurld I-PER
+Humblesmith I-PER
 Lyricist O
 on O
 di O
 Roll O
-YCEE O
+YCEE B-PER
 - O
 'Balance' O
-Boogey B-PER
+Boogey O
 - O
 'Implode' O
 Paybac B-PER
@@ -50594,10 +50594,10 @@ Street O
 - O
 Hope O
 Artiste O
-Erigga O
+Erigga B-PER
 - O
 'Motivation' O
-ChinkoEkun O
+ChinkoEkun B-PER
 - O
 'Able O
 God' O
@@ -50626,11 +50626,11 @@ Tems B-PER
 'Finding O
 Efe' B-PER
 - O
-Johnny O
-Drille O
+Johnny B-PER
+Drille I-PER
 'Heya' O
 - O
-Brymo O
+Brymo B-PER
 'Ire' O
 - O
 Adekunle B-PER
@@ -50643,8 +50643,8 @@ Year O
 'About O
 30' O
 - O
-Adekunle O
-Gold O
+Adekunle B-PER
+Gold I-PER
 · O
 'Outside' O
 - O
@@ -50654,7 +50654,7 @@ Boy I-PER
 'Moral O
 Instruction' O
 - O
-Falz B-PER
+Falz O
 · O
 'No O
 Bad O
@@ -50675,8 +50675,8 @@ Wizkid B-PER
 · O
 Davido O
 · O
-Tiwa B-PER
-Savage I-PER
+Tiwa O
+Savage O
 · O
 Falz B-PER
 Song O
@@ -50697,16 +50697,16 @@ Rema B-PER
 We O
 Gain' O
 - O
-Victor B-PER
-AD I-PER
+Victor O
+AD O
 · O
 'Fake O
 Love' O
 - O
 Starboy B-PER
 ft O
-Duncan O
-Mighty O
+Duncan B-PER
+Mighty I-PER
 , O
 Wizkid B-PER
 · O
@@ -50717,7 +50717,7 @@ Teni B-PER
 'Leg O
 work' O
 - O
-Zlatan B-PER
+Zlatan O
 · O
 'Baby' O
 - O
@@ -50725,20 +50725,20 @@ Joeboy O
 · O
 'Jealous' O
 - O
-Fireboy O
-DML O
+Fireboy B-PER
+DML I-PER
 African O
 Artiste O
 Recognition O
 · O
-Master B-PER
-KG I-PER
+Master O
+KG O
 - O
 Skeleton O
 Moves O
 ( O
-SOUTH O
-AFRICA O
+SOUTH B-LOC
+AFRICA I-LOC
 ) O
 · O
 Afro O
@@ -50746,7 +50746,7 @@ B O
 - O
 Drogba B-PER
 ( O
-Joanna B-PER
+Joanna O
 ) O
 ( O
 IVORY B-LOC
@@ -50759,7 +50759,7 @@ Sol O
 
 Melanin O
 ( O
-KENYA B-LOC
+KENYA O
 ) O
 · O
 King B-PER
@@ -50770,37 +50770,37 @@ CCTV O
 GHANA B-LOC
 ) O
 · O
-DJ B-PER
-Maphoriza I-PER
+DJ O
+Maphoriza O
 - O
 iWalk O
 Ye O
 Phara O
 ( O
-SOUTH O
-AFRICA O
+SOUTH B-LOC
+AFRICA I-LOC
 ) O
 Headies' O
 Viewer's O
 Choice O
 · O
-Mr O
-Eazi O
+Mr B-PER
+Eazi I-PER
 · O
-Burna B-PER
-Boy I-PER
-· O
-Teni B-PER
-· O
-Fireboy O
-DML O
-· O
-Rema B-PER
-· O
-Joe O
+Burna O
 Boy O
 · O
-Wizkid B-PER
+Teni O
+· O
+Fireboy B-PER
+DML I-PER
+· O
+Rema O
+· O
+Joe B-PER
+Boy I-PER
+· O
+Wizkid O
 · O
 Davido B-PER
 Best O
@@ -50808,16 +50808,16 @@ Performer O
 · O
 Falz B-PER
 · O
-Tiwa B-PER
-Savage I-PER
+Tiwa O
+Savage O
 · O
 Brymo B-PER
 · O
-Yemi O
-Alade O
+Yemi B-PER
+Alade I-PER
 · O
-Adekunle O
-Gold O
+Adekunle B-PER
+Gold I-PER
 Rookie O
 of O
 di O
@@ -50825,7 +50825,7 @@ Year O
 · O
 Crayon B-PER
 · O
-Buju O
+Buju B-PER
 · O
 Barry B-PER
 Jhay I-PER
@@ -50834,11 +50834,11 @@ Oxlade B-PER
 
 Nigeria B-LOC
 musician O
-Afeez O
-Fashola O
+Afeez B-PER
+Fashola I-PER
 aka O
-Naira B-PER
-Marley I-PER
+Naira O
+Marley O
 , O
 don O
 launch O
@@ -50883,11 +50883,11 @@ Recently O
 Nigeria B-LOC
 corruption O
 police O
-Economic B-ORG
-and I-ORG
-Financial I-ORG
-Crimes I-ORG
-Commission I-ORG
+Economic O
+and O
+Financial O
+Crimes O
+Commission O
 bin O
 arrest O
 di O
@@ -50930,21 +50930,21 @@ dem O
 born O
 am O
 for O
-Nigeria B-LOC
+Nigeria O
 , O
 Naira B-PER
 Marley I-PER
 move O
 to O
-Peckham B-LOC
+Peckham O
 for O
-England O
+England B-LOC
 wen O
 he O
 dey O
-11 O
-years O
-old O
+11 B-DATE
+years I-DATE
+old I-DATE
 . O
 
 2 O
@@ -50958,8 +50958,8 @@ from O
 late O
 reggae O
 icon O
-Bob B-PER
-Marley I-PER
+Bob O
+Marley O
 wey O
 he O
 consider O
@@ -50969,8 +50969,8 @@ inspiration O
 
 3 O
 . O
-Naira O
-Marley O
+Naira B-PER
+Marley I-PER
 tok O
 say O
 him O
@@ -51000,7 +51000,7 @@ first O
 single O
 for O
 di O
-UK O
+UK B-LOC
 wey O
 put O
 am O
@@ -51015,10 +51015,10 @@ wey O
 him O
 release O
 for O
-2014 B-DATE
+2014 O
 with O
-Max O
-Twigz O
+Max B-PER
+Twigz I-PER
 . O
 
 5 O
@@ -51033,10 +51033,10 @@ wey O
 be O
 collaboration O
 with O
-Olamide B-PER
+Olamide O
 and O
-Lil B-PER
-Kesh I-PER
+Lil O
+Kesh O
 . O
 
 Di O
@@ -51064,7 +51064,7 @@ He O
 don O
 collaborate O
 with O
-Olamide O
+Olamide B-PER
 before O
 ontop O
 previous O
@@ -51139,7 +51139,7 @@ may O
 di O
 singer O
 alongside O
-Zlatan O
+Zlatan B-PER
 release O
 song O
 wey O
@@ -51174,23 +51174,23 @@ fraud O
 
 Dem O
 release O
-Zlatan B-PER
+Zlatan O
 some O
 days O
 after O
 but O
 dem O
 carry O
-Naira B-PER
-Marley I-PER
+Naira O
+Marley O
 go O
 court O
 . O
 
 8 O
 . O
-Naira B-PER
-Marley I-PER
+Naira O
+Marley O
 management O
 don O
 release O
@@ -51231,8 +51231,8 @@ one O
 day O
 afta O
 im O
-25 O
-years O
+25 B-DATE
+years I-DATE
 birthday O
 di O
 Nigeria B-LOC
@@ -51284,10 +51284,10 @@ singer O
 of O
 rock O
 band O
-Nirvana O
+Nirvana B-ORG
 , O
-Kurt O
-Cobain O
+Kurt B-PER
+Cobain I-PER
 wear O
 di O
 green O
@@ -51301,7 +51301,7 @@ Unplugged O
 """" O
 performance O
 for O
-1993 O
+1993 B-DATE
 . O
 
 Dem O
@@ -51335,10 +51335,10 @@ dem O
 cari O
 am O
 for O
-New B-LOC
-York I-LOC
+New O
+York O
 on O
-Saturday O
+Saturday B-DATE
 . O
 
 Darren B-PER
@@ -51346,7 +51346,7 @@ Julien I-PER
 , O
 president O
 of O
-Julien's O
+Julien's B-PER
 Auction O
 , O
 tok O
@@ -51366,7 +51366,7 @@ rockstar O
 wear O
 . O
 
-Cobain's O
+Cobain's B-PER
 custom O
 - O
 made O
@@ -51451,14 +51451,14 @@ He O
 killed O
 himself O
 in O
-April B-DATE
-1994 I-DATE
-aged I-DATE
-27 I-DATE
+April O
+1994 O
+aged O
+27 O
 . O
 
-Dis B-DATE
-year I-DATE
+Dis O
+year O
 , O
 di O
 Headies O
@@ -51467,7 +51467,7 @@ awards O
 honour O
 some O
 of O
-Nigeria O
+Nigeria B-LOC
 ogbonge O
 musicians O
 like O
@@ -51478,8 +51478,8 @@ Teni B-PER
 , O
 Falz B-PER
 , O
-Chinko O
-Ekun O
+Chinko B-PER
+Ekun I-PER
 and O
 many O
 more O
@@ -51555,8 +51555,8 @@ di O
 award O
 . O
 
-Dis O
-year O
+Dis B-DATE
+year I-DATE
 edition O
 happun O
 for O
@@ -51566,8 +51566,8 @@ Nigeria B-LOC
 with O
 Reminisce B-PER
 and O
-Nancy O
-Isime O
+Nancy B-PER
+Isime I-PER
 as O
 di O
 hosts O
@@ -51672,8 +51672,8 @@ show O
 
 And O
 as O
-Naira O
-Marley O
+Naira B-PER
+Marley I-PER
 and O
 Burna B-PER
 Boy I-PER
@@ -51811,10 +51811,10 @@ Moral O
 Instruction O
 ; O
 and O
-DJ O
-Cuppy O
+DJ B-PER
+Cuppy I-PER
 and O
-Bovi B-PER
+Bovi O
 wey O
 present O
 Hip O
@@ -51868,10 +51868,10 @@ Britishi O
 - O
 Nigeria B-LOC
 actor O
-John B-PER
-Boyega I-PER
+John O
+Boyega O
 and O
-Stormzy O
+Stormzy B-PER
 dey O
 di O
 full O
@@ -51880,7 +51880,7 @@ Rich O
 List O
 for O
 di O
-2019 O
+2019 B-DATE
 top O
 richest O
 celebrities O
@@ -51930,7 +51930,7 @@ list O
 . O
 
 For O
-2019 O
+2019 B-DATE
 , O
 di O
 26 O
@@ -51968,7 +51968,7 @@ Jack B-PER
 stab O
 vest O
 wey O
-Banksy O
+Banksy B-PER
 design O
 . O
 
@@ -51980,7 +51980,7 @@ Grime O
 Act O
 for O
 di O
-2014 O
+2014 B-DATE
 and O
 2015 B-DATE
 MOBO O
@@ -51991,9 +51991,9 @@ British O
 born O
 Nigeria B-LOC
 actor O
-27 O
-years O
-old O
+27 B-DATE
+years I-DATE
+old I-DATE
 John B-PER
 Boyega I-PER
 , O
@@ -52012,9 +52012,9 @@ di O
 list O
 . O
 
-John B-PER
-Adedayo I-PER
-Adegboyega I-PER
+John O
+Adedayo O
+Adegboyega O
 , O
 wey O
 dem O
@@ -52036,7 +52036,7 @@ and O
 papa O
 . O
 
-Boyega B-PER
+Boyega O
 first O
 blow O
 for O
@@ -52091,10 +52091,10 @@ and O
 below O
 1 O
 . O
-Ed O
-Sheeran O
+Ed B-PER
+Sheeran I-PER
 , O
-28 O
+28 B-DATE
 , O
 ( O
 £ O
@@ -52124,10 +52124,10 @@ Styles I-PER
 ) O
 4 O
 . O
-Emma B-PER
-Watson I-PER
+Emma O
+Watson O
 , O
-29 B-DATE
+29 O
 , O
 ( O
 £ O
@@ -52138,7 +52138,7 @@ Watson I-PER
 Niall B-PER
 Horan I-PER
 , O
-26 O
+26 B-DATE
 , O
 ( O
 £ O
@@ -52148,8 +52148,8 @@ Horan I-PER
 ) O
 6 O
 . O
-Little O
-Mix O
+Little B-PER
+Mix I-PER
 ( O
 £ O
 50m O
@@ -52167,10 +52167,10 @@ Tomlinson I-PER
 ) O
 8 O
 . O
-Liam B-PER
-Payne I-PER
+Liam O
+Payne O
 , O
-26 O
+26 B-DATE
 , O
 ( O
 £ O
@@ -52194,7 +52194,7 @@ Delevingne O
 Zayn B-PER
 Malik I-PER
 , O
-26 B-DATE
+26 O
 , O
 ( O
 £ O
@@ -52206,7 +52206,7 @@ Sam B-PER
 
 Smith I-PER
 , O
-27 B-DATE
+27 O
 , O
 ( O
 £ O
@@ -52214,12 +52214,12 @@ Smith I-PER
 ) O
 12 O
 . O
-Aaron O
-Taylor O
-- O
-Johnson O
+Aaron B-PER
+Taylor I-PER
+- I-PER
+Johnson I-PER
 , O
-29 O
+29 B-DATE
 , O
 ( O
 £ O
@@ -52240,7 +52240,7 @@ Ora O
 ) O
 14 O
 . O
-Stormzy B-PER
+Stormzy O
 , O
 26 B-DATE
 , O
@@ -52270,7 +52270,7 @@ entry O
 16 O
 . O
 The O
-1975 B-DATE
+1975 O
 , O
 ( O
 £ O
@@ -52318,8 +52318,8 @@ Hoult I-PER
 ) O
 20 O
 . O
-Dev B-PER
-Patel I-PER
+Dev O
+Patel O
 , O
 29 B-DATE
 , O
@@ -52348,7 +52348,7 @@ Boyega I-PER
 Sam B-PER
 Faiers I-PER
 , O
-28 O
+28 B-DATE
 , O
 ( O
 £ O
@@ -52361,7 +52361,7 @@ Faiers I-PER
 Joey B-PER
 Essex I-PER
 , O
-29 B-DATE
+29 O
 , O
 ( O
 £ O
@@ -52390,7 +52390,7 @@ entry O
 Maisie B-PER
 Williams I-PER
 , O
-22 B-DATE
+22 O
 , O
 ( O
 £ O
@@ -52422,7 +52422,7 @@ entry O
 Jess B-PER
 Glynne I-PER
 , O
-30 B-DATE
+30 O
 , O
 £ O
 4 O
@@ -52435,8 +52435,8 @@ entry O
 . O
 Olivia B-PER
 and O
-Alex B-PER
-Bowen I-PER
+Alex O
+Bowen O
 , O
 25 B-DATE
 and O
@@ -52455,10 +52455,10 @@ new O
 entry O
 29 O
 . O
-Billie O
-Faiers O
+Billie B-PER
+Faiers I-PER
 , O
-29 O
+29 B-DATE
 , O
 ( O
 £ O
@@ -52471,8 +52471,8 @@ new O
 entry O
 30 O
 . O
-Tom O
-Holland O
+Tom B-PER
+Holland I-PER
 , O
 23 B-DATE
 , O
@@ -52513,9 +52513,9 @@ Festival O
 for O
 Lagos B-LOC
 , O
-South O
-West O
-Nigeria O
+South B-LOC
+West I-LOC
+Nigeria I-LOC
 . O
 
 Di O
@@ -52529,7 +52529,7 @@ don O
 dey O
 happun O
 for O
-Nigeria B-LOC
+Nigeria O
 for O
 di O
 past B-DATE
@@ -52694,13 +52694,13 @@ di O
 year O
 . O
 
-Bassey O
-Ikpi O
+Bassey B-PER
+Ikpi I-PER
 wey O
 release O
-New O
-York O
-Times O
+New B-ORG
+York I-ORG
+Times I-ORG
 bestseller O
 , O
 'I'm O
@@ -52737,8 +52737,8 @@ alongside O
 Ogbonge O
 authors O
 like O
-Mona O
-Eltahawy O
+Mona B-PER
+Eltahawy I-PER
 and O
 Nnedi B-PER
 Okorafor I-PER
@@ -52820,8 +52820,8 @@ correct O
 feems O
 go O
 show O
-dis B-DATE
-year I-DATE
+dis O
+year O
 . O
 
 To O
@@ -52845,7 +52845,7 @@ year I-DATE
 festival O
 . O
 
-Oduye O
+Oduye B-PER
 act O
 for O
 di O
@@ -52916,15 +52916,15 @@ for O
 di O
 event O
 like O
-Temmie B-PER
-Ovwasa I-PER
+Temmie O
+Ovwasa O
 from O
-YBNL B-ORG
+YBNL O
 and O
 Ibejii B-PER
 . O
 
-Ghana B-LOC
+Ghana O
 superstars O
 , O
 Fokn B-PER
@@ -52946,7 +52946,7 @@ popular O
 dub O
 poet O
 from O
-Jamaica B-LOC
+Jamaica O
 . O
 
 Some O
@@ -53046,7 +53046,7 @@ wey O
 im O
 name O
 na O
-Jack B-PER
+Jack O
 make O
 e O
 come O
@@ -53088,7 +53088,7 @@ di O
 show O
 tok O
 for O
-Reddit O
+Reddit B-ORG
 say O
 , O
 """" O
@@ -53135,7 +53135,7 @@ stage O
 We O
 be O
 like O
-Jack O
+Jack B-PER
 and O
 Rose B-PER
 from O
@@ -53178,7 +53178,7 @@ bodi O
 . O
 
 For O
-2013 B-DATE
+2013 O
 , O
 she O
 bin O
@@ -53327,12 +53327,12 @@ Nigerian O
 - O
 born O
 / O
-New O
-Zealand O
+New B-LOC
+Zealand I-LOC
 fighter O
 , O
-Israel O
-Adesanya O
+Israel B-PER
+Adesanya I-PER
 AKA O
 """" O
 Last B-PER
@@ -53358,14 +53358,14 @@ Championship I-ORG
 wey O
 happun O
 for O
-Marvel O
-Stadium O
+Marvel B-LOC
+Stadium I-LOC
 for O
 Melbourne B-LOC
 , O
-Australia B-LOC
+Australia O
 on O
-Sunday O
+Sunday B-DATE
 . O
 
 For O
@@ -53380,11 +53380,11 @@ kick O
 boxing O
 fight O
 , O
-Adesanya B-PER
+Adesanya O
 become O
 di O
 new O
-UFC B-ORG
+UFC O
 champion O
 as O
 e O
@@ -53403,7 +53403,7 @@ fight O
 
 Adesanya B-PER
 knock O
-Whittaker O
+Whittaker B-PER
 out O
 with O
 3 O
@@ -53467,8 +53467,8 @@ Adesanya B-PER
 tell O
 UFC B-ORG
 commentator O
-Jon B-PER
-Anik I-PER
+Jon O
+Anik O
 for O
 one O
 interview O
@@ -53528,7 +53528,7 @@ heavy O
 punch O
 dey O
 blow O
-Adesanya B-PER
+Adesanya O
 for O
 head O
 but O
@@ -53571,13 +53571,13 @@ global O
 MMA O
 scene O
 only O
-last O
-year O
+last B-DATE
+year I-DATE
 afta O
 e O
 come O
 di O
-UFC O
+UFC B-ORG
 wit O
 undefeated O
 11 O
@@ -53611,7 +53611,7 @@ for O
 UFC B-ORG
 236 O
 in O
-April B-DATE
+April O
 wey O
 make O
 am O
@@ -53640,7 +53640,7 @@ important O
 part O
 of O
 di O
-Nigeria O
+Nigeria B-LOC
 society O
 as O
 pipo O
@@ -53813,13 +53813,13 @@ Brother O
 . O
 
 From O
-Tboss O
+Tboss B-PER
 for O
 2017 B-DATE
 to O
 Nina O
 for O
-2018 B-DATE
+2018 O
 and O
 Tacha B-PER
 for O
@@ -53828,7 +53828,7 @@ for O
 tori O
 be O
 say O
-Bobrisky B-PER
+Bobrisky O
 dey O
 carri O
 big O
@@ -53855,7 +53855,7 @@ reveal O
 say O
 she O
 send O
-Tacha B-PER
+Tacha O
 money O
 afta O
 dem O
@@ -53884,7 +53884,7 @@ wey O
 vote O
 pass O
 for O
-Efe B-PER
+Efe O
 - O
 wey O
 be O
@@ -53912,7 +53912,7 @@ news O
 . O
 
 For O
-2018 O
+2018 B-DATE
 , O
 MC B-PER
 Galaxy I-PER
@@ -53986,10 +53986,10 @@ fans O
 as O
 she O
 return O
-Nigeria B-LOC
+Nigeria O
 from O
-South O
-Africa O
+South B-LOC
+Africa I-LOC
 . O
 
 She O
@@ -54045,7 +54045,7 @@ fact O
 one O
 fan O
 open O
-GoFundme O
+GoFundme B-ORG
 page O
 for O
 am O
@@ -54102,8 +54102,8 @@ no O
 dey O
 gree O
 ontop O
-Gina O
-Rodriguez O
+Gina B-PER
+Rodriguez I-PER
 mata O
 . O
 
@@ -54273,8 +54273,8 @@ today B-DATE
 dis O
 tok O
 ontop O
-Gina O
-Rodriguez O
+Gina B-PER
+Rodriguez I-PER
 mata O
 start O
 . O
@@ -54296,7 +54296,7 @@ announce O
 Black O
 Panther O
 for O
-2017 B-DATE
+2017 O
 . O
 
 For O
@@ -54371,7 +54371,7 @@ dey O
 . O
 
 For O
-2018 B-DATE
+2018 O
 , O
 she O
 chop O
@@ -54388,8 +54388,8 @@ black O
 co O
 star O
 , O
-Yara B-PER
-Shahidi I-PER
+Yara O
+Shahidi O
 wen O
 dem O
 dey O
@@ -54424,8 +54424,8 @@ am O
 . O
 
 For O
-November O
-2018 O
+November B-DATE
+2018 I-DATE
 , O
 she O
 tok O
@@ -54506,9 +54506,9 @@ for O
 im O
 radio O
 show O
-early B-DATE
-dis I-DATE
-year I-DATE
+early O
+dis O
+year O
 , O
 Gina B-PER
 Rodriguez I-PER
@@ -54566,8 +54566,8 @@ im O
 record O
 store O
 , O
-Di O
-Jazzhole O
+Di B-ORG
+Jazzhole I-ORG
 , O
 im O
 wear O
@@ -54663,21 +54663,21 @@ childhood O
 """" O
 na O
 so O
-Tejuoso O
+Tejuoso B-PER
 tok O
 . O
 
-Di O
-Jazzhole O
+Di B-ORG
+Jazzhole I-ORG
 , O
 wey O
 currently O
 dey O
 for O
-Awolowo O
-Road O
+Awolowo B-LOC
+Road I-LOC
 for O
-Nigeria B-LOC
+Nigeria O
 commercial O
 capital O
 , O
@@ -54712,8 +54712,8 @@ and O
 for O
 nightclubs O
 , O
-Di B-ORG
-Jazzhole I-ORG
+Di O
+Jazzhole O
 position O
 imself O
 as O

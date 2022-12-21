@@ -44,7 +44,7 @@ oke O
 ọgbaghara O
 dị O
 na O
-Naịjirịa B-LOC
+Naịjirịa O
 oge O
 ọ O
 bula O
@@ -56,7 +56,7 @@ mwakpọ O
 na O
 ogbugbu O
 ndị O
-Naịjirịa B-LOC
+Naịjirịa O
 aka O
 ha O
 dị O
@@ -100,9 +100,9 @@ iri O
 asaa O
 egburu O
 na O
-Local B-ORG
-Gọọmenti I-ORG
-Logo I-ORG
+Local O
+Gọọmenti O
+Logo O
 na O
 Guma B-LOC
 nke O
@@ -121,7 +121,7 @@ akụkọ O
 kwuru O
 n'egburu O
 na O
-Taraba O
+Taraba B-LOC
 Steeti O
 . O
 
@@ -138,8 +138,8 @@ ndị O
 ome O
 - O
 iwu O
-n'ụbọchị B-DATE
-taa I-DATE
+n'ụbọchị O
+taa O
 , O
 kwuo O
 na O
@@ -179,7 +179,7 @@ metụtara O
 , O
 kama O
 ndị O
-Naịjirịa O
+Naịjirịa B-LOC
 niile O
 . O
 
@@ -187,8 +187,8 @@ niile O
 agwụla O
 anyị O
 iji O
-otu B-DATE
-nkeji I-DATE
+otu O
+nkeji O
 dị O
 jụụ O
 maka O
@@ -224,7 +224,7 @@ zuru O
 oọṅụ O
 ya O
 
-Simone B-PER
+Simone O
 kwupụtara O
 nke O
 a O
@@ -304,7 +304,7 @@ maka O
 ị O
 ga O
 asọmpị O
-Tokyo B-LOC
+Tokyo O
 n'afọ B-DATE
 2020 I-DATE
 . O
@@ -347,8 +347,8 @@ uwe O
 ojii O
 wakporo O
 , O
-Larry B-PER
-Nassar I-PER
+Larry O
+Nassar O
 , O
 onye O
 bụ O
@@ -360,7 +360,7 @@ eleta O
 ndị O
 otu O
 egwuregwu O
-Amerika B-LOC
+Amerika O
 niile O
 na O
 Disemba B-DATE
@@ -395,9 +395,9 @@ kwa O
 - O
 mmụta O
 na O
-Mahadụm O
-steeti O
-Michigan O
+Mahadụm B-ORG
+steeti I-ORG
+Michigan I-ORG
 , O
 ga O
 ụlọ O
@@ -410,7 +410,7 @@ mere O
 ha O
 . O
 
-Nassar B-PER
+Nassar O
 kwuputara O
 na O
 ọ O
@@ -432,7 +432,7 @@ na O
 - O
 aga O
 ka O
-Simone O
+Simone B-PER
 jiri O
 kọ O
 akụkọ O
@@ -520,12 +520,12 @@ a O
 na O
 - O
 akpọ O
-National B-ORG
-Bureau I-ORG
-of I-ORG
-Statistics I-ORG
+National O
+Bureau O
+of O
+Statistics O
 ( O
-NBS B-ORG
+NBS O
 ) O
 nwepụtara O
 ozi O
@@ -544,8 +544,8 @@ ndị O
 enweghi O
 ọrụ O
 kemgbe O
-afọ O
-2016 O
+afọ B-DATE
+2016 I-DATE
 . O
 
 NBS B-ORG
@@ -579,10 +579,10 @@ akwụkwọ O
 a O
 na O
 Abuja B-LOC
-n'ụka B-DATE
-a I-DATE
-gara I-DATE
-aga I-DATE
+n'ụka O
+a O
+gara O
+aga O
 . O
 
 Ke O
@@ -592,11 +592,11 @@ a O
 pụtara O
 ? O
 
-BBC B-ORG
+BBC O
 Igbo O
 jụrụ O
-Cheta B-PER
-Nwanze I-PER
+Cheta O
+Nwanze O
 , O
 bụ O
 onye O
@@ -619,7 +619,7 @@ sịrị O
 dị O
 . O
 
-Cheta B-PER
+Cheta O
 gwara O
 anyị O
 na O
@@ -651,10 +651,10 @@ ichiche O
 na O
 Naịjịra O
 n'ime O
-afọ O
-abuo O
-gara O
-aga O
+afọ B-DATE
+abuo I-DATE
+gara I-DATE
+aga I-DATE
 . O
 
 """" O
@@ -664,10 +664,10 @@ m O
 na O
 ọrụ O
 mgbe O
-Naịjirịa B-LOC
+Naịjirịa O
 na O
 ndị O
-MTN O
+MTN B-ORG
 nwere O
 nsogbụ O
 ọ O
@@ -710,9 +710,9 @@ na O
 arụbụ O
 ọrụ O
 na O
-Proctor B-ORG
-and I-ORG
-Gamble I-ORG
+Proctor O
+and O
+Gamble O
 , O
 mana O
 achụkwara O
@@ -738,8 +738,8 @@ mmadu O
 , O
 """" O
 Ka O
-Cheta O
-Nwanze O
+Cheta B-PER
+Nwanze I-PER
 siri O
 kwu O
 . O
@@ -764,15 +764,15 @@ ha O
 enweghị O
 ọrụ O
 
-BBC O
+BBC B-ORG
 Igbo O
 juru O
-Nwanze B-PER
+Nwanze O
 maka O
 okwu O
 ndị O
 gọọmenti O
-Naịjirịa O
+Naịjirịa B-LOC
 na O
 ekwu O
 banyere O
@@ -786,7 +786,7 @@ na O
 """" O
 nchọpụta O
 ndị O
-NBS O
+NBS B-ORG
 na O
 - O
 akowa O
@@ -845,7 +845,7 @@ ike O
 ọfụma O
 """" O
 
-BBC B-ORG
+BBC O
 Igbo O
 kpọrọ O
 ndị O
@@ -853,7 +853,7 @@ na O
 - O
 ekwuchịtere O
 gọọmenti O
-Naịjirịa O
+Naịjirịa B-LOC
 ka O
 ha O
 kwuo O
@@ -862,7 +862,7 @@ ha O
 banyere O
 ịhe O
 a O
-NBS B-ORG
+NBS O
 wepụtara O
 mana O
 onweghị O
@@ -875,7 +875,7 @@ ha O
 Mana O
 , O
 gọọmentị O
-Buhari B-PER
+Buhari O
 weputara O
 N O
 - O
@@ -910,11 +910,11 @@ na O
 Naịjirịa B-LOC
 . O
 
-Google O
+Google B-ORG
 na O
 - O
 echeta O
-ụbọchị B-DATE
+ụbọchị O
 ọmụmụ O
 Keshi B-PER
 
@@ -932,7 +932,7 @@ bụ O
 Stephen B-PER
 Keshi I-PER
 , O
-Google O
+Google B-ORG
 kwanyere O
 ya O
 ugwu O
@@ -967,11 +967,11 @@ bụ O
 ụbọchị O
 ncheta O
 ọmụmụ O
-Keshi O
+Keshi B-PER
 onye O
 nwụrụ O
-n'afọ B-DATE
-2016 I-DATE
+n'afọ O
+2016 O
 ka O
 ọ O
 gbara O
@@ -984,8 +984,8 @@ i O
 kwesịrị O
 ịma O
 maka O
-Christy B-PER
-Essien I-PER
+Christy O
+Essien O
 - O
 Igbokwe B-PER
 
@@ -1004,16 +1004,16 @@ maka O
 Christian B-PER
 Chukwu I-PER
 
-Google O
-Africa B-LOC
+Google B-ORG
+Africa O
 kwuru O
 n'igwe O
 okwu O
-Twitter B-ORG
+Twitter O
 sị O
 : O
 """" O
-Taa B-DATE
+Taa O
 , O
 anyị O
 na O
@@ -1057,13 +1057,13 @@ nnukwu O
 
 Ihe O
 a O
-Google B-ORG
+Google O
 mere O
 , O
 mere O
 ọtụtụ O
 ndị O
-Naijiria B-LOC
+Naijiria O
 obi O
 ụtọ O
 , O
@@ -1102,9 +1102,9 @@ Adepoju O
 onye O
 ya O
 na O
-Keshi O
+Keshi B-PER
 gbakọrọ O
-Naijiria O
+Naijiria B-LOC
 bọọlụ O
 , O
 gwara O
@@ -1178,13 +1178,13 @@ ya O
 . O
 """" O
 
-Keshi O
+Keshi B-PER
 chịrị O
 ndị O
 otu O
 egwuregwu O
-Super B-ORG
-Eagles I-ORG
+Super O
+Eagles O
 kemgbe O
 afọ B-DATE
 2011 I-DATE
@@ -1201,7 +1201,7 @@ gụnyere O
 ; O
 Iko O
 Mba O
-Afrika O
+Afrika B-LOC
 na O
 2013 B-DATE
 ( O
@@ -1213,7 +1213,7 @@ Naịjirịa B-LOC
 , O
 iko O
 mpaghara O
-Afrịka B-LOC
+Afrịka O
 dị O
 iche O
 iche O
@@ -1231,11 +1231,11 @@ Iko O
 Mbaụwa O
 niile O
 na O
-2014 O
+2014 B-DATE
 . O
 
-Alexis B-PER
-Sanchez I-PER
+Alexis O
+Sanchez O
 na O
 - O
 enye O
@@ -1255,8 +1255,8 @@ na O
 akwụkwọ O
 ndị O
 otu O
-Manchester B-ORG
-United I-ORG
+Manchester O
+United O
 . O
 
 Manchester O
@@ -1271,10 +1271,10 @@ anọ O
 E14m O
 ) O
 zụtara O
-Sanchez O
+Sanchez B-PER
 n'aka O
 ndị O
-Arsenal O
+Arsenal B-ORG
 . O
 
 Otu O
@@ -1284,7 +1284,7 @@ kwusịrị O
 mmasị O
 ha O
 n'ebe O
-Sanchez B-PER
+Sanchez O
 nọ O
 n'ịzụka B-DATE
 nke I-DATE
@@ -1310,7 +1310,7 @@ Manchester B-ORG
 United I-ORG
 ekwuola O
 na O
-Sanchez O
+Sanchez B-PER
 ga O
 - O
 eyi O
@@ -1319,15 +1319,15 @@ akara O
 asaa O
 . O
 
-Sanchez B-PER
+Sanchez O
 ga O
 - O
 esokwa O
 na O
 asọmpị O
 ndi O
-Red O
-Devils O
+Red B-ORG
+Devils I-ORG
 na O
 otu O
 di O
@@ -1338,7 +1338,7 @@ English O
 premier O
 League O
 akpọrọ O
-FA O
+FA B-ORG
 cup O
 ga O
 - O
@@ -1355,8 +1355,8 @@ Januwari O
 N'akụkọ O
 yịrị O
 ibeya O
-Henrikh B-PER
-Mkhitaryan I-PER
+Henrikh O
+Mkhitaryan O
 a O
 baala O
 otu O
@@ -1365,7 +1365,7 @@ Arsenal B-ORG
 
 Sanchez O
 na O
-Mkhitaryan B-PER
+Mkhitaryan O
 na O
 ọnụ O
 ogwụgwụ O
@@ -1375,12 +1375,12 @@ Ka O
 mgbe O
 ọ O
 bara O
-Arsenal O
+Arsenal B-ORG
 na O
 afọ B-DATE
 2014 I-DATE
 , O
-Sanchez O
+Sanchez B-PER
 enyela O
 goolu O
 ruru O
@@ -1389,11 +1389,11 @@ isi O
 . O
 
 Nani O
-Romelu B-PER
-Lukaku I-PER
+Romelu O
+Lukaku O
 , O
-Sergio B-PER
-Aguero I-PER
+Sergio O
+Aguero O
 na O
 Harry B-PER
 Kane I-PER
@@ -1409,7 +1409,7 @@ Na O
 asọmpi O
 ya O
 niile O
-Sanchez O
+Sanchez B-PER
 nyere O
 goolu O
 iri O
@@ -1420,7 +1420,7 @@ eguregwu O
 ọzọ O
 na O
 otu O
-Arsenal B-ORG
+Arsenal O
 . O
 
 Emerigo O
@@ -1436,7 +1436,7 @@ ha O
 bọọlu O
 . O
 
-Mkhitaryan O
+Mkhitaryan B-PER
 agbaala O
 ndị O
 Manchester O
@@ -1455,8 +1455,8 @@ na O
 atọ O
 . O
 
-Donald O
-Trump O
+Donald B-PER
+Trump I-PER
 na O
 - O
 ekwu O
@@ -1488,7 +1488,7 @@ ahụ O
 Cheta O
 na O
 ndị O
-Democrat O
+Democrat B-ORG
 na O
 ndị O
 Republican B-ORG
@@ -1521,7 +1521,7 @@ Demokrat B-ORG
 kwuru O
 na O
 ndị O
-Republicans B-ORG
+Republicans O
 kwetara O
 na O
 ha O
@@ -1579,7 +1579,7 @@ na O
 US B-LOC
 . O
 
-Trump O
+Trump B-PER
 na O
 - O
 atụrụ O
@@ -1595,7 +1595,7 @@ Mana O
 ugbua O
 , O
 ọchịchị O
-Trump B-PER
+Trump O
 akabiela O
 iwu O
 ahụ O
@@ -1611,12 +1611,12 @@ a O
 ga O
 - O
 akwụsi O
-n'ụbọchị B-DATE
-ise I-DATE
-na I-DATE
-ọnwa I-DATE
-nke I-DATE
-maachị I-DATE
+n'ụbọchị O
+ise O
+na O
+ọnwa O
+nke O
+maachị O
 . O
 
 Onye O
@@ -1624,12 +1624,12 @@ na O
 nọchịte O
 anya O
 ndị O
-Demokrat B-ORG
+Demokrat O
 n'ulọ O
 omeiwu O
 bụ O
-Steny O
-Hoyer O
+Steny B-PER
+Hoyer I-PER
 arịọla O
 ndị O
 otu O
@@ -1649,7 +1649,7 @@ Maka O
 akụkọ O
 gbasara O
 mmechi O
-Amerika B-LOC
+Amerika O
 , O
 gụọ O
 : O
@@ -1715,12 +1715,12 @@ iri I-DATE
 abụọ I-DATE
 na I-DATE
 atọ I-DATE
-n'ọwerri O
+n'ọwerri B-LOC
 , O
 isi O
 obodo O
-Imo B-LOC
-Steeti I-LOC
+Imo O
+Steeti O
 . O
 
 Okwuru O
@@ -1737,8 +1737,8 @@ mgbasa O
 ozi O
 bụ O
 ọkammụta O
-Nnamdị O
-Obiaraeri O
+Nnamdị B-PER
+Obiaraeri I-PER
 . O
 
 Ozi O
@@ -1748,7 +1748,7 @@ na O
 onweghị O
 mgbe O
 Gọvanọ O
-Rochas B-PER
+Rochas O
 jiri O
 chee O
 echichi O
@@ -1780,8 +1780,8 @@ achị O
 ehị O
 ala O
 ndị O
-Imo O
-Steeti O
+Imo B-LOC
+Steeti I-LOC
 bụ O
 ọrụaka O
 ndị O
@@ -1799,7 +1799,7 @@ akụkọ O
 ekwubuola O
 na O
 Gọvanọ O
-Okorocha B-PER
+Okorocha O
 sị O
 na O
 ya O
@@ -1839,7 +1839,7 @@ mana O
 nwaamadị O
 ahụ O
 bawara O
-BBC O
+BBC B-ORG
 mba O
 gbanuọ O
 ekwenti O
@@ -1874,8 +1874,8 @@ achị O
 ehị O
 . O
 
-Ohaneze O
-Ndị O
+Ohaneze B-ORG
+Ndị I-ORG
 Igbo O
 akabichiela O
 na O
@@ -1896,8 +1896,8 @@ River O
 Steeti O
 , O
 Gọvanọ O
-Nyesom O
-Wike O
+Nyesom B-PER
+Wike I-PER
 ekwuola O
 na O
 ya O
@@ -1918,7 +1918,7 @@ enye O
 mmadụ O
 . O
 
-Obasanjo O
+Obasanjo B-PER
 chịrị O
 Naịjirịa B-LOC
 afọ O
@@ -1930,9 +1930,9 @@ kwuo O
 uche O
 ya O
 
-Obasanjo O
+Obasanjo B-PER
 chịrị O
-Naịjirịa B-LOC
+Naịjirịa O
 afọ O
 asatọ O
 na O
@@ -1949,7 +1949,7 @@ n'ekwenye O
 na O
 akwụkwọ O
 a O
-Obasanjo O
+Obasanjo B-PER
 degara O
 onyeisiala O
 bụ O
@@ -1969,7 +1969,7 @@ ya O
 , O
 kwuo O
 na O
-Obasanjo O
+Obasanjo B-PER
 bụ O
 onye O
 ama O
@@ -2043,8 +2043,8 @@ emenyu O
 ọkụ O
 na O
 , O
-Legọọsi O
-steeti O
+Legọọsi B-LOC
+steeti I-LOC
 bụ O
 Rasak O
 Fadipe O
@@ -2080,10 +2080,10 @@ ya O
 , O
 gbaara O
 ọkụ O
-n'Ojo B-LOC
+n'Ojo O
 , O
-Lagos B-LOC
-Steeti I-LOC
+Lagos O
+Steeti O
 . O
 
 Nke O
@@ -2100,8 +2100,8 @@ n'ebe O
 ahụ O
 . O
 
-Rasak O
-Fadipe O
+Rasak B-PER
+Fadipe I-PER
 gwara O
 ndị O
 ntaakụkọ O
@@ -2197,20 +2197,20 @@ Emergency O
 Management O
 Agency O
 ( O
-NEMA B-ORG
+NEMA O
 ) O
 enyemaka O
 ịmenyụ O
 ọkụ O
 ahụ O
-n'elekere B-DATE
-atọ I-DATE
-na I-DATE
-nkeji I-DATE
-iri I-DATE
-atọ I-DATE
-nke I-DATE
-ehihe I-DATE
+n'elekere O
+atọ O
+na O
+nkeji O
+iri O
+atọ O
+nke O
+ehihe O
 """" O
 
 Olayinka B-PER
@@ -2240,7 +2240,7 @@ ala O
 Onye O
 isi O
 ndịuweojii O
-n'Ijegun O
+n'Ijegun B-LOC
 bụ O
 SP O
 Audu O
@@ -2270,16 +2270,16 @@ Ugbua O
 , O
 ndi O
 obibi O
-Ijegun O
-Ibasa O
+Ijegun B-LOC
+Ibasa I-LOC
 ekwuola O
 na O
 ha O
 chọrọ O
 ka O
 gọọmentị O
-Lagos B-LOC
-steetị I-LOC
+Lagos O
+steetị O
 guzobe O
 ulọ O
 mmenyụ O
@@ -2304,7 +2304,7 @@ Niger B-LOC
 
 Ndị O
 agha O
-Amerịka O
+Amerịka B-LOC
 si O
 na O
 ha O
@@ -2333,7 +2333,7 @@ ha O
 bụ O
 ndi O
 agha O
-Amerịka O
+Amerịka B-LOC
 ndị O
 oyi O
 egwu O
@@ -2343,7 +2343,7 @@ afọ B-DATE
 2017 I-DATE
 na O
 mba O
-Niger O
+Niger B-LOC
 . O
 
 Ozi O
@@ -2352,19 +2352,19 @@ na O
 mpahara O
 ndị O
 agha O
-Amerika O
+Amerika B-LOC
 na O
 ahụ O
 maka O
-Afrịka B-LOC
+Afrịka O
 a O
 na O
 - O
 akpọ O
-African B-ORG
-command I-ORG
+African O
+command O
 ( O
-USAFRICOM O
+USAFRICOM B-ORG
 ) O
 siri O
 : O
@@ -2373,7 +2373,7 @@ Anyi O
 na O
 enyocha O
 akara O
-twitter B-ORG
+twitter O
 bu O
 ozi O
 a O
@@ -2415,10 +2415,10 @@ nyocha O
 . O
 
 Na O
-ọctoba O
-4 O
-, O
-2017 O
+ọctoba B-DATE
+4 I-DATE
+, I-DATE
+2017 I-DATE
 , O
 mmadụ O
 iri O
@@ -2433,7 +2433,7 @@ iri O
 atọ O
 ndị O
 agha O
-Niger B-LOC
+Niger O
 ka O
 ndị O
 oyi O
@@ -2451,7 +2451,7 @@ na O
 anyanwụ O
 nke O
 mba O
-Niger B-LOC
+Niger O
 . O
 
 Akụkọ O
@@ -2515,7 +2515,7 @@ sikọrọ O
 ozu O
 ndị O
 agha O
-Amerịka B-LOC
+Amerịka O
 na O
 otu O
 onye O
@@ -2543,7 +2543,7 @@ egwu O
 no O
 na O
 mpahara O
-Niger O
+Niger B-LOC
 ahu O
 . O
 
@@ -2557,12 +2557,12 @@ agha O
 nari O
 asato O
 na O
-Niger B-LOC
+Niger O
 , O
-ụlọ O
-nta O
-akụkọ O
-Hill O
+ụlọ B-ORG
+nta I-ORG
+akụkọ I-ORG
+Hill I-ORG
 , O
 bụ O
 ndị O
@@ -2590,7 +2590,7 @@ Super O
 Falcons O
 nke O
 ala O
-Naijiria B-LOC
+Naijiria O
 enwela O
 onye O
 nkụzi O
@@ -2598,8 +2598,8 @@ nkụzi O
 aha O
 ya O
 bụ O
-Thomas B-PER
-Dennerby I-PER
+Thomas O
+Dennerby O
 . O
 
 Onye O
@@ -2608,7 +2608,7 @@ otu O
 egwuregwu O
 bọọlụ O
 na O
-Naijiria O
+Naijiria B-LOC
 bụ O
 Amajụ B-PER
 Pinnick I-PER
@@ -2616,7 +2616,7 @@ kwuru O
 nke O
 a O
 n'elu O
-Twita B-ORG
+Twita O
 . O
 
 Super B-ORG
@@ -2627,7 +2627,7 @@ asọmpi O
 iko O
 ụmụ O
 nwanyị O
-Afrika B-LOC
+Afrika O
 ugboro O
 asaa O
 
@@ -2647,12 +2647,12 @@ bidoro O
 na O
 - O
 ekele O
-Pinnick B-PER
+Pinnick O
 n'elu O
 Twita O
 . O
 
-Dennerby O
+Dennerby B-PER
 bụ O
 onye O
 egwuregwu O
@@ -2701,7 +2701,7 @@ nke O
 otu O
 Allsvenskan B-ORG
 na O
-Hammarby B-ORG
+Hammarby O
 na O
 afọ O
 2001 O
@@ -2757,8 +2757,8 @@ a O
 pụtara O
 mgbe O
 ndi O
-Amnesty B-ORG
-International I-ORG
+Amnesty O
+International O
 kwuru O
 na O
 ndi O
@@ -2766,7 +2766,7 @@ agha O
 ugbọ O
 elu O
 ala O
-Nigeria B-LOC
+Nigeria O
 jiri O
 ụgbọ O
 elu O
@@ -2815,7 +2815,7 @@ na O
 ha O
 napụrụ O
 ndi O
-numan B-LOC
+numan O
 na O
 obodo O
 ndị O
@@ -2844,8 +2844,8 @@ bu O
 Air O
 Vice O
 Marshal O
-Adetokunbo O
-Adesanya O
+Adetokunbo B-PER
+Adesanya I-PER
 kwuru O
 na O
 ndi O
@@ -2898,13 +2898,13 @@ afọ O
 Adesanya O
 kọwara O
 na O
-ubọchi O
-nke O
-anọ O
-december O
-na O
-afọ O
-2017 O
+ubọchi B-DATE
+nke I-DATE
+anọ I-DATE
+december I-DATE
+na I-DATE
+afọ I-DATE
+2017 I-DATE
 , O
 a O
 kpọrọ O
@@ -2923,10 +2923,10 @@ na O
 ada O
 na O
 obodo O
-Numan O
+Numan B-LOC
 na O
-Adamawa B-LOC
-state I-LOC
+Adamawa O
+state O
 , O
 mgbe O
 ha O
@@ -2978,7 +2978,7 @@ obodo O
 
 Gọọmenti O
 mba O
-US O
+US B-LOC
 mechiri O
 n'izu O
 gara O
@@ -2993,7 +2993,7 @@ ha O
 
 Onyeisiala O
 mba O
-Amerịka B-LOC
+Amerịka O
 bụ O
 Donald O
 Trump O
@@ -3005,7 +3005,7 @@ mbụ O
 gbasara O
 etu O
 ọchịchị O
-Amerịka O
+Amerịka B-LOC
 si O
 aga O
 kamgbe O
@@ -3016,7 +3016,7 @@ n'afọ O
 2017 O
 . O
 
-Trump O
+Trump B-PER
 site O
 na O
 mgbasa O
@@ -3033,7 +3033,7 @@ enye O
 ndị O
 otu O
 pati O
-Demokrat O
+Demokrat B-ORG
 ohere O
 ka O
 ha O
@@ -3052,8 +3052,8 @@ a O
 na O
 - O
 akpọ O
-Guantanamo O
-Bay O
+Guantanamo B-ORG
+Bay I-ORG
 ghere O
 oghe O
 na O
@@ -3063,9 +3063,9 @@ iwu O
 onye O
 buburu O
 onyeisiala O
-Amerịka B-LOC
+Amerịka O
 bụ O
-Obama B-PER
+Obama O
 nyere O
 ka O
 emechie O
@@ -3086,7 +3086,7 @@ anabataghị O
 onyeisiala O
 ha O
 bụ O
-Trump O
+Trump B-PER
 . O
 
 Ndị O
@@ -3100,7 +3100,7 @@ Panther O
 """" O
 goziri O
 omenala O
-Afrịka O
+Afrịka B-LOC
 mgbe O
 ha O
 gara O
@@ -3121,7 +3121,7 @@ niile O
 kere O
 ekike O
 mba O
-Afrịka B-LOC
+Afrịka O
 di O
 icheiche O
 maka O
@@ -3139,14 +3139,14 @@ nke O
 ọma O
 . O
 
-Chadwick O
-Boseman O
+Chadwick B-PER
+Boseman I-PER
 bụ O
 onye O
 jere O
 ozi O
 dịka O
-T'Challa O
+T'Challa B-PER
 , O
 Eze O
 mba O
@@ -3185,24 +3185,24 @@ Angeles O
 
 Ndị O
 dịka O
-Lupita O
-Nyong'o O
+Lupita B-PER
+Nyong'o I-PER
 , O
-David O
-Oyelowo O
+David B-PER
+Oyelowo I-PER
 , O
 Daniel B-PER
 Kaluuya I-PER
 , O
-Michael O
-B O
-Jordan O
+Michael B-PER
+B I-PER
+Jordan I-PER
 , O
-Danai O
-Gurira O
+Danai B-PER
+Gurira I-PER
 na O
-Angela O
-Bassett O
+Angela B-PER
+Bassett I-PER
 kere O
 ekike O
 ndị O
@@ -3227,7 +3227,7 @@ ka O
 """" O
 ndị O
 eze O
-Afrịka O
+Afrịka B-LOC
 """" O
 . O
 
@@ -3246,18 +3246,18 @@ bịa O
 emume O
 a O
 
-Janeshia O
-Adams O
-- O
-Ginyard O
+Janeshia B-PER
+Adams I-PER
+- I-PER
+Ginyard I-PER
 nọchitere O
 anya O
 Danai B-PER
 Gurari I-PER
 dịka O
-Okoye O
-Dora O
-Milaje O
+Okoye B-PER
+Dora I-PER
+Milaje I-PER
 na O
 ihe O
 nkiri O
@@ -3267,7 +3267,7 @@ Lupita O
 Nyong'o O
 bụ O
 onye O
-Kenya O
+Kenya B-LOC
 nweterela O
 ihe O
 nrite O
@@ -3283,28 +3283,28 @@ na O
 akpọ O
 Oscar O
 
-Chadwick B-PER
-Boseman I-PER
+Chadwick O
+Boseman O
 bụ O
 onye O
 mere O
 ka O
-T'Challa O
+T'Challa B-PER
 n'ihe O
 nkiri O
 a O
 
-Danai O
-Gurira O
+Danai B-PER
+Gurira I-PER
 bụ O
 nwa O
 afọ O
 Zimbabwe O
 mere O
 ka O
-Okoye O
-Dora O
-Milaje O
+Okoye B-PER
+Dora I-PER
+Milaje I-PER
 n'ime O
 ihe O
 nkiri O
@@ -3323,7 +3323,7 @@ nkiri O
 ndị O
 ọzọ O
 na O
-Hollywood O
+Hollywood B-ORG
 bido O
 ije O
 omume O
@@ -3340,7 +3340,7 @@ Benin B-LOC
 Izupu O
 ụmụnwaanyị O
 n'ala O
-Naijirịa B-LOC
+Naijirịa O
 na O
 - O
 eweta O
@@ -3458,15 +3458,15 @@ Italy B-LOC
 , O
 Germany O
 nakwa O
-Denmark O
+Denmark B-LOC
 . O
 
 Onyeisi O
 ala O
 US O
 bụ O
-Donald O
-Trump O
+Donald B-PER
+Trump I-PER
 kwuola O
 na O
 ya O
@@ -3484,8 +3484,8 @@ akwụkwọ O
 ozi O
 , O
 ngalaba O
-'US O
-Department' O
+'US B-ORG
+Department' I-ORG
 tinyere O
 na O
 websait O
@@ -3496,8 +3496,8 @@ kwuru O
 sị O
 : O
 """" O
-Yunaited O
-Steeti O
+Yunaited B-LOC
+Steeti I-LOC
 na O
 - O
 enwe O
@@ -3542,18 +3542,18 @@ nke O
 megidere O
 Iwu O
 ala O
-Kenya O
+Kenya B-LOC
 . O
 
 """" O
 A O
 họpụtara O
-Uhuru O
-Kenyatta O
+Uhuru B-PER
+Kenyatta I-PER
 dịka O
 onyeisi O
 ala O
-Kenya O
+Kenya B-LOC
 ka O
 ọnwa O
 Ọctoba O
@@ -3592,7 +3592,7 @@ US B-LOC
 katọkwara O
 otu O
 gọọmentị O
-Kenya O
+Kenya B-LOC
 siri O
 mechie O
 ụlọ O
@@ -3628,7 +3628,7 @@ na O
 - O
 achị O
 na O
-Kenya O
+Kenya B-LOC
 bido O
 mkparịta O
 ụka O
@@ -3669,7 +3669,7 @@ ntaakụkọ O
 atọ O
 . O
 
-Cheta O
+Cheta B-PER
 na O
 Gọọmenti O
 etiti O
@@ -3684,8 +3684,8 @@ ha O
 gbasara O
 ozi O
 gosịrị O
-Raila O
-Odinga O
+Raila B-PER
+Odinga I-PER
 ebe O
 ọ O
 na O
@@ -3701,7 +3701,7 @@ onwe O
 ya O
 onyeisiala O
 mba O
-Kenya B-LOC
+Kenya O
 , O
 ebe O
 ulọikpe O
@@ -3709,8 +3709,8 @@ Kenya B-LOC
 akwụsịrị O
 mmechi O
 ahụ O
-ụbọchị B-DATE
-Wenesde I-DATE
+ụbọchị O
+Wenesde O
 . O
 
 kansa O
@@ -3751,7 +3751,7 @@ siri O
 kwuo O
 na O
 mba O
-UK B-LOC
+UK O
 . O
 
 Ụmụnwoke O
@@ -3781,7 +3781,7 @@ kansa O
 nọ O
 na O
 mba O
-UK O
+UK B-LOC
 kwuru O
 na O
 nchọpụta O
@@ -3869,8 +3869,8 @@ Igbo O
 gbara O
 Dọkịnta O
 akpọrọ O
-Remi B-PER
-Ajekigbe I-PER
+Remi O
+Ajekigbe O
 ajụjụ O
 ọnụ O
 , O
@@ -4003,9 +4003,9 @@ akpọ O
 , O
 'APC' O
 bụ O
-Bola O
-Ahmed O
-Tinubu O
+Bola B-PER
+Ahmed I-PER
+Tinubu I-PER
 ekwupụtala O
 okwu O
 maka O
@@ -4041,7 +4041,7 @@ n'okpuru O
 ndị O
 agha O
 , O
-Obasanjo B-PER
+Obasanjo O
 kwesiri O
 ịkpọ O
 ya O
@@ -4063,7 +4063,7 @@ O O
 ruola O
 izuụka O
 abụọ O
-Obasanjo O
+Obasanjo B-PER
 degara O
 Buhari O
 edemede O
@@ -4079,8 +4079,8 @@ ghara O
 ịzọ O
 ọchịchị O
 na O
-afọ O
-2019 O
+afọ B-DATE
+2019 I-DATE
 . O
 
 Ọ O
@@ -4117,7 +4117,7 @@ ajụjụ O
 na O
 Owere O
 ( O
-Owerri O
+Owerri B-LOC
 ) O
 ka O
 ọ O
@@ -4141,7 +4141,7 @@ mgbasa O
 ozi O
 onyeisi O
 ala O
-Naijiria O
+Naijiria B-LOC
 bụ O
 Garba B-PER
 Shehu I-PER
@@ -4162,8 +4162,8 @@ mmadụ O
 e O
 gburu O
 na O
-Benue O
-steeti O
+Benue B-LOC
+steeti I-LOC
 . O
 
 Shehu B-PER
@@ -4178,7 +4178,7 @@ ala O
 ugwu O
 maka O
 na O
-Buhari B-PER
+Buhari O
 bụ O
 onye O
 na O
@@ -4198,7 +4198,7 @@ ndị O
 ekweghị O
 na O
 mkparịtaụka O
-BBC O
+BBC B-ORG
 na O
 - O
 aka O
@@ -4218,12 +4218,12 @@ bụ O
 onye O
 okaiwu O
 gwara O
-BBC O
+BBC B-ORG
 Igbo O
 n'elu O
 ekwentị O
 na O
-Buhari B-PER
+Buhari O
 bụ O
 onye O
 megburu O
@@ -4236,7 +4236,7 @@ Aka O
 o O
 ji O
 achị O
-Naijiria B-LOC
+Naijiria O
 esighị O
 ike O
 chacha O
@@ -4269,7 +4269,7 @@ mere O
 dị O
 zị O
 ka O
-Buhari B-PER
+Buhari O
 amaghị O
 ihe O
 na O
@@ -4343,7 +4343,7 @@ aga O
 n'ihu O
 . O
 
-Falana B-PER
+Falana O
 kwuru O
 na O
 """" O
@@ -4382,7 +4382,7 @@ abụọ O
 . O
 
 N'oge O
-Obasanjọ O
+Obasanjọ B-PER
 , O
 e O
 gburu O
@@ -4398,7 +4398,7 @@ ichiche O
 . O
 """" O
 
-Falana O
+Falana B-PER
 kwukwara O
 na O
 """" O
@@ -4420,7 +4420,7 @@ ada O
 bụghị O
 maka O
 ọchịchị O
-Buhari B-PER
+Buhari O
 . O
 """" O
 
@@ -4428,11 +4428,11 @@ Mana O
 onye O
 okaiwu O
 bụ O
-Lanre B-PER
-Lasisi I-PER
+Lanre O
+Lasisi O
 ekwetaghị O
 n'okwu O
-Falana O
+Falana B-PER
 kwuru O
 . O
 
@@ -4473,7 +4473,7 @@ gburu O
 ndị O
 Fulani O
 na O
-Gboko O
+Gboko B-LOC
 , O
 ndị O
 uweojii O
@@ -4500,14 +4500,14 @@ na O
 akatọ O
 Buhari B-PER
 , O
-Lasisi B-PER
+Lasisi O
 gwara O
 BBC B-ORG
 na O
 ndị O
-Naijiria O
+Naijiria B-LOC
 enwerela O
-Buhari B-PER
+Buhari O
 ndidi O
 ebe O
 ọ O
@@ -4533,11 +4533,11 @@ Chukwuemeka B-PER
 Eze I-PER
 rịọrọ O
 ndị O
-Naijiria B-LOC
+Naijiria O
 ka O
 ha O
 nwere O
-Buhari O
+Buhari B-PER
 ndidi O
 . O
 
@@ -4585,11 +4585,11 @@ aha O
 agha O
 ebidoro O
 ibuso O
-Boko O
-Haram O
+Boko B-ORG
+Haram I-ORG
 kamgbe O
-afọ O
-2015 O
+afọ B-DATE
+2015 I-DATE
 . O
 
 Onye O
@@ -4603,8 +4603,8 @@ maka O
 ahụike O
 onyeisi O
 otu O
-Boko O
-Haram O
+Boko B-ORG
+Haram I-ORG
 bụ O
 Rabi B-PER
 Abu I-PER
@@ -4631,8 +4631,8 @@ a O
 na O
 - O
 akpọ O
-Lafia B-ORG
-Dole I-ORG
+Lafia O
+Dole O
 . O
 
 Onye O
@@ -4643,8 +4643,8 @@ Dole I-ORG
 bụ O
 Major O
 General O
-Rogers O
-Nicholas O
+Rogers B-PER
+Nicholas I-PER
 kwupụtara O
 nke O
 a O
@@ -4674,8 +4674,8 @@ ndị O
 ọrụ O
 nchekwa O
 na O
-Borno B-LOC
-steti I-LOC
+Borno O
+steti O
 . O
 
 Rabi O
@@ -4696,8 +4696,8 @@ onyeisi O
 Boko O
 Haram O
 bụ O
-Abubakar B-PER
-Shekau I-PER
+Abubakar O
+Shekau O
 . O
 
 O O
@@ -4711,15 +4711,15 @@ Fraide I-DATE
 dịka O
 ndị O
 agha O
-Naịjirịa O
+Naịjirịa B-LOC
 chụpụrụ O
 ndị O
-Boko O
-Haram O
+Boko B-ORG
+Haram I-ORG
 nọ O
 nime O
-ọhịa O
-Sambisa O
+ọhịa B-LOC
+Sambisa I-LOC
 . O
 
 Dịka O
@@ -4792,7 +4792,7 @@ Etu O
 esi O
 eme O
 m O
-Rabi B-PER
+Rabi O
 dịka O
 nwunye O
 dibia O
@@ -4857,7 +4857,7 @@ chosi O
 Shekau O
 ike O
 na O
-Naịjirịa O
+Naịjirịa B-LOC
 ugbua O
 . O
 
@@ -4882,7 +4882,7 @@ ha O
 mana O
 ndị O
 agha O
-Naịjirịa B-LOC
+Naịjirịa O
 na O
 - O
 eledo O
@@ -4893,8 +4893,8 @@ na O
 abụghị O
 ihe O
 ndị O
-Boko O
-Haram O
+Boko B-ORG
+Haram I-ORG
 gwara O
 nyị O
 . O
@@ -4932,7 +4932,7 @@ ndị O
 agha O
 . O
 
-Nichola O
+Nichola B-PER
 bụ O
 onye O
 nchịkọta O
@@ -4941,7 +4941,7 @@ Lafia O
 Dole O
 kọwara O
 na O
-Rabi B-PER
+Rabi O
 sọ O
 na O
 mmadụ O
@@ -4971,10 +4971,10 @@ na O
 - O
 anata O
 ọgwụgwọ O
-n'ụlọọgwụ O
-ndị O
-agha O
-elu O
+n'ụlọọgwụ B-ORG
+ndị I-ORG
+agha I-ORG
+elu I-ORG
 Naịjirịa O
 . O
 
@@ -4995,8 +4995,8 @@ di O
 egwu O
 n'aka O
 ndị O
-Boko B-ORG
-Haram I-ORG
+Boko O
+Haram O
 . O
 
 Nicholas B-PER
@@ -5060,12 +5060,12 @@ ndị O
 bekee O
 ịbia O
 ọrụ O
-abalị O
-atọ O
-n'izuụka O
+abalị B-DATE
+atọ I-DATE
+n'izuụka I-DATE
 . O
 
-Okorocha B-PER
+Okorocha O
 kwuru O
 nke O
 a O
@@ -5104,7 +5104,7 @@ machiri O
 ịkwụ O
 ụgwọ O
 akwụkwọ O
-n'Imo B-LOC
+n'Imo O
 steetị O
 mgbe O
 ọ O
@@ -5121,11 +5121,11 @@ ga O
 amalite O
 ịga O
 ọrụ O
-ụbọchị O
-ise O
-n'ime O
-otu O
-izu O
+ụbọchị B-DATE
+ise I-DATE
+n'ime I-DATE
+otu I-DATE
+izu I-DATE
 site O
 n'ụbọchị O
 mbụ O
@@ -5137,7 +5137,7 @@ na O
 nke O
 jibu O
 obodo O
-Naịjirịa B-LOC
+Naịjirịa O
 ebeela O
 . O
 
@@ -5165,7 +5165,7 @@ Naijiria B-LOC
 Ha O
 sị O
 na O
-Idris B-PER
+Idris O
 enweghị O
 ike O
 ibelata O
@@ -5211,16 +5211,16 @@ omeiwu O
 mere O
 sotere O
 oku O
-Nuhu B-PER
-Damburam I-PER
+Nuhu O
+Damburam O
 bụ O
 onye O
 otu O
-APC B-ORG
+APC O
 na O
 - O
 anọchite O
-Kano O
+Kano B-LOC
 , O
 kpọrọ O
 maka O
@@ -5237,8 +5237,8 @@ na O
 - O
 akpazi O
 na O
-Kano B-LOC
-steeti I-LOC
+Kano O
+steeti O
 . O
 
 O O
@@ -5275,8 +5275,8 @@ aga O
 , O
 Sineeti O
 kpọrọ O
-Ibrahim B-PER
-Idris I-PER
+Ibrahim O
+Idris O
 oku O
 ka O
 ọ O
@@ -5293,8 +5293,8 @@ na O
 achị O
 ahụ O
 wakporo O
-Steeti O
-Benue O
+Steeti B-LOC
+Benue I-LOC
 ma O
 gbuo O
 mmadụ O
@@ -5322,7 +5322,7 @@ Philip O
 Catholic O
 Church O
 , O
-Ozobulu O
+Ozobulu B-LOC
 gbagbu O
 mmadụ O
 iri O
@@ -5336,14 +5336,14 @@ n' O
 afọ I-DATE
 2017 I-DATE
 
-Chukwujekwu B-PER
-Eze I-PER
+Chukwujekwu O
+Eze O
 kwuru O
 n'ụlọikpe B-ORG
 ukwu I-ORG
 dị O
 na O
-Nnewi O
+Nnewi B-LOC
 , O
 Anambara O
 Steeti O
@@ -5391,16 +5391,16 @@ biara O
 ụka O
 na O
 , O
-St O
-Philip O
-Catholic O
-Church O
+St B-ORG
+Philip I-ORG
+Catholic I-ORG
+Church I-ORG
 , O
-Ozobulu B-LOC
-n'ọnwa O
-Ọgọstụ O
-afọ O
-2017 O
+Ozobulu O
+n'ọnwa B-DATE
+Ọgọstụ I-DATE
+afọ I-DATE
+2017 I-DATE
 . O
 
 """" O
@@ -5413,8 +5413,8 @@ zuru O
 oke O
 """" O
 
-Chukwujekwu B-PER
-Eze I-PER
+Chukwujekwu O
+Eze O
 kwuru O
 sị O
 : O
@@ -5427,7 +5427,7 @@ nwoke O
 aha O
 ya O
 bụ O
-Okpanda O
+Okpanda B-PER
 onye O
 gwara O
 m O
@@ -5463,9 +5463,9 @@ ndị O
 mmadụ O
 ụgwọ O
 na O
-Saụt B-LOC
-- I-LOC
-Afrịka I-LOC
+Saụt O
+- O
+Afrịka O
 , O
 na O
 ha O
@@ -5494,7 +5494,7 @@ asị O
 na O
 ọ O
 bụ O
-Obrocho O
+Obrocho B-PER
 . O
 
 Mgbe O
@@ -5502,7 +5502,7 @@ m O
 kwulitere O
 ya O
 , O
-Okpanda O
+Okpanda B-PER
 , O
 kwuru O
 na O
@@ -5548,7 +5548,7 @@ mgbe O
 gara O
 ịza O
 oku O
-Okpanda O
+Okpanda B-PER
 kpọrọ O
 ya O
 n'ụlọ O
@@ -5560,7 +5560,7 @@ ahụ O
 ka O
 ọ O
 hụrụ O
-Dobby O
+Dobby B-PER
 ( O
 Onyemaechi O
 Mbanefo B-PER
@@ -5613,8 +5613,8 @@ ahụ O
 mere O
 bụ O
 : O
-Onyebuchi B-PER
-Mbanefo I-PER
+Onyebuchi O
+Mbanefo O
 , O
 46 O
 , O
@@ -5623,9 +5623,9 @@ Ugwu I-PER
 , O
 30 O
 na O
-Great O
-Chinedu O
-Akpunonu O
+Great B-PER
+Chinedu I-PER
+Akpunonu I-PER
 , O
 44 O
 . O
@@ -5658,7 +5658,7 @@ Igbo O
 
 Egbuola O
 ndịagha O
-Naịjirịa O
+Naịjirịa B-LOC
 abụọ O
 na O
 Plateau B-LOC
@@ -5688,8 +5688,8 @@ England B-LOC
 Onye O
 nchịkọta O
 otu O
-Manchester O
-United O
+Manchester B-ORG
+United I-ORG
 bụ O
 Jose B-PER
 Mourinho I-PER
@@ -5737,10 +5737,10 @@ ikpeazụ O
 achụpụrụ O
 ya O
 bụ O
-Septemba O
-23 O
-nke O
-2017 O
+Septemba B-DATE
+23 I-DATE
+nke I-DATE
+2017 I-DATE
 ) O
 . O
 
@@ -5905,7 +5905,7 @@ ekwu O
 na O
 ụgbọelụ O
 ndị O
-Russia O
+Russia B-LOC
 e O
 jị O
 ebu O
@@ -5921,7 +5921,7 @@ iri O
 asatọ O
 ọ O
 hapụchara O
-Moscow O
+Moscow B-LOC
 . O
 
 Ụgbọelu O
@@ -6009,7 +6009,7 @@ Barcelona O
 gawa O
 PSG B-ORG
 
-Neymar O
+Neymar B-PER
 siri O
 otu O
 bọọlụ O
@@ -6024,7 +6024,7 @@ na O
 akwado O
 igba O
 asọmpi O
-Eufa B-ORG
+Eufa O
 Champions O
 nke O
 agba O
@@ -6053,11 +6053,11 @@ Onye O
 na O
 - O
 agbara O
-Madrid O
+Madrid B-ORG
 bọọlụ O
 bụ O
-Dani B-PER
-Carvajal I-PER
+Dani O
+Carvajal O
 kwuru O
 na O
 onweghi O
@@ -6075,7 +6075,7 @@ na O
 atụ O
 anya O
 ka O
-Neymar B-PER
+Neymar O
 laa O
 ezụmike O
 n'otu O
@@ -6089,7 +6089,7 @@ iyi O
 egwu O
 nye O
 ndị O
-Madrid B-ORG
+Madrid O
 dịka O
 ha O
 na O
@@ -6104,7 +6104,7 @@ nke O
 mbụ O
 . O
 
-Carvajal B-PER
+Carvajal O
 , O
 onye O
 na O
@@ -6145,7 +6145,7 @@ nke O
 sikwa O
 ka O
 ndị O
-Madrid O
+Madrid B-ORG
 """" O
 Nwe O
 olileanya O
@@ -6185,7 +6185,7 @@ ndị O
 a O
 . O
 
-Maiduguri O
+Maiduguri B-LOC
 dịna O
 Naịjirịa B-LOC
 bụ O
@@ -6194,9 +6194,9 @@ agha O
 kacha O
 adaụda O
 
-Maiduguri O
+Maiduguri B-LOC
 dịna O
-Naịjirịa O
+Naịjirịa B-LOC
 bụ O
 ebe O
 agha O
@@ -6205,10 +6205,10 @@ kacha O
 adaụda O
 
 Onyeisiala O
-Nịajirịa B-LOC
+Nịajirịa O
 bụ O
-Mohammadu B-PER
-Buhari I-PER
+Mohammadu O
+Buhari O
 ekwuola O
 oge O
 niile O
@@ -6220,7 +6220,7 @@ Boko O
 Haram O
 mana O
 nyocha O
-BBC O
+BBC B-ORG
 mere O
 n'egosi O
 ihe O
@@ -6241,8 +6241,8 @@ mmadụ O
 karịrị O
 narị O
 itoolu O
-n'afọ B-DATE
-2017 I-DATE
+n'afọ O
+2017 O
 karịa O
 ndị O
 ha O
@@ -6261,7 +6261,7 @@ afọ O
 nke O
 megidere O
 ihe O
-Buhari O
+Buhari B-PER
 kwuru O
 na O
 asụpụla O
@@ -6299,8 +6299,8 @@ njọ O
 Kedu O
 ndị O
 bụ O
-Boko O
-Haram O
+Boko B-ORG
+Haram I-ORG
 ? O
 
 Boko B-ORG
@@ -6308,7 +6308,7 @@ Haram I-ORG
 malitere O
 ibuso O
 Gọọmenti O
-Naịjirịa B-LOC
+Naịjirịa O
 agha O
 n'afọ O
 2009 O
@@ -6332,7 +6332,7 @@ mpaghara O
 - O
 ugwu O
 nke O
-Naịjirịa B-LOC
+Naịjirịa O
 ebe O
 ọgbaghara O
 a O
@@ -6352,7 +6352,7 @@ ha O
 
 Maiduguri B-LOC
 dịna O
-Naịjirịa O
+Naịjirịa B-LOC
 bụ O
 ebe O
 agha O
@@ -6366,14 +6366,14 @@ nke O
 onyeisi O
 ya O
 bụ O
-Abubakar B-PER
-Shekau I-PER
+Abubakar O
+Shekau O
 kpọrọisi O
 ala O
 nye O
 otu O
-Islamic B-LOC
-State I-LOC
+Islamic O
+State O
 ( O
 IS B-LOC
 ) O
@@ -6381,8 +6381,8 @@ na O
 Maachị B-DATE
 2015 I-DATE
 
-Boko B-ORG
-Haram I-ORG
+Boko O
+Haram O
 kewara O
 n'ime O
 otu O
@@ -6391,7 +6391,7 @@ icheiche O
 n'ọgọsụtụ O
 2016 O
 mgbe O
-IS O
+IS B-LOC
 kwuru O
 na O
 ewepụla O
@@ -6404,13 +6404,13 @@ ntaakụkọ O
 lekwasịrị O
 anya O
 na O
-Naịjirịa B-LOC
+Naịjirịa O
 bụ O
-Andrew B-PER
-Walker I-PER
+Andrew O
+Walker O
 gwara O
 ndị O
-BBC O
+BBC B-ORG
 Monitoring O
 na O
 ọdịghị O
@@ -6455,8 +6455,8 @@ nkọwa O
 na O
 ebe O
 ndị O
-Boko O
-Haram O
+Boko B-ORG
+Haram I-ORG
 wakporo O
 
 Ọnụọgụgụnwakpo O
@@ -6470,8 +6470,8 @@ ebe O
 Akụkọ O
 kwuru O
 na O
-Boko O
-Haram O
+Boko B-ORG
+Haram I-ORG
 mere O
 nwakpo O
 dị O
@@ -6480,8 +6480,8 @@ narị O
 na O
 iri O
 ise O
-n'afọ O
-2017 O
+n'afọ B-DATE
+2017 I-DATE
 , O
 nke O
 karịrị O
@@ -6507,14 +6507,14 @@ ha O
 mere O
 nwakpo O
 karịsịa O
-n'ọnwa O
-Jenụwarị O
+n'ọnwa B-DATE
+Jenụwarị I-DATE
 , O
 nke O
 megidere O
 ihe O
 onyeisiala O
-Buhari B-PER
+Buhari O
 kwuru O
 na O
 ha O
@@ -6529,14 +6529,14 @@ awakpo O
 otu O
 ebe O
 kamgbe O
-afọ B-DATE
-abụọ I-DATE
-gara I-DATE
-- I-DATE
-aga I-DATE
+afọ O
+abụọ O
+gara O
+- O
+aga O
 . O
 
-Naịjirịa O
+Naịjirịa B-LOC
 bụ O
 ebe O
 akacha O
@@ -6546,8 +6546,8 @@ n'afọ O
 na O
 2017 B-DATE
 dịka O
-Borno O
-Steeti O
+Borno B-LOC
+Steeti I-LOC
 bụ O
 ebe O
 nwakpo O
@@ -6556,7 +6556,7 @@ bidoro O
 . O
 
 Mba O
-Nijee O
+Nijee B-LOC
 nwetara O
 nwakpo O
 kachasị O
@@ -6568,7 +6568,7 @@ mba O
 ndị O
 ọzọ O
 dịka O
-kameruun O
+kameruun B-LOC
 , O
 Chadị B-LOC
 na O
@@ -6607,9 +6607,9 @@ nwakpo O
 ha O
 na O
 mpaghara O
-Kameruun O
+Kameruun B-LOC
 na O
-Chadị B-LOC
+Chadị O
 karịrị O
 na O
 ndị O
@@ -6625,7 +6625,7 @@ N'ime O
 ozi O
 a O
 , O
-Naịjirịa B-LOC
+Naịjirịa O
 nwetara O
 nwakpo O
 ejiri O
@@ -6644,8 +6644,8 @@ iri O
 atọ O
 na O
 asatọ O
-n'afọ B-DATE
-2017 I-DATE
+n'afọ O
+2017 O
 , O
 ebe O
 Kameruun B-LOC
@@ -6664,7 +6664,7 @@ na O
 mpaghara O
 Maiduguri O
 nke O
-Naịjirịa B-LOC
+Naịjirịa O
 . O
 
 Ọnụ O
@@ -6677,8 +6677,8 @@ arị O
 elu O
 
 Ndị O
-Boko O
-Haram O
+Boko B-ORG
+Haram I-ORG
 gburu O
 ihe O
 karịrị O
@@ -6710,7 +6710,7 @@ gbue O
 ndị O
 mmadụ O
 na O
-Maiduguri O
+Maiduguri B-LOC
 n'afọ B-DATE
 2017 I-DATE
 dịka O
@@ -6729,9 +6729,9 @@ mmadụ O
 bụ O
 n'ime O
 obodo O
-Magumeri B-LOC
+Magumeri O
 , O
-Konduga O
+Konduga B-LOC
 , O
 Damaturu B-LOC
 na O
@@ -6789,8 +6789,8 @@ A O
 matabeghị O
 ihe O
 jịkọtara O
-Boko B-ORG
-Haram I-ORG
+Boko O
+Haram O
 na O
 IS B-LOC
 
@@ -6811,7 +6811,7 @@ otu O
 bụ O
 ihe O
 ndị O
-IS B-LOC
+IS O
 kwetara O
 n'ọbụ O
 ha O
@@ -6832,7 +6832,7 @@ na O
 Ịraakị O
 busoro O
 ndị O
-IS O
+IS B-LOC
 nke O
 mere O
 ha O
@@ -6843,8 +6843,8 @@ ha O
 kpọrọ O
 ụlọ O
 ha O
-n'afọ B-DATE
-2017 I-DATE
+n'afọ O
+2017 O
 . O
 
 Dịka O
@@ -6879,16 +6879,16 @@ jiri O
 esionwu O
 ? O
 
-N'ime B-DATE
-afọ I-DATE
-anọ I-DATE
+N'ime O
+afọ O
+anọ O
 , O
 ndị O
 mmadụ O
 akatọọla O
 ndị O
 isiagha O
-naịjirịa O
+naịjirịa B-LOC
 maka O
 akwadoghi O
 ndị O
@@ -6896,8 +6896,8 @@ agha O
 nkeoma O
 ibuso O
 ndị O
-Boko O
-Haram O
+Boko B-ORG
+Haram I-ORG
 agha O
 
 Nke O
@@ -6910,11 +6910,11 @@ n'afọ O
 dịka O
 ndị O
 mba O
-Amerịka O
+Amerịka B-LOC
 ekwetala O
 iresi O
 ndị O
-Naịjirịa B-LOC
+Naịjirịa O
 Ngwaagha O
 
 Tupu O
@@ -6935,18 +6935,18 @@ iyi O
 ndụ O
 egwu O
 dịka O
-Tomi B-PER
-Oladipo I-PER
+Tomi O
+Oladipo O
 onye O
 ntaakụkọ O
 BBC B-ORG
-Afịrịka B-LOC
+Afịrịka O
 kwuru O
 . O
 
 Ndị O
 agha O
-Naịjirịa O
+Naịjirịa B-LOC
 na O
 - O
 ahụsi O
@@ -6967,8 +6967,8 @@ n'ekwu O
 na O
 ha O
 emeriela O
-Boko O
-Haram O
+Boko B-ORG
+Haram I-ORG
 , O
 ndị O
 otu O
@@ -6989,13 +6989,13 @@ mpaghara O
 ugwu O
 n'akwa O
 mpaghara O
-Chadị O
+Chadị B-LOC
 """" O
 dịka O
 o O
 kwuru O
 
-Oladipo B-PER
+Oladipo O
 kwuru O
 na O
 Boko B-ORG
@@ -7015,9 +7015,9 @@ rute O
 ugbua O
 
 """" O
-N'ime B-DATE
-ọtụtụ I-DATE
-afọ I-DATE
+N'ime O
+ọtụtụ O
+afọ O
 ike O
 ndịa O
 nwere O
@@ -7044,7 +7044,7 @@ ike O
 dị O
 egwu O
 """" O
-Oladipo B-PER
+Oladipo O
 kwuru O
 . O
 
@@ -7065,18 +7065,18 @@ ruru O
 nde O
 na O
 mpaghara O
-Naịjirịa O
+Naịjirịa B-LOC
 , O
-Chadị O
+Chadị B-LOC
 kamgbe O
 ha O
 malitere O
-n'afọ B-DATE
-2009 I-DATE
+n'afọ O
+2009 O
 . O
 
-Boko O
-Haram O
+Boko B-ORG
+Haram I-ORG
 egbuola O
 ihe O
 karịrị O
@@ -7092,7 +7092,7 @@ ruru O
 nde O
 na O
 mpaghara O
-Naịjirịa O
+Naịjirịa B-LOC
 , O
 Chadị B-LOC
 kamgbe O
@@ -7102,15 +7102,15 @@ n'afọ B-DATE
 2009 I-DATE
 . O
 
-Ụlọikpe B-ORG
-ukwu I-ORG
+Ụlọikpe O
+ukwu O
 nke O
 Naịjira O
 amalitela O
 ikpe O
 ndị O
-Boko B-ORG
-Haram I-ORG
+Boko O
+Haram O
 ruru O
 otu O
 puku O
@@ -7120,13 +7120,13 @@ afọ I-DATE
 ikpe O
 nke O
 abụọ O
-n'ụbọchị O
-taa O
+n'ụbọchị B-DATE
+taa I-DATE
 n'ọdọ O
 ndị O
 agha O
 dịna O
-Kaịnji B-LOC
+Kaịnji O
 , O
 ebe O
 a O
@@ -7228,11 +7228,11 @@ A O
 kwụsịrị O
 ikpe O
 n'ịme O
-ọnwa O
-anọ O
-gara O
-- O
-aga O
+ọnwa B-DATE
+anọ I-DATE
+gara I-DATE
+- I-DATE
+aga I-DATE
 , O
 iji O
 nye O
@@ -7259,9 +7259,9 @@ ziriezi O
 kwuru O
 . O
 
-N'ọnwa B-DATE
-ọktoba I-DATE
-2017 I-DATE
+N'ọnwa O
+ọktoba O
+2017 O
 bụ O
 mgbe O
 ikpe O
@@ -7325,8 +7325,8 @@ abịa O
 Cheta B-PER
 na O
 ndị O
-Boko B-ORG
-Haram I-ORG
+Boko O
+Haram O
 egbuola O
 ihe O
 karịrị O
@@ -7342,14 +7342,14 @@ ruru O
 nde O
 na O
 mpaghara O
-Naịjirịa B-LOC
+Naịjirịa O
 , O
 Chadị O
 kamgbe O
 ha O
 malitere O
-n'afọ O
-2009 O
+n'afọ B-DATE
+2009 I-DATE
 . O
 
 Ndị O
@@ -7379,16 +7379,16 @@ na O
 mpaghara O
 Naịjirịa B-LOC
 , O
-Chadị B-LOC
+Chadị O
 kamgbe O
 ha O
 malitere O
-n'afọ B-DATE
-2009 I-DATE
+n'afọ O
+2009 O
 . O
 
-Boko O
-Haram O
+Boko B-ORG
+Haram I-ORG
 egbuola O
 ihe O
 karịrị O
@@ -7404,31 +7404,31 @@ ruru O
 nde O
 na O
 mpaghara O
-Naịjirịa B-LOC
+Naịjirịa O
 , O
-Chadị B-LOC
+Chadị O
 kamgbe O
 ha O
 malitere O
-n'afọ O
-2009 O
+n'afọ B-DATE
+2009 I-DATE
 . O
 
-Ụlọikpe O
-ukwu O
+Ụlọikpe B-ORG
+ukwu I-ORG
 nke O
 Naịjira O
 amalitela O
 ikpe O
 ndị O
-Boko B-ORG
-Haram I-ORG
+Boko O
+Haram O
 ruru O
 otu O
 puku O
 akpọchiri O
-ọtụtụ B-DATE
-afọ I-DATE
+ọtụtụ O
+afọ O
 ikpe O
 nke O
 abụọ O
@@ -7438,7 +7438,7 @@ n'ọdọ O
 ndị O
 agha O
 dịna O
-Kaịnji O
+Kaịnji B-LOC
 , O
 ebe O
 a O
@@ -7479,8 +7479,8 @@ ugwu O
 ruru O
 mmadụ O
 n'akwa O
-Amnesty O
-International O
+Amnesty B-ORG
+International I-ORG
 katọrọ O
 ikpe O
 nke O
@@ -7528,8 +7528,8 @@ agha O
 Ihu O
 foto O
 ndị O
-Boko O
-Haram O
+Boko B-ORG
+Haram I-ORG
 a O
 na O
 - O
@@ -7540,11 +7540,11 @@ A O
 kwụsịrị O
 ikpe O
 n'ịme O
-ọnwa B-DATE
-anọ I-DATE
-gara I-DATE
-- I-DATE
-aga I-DATE
+ọnwa O
+anọ O
+gara O
+- O
+aga O
 , O
 iji O
 nye O
@@ -7556,8 +7556,8 @@ mee O
 nyocha O
 gbasara O
 ndị O
-Boko B-ORG
-Haram I-ORG
+Boko O
+Haram O
 . O
 
 dịka O
@@ -7656,23 +7656,23 @@ na O
 mpaghara O
 Naịjirịa B-LOC
 , O
-Chadị B-LOC
+Chadị O
 kamgbe O
 ha O
 malitere O
-n'afọ B-DATE
-2009 I-DATE
+n'afọ O
+2009 O
 . O
 
 Ndị O
-Boko B-ORG
-Haram I-ORG
+Boko O
+Haram O
 a O
 nwụchiri O
 n'afọ B-DATE
 2009 I-DATE
 
-Uefa O
+Uefa B-ORG
 bụ O
 otu O
 na O
@@ -7686,7 +7686,7 @@ dịna O
 Europe O
 niile O
 
-Uefa B-ORG
+Uefa O
 bụ O
 otu O
 na O
@@ -7697,7 +7697,7 @@ bọọlụ O
 na O
 mba O
 dịna O
-Europe B-LOC
+Europe O
 niile O
 
 UEFA B-ORG
@@ -7741,8 +7741,8 @@ onye O
 nchịkọta O
 bọọlụ O
 ndị O
-Manchester B-ORG
-City I-ORG
+Manchester O
+City O
 bụ O
 Pep O
 Guardiola O
@@ -7765,8 +7765,8 @@ bụ O
 Leroy O
 Sane O
 ahụ O
-n'ọnwa O
-Jenụwarị O
+n'ọnwa B-DATE
+Jenụwarị I-DATE
 . O
 
 UEFA B-ORG
@@ -7809,8 +7809,8 @@ ndị O
 ogbu O
 bọọlụ O
 bụ O
-Pierluigi B-PER
-Collina I-PER
+Pierluigi O
+Collina O
 kwuru O
 . O
 
@@ -7881,10 +7881,10 @@ agbaguola O
 ibe O
 ya O
 na O
-ụlọakwụkwọ O
-Marjory O
-Stoneman O
-Douglas O
+ụlọakwụkwọ B-ORG
+Marjory I-ORG
+Stoneman I-ORG
+Douglas I-ORG
 na O
 Florida O
 . O
@@ -8006,8 +8006,8 @@ mgbede O
 , O
 ihe O
 ruru O
-elekere B-DATE
-asaa I-DATE
+elekere O
+asaa O
 iji O
 mata O
 ma O
@@ -8098,7 +8098,7 @@ enwe O
 mwakpo O
 egbe O
 n'ụlọakwụkwo O
-Amerịka B-LOC
+Amerịka O
 n'afọ B-DATE
 a I-DATE
 . O
@@ -8157,8 +8157,8 @@ Agulegbu I-PER
 Ha O
 kwuru O
 na O
-Augustine B-PER
-Agulegbu I-PER
+Augustine O
+Agulegbu O
 bụ O
 otu O
 n'ime O
@@ -8193,21 +8193,21 @@ kwuru O
 na O
 ha O
 wakporo O
-Agulegbu B-PER
+Agulegbu O
 na O
-New B-LOC
-Sapela I-LOC
-Road I-LOC
+New O
+Sapela O
+Road O
 n'ime O
-Delta B-LOC
-steeti I-LOC
+Delta O
+steeti O
 ebe O
 a O
 gbagburu O
 ya O
 . O
 
-DSS O
+DSS B-ORG
 kwukwara O
 na O
 onye O
@@ -8223,19 +8223,19 @@ akpọrọ O
 Emenike B-PER
 . O
 
-Emenike B-PER
+Emenike O
 bụ O
 otu O
 n'ime O
 ndị O
 Gọvanọ O
-Rochas B-PER
-Okorocha I-PER
+Rochas O
+Okorocha O
 mmere O
 mgbaghara O
 . O
 
-Evans O
+Evans B-PER
 bụ O
 onye O
 ntọ O
@@ -8257,30 +8257,30 @@ Otu O
 nwoke O
 bi O
 na O
-Delta O
-steeti O
+Delta B-LOC
+steeti I-LOC
 aha O
 ya O
 bụ O
-Ted B-PER
-Ugbovo I-PER
+Ted O
+Ugbovo O
 gwara O
 onye O
 ntaakụkọ O
-BBC O
+BBC B-ORG
 Igbo O
 na O
 ogbugbu O
 ha O
 gburu O
-Augustine O
-Agulegbunjọ O
+Augustine B-PER
+Agulegbunjọ I-PER
 enweghị O
 ihe O
 ọpụtara O
 . O
 
-Ted B-PER
+Ted O
 kwuru O
 : O
 """" O
@@ -8326,7 +8326,7 @@ Cheta O
 na O
 e O
 ji O
-Evans O
+Evans B-PER
 na O
 Lagos O
 , O
@@ -8351,7 +8351,7 @@ ndị O
 mmadụ O
 nwere O
 n'ala O
-Naijịrịa O
+Naijịrịa B-LOC
 . O
 
 Ọ O
@@ -8367,7 +8367,7 @@ onye O
 ntọ O
 """" O
 
-Evans O
+Evans B-PER
 na O
 ndị O
 ntọ O
@@ -8443,7 +8443,7 @@ mgbere O
 ahia O
 a O
 kpọrọ O
-NAPTIP O
+NAPTIP B-ORG
 na O
 aha O
 ịchafụ O
@@ -8500,7 +8500,7 @@ nde O
 naira O
 . O
 
-NAPTIP O
+NAPTIP B-ORG
 kpọchikwara O
 ụlọọgwu O
 ọdịnala O
@@ -8517,8 +8517,8 @@ ahịa O
 ụmụaka O
 . O
 
-Josiah O
-Emerole O
+Josiah B-PER
+Emerole I-PER
 bụ O
 ọnụ O
 na O
@@ -8539,7 +8539,7 @@ atụ O
 mgbere O
 ahịa O
 ụmụaka O
-n'Abuja O
+n'Abuja B-LOC
 . O
 
 O O
@@ -8555,7 +8555,7 @@ otu O
 nwaanyị O
 enwudere O
 na O
-Dịsemba O
+Dịsemba B-DATE
 kụ O
 nwa O
 amụrụ O
@@ -8573,8 +8573,8 @@ Abuja B-LOC
 na O
 - O
 aga O
-Niger B-LOC
-steeti I-LOC
+Niger O
+steeti O
 , O
 mgbe O
 e O
@@ -8601,7 +8601,7 @@ bụ O
 ikpe O
 nyefee O
 ndị O
-NAPTIP O
+NAPTIP B-ORG
 . O
 
 Kemgbe O
@@ -8621,10 +8621,10 @@ ahịa O
 ụmụaka O
 anya O
 rue O
-izuụka B-DATE
-abụọ I-DATE
-gara I-DATE
-aga I-DATE
+izuụka O
+abụọ O
+gara O
+aga O
 mgbe O
 anyị O
 nwuchịrị O
@@ -8697,7 +8697,7 @@ mgbere O
 ụmụaka O
 ? O
 
-Emerole B-PER
+Emerole O
 kwuru O
 na O
 nwaanyi O
@@ -8792,7 +8792,7 @@ nso O
 a O
 n'ọwụwa O
 anyanwụ O
-Naijịrịa B-LOC
+Naijịrịa O
 . O
 Ọfọdụ O
 ka O
@@ -8821,8 +8821,8 @@ mara O
 n'okwu O
 nchekwa O
 bụ O
-Adetunji O
-Ajayi O
+Adetunji B-PER
+Ajayi I-PER
 , O
 kwuru O
 na O
@@ -8853,8 +8853,8 @@ ndị O
 Boko B-ORG
 Haram I-ORG
 bụ O
-Abubakar O
-Shekau O
+Abubakar B-PER
+Shekau I-PER
 nọ O
 bụ O
 ihe O
@@ -8864,10 +8864,10 @@ atọ O
 ọchị O
 . O
 
-Ụnyaahụ O
+Ụnyaahụ B-DATE
 ndị O
 agha O
-Naijirịa B-LOC
+Naijirịa O
 kwuru O
 na O
 ha O
@@ -8890,8 +8890,8 @@ aka O
 ịnwụchi O
 onyendu O
 ndị O
-Boko B-ORG
-Haram I-ORG
+Boko O
+Haram O
 bụ O
 Abubakar B-PER
 Shekau I-PER
@@ -8904,7 +8904,7 @@ N3m O
 ) O
 . O
 
-Ajayi O
+Ajayi B-PER
 onye O
 bụbụ O
 onyeisi O
@@ -9018,7 +9018,7 @@ ndị O
 mmadụ O
 kwụnyere O
 n'ihe O
-Ajayi O
+Ajayi B-PER
 kwuru O
 . O
 
@@ -9032,7 +9032,7 @@ National B-ORG
 Defence I-ORG
 College I-ORG
 , O
-Nigeria O
+Nigeria B-LOC
 , O
 bụ O
 Nnamdị O
@@ -9052,10 +9052,10 @@ n'ọnụ O
 ahịa O
 ? O
 
-N'ọnwa B-DATE
-Novemba I-DATE
-afọ I-DATE
-2012 I-DATE
+N'ọnwa O
+Novemba O
+afọ O
+2012 O
 , O
 gọọmenti O
 Naijiria O
@@ -9083,7 +9083,7 @@ dọla O
 7 O
 . O
 
-Ụnyaahụ O
+Ụnyaahụ B-DATE
 Ndị O
 agha O
 Naijiria B-LOC
@@ -9096,8 +9096,8 @@ naira O
 
 Mana O
 dọkịta O
-Freedom B-PER
-Onuoha I-PER
+Freedom O
+Onuoha O
 , O
 bụ O
 ọkammụta O
@@ -9172,7 +9172,7 @@ eso O
 ya O
 . O
 
-Shekau B-PER
+Shekau O
 esizighị O
 ike O
 dịka O
@@ -9271,13 +9271,13 @@ ahụ O
 maka O
 nchekwa O
 akpọrọ O
-Mansur O
-Dan O
-- O
-Ali O
+Mansur B-PER
+Dan I-PER
+- I-PER
+Ali I-PER
 na O
-Zamfara O
-steeti O
+Zamfara B-LOC
+steeti I-LOC
 , O
 ka O
 ọ O
@@ -9289,7 +9289,7 @@ ihe O
 si O
 kwụrụ O
 n'obodo O
-Birane O
+Birane B-LOC
 dị O
 n'okpuru O
 ọchịchị O
@@ -9303,7 +9303,7 @@ iri O
 atọ O
 na O
 ise O
-ụnyahụ B-DATE
+ụnyahụ O
 . O
 
 Onye O
@@ -9316,8 +9316,8 @@ gbasara O
 mgbasa O
 ozi O
 bụ O
-Garba B-PER
-Shehu I-PER
+Garba O
+Shehu O
 , O
 kwuputere O
 ihe O
@@ -9330,7 +9330,7 @@ ndị O
 ntaakụkọ O
 . O
 
-Shehu O
+Shehu B-PER
 kwuru O
 na O
 minista O
@@ -9367,7 +9367,7 @@ ka O
 ndị O
 nche O
 ala O
-Naijirịa O
+Naijirịa B-LOC
 ziga O
 ndị O
 ọrụ O
@@ -9386,10 +9386,10 @@ arụ O
 a O
 . O
 
-Shehu O
+Shehu B-PER
 kwusirike O
 na O
-Buhari O
+Buhari B-PER
 na O
 - O
 agba O
@@ -9406,7 +9406,7 @@ n'akụkụ O
 dị O
 icheiche O
 na O
-Naijirịa B-LOC
+Naijirịa O
 kwusịrị O
 . O
 
@@ -9456,9 +9456,9 @@ Mbinye O
 aka O
 emere O
 na O
-US B-LOC
-n'arọ B-DATE
-2016 I-DATE
+US O
+n'arọ O
+2016 O
 wetere O
 ọtụtụ O
 ndọrọndọrọ O
@@ -9466,7 +9466,7 @@ ndọrọndọrọ O
 
 Anwụchiela O
 ndị O
-Russia B-LOC
+Russia O
 ruru O
 iri O
 atọ O
@@ -9477,17 +9477,17 @@ kpatọsiri O
 na O
 mbinye O
 aka O
-US O
+US B-LOC
 mere O
-n'arọ O
-2016 O
+n'arọ B-DATE
+2016 I-DATE
 , O
 nke O
 a O
 chọpụtara O
 na O
 nyocha O
-FBI B-ORG
+FBI O
 . O
 
 Mmadụ O
@@ -9516,8 +9516,8 @@ a O
 bụ O
 onye O
 ọkaiwu O
-Robert B-PER
-Mueller I-PER
+Robert O
+Mueller O
 , O
 onye O
 nke O
@@ -9527,7 +9527,7 @@ enyocha O
 nkpatọsị O
 aka O
 ndị O
-Russia B-LOC
+Russia O
 . O
 
 Ụlọọrụ O
@@ -9552,8 +9552,8 @@ okwu O
 osote O
 ọkaịwu O
 akpọrọ O
-Rod O
-Rosenstein O
+Rod B-PER
+Rosenstein I-PER
 kwuru O
 na O
 onweghị O
@@ -9580,7 +9580,7 @@ mbinye O
 aka O
 US B-LOC
 elekshion O
-2016 B-DATE
+2016 O
 pụtara O
 . O
 
@@ -9598,14 +9598,14 @@ asaa O
 gosiri O
 na O
 ndị O
-Russia B-LOC
+Russia O
 chọrọ O
 ikụnye O
 mkpụrụ O
 nhasa O
 na O
 mba O
-Amerika B-LOC
+Amerika O
 . O
 
 kedu O
@@ -9626,7 +9626,7 @@ ebubo O
 ji O
 kọmputa O
 na O
-US B-LOC
+US O
 we O
 zoo O
 na O
@@ -9635,7 +9635,7 @@ omume O
 ha O
 si O
 na O
-Russia O
+Russia B-LOC
 . O
 
 okwukwara O
@@ -9654,7 +9654,7 @@ ndị O
 si O
 na O
 mba O
-US B-LOC
+US O
 , O
 mepe O
 pejii O
@@ -9693,15 +9693,15 @@ hazi O
 ya O
 . O
 
-Roger O
-Federer O
+Roger B-PER
+Federer I-PER
 bidoro O
 iji O
 tenis O
 mere O
 akaọrụ O
-n'afọ O
-1998 O
+n'afọ B-DATE
+1998 I-DATE
 , O
 oge O
 ọ O
@@ -9734,10 +9734,10 @@ echefu O
 n'egwuregwu O
 tenis O
 - O
-afọ O
-iri O
-na O
-anọ O
+afọ B-DATE
+iri I-DATE
+na I-DATE
+anọ I-DATE
 kemgbe O
 o O
 ruru O
@@ -9755,7 +9755,7 @@ mmezu O
 """" O
 . O
 
-Federer O
+Federer B-PER
 dị O
 afọ O
 iri O
@@ -9805,8 +9805,8 @@ n'elu O
 
 Ọ O
 gafekwara O
-Serena B-PER
-Williams I-PER
+Serena O
+Williams O
 , O
 onye O
 dị O
@@ -9822,9 +9822,9 @@ n'ọkwa O
 mbụ O
 nke O
 ụmụnwaanyị O
-n'ọnwa O
-May O
-2017 O
+n'ọnwa B-DATE
+May I-DATE
+2017 I-DATE
 . O
 
 Federer O
@@ -9838,11 +9838,11 @@ bụrụ O
 ihe O
 nye O
 m O
-n'afọ O
-iri O
-atọ O
-na O
-isii O
+n'afọ B-DATE
+iri I-DATE
+atọ I-DATE
+na I-DATE
+isii I-DATE
 , O
 fọrọ O
 ntakịrị O
@@ -9943,9 +9943,9 @@ onye O
 mbụ O
 n'ọkwa O
 tenis O
-n'ọnwa O
-Febrụwarị O
-2004 O
+n'ọnwa B-DATE
+Febrụwarị I-DATE
+2004 I-DATE
 , O
 mana O
 ọ O
@@ -9954,8 +9954,8 @@ ibụ O
 mbụ O
 n'ọkwa O
 na O
-Oktoba B-DATE
-2012 I-DATE
+Oktoba O
+2012 O
 ma O
 gbadaruo O
 iri O
@@ -9994,7 +9994,7 @@ onye O
 odeakwụkwọ O
 nke O
 otu O
-Massob B-ORG
+Massob O
 binyere O
 aka O
 , O
@@ -10007,7 +10007,7 @@ ha O
 niile O
 nọ O
 n'ala O
-Naịjirịa B-LOC
+Naịjirịa O
 gbaa O
 mbọ O
 ga O
@@ -10024,7 +10024,7 @@ Voters O
 Card O
 n'ebe O
 ndị O
-INEC O
+INEC B-ORG
 wepụtara O
 maka O
 ndebanye O
@@ -10103,16 +10103,16 @@ imebi O
 mbọ O
 inweta O
 mnwereonwe O
-Biafra O
+Biafra B-ORG
 . O
 
 """" O
 Maka O
 inweta O
-Biafra O
+Biafra B-ORG
 nke O
-United O
-Nations O
+United B-ORG
+Nations I-ORG
 ga O
 - O
 akwado O
@@ -10126,7 +10126,7 @@ ha O
 maka O
 ntuliaka O
 na O
-Naijiria B-LOC
+Naijiria O
 . O
 """" O
 
@@ -10148,8 +10148,8 @@ ozi O
 Massob B-ORG
 bụ O
 Comrade O
-Edeson B-PER
-Samuel I-PER
+Edeson O
+Samuel O
 gwara O
 onye O
 ntaakụkọ O
@@ -10168,7 +10168,7 @@ nye O
 onye O
 ọbula O
 bụ O
-Biafra O
+Biafra B-ORG
 n'ihi O
 na O
 ọ O
@@ -10271,7 +10271,7 @@ Cheta B-PER
 na O
 ụnyaahụ B-DATE
 na O
-INEC O
+INEC B-ORG
 kwuru O
 na O
 ndị O
@@ -10317,11 +10317,11 @@ n'ime O
 otu O
 ahịa O
 n'obodo O
-Konduga O
+Konduga B-LOC
 dị O
 na O
-Borno O
-steeti O
+Borno B-LOC
+steeti I-LOC
 . O
 
 Ha O
@@ -10381,7 +10381,7 @@ Khalid O
 bụ O
 onye O
 ntaakụkọ O
-BBC B-ORG
+BBC O
 na O
 - O
 akọwa O
@@ -10414,8 +10414,8 @@ na O
 bụ O
 akaọrụ O
 ndị O
-Boko B-ORG
-Haram I-ORG
+Boko O
+Haram O
 na O
 - O
 enye O
@@ -10432,8 +10432,8 @@ ahụ O
 ụlọọgwụ O
 . O
 
-Aseman B-ORG
-Airlines I-ORG
+Aseman O
+Airlines O
 na O
 - O
 elekọta O
@@ -10455,8 +10455,8 @@ n'ebe O
 ugwu O
 dị O
 na O
-sentral B-LOC
-Iran I-LOC
+sentral O
+Iran O
 , O
 dịka O
 ntaakụkọ O
@@ -10489,7 +10489,7 @@ na O
 - O
 anyanwụ O
 obodo O
-Yasuj O
+Yasuj B-LOC
 , O
 dịka O
 akụkọ O
@@ -10551,8 +10551,8 @@ ahụ O
 Ọ O
 bụ O
 ndị O
-Aseman O
-Airlines O
+Aseman B-ORG
+Airlines I-ORG
 nwe O
 ụgbọelu O
 ahụ O
@@ -10605,8 +10605,8 @@ a O
 anwụrụ O
 . O
 
-Boko O
-Haram O
+Boko B-ORG
+Haram I-ORG
 kwuru O
 na O
 nkuzi O
@@ -10647,8 +10647,8 @@ so O
 na O
 ndị O
 agha O
-Boko B-ORG
-Haram I-ORG
+Boko O
+Haram O
 . O
 
 Ụlọ O
@@ -10708,8 +10708,8 @@ n'ugwu O
 hausa O
 , O
 mgbe O
-Boko B-ORG
-haram I-ORG
+Boko O
+haram O
 na O
 - O
 ebuso O
@@ -10723,14 +10723,14 @@ Naịjirịa O
 na O
 - O
 ebuso O
-Boko O
-Haram O
+Boko B-ORG
+Haram I-ORG
 agha O
 , O
 mana O
 ndị O
-Boko O
-Haram O
+Boko B-ORG
+Haram I-ORG
 ka O
 kwụ O
 chim O
@@ -10773,7 +10773,7 @@ ukwu O
 ala O
 Naịjirịa O
 gwara O
-BBC B-ORG
+BBC O
 na O
 ndị O
 a O
@@ -10798,8 +10798,8 @@ otụtụ O
 puku O
 ndị O
 agha O
-Boko B-ORG
-Haram I-ORG
+Boko O
+Haram O
 na O
 - O
 aza O
@@ -10816,12 +10816,12 @@ steeti O
 A O
 gwala O
 Gọọmenti O
-Naịjirịa O
+Naịjirịa B-LOC
 ka O
 ha O
 tọhapụ O
-Nnamdi B-PER
-Kanu I-PER
+Nnamdi O
+Kanu O
 bụ O
 onye O
 ndu O
@@ -10837,7 +10837,7 @@ People O
 of O
 Biafra O
 ( O
-Ipob O
+Ipob B-ORG
 ) O
 . O
 
@@ -10865,10 +10865,10 @@ na O
 - O
 efu O
 efu O
-n'ọnwa B-DATE
-Seputemba I-DATE
-afọ I-DATE
-2017 I-DATE
+n'ọnwa O
+Seputemba O
+afọ O
+2017 O
 . O
 
 N'ajụjụọnụ O
@@ -10882,13 +10882,13 @@ gbara O
 nwunye O
 ya O
 bụ O
-Uchechi O
-Kanu O
+Uchechi B-PER
+Kanu I-PER
 , O
 O O
 boro O
 Gọọmenti O
-Naịjirịa B-LOC
+Naịjirịa O
 ebubo O
 na O
 ha O
@@ -10903,15 +10903,15 @@ Agbanyeghị O
 na O
 ndị O
 agha O
-Naịjirịa B-LOC
+Naịjirịa O
 ekwuola O
 na O
 ọ O
 bụghị O
 ha O
 ji O
-Nnamdi O
-Kanu O
+Nnamdi B-PER
+Kanu I-PER
 . O
 
 Ndị O
@@ -10922,8 +10922,8 @@ a O
 Chioma B-PER
 Nkemdilim I-PER
 na O
-Chimezie B-PER
-Ucheagbo I-PER
+Chimezie O
+Ucheagbo O
 . O
 
 Ịgọ O
@@ -10987,7 +10987,7 @@ Igbo O
 Nke O
 a O
 mere O
-BBC B-ORG
+BBC O
 Igbo O
 jiri O
 ga O
@@ -11024,9 +11024,9 @@ na O
 abịara O
 unu O
 na O
-nkeji B-DATE
-na I-DATE
-nkeji I-DATE
+nkeji O
+na O
+nkeji O
 . O
 
 Ọkammụta O
@@ -11067,7 +11067,7 @@ a O
 mgbe O
 ndị O
 ntaakụkọ O
-BBC O
+BBC B-ORG
 gbara O
 ya O
 ajụjụ O
@@ -11082,21 +11082,21 @@ Naịjịrịa B-LOC
 . O
 
 Onyeisiala O
-Naịjirịa O
+Naịjirịa B-LOC
 si O
 na O
 gọọmenti O
 ya O
 
 Onyeisiala O
-Naịjirịa O
+Naịjirịa B-LOC
 bụ O
-Muhammadu B-PER
-Buhari I-PER
+Muhammadu O
+Buhari O
 , O
 akpọkuola O
 ndị O
-Naịjirịa O
+Naịjirịa B-LOC
 niile O
 , O
 ọkachasị O
@@ -11124,7 +11124,7 @@ Naịjiria O
 too O
 . O
 
-Buhari O
+Buhari B-PER
 kwuru O
 okwu O
 a O
@@ -11186,15 +11186,15 @@ nke O
 a O
 kpọrọ O
 """" O
-Governors O
-Forum O
+Governors B-ORG
+Forum I-ORG
 """" O
 na O
 bekee O
 nke O
 Gọvanọ O
-Katsina B-LOC
-steeti I-LOC
+Katsina O
+steeti O
 bụ O
 Aminu O
 Masari O
@@ -11250,7 +11250,7 @@ ga O
 zuo O
 ike O
 
-Iceland O
+Iceland B-LOC
 amachiela O
 ibe O
 nwoke O
@@ -11296,7 +11296,7 @@ otu O
 ya O
 bịara O
 be O
-Buhari B-PER
+Buhari O
 mgbaru O
 maka O
 mmadụ O
@@ -11318,7 +11318,7 @@ nwa O
 ya O
 nwoke O
 bụ O
-Yusuf O
+Yusuf B-PER
 . O
 
 Pope O
@@ -11327,7 +11327,7 @@ anabatala O
 akwụkwọ O
 arụkwaghịm O
 Bishop O
-Okpaleke B-PER
+Okpaleke O
 tinyere O
 
 Bishop O
@@ -11343,9 +11343,9 @@ arụkwaghịm O
 , O
 ebe O
 Monsignor O
-Lucius B-PER
-Iwejuru I-PER
-Ugorji I-PER
+Lucius O
+Iwejuru O
+Ugorji O
 ga O
 - O
 anọchi O
@@ -11383,7 +11383,7 @@ ndị O
 ụkọchukwu O
 nke O
 Diocese O
-Ahiara O
+Ahiara B-LOC
 họrọ O
 ịnabata O
 Okpalaeke O
@@ -11449,7 +11449,7 @@ n'ụlọ O
 Pope O
 Francis B-PER
 
-'Buhari B-PER
+'Buhari O
 gbara O
 nkiti O
 ihe O
@@ -11463,12 +11463,12 @@ ya O
 na O
 onye O
 ntakụkọ O
-BBC O
+BBC B-ORG
 nwere O
 , O
 otu O
 ụkọchụkwụ O
-Katolik B-ORG
+Katolik O
 ọnụ O
 na O
 - O
@@ -11496,7 +11496,7 @@ nke O
 Catholic O
 Archidiocese O
 nke O
-Lagos B-LOC
+Lagos O
 sị O
 : O
 """" O
@@ -11512,7 +11512,7 @@ na O
 nzukọ O
 ndi O
 Bishọp O
-Naijirịa B-LOC
+Naijirịa O
 nke O
 na O
 - O
@@ -11571,12 +11571,12 @@ Pope O
 ochie O
 bụ O
 Pope O
-Benedict B-PER
+Benedict O
 XVI O
 bụ O
 onye O
 họpụtara O
-Okpaleke O
+Okpaleke B-PER
 dịka O
 Katolik O
 Bishop O
@@ -11584,8 +11584,8 @@ nke O
 Ahiara O
 Diocese O
 na O
-afọ O
-2012 O
+afọ B-DATE
+2012 I-DATE
 , O
 mana O
 ndị O
@@ -11689,8 +11689,8 @@ dịka O
 . O
 
 Nwunye O
-Nnamdi B-PER
-Kanu I-PER
+Nnamdi O
+Kanu O
 : O
 Amaghị O
 m O
@@ -11709,16 +11709,16 @@ ga O
 zuo O
 ike O
 
-Iceland O
+Iceland B-LOC
 amachiela O
 ibe O
 nwoke O
 ugwu O
 
-Uchechi B-PER
-Kanụ I-PER
+Uchechi O
+Kanụ O
 gwara O
-BBC O
+BBC B-ORG
 Igbo O
 na O
 ụmụ O
@@ -11763,8 +11763,8 @@ a O
 Chioma B-PER
 Nkemdilim I-PER
 na O
-Chimezie O
-Ucheagbo O
+Chimezie B-PER
+Ucheagbo I-PER
 . O
 
 Ndị O
@@ -11780,7 +11780,7 @@ N'ụlọikpe O
 ukwu O
 nke O
 dị O
-n'Abuja B-LOC
+n'Abuja O
 , O
 ọkaiwu O
 Binta O
@@ -11792,7 +11792,7 @@ otu O
 Ipob B-ORG
 ebidoro O
 kamgbe O
-2015 O
+2015 B-DATE
 . O
 
 Akụkọ O
@@ -11825,8 +11825,8 @@ Abia B-LOC
 Saụt I-LOC
 Sinetọrịal O
 bụ O
-Enyinnaya O
-Abaribe O
+Enyinnaya B-PER
+Abaribe I-PER
 , O
 tinyere O
 akwụkwọ O
@@ -11852,7 +11852,7 @@ bụ O
 ọkaikpe O
 nke O
 gọọmenti O
-Naịjirịa B-LOC
+Naịjirịa O
 sị O
 ka O
 ọkaiwu O
@@ -11895,10 +11895,10 @@ afọ I-DATE
 a I-DATE
 . O
 
-Cheta B-PER
+Cheta O
 na O
-Benjamin O
-Madubugwu O
+Benjamin B-PER
+Madubugwu I-PER
 , O
 David O
 Nwawuisi O
@@ -11934,7 +11934,7 @@ wee O
 nye O
 ha O
 mba O
-Biafra B-ORG
+Biafra O
 . O
 
 Powerful O
@@ -11946,7 +11946,7 @@ na O
 ọ O
 bụ O
 gọọmentị O
-Naịjirịa B-LOC
+Naịjirịa O
 mere O
 ihe O
 e O
@@ -11968,7 +11968,7 @@ ha O
 mere O
 ka O
 Sinetọ O
-Abaribe B-PER
+Abaribe O
 chọọ O
 ndọtị O
 ikpe O
@@ -12005,12 +12005,12 @@ ugwu O
 A O
 zọpụtara O
 Chinecherem O
-n'ọnwa O
-Febrụwarị O
-n'ụbọchị O
-iri O
-na O
-asaa O
+n'ọnwa B-DATE
+Febrụwarị I-DATE
+n'ụbọchị I-DATE
+iri I-DATE
+na I-DATE
+asaa I-DATE
 . O
 
 Ngalaba O
@@ -12063,7 +12063,7 @@ na O
 nwunye O
 a O
 bụ O
-Ifeanyi B-PER
+Ifeanyi O
 , O
 iri O
 ato O
@@ -12078,13 +12078,13 @@ iri O
 atọ O
 bụcha O
 ndị O
-Amakpụ O
-- O
-Umuba O
+Amakpụ B-LOC
+- I-LOC
+Umuba I-LOC
 , O
-n'Isiala O
-Ngwa O
-North O
+n'Isiala B-LOC
+Ngwa I-LOC
+North I-LOC
 n'okpuru O
 ọchichi O
 dị O
@@ -12096,15 +12096,15 @@ Mana O
 ha O
 bị O
 na O
-Irete B-LOC
+Irete O
 , O
 na O
-Owerri B-LOC
-West I-LOC
+Owerri O
+West O
 n'okpuru O
 ọchịchị O
-Imo B-LOC
-steeti I-LOC
+Imo O
+steeti O
 . O
 
 Ndị O
@@ -12118,21 +12118,21 @@ na O
 mpụ O
 a O
 bụ O
-Grace B-PER
+Grace O
 dị O
 iri O
 ise O
 na O
 ise O
 onye O
-Ụmụọba B-LOC
-Ụratta I-LOC
+Ụmụọba O
+Ụratta O
 n'okpuru O
 ọchichị O
-Owerri O
-North O
+Owerri B-LOC
+North I-LOC
 , O
-Fedalia B-PER
+Fedalia O
 dị O
 iri O
 ise O
@@ -12140,8 +12140,8 @@ na O
 ise O
 bụkwa O
 onye O
-Umụoba O
-Ụratta O
+Umụoba B-LOC
+Ụratta I-LOC
 nakwa O
 Amarachi B-PER
 dị O
@@ -12165,10 +12165,10 @@ ndi O
 uweojii O
 ọnụ O
 na O
-Owerri O
+Owerri B-LOC
 bụ O
-Andrew O
-enwerem O
+Andrew B-PER
+enwerem I-PER
 kwuru O
 na O
 di O
@@ -12187,12 +12187,12 @@ nwaanyị O
 were O
 resi O
 ya O
-obiekwe B-PER
+obiekwe O
 site O
 n'aka O
 Mezu O
 na O
-Ariri B-PER
+Ariri O
 . O
 
 Enwerem O
@@ -12225,8 +12225,8 @@ onye O
 isi O
 ndi O
 police O
-n'Imo O
-steeti O
+n'Imo B-LOC
+steeti I-LOC
 nyere O
 iwu O
 ka O
@@ -12240,7 +12240,7 @@ mpụ O
 a O
 . O
 
-Enwerem O
+Enwerem B-PER
 sị O
 na O
 nwa O
@@ -12355,7 +12355,7 @@ nwa O
 ha O
 . O
 
-IPOB B-ORG
+IPOB O
 na O
 - O
 ewe O
@@ -12365,7 +12365,7 @@ egwu O
 eke O
 ndi O
 agha O
-Naijirịa B-LOC
+Naijirịa O
 gosiri O
 n'Abia B-LOC
 steeti I-LOC
@@ -12468,7 +12468,7 @@ n'ihu O
 ụlọọrụ O
 Youtube B-ORG
 
-Youtube B-ORG
+Youtube O
 bụ O
 ụlọọrụ O
 nọ O
@@ -12480,7 +12480,7 @@ uweoji O
 na O
 mpaghara O
 ugwu O
-California O
+California B-LOC
 ekwuola O
 n'otu O
 nwaanyị O
@@ -12547,7 +12547,7 @@ ya O
 nwoke O
 ụlọọrụ O
 , O
-CBS B-ORG
+CBS O
 na O
 - O
 ekwu O
@@ -12617,7 +12617,7 @@ emepụta O
 ihe O
 onyonyo O
 na O
-Youtube B-ORG
+Youtube O
 katọrọ O
 Youtube O
 n'oge O
@@ -12780,8 +12780,8 @@ Igbo O
 ma O
 nwee O
 ọjị O
-ugwu B-LOC
-Awụsa I-LOC
+ugwu O
+Awụsa O
 ma O
 nwekwaa O
 nke O
@@ -13198,11 +13198,11 @@ nkiri O
 a O
 ịhụ O
 ka O
-Pete B-PER
-Edochie I-PER
+Pete O
+Edochie O
 si O
 gọọrọ O
-BBC B-ORG
+BBC O
 Igbo O
 ọjị O
 : O
@@ -13226,18 +13226,18 @@ gboo O
 . O
 
 N'ala O
-Naijiria B-LOC
+Naijiria O
 , O
 ihe O
 dịka O
-afọ O
-iri O
-atọ O
-maọbụ O
-iri O
-anọ O
-gara O
-aga O
+afọ B-DATE
+iri I-DATE
+atọ I-DATE
+maọbụ I-DATE
+iri I-DATE
+anọ I-DATE
+gara I-DATE
+aga I-DATE
 , O
 a O
 na O
@@ -13357,7 +13357,7 @@ n'afọ B-DATE
 2008 I-DATE
 , O
 ndị O
-Naijiria O
+Naijiria B-LOC
 pasenti O
 11 O
 . O
@@ -13486,7 +13486,7 @@ Otu O
 onye O
 bi O
 na O
-Lagos O
+Lagos B-LOC
 bụ O
 Kingsley B-PER
 Udofa I-PER
@@ -13509,7 +13509,7 @@ oge O
 n'ala O
 anyị O
 bụ O
-Naijiria O
+Naijiria B-LOC
 mgbe O
 azụ O
 friji O
@@ -13667,7 +13667,7 @@ siri O
 kwuo O
 , O
 ndị O
-Naijiria O
+Naijiria B-LOC
 na O
 - O
 eri O
@@ -14696,8 +14696,8 @@ arụ O
 n'ahụ O
 bụ O
 Dr O
-Florence O
-Uchendu O
+Florence B-PER
+Uchendu I-PER
 si O
 kọwa O
 ihe O
@@ -14744,7 +14744,7 @@ kansa O
 Ọrịa O
 dịzị O
 na O
-Najiria O
+Najiria B-LOC
 bụ O
 ọrịa O
 dị O
@@ -14798,11 +14798,11 @@ Korịa I-LOC
 agala O
 Ghana B-LOC
 
-Anthony O
-Joshua O
+Anthony B-PER
+Joshua I-PER
 Vs O
-Joseph B-PER
-Parker I-PER
+Joseph O
+Parker O
 : O
 Onye O
 bụ O
@@ -14882,10 +14882,10 @@ Otu O
 onye O
 ọkaikpe O
 bụ O
-Precious O
-Nwankwo O
+Precious B-PER
+Nwankwo I-PER
 gwara O
-BBC O
+BBC B-ORG
 Igbo O
 na O
 ndị O
@@ -14978,8 +14978,8 @@ Mbọ O
 BBC O
 gbara O
 inweta O
-Mahadum B-ORG
-Covenant I-ORG
+Mahadum O
+Covenant O
 ka O
 ha O
 sa O
@@ -15075,8 +15075,8 @@ achị O
 Nri O
 bụ O
 Ichie O
-Emelie O
-Okika O
+Emelie B-PER
+Okika I-PER
 adọọla O
 obodo O
 Aguleri O
@@ -15134,8 +15134,8 @@ ndọrọndọro O
 Ọ O
 bara O
 obodo O
-Aguleri B-LOC
-n'Igboukwu I-LOC
+Aguleri O
+n'Igboukwu O
 mba O
 maka O
 mbọ O
@@ -15257,7 +15257,7 @@ bụ O
 nwa O
 asaa O
 nke O
-Jacob B-PER
+Jacob O
 . O
 
 Nakwa O
@@ -15267,7 +15267,7 @@ ndịotu O
 ndịọzọ O
 sị O
 ala O
-Egypt O
+Egypt B-LOC
 pụta O
 njem O
 tupu O
@@ -15300,10 +15300,10 @@ a O
 na O
 - O
 akpọ O
-'Agbanabo' B-LOC
+'Agbanabo' O
 dị O
 n'obodo O
-Aguleri O
+Aguleri B-LOC
 ebe O
 mmụọ O
 na O
@@ -15317,8 +15317,8 @@ rụọ O
 obodo' O
 . O
 
-Maaida B-PER
-Bio I-PER
+Maaida O
+Bio O
 abụrụla O
 onyeisiala O
 Sierra B-LOC
@@ -15382,11 +15382,11 @@ obodo O
 niile O
 dị O
 na O
-Benue O
+Benue B-LOC
 steeti O
 ebe O
 ndị O
-Fụlanị B-ORG
+Fụlanị O
 na O
 - O
 achị O
@@ -15396,8 +15396,8 @@ na O
 awakpo O
 , O
 kama O
-Ọsọ O
-Nwamba O
+Ọsọ B-PER
+Nwamba I-PER
 nke O
 bụ O
 egwu O
@@ -15426,7 +15426,7 @@ Udende I-PER
 Mark O
 Terseer O
 - O
-Gbillah B-PER
+Gbillah O
 , O
 ndị O
 kwuchitere O
@@ -15436,13 +15436,13 @@ mara O
 atụ O
 na O
 bido O
-n'ụbọchị B-DATE
-abụọ I-DATE
-rue I-DATE
-nke I-DATE
-anọ I-DATE
-ọnwa I-DATE
-Eprel I-DATE
+n'ụbọchị O
+abụọ O
+rue O
+nke O
+anọ O
+ọnwa O
+Eprel O
 , O
 na O
 e O
@@ -15509,7 +15509,7 @@ na O
 Kogi B-LOC
 
 Ndị O
-Benue O
+Benue B-LOC
 apụtaghị O
 nabata O
 Buhari B-PER
@@ -15549,7 +15549,7 @@ agbataobi O
 ha O
 dịka O
 na O
-Taraba O
+Taraba B-LOC
 . O
 
 Na O
@@ -15570,7 +15570,7 @@ mere O
 na O
 Ikyon B-LOC
 na O
-Agasha B-LOC
+Agasha O
 na O
 abala B-DATE
 atọ I-DATE
@@ -15586,11 +15586,11 @@ ndị O
 kpara O
 mkpamkpa O
 na O
-Semaka O
+Semaka B-LOC
 , O
-Asom B-LOC
+Asom O
 na O
-Babanruwa O
+Babanruwa B-LOC
 na O
 abali B-DATE
 atọ I-DATE
@@ -15622,17 +15622,17 @@ siri O
 mee O
 na O
 mpaghara O
-Sengev O
+Sengev B-LOC
 , O
-Mbakyondo B-LOC
+Mbakyondo O
 na O
-Mbapa O
+Mbapa B-LOC
 dị O
 n'okpuru O
 ọchịchị O
-Gwer B-LOC
-- I-LOC
-West I-LOC
+Gwer O
+- O
+West O
 dịka O
 ndị O
 ọchịehi O
@@ -15648,7 +15648,7 @@ ahụ O
 
 """" O
 Na O
-Tsegaase O
+Tsegaase B-LOC
 , O
 ha O
 gburu O
@@ -15669,14 +15669,14 @@ gburu O
 mmadụ O
 abụọ O
 na O
-Tse B-LOC
-Adeke I-LOC
+Tse O
+Adeke O
 , O
 otu O
 onye O
 na O
-Tse O
-Adudu O
+Tse B-LOC
+Adudu I-LOC
 , O
 ebe O
 otu O
@@ -15698,7 +15698,7 @@ mmadụ O
 ole O
 ihe O
 metụtara O
-n'Enger O
+n'Enger B-LOC
 . O
 
 N'abali O
@@ -15739,8 +15739,8 @@ na O
 - O
 erizi O
 
-Mahadum B-ORG
-Covenant I-ORG
+Mahadum O
+Covenant O
 dara O
 iwu O
 - O
@@ -15751,7 +15751,7 @@ butere O
 mkpamkpa O
 n'eme O
 na O
-Kogi O
+Kogi B-LOC
 ? O
 
 Ndị O
@@ -15771,8 +15771,8 @@ ndị O
 agha O
 na O
 eme O
-ọsọ B-PER
-Nwamba I-PER
+ọsọ O
+Nwamba O
 na O
 steeti O
 ahụ O
@@ -15847,7 +15847,7 @@ kwụsịrị O
 'Ọsọ O
 Nwamba' O
 naa O
-Benue O
+Benue B-LOC
 ebe O
 ihe O
 na O
@@ -15868,7 +15868,7 @@ ziga O
 ndị O
 agha O
 na O
-Benue B-LOC
+Benue O
 dịka O
 o O
 kwesịrị O
@@ -15957,7 +15957,7 @@ na O
 mmebi O
 akụnaụba O
 obodo O
-Naịjiria O
+Naịjiria B-LOC
 karịrị O
 akarị O
 . O
@@ -16029,15 +16029,15 @@ na O
 ozi O
 ya O
 na O
-Africa B-ORG
-Report I-ORG
-Magazine I-ORG
+Africa O
+Report O
+Magazine O
 nke O
 Eprelu O
 . O
 
 Bishọp O
-Kukah B-PER
+Kukah O
 kwuru O
 na O
 ọ O
@@ -16071,7 +16071,7 @@ na O
 adaghị O
 na O
 ntụliaka O
-2019 O
+2019 B-DATE
 """" O
 . O
 
@@ -16102,7 +16102,7 @@ juru O
 ebe O
 niile O
 na O
-Naịjiria O
+Naịjiria B-LOC
 ugbua O
 . O
 
@@ -16166,7 +16166,7 @@ Mgbe O
 Bishọp O
 Kukah B-PER
 na O
-BBC O
+BBC B-ORG
 gbaritara O
 ụka O
 anyị O
@@ -16245,7 +16245,7 @@ kpamkpam O
 . O
 
 Bishop O
-Kukah B-PER
+Kukah O
 zara O
 na O
 ajụjụ O
@@ -16322,7 +16322,7 @@ niile O
 bụ O
 ego O
 dịka O
-Naịjirịa O
+Naịjirịa B-LOC
 . O
 
 """" O
@@ -16395,7 +16395,7 @@ uru O
 . O
 
 Bishọp O
-Kukah O
+Kukah B-PER
 kwuru O
 na O
 ọrụ O
@@ -16418,7 +16418,7 @@ agbamume O
 Mana O
 ọtụtụ O
 ndị O
-Naịjiria O
+Naịjiria B-LOC
 enweghị O
 ya O
 . O
@@ -16721,13 +16721,13 @@ ga O
 - O
 ada O
 na O
-2019 B-DATE
+2019 O
 - O
 Kukah B-PER
 
-'Aguleri O
+'Aguleri B-LOC
 na O
-Igboukwu O
+Igboukwu B-LOC
 abụghị O
 mbido O
 Ndigbo' B-ORG
@@ -16830,9 +16830,9 @@ n'isi O
 obodo O
 Akure B-LOC
 dị O
-n'Ondo B-LOC
+n'Ondo O
 steeti O
-ụnyaahụ O
+ụnyaahụ B-DATE
 . O
 
 Iji O
@@ -16848,10 +16848,10 @@ n'olu O
 ndị O
 a O
 gara O
-n'Ondo O
-State O
-Specialist O
-Hospital O
+n'Ondo B-ORG
+State I-ORG
+Specialist I-ORG
+Hospital I-ORG
 mere O
 ka O
 gọọmentị O
@@ -16936,7 +16936,7 @@ ga O
 - O
 ada O
 na O
-2019 B-DATE
+2019 O
 - O
 Kukah B-PER
 
@@ -17055,7 +17055,7 @@ ndị O
 kachasị O
 mkpa O
 mere O
-taa O
+taa B-DATE
 . O
 
 'Social O
@@ -17066,8 +17066,8 @@ maka O
 Aisha B-PER
 Wakil I-PER
 
-Aisha O
-Wakil O
+Aisha B-PER
+Wakil I-PER
 kwuru O
 na O
 Bokoharam O
@@ -17075,16 +17075,16 @@ ga O
 - O
 atọghapu O
 nwa O
-Dapchi O
+Dapchi B-LOC
 akpọrọ O
 Leah B-PER
 Sharibu I-PER
 
 Kamgbe O
-Aisha O
-Wakil O
+Aisha B-PER
+Wakil I-PER
 kọwachara O
-BBC O
+BBC B-ORG
 Igbo O
 n'asụsụ O
 Igbo O
@@ -17120,19 +17120,19 @@ ihụ O
 ya O
 . O
 
-France B-LOC
+France O
 8 O
-Super O
-Falcons O
+Super B-ORG
+Falcons I-ORG
 0 O
 
-Chikwelu O
-Oparanozie O
+Chikwelu B-PER
+Oparanozie I-PER
 bụ O
 onye O
 ndụ O
 ndị O
-Falcons O
+Falcons B-ORG
 na O
 ya O
 bụ O
@@ -17142,10 +17142,10 @@ egwụrụegwụ O
 egwu O
 bọlụ O
 nke O
-Naịjirịa O
+Naịjirịa B-LOC
 bụ O
-Super O
-Falcons O
+Super B-ORG
+Falcons I-ORG
 na O
 nke O
 ndị O
@@ -17183,10 +17183,10 @@ na O
 egwuruegwu O
 MMArena B-ORG
 na O
-Le O
-Mans O
+Le B-ORG
+Mans I-ORG
 , O
-France O
+France B-LOC
 . O
 
 Gọvanọ O
@@ -17224,7 +17224,7 @@ ahụ O
 Okwuru O
 nke O
 a O
-ụnyahụ O
+ụnyahụ B-DATE
 mgbe O
 ọ O
 gara O
@@ -17234,13 +17234,13 @@ agụm O
 akwụkwọ O
 nke O
 ndị O
-Onyebuchi B-ORG
-Chris I-ORG
-Ifediora I-ORG
-Foundation I-ORG
+Onyebuchi O
+Chris O
+Ifediora O
+Foundation O
 kpokobara O
 na O
-Aguleri B-LOC
+Aguleri O
 . O
 
 Onye O
@@ -17292,7 +17292,7 @@ ofesi O
 , O
 ozị O
 sị O
-London O
+London B-LOC
 erụ O
 anyị O
 ntị O
@@ -17322,7 +17322,7 @@ merukwa O
 ahụ O
 na O
 mpaghara O
-London B-LOC
+London O
 ụfọdụ O
 n'izụụka O
 gara O
@@ -17346,7 +17346,7 @@ agba O
 nke O
 abụọ O
 ya O
-EU O
+EU B-LOC
 na O
 akwado O
 agha O
@@ -17386,8 +17386,8 @@ na O
 ekwuru O
 ndị O
 ụlọọrụ O
-United O
-Nations O
+United B-LOC
+Nations I-LOC
 na O
 - O
 ahu O
@@ -17430,7 +17430,7 @@ ga O
 - O
 ada O
 na O
-2019 O
+2019 B-DATE
 - O
 Kukah B-PER
 
@@ -17444,7 +17444,7 @@ nkeji I-DATE
 
 Iko O
 mba O
-Afrika B-LOC
+Afrika O
 nke O
 ụmụnwaanyị O
 
@@ -17454,7 +17454,7 @@ bụ O
 ugboro O
 abụọ O
 ndị O
-France O
+France B-LOC
 na O
 - O
 emeri O
@@ -17467,19 +17467,19 @@ bọlụ O
 nke O
 Naịjirịa B-LOC
 bụ O
-Super O
-Falcons O
+Super B-ORG
+Falcons I-ORG
 na O
 nke O
 ndị O
-France O
+France B-LOC
 sọrọmpi O
 enyi O
 na O
 enyi O
-ụnyahụ O
-bụ O
-Fraide O
+ụnyahụ B-DATE
+bụ I-DATE
+Fraide I-DATE
 . O
 
 Ya O
@@ -17489,8 +17489,8 @@ ha O
 sọrọ O
 kpọrọ O
 ndị O
-super B-ORG
-Falcons I-ORG
+super O
+Falcons O
 ihụ O
 ọjọọ O
 site O
@@ -17504,10 +17504,10 @@ acha O
 na O
 ọgbọ O
 egwuruegwu O
-MMArena B-ORG
+MMArena O
 na O
-Le O
-Mans O
+Le B-ORG
+Mans I-ORG
 , O
 nke O
 France O
@@ -17528,7 +17528,7 @@ egwuruegwu O
 mba O
 Afrika O
 nke O
-2018 O
+2018 B-DATE
 . O
 
 Ihe O
@@ -17541,10 +17541,10 @@ onye O
 nkuzi O
 ha O
 bụ O
-Thomas B-PER
-Dennerby I-PER
+Thomas O
+Dennerby O
 nke O
-Sweden B-LOC
+Sweden O
 tụrụ O
 . O
 
@@ -17554,7 +17554,7 @@ bụ O
 ugboro O
 abụọ O
 ndị O
-France B-LOC
+France O
 na O
 - O
 emeri O
@@ -17564,11 +17564,11 @@ Falcons O
 
 Akụkọ O
 kachasi O
-n'ụtụtụ B-DATE
-a I-DATE
+n'ụtụtụ O
+a O
 : O
-Super B-ORG
-Falcons I-ORG
+Super O
+Falcons O
 ritere O
 ọkpụ O
 8 O
@@ -17600,9 +17600,9 @@ nke O
 nke O
 agbara O
 na O
-Germany O
+Germany B-LOC
 na O
-2011 B-DATE
+2011 O
 bụ O
 nke O
 ha O
@@ -17619,7 +17619,7 @@ merie O
 ha O
 . O
 
-France O
+France B-LOC
 bidoro O
 ozigbo O
 amalitere O
@@ -17646,8 +17646,8 @@ nkeji O
 14 O
 ) O
 mana O
-Chiamaka O
-Nnadozie O
+Chiamaka B-PER
+Nnadozie I-PER
 ekweghị O
 ekwe O
 . O
@@ -17661,14 +17661,14 @@ acha O
 mịtara O
 mkpụrụ O
 na O
-nkeji B-DATE
-nke I-DATE
-iri I-DATE
-itoolu I-DATE
-( I-DATE
-nkeji I-DATE
-9 I-DATE
-) I-DATE
+nkeji O
+nke O
+iri O
+itoolu O
+( O
+nkeji O
+9 O
+) O
 mgbe O
 nwaada O
 Eugenie O
@@ -17705,23 +17705,23 @@ Tupu O
 ezụmike O
 erụọ O
 , O
-France B-LOC
+France O
 agbakanyela O
 golụ O
 atọ O
 n'ọnụ O
 gola O
 ndị O
-Super O
-Falcons O
+Super B-ORG
+Falcons I-ORG
 . O
 
 Ka O
 anatachara O
 ezumike O
 ( O
-nkeji O
-54 O
+nkeji B-DATE
+54 I-DATE
 ) O
 , O
 Desire O
@@ -17738,7 +17738,7 @@ dị O
 na O
 golu O
 ndị O
-France O
+France B-LOC
 mana O
 golii O
 ha O
@@ -17758,8 +17758,8 @@ onye O
 otu O
 ha O
 bụ O
-Aminata B-PER
-Dilalo I-PER
+Aminata O
+Dilalo O
 tinyere O
 golu O
 ọzọ O
@@ -17802,8 +17802,8 @@ ya O
 asaa O
 tinyere O
 nke O
-Faith B-PER
-Ikidi I-PER
+Faith O
+Ikidi O
 jị O
 aka O
 ya O
@@ -17884,10 +17884,10 @@ kara O
 ndị O
 nne O
 na O
-St B-ORG
-Michaels I-ORG
-Asata I-ORG
-Enugwu I-ORG
+St O
+Michaels O
+Asata O
+Enugwu O
 , O
 ụbọchị O
 ụka O
@@ -17895,9 +17895,9 @@ Enugwu I-ORG
 ndị O
 ụkọchukwu O
 ; O
-Fada O
-Callistus O
-Ani O
+Fada B-PER
+Callistus I-PER
+Ani I-PER
 na O
 Wilfred O
 Agu O
@@ -17918,12 +17918,12 @@ ha O
 . O
 
 Na O
-Holy O
-Ghost O
-Cathedral O
+Holy B-ORG
+Ghost I-ORG
+Cathedral I-ORG
 dịkwa O
 n' O
-Enugwu O
+Enugwu B-LOC
 , O
 Rev O
 . O
@@ -17969,8 +17969,8 @@ aka O
 nyụọ O
 . O
 
-Hilda O
-Dokubo O
+Hilda B-PER
+Dokubo I-PER
 nyere O
 ndị O
 nne O
@@ -18072,9 +18072,9 @@ a O
 kpọrọ O
 CWO B-ORG
 nke O
-Holy O
-Ghost O
-Cathedral O
+Holy B-ORG
+Ghost I-ORG
+Cathedral I-ORG
 jị O
 aka O
 ha O
@@ -18098,11 +18098,11 @@ mmemme O
 Onyeisi O
 ndị O
 nne O
-Holy O
-Ghost O
+Holy B-ORG
+Ghost I-ORG
 bụ O
-Patricia O
-Achara O
+Patricia B-PER
+Achara I-PER
 n'onyeisi O
 ndị O
 nne O
@@ -18183,7 +18183,7 @@ bụ O
 mmemme O
 ndị O
 ụka O
-Katọlik B-ORG
+Katọlik O
 na O
 - O
 eme O
@@ -18221,7 +18221,7 @@ n'ogige O
 ngwupụta O
 ọlaedo O
 na O
-Ghana B-LOC
+Ghana O
 . O
 
 Enwela O
@@ -18232,7 +18232,7 @@ n'ogige O
 ngwupụta O
 ọlaedo O
 na O
-Ghana O
+Ghana B-LOC
 . O
 
 Ụlọọrụ O
@@ -18248,7 +18248,7 @@ mpaghara O
 ndịda O
 nke O
 mba O
-Ghana B-LOC
+Ghana O
 adaala O
 , O
 gbuo O
@@ -18266,8 +18266,8 @@ mberede O
 a O
 mere O
 na O
-Brong B-LOC
-Ahafo I-LOC
+Brong O
+Ahafo O
 nke O
 dị O
 kilomita O
@@ -18313,9 +18313,9 @@ otu O
 dị O
 na O
 mba O
-Amerịka O
+Amerịka B-LOC
 akpọrọ O
-Newmont B-ORG
+Newmont O
 bụ O
 ndị O
 kachasị O
@@ -18397,7 +18397,7 @@ nọ O
 dịka O
 onyeisiala O
 mba O
-Ghana B-LOC
+Ghana O
 ewerela O
 oche O
 
@@ -18405,14 +18405,14 @@ Osote O
 onyeisi O
 ụlọọrụ O
 ahụ O
-n'Afrịka B-LOC
+n'Afrịka O
 bụ O
 Alwyn O
 Pretorius O
 kwuru O
 """" O
 Ụlọọrụ O
-Newmont O
+Newmont B-ORG
 niile O
 nọ O
 na O
@@ -18495,11 +18495,11 @@ nke O
 a O
 , O
 """" O
-Pretorius O
+Pretorius B-PER
 kwuru O
 . O
 
-Buhari O
+Buhari B-PER
 bidoro O
 chiwa O
 Naijiria O
@@ -18516,13 +18516,13 @@ gbasara O
 mgbasaozi O
 ọhụrụ O
 bụ O
-Bashir O
-Ahmad O
+Bashir B-PER
+Ahmad I-PER
 deputara O
 nke O
 a O
 na O
-Twitter O
+Twitter B-ORG
 . O
 
 Nke O
@@ -18535,7 +18535,7 @@ n'ebe O
 dị O
 icheiche O
 ma O
-Buhari O
+Buhari B-PER
 ọ O
 ga O
 - O
@@ -18555,7 +18555,7 @@ Aka O
 na O
 - O
 achị O
-Kaduna B-LOC
+Kaduna O
 steeti O
 bụ O
 Nasir O
@@ -18564,7 +18564,7 @@ El O
 Rufai O
 kwuru O
 na O
-Twitter B-ORG
+Twitter O
 ya O
 na O
 Buhari O
@@ -18641,9 +18641,9 @@ Gas O
 HOSCON B-ORG
 , O
 bụ O
-Prince B-PER
-Mike I-PER
-Emuh I-PER
+Prince O
+Mike O
+Emuh O
 kwupụtara O
 nke O
 a O
@@ -18655,13 +18655,13 @@ n'Awka O
 , O
 Anambra B-LOC
 steeti O
-unyaahụ O
+unyaahụ B-DATE
 . O
 
 N'okwu O
 ya O
 , O
-Emuh O
+Emuh B-PER
 kwuru O
 na O
 gọọmenti O
@@ -18709,7 +18709,7 @@ esi O
 mmanụ O
 agbịdị O
 na O
-Anambara O
+Anambara B-LOC
 steeti O
 . O
 
@@ -18763,8 +18763,8 @@ kọmishọna O
 ruru O
 18 O
 
-Victor O
-Umeh O
+Victor B-PER
+Umeh I-PER
 ebidola O
 ọrụ O
 dịka O
@@ -18773,7 +18773,7 @@ Anambara B-LOC
 Sentralụ I-LOC
 
 Obi O
-Ọnịcha B-LOC
+Ọnịcha O
 bụ O
 Igwe O
 Alfred O
@@ -18792,7 +18792,7 @@ ewepụta O
 kọmiti O
 nke O
 eze O
-Aguleri B-LOC
+Aguleri O
 , O
 Igwe O
 Christopher B-PER
@@ -18845,7 +18845,7 @@ gakwara O
 n'ihụ O
 kpọtụrụ O
 ndị O
-Anambra O
+Anambra B-LOC
 Steeti O
 ụfọdụ O
 ọnụ O
@@ -18870,8 +18870,8 @@ gọọmenti O
 steeti O
 ahụ O
 bụ O
-Solomon O
-Chukwulobelu O
+Solomon B-PER
+Chukwulobelu I-PER
 . O
 
 Chukwulobelu O
@@ -18919,8 +18919,8 @@ naruru O
 . O
 
 Gọvanọ O
-Willie B-PER
-Obiano I-PER
+Willie O
+Obiano O
 nọ O
 n'agba O
 nke O
@@ -18933,10 +18933,10 @@ na'Anambra B-LOC
 Steeti O
 
 Asịsa O
-Mitchell O
+Mitchell B-PER
 n'ihe O
-Mike O
-Emuh O
+Mike B-PER
+Emuh I-PER
 kwuru O
 
 Onye O
@@ -19053,7 +19053,7 @@ mere O
 
 Ịhe O
 ndị O
-Naijiria O
+Naijiria B-LOC
 na O
 - O
 ekwu O
@@ -19076,7 +19076,7 @@ n'anya O
 na O
 agabanyeghi O
 na O
-Ijeoma O
+Ijeoma B-PER
 enweghi O
 ejima O
 na O
@@ -19123,8 +19123,8 @@ ya O
 anya O
 ikpeazụ O
 bụ O
-n'ọnwa B-DATE
-Disemba I-DATE
+n'ọnwa O
+Disemba O
 . O
 
 Nsogbu O
@@ -19154,15 +19154,15 @@ bụ O
 nke O
 akpọrọ O
 """" O
-Coalition B-ORG
-on I-ORG
-Conflict I-ORG
-Resolution I-ORG
-and I-ORG
-Human I-ORG
-Rights I-ORG
-in I-ORG
-Nigeria I-ORG
+Coalition O
+on O
+Conflict O
+Resolution O
+and O
+Human O
+Rights O
+in O
+Nigeria O
 """" O
 kwuru O
 mmadụ O
@@ -19209,10 +19209,10 @@ Monde I-DATE
 Dịka O
 onye O
 ntaakụkọ O
-BBC O
+BBC B-ORG
 bụ O
-Chris O
-Ewokor O
+Chris B-PER
+Ewokor I-PER
 sị O
 kọwa O
 , O
@@ -19269,7 +19269,7 @@ dị O
 na O
 etiti O
 ugwu O
-Naijiria B-LOC
+Naijiria O
 dịka O
 Benue B-LOC
 , O
@@ -19288,7 +19288,7 @@ ndị O
 ọchịchị O
 wezuga O
 iwu O
-Naijiria B-LOC
+Naijiria O
 n'ụsọ O
 iji O
 gba O
@@ -19404,33 +19404,22 @@ mmanu O
 
 Nkwa O
 asaa O
-Buhari O
+Buhari B-PER
 kwere O
 na O
 ihe O
 o O
 mere O
 
-Ipob O
+Ipob B-PER
 : O
 Mpụtagharị O
-Buhari O
+Buhari B-PER
 ga O
 - O
 enye O
 anyị O
 Biafra B-ORG
-
-Jimoh B-PER
-Moshood I-PER
-dịka O
-ọ O
-na O
-- O
-egosị O
-ngwaagha O
-ndị O
-akpachiri O
 
 Jimoh O
 Moshood O
@@ -19443,14 +19432,25 @@ ngwaagha O
 ndị O
 akpachiri O
 
-N'ọnwa O
-Febụwarị O
+Jimoh B-PER
+Moshood I-PER
+dịka O
+ọ O
+na O
+- O
+egosị O
+ngwaagha O
+ndị O
+akpachiri O
+
+N'ọnwa B-DATE
+Febụwarị I-DATE
 onyeisi O
 ndị O
 uweojii O
 bụ O
-Ibrahim O
-Idris O
+Ibrahim B-PER
+Idris I-PER
 nyere O
 ndị O
 kọmishịọna O
@@ -19630,11 +19630,11 @@ n'aka O
 ndị O
 uweojii O
 rue O
-ụbọchị O
-iri O
-abụọ O
-na O
-otu O
+ụbọchị B-DATE
+iri I-DATE
+abụọ I-DATE
+na I-DATE
+otu I-DATE
 . O
 
 E O
@@ -19740,7 +19740,7 @@ akụnaụba O
 ndị O
 mmadụ O
 na O
-Naịjirịa B-LOC
+Naịjirịa O
 """" O
 Jimoh O
 Moshood O
@@ -19800,7 +19800,7 @@ N'asọmpị O
 Champions O
 League O
 ụnyahụ B-DATE
-Liverpool O
+Liverpool B-ORG
 meriri O
 Man B-ORG
 City I-ORG
@@ -19812,7 +19812,7 @@ satara O
 otu O
 . O
 
-Liverpool B-ORG
+Liverpool O
 ji O
 mmerị O
 nke O
@@ -19828,8 +19828,8 @@ League O
 nke O
 mbụ O
 n'ime O
-afọ B-DATE
-iri I-DATE
+afọ O
+iri O
 . O
 
 Na O
@@ -19838,7 +19838,7 @@ akara O
 ha O
 niile O
 , O
-Liverpool O
+Liverpool B-ORG
 meriri O
 Man O
 City O
@@ -19851,26 +19851,26 @@ otu O
 . O
 
 Etu O
-Man O
-Utd O
+Man B-ORG
+Utd I-ORG
 si O
 napụ O
-Man B-ORG
-City I-ORG
+Man O
+City O
 ike O
 
 Asọmpi O
-Commonwealth B-ORG
+Commonwealth O
 : O
-Naịjirịa B-LOC
+Naịjirịa O
 agafeela O
 na O
 tenisi O
 
-Afọ B-DATE
-2007 I-DATE
-- I-DATE
-08 I-DATE
+Afọ O
+2007 O
+- O
+08 O
 bụ O
 ikpeazụ O
 Liverpool O
@@ -19882,8 +19882,8 @@ n'asọmpị O
 Chamions O
 League O
 
-Gabriel O
-Jesus O
+Gabriel B-PER
+Jesus I-PER
 bụ O
 onye O
 nyere O
@@ -19936,7 +19936,7 @@ Liverpool B-ORG
 Roberto O
 Firmino O
 nyere O
-Liverpool O
+Liverpool B-ORG
 goolu O
 nke O
 abụọ O
@@ -19947,7 +19947,7 @@ asa I-DATE
 n'asatọ I-DATE
 . O
 
-Liverpool B-ORG
+Liverpool O
 ha O
 nwere O
 ike O
@@ -20024,11 +20024,11 @@ Ugbua O
 ọ O
 dịka O
 na O
-Real B-ORG
-Madrid I-ORG
+Real O
+Madrid O
 na O
-Bayern O
-Munich O
+Bayern B-ORG
+Munich I-ORG
 nwere O
 ike O
 iso O
@@ -20049,7 +20049,7 @@ ntorobia O
 itoolu O
 anwụọla O
 
-Anambara B-LOC
+Anambara O
 esonyela O
 na O
 ndị O
@@ -20070,11 +20070,11 @@ Kọmishọna O
 ndị O
 uweojii O
 na O
-Legos B-LOC
+Legos O
 steeti O
 bụ O
-Edgal B-PER
-Imohimi I-PER
+Edgal O
+Imohimi O
 kwuru O
 na O
 ha O
@@ -20094,8 +20094,8 @@ uweojii O
 na O
 Legos O
 bụ O
-Edgal B-PER
-Imohimi I-PER
+Edgal O
+Imohimi O
 kwuru O
 na O
 e O
@@ -20115,11 +20115,11 @@ ntọ O
 na O
 steeti O
 ahụ O
-n'afọ B-DATE
-anọ I-DATE
+n'afọ O
+anọ O
 . O
 
-Imohimi B-PER
+Imohimi O
 , O
 onye O
 kwupụtara O
@@ -20129,13 +20129,13 @@ na O
 ọgbakọ O
 nchekwa O
 nke O
-Legos O
+Legos B-LOC
 steeti O
 nke O
 e O
 mere O
 na O
-Legos O
+Legos B-LOC
 kwuru O
 na O
 a O
@@ -20182,7 +20182,7 @@ kpọrọ O
 akpa O
 na O
 mpaghara O
-Ikorodu O
+Ikorodu B-LOC
 nakwa O
 ndị O
 isiekewọnwụ O
@@ -20209,7 +20209,7 @@ onyeisi O
 uweojii O
 akwụkwọ O
 
-London O
+London B-LOC
 : O
 ụmụ O
 ntorobia O
@@ -20229,7 +20229,7 @@ na O
 enyemaka O
 nke O
 gọọmentị O
-Legos B-LOC
+Legos O
 steeti O
 mere O
 ka O
@@ -20298,7 +20298,7 @@ siririwerere O
 . O
 
 Ndị O
-Fulani O
+Fulani B-ORG
 na O
 - O
 achi O
@@ -20311,7 +20311,7 @@ mmadụ O
 
 Nkwa O
 asaa O
-Buhari O
+Buhari B-PER
 kwere O
 na O
 ihe O
@@ -20327,14 +20327,14 @@ taa O
 n'ichafu O
 : O
 
-Achuzia B-PER
+Achuzia O
 , O
 otu O
 n'ime O
 ndị O
 ndu O
 agha O
-Biafra B-ORG
+Biafra O
 nwụrụ O
 ka O
 ọ O
@@ -20368,11 +20368,11 @@ ime O
 ọzọ O
 n'Owere O
 nakwa O
-Asaba B-LOC
+Asaba O
 , O
-taa O
-na O
-echi O
+taa B-DATE
+na I-DATE
+echi I-DATE
 , O
 tupu O
 elie O
@@ -20385,12 +20385,12 @@ Cheta O
 na O
 Achuzia O
 nwụrụ O
-ụbọchị O
-26 O
-nke O
-ọnwa O
-Febụwarị O
-2018 O
+ụbọchị B-DATE
+26 I-DATE
+nke I-DATE
+ọnwa I-DATE
+Febụwarị I-DATE
+2018 I-DATE
 , O
 ka O
 ọ O
@@ -20424,19 +20424,19 @@ n'Ikorodu B-LOC
 Kọmishọna O
 ndị O
 uweojii O
-Lagos O
+Lagos B-LOC
 steeti O
 bụ O
-Edgal B-PER
-Imohimi I-PER
+Edgal O
+Imohimi O
 , O
 kwuru O
 na O
 site O
-n'afọ O
-2014 O
-ruo O
-ugbua O
+n'afọ B-DATE
+2014 I-DATE
+ruo I-DATE
+ugbua I-DATE
 , O
 Legọs O
 enwetala O
@@ -20520,12 +20520,12 @@ mmanụ O
 
 Liverpool O
 awụọla O
-Man O
-City O
+Man B-ORG
+City I-ORG
 n'ala O
 
-Mark B-PER
-Zuckerberg I-PER
+Mark O
+Zuckerberg O
 bidoro O
 Facebook O
 n'afọ B-DATE
@@ -20533,7 +20533,7 @@ n'afọ B-DATE
 
 Onye O
 nwe O
-Facebook O
+Facebook B-ORG
 bụ O
 Mark O
 Zuckerberg O
@@ -20545,17 +20545,17 @@ maka O
 ka O
 ndị O
 ụlọọrụ O
-Cambridge O
-Analytica O
+Cambridge B-ORG
+Analytica I-ORG
 na O
 ụfọdị O
 ndị O
 ọrụ O
 na O
 mba O
-Rọshịa O
+Rọshịa B-LOC
 were O
-Facebook O
+Facebook B-ORG
 mee O
 ihe O
 masịrị O
@@ -20585,13 +20585,13 @@ ndị O
 mmadụ O
 . O
 
-Afọ B-DATE
-2007 I-DATE
-- I-DATE
-08 I-DATE
+Afọ O
+2007 O
+- O
+08 O
 bụ O
 ikpeazụ O
-Liverpool B-ORG
+Liverpool O
 ruru O
 agba O
 nke O
@@ -20602,8 +20602,8 @@ League O
 
 Ndị O
 otu O
-AS O
-Roma O
+AS B-ORG
+Roma I-ORG
 nyụrụ O
 Barcelona O
 anya O
@@ -20641,8 +20641,8 @@ otu O
 1 O
 ) O
 gbapụ O
-Manchester O
-City O
+Manchester B-ORG
+City I-ORG
 n'otu O
 asọmpi O
 ahụ O
@@ -20720,11 +20720,11 @@ ahụ O
 maka O
 ọnụọgụgụ O
 na O
-Naịjirịa B-LOC
+Naịjirịa O
 bụ O
-National O
-Population O
-Commission O
+National B-ORG
+Population I-ORG
+Commission I-ORG
 wepụtara O
 . O
 
@@ -20744,11 +20744,11 @@ niile O
 
 Akụkọ O
 kachasi O
-taa O
+taa B-DATE
 : O
 Ipob O
 nabatara O
-Buhari B-PER
+Buhari O
 2019 B-DATE
 
 Akpụpụla O
@@ -20761,12 +20761,12 @@ na O
 nwa O
 ya O
 na O
-Legos O
+Legos B-LOC
 ụlọikpe O
 
 Akpụpụla O
-Peter O
-Nielsen O
+Peter B-PER
+Nielsen I-PER
 ụlọikpe O
 dị O
 na O
@@ -20780,19 +20780,19 @@ Denmark B-LOC
 gburu O
 nwunye O
 ya O
-Zainab B-PER
+Zainab O
 na O
 nwa O
 ya O
 nwaanyị O
 ya O
 akpọrọ O
-Petra O
+Petra B-PER
 dị O
 afọ B-DATE
 atọ I-DATE
 na O
-Legos O
+Legos B-LOC
 . O
 
 Ụgbọelu O
@@ -20800,7 +20800,7 @@ ndị O
 agha O
 Algerịa O
 kpọkasịrị O
-taa B-DATE
+taa O
 . O
 
 Ihe O
@@ -20827,7 +20827,7 @@ na O
 ahụ O
 maka O
 nchekwa O
-n'Algeria B-LOC
+n'Algeria O
 kwuru O
 na O
 ndị O
@@ -20859,7 +20859,7 @@ mere O
 Barcelona B-ORG
 mgbe O
 ndị O
-Roma B-ORG
+Roma O
 gbapụrụ O
 ha O
 n'asọmpi O
@@ -20875,7 +20875,7 @@ anọ O
 asatara O
 otu O
 merie O
-Roma B-ORG
+Roma O
 n'ụkwụ O
 mbụ O
 nke O
@@ -20905,7 +20905,7 @@ bụrụ O
 ihe O
 mere O
 ndị O
-Barcelona B-ORG
+Barcelona O
 onwere O
 ike O
 ime O
@@ -20917,8 +20917,8 @@ ga O
 - O
 ezute O
 ndị O
-Juventus B-LOC
-n'abalịa O
+Juventus O
+n'abalịa B-DATE
 . O
 
 N'aka O
@@ -20955,8 +20955,8 @@ Gere O
 akụkọ O
 ndị O
 a O
-n'otu O
-nkeji O
+n'otu B-DATE
+nkeji I-DATE
 . O
 
 Nwaanyị O
@@ -20972,14 +20972,14 @@ ya O
 nọ O
 kamgbe O
 ọnwa O
-Disemba B-DATE
-afọ I-DATE
-2017 I-DATE
+Disemba O
+afọ O
+2017 O
 . O
 
 Nkwa O
 asaa O
-Buhari B-PER
+Buhari O
 kwere O
 na O
 ihe O
@@ -20988,7 +20988,7 @@ mere O
 
 'Wepụ O
 aha O
-IPOB O
+IPOB B-ORG
 dịka O
 'otu O
 oyiegwu' O
@@ -21001,15 +21001,15 @@ ime O
 
 Ka O
 ndị O
-Saụt B-LOC
-Afrịka I-LOC
+Saụt O
+Afrịka O
 na O
 - O
 akwanyere O
-Winnie O
-Madikizela O
-- O
-Mandela O
+Winnie B-PER
+Madikizela I-PER
+- I-PER
+Mandela I-PER
 busoro O
 ịkpa O
 oke O
@@ -21018,10 +21018,10 @@ agha O
 ka O
 ọ O
 nwụrụ O
-n'afọ O
-81 O
+n'afọ B-DATE
+81 I-DATE
 , O
-BBC B-ORG
+BBC O
 na O
 - O
 egosi O
@@ -21034,7 +21034,7 @@ ya O
 
 Ndị O
 ọrụ O
-Kamerun B-LOC
+Kamerun O
 kwuru O
 na O
 Arcangeline B-PER
@@ -21054,13 +21054,13 @@ na O
 - O
 efu O
 
-Ụnyaahụ O
-bụ O
-ụbọchị O
-11 O
-n'ime O
-ọnwa O
-Maachị O
+Ụnyaahụ B-DATE
+bụ I-DATE
+ụbọchị I-DATE
+11 I-DATE
+n'ime I-DATE
+ọnwa I-DATE
+Maachị I-DATE
 , O
 ndị O
 otu O
@@ -21080,7 +21080,7 @@ ruru O
 8 O
 so O
 ga O
-Australia B-LOC
+Australia O
 maka O
 egwuregwu O
 Commonwealth O
@@ -21104,14 +21104,14 @@ agwala O
 ndị O
 uweojii O
 mba O
-Australia O
+Australia B-LOC
 maka O
 ihe O
 a O
 mere O
 . O
 
-BBC B-ORG
+BBC O
 Igbo O
 kpọrọ O
 ndị O
@@ -21147,11 +21147,11 @@ Asọmpi O
 Commonwealth O
 : O
 Ndị O
-Cameroon B-LOC
+Cameroon O
 8 O
 'agbafuola' O
 
-Madrid B-ORG
+Madrid O
 na O
 Bayern B-ORG
 abaala O
@@ -21179,7 +21179,7 @@ bụ O
 Emmanuel B-PER
 Babayero I-PER
 gwara O
-BBC B-ORG
+BBC O
 na O
 ihe O
 a O
@@ -21201,7 +21201,7 @@ asatọ O
 n'ime O
 otu O
 ndị O
-Cameroon B-LOC
+Cameroon O
 ka O
 ha O
 na O
@@ -21235,8 +21235,8 @@ ha O
 """" O
 
 Mana O
-Enefiok O
-Bassey O
+Enefiok B-PER
+Bassey I-PER
 bụ O
 onye O
 nkuzi O
@@ -21260,7 +21260,7 @@ kwuru O
 n'ugbua O
 ndị O
 egwuregwu O
-n'Afịrịka O
+n'Afịrịka B-LOC
 na O
 - O
 ata O
@@ -21326,8 +21326,8 @@ gbasara O
 ihe O
 egwuregwu O
 bụ O
-Niran B-PER
-Adesanya I-PER
+Niran O
+Adesanya O
 kwuru O
 na O
 onye O
@@ -21400,7 +21400,7 @@ eme O
 . O
 """" O
 
-Obiano B-PER
+Obiano O
 ga O
 - O
 eme O
@@ -21418,8 +21418,8 @@ ihe O
 onye O
 nwere O
 
-Joe B-PER
-Achuzia I-PER
+Joe O
+Achuzia O
 sọ O
 na O
 ndị O
@@ -21442,7 +21442,7 @@ akụkọ O
 ọnwụ O
 onye O
 agha O
-Biafra B-ORG
+Biafra O
 ma O
 bụrụkwa O
 dike O
@@ -21520,12 +21520,12 @@ emume O
 ncheta O
 ikpeazụ O
 Achuzia B-PER
-n'Asaba O
+n'Asaba B-LOC
 ụnyaahụ B-DATE
 . O
 
-Joe B-PER
-Achuzia I-PER
+Joe O
+Achuzia O
 : O
 Ihe O
 ị O
@@ -21589,7 +21589,7 @@ nnukwu O
 nkwanye O
 ugwu O
 dinyere O
-Achuzia B-PER
+Achuzia O
 . O
 
 Akụkọ O
@@ -21633,23 +21633,23 @@ ndị O
 kachasị O
 mkpa O
 mere O
-taa B-DATE
+taa O
 n'ichafu O
 : O
 
 Taa O
 bụ O
 ncheta O
-afọ O
-anọ O
+afọ B-DATE
+anọ I-DATE
 atọọrọ O
 ụmụakwụkwọ O
 Chibok B-ORG
 
 N'ụbọchi O
-taa O
+taa B-DATE
 , O
-Naịjirịa B-LOC
+Naịjirịa O
 na O
 otu O
 dị O
@@ -21666,12 +21666,12 @@ BBOG O
 na O
 - O
 echeta O
-afọ B-DATE
-anọ I-DATE
+afọ O
+anọ O
 atọrọ O
 ụmụ O
 akwụkwọ O
-Chibok O
+Chibok B-ORG
 dị O
 narị O
 abụọ O
@@ -21683,15 +21683,15 @@ isii O
 . O
 
 Cheta O
-n'abalị O
-iri O
-na O
-anọ O
-nke O
-ọnwa O
-Epurelu O
-n'afọ O
-2014 O
+n'abalị B-DATE
+iri I-DATE
+na I-DATE
+anọ I-DATE
+nke I-DATE
+ọnwa I-DATE
+Epurelu I-DATE
+n'afọ I-DATE
+2014 I-DATE
 ka O
 ndị O
 Boko O
@@ -21705,9 +21705,9 @@ akwụkwọ O
 ha O
 dị O
 na O
-Chibok B-ORG
+Chibok O
 nke O
-Borno B-LOC
+Borno O
 Steeti O
 . O
 
@@ -21725,11 +21725,11 @@ n'afọ I-DATE
 2014 I-DATE
 
 Ndị O
-Afara O
-Ukwu O
-Ibeku O
+Afara B-LOC
+Ukwu I-LOC
+Ibeku I-LOC
 , O
-Abia O
+Abia B-LOC
 Steeti O
 Ahụbeghị O
 onye O
@@ -21740,11 +21740,11 @@ Praịm O
 mịnịsta O
 ọdịnala O
 nke O
-Ụmụobasi B-ORG
+Ụmụobasi O
 , O
-Isiama O
-Afara O
-Ukwu O
+Isiama B-LOC
+Afara I-LOC
+Ukwu I-LOC
 bụ O
 Chiemelam B-PER
 Odoemelam I-PER
@@ -21766,10 +21766,10 @@ Kanu O
 nna O
 onye O
 ndu O
-Ipob O
+Ipob B-PER
 bụ O
-Nnamdi O
-Kanu O
+Nnamdi B-PER
+Kanu I-PER
 . O
 
 Ọ O
@@ -21799,11 +21799,11 @@ agha O
 Naịjirịa O
 wakporo O
 ezinaụlọ O
-Obieze O
-Eze O
-Isreal O
-Okwu O
-Kanu O
+Obieze B-PER
+Eze I-PER
+Isreal I-PER
+Okwu I-PER
+Kanu I-PER
 bu O
 nna O
 Ipob O
@@ -21812,8 +21812,8 @@ Nnamdi B-PER
 Kanu I-PER
 
 Oruola O
-afọ O
-anọ O
+afọ B-DATE
+anọ I-DATE
 eji O
 tọrọ O
 ụmụaka O
@@ -21835,9 +21835,9 @@ n'asọmpị O
 Commonwealth B-ORG
 
 Mba O
-Amerịka B-LOC
+Amerịka O
 , O
-Uk B-LOC
+Uk O
 na O
 Fransị B-LOC
 atụọla O
@@ -21847,12 +21847,12 @@ mba O
 Sirịa B-LOC
 
 Mba O
-Amerịka B-LOC
+Amerịka O
 , O
-United O
-Kingdom O
+United B-LOC
+Kingdom I-LOC
 na O
-Fransị B-LOC
+Fransị O
 agbakọtala O
 aka O
 ọnụ O
@@ -21868,7 +21868,7 @@ ngwaagha O
 kemịkal O
 na O
 mba O
-Sirịa B-LOC
+Sirịa O
 , O
 maka O
 mwakpo O
@@ -21878,7 +21878,7 @@ ngwaagha O
 ahụ O
 mee O
 n'obodo O
-Douma B-LOC
+Douma O
 . O
 
 Ogbunigwe O
@@ -21888,7 +21888,7 @@ n'isi O
 obodo O
 Sirịa O
 bụ O
-Damascus B-LOC
+Damascus O
 , O
 nakwa O
 obodo O
@@ -21897,7 +21897,7 @@ abụọ O
 dị O
 na O
 mpaghara O
-Homs B-LOC
+Homs O
 . O
 
 Ogbunigwe O
@@ -21910,8 +21910,8 @@ na O
 - O
 efepụ O
 
-N'abalị O
-ụnyaahụ O
+N'abalị B-DATE
+ụnyaahụ I-DATE
 , O
 ụmụ O
 afọ O
@@ -21931,7 +21931,7 @@ n'egwuregwu O
 commonwealth O
 . O
 
-Naịjirịa O
+Naịjirịa B-LOC
 bụ O
 ndị O
 abụọ O
@@ -21949,7 +21949,7 @@ Afrịka I-LOC
 . O
 
 Ụmụ O
-Naịjirịa O
+Naịjirịa B-LOC
 na O
 - O
 anọchite O
@@ -21961,8 +21961,8 @@ Gere O
 akụkọ O
 ndị O
 a O
-n'otu B-DATE
-nkeji I-DATE
+n'otu O
+nkeji O
 . O
 
 Ihe O
@@ -21980,7 +21980,7 @@ na O
 - O
 ata O
 na O
-Ghana B-LOC
+Ghana O
 . O
 
 Akụkọ O
@@ -22021,8 +22021,8 @@ Gọọmenti O
 etiti O
 agọnarịla O
 akụkọ O
-Ahmed B-PER
-Salkida I-PER
+Ahmed O
+Salkida O
 wepụtara O
 nke O
 kwuru O
@@ -22064,8 +22064,8 @@ nke O
 sị O
 na O
 aka O
-Ahmed B-PER
-Salkida I-PER
+Ahmed O
+Salkida O
 adịghị O
 na O
 mkparịta O
@@ -22090,7 +22090,7 @@ na O
 ekwuchitere O
 ndị O
 uweojii O
-n'Enugwu B-LOC
+n'Enugwu O
 bụ O
 Ebere B-PER
 Amaraizu I-PER
@@ -22160,8 +22160,8 @@ Steeti O
 . O
 
 Oruola O
-afọ B-DATE
-anọ I-DATE
+afọ O
+anọ O
 eji O
 tọrọ O
 ụmụaka O
@@ -22170,9 +22170,9 @@ Chibok B-ORG
 Mba O
 Amerịka B-LOC
 , O
-UK O
+UK B-LOC
 na O
-Fransị O
+Fransị B-LOC
 awakpola O
 Sirịa B-LOC
 
@@ -22183,8 +22183,8 @@ chị O
 n'asọmpị O
 Commonwealth B-ORG
 
-Donald B-PER
-Trump I-PER
+Donald O
+Trump O
 adọọla O
 Gọọmentị O
 mba O
@@ -22195,7 +22195,7 @@ ntị O
 
 Gọọmenti O
 mba O
-US O
+US B-LOC
 mechiri O
 n'izu O
 gara O
@@ -22210,10 +22210,10 @@ ha O
 
 Onyeisiala O
 mba O
-Amerịka O
+Amerịka B-LOC
 bụ O
-Donald B-PER
-Trump I-PER
+Donald O
+Trump O
 adọọla O
 ndị O
 gọọmenti O
@@ -22247,7 +22247,7 @@ mmadụ O
 Ebe O
 gọọmenti O
 mba O
-Sirịa O
+Sirịa B-LOC
 ekwuola O
 na O
 aka O
@@ -22298,7 +22298,7 @@ bụ O
 Callum B-PER
 Hawkins I-PER
 nwafọ O
-Scotland B-LOC
+Scotland O
 . O
 
 Hawkins B-PER
@@ -22353,7 +22353,7 @@ chọrọ O
 napụ O
 ụmụ O
 afọ O
-Naịjirịa B-LOC
+Naịjirịa O
 ala O
 ha O
 n'ike O
@@ -22380,10 +22380,10 @@ kọwa O
 : O
 """" O
 Onyeisiala O
-Naijiria B-LOC
+Naijiria O
 bụ O
-Muhammadu O
-Buhari O
+Muhammadu B-PER
+Buhari I-PER
 ekwuola O
 na O
 e O
@@ -22412,15 +22412,15 @@ gbaliịkwaranụ O
 . O
 """" O
 
-Adesina O
+Adesina B-PER
 sị O
 na O
-Buhari B-PER
+Buhari O
 kwuru O
 nke O
 a O
 na O
-Londọn O
+Londọn B-LOC
 oge O
 ọ O
 nabatara O
@@ -22476,12 +22476,12 @@ ogbenye O
 Mana O
 okwu O
 a O
-Buhari B-PER
+Buhari O
 kwuru O
 kpara O
 ọtụtụ O
 ndị O
-Naijiria O
+Naijiria B-LOC
 iwe O
 nke O
 ha O
@@ -22519,7 +22519,7 @@ otu O
 pati O
 ya O
 bụ O
-APC O
+APC B-ORG
 kwere O
 ndị O
 Naijiria O
@@ -22602,7 +22602,7 @@ Twitter O
 dere O
 na O
 ndị O
-Naịjirịa B-LOC
+Naịjirịa O
 kwesiri O
 ikwu O
 na O
@@ -22630,7 +22630,7 @@ agbari O
 budget O
 """" O
 bụ O
-BudgIT O
+BudgIT B-ORG
 dere O
 na O
 ọ O
@@ -22860,7 +22860,7 @@ ha O
 meriri O
 na O
 ntuliaka O
-2015 O
+2015 B-DATE
 . O
 
 Oge O
@@ -22869,8 +22869,8 @@ ka O
 Muhammadu O
 Buhari O
 nara O
-Goodluck O
-Jonathan O
+Goodluck B-PER
+Jonathan I-PER
 ọchịchị O
 . O
 
@@ -22880,7 +22880,7 @@ kpokobara O
 abala O
 ndọrọndọrọ O
 
-Atiku B-PER
+Atiku O
 etinyela O
 ụkwụ O
 na O
@@ -22895,8 +22895,8 @@ mebere O
 otu O
 pati O
 APC B-ORG
-n'afọ O
-2013 O
+n'afọ B-DATE
+2013 I-DATE
 . O
 
 Pati O
@@ -22962,10 +22962,10 @@ ahụ O
 
 Otu O
 pati O
-All O
-Nigeria O
-People's O
-Party O
+All B-ORG
+Nigeria I-ORG
+People's I-ORG
+Party I-ORG
 bụ O
 pati O
 Buhari B-PER
@@ -22984,10 +22984,10 @@ Ume I-PER
 Ezeoke I-PER
 
 Otu O
-All O
-Progressive O
-Grand O
-Alliance O
+All B-ORG
+Progressive I-ORG
+Grand I-ORG
+Alliance I-ORG
 nke O
 ụfọdụ O
 n'ime O
@@ -23006,10 +23006,10 @@ kpokoro O
 ọnụ O
 . O
 
-N'ọnwa O
-Novemba O
-afọ O
-2013 O
+N'ọnwa B-DATE
+Novemba I-DATE
+afọ I-DATE
+2013 I-DATE
 , O
 gọvanọ O
 ise O
@@ -23020,7 +23020,7 @@ hapụrụ O
 pati O
 ahụ O
 banye O
-APC O
+APC B-ORG
 ebe O
 ndị O
 sinetọ O
@@ -23032,7 +23032,7 @@ etu O
 ahụ O
 nke O
 mere O
-APC B-ORG
+APC O
 jiri O
 merie O
 ọchịchị O
@@ -23055,7 +23055,7 @@ ha O
 
 Aka O
 chịburu O
-Naịjirịa O
+Naịjirịa B-LOC
 bụ O
 Olusegun B-PER
 Obasanjo I-PER
@@ -23117,7 +23117,7 @@ ha O
 nye O
 otu O
 pati O
-ADC B-ORG
+ADC O
 maka O
 ntuliaka O
 2019 O
@@ -23136,13 +23136,13 @@ a O
 chọrọ O
 ime O
 ihe O
-APC B-ORG
+APC O
 mere O
 na O
-2013 O
+2013 B-DATE
 ? O
 
-APC O
+APC B-ORG
 bụ O
 pati O
 kpokoro O
@@ -23152,7 +23152,7 @@ we O
 merie O
 ọchịchị O
 ma O
-Obasanjo B-PER
+Obasanjo O
 kwuru O
 na O
 ha O
@@ -23170,17 +23170,17 @@ nwereike O
 ikwatu O
 APC B-ORG
 etu O
-APC O
+APC B-ORG
 si O
 kwatuo O
-PDP B-ORG
+PDP O
 . O
 
 Ụfọdụ O
 ndị O
 gọvanọ O
 nọ O
-n'APC O
+n'APC B-ORG
 na O
 ekwupụta O
 iwe O
@@ -23188,7 +23188,7 @@ ha O
 gbasara O
 ọchịchị O
 ndị O
-APC O
+APC B-ORG
 ebe O
 ụfọdụ O
 ndị O
@@ -23200,7 +23200,7 @@ sineti O
 na O
 ndị O
 pati O
-APC B-ORG
+APC O
 na O
 - O
 akwata O
@@ -23238,7 +23238,7 @@ nke O
 ga O
 - O
 enye O
-ADC O
+ADC B-ORG
 ụdị O
 ikike O
 APC O
@@ -23282,7 +23282,7 @@ Naịjirịa B-LOC
 si O
 eme O
 
-Obasanjo O
+Obasanjo B-PER
 kpokobara O
 CNM O
 ebe O
@@ -23291,10 +23291,10 @@ chịburu O
 Ondo O
 steeti O
 bụ O
-Olagunsoye O
-Oyinlola O
+Olagunsoye B-PER
+Oyinlola I-PER
 sikwa O
-PDP O
+PDP B-ORG
 pụọ O
 bụ O
 onyeisi O
@@ -23321,7 +23321,7 @@ ikpoko O
 ka O
 ha O
 na O
-CNM O
+CNM B-ORG
 bụrụ O
 otu O
 
@@ -23329,9 +23329,9 @@ CNM O
 akwadola O
 otu O
 pati O
-African O
-Democratic O
-Party O
+African B-ORG
+Democratic I-ORG
+Party I-ORG
 nke O
 bụ O
 ADC O
@@ -23340,8 +23340,8 @@ n'aha O
 
 ADC B-ORG
 bidoro O
-n'afọ O
-2006 O
+n'afọ B-DATE
+2006 I-DATE
 , O
 onye O
 zọrọ O
@@ -23353,7 +23353,7 @@ Utomi O
 n'afọ B-DATE
 2007 I-DATE
 
-PDP B-ORG
+PDP O
 kwuru O
 na O
 ya O
@@ -23376,7 +23376,7 @@ onyeisiala O
 Buhari B-PER
 na O
 ndị O
-APC O
+APC B-ORG
 na O
 2019 O
 . O
@@ -23389,8 +23389,8 @@ maka O
 mgbasaozi O
 n'APC B-ORG
 bụ O
-Bolaji O
-Abdullahi O
+Bolaji B-PER
+Abdullahi I-PER
 kwuru O
 na O
 - O
@@ -23405,7 +23405,7 @@ ya O
 mara O
 na O
 ụmụ O
-Naịjirịa B-LOC
+Naịjirịa O
 ka O
 nwere O
 ntụkwasị O
@@ -23535,26 +23535,26 @@ ewu O
 bu O
 na O
 gbụrụgbụrụ O
-Ọka O
+Ọka B-LOC
 bu O
 obodo O
 di O
 na O
-Anambra O
-steeti O
+Anambra B-LOC
+steeti I-LOC
 ugbua O
 , O
 nke O
-Agbaja B-LOC
+Agbaja O
 si O
 na O
 gbụrụgbụrụ O
-Ọgwụ B-LOC
+Ọgwụ O
 nke O
 dịzị O
 na O
-Enugwu O
-steetị O
+Enugwu B-LOC
+steetị I-LOC
 . O
 
 N'ime O
@@ -23598,9 +23598,9 @@ n'akụkụ O
 onye O
 Igbo O
 
-'Aguleri O
+'Aguleri B-LOC
 na O
-Igboukwu B-LOC
+Igboukwu O
 abụghị O
 mbido O
 Ndigbo' O
@@ -24125,7 +24125,7 @@ a O
 . O
 
 Otu O
-Obasanjo O
+Obasanjo B-PER
 kpokobara O
 abala O
 ndọrọndọrọ O
@@ -24162,14 +24162,14 @@ dara O
 n'ụtụtụ O
 a O
 na O
-Pọtakọt B-LOC
-Rivas I-LOC
-steetị I-LOC
+Pọtakọt O
+Rivas O
+steetị O
 . O
 
 Onye O
 ntaakụkọ O
-BBC B-ORG
+BBC O
 Igbo O
 gwara O
 okwu O
@@ -24195,7 +24195,7 @@ maka O
 ntuliaka O
 imeụlọ O
 nke O
-APC O
+APC B-ORG
 ga O
 - O
 eme O
@@ -24212,7 +24212,7 @@ ntuliaka O
 APC B-ORG
 
 Ọgbaaghara O
-APC B-ORG
+APC O
 : O
 Oyegun O
 asaala O
@@ -24259,7 +24259,7 @@ iwu O
 gbasara O
 APC B-ORG
 
-Eziahama O
+Eziahama B-PER
 si O
 na O
 Ọkaikpe O
@@ -24270,7 +24270,7 @@ iwu O
 na O
 ntuliaka O
 imeụlọ O
-APC O
+APC B-ORG
 na O
 - O
 akwado O
@@ -24340,7 +24340,7 @@ ga O
 - O
 ekwu O
 ma O
-APC B-ORG
+APC O
 a O
 ga O
 - O
@@ -24361,7 +24361,7 @@ ntuliaka O
 imeụlọ O
 nke O
 otu O
-APC O
+APC B-ORG
 mere O
 n'ụbọchị B-DATE
 satode I-DATE
@@ -24391,7 +24391,7 @@ ndọrọndọrọ O
 Ihe O
 APC O
 mere O
-PDP B-ORG
+PDP O
 ọ O
 ga O
 - O
@@ -24407,8 +24407,8 @@ na O
 ogbunigwe O
 a O
 gbara O
-n'ụlọụka B-ORG
-katolik I-ORG
+n'ụlọụka O
+katolik O
 si O
 n'oge O
 Agha O
@@ -24417,9 +24417,9 @@ Biafra B-LOC
 Ụfọdụ O
 mmadụ O
 n'obodo O
-Iji O
-- O
-Nike O
+Iji B-LOC
+- I-LOC
+Nike I-LOC
 kọwara O
 ka O
 ha O
@@ -24452,10 +24452,10 @@ n'obodo O
 ahụ O
 ihe O
 dịka O
-Elekere O
-ise O
-nke O
-ụtụtụ O
+Elekere B-DATE
+ise I-DATE
+nke I-DATE
+ụtụtụ I-DATE
 mara O
 ebe O
 niile O
@@ -24624,7 +24624,7 @@ Boko O
 Haram O
 tọọrọ O
 na O
-Dapchi O
+Dapchi B-LOC
 ma O
 jụ O
 ịhapụ O
@@ -24683,7 +24683,7 @@ maka O
 njem O
 ụgbọala O
 na O
-Naịjirịa B-LOC
+Naịjirịa O
 ekwuola O
 na O
 atọrọla O
@@ -24694,8 +24694,8 @@ iri O
 asatọ O
 na O
 mpaghara O
-Kaduna B-LOC
-steeti I-LOC
+Kaduna O
+steeti O
 . O
 
 Ndị O
@@ -24749,8 +24749,8 @@ na O
 iri O
 ise O
 na O
-Saụt B-LOC
-Afrịka I-LOC
+Saụt O
+Afrịka O
 . O
 
 Ikpe O
@@ -24758,9 +24758,9 @@ mara O
 nwoke O
 a O
 bụ O
-Shadrax O
-Xidada O
-Chauke O
+Shadrax B-PER
+Xidada I-PER
+Chauke I-PER
 maka O
 ebubo O
 mwakpo O
@@ -24786,9 +24786,9 @@ mmadụ O
 Naịjirịa O
 na O
 mba O
-Congo B-LOC
+Congo O
 , O
-England O
+England B-LOC
 na O
 Czech O
 tupu O
@@ -24859,15 +24859,15 @@ steeti I-LOC
 Cheta O
 na O
 ndị O
-NFF B-ORG
+NFF O
 na O
 onye O
 nchịkọta O
 otu O
-Naịjirịa O
+Naịjirịa B-LOC
 bụ O
-Gernot B-PER
-Rohr I-PER
+Gernot O
+Rohr O
 wepụtara O
 aha O
 mmadụ O
@@ -24893,7 +24893,7 @@ a O
 Patrick O
 Utomi O
 gwara O
-BBC O
+BBC B-ORG
 Igbo O
 ihe O
 atọ O
@@ -24912,11 +24912,11 @@ steeti O
 . O
 
 Maazị O
-Usman O
-Chinedu O
-Mbaekwe O
+Usman B-PER
+Chinedu I-PER
+Mbaekwe I-PER
 gwara O
-BBC B-ORG
+BBC O
 Igbo O
 ihe O
 ọ O
@@ -24930,8 +24930,8 @@ ya O
 n'ụzọ O
 Okada B-LOC
 dị O
-n'Edo O
-steeti O
+n'Edo B-LOC
+steeti I-LOC
 ka O
 o O
 si O
@@ -24946,20 +24946,20 @@ n'afọ B-DATE
 
 Osote O
 onyeisiala O
-Yemi B-PER
-Osibanjo I-PER
+Yemi O
+Osibanjo O
 , O
 onye O
 ụkọchụkwụ O
-ụka O
-'Redeem' O
+ụka B-ORG
+'Redeem' I-ORG
 bụ O
 Ọkammụta O
 iwu O
 
 Osote O
 onyeisiala O
-Naijiria B-LOC
+Naijiria O
 bụ O
 Yemi O
 Osibanjo O
@@ -25002,8 +25002,8 @@ ndịọrụ O
 ugbo O
 metutụtara O
 na O
-Benue B-LOC
-steeti I-LOC
+Benue O
+steeti O
 na O
 a O
 steeti O
@@ -25011,12 +25011,12 @@ ndị O
 ọzọ O
 . O
 
-Osibanjo B-PER
+Osibanjo O
 kwuru O
 nke O
 a O
-n'ụbọchị B-DATE
-Tuusde I-DATE
+n'ụbọchị O
+Tuusde O
 oge O
 ọ O
 gara O
@@ -25038,7 +25038,7 @@ okpuru O
 ọchịchị O
 Makurdi B-LOC
 na O
-Guma B-LOC
+Guma O
 dị O
 na O
 Benue O
@@ -25060,8 +25060,8 @@ na O
 - O
 echu O
 onyeisiala O
-Muhammadụ O
-Buhari O
+Muhammadụ B-PER
+Buhari I-PER
 ụra O
 . O
 
@@ -25071,8 +25071,8 @@ Ihe O
 m O
 jiri O
 kpụpụ O
-Miyetti O
-Allah O
+Miyetti B-ORG
+Allah I-ORG
 ụlọikpe O
 
 Uweojii O
@@ -25080,7 +25080,7 @@ Uweojii O
 Anyị O
 anụghị O
 ihe O
-Ortom O
+Ortom B-PER
 Kwuru O
 
 """" O
@@ -25190,7 +25190,7 @@ m O
 na O
 gọọmenti O
 ala O
-Naijiria B-LOC
+Naijiria O
 nwere O
 ike O
 ichekwa O
@@ -25221,8 +25221,8 @@ ya O
 Gọvanọ O
 Benure O
 bụ O
-Samuel O
-Ortom O
+Samuel B-PER
+Ortom I-PER
 rịọrọ O
 ka O
 gọọment O
@@ -25290,12 +25290,12 @@ Emergency O
 Management O
 Agency O
 ( O
-SEMA B-ORG
+SEMA O
 ) O
 , O
 bụ O
-Emmanuel O
-Shior O
+Emmanuel B-PER
+Shior I-PER
 , O
 kọwara O
 na O
@@ -25304,7 +25304,7 @@ ndị O
 gbara O
 ọsọndụ O
 nọ O
-n'Abagana B-LOC
+n'Abagana O
 nwere O
 mmadụ O
 ipuku O
@@ -25338,8 +25338,8 @@ e O
 mepere O
 ya O
 na O
-ọnwa B-DATE
-Februwarị I-DATE
+ọnwa O
+Februwarị O
 mana O
 ugbua O
 e O
@@ -25415,7 +25415,7 @@ Ohuabunwa B-PER
 
 Ụmụigbo O
 nọ O
-UK O
+UK B-LOC
 alụọla O
 ọgụ O
 maka O
@@ -25452,12 +25452,12 @@ Buhariwepụtara O
 ndị O
 ụlọoimiwu O
 Bojet O
-afọ O
-2018 O
-ọnwa O
-isi O
-gara O
-aga O
+afọ B-DATE
+2018 I-DATE
+ọnwa I-DATE
+isi I-DATE
+gara I-DATE
+aga I-DATE
 . O
 
 N'ụbọchị O
@@ -25471,8 +25471,8 @@ nta O
 wepụtara O
 Bọjeti O
 nke O
-afọ B-DATE
-2018 I-DATE
+afọ O
+2018 O
 , O
 ebe O
 ha O
@@ -25577,8 +25577,8 @@ ruola O
 ọkwụkwụ O
 . O
 
-Enugwu O
-steeti O
+Enugwu B-LOC
+steeti I-LOC
 ekewapụtala O
 ijeri O
 naira O
@@ -25589,7 +25589,7 @@ maka O
 Ụlọomeiwu O
 abụọ O
 akpọọla O
-Buhari O
+Buhari B-PER
 oku O
 
 E O
@@ -25668,12 +25668,12 @@ wegara O
 ndị O
 ụlọoimewu O
 Bojeti O
-afọ B-DATE
-2018 I-DATE
-ọnwa I-DATE
-isi I-DATE
-gara I-DATE
-aga I-DATE
+afọ O
+2018 O
+ọnwa O
+isi O
+gara O
+aga O
 . O
 
 N'ụlọomeiwu O
@@ -25691,8 +25691,8 @@ ya O
 anya O
 bụ O
 Sinetọ O
-Danjuma O
-Goje O
+Danjuma B-PER
+Goje I-PER
 . O
 
 N'otu O
@@ -25722,9 +25722,9 @@ Aliyu O
 Sabi O
 Abdullahi O
 kwuru O
-n'izuụka O
-gara O
-aga O
+n'izuụka B-DATE
+gara I-DATE
+aga I-DATE
 na O
 aga O
 - O
@@ -25754,8 +25754,8 @@ onyeisi O
 Ụlọomeiwu O
 nta O
 bụ O
-Yussuff B-PER
-Lasun I-PER
+Yussuff O
+Lasun O
 , O
 kwuru O
 na O
@@ -25765,7 +25765,7 @@ ga O
 atulee O
 Bojeti O
 na O
-Tuusde O
+Tuusde B-DATE
 ma O
 tinye O
 aka O
@@ -25789,7 +25789,7 @@ aka O
 n'akwụkwọ O
 ahụ O
 na O
-Tọọsde B-DATE
+Tọọsde O
 . O
 
 Ejighi O
@@ -25805,7 +25805,7 @@ Ohuabunwa B-PER
 
 Ụmụigbo O
 nọ O
-UK B-LOC
+UK O
 alụọla O
 ọgụ O
 maka O
@@ -25838,7 +25838,7 @@ mgbe O
 gboo O
 ? O
 
-Zakzaky O
+Zakzaky B-PER
 mgbe O
 a O
 kpọtara O
@@ -25854,30 +25854,30 @@ Shi'a O
 na O
 Naịjirịa O
 bụ O
-Ibrahim O
-el O
-- O
-Zakzaky O
-n'ọnwa B-DATE
-Juun I-DATE
-21 I-DATE
+Ibrahim B-PER
+el I-PER
+- I-PER
+Zakzaky I-PER
+n'ọnwa O
+Juun O
+21 O
 . O
 
 A O
 kpụpụtara O
-el B-PER
-- I-PER
-Zakzaky I-PER
+el O
+- O
+Zakzaky O
 na O
 nwunye O
 ya O
 n'ụlọikpe O
 dị O
 na O
-Kaduna O
+Kaduna B-LOC
 n' O
-ụbọchị O
-Tuuzde O
+ụbọchị B-DATE
+Tuuzde I-DATE
 . O
 
 Ndị O
@@ -25887,7 +25887,7 @@ gawa O
 ụlọikpe O
 bụ O
 gọọmenti O
-Kaduna B-LOC
+Kaduna O
 bu O
 ndị O
 na O
@@ -25899,7 +25899,7 @@ o O
 gbụrụ O
 onye O
 agha O
-Naịjirịa B-LOC
+Naịjirịa O
 mgbe O
 ndị O
 na O
@@ -25929,7 +25929,7 @@ mkpa O
 taa B-DATE
 : O
 Tọghapụ O
-Elzakzaky B-PER
+Elzakzaky O
 - O
 Shiite O
 
@@ -25947,8 +25947,8 @@ abụọ O
 eji O
 aka O
 bụ O
-Yakoub B-PER
-Yahaya I-PER
+Yakoub O
+Yahaya O
 Katsina B-LOC
 na O
 Sanụsi B-PER
@@ -25987,7 +25987,7 @@ Kenyon O
 bụ O
 onye O
 ọkaiwu O
-Zakzaky B-PER
+Zakzaky O
 , O
 si O
 ka O
@@ -26020,7 +26020,7 @@ nọchịtere O
 anya O
 ndị O
 gọọmentị O
-Kaduna O
+Kaduna B-LOC
 sị O
 ka O
 ụlọikpe O
@@ -26029,7 +26029,7 @@ ka O
 DSS B-ORG
 ka O
 jide O
-Zakzaky B-PER
+Zakzaky O
 . O
 
 Ọlụikpe O
@@ -26041,8 +26041,8 @@ a O
 sị O
 ka O
 akpọghachie O
-Zakzaky O
-Abuja O
+Zakzaky B-PER
+Abuja B-LOC
 . O
 
 Ụlọikpe O
@@ -26052,11 +26052,11 @@ kwuo O
 na O
 ọ O
 bụ O
-n'ụbọchị B-DATE
-21 I-DATE
-nke I-DATE
-ọnwa I-DATE
-Juun I-DATE
+n'ụbọchị O
+21 O
+nke O
+ọnwa O
+Juun O
 ka O
 ha O
 ga O
@@ -26084,8 +26084,8 @@ N'akwụkwọ O
 ha O
 dere O
 , O
-Abdulhamid O
-Bello O
+Abdulhamid B-PER
+Bello I-PER
 , O
 bu O
 otu O
@@ -26125,10 +26125,10 @@ na O
 onwere O
 ihe O
 mere O
-Zakzaky B-PER
+Zakzaky O
 , O
 """" O
-Bello B-PER
+Bello O
 kwuru O
 . O
 
@@ -26230,7 +26230,7 @@ Osinbajo I-PER
 bụ O
 osote O
 onyeisiala O
-Naịjirịa B-LOC
+Naịjirịa O
 kwuru O
 nke O
 a O
@@ -26242,8 +26242,8 @@ iti O
 aka O
 n'obi O
 na O
-Benue B-LOC
-steeti I-LOC
+Benue O
+steeti O
 . O
 
 N'otu O
@@ -26299,7 +26299,7 @@ n'etiti O
 ha O
 na O
 mba O
-Amerịka B-LOC
+Amerịka O
 ma O
 ọ O
 bụrụ O
@@ -26319,13 +26319,13 @@ nụklịa O
 ha O
 . O
 
-Kim B-PER
-Jong I-PER
-- I-PER
-un I-PER
+Kim O
+Jong O
+- O
+un O
 na O
-Donald B-PER
-Trump I-PER
+Donald O
+Trump O
 kwesiri O
 ị O
 zuko O
@@ -26334,7 +26334,7 @@ n'ụbọchị B-DATE
 nke I-DATE
 Jun I-DATE
 n'obodo O
-Singapore O
+Singapore B-LOC
 ị O
 kpa O
 maka O
@@ -26364,8 +26364,8 @@ onye O
 bọọlụ O
 ọchie O
 otu O
-Aston B-LOC
-Villa I-LOC
+Aston O
+Villa O
 Jlloyd O
 Samuel B-PER
 nwụrụ O
@@ -26508,7 +26508,7 @@ nke O
 . O
 
 Okporoụzọ O
-Umunya B-LOC
+Umunya O
 ọ O
 nyịala O
 gọọmentị O
@@ -26986,28 +26986,28 @@ abụghị O
 sọ O
 n'ụsọekwu O
 
-Buhari B-PER
+Buhari O
 nyere O
 ndị O
 ụlọoimiwu O
 Bojet O
-afọ B-DATE
-2018 I-DATE
-ọnwa I-DATE
-isi I-DATE
-gara I-DATE
-aga I-DATE
+afọ O
+2018 O
+ọnwa O
+isi O
+gara O
+aga O
 . O
 
-N'ụbọchị O
-Tusde O
-bụ O
-Mee O
-15 O
+N'ụbọchị B-DATE
+Tusde I-DATE
+bụ I-DATE
+Mee I-DATE
+15 I-DATE
 , O
 Ụlọomeiwu O
 nke O
-Naịjirịa B-LOC
+Naịjirịa O
 binyere O
 aka O
 n'akwụkwọ O
@@ -27058,8 +27058,8 @@ dị O
 na O
 akwụkwọ O
 onyeisiala O
-Muhammadu B-PER
-Buhari I-PER
+Muhammadu O
+Buhari O
 nyere O
 ya O
 na O
@@ -27142,7 +27142,7 @@ mmanye O
 
 Nkwa O
 asaa O
-Buhari B-PER
+Buhari O
 kwere O
 na O
 ihe O
@@ -27183,7 +27183,7 @@ ole O
 iji O
 gosi O
 ndị O
-Naịjirịa O
+Naịjirịa B-LOC
 ma O
 eji O
 ọganịrụ O
@@ -27475,12 +27475,12 @@ ka O
 ebinyere O
 ya O
 aka O
-n'afọ B-DATE
-2015 I-DATE
+n'afọ O
+2015 O
 . O
 
-Babatunde O
-Fashola O
+Babatunde B-PER
+Fashola I-PER
 bu O
 Minista O
 na O
@@ -27501,7 +27501,7 @@ na O
 akwado O
 ntụlị O
 aka O
-2019 O
+2019 B-DATE
 , O
 gọọmentị O
 Buhari B-PER
@@ -27560,8 +27560,8 @@ Agege B-LOC
 
 Ndị O
 """" O
-Restoration B-ORG
-Group I-ORG
+Restoration O
+Group O
 """" O
 kwuru O
 na O
@@ -27572,7 +27572,7 @@ ka O
 ha O
 rịọ O
 Gọvanọ O
-Rochas B-PER
+Rochas O
 tupu O
 agba O
 ụlọ O
@@ -27591,7 +27591,7 @@ anọchịte O
 anya O
 ndị O
 APC O
-Imo O
+Imo B-LOC
 dịka O
 gọvanọ O
 na O
@@ -27638,7 +27638,7 @@ zọọ O
 gọvanọ O
 . O
 
-Taa O
+Taa B-DATE
 , O
 otu O
 n'ime O
@@ -27647,7 +27647,7 @@ kewapụtara O
 n'otu O
 ndọrọndọrọ O
 ọchịchị O
-APC O
+APC B-ORG
 kpọrọ O
 ndị O
 ntaakụkọ O
@@ -27664,15 +27664,15 @@ nke O
 di O
 n'etiti O
 ndị O
-APC B-ORG
+APC O
 nke O
 Imo O
 steeti O
 . O
 N'ọnụ O
 okwu O
-TOE B-PER
-Ekechi I-PER
+TOE O
+Ekechi O
 bụ O
 onụ O
 na O
@@ -27706,8 +27706,8 @@ ga O
 - O
 abụ O
 Gọvanọ O
-Imo B-LOC
-Steet I-LOC
+Imo O
+Steet O
 na O
 2019 B-DATE
 ? O
@@ -27719,8 +27719,8 @@ imeli O
 ọgọ O
 ya O
 Gọvanọ O
-Imo B-LOC
-steeti I-LOC
+Imo O
+steeti O
 ? O
 
 A O
@@ -27732,7 +27732,7 @@ izu O
 akwụkwọ O
 ntuliaka O
 APC O
-Ekechi O
+Ekechi B-PER
 kwuru O
 na O
 """" O
@@ -27747,10 +27747,10 @@ steeti O
 ndị O
 Igbo O
 na O
-APC O
+APC B-ORG
 ajụla O
 Okorocha O
-n'Imo B-LOC
+n'Imo O
 """" O
 Ọ O
 gakwara O
@@ -27762,8 +27762,8 @@ Okorocha O
 ndị O
 omeiwu O
 nke O
-Imo B-LOC
-steeti I-LOC
+Imo O
+steeti O
 ebubo O
 na O
 ha O
@@ -27771,8 +27771,8 @@ anaghị O
 arụ O
 ọrụ O
 ọbụla O
-n'Imo O
-steeti O
+n'Imo B-LOC
+steeti I-LOC
 . O
 
 Ekechi B-PER
@@ -27801,14 +27801,14 @@ ntuliaka O
 Congress O
 """" O
 mere O
-n'Imo O
-steeti O
+n'Imo B-LOC
+steeti I-LOC
 . O
 
 Ndị O
 """" O
-Restoration O
-Group O
+Restoration B-ORG
+Group I-ORG
 """" O
 si O
 na O
@@ -27822,15 +27822,15 @@ ntụlịaka O
 Ha O
 kwukwara O
 na O
-Okorocha B-PER
+Okorocha O
 a O
 na O
 - O
 abataghị O
 ntuliaka O
 emere O
-n'Imo O
-steeti O
+n'Imo B-LOC
+steeti I-LOC
 maka O
 na O
 ọ O
@@ -27872,7 +27872,7 @@ na O
 pati O
 . O
 
-BBC O
+BBC B-ORG
 Igbo O
 jụrụ O
 onye O
@@ -27881,8 +27881,8 @@ akwụkwọ O
 Gọvanọ O
 Okorocha B-PER
 bụ O
-Sam O
-Onwuemeodo O
+Sam B-PER
+Onwuemeodo I-PER
 ihe O
 ochere O
 banyere O
@@ -27952,18 +27952,18 @@ ga O
 eme O
 echi O
 bụ O
-ụbọchi O
-iri O
-na O
-asatọ O
-nke O
-ọnwa O
-Mee O
+ụbọchi B-DATE
+iri I-DATE
+na I-DATE
+asatọ I-DATE
+nke I-DATE
+ọnwa I-DATE
+Mee I-DATE
 . O
 
-Ụlọọgwụ B-LOC
-Ọrthọpedic I-LOC
-Enugwu I-LOC
+Ụlọọgwụ O
+Ọrthọpedic O
+Enugwu O
 dị O
 ka O
 ebe O
@@ -27997,7 +27997,7 @@ ndị O
 kachasị O
 mkpa O
 mere O
-taa B-DATE
+taa O
 : O
 
 Akụkọ O
@@ -28009,7 +28009,7 @@ a O
 : O
 
 Ndị O
-IPOB B-ORG
+IPOB O
 na O
 - O
 achọ O
@@ -28025,8 +28025,8 @@ akwado O
 ime O
 . O
 
-Nnia B-PER
-Nwodo I-PER
+Nnia O
+Nwodo O
 malitere O
 dịka O
 onye O
@@ -28060,7 +28060,7 @@ maka O
 obodo O
 , O
 ndị O
-IPOB O
+IPOB B-ORG
 ekwuola O
 na O
 ha O
@@ -28100,11 +28100,11 @@ Aka O
 na O
 - O
 achị O
-Rivas O
-steeti O
+Rivas B-LOC
+steeti I-LOC
 bụ O
-Nyesom O
-Wike O
+Nyesom B-PER
+Wike I-PER
 etiela O
 mkpu O
 na O
@@ -28131,8 +28131,8 @@ a O
 Ọrụ O
 agaghị O
 akwụsị O
-n'akwa B-LOC
-Niger I-LOC
+n'akwa O
+Niger O
 nke O
 abụọ O
 
@@ -28182,12 +28182,12 @@ onyeisiala O
 ekwuola O
 na O
 ụmụ O
-Naịjirịa O
+Naịjirịa B-LOC
 nwaa O
 anwa O
 weghachite O
 ndị O
-PDP O
+PDP B-ORG
 n'ọchịchị O
 , O
 ị O
@@ -28225,10 +28225,10 @@ bịara O
 na O
 Naịjirịa O
 na O
-2014 B-DATE
+2014 O
 mana O
 gọọmenti O
-Naịjirịa B-LOC
+Naịjirịa O
 jidere O
 ya O
 nkeọma O
@@ -28292,7 +28292,7 @@ na O
 abịa O
 , O
 ndị O
-NFF B-ORG
+NFF O
 ekwuola O
 na O
 ha O
@@ -28300,8 +28300,8 @@ ga O
 - O
 akwụ O
 ndị O
-Super O
-Eagles O
+Super B-ORG
+Eagles I-ORG
 ụgwọ O
 ha O
 n'oge O
@@ -28318,7 +28318,7 @@ agbakwa O
 otu O
 Athletico B-ORG
 Madrid I-ORG
-n'Uyo B-LOC
+n'Uyo O
 echi O
 n'asọmpi O
 enyi O
@@ -28339,12 +28339,12 @@ mere O
 na O
 mgbede O
 a O
-n'otu B-DATE
-nkeji I-DATE
+n'otu O
+nkeji O
 : O
 
-Muhamadu O
-Buhari O
+Muhamadu B-PER
+Buhari I-PER
 agaala O
 ụlọogwụ O
 ugboro O
@@ -28370,8 +28370,8 @@ gwara O
 onyeisiala O
 Naịjirịa B-LOC
 bụ O
-Muhammadu B-PER
-Buhuri I-PER
+Muhammadu O
+Buhuri O
 na O
 onye O
 chiburu O
@@ -28381,8 +28381,8 @@ onyeisiala O
 n'oge O
 garaaga O
 bụ O
-Atiku O
-Abubakar O
+Atiku B-PER
+Abubakar I-PER
 na O
 ọ O
 ga O
@@ -28403,8 +28403,8 @@ n'ọkwa O
 ọchịchị O
 dịka O
 onyeisiala O
-n'afọ B-DATE
-2019 I-DATE
+n'afọ O
+2019 O
 . O
 
 Otu O
@@ -28421,13 +28421,13 @@ makana O
 ha O
 abụọ O
 bụ O
-Buhari B-PER
+Buhari O
 na O
-Atiku O
+Atiku B-PER
 karịrị O
-afọ B-DATE
-iri I-DATE
-asaa I-DATE
+afọ O
+iri O
+asaa O
 na O
 kwa O
 na O
@@ -28440,7 +28440,7 @@ ndị O
 ga O
 - O
 achị O
-Naịjirịa O
+Naịjirịa B-LOC
 ugbua O
 na O
 kwa O
@@ -28468,7 +28468,7 @@ na O
 bụ O
 ndị O
 chiburu O
-Naịjiria O
+Naịjiria B-LOC
 n'oge O
 garaaga O
 burukwa O
@@ -28479,7 +28479,7 @@ nka O
 bụ O
 ndị O
 mebiri O
-Naịjirịa O
+Naịjirịa B-LOC
 , O
 na O
 kwa O
@@ -28514,8 +28514,8 @@ n'ụbọchị B-DATE
 Monde I-DATE
 . O
 
-Atiku B-PER
-Abubakar I-PER
+Atiku O
+Abubakar O
 anwaala O
 ugboro O
 ole O
@@ -28584,13 +28584,13 @@ n'ọsọ O
 ọchịchị O
 dịka O
 onyeisiala O
-Naịjirịa B-LOC
+Naịjirịa O
 . O
 
 Onweghị O
 ihe O
-Atiku O
-Abubakar O
+Atiku B-PER
+Abubakar I-PER
 kwuru O
 ugbua O
 maka O
@@ -28636,10 +28636,10 @@ Ndị O
 uweojii O
 achụsasịala O
 ndị O
-Ipob B-ORG
+Ipob O
 n'Awka B-LOC
 
-Gideon B-PER
+Gideon O
 bụ O
 nwa O
 onye O
@@ -28650,7 +28650,7 @@ Ndị O
 uweojii O
 nọ O
 na O
-Legos B-LOC
+Legos O
 anwụchiela O
 Gideon B-PER
 Bamidele I-PER
@@ -28668,8 +28668,8 @@ na O
 enyi O
 ya O
 bụ O
-Afeez B-PER
-Anifowoshe I-PER
+Afeez O
+Anifowoshe O
 , O
 20 O
 , O
@@ -28680,7 +28680,7 @@ ezu O
 ohi O
 . O
 
-Gideon B-PER
+Gideon O
 , O
 onye O
 nọ O
@@ -28707,8 +28707,8 @@ chọrọ O
 ịnapụ O
 a O
 kpọrọ O
-Olugbenga B-PER
-Otun I-PER
+Olugbenga O
+Otun O
 , O
 onye O
 ọkwọụgbọala O
@@ -28722,7 +28722,7 @@ ha O
 . O
 
 Ohi O
-Kwara B-LOC
+Kwara O
 : O
 Ndị O
 uweojii O
@@ -28753,10 +28753,10 @@ nso O
 ebe O
 a O
 kpọrọ O
-Itowolo B-LOC
-Bridge I-LOC
+Itowolo O
+Bridge O
 , O
-Gideon B-PER
+Gideon O
 wepụtara O
 egbe O
 ụmụaka O
@@ -28807,9 +28807,9 @@ uweojii O
 Oge O
 onye O
 ntaakụkọ O
-BBC B-ORG
+BBC O
 gbara O
-Gideon O
+Gideon B-PER
 ajụjụ O
 ọnụ O
 ihe O
@@ -28831,11 +28831,11 @@ nakwa O
 anwụrụike O
 . O
 
-Gideon O
-Bamidele O
+Gideon B-PER
+Bamidele I-PER
 na O
-Afeez B-PER
-Anifowoshe I-PER
+Afeez O
+Anifowoshe O
 chọrọ O
 ịnapụ O
 onye O
@@ -28845,7 +28845,7 @@ Toyota O
 Corolla O
 ya O
 
-Gideon B-PER
+Gideon O
 , O
 onye O
 bụ O
@@ -28888,8 +28888,8 @@ Shoprite B-ORG
 zụrụ O
 egbe O
 ụmụaka O
-ụbọchị B-DATE
-ụka I-DATE
+ụbọchị O
+ụka O
 ma O
 gwa O
 nwata O
@@ -28908,10 +28908,10 @@ Onyeisi O
 ndị O
 uweojii O
 na O
-Legos O
+Legos B-LOC
 bụ O
-Imohimin B-PER
-Edgal I-PER
+Imohimin O
+Edgal O
 kọwara O
 na O
 ndị O
@@ -28939,8 +28939,8 @@ ha O
 . O
 
 Ndị O
-ụka O
-katọlik O
+ụka B-ORG
+katọlik I-ORG
 n'Enugwu B-LOC
 na O
 - O
@@ -28950,7 +28950,7 @@ ngagharị O
 iwe O
 taa B-DATE
 
-IPOB B-ORG
+IPOB O
 bu O
 ọgbaghara O
 bịa O
@@ -28960,7 +28960,7 @@ n'Awka B-LOC
 
 Anyi O
 achọghị O
-Buhari O
+Buhari B-PER
 na O
 Atiku B-PER
 - O
@@ -28975,7 +28975,7 @@ ama O
 n'ime O
 ihe O
 nkiri O
-Nollywood O
+Nollywood B-ORG
 bụ O
 Bobmanuel O
 Odogwu O
@@ -28985,7 +28985,7 @@ na O
 ndị O
 Igbo O
 na O
-Naịjirịa B-LOC
+Naịjirịa O
 bụ O
 ihe O
 nwute O
@@ -29035,7 +29035,7 @@ mgbe O
 a O
 lụchara O
 agha O
-Biafra B-LOC
+Biafra O
 , O
 na O
 a O
@@ -29070,10 +29070,10 @@ na O
 - O
 eme O
 na O
-Naịjirịa B-LOC
+Naịjirịa O
 . O
 
-Odogwu B-PER
+Odogwu O
 gara O
 n'ihụ O
 rịọ O
@@ -29090,7 +29090,7 @@ n'okwu O
 ndọrọndọrọ O
 ọchịchị O
 na O
-Naịjirịa O
+Naịjirịa B-LOC
 , O
 i O
 ji O
@@ -29105,7 +29105,7 @@ Igwurube O
 mmadụ O
 pụtara O
 na O
-kadụna B-LOC
+kadụna O
 maka O
 ngagharịiwe O
 ahụ O
@@ -29141,8 +29141,8 @@ Naijiria B-LOC
 . O
 
 N' O
-ọnwa B-DATE
-Epreelụ I-DATE
+ọnwa O
+Epreelụ O
 , O
 ndị O
 e O
@@ -29185,7 +29185,7 @@ ka O
 ha O
 mee O
 ngagharịiwe O
-taa B-DATE
+taa O
 dịka O
 a O
 na O
@@ -29200,7 +29200,7 @@ taa O
 bụ O
 Tuusde O
 na O
-Benue O
+Benue B-LOC
 . O
 
 N' O
@@ -29279,7 +29279,7 @@ akpa O
 Ndị O
 Katọlik O
 na O
-Kadụna O
+Kadụna B-LOC
 bucha O
 ozi O
 na O
@@ -29292,7 +29292,7 @@ oke O
 ogbugbu O
 mmadụ O
 
-N'Enugwu O
+N'Enugwu B-LOC
 , O
 ndị O
 nne O
@@ -29346,9 +29346,9 @@ Ndigbo O
 n'Awka B-LOC
 
 Ndị O
-ụka O
-katọlik O
-n'Enugwu B-LOC
+ụka B-ORG
+katọlik I-ORG
+n'Enugwu O
 na O
 - O
 esonye O
@@ -29357,10 +29357,10 @@ ngagharị O
 iwe O
 taa B-DATE
 
-Ebuka B-PER
-Obi I-PER
-- I-PER
-Uchendu I-PER
+Ebuka O
+Obi O
+- O
+Uchendu O
 bụ O
 onye O
 na O
@@ -29381,7 +29381,7 @@ wuo O
 ewu O
 n'ụbọchị O
 agbamakwụkwọ O
-Harry B-PER
+Harry O
 na O
 Meghan O
 . O
@@ -29408,7 +29408,7 @@ ncheta O
 niile O
 nọ O
 na O
-Naịjirịa O
+Naịjirịa B-LOC
 na O
 ihe O
 gbasara O
@@ -29454,7 +29454,7 @@ na O
 mbaụwa O
 niile O
 akpọrọ O
-UNICEF O
+UNICEF B-ORG
 ekwuola O
 na O
 ha O
@@ -29478,24 +29478,24 @@ ndị O
 kachasị O
 mkpa O
 mere O
-taa O
+taa B-DATE
 : O
 
 Ụmụaka O
 bụ O
 Olileanya O
-Naịjirịa O
+Naịjirịa B-LOC
 - O
 Buhari B-PER
 
 Dịka O
-taa B-DATE
+taa O
 bụ O
 ụbọchị O
 ncheta O
 ụmụaka O
 na O
-Naịjirịa O
+Naịjirịa B-LOC
 , O
 Onyeisiala O
 Muhammadu O
@@ -29529,13 +29529,13 @@ arị O
 elu O
 . O
 
-Buhari O
+Buhari B-PER
 kwuru O
 na O
 ụmụaka O
 bụ O
 ọdịnihu O
-Naịjirịa O
+Naịjirịa B-LOC
 , O
 na O
 - O
@@ -29569,7 +29569,7 @@ na O
 MASSOB B-ORG
 
 Dịka O
-Ipob B-ORG
+Ipob O
 na O
 MASSOB O
 enyela O
@@ -29599,9 +29599,9 @@ Otu O
 kpọrọ O
 onwe O
 ha O
-Biafra O
-Zionists O
-Federation O
+Biafra B-ORG
+Zionists I-ORG
+Federation I-ORG
 kachapụrụ O
 iwe O
 a O
@@ -29614,11 +29614,11 @@ buru O
 ọkọlọtọ O
 Biafra O
 gawa O
-n'Enugwu O
+n'Enugwu B-LOC
 iji O
 kwupụta O
 mwereonwe O
-Biafra B-LOC
+Biafra O
 . O
 
 Akụkọ O
@@ -29626,7 +29626,7 @@ kachasị O
 n'abalị O
 a O
 : O
-Ipob B-ORG
+Ipob O
 si O
 Igbo O
 apụla O
@@ -29642,7 +29642,7 @@ n'ọgbakọ O
 Ndigbo O
 n'Awka B-LOC
 
-'Ipob B-ORG
+'Ipob O
 mezuru O
 ebumobi O
 ikposaa O
@@ -29652,8 +29652,8 @@ Ohaneze' O
 Saụt O
 Korịa O
 agbarala O
-Not B-LOC
-Koria I-LOC
+Not O
+Koria O
 akaebe O
 
 Onyeisiala O
@@ -29661,10 +29661,10 @@ mba O
 Saụt O
 Korịa O
 bụ O
-Moon B-PER
-Jae I-PER
-- I-PER
-in I-PER
+Moon O
+Jae O
+- O
+in O
 ekwuola O
 na O
 ogbo O
@@ -29673,10 +29673,10 @@ nke O
 Nọt B-LOC
 Korịa I-LOC
 bụ O
-Kim O
-Jong O
-- O
-in O
+Kim B-PER
+Jong I-PER
+- I-PER
+in I-PER
 chọrọ O
 ịkpọchapụ O
 ngwaagha O
@@ -29696,7 +29696,7 @@ na O
 maghị O
 ma O
 mba O
-US O
+US B-LOC
 ọ O
 ga O
 - O
@@ -29728,10 +29728,10 @@ ga O
 - O
 abia O
 n'etiti O
-North O
-na O
-South O
-Korea O
+North B-LOC
+na I-LOC
+South I-LOC
+Korea I-LOC
 ? O
 
 Akwa O
@@ -29754,7 +29754,7 @@ Liverpool O
 n'agba O
 ikpeazụ O
 asọmpi O
-Uefa O
+Uefa B-ORG
 Champịọns O
 
 Mmeri O
@@ -29774,8 +29774,8 @@ na O
 atọ O
 n'oge O
 niile O
-Real O
-Madrid O
+Real B-ORG
+Madrid I-ORG
 na O
 - O
 amabute O
@@ -29809,11 +29809,11 @@ ndị O
 kachasị O
 mkpa O
 mere O
-taa B-DATE
+taa O
 : O
 
-Mo O
-Salah O
+Mo B-PER
+Salah I-PER
 tụnyere O
 aka O
 ya O
@@ -29834,8 +29834,8 @@ a O
 nwere O
 ike O
 ịcha O
-Mohammed B-PER
-Salah I-PER
+Mohammed O
+Salah O
 ? O
 
 Onye O
@@ -29843,16 +29843,16 @@ nlekọta O
 otu O
 egwu O
 bọọlụ O
-Liverpool O
+Liverpool B-ORG
 bụ O
-Jurgen O
-Klopp O
+Jurgen B-PER
+Klopp I-PER
 ekwuola O
 na O
 mmerụ O
 ahụ O
-Mohamed B-PER
-Salah I-PER
+Mohamed O
+Salah O
 nwere O
 abụghị O
 obere O
@@ -29882,8 +29882,8 @@ ogbunigwe O
 dị O
 n'ala O
 
-Ebere B-PER
-Amaraizu I-PER
+Ebere O
+Amaraizu O
 bụ O
 ọnụ O
 n'ekwuru O
@@ -29931,10 +29931,10 @@ mkparita O
 ụka O
 ya O
 na O
-BBC B-ORG
+BBC O
 Igbo O
 nwere O
-taa O
+taa B-DATE
 . O
 
 Kpọghachite O
@@ -29953,18 +29953,18 @@ anya O
 mee O
 imi O
 
-Massob O
+Massob B-ORG
 achọghị O
 uweojii O
 nke O
 steeti O
 
 Onyeisiala O
-Buharị B-PER
+Buharị O
 ekwela O
 ụmụaka O
 nkwa O
-taa B-DATE
+taa O
 bụ O
 ụbọchị O
 ha O
@@ -29996,7 +29996,7 @@ gbaa O
 gburugburu O
 , O
 onyeisiala O
-Buharị B-PER
+Buharị O
 akpọkụola O
 ndị O
 nkuzi O
@@ -30090,7 +30090,7 @@ ndị O
 kwadoro O
 ime O
 njem O
-taa B-DATE
+taa O
 kwusị O
 njem O
 ha O
@@ -30116,9 +30116,9 @@ na O
 achụ O
 ọkụ O
 gbanyuru O
-n'isi O
-ụtụtụ O
-taa O
+n'isi B-DATE
+ụtụtụ I-DATE
+taa I-DATE
 . O
 
 Gere O
@@ -30126,14 +30126,14 @@ akụkọ O
 mere O
 n'utụtụ O
 a O
-n'otu O
-nkeji O
+n'otu B-DATE
+nkeji I-DATE
 : O
 
 Ụmụaka O
 bụ O
 ọdịnaihu O
-Naịjirịa O
+Naịjirịa B-LOC
 mana O
 ndị O
 mmadụ O
@@ -30154,7 +30154,7 @@ Naịjirịa O
 ugbua O
 
 Onyeisiala O
-BUhari B-PER
+BUhari O
 ji O
 akwụkwọ O
 ozi O
@@ -30222,7 +30222,7 @@ n'ọgbọ O
 egwuregwu O
 dị O
 n'Enugwu B-LOC
-taa B-DATE
+taa O
 . O
 
 Ihe O
@@ -30234,7 +30234,7 @@ maka O
 ụmụaka O
 taa B-DATE
 
-Buhari B-PER
+Buhari O
 : O
 Buo O
 agha O
@@ -30259,7 +30259,7 @@ echeta O
 ha O
 zipuru O
 n'igwe O
-twitter B-ORG
+twitter O
 ; O
 
 N'akụkụ O
@@ -30285,8 +30285,8 @@ oyiegwu O
 chụsasịrị O
 bi O
 na O
-Benue B-LOC
-steeti I-LOC
+Benue O
+steeti O
 , O
 
 O O
@@ -30346,11 +30346,11 @@ ihe O
 nkiri O
 BBN O
 nke O
-afọ B-DATE
-2018 I-DATE
+afọ O
+2018 O
 bụ O
-Miracle O
-Ikechukwu O
+Miracle B-PER
+Ikechukwu I-PER
 ekpeghikwa O
 azụ O
 ebe O
@@ -30396,20 +30396,20 @@ na O
 - O
 echetara O
 ụmụ O
-Naịjirịa B-LOC
+Naịjirịa O
 niile O
 na O
 ndị O
 mba O
 ofesi O
 maka O
-Leah O
-Sharibu O
+Leah B-PER
+Sharibu I-PER
 bụ O
 onye O
 ndị O
-Boko O
-Haram O
+Boko B-ORG
+Haram I-ORG
 kpọrọ O
 ma O
 na O
@@ -30447,7 +30447,7 @@ ichefu O
 ya O
 . O
 
-Deekachy O
+Deekachy B-PER
 dere O
 akụkọ O
 na O
@@ -30533,7 +30533,7 @@ ka O
 e O
 mere O
 ha O
-taa B-DATE
+taa O
 bụ O
 ụbọchị O
 ha O
@@ -30542,7 +30542,7 @@ ha O
 Akụkọ O
 kachasi O
 : O
-Ipob B-ORG
+Ipob O
 nabatara O
 Buhari O
 2019 B-DATE
@@ -30553,7 +30553,7 @@ apụtaghị O
 nabata O
 Buhari B-PER
 
-Gassama B-PER
+Gassama O
 na O
 Macron O
 zụkọrọ O
@@ -30600,17 +30600,17 @@ kwa O
 onyeisiala O
 France B-LOC
 bụ O
-Emmanuel O
-Macron O
+Emmanuel B-PER
+Macron I-PER
 emela O
 nwoke O
 ahụ O
 a O
 kpọrọ O
-Mamoudu B-PER
-Gassama I-PER
+Mamoudu O
+Gassama O
 onye O
-France B-LOC
+France O
 , O
 ma O
 nye O
@@ -30641,7 +30641,7 @@ chọrọ O
 dapụ O
 . O
 
-France B-LOC
+France O
 : O
 Otu O
 onye O
@@ -30682,21 +30682,21 @@ ume O
 
 Ka O
 onyeisiala O
-Emmanuel B-PER
-Macron I-PER
+Emmanuel O
+Macron O
 zutere O
 ya O
 n'obi O
 ukwu O
 ndị O
-France B-LOC
+France O
 akpọrọ O
 Elysee O
 Palace O
 , O
 okwuru O
 na O
-Gassam O
+Gassam B-PER
 ga O
 abụrụzi O
 onye O
@@ -30707,7 +30707,7 @@ France B-LOC
 gakwara O
 n'ihu O
 nye O
-Gassama O
+Gassama B-PER
 ezigbo O
 ekele O
 , O
@@ -30731,25 +30731,25 @@ n'ụlọ O
 Oku O
 mberede O
 a O
-Gassama B-PER
+Gassama O
 zara O
 mere O
 n'isi O
 obodo O
-France B-LOC
+France O
 bụ O
-Paris B-LOC
+Paris O
 , O
-n'ehihe O
-ụbọchị O
-27 O
-ọnwa O
-a O
-bụ O
-Mee O
+n'ehihe B-DATE
+ụbọchị I-DATE
+27 I-DATE
+ọnwa I-DATE
+a I-DATE
+bụ I-DATE
+Mee I-DATE
 . O
 
-Gassam O
+Gassam B-PER
 zikọrọ O
 akwụkị̀ọ O
 ikike O
@@ -30801,7 +30801,7 @@ zaghị O
 m O
 , O
 """" O
-Gassama B-PER
+Gassama O
 kwuru O
 . O
 
@@ -30835,15 +30835,15 @@ dị O
 ka O
 ihe O
 onye O
-Mali B-LOC
+Mali O
 ọzọ O
 a O
 kpọrọ O
 Lassana B-PER
 Bathily I-PER
 mere O
-n'afọ O
-2015 O
+n'afọ B-DATE
+2015 I-DATE
 mgbe O
 ndị O
 oyi O
@@ -30900,7 +30900,7 @@ emeela O
 Ihe O
 8 O
 onyeisala O
-Buhari B-PER
+Buhari O
 kwuru O
 maka O
 ụmụaka O
@@ -30911,11 +30911,11 @@ ndị O
 kachasị O
 mkpa O
 mere O
-taa B-DATE
+taa O
 : O
 
-Serena B-PER
-Williams I-PER
+Serena O
+Williams O
 awakela O
 ka O
 anyanwụ O
@@ -30941,8 +30941,8 @@ na O
 egwuruegwu O
 tennis O
 bụ O
-Serena O
-Williams O
+Serena B-PER
+Williams I-PER
 sị O
 ụwa O
 chere O
@@ -30953,7 +30953,7 @@ na O
 ọdịnihụ O
 . O
 
-Serena B-PER
+Serena O
 bụ O
 onye O
 meriri O
@@ -30961,7 +30961,7 @@ Ashleigh B-PER
 Barty I-PER
 nke O
 mba O
-Australia B-LOC
+Australia O
 sị O
 na O
 ya O
@@ -31004,7 +31004,7 @@ na O
 ọgbakọ O
 ndị O
 APC O
-n'Abụja O
+n'Abụja B-LOC
 ụnyahụ O
 ebe O
 ọtụtụ O
@@ -31044,7 +31044,7 @@ ya O
 
 Cheta O
 na O
-Rochas B-PER
+Rochas O
 na O
 ndị O
 pati O
@@ -31056,8 +31056,8 @@ nsonso O
 a O
 . O
 
-Boko B-ORG
-Haram I-ORG
+Boko O
+Haram O
 agbuola O
 ndịagha O
 ise O
@@ -31077,8 +31077,8 @@ n'ala O
 Naịjiria B-LOC
 
 Na O
-Boronu O
-steeti O
+Boronu B-LOC
+steeti I-LOC
 unyahụ O
 , O
 ndị O
@@ -31094,8 +31094,8 @@ Naịjirịa B-LOC
 ise O
 . O
 
-Texas B-PER
-Chukwu I-PER
+Texas O
+Chukwu O
 bụ O
 ọnụ O
 na O
@@ -31118,8 +31118,8 @@ basara O
 ndị O
 agha O
 operation O
-Lafia O
-dole O
+Lafia B-ORG
+dole I-ORG
 ọgụ O
 mgbe O
 ihe O
@@ -31127,7 +31127,7 @@ a O
 mere O
 . O
 
-Okorocha B-PER
+Okorocha O
 esoghi O
 na O
 nzụko O
@@ -31137,7 +31137,7 @@ APC B-ORG
 mere O
 
 Ndịagha O
-Naịjirịa O
+Naịjirịa B-LOC
 anwụchiela O
 gwogworo O
 ato O
@@ -31179,7 +31179,7 @@ mba O
 ọzọ O
 . O
 
-Trump O
+Trump B-PER
 weliri O
 ụtụisi O
 ngwa O
@@ -31210,9 +31210,9 @@ ndị O
 so O
 n'otu O
 pati O
-All B-ORG
-Progressives I-ORG
-Congress I-ORG
+All O
+Progressives O
+Congress O
 ( O
 APC B-ORG
 ) O
@@ -31222,7 +31222,7 @@ anyanwụ O
 na O
 - O
 agbakọ O
-n'Abuja B-LOC
+n'Abuja O
 na O
 atụmatụ O
 ha O
@@ -31264,8 +31264,8 @@ achị O
 Imo O
 steeti O
 bụ O
-Rochas O
-Okorocha O
+Rochas B-PER
+Okorocha I-PER
 kwuru O
 na O
 aka O
@@ -31275,7 +31275,7 @@ na O
 ya O
 . O
 
-Okorocha B-PER
+Okorocha O
 , O
 dika O
 ọ O
@@ -31285,7 +31285,7 @@ ya O
 bụ O
 gọvanọ O
 ndi O
-APC B-ORG
+APC O
 nwere O
 n'ala O
 Igbo O
@@ -31297,10 +31297,10 @@ na O
 ahụ O
 ka O
 onyeisi O
-APC B-ORG
+APC O
 n'ọwụwa O
 anyanwụ O
-Naịjirịa O
+Naịjirịa B-LOC
 , O
 sị O
 na O
@@ -31315,7 +31315,7 @@ anọghị O
 ya O
 . O
 
-BBC B-ORG
+BBC O
 Igbo O
 Live O
 : O
@@ -31349,8 +31349,8 @@ APC B-ORG
 n'ala O
 Igbo O
 bụ O
-Emma O
-Eneuwku O
+Emma B-PER
+Eneuwku I-PER
 , O
 bu O
 onye O
@@ -31373,8 +31373,8 @@ gunyere O
 Ken B-PER
 Nnamani I-PER
 , O
-Jim O
-Nwobodo O
+Jim B-PER
+Nwobodo I-PER
 , O
 Orji B-PER
 Kalu I-PER
@@ -31382,11 +31382,11 @@ Kalu I-PER
 Sullivan B-PER
 Chime I-PER
 , O
-Martins O
-Elechi O
+Martins B-PER
+Elechi I-PER
 , O
-Ben O
-Uwajimogu O
+Ben B-PER
+Uwajimogu I-PER
 na O
 ndị O
 ọzọ O
@@ -31403,7 +31403,7 @@ Onwuemeodo O
 kwuru O
 : O
 Ọbụrụ O
-n'Okorocha O
+n'Okorocha B-PER
 nọ O
 na O
 nzụkọ O
@@ -31464,7 +31464,7 @@ Okorocha O
 na O
 ufọdụ O
 ndị O
-APC B-ORG
+APC O
 na O
 steeti O
 ya O
@@ -31503,20 +31503,20 @@ ihe O
 onye O
 okpa O
 ọchị O
-Uche B-PER
-Ogbuagu I-PER
+Uche O
+Ogbuagu O
 kwuru O
 maka O
 njem O
 ya O
 n'ọchịchị O
-Rochas B-PER
+Rochas O
 . O
 
-Rochas O
+Rochas B-PER
 ọ O
 gara O
-Daura B-LOC
+Daura O
 ime O
 gịnị O
 ụnyaahụ O
@@ -31524,11 +31524,11 @@ gịnị O
 
 Ọkụ O
 ụlọọrụ O
-APC B-ORG
+APC O
 : O
 Ọ O
 bụ O
-PDP B-ORG
+PDP O
 mere O
 ihe O
 a O
@@ -31540,7 +31540,7 @@ na O
 - O
 apụta O
 na O
-London O
+London B-LOC
 na O
 - O
 egosi O
@@ -31559,7 +31559,7 @@ agape O
 ụlọ O
 ahịa O
 ndị O
-Nike B-ORG
+Nike O
 makana O
 ọ O
 bụ O
@@ -31603,13 +31603,13 @@ iko O
 mba O
 ụwa O
 na O
-Rọshịa B-LOC
+Rọshịa O
 . O
 
 Ndị O
 mmadu O
 na O
-Twitter O
+Twitter B-ORG
 na O
 - O
 ekwu O
@@ -31625,7 +31625,7 @@ ahịa O
 ndị O
 Nike B-ORG
 gbapere O
-tata B-DATE
+tata O
 akwụrula O
 n'ahịrị O
 tupu O
@@ -31655,7 +31655,7 @@ a O
 . O
 
 Na O
-Twitter B-ORG
+Twitter O
 , O
 @ O
 A01379 O
@@ -31682,8 +31682,8 @@ n'ahiri O
 Onye O
 ọrụ O
 BBC B-ORG
-Peter O
-Okwoche O
+Peter B-PER
+Okwoche I-PER
 na O
 onwe O
 ya O
@@ -31752,7 +31752,7 @@ na O
 mberede O
 . O
 
-BBC B-ORG
+BBC O
 Igbo O
 jụbụrụ O
 ajujụ O
@@ -31795,13 +31795,13 @@ iwu O
 ebidola O
 ire O
 uwe O
-Naịjirịa B-LOC
+Naịjirịa O
 na O
 - O
 echeghị O
 ka O
 ụlọọrụ O
-Nike B-ORG
+Nike O
 webata O
 ya O
 n'ahịa O
@@ -31810,7 +31810,7 @@ Onye O
 ntaakụkọ O
 BBC B-ORG
 na O
-Lọndọn O
+Lọndọn B-LOC
 bụ O
 Peter O
 Okwoche O
@@ -31820,22 +31820,22 @@ afọ O
 Naịjirịa B-LOC
 bị O
 na O
-Lọndọn O
+Lọndọn B-LOC
 ajụjụ O
 maka O
 ebumnobi O
 ha O
 n'ebe O
-Super B-ORG
-Eagles I-ORG
+Super O
+Eagles O
 nọ O
 . O
 
 Ha O
 kwuru O
 na O
-super B-ORG
-Eagles I-ORG
+super O
+Eagles O
 ga O
 - O
 eme O
@@ -31872,8 +31872,8 @@ otu O
 bọọlụ O
 ọbụla O
 ndị O
-Super O
-Eagles O
+Super B-ORG
+Eagles I-ORG
 na O
 - O
 atụ O
@@ -31898,7 +31898,7 @@ n'asọmpi O
 ahụ O
 . O
 
-Williams O
+Williams B-PER
 kwụsịrị O
 ịsọmpi O
 n'ọnwa O
@@ -31921,8 +31921,8 @@ agbara O
 ewguregwu O
 Tennis O
 bụ O
-Serena B-PER
-Williams I-PER
+Serena O
+Williams O
 apụọla O
 na O
 French O
@@ -31931,7 +31931,7 @@ Open O
 
 Ha O
 kwuru O
-Williams O
+Williams B-PER
 pụrụ O
 na O
 - O
@@ -31958,7 +31958,7 @@ kachasị O
 n'ụtụtụ O
 a O
 : O
-Serena B-PER
+Serena O
 awakela O
 ọzọ O
 
@@ -31973,7 +31973,7 @@ asọmpi O
 Lee O
 ebe O
 ndị O
-AP B-ORG
+AP O
 gbasara O
 akụkọ O
 a O
@@ -31981,7 +31981,7 @@ n'elu O
 akara O
 soshal O
 midia O
-Twitter B-ORG
+Twitter O
 ha O
 : O
 
@@ -31995,9 +31995,9 @@ gwara O
 ndị O
 ntaakụkọ O
 n'obodo O
-Roland O
-- O
-Garros O
+Roland B-LOC
+- I-LOC
+Garros I-LOC
 nke O
 mba O
 France O
@@ -32016,7 +32016,7 @@ n'asọmpị O
 ahụ O
 . O
 
-Serena O
+Serena B-PER
 na O
 Maria O
 Sharapova O
@@ -32063,8 +32063,8 @@ a O
 
 E O
 zuola O
-Nwankwo O
-Kanu O
+Nwankwo B-PER
+Kanu I-PER
 ohi O
 na O
 Rọshịa B-LOC
@@ -32096,7 +32096,7 @@ ndị O
 kachasị O
 mkpa O
 mere O
-taa O
+taa B-DATE
 : O
 
 Akụkọ O
@@ -32232,7 +32232,7 @@ etiti O
 ga O
 - O
 amalite O
-taa B-DATE
+taa O
 ịna O
 ụgwọ O
 ụtụ O
@@ -32272,7 +32272,7 @@ mberede O
 volukeno O
 mere O
 na O
-Guatemala O
+Guatemala B-LOC
 taa O
 egbuola O
 mmadị O
@@ -32301,12 +32301,12 @@ narị O
 
 E O
 zuru O
-Kanu B-PER
-Nwankwo I-PER
+Kanu O
+Nwankwo O
 ohi O
 na O
-Rọshịa B-LOC
-taa O
+Rọshịa O
+taa B-DATE
 ruru O
 puku O
 dọla O
@@ -32317,14 +32317,14 @@ otu O
 
 E O
 zuola O
-Nwankwo O
-Kanu O
+Nwankwo B-PER
+Kanu I-PER
 ohi O
 na O
 Rọshịa B-LOC
 
-Serena O
-Williams O
+Serena B-PER
+Williams I-PER
 esepụla O
 aka O
 n'asọmpi O
@@ -32349,7 +32349,7 @@ ka O
 bụ O
 ụjọ O
 mere O
-Serena O
+Serena B-PER
 jiri O
 sepụ O
 aka O
@@ -32369,8 +32369,8 @@ mere O
 na O
 mgbede O
 a O
-n'otu B-DATE
-nkeji I-DATE
+n'otu O
+nkeji O
 : O
 
 Buhari B-PER
@@ -32392,8 +32392,8 @@ na O
 mgbasa O
 ozi O
 bụ O
-Garba O
-Shehu O
+Garba B-PER
+Shehu I-PER
 ekwuola O
 na O
 onyeisiala O
@@ -32462,8 +32462,8 @@ na O
 ise O
 anwụọla O
 na O
-Benue B-LOC
-Steeti I-LOC
+Benue O
+Steeti O
 site O
 na O
 mwakpo O
@@ -32495,8 +32495,8 @@ nke O
 Steeti O
 ahụ O
 bụ O
-Lawrence O
-Onoja O
+Lawrence B-PER
+Onoja I-PER
 kwuru O
 na O
 na O
@@ -32507,9 +32507,9 @@ gunyere O
 Tsa B-LOC
 Ishav I-LOC
 , O
-Yelwata O
+Yelwata B-LOC
 na O
-logo B-LOC
+logo O
 . O
 
 Ọchị O
@@ -32530,10 +32530,10 @@ Onye O
 bụbu O
 ọkaikpe O
 ukwu O
-Naịjirịa B-LOC
+Naịjirịa O
 bụ O
-Alfa B-PER
-Belgore I-PER
+Alfa O
+Belgore O
 ekwuola O
 na O
 iwu O
@@ -32541,7 +32541,7 @@ akwadoghị O
 nkwanye O
 ugwu O
 nturugo O
-Buhari O
+Buhari B-PER
 nyere O
 MKO O
 Abiola O
@@ -32551,7 +32551,7 @@ Cheta O
 na O
 Buhari O
 kwanyere O
-Abiola B-PER
+Abiola O
 ugwu O
 ma O
 mee O
@@ -32604,9 +32604,9 @@ bọọlụ O
 mba O
 Kenya O
 bụ O
-Aden B-PER
-Range I-PER
-Marwa I-PER
+Aden O
+Range O
+Marwa O
 dịka O
 ọ O
 na O
@@ -32622,7 +32622,7 @@ otu O
 bọọlụ O
 dị O
 na O
-Ghana O
+Ghana B-LOC
 . O
 
 FIFA O
@@ -32660,7 +32660,7 @@ nke O
 taa B-DATE
 : O
 
-Osinbajo B-PER
+Osinbajo O
 jiri O
 ụgbọala O
 laa O
@@ -32675,8 +32675,8 @@ Osote O
 onyeisiala O
 Naịjirịa B-LOC
 bụ O
-Yemi B-PER
-Osinbajo I-PER
+Yemi O
+Osinbajo O
 gbanahụrụ O
 ọdachị O
 ụnyaahu O
@@ -32718,7 +32718,7 @@ helicopter O
 ebuchịghị O
 ya O
 azụ O
-n'Abuja O
+n'Abuja B-LOC
 . O
 
 Ndị O
@@ -32733,7 +32733,7 @@ mmadụ O
 60 O
 akpọkasịala O
 
-Osinbajo O
+Osinbajo B-PER
 gara O
 ụlọakwụkwọ O
 Customs O
@@ -32757,10 +32757,10 @@ ahịa O
 na O
 - O
 abata O
-Naịjirịa B-LOC
+Naịjirịa O
 . O
 
-Osinbajo O
+Osinbajo B-PER
 na O
 ndị O
 pụtara O
@@ -32837,8 +32837,8 @@ la O
 . O
 
 Mee O
-Humphrey O
-Nwosu O
+Humphrey B-PER
+Nwosu I-PER
 ka O
 ibe O
 ya O
@@ -32854,7 +32854,7 @@ eghe O
 ntutu O
 ? O
 
-GTB B-ORG
+GTB O
 asaala O
 akụkọ O
 gbasara O
@@ -32885,7 +32885,7 @@ All B-ORG
 Progressives I-ORG
 Congress I-ORG
 ( O
-APC B-ORG
+APC O
 ) O
 adọla O
 aka O
@@ -32896,8 +32896,8 @@ Imo O
 steeti O
 bụ O
 Owelle O
-Rochas B-PER
-Okorocha I-PER
+Rochas O
+Okorocha O
 aka O
 na O
 ntị O
@@ -32923,12 +32923,12 @@ na O
 onye O
 isi O
 oche O
-APC B-ORG
+APC O
 bụ O
-John O
-Odigie O
-- O
-Oyegun O
+John B-PER
+Odigie I-PER
+- I-PER
+Oyegun I-PER
 akwanyeghị O
 iwu O
 ọlụikpe O
@@ -32957,8 +32957,8 @@ n'Imo B-LOC
 . O
 
 N'akwụkwọ O
-Bolaji B-PER
-Abdullahi I-PER
+Bolaji O
+Abdullahi O
 bụ O
 ode O
 akwụkwọ O
@@ -32971,7 +32971,7 @@ dere O
 APC B-ORG
 kọwara O
 ebubo O
-Okorocha B-PER
+Okorocha O
 boro O
 ha O
 ka O
@@ -33012,13 +33012,13 @@ imeli O
 ọgọ O
 ya O
 Gọvanọ O
-Imo O
-steeti O
+Imo B-LOC
+steeti I-LOC
 ? O
 
 Ọkụ O
 ụlọọrụ O
-APC O
+APC B-ORG
 : O
 Ọ O
 bụ O
@@ -33039,7 +33039,7 @@ ga O
 eme O
 ha O
 na O
-2019 O
+2019 B-DATE
 ? O
 
 Ọpụpụ O
@@ -33054,12 +33054,12 @@ APC B-ORG
 
 Onye O
 nkwuchiteọnụ O
-APC B-ORG
+APC O
 na O
 Legos O
 bụ O
-Joe B-PER
-Igbokwe I-PER
+Joe O
+Igbokwe O
 kwuru O
 na O
 ọ O
@@ -33079,13 +33079,13 @@ N'okwu O
 ya O
 , O
 """" O
-APC B-ORG
+APC O
 abụghị O
 PDP O
 , O
 Buhari O
 abụghị O
-Jonathan B-PER
+Jonathan O
 , O
 ọpụpụ O
 ha O
@@ -33095,7 +33095,7 @@ ihe O
 ga O
 - O
 eme O
-APC O
+APC B-ORG
 . O
 """" O
 
@@ -33105,7 +33105,7 @@ soshal O
 media O
 , O
 ụmụ O
-Naịjirịa B-LOC
+Naịjirịa O
 na O
 - O
 etu O
@@ -33115,14 +33115,14 @@ emetụta O
 ha O
 . O
 
-Tell O
+Tell B-PER
 the O
 Mayor O
 kwuru O
 na O
 ma O
 ụmụ O
-Naịjirịa B-LOC
+Naịjirịa O
 ekwesiri O
 ibe O
 akwa O
@@ -33170,13 +33170,13 @@ o O
 si O
 PDP O
 gaa O
-APC B-ORG
+APC O
 na O
-2014 B-DATE
+2014 O
 sikwa O
 APC B-ORG
 gaa O
-PDP B-ORG
+PDP O
 na O
 2018 B-DATE
 na O
@@ -33186,7 +33186,7 @@ na O
 ha O
 ji O
 ụmụ O
-Naịjirịa B-LOC
+Naịjirịa O
 eti O
 epele O
 nakwa O
@@ -33224,9 +33224,9 @@ omeiwu O
 ibe O
 ya O
 bụ O
-Ben B-PER
-Murray I-PER
-Bruce I-PER
+Ben O
+Murray O
+Bruce O
 kwuru O
 na O
 ya O
@@ -33238,7 +33238,7 @@ na O
 pati O
 ha O
 bụ O
-PDP B-ORG
+PDP O
 mana O
 Saraka O
 ekwughikwa O
@@ -33248,12 +33248,12 @@ na O
 - O
 aga O
 na O
-PDP B-ORG
+PDP O
 . O
 
 Otu O
 pati O
-PDP O
+PDP B-ORG
 dekwara O
 n'akara O
 twitter O
@@ -33262,13 +33262,13 @@ onyeisi O
 ụlọomeiwu O
 sineti O
 bụ O
-Bukola B-PER
-Saraki I-PER
+Bukola O
+Saraki O
 na O
 - O
 alọghachi O
 na O
-PDP B-ORG
+PDP O
 . O
 
 Cheta O
@@ -33285,7 +33285,7 @@ pati O
 APC B-ORG
 wufere O
 pati O
-PDP O
+PDP B-ORG
 ebe O
 ndị O
 nnọchiteanya O
@@ -33293,7 +33293,7 @@ mmadụ O
 38 O
 bụbu O
 ndị O
-APC B-ORG
+APC O
 wufekwara O
 PDP O
 na O
@@ -33303,7 +33303,7 @@ ndị O
 . O
 
 Onyeisiala O
-Naịjirịa B-LOC
+Naịjirịa O
 dị O
 Igbo O
 nso O
@@ -33334,7 +33334,7 @@ Steeti I-LOC
 Osuji B-PER
 
 Akpụkụrụ O
-Ekweremadu B-PER
+Ekweremadu O
 ụlọikpe O
 na O
 o O
@@ -33346,8 +33346,8 @@ mgbe O
 banyere O
 ọchịchị O
 
-Ohananeze B-ORG
-Ndịgbo I-ORG
+Ohananeze O
+Ndịgbo O
 akatọla O
 njide O
 gọọmenti O
@@ -33356,8 +33356,8 @@ osote O
 onyeisi O
 Sineti O
 bụ O
-Ike O
-Ekeremadụ O
+Ike B-PER
+Ekeremadụ I-PER
 . O
 
 Ode O
@@ -33370,7 +33370,7 @@ bụ O
 Uche O
 Achi O
 - O
-Okpaga B-PER
+Okpaga O
 sị O
 na O
 ha O
@@ -33395,7 +33395,7 @@ aga O
 n'Abia B-LOC
 steeti I-LOC
 
-Shell O
+Shell B-ORG
 na O
 - O
 emepụta O
@@ -33410,7 +33410,7 @@ Ndị O
 ọrụ O
 shell B-ORG
 nke O
-Naịjịrịa O
+Naịjịrịa B-LOC
 ekwuputela O
 ebumnobi O
 ha O
@@ -33442,8 +33442,8 @@ ga O
 agafe O
 Osisoma B-LOC
 , O
-Ogbo O
-Hill O
+Ogbo B-LOC
+Hill I-LOC
 nakwa O
 Ariaria B-LOC
 maka O
@@ -33530,8 +33530,8 @@ ndị O
 otu O
 ha O
 ndị O
-Boko B-ORG
-Haram I-ORG
+Boko O
+Haram O
 gburu O
 na O
 nzuzo O
@@ -33542,9 +33542,9 @@ na O
 - O
 egosi O
 na O
-Zanu B-ORG
-- I-ORG
-PF I-ORG
+Zanu O
+- O
+PF O
 na O
 - O
 emeri O
@@ -33557,7 +33557,7 @@ na O
 ntuliaka O
 ndọrọndọrọ O
 ọchịchị O
-Zimbabwe O
+Zimbabwe B-LOC
 ka O
 otu O
 pati O
@@ -33602,7 +33602,7 @@ Athletic O
 Championship O
 bidoro O
 na O
-Asaba B-LOC
+Asaba O
 tata B-DATE
 
 N'egwuruegwu O
@@ -33670,7 +33670,7 @@ Igbo O
 n'ihe O
 ọmụmụ O
 gbasara O
-Afrịka O
+Afrịka B-LOC
 na O
 asụsụ O
 na O
@@ -33678,10 +33678,10 @@ Mahadum O
 nke O
 Lagos O
 bụ O
-Chiagozie B-PER
-Nnabuihe I-PER
+Chiagozie O
+Nnabuihe O
 kọwara O
-BBC O
+BBC B-ORG
 Igbo O
 na O
 Igbo O
@@ -34111,9 +34111,9 @@ isi O
 
 Okporo O
 ụzọ O
-MCC O
+MCC B-ORG
 , O
-Urata O
+Urata B-LOC
 n'ime O
 Owere B-LOC
 
@@ -34124,8 +34124,8 @@ na O
 ahụ O
 maka O
 gburugburu O
-n'Anambara B-LOC
-steeti I-LOC
+n'Anambara O
+steeti O
 , O
 otu O
 ndị O
@@ -34133,13 +34133,13 @@ gbatagbata O
 gọọmenti O
 etiti O
 ( O
-NEMA O
+NEMA B-ORG
 ) O
 na O
 nke O
 steeti O
 ( O
-SEMA B-ORG
+SEMA O
 ) O
 gara O
 njem O
@@ -34184,7 +34184,7 @@ Mgbemena O
 nke O
 dị O
 na O
-Ọnịcha O
+Ọnịcha B-LOC
 . O
 
 Ndị O
@@ -34212,13 +34212,13 @@ si O
 pati O
 APC B-ORG
 wụfee O
-PDP B-ORG
+PDP O
 agaala O
 ọgbakọ O
 ndị O
 isi O
 ọchịchị O
-PDP B-ORG
+PDP O
 nke O
 mbụ O
 ha O
@@ -34234,11 +34234,11 @@ gụnyere O
 Bukola O
 Saraki O
 , O
-Rabiu O
-Kwankwaso O
+Rabiu B-PER
+Kwankwaso I-PER
 , O
-Aminu B-PER
-Tambuwal I-PER
+Aminu O
+Tambuwal O
 , O
 Samuel O
 Ortom O
@@ -34256,7 +34256,7 @@ ya O
 ọzọ O
 
 Popu O
-Fransis B-PER
+Fransis O
 wetere O
 ọtụtụ O
 mgbanwe O
@@ -34265,7 +34265,7 @@ na O
 katọlik O
 
 Pope O
-Francis O
+Francis B-PER
 bụ O
 onyeisi O
 ụka O
@@ -34323,16 +34323,16 @@ ekwetala O
 ka O
 ha O
 na O
-Giwa O
+Giwa B-PER
 kpee O
 udo O
 
 Ọchịchị O
-Amaju O
-Pinnick O
+Amaju B-PER
+Pinnick I-PER
 dịka O
 onyeisi O
-NFF B-ORG
+NFF O
 ga O
 - O
 abịa O
@@ -34358,7 +34358,7 @@ maka O
 egwuregwu O
 bọọlụ O
 na O
-Naịjirịa O
+Naịjirịa B-LOC
 bụ O
 NFF B-ORG
 adịla O
@@ -34387,7 +34387,7 @@ ma O
 ọ O
 bụrụ O
 na O
-Giwa B-PER
+Giwa O
 gbahapụ O
 mkpọpụ O
 ọkpọpụrụ O
@@ -34418,14 +34418,14 @@ bọọlụ O
 gbalitere O
 n'ọkwa O
 bụ O
-Ahmed O
-Musa O
+Ahmed B-PER
+Musa I-PER
 . O
 
 Mana O
 ugbua O
 , O
-Musa O
+Musa B-PER
 kpara O
 mkpamkpa O
 n'asọmpi O
@@ -34435,12 +34435,12 @@ gwụrụ O
 agwụ O
 esila O
 n'otu O
-Leicester O
-City O
+Leicester B-LOC
+City I-LOC
 gafee O
 n'otu O
-Al B-ORG
-Nasr I-ORG
+Al O
+Nasr O
 nke O
 Saudi O
 Arebia O
@@ -34455,8 +34455,8 @@ zụọ O
 ya O
 n'aka O
 ndị O
-Leicester B-LOC
-City I-LOC
+Leicester O
+City O
 mana O
 a O
 na O
@@ -34481,8 +34481,8 @@ ma O
 ụmụnwaanyị O
 ji O
 ndị O
-Super B-ORG
-Eagles I-ORG
+Super O
+Eagles O
 n'ọrụ O
 ? O
 
@@ -34499,7 +34499,7 @@ chọrọ O
 
 World O
 Cup O
-2018 B-DATE
+2018 O
 : O
 Ihe O
 mere O
@@ -34548,7 +34548,7 @@ na O
 ga O
 - O
 aga O
-Galatasaray B-ORG
+Galatasaray O
 maka O
 na O
 ndị O
@@ -34611,11 +34611,11 @@ ewu O
 
 Saraki O
 meriri O
-EFCC O
+EFCC B-ORG
 n'ụlọikpe O
 kachasị O
-n'ọnwa B-DATE
-Juli I-DATE
+n'ọnwa O
+Juli O
 maka O
 ebubo O
 mpu O
@@ -34631,7 +34631,7 @@ n'etiti O
 ndọrọndọro O
 ọchịchị O
 Naijiria B-LOC
-ụnyaahụ O
+ụnyaahụ B-DATE
 bụ O
 na O
 otu O
@@ -34646,15 +34646,15 @@ onyeisi O
 ụlọomeiwu O
 ukwu O
 bụ O
-Bukola B-PER
-Saraki I-PER
+Bukola O
+Saraki O
 dịka O
 onyeisi O
 ha O
 . O
 
 Mana O
-ụnyaahụ B-DATE
+ụnyaahụ O
 , O
 akụkọ O
 kwuru O
@@ -34668,7 +34668,7 @@ omeiwu O
 ha O
 niile O
 laghachite O
-Abuja B-LOC
+Abuja O
 , O
 maka O
 ha O
@@ -34676,7 +34676,7 @@ na O
 - O
 eche O
 na O
-APC O
+APC B-ORG
 nwere O
 ike O
 ijiri O
@@ -34685,9 +34685,9 @@ mepe O
 ụlọomeiwu O
 wee O
 chutuo O
-Saraki O
+Saraki B-PER
 na O
-Ekweremadu O
+Ekweremadu B-PER
 . O
 
 BBC B-ORG
@@ -34697,7 +34697,7 @@ ndị O
 otu O
 APC O
 na O
-PDC B-ORG
+PDC O
 ajụjụọnụ O
 maka O
 ebumnuche O
@@ -34747,7 +34747,7 @@ niile O
 ha O
 mere O
 n'ala O
-Naịjirịa O
+Naịjirịa B-LOC
 . O
 
 Saraki O
@@ -34764,7 +34764,7 @@ maka O
 mgbochi O
 ha O
 
-Saraki O
+Saraki B-PER
 : O
 Ụlọikpe O
 kachasị O
@@ -34778,7 +34778,7 @@ ya O
 , O
 """" O
 Onyeisiala O
-Naịjiria B-LOC
+Naịjiria O
 bụ O
 Muhammadu B-PER
 Buhari I-PER
@@ -34792,7 +34792,7 @@ akwụghachị O
 njọ O
 . O
 
-PDP O
+PDP B-ORG
 na O
 - O
 ama O
@@ -34844,8 +34844,8 @@ na O
 ha O
 chọrọ O
 ịchụda O
-Bukola B-PER
-Saraki I-PER
+Bukola O
+Saraki O
 , O
 o O
 nweghị O
@@ -34857,8 +34857,8 @@ ya O
 """" O
 
 Mana O
-Austin B-PER
-Umehi I-PER
+Austin O
+Umehi O
 bụ O
 otu O
 n'ime O
@@ -34874,11 +34874,11 @@ agaghị O
 anwa O
 anwa O
 ịchụda O
-Bukola B-PER
-Saraki I-PER
+Bukola O
+Saraki O
 . O
 
-PDP O
+PDP B-ORG
 na O
 - O
 ebo O
@@ -34957,10 +34957,10 @@ oge O
 ha O
 . O
 
-PDP B-ORG
+PDP O
 sị O
 na O
-Saraki B-PER
+Saraki O
 bụ O
 onye O
 otu O
@@ -35008,7 +35008,7 @@ ga O
 achi O
 ụlọomeiwu O
 na O
-Naịjirịa B-LOC
+Naịjirịa O
 . O
 
 Mana O
@@ -35114,7 +35114,7 @@ na O
 ndị O
 sinetọ O
 otu O
-PDP B-ORG
+PDP O
 ga O
 - O
 enwe O
@@ -35132,7 +35132,7 @@ eme O
 ma O
 ọbụrụ O
 na O
-APC O
+APC B-ORG
 mere O
 udi O
 ihe O
@@ -35155,13 +35155,13 @@ ga O
 - O
 alaghachị O
 azụ O
-taa O
+taa B-DATE
 maọbụ O
 echi O
 . O
 
-Chukwuka B-PER
-Onyema I-PER
+Chukwuka O
+Onyema O
 bụ O
 osote O
 onyeisi O
@@ -35198,7 +35198,7 @@ na O
 ebokwa O
 na O
 njem O
-Buhari B-PER
+Buhari O
 gara O
 ala O
 Briten O
@@ -35207,7 +35207,7 @@ maka O
 inyere O
 ndị O
 sinetọ O
-APC O
+APC B-ORG
 ohere O
 ịchụda O
 Bukola O
@@ -35279,7 +35279,7 @@ m O
 
 Otela O
 ndị O
-Naịjirịa B-LOC
+Naịjirịa O
 na O
 - O
 eti O
@@ -35310,7 +35310,7 @@ na O
 - O
 emepụta O
 na O
-Naịjirịa B-LOC
+Naịjirịa O
 agbagotela O
 ruo O
 megawatt O
@@ -35318,12 +35318,12 @@ puku O
 asaa O
 . O
 
-Fashola B-PER
+Fashola O
 kwuru O
 nke O
 a O
 na O
-Kalaba O
+Kalaba B-LOC
 , O
 isi O
 obodo O
@@ -35339,8 +35339,8 @@ agaghị O
 enwu O
 ọfụma O
 ruo O
-afọ B-DATE
-2023 I-DATE
+afọ O
+2023 O
 - O
 Ndị O
 ọrụ O
@@ -35359,7 +35359,7 @@ achabie O
 - O
 Ọkaiwu O
 
-Fashola O
+Fashola B-PER
 nọ O
 na O
 Kalaba O
@@ -35405,8 +35405,8 @@ mgbe O
 ha O
 malitere O
 ọru O
-n'afọ O
-2015 O
+n'afọ B-DATE
+2015 I-DATE
 . O
 
 Fashola B-PER
@@ -35437,7 +35437,7 @@ nsogbu O
 anyị O
 nwere O
 na O
-Naijirịa O
+Naijirịa B-LOC
 . O
 
 Mgbe O
@@ -35479,7 +35479,7 @@ megawatt O
 690 O
 nye O
 ndị O
-Naịjirịa O
+Naịjirịa B-LOC
 , O
 mana O
 akụkọ O
@@ -35503,7 +35503,7 @@ bụ O
 nke O
 kachasị O
 kamgbe O
-Naịjirịa O
+Naịjirịa B-LOC
 pụtara O
 . O
 
@@ -36064,7 +36064,7 @@ oyiegwu O
 - O
 Ụlọomeiwu O
 
-Plateau B-LOC
+Plateau O
 : O
 Ndị O
 ọchịehi O
@@ -36133,7 +36133,7 @@ ha O
 nso O
 . O
 
-BBC B-ORG
+BBC O
 Igbo O
 gbara O
 mbọ O
@@ -36160,7 +36160,7 @@ mmadụ O
 otu O
 puku O
 na O
-Benue B-LOC
+Benue O
 , O
 Taraba O
 na O
@@ -36168,7 +36168,7 @@ Platu O
 steeti O
 n'afọ O
 a O
-2018 O
+2018 B-DATE
 . O
 
 Agha O
@@ -36243,14 +36243,14 @@ a O
 
 Ndi O
 agha O
-Naịjirịa O
+Naịjirịa B-LOC
 etiela O
 ndị O
 ọchịehi O
 mmanwụ O
 na O
-Benue O
-steeti O
+Benue B-LOC
+steeti I-LOC
 . O
 
 Isi O
@@ -36303,7 +36303,7 @@ taa O
 . O
 
 Akụkọ O
-BBC O
+BBC B-ORG
 Igbo O
 na O
 - O
@@ -36312,7 +36312,7 @@ na O
 - O
 ekwu O
 na O
-Abubakara B-PER
+Abubakara O
 tinyere O
 akwụkwọ O
 alụkwaghị O
@@ -36371,11 +36371,11 @@ jijiji O
 dị O
 egwu O
 awakpola O
-Lombol B-LOC
-n'Indoneshia I-LOC
+Lombol O
+n'Indoneshia O
 , O
-otu B-DATE
-izuụka I-DATE
+otu O
+izuụka O
 ka O
 nke O
 gburu O
@@ -36406,7 +36406,7 @@ ndị O
 agbataobi O
 ha O
 na O
-Bali B-LOC
+Bali O
 ebe O
 ndị O
 ọrụ O
@@ -36454,7 +36454,7 @@ Ham O
 , O
 Newcastle B-ORG
 na O
-Chelsea O
+Chelsea B-ORG
 n'asọmpi O
 Premia O
 Lig O
@@ -36463,8 +36463,8 @@ Onye O
 nleta O
 ya O
 bụ O
-Wu O
-Jingui O
+Wu B-PER
+Jingui I-PER
 kwuru O
 na O
 ọgba O
@@ -36473,10 +36473,10 @@ otu O
 egwuregwu O
 Yatai O
 gwara O
-Demba O
+Demba B-PER
 ajọ O
 okwu O
-ụnyaahụ O
+ụnyaahụ B-DATE
 . O
 
 Gere O
@@ -36493,8 +36493,8 @@ Kọmishọna O
 ndị O
 uweojii O
 na O
-Legos B-LOC
-steeti I-LOC
+Legos O
+steeti O
 bụ O
 Edgal B-PER
 Imohimi I-PER
@@ -36505,7 +36505,7 @@ ebelatala O
 ike O
 ndị O
 otu O
-badoo B-ORG
+badoo O
 na O
 - O
 akpa O
@@ -36585,8 +36585,8 @@ ya O
 A O
 gbapụtala O
 nna O
-Mikel O
-Obi O
+Mikel B-PER
+Obi I-PER
 n'aka O
 ndị O
 ntọ O
@@ -36610,7 +36610,7 @@ ya O
 mana O
 ụra O
 buru O
-Joseph O
+Joseph B-PER
 ka O
 ọ O
 nụchara O
@@ -36656,8 +36656,8 @@ ekwuru O
 ndị O
 uweojii O
 na O
-Ondo B-LOC
-steeti I-LOC
+Ondo O
+steeti O
 sị O
 , O
 """" O
@@ -36749,8 +36749,8 @@ na O
 legos O
 steeti O
 bụ O
-Imohimi B-PER
-Edgal I-PER
+Imohimi O
+Edgal O
 , O
 kwuru O
 na O
@@ -36792,8 +36792,8 @@ n'Ebonyi B-ORG
 State I-ORG
 University I-ORG
 bụ O
-Nnachi B-PER
-Amos I-PER
+Nnachi O
+Amos O
 kwuru O
 , O
 na O
@@ -36829,14 +36829,14 @@ Ogbo O
 ya O
 nọ O
 na O
-Federal O
-Neuro O
-- O
-Pychiatric O
-Hospital O
+Federal B-ORG
+Neuro I-ORG
+- I-ORG
+Pychiatric I-ORG
+Hospital I-ORG
 dị O
 na O
-Yaba O
+Yaba B-LOC
 , O
 Legos B-LOC
 bụ O
@@ -36844,7 +36844,7 @@ Chinyere B-PER
 Okonkwo I-PER
 kwenyere O
 n'ihe O
-Amos B-PER
+Amos O
 kwuru O
 . O
 
@@ -36875,7 +36875,7 @@ karịrị O
 . O
 """" O
 
-Ozubulu B-LOC
+Ozubulu O
 Church O
 Massacre O
 : O
@@ -36909,7 +36909,7 @@ ndị O
 kachasị O
 mkpa O
 mere O
-taa O
+taa B-DATE
 : O
 
 Akụkọ O
@@ -36951,12 +36951,12 @@ na O
 ha O
 akwadoghi O
 ichutu O
-Saraki O
+Saraki B-PER
 na O
 Ekweremadu B-PER
 . O
 
-BBC B-ORG
+BBC O
 Igbo O
 amaghị O
 ka O
@@ -37002,7 +37002,7 @@ ya O
 
 'Ihe O
 mere O
-Osinbajo B-PER
+Osinbajo O
 jiri O
 chụọ O
 onyeisi O
@@ -37011,7 +37011,7 @@ n'ọrụ O
 
 Onyeisi O
 ụlọọrụ O
-Inec O
+Inec B-ORG
 Mahmood B-PER
 Yakubu I-PER
 akụwala O
@@ -37022,8 +37022,8 @@ nsugbe O
 E O
 mere O
 ọkammụta O
-Mahmood B-PER
-Yakubu I-PER
+Mahmood O
+Yakubu O
 onyeisi O
 Inec B-ORG
 n'ọnwa B-DATE
@@ -37047,7 +37047,7 @@ otu O
 onye O
 vootu O
 na O
-2019 O
+2019 B-DATE
 , O
 ị O
 mara O
@@ -37074,7 +37074,7 @@ mmadụ O
 ọcha O
 na O
 mba O
-UK O
+UK B-LOC
 , O
 ndị O
 mmadụ O
@@ -37093,7 +37093,7 @@ jidere O
 na O
 mbụ O
 ma O
-taa B-DATE
+taa O
 ha O
 ahụ O
 bụkwa O
@@ -37116,8 +37116,8 @@ Chelsea O
 ga O
 - O
 anọ O
-ọnwa O
-atọ O
+ọnwa B-DATE
+atọ I-DATE
 tupu O
 ha O
 ebido O
@@ -37149,16 +37149,16 @@ bọọlụ O
 Chelsea O
 nwere O
 bụ O
-Maurizio O
-Sarri O
+Maurizio B-PER
+Sarri I-PER
 ekwuola O
 hoha O
 na O
 o O
 nwereike O
 iru O
-ọnwa B-DATE
-atọ I-DATE
+ọnwa O
+atọ O
 tupu O
 Chelsea B-ORG
 akpawa O
@@ -37166,7 +37166,7 @@ ike O
 ọzọ O
 . O
 
-Sarri O
+Sarri B-PER
 kwuru O
 na O
 asọmpi O
@@ -37205,25 +37205,25 @@ afọ O
 asaa O
 , O
 site O
-n'afọ O
-2011 O
+n'afọ B-DATE
+2011 I-DATE
 ruo O
 2018 B-DATE
 
-Real B-ORG
-Madrid I-ORG
+Real O
+Madrid O
 azụrụla O
-Thibaut O
-Courtois O
+Thibaut B-PER
+Courtois I-PER
 bụ O
 oche O
 goolu O
 , O
 n'aka O
-Chelsea B-ORG
+Chelsea O
 . O
 
-Courtois B-PER
+Courtois O
 bụ O
 onye O
 ritere O
@@ -37266,14 +37266,14 @@ bido O
 Ị O
 ma O
 ihe O
-Ronaldo O
+Ronaldo B-PER
 jiri O
 chịrị O
 ọgbọ O
 ugbua O
 ? O
 
-Chelsea O
+Chelsea B-ORG
 na O
 Man B-ORG
 City I-ORG
@@ -37294,7 +37294,7 @@ dere O
 """" O
 Anyị O
 na O
-Chelsea B-ORG
+Chelsea O
 enweela O
 nkwekọrịta O
 gbasara O
@@ -37312,7 +37312,7 @@ isii O
 . O
 """" O
 
-Chelsea O
+Chelsea B-ORG
 n'onwe O
 ha O
 kwuru O
@@ -37326,8 +37326,8 @@ Real B-ORG
 Madrid I-ORG
 ekwekọrịtala O
 na O
-Thibault B-PER
-Courtois I-PER
+Thibault O
+Courtois O
 ga O
 - O
 esonye O
@@ -37369,8 +37369,8 @@ n'obibi O
 loan O
 ) O
 nke O
-otu B-DATE
-afọ I-DATE
+otu O
+afọ O
 . O
 
 Cheta O
@@ -37397,7 +37397,7 @@ ka O
 ga O
 - O
 agbara O
-Chelsea B-ORG
+Chelsea O
 . O
 
 Godswill B-PER
@@ -37413,8 +37413,8 @@ maka O
 ọpụpụ O
 ya O
 
-Antonio B-PER
-Conte I-PER
+Antonio O
+Conte O
 : O
 Ihe O
 ndị O
@@ -37429,11 +37429,11 @@ ya O
 Gịnị O
 ka O
 ọchụchụ O
-Amaju B-PER
-Pinnick I-PER
+Amaju O
+Pinnick O
 dịka O
 onyeisi O
-NFF O
+NFF B-ORG
 pụtara O
 ? O
 
@@ -37465,7 +37465,7 @@ rere O
 nwa O
 ha O
 bụ O
-Marvellous O
+Marvellous B-PER
 n'ime O
 obodo O
 Umueme O
@@ -37488,13 +37488,13 @@ Onyeisioche O
 otu O
 ndị O
 gọvanọ O
-Naịjirịa B-LOC
+Naịjirịa O
 bụ O
 Abdulaziz B-PER
 Yari I-PER
 nke O
-Zamfara B-DATE
-steeti I-DATE
+Zamfara O
+steeti O
 akatọla O
 mmachi O
 ngalaba O
@@ -37507,8 +37507,8 @@ bụ O
 EFCC B-ORG
 tinyere O
 n'akụnaụba O
-Benue O
-steeti O
+Benue B-LOC
+steeti I-LOC
 . O
 
 Ọ O
@@ -37525,7 +37525,7 @@ n'ezigbo O
 ahụhụ O
 . O
 
-EFCC O
+EFCC B-ORG
 kwuru O
 na O
 ọ O
@@ -37546,11 +37546,11 @@ bụ O
 mmachi O
 . O
 
-Xi B-PER
-Jinping I-PER
+Xi O
+Jinping O
 , O
 onyeisiala O
-China O
+China B-LOC
 na O
 Donald O
 Trump O
@@ -37601,11 +37601,11 @@ ya O
 bụ O
 mmanụ O
 na O
-Chịna O
+Chịna B-LOC
 . O
 
-Kepa B-PER
-Arrizabalaga I-PER
+Kepa O
+Arrizabalaga O
 bụ O
 bụ O
 onye O
@@ -37617,7 +37617,7 @@ Bilbao O
 ebinyela O
 aka O
 n'otu O
-Chelsea B-ORG
+Chelsea O
 dịka O
 onye O
 nche O
@@ -37625,12 +37625,12 @@ nche O
 ha O
 . O
 
-Cheta B-PER
+Cheta O
 na O
-Thibault O
-Curtois O
+Thibault B-PER
+Curtois I-PER
 cheburu O
-Chelsea O
+Chelsea B-ORG
 bọọlụ O
 agafeela O
 n'otu O
@@ -37666,8 +37666,8 @@ ndị O
 Imo O
 steeti O
 bụ O
-Rochas B-PER
-Okorocha I-PER
+Rochas O
+Okorocha O
 ekwuola O
 na O
 ọ O
@@ -37689,7 +37689,7 @@ ma O
 ọ O
 zọọ O
 na O
-2023 O
+2023 B-DATE
 . O
 
 Mana O
@@ -37739,12 +37739,12 @@ mara O
 ya O
 na O
 mpaghara O
-Naịjirịa B-LOC
+Naịjirịa O
 ndị O
 ọzọ O
 . O
 
-Rochas B-PER
+Rochas O
 kwuru O
 nke O
 a O
@@ -37756,7 +37756,7 @@ ntaakụkọ O
 zukọrọ O
 n'ụlọọrụ O
 ya O
-n'Owere O
+n'Owere B-LOC
 nso O
 nso O
 a O
@@ -37770,16 +37770,16 @@ Regina B-ORG
 Pacies I-ORG
 Secondary I-ORG
 School I-ORG
-Onitsha O
+Onitsha B-LOC
 , O
-'Anambara B-LOC
-steeti I-LOC
+'Anambara O
+steeti O
 meriri O
 n'asompi O
 Technovation O
 2018 B-DATE
 
-Naijiria O
+Naijiria B-LOC
 eturula O
 ugo O
 dịka O
@@ -37799,15 +37799,15 @@ Amerika B-LOC
 Ụmụada O
 ise O
 si O
-ụlọakwụkwọ B-ORG
-Regina I-ORG
-Pacie I-ORG
+ụlọakwụkwọ O
+Regina O
+Pacie O
 dị O
 na O
 Ọnicha B-LOC
 , O
 nọchitere O
-Naijiria B-LOC
+Naijiria O
 ji O
 technuzu O
 a O
@@ -37826,7 +37826,7 @@ nsogbu O
 adigboroja O
 ọgụ O
 n'ala O
-Naijiria B-LOC
+Naijiria O
 , O
 were O
 turu O
@@ -37860,7 +37860,7 @@ uweojii O
 na O
 mpaghara O
 obodo O
-Fredericton O
+Fredericton B-LOC
 dị O
 na O
 mba O
@@ -37892,8 +37892,8 @@ a O
 
 FIFA B-ORG
 amachiela O
-Kalusha O
-Bwalya O
+Kalusha B-PER
+Bwalya I-PER
 bụbu O
 onye O
 nchịkọta O
@@ -37923,7 +37923,7 @@ Hammam I-PER
 bụ O
 onye O
 Qatar O
-FIFA B-ORG
+FIFA O
 machiri O
 ndụ O
 ebighịebi O
@@ -37976,7 +37976,7 @@ na O
 ekwuchitere O
 ndị O
 uweojii O
-n'Ondo O
+n'Ondo B-LOC
 bụ O
 Femi O
 Joseph O
@@ -38023,7 +38023,7 @@ ere O
 ọgwụ O
 . O
 
-Joseph B-PER
+Joseph O
 kwuru O
 na O
 onye O
@@ -38092,8 +38092,8 @@ na O
 enyocha O
 nwụrụ O
 ka O
-abalị B-DATE
-itoolu I-DATE
+abalị O
+itoolu O
 anyị O
 jiri O
 nwụchie O
@@ -38233,18 +38233,18 @@ A O
 tufuru O
 nwa O
 ọhụrụ O
-n'Ọnịcha B-LOC
+n'Ọnịcha O
 taa B-DATE
 
-Buhari O
+Buhari B-PER
 na O
-Osinbajo B-PER
+Osinbajo O
 ha O
 ga O
 - O
 azọkọ O
 na O
-2019 O
+2019 B-DATE
 ? O
 
 Akaọrụ O
@@ -38277,11 +38277,11 @@ ahịa O
 ebe O
 ahụ O
 gwara O
-BBC O
+BBC B-ORG
 Igbo O
 na O
 ụmụafọ O
-Naịjiria B-LOC
+Naịjiria O
 na O
 ndị O
 ogbo O
@@ -38312,7 +38312,7 @@ ndị O
 Naịjirịa O
 na O
 ndị O
-Ghana B-LOC
+Ghana O
 . O
 
 Technovation O
@@ -38328,7 +38328,7 @@ ugo O
 n'asompi O
 technụzụ O
 
-SARS O
+SARS B-ORG
 : O
 Ihe O
 ndị O
@@ -38351,7 +38351,7 @@ ugbua O
 
 Ndị O
 ọchịchị O
-Ghana B-LOC
+Ghana O
 e O
 nyela O
 iwu O
@@ -38387,7 +38387,7 @@ wetara O
 atụmatụ O
 na O
 ndị O
-Naịjirịa B-LOC
+Naịjirịa O
 na O
 ndị O
 mba O
@@ -38554,7 +38554,7 @@ equity' O
 bụ O
 atụmatụ O
 gọọmenti O
-Ghana B-LOC
+Ghana O
 ji O
 chọọ O
 ịchụpụ O
@@ -38675,7 +38675,7 @@ kwuo O
 bụrụ O
 na O
 ndị O
-Ghana O
+Ghana B-LOC
 gaa O
 n'ihu O
 sobe O
@@ -38700,8 +38700,8 @@ na O
 ya O
 . O
 
-Victor B-PER
-Moses I-PER
+Victor O
+Moses O
 ọ O
 ga O
 - O
@@ -38719,7 +38719,7 @@ Ka O
 Moses O
 kwuputara O
 na O
-Twitter O
+Twitter B-ORG
 na O
 ọ O
 wụsala O
@@ -38739,7 +38739,7 @@ kpụ O
 n'ọnụ O
 . O
 
-Moses B-PER
+Moses O
 dị O
 afọ O
 27 O
@@ -38790,7 +38790,7 @@ Eagles O
 mere O
 ka O
 ndị O
-Kroeshia B-LOC
+Kroeshia O
 merichara O
 ha O
 
@@ -38799,7 +38799,7 @@ Cup O
 2018 B-DATE
 : O
 Ugo O
-Naịjirịa O
+Naịjirịa B-LOC
 efeliela O
 ọzọ O
 
@@ -38810,7 +38810,7 @@ maka O
 ọ O
 wụsara O
 , O
-Moses B-PER
+Moses O
 dere O
 sị O
 """" O
@@ -38888,7 +38888,7 @@ n'ọdịniihu O
 
 Cheta O
 na O
-Moses O
+Moses B-PER
 so O
 Naịjirịa O
 bulie O
@@ -38909,14 +38909,14 @@ n'afọ O
 2014 O
 na O
 nke O
-2018 B-DATE
+2018 O
 . O
 
 Nne O
 na O
 nna O
-Victor O
-Moses O
+Victor B-PER
+Moses I-PER
 nwụrụ O
 na O
 mwakpo O
@@ -38924,7 +38924,7 @@ ndị O
 omekome O
 mere O
 na O
-Kaduna O
+Kaduna B-LOC
 oge O
 ọ O
 dị O
@@ -38932,20 +38932,20 @@ naanị O
 afọ O
 11 O
 
-Moses O
+Moses B-PER
 nyere O
 goolu O
 abụọ O
 n'asọmpi O
 Iko O
 mpaghara O
-Afrịka B-LOC
+Afrịka O
 n'afọ O
 2013 O
 , O
 nke O
 nyere O
-Naịjirịa B-LOC
+Naịjirịa O
 ikike O
 iji O
 gafee O
@@ -38958,7 +38958,7 @@ nyekwara O
 otu O
 goolu O
 ka O
-Naịjirịa O
+Naịjirịa B-LOC
 na O
 Ajentina B-LOC
 zukọrọ O
@@ -38967,9 +38967,9 @@ Mbaụwa O
 a O
 gbara O
 na O
-Rọshịa O
+Rọshịa B-LOC
 na O
-2018 O
+2018 B-DATE
 . O
 
 Akụkọ O
@@ -39103,10 +39103,10 @@ Chineke O
 aja O
 . O
 
-Dambazau O
+Dambazau B-PER
 rịọrọ O
 ụmụ O
-Naijiria B-LOC
+Naijiria O
 ka O
 ha O
 were O
@@ -39121,7 +39121,7 @@ maka O
 ịdịnotu O
 na O
 ọganihu O
-Naijiria B-LOC
+Naijiria O
 . O
 
 Ọ O
@@ -39139,8 +39139,8 @@ ha O
 kwado O
 ọchịchị O
 onyeisiala O
-Muhammadu B-PER
-Buhari I-PER
+Muhammadu O
+Buhari O
 . O
 
 Dambazau B-PER
@@ -39178,7 +39178,7 @@ Igbo O
 ? O
 
 Ndị O
-Ghana O
+Ghana B-LOC
 a O
 na O
 - O
@@ -39234,8 +39234,8 @@ mmekorita O
 
 Ndị O
 uweojii O
-n'Abia B-LOC
-steeti I-LOC
+n'Abia O
+steeti O
 anwụchiela O
 mmadụ O
 isi O
@@ -39366,8 +39366,8 @@ Onye O
 aha O
 ya O
 bụ O
-Fred B-PER
-Ndubuisi I-PER
+Fred O
+Ndubuisi O
 bụrụkwa O
 onye O
 na O
@@ -39442,8 +39442,8 @@ na O
 steeti O
 ahụ O
 bụ O
-Anthony B-PER
-Ogbizi I-PER
+Anthony O
+Ogbizi O
 kwuru O
 na O
 ha O
@@ -39495,7 +39495,7 @@ FIFA O
 na O
 - O
 adọ O
-Naịjirịa O
+Naịjirịa B-LOC
 aka O
 na O
 ntị O
@@ -39509,9 +39509,9 @@ na O
 echemba'n'ala O
 Igbo O
 
-Eze B-PER
-Eberechi I-PER
-Dick I-PER
+Eze O
+Eberechi O
+Dick O
 bụ O
 onyeisi O
 otu O
@@ -39526,9 +39526,9 @@ gọvanọ O
 Kano O
 steetị O
 bụ O
-Abdullahi O
-Umar O
-Ganduje O
+Abdullahi B-PER
+Umar I-PER
+Ganduje I-PER
 ugo O
 dika O
 'agụ O
@@ -39563,7 +39563,7 @@ be O
 ya O
 bi O
 na O
-Kano B-LOC
+Kano O
 na O
 - O
 ebi O
@@ -39585,7 +39585,7 @@ adaala O
 n'obodo O
 Kerela B-LOC
 n'ala O
-India B-LOC
+India O
 ebe O
 nnukwu O
 ide O
@@ -39647,16 +39647,16 @@ ntuliaka O
 na O
 Naijiria O
 bụ O
-INEC O
+INEC B-ORG
 ekwuola O
 na O
 ntuliaka O
-Naijiria O
+Naijiria B-LOC
 ga O
 - O
 eme O
-n'afọ O
-2019 O
+n'afọ B-DATE
+2019 I-DATE
 , O
 ga O
 - O
@@ -39682,12 +39682,12 @@ ga O
 abịa O
 . O
 
-Emeka B-PER
-Ononamadu I-PER
+Emeka O
+Ononamadu O
 bụ O
 onyeisi O
 ụlọọrụ O
-INEC B-ORG
+INEC O
 kwusiri O
 ike O
 na O
@@ -39713,7 +39713,7 @@ abịa O
 Ụlọ O
 dara O
 na O
-Jabi O
+Jabi B-LOC
 egbuola O
 mmadụ O
 abụọ O
@@ -39736,9 +39736,9 @@ ka O
 elụ O
 dachara O
 na O
-Jabi B-LOC
+Jabi O
 dị O
-n'Abuja B-LOC
+n'Abuja O
 . O
 
 Akụkọ O
@@ -39779,13 +39779,13 @@ niile O
 
 N'egwuregwu O
 , O
-Kevin B-PER
-de I-PER
-Bruyne I-PER
+Kevin O
+de O
+Bruyne O
 onye O
 otu O
-Manchester O
-City O
+Manchester B-ORG
+City I-ORG
 agaghị O
 eso O
 n'asọmpị O
@@ -39820,7 +39820,7 @@ Muhammadu B-PER
 Buhari I-PER
 lọtara O
 Naịjirịa B-LOC
-ụnyaahụ B-DATE
+ụnyaahụ O
 . O
 
 Cheta O
@@ -39830,7 +39830,7 @@ gara O
 njem O
 ezumike O
 n'ala O
-UK O
+UK B-LOC
 n'ụbọchị B-DATE
 atọ I-DATE
 n'ime I-DATE
@@ -39879,7 +39879,7 @@ eme O
 emegharị O
 ụfụdụ O
 mkpebi O
-Osinbajo B-PER
+Osinbajo O
 kpebiri O
 oge O
 ọ O
@@ -39929,9 +39929,9 @@ ndị O
 wakporo O
 ndịagha O
 n'obodo O
-Guma B-LOC
+Guma O
 n'ime O
-Benue B-LOC
+Benue O
 n'ụbọchị O
 ole O
 na O
@@ -39978,8 +39978,8 @@ ha O
 ọnọ O
 . O
 
-Emeka O
-Attamah O
+Emeka B-PER
+Attamah I-PER
 bụ O
 ọnụ O
 na O
@@ -39988,8 +39988,8 @@ ekwuchiri O
 onyeisi O
 Ohaneze O
 bụ O
-Nnia B-PER
-Nwodo I-PER
+Nnia O
+Nwodo O
 si O
 na O
 ha O
@@ -40081,7 +40081,7 @@ nso O
 nso O
 . O
 
-Mourinho O
+Mourinho B-PER
 akọọla O
 Man B-ORG
 City I-ORG
@@ -40095,12 +40095,12 @@ bụ O
 onye O
 nchịkọta O
 otu O
-Manchester B-ORG
-United I-ORG
+Manchester O
+United O
 ekwuola O
 na O
-Manchester O
-City O
+Manchester B-ORG
+City I-ORG
 nwere O
 ego O
 mana O
@@ -40120,8 +40120,8 @@ a O
 maka O
 ihe O
 nkiri O
-Manchester O
-City O
+Manchester B-ORG
+City I-ORG
 meputara O
 ọhụrụ O
 nke O
@@ -40161,8 +40161,8 @@ abụọ O
 Na O
 nlọta O
 Buhari B-PER
-ụbọchị O
-Satọde O
+ụbọchị B-DATE
+Satọde I-DATE
 nke O
 a O
 gara O
@@ -40221,7 +40221,7 @@ aga O
 mkpọrọ O
 . O
 
-EFCC B-ORG
+EFCC O
 chọkọtara O
 ego O
 karịrị O
@@ -40229,23 +40229,23 @@ N500BN O
 na O
 2017 B-DATE
 
-Buhari B-PER
+Buhari O
 ebinyela O
 aka O
 n'iwu O
 ịkpachi O
 ego O
-Naijiria B-LOC
+Naijiria O
 e O
 zufuru O
 
 Ndi O
 ntaakụkọ O
 jụrụ O
-Buhari O
+Buhari B-PER
 ihe O
 ndị O
-Naịjirịa B-LOC
+Naịjirịa O
 na O
 - O
 ele O
@@ -40307,9 +40307,9 @@ na O
 anọghị O
 n'ọchịchị O
 bụ O
-Peoples B-ORG
-Democratic I-ORG
-Party I-ORG
+Peoples O
+Democratic O
+Party O
 ( O
 PDP O
 ) O
@@ -40318,7 +40318,7 @@ okwu O
 a O
 sị O
 na O
-Buhari O
+Buhari B-PER
 kwesiri O
 iji O
 aka O
@@ -40337,12 +40337,12 @@ dị O
 na O
 pati O
 ya O
-bụ B-ORG
-All I-ORG
-Progressive I-ORG
-Congress I-ORG
+bụ O
+All O
+Progressive O
+Congress O
 ( O
-APC O
+APC B-ORG
 ) O
 , O
 ọkachasị O
@@ -40356,7 +40356,7 @@ na O
 aghụghọ O
 . O
 
-Dasuki O
+Dasuki B-PER
 so O
 na O
 ndị O
@@ -40367,7 +40367,7 @@ mpụ O
 , O
 mana O
 ndị O
-PDP B-ORG
+PDP O
 sị O
 na O
 ọ O
@@ -40385,10 +40385,10 @@ Ologbondiyan I-PER
 binyere O
 aka O
 , O
-PDP B-ORG
+PDP O
 sị O
 ka O
-Buhari B-PER
+Buhari O
 nye O
 ohere O
 ka O
@@ -40400,7 +40400,7 @@ onye O
 bubụ O
 onyeisi O
 ndị O
-DSS O
+DSS B-ORG
 bụ O
 Lawal O
 Daura O
@@ -40412,13 +40412,13 @@ bụbu O
 odeakwụkwọ O
 Naịjirịa O
 bụ O
-Babachir O
-Lawal O
+Babachir B-PER
+Lawal I-PER
 na O
 nke O
 metụtara O
-Yusuf B-PER
-Usman I-PER
+Yusuf O
+Usman O
 bụ O
 onyeisi O
 ngalaba O
@@ -40431,10 +40431,10 @@ maka O
 ahụike O
 . O
 
-PDP O
+PDP B-ORG
 sị O
 na O
-Buhari B-PER
+Buhari O
 egosibeghi O
 aka O
 eji O
@@ -40454,8 +40454,8 @@ onye O
 odeakwụkwụkwọ O
 APC O
 bụ O
-Yekini B-PER
-Nabena I-PER
+Yekini O
+Nabena O
 gwara O
 ndị O
 ntaakụkọ O
@@ -40523,7 +40523,7 @@ onye O
 sinetọ O
 bu O
 onye O
-APC B-ORG
+APC O
 na O
 - O
 aza O
@@ -40566,7 +40566,7 @@ state I-LOC
 : O
 Ohaneze O
 adọọla O
-Ipob O
+Ipob B-ORG
 aka O
 na O
 ntị O
@@ -40576,7 +40576,7 @@ ndị O
 uweojii O
 mere O
 ụmụnwaanyị O
-Ipob O
+Ipob B-ORG
 na O
 - O
 eme O
@@ -40595,7 +40595,7 @@ Kingsley B-PER
 Moghalụ I-PER
 , O
 gwara O
-BBC O
+BBC B-ORG
 Igbo O
 na O
 o O
@@ -40606,7 +40606,7 @@ e O
 ji O
 agbape O
 akụnaụba O
-Naịjirịa B-LOC
+Naịjirịa O
 . O
 
 O O
@@ -40631,8 +40631,8 @@ ndị O
 mmadụ O
 agbakọtala O
 ọnụ O
-n'okpra O
-square O
+n'okpra B-LOC
+square I-LOC
 dị O
 n'Enugwu B-LOC
 iji O
@@ -40705,7 +40705,7 @@ ha O
 Ndị O
 ọkaikpe O
 ndị O
-kanada O
+kanada B-LOC
 sị O
 ndị O
 be O
@@ -40723,7 +40723,7 @@ iwu O
 ọhụrụ O
 maka O
 ndị O
-Naịjirịa B-LOC
+Naịjirịa O
 batara O
 mba O
 ahụ O
@@ -40743,7 +40743,7 @@ ahụ O
 ịnweta O
 ohere O
 banye O
-Kanada O
+Kanada B-LOC
 , O
 mana O
 ụfọdụ O
@@ -40752,7 +40752,7 @@ Naịjịrịa O
 si O
 US O
 gbaba O
-Kanada O
+Kanada B-LOC
 ọsọ O
 ndụ O
 enwetere O
@@ -40767,7 +40767,7 @@ ahụ O
 
 Ọṅụ O
 juru O
-Amerịka B-LOC
+Amerịka O
 , O
 Kanada B-LOC
 na O
@@ -40782,7 +40782,7 @@ Mbaụwa O
 A O
 nwụchiela O
 ndị O
-Russia B-LOC
+Russia O
 13 O
 kpatọsiri O
 aka O
@@ -40816,7 +40816,7 @@ nkakwụ O
 
 Ọtụtụ O
 ndị O
-Naịjịrịa O
+Naịjịrịa B-LOC
 si O
 ogige O
 oke O
@@ -40920,18 +40920,18 @@ ebe O
 ndị O
 ọzọ O
 na O
-Naịjịrịa O
+Naịjịrịa B-LOC
 dịka O
-Ibadan O
+Ibadan B-LOC
 maọbụ O
-Pọtakọtụ B-LOC
+Pọtakọtụ O
 . O
 
 Ndị O
 otu O
 ikpe O
 mkpegharị O
-IRB B-ORG
+IRB O
 kpebiri O
 na O
 ya O
@@ -40954,7 +40954,7 @@ ndị O
 gbasara O
 ndị O
 si O
-Naịjirịa O
+Naịjirịa B-LOC
 gbata O
 ọsọ O
 ndụ O
@@ -40965,7 +40965,7 @@ gawazịa O
 
 Ndị O
 ọrụ O
-IRB O
+IRB B-ORG
 enwebuola O
 ụdị O
 mkpebị O
@@ -40976,18 +40976,18 @@ ndị O
 mba O
 China B-LOC
 , O
-India B-LOC
+India O
 nakwa O
-Pakistan O
+Pakistan B-LOC
 . O
 
 Ndị O
 otu O
-Canadian O
-Association O
-of O
-Refugee O
-Lawyers O
+Canadian B-ORG
+Association I-ORG
+of I-ORG
+Refugee I-ORG
+Lawyers I-ORG
 na O
 - O
 eche O
@@ -41005,7 +41005,7 @@ akpụ O
 nye O
 ndị O
 sị O
-Naịjirịa O
+Naịjirịa B-LOC
 gbata O
 ọsọ O
 ndụ O
@@ -41026,12 +41026,12 @@ Kanada B-LOC
 
 Onye O
 ọkaikpe O
-Lorne O
-Waldman O
+Lorne B-PER
+Waldman I-PER
 gwara O
 ndị O
 ntaakụkọ O
-Reuters B-ORG
+Reuters O
 na O
 olu O
 sụpịrịsụpịrị O
@@ -41073,8 +41073,8 @@ na O
 - O
 eme O
 kemgbe O
-afọ B-DATE
-2017 I-DATE
+afọ O
+2017 O
 bụ O
 mgbe O
 ndị O
@@ -41083,7 +41083,7 @@ bidoro O
 siwe O
 azụ O
 ụlọ O
-US O
+US B-LOC
 piobatawa O
 mba O
 ahụ O
@@ -41120,7 +41120,7 @@ si O
 Naijirịa O
 nke O
 ndị O
-Kanada B-LOC
+Kanada O
 nabatara O
 pesentị O
 33 O
@@ -41151,7 +41151,7 @@ ekwe O
 ka O
 ndị O
 nchekwa O
-Naịjirịa B-LOC
+Naịjirịa O
 memina O
 anyị' O
 
@@ -41165,15 +41165,15 @@ na O
 ndị O
 uweojii O
 nke O
-ọdọ O
-ụgbọelu O
-Murtala O
-Mohammed O
+ọdọ B-LOC
+ụgbọelu I-LOC
+Murtala I-LOC
+Mohammed I-LOC
 na O
 Legọs O
 anwụchiela O
-Jim O
-Iyke O
+Jim B-PER
+Iyke I-PER
 bụ O
 omeiheonyonyo O
 . O
@@ -41260,11 +41260,11 @@ na O
 ekwuchitere O
 ndị O
 ụlọọrụ O
-Dana O
-Air O
+Dana B-ORG
+Air I-ORG
 bụ O
-Kingsley O
-Ezenwa O
+Kingsley B-PER
+Ezenwa I-PER
 kwuru O
 na O
 ihe O
@@ -41274,8 +41274,8 @@ ma O
 kwuo O
 na O
 atọghapụọla O
-Jim B-PER
-Iyke I-PER
+Jim O
+Iyke O
 dịka O
 ọ O
 rịọrọ O
@@ -41302,8 +41302,8 @@ bụ O
 omeiheonyonyo O
 . O
 
-Jim O
-Iyke O
+Jim B-PER
+Iyke I-PER
 agaghịzi O
 njem O
 ya O
@@ -41317,8 +41317,8 @@ gọvanọ O
 Anambara O
 steeti O
 bụ O
-Chukwuemeka B-PER
-Ezeife I-PER
+Chukwuemeka O
+Ezeife O
 ekwuola O
 na O
 ihazigharị O
@@ -41339,7 +41339,7 @@ onyeisiala O
 . O
 
 Okwu O
-Ezeife O
+Ezeife B-PER
 sochiri O
 oku O
 Igwe O
@@ -41351,7 +41351,7 @@ Obi O
 kpọrọ O
 ka O
 ahazigharị O
-Naịjirịa B-LOC
+Naịjirịa O
 ka O
 mpaghara O
 ọbụla O
@@ -41464,9 +41464,9 @@ mpaghara O
 region O
 ) O
 oge O
-Okpara B-PER
+Okpara O
 na O
-Awolowo B-PER
+Awolowo O
 na O
 - O
 achị O
@@ -41480,7 +41480,7 @@ enweburu O
 na O
 mpaghara O
 ka O
-Naijiria O
+Naijiria B-LOC
 nwere O
 ọganihu O
 , O
@@ -41515,7 +41515,7 @@ na O
 e O
 kwesiri O
 ịhazịagharị O
-Naịjirịa O
+Naịjirịa B-LOC
 etu O
 ọ O
 ga O
@@ -41555,8 +41555,8 @@ onye O
 Igbo O
 ọkwa O
 onyeisiala O
-n'afọ B-DATE
-2023 I-DATE
+n'afọ O
+2023 O
 wee O
 si O
 na O
@@ -41643,7 +41643,7 @@ chọrọ O
 bụ O
 onyeisiala O
 ndị O
-Naịjirịa B-LOC
+Naịjirịa O
 họpụtara O
 ka O
 ọ O
@@ -41655,15 +41655,15 @@ niile O
 """" O
 
 Igwe O
-Achebe B-PER
+Achebe O
 sị O
 na O
 ekwesiri O
 ịkewa O
-Naịjirịa O
+Naịjirịa B-LOC
 n'udi O
 ndị O
-Briten B-LOC
+Briten O
 si O
 kewa O
 ya O
@@ -41672,7 +41672,7 @@ ha O
 na O
 - O
 achị O
-Naịjirịa B-LOC
+Naịjirịa O
 . O
 
 Ịha O
@@ -41772,8 +41772,8 @@ ya O
 ? O
 
 Ọkammụta O
-Uche O
-Aja O
+Uche B-PER
+Aja I-PER
 kọwara O
 BBC O
 Igbo O
@@ -41862,7 +41862,7 @@ ihe O
 ga O
 - O
 azọpụta O
-Naịjirịa B-LOC
+Naịjirịa O
 n'ọnọdụ O
 a O
 ọ O
@@ -41889,8 +41889,8 @@ achị O
 Ọnịcha B-LOC
 bụ O
 Igwe O
-Alfred B-PER
-Achebe I-PER
+Alfred O
+Achebe O
 kwuru O
 na O
 ya O
@@ -41984,8 +41984,8 @@ kwuru O
 n'uju O
 . O
 
-Nnia B-PER
-Nwodo I-PER
+Nnia O
+Nwodo O
 malitere O
 dịka O
 onye O
@@ -41996,14 +41996,14 @@ itoolu O
 9 O
 ) O
 ndị O
-Ohaneze O
-Ndigbo O
+Ohaneze B-ORG
+Ndigbo I-ORG
 n'afọ B-DATE
 2017 I-DATE
 
 Ọ O
 bụghị O
-taa O
+taa B-DATE
 ka O
 ike O
 nọ O
@@ -42013,7 +42013,7 @@ bụ O
 na O
 ọ O
 bụghị O
-taa O
+taa B-DATE
 ka O
 otu O
 ohaneze O
@@ -42083,8 +42083,8 @@ Ohaneze O
 asaala O
 Ipob B-ORG
 
-Chukwuemeka O
-Ezeife O
+Chukwuemeka B-PER
+Ezeife I-PER
 , O
 onye O
 Igbo B-LOC
@@ -42093,8 +42093,8 @@ Ukwu I-LOC
 bụbu O
 gọvanọ O
 na O
-Anambara O
-Steeti O
+Anambara B-LOC
+Steeti I-LOC
 bụ O
 otu O
 n'ime O
@@ -42104,15 +42104,15 @@ kwadoro O
 
 Onyebụbu O
 gọvanọ O
-Anambara B-LOC
-steeti I-LOC
+Anambara O
+steeti O
 bụ O
 Chukwuemeka B-PER
 Ezeife I-PER
 sonyere O
 kwado O
 ihazigharị O
-Naijiria B-LOC
+Naijiria O
 na O
 mpaghara O
 . O
@@ -42135,8 +42135,8 @@ etu O
 ọ O
 dị O
 tupu O
-afọ B-DATE
-1954 I-DATE
+afọ O
+1954 O
 oge O
 mpaghara O
 ọbụla O
@@ -42192,7 +42192,7 @@ ka O
 udo O
 dị O
 na O
-Naịjirịa B-LOC
+Naịjirịa O
 pụta O
 ọfụma O
 maka O
@@ -42244,7 +42244,7 @@ Igbo O
 Ụmụaka O
 abụọ O
 anwụọla O
-n'Ebonyi B-LOC
+n'Ebonyi O
 maka O
 kerosene O
 adigboroja O
@@ -42259,12 +42259,12 @@ ala O
 Igbo O
 
 Ezinaulo O
-Peter B-PER
+Peter O
 na O
-Amuche B-PER
-Ejiofor I-PER
+Amuche O
+Ejiofor O
 agwaala O
-BBC O
+BBC B-ORG
 Igbo O
 etu O
 ndị O
@@ -42298,19 +42298,19 @@ kọrọ O
 ya O
 ezigbo O
 ọnụ O
-n'ọnwa O
-Eprelu O
-2017 O
+n'ọnwa B-DATE
+Eprelu I-DATE
+2017 I-DATE
 . O
 
 Ọ O
 dị O
 ime O
-n'ọnwa B-DATE
-May I-DATE
-nke I-DATE
-afọ I-DATE
-ahụ I-DATE
+n'ọnwa O
+May O
+nke O
+afọ O
+ahụ O
 . O
 
 Ha O
@@ -42348,11 +42348,11 @@ oge O
 otu O
 ụlọụka O
 akpọrọ O
-St O
-. O
-Paul O
-Catholic O
-Church O
+St B-ORG
+. I-ORG
+Paul I-ORG
+Catholic I-ORG
+Church I-ORG
 , O
 Ugolo O
 dị O
@@ -42376,11 +42376,11 @@ Ihe O
 mberede O
 a O
 mere O
-n'elekere B-DATE
-itoolu I-DATE
-nke I-DATE
-ụtụtụ I-DATE
-a I-DATE
+n'elekere O
+itoolu O
+nke O
+ụtụtụ O
+a O
 ka O
 ndị O
 mmadụ O
@@ -42423,7 +42423,7 @@ bụ O
 Mohammed O
 Mustapha O
 gwara O
-BBC O
+BBC B-ORG
 Igbo O
 na O
 ụlọụka O
@@ -42602,7 +42602,7 @@ ha O
 . O
 
 AMVCA O
-2018 B-DATE
+2018 O
 : O
 Lee O
 etu O
@@ -42621,7 +42621,7 @@ ji O
 ọhụrụ O
 n'Alaigbo O
 
-Ebuka B-PER
+Ebuka O
 n'uwe O
 ya O
 esunyela O
@@ -42639,11 +42639,11 @@ maka O
 egwuregwu O
 bọolụ O
 na O
-Africa O
+Africa B-LOC
 amapụla O
 ndị O
 ọgbabọọlụ O
-Naịjirịa O
+Naịjirịa B-LOC
 abụọ O
 n'isonye O
 n'asọmpị O
@@ -42668,13 +42668,13 @@ asaa O
 
 Naijiria O
 na O
-BurkinaFaso B-LOC
+BurkinaFaso O
 ga O
 - O
 asọmpị O
 echi O
-n'elekere O
-anọ O
+n'elekere B-DATE
+anọ I-DATE
 iji O
 mata O
 onye O
@@ -42711,8 +42711,8 @@ aka O
 ụka O
 ụtụtụ O
 na O
-Deta O
-steeti O
+Deta B-LOC
+steeti I-LOC
 . O
 
 Onyeisi O
@@ -42736,14 +42736,14 @@ a O
 . O
 
 Onyeisiala O
-Muhammadu O
-Buhari O
+Muhammadu B-PER
+Buhari I-PER
 na O
 ndị O
 Naịjirịa B-LOC
 na O
 mba O
-China B-LOC
+China O
 enweela O
 nzụkọ O
 na O
@@ -42772,7 +42772,7 @@ gbasara O
 ntuliaka O
 kwụọtọ O
 na O
-2019 B-LOC
+2019 O
 maka O
 na O
 ọ O
@@ -42797,7 +42797,7 @@ ezumike O
 nka O
 na O
 mba O
-Rọshịa B-LOC
+Rọshịa O
 . O
 
 Gọọmentị O
@@ -42836,7 +42836,7 @@ Ndị O
 ihe O
 nkiri O
 si O
-Naijirịa O
+Naijirịa B-LOC
 na O
 mba O
 ndị O
@@ -42844,7 +42844,7 @@ ndị O
 n'Afrịka O
 gbakọrọ O
 na O
-Legọs O
+Legọs B-LOC
 unyaahụ B-DATE
 maka O
 emume O
@@ -42891,14 +42891,14 @@ ndị O
 tụrụ O
 ugo O
 dika O
-Adekola B-PER
-Odunlade I-PER
+Adekola O
+Odunlade O
 , O
-Omotola B-PER
-Jolade I-PER
+Omotola O
+Jolade O
 , O
-Nyce O
-Wanueri O
+Nyce B-PER
+Wanueri I-PER
 na O
 ndị O
 ọzọ O
@@ -42947,8 +42947,8 @@ ekwu O
 na O
 ọ O
 họpụtara O
-Tonye O
-Cole O
+Tonye B-PER
+Cole I-PER
 bụ O
 onye O
 ojiegoachọego O
@@ -42956,7 +42956,7 @@ ama O
 ama O
 , O
 mana O
-Amaechi B-PER
+Amaechi O
 kwuru O
 na O
 ọ O
@@ -42970,8 +42970,8 @@ akụkọ O
 a O
 . O
 
-Boko O
-Haram O
+Boko B-ORG
+Haram I-ORG
 egbughi O
 ndị O
 otu O
@@ -42991,7 +42991,7 @@ n'Alaigbo O
 
 Nd O
 agha O
-Naịjirịa B-LOC
+Naịjirịa O
 agọọla O
 ebubo O
 
@@ -43008,12 +43008,12 @@ AFP B-ORG
 dere O
 na O
 ndị O
-Boko O
-Haram O
+Boko B-ORG
+Haram I-ORG
 gbagburu O
 ndị O
 agha O
-Naịjirịa B-LOC
+Naịjirịa O
 n'ụbọchị O
 ole O
 ole O
@@ -43037,23 +43037,23 @@ gbagburu O
 n'ime O
 ndị O
 agha O
-Boko O
-Haram O
+Boko B-ORG
+Haram I-ORG
 . O
 
-AFP B-ORG
+AFP O
 dere O
 na O
 ndị O
 Boko O
 wakporo O
 ndịagha O
-Naịjirịa O
+Naịjirịa B-LOC
 n'obodo O
 Zari O
 n'ime O
-Borno B-LOC
-steeti I-LOC
+Borno O
+steeti O
 , O
 nakwa O
 gbuo O
@@ -43076,7 +43076,7 @@ mba O
 ofesi O
 , O
 goomentị O
-Amerika O
+Amerika B-LOC
 ekwuola O
 na O
 ha O
@@ -43091,10 +43091,10 @@ na O
 - O
 enye O
 ndị O
-Palistine O
+Palistine B-LOC
 . O
 
-Amerika O
+Amerika B-LOC
 kwuru O
 na O
 ha O
@@ -43110,7 +43110,7 @@ dọla O
 narị O
 atọ O
 makana O
-Palistine O
+Palistine B-LOC
 ka O
 na O
 - O
@@ -43148,17 +43148,17 @@ mpaghara O
 ọwụwa O
 - O
 anyanwụ O
-Naịjirịa O
+Naịjirịa B-LOC
 na O
 - O
 akwa O
 arịrị O
 maka O
 ọnọdụ O
-ọdọ O
-ụgbọelu O
-Akanu O
-Ibiam O
+ọdọ B-LOC
+ụgbọelu I-LOC
+Akanu I-LOC
+Ibiam I-LOC
 dị O
 n'enugwu O
 nọ O
@@ -43170,8 +43170,8 @@ ugbua O
 N'ọgbakọ O
 ha O
 mere O
-n'ụbọchị O
-abụọ O
+n'ụbọchị B-DATE
+abụọ I-DATE
 nke O
 ọnwa B-DATE
 Septemba I-DATE
@@ -43226,7 +43226,7 @@ Chekwas B-PER
 Okorie I-PER
 
 Bọjetị O
-2018 B-LOC
+2018 O
 : O
 'Buhari O
 chọro O
@@ -43309,7 +43309,7 @@ adaba O
 kpọtụwa O
 . O
 
-Mbaka B-PER
+Mbaka O
 bụ O
 otu O
 onye O
@@ -43327,9 +43327,9 @@ ndị O
 ụka O
 ya O
 bụ O
-Adoration O
-Ministry O
-Enugu O
+Adoration B-ORG
+Ministry I-ORG
+Enugu I-ORG
 , O
 ajụọ O
 ya O
@@ -43435,8 +43435,8 @@ ya O
 , O
 kama O
 na O
-Muhammadu B-PER
-Buhari I-PER
+Muhammadu O
+Buhari O
 ga O
 - O
 enweta O
@@ -43471,13 +43471,13 @@ Fr O
 . O
 Mbaka O
 zutere O
-Buhari O
+Buhari B-PER
 n'afọ B-DATE
 2016 I-DATE
 
-N'ọnwa O
-Julaị O
-2018 O
+N'ọnwa B-DATE
+Julaị I-DATE
+2018 I-DATE
 , O
 Mbaka O
 wụgharịrị O
@@ -43515,7 +43515,7 @@ anya O
 onyeisiala O
 Buhari O
 ka O
-Mbaka B-PER
+Mbaka O
 na O
 - O
 eme O
@@ -43527,14 +43527,14 @@ ubi O
 ( O
 Bazaar O
 ) O
-n'ọnwa O
-Disemba O
+n'ọnwa B-DATE
+Disemba I-DATE
 . O
 
 Uzodimma O
 kwuru O
 na O
-Buhari B-PER
+Buhari O
 nyere O
 ya O
 nde O
@@ -43588,7 +43588,7 @@ bụrụ O
 na O
 ị O
 maghị O
-Oyedepo B-PER
+Oyedepo O
 maka O
 inwe O
 otu O
@@ -43604,9 +43604,9 @@ ya O
 na O
 Naịjirịa B-LOC
 , O
-Living B-ORG
-Faith I-ORG
-Church I-ORG
+Living O
+Faith O
+Church O
 , O
 nke O
 e O
@@ -43661,15 +43661,15 @@ eru O
 
 Ndị O
 dịka O
-Goodluck B-PER
-Jonathan I-PER
+Goodluck O
+Jonathan O
 bụ O
 aka O
 chịburu O
-Naịjirịa B-LOC
+Naịjirịa O
 , O
-Atiku O
-Abubakar O
+Atiku B-PER
+Abubakar I-PER
 na O
 - O
 azọ O
@@ -43684,7 +43684,7 @@ na O
 ndị O
 ndọrọndọrọ O
 zuterela O
-Oyedepo O
+Oyedepo B-PER
 . O
 
 Ọtụtụ O
@@ -43700,7 +43700,7 @@ gbasara O
 ndọrọndọrọ O
 ọchịchị O
 na O
-Naịjirịa B-LOC
+Naịjirịa O
 , O
 bụ O
 ndị O
@@ -43717,7 +43717,7 @@ Nso O
 nso O
 a O
 , O
-Oyedepo B-PER
+Oyedepo O
 kpalitere O
 okwu O
 na O
@@ -43737,8 +43737,8 @@ ezigbo O
 """" O
 Buhari O
 nọ O
-n'Aso O
-Rock O
+n'Aso B-LOC
+Rock I-LOC
 ka O
 ọ O
 bụ O
@@ -43750,11 +43750,11 @@ adigboroja O
 Adeboye O
 bụ O
 onyeisi O
-Redeemed B-ORG
-Christian I-ORG
-Church I-ORG
-of I-ORG
-God I-ORG
+Redeemed O
+Christian O
+Church O
+of O
+God O
 ( O
 RCCG O
 ) O
@@ -43770,7 +43770,7 @@ na O
 ada O
 ụda O
 na O
-Naịjirịa O
+Naịjirịa B-LOC
 ma O
 n'ụka O
 ma O
@@ -43812,12 +43812,12 @@ ya O
 ntị O
 . O
 
-Yemi O
-Osinbajo O
+Yemi B-PER
+Osinbajo I-PER
 bụ O
 osote O
 onyeisiala O
-Naịjirịa B-LOC
+Naịjirịa O
 ugbua O
 , O
 bụ O
@@ -43844,11 +43844,11 @@ Aka O
 chịburu O
 Naịjirịa O
 bụ O
-Goodluck O
-Jonathan O
+Goodluck B-PER
+Jonathan I-PER
 nakwa O
-Olusegun B-PER
-Obasanjo I-PER
+Olusegun O
+Obasanjo O
 , O
 so O
 na O
@@ -43864,16 +43864,16 @@ ya O
 
 O O
 zutekwara O
-Buhari B-PER
+Buhari O
 na O
-London B-LOC
+London O
 oge O
 ahụ O
 adịghị O
 ya O
 . O
 
-Joshua O
+Joshua B-PER
 bụ O
 onye O
 ụkọchukwu O
@@ -43910,7 +43910,7 @@ ebu O
 amụma O
 metụtara O
 ọchịchị O
-Naịjirịa O
+Naịjirịa B-LOC
 nakwa O
 ndị O
 ndọrọndọrọ O
@@ -43929,12 +43929,12 @@ SCOAN O
 ) O
 . O
 
-N'ọnwa B-DATE
-Julaị I-DATE
-nke I-DATE
-2018 I-DATE
+N'ọnwa O
+Julaị O
+nke O
+2018 O
 , O
-Joshua B-PER
+Joshua O
 buru O
 amụma O
 ebe O
@@ -43973,9 +43973,9 @@ ntuliaka O
 """" O
 . O
 
-N'ọnwa O
-Ọktoba O
-2018 O
+N'ọnwa B-DATE
+Ọktoba I-DATE
+2018 I-DATE
 , O
 Buhari B-PER
 kwuru O
@@ -43999,7 +43999,7 @@ ha O
 mkparị O
 . O
 
-Kukah O
+Kukah B-PER
 bụ O
 ụkọchukwu O
 Sokoto B-ORG
@@ -44018,7 +44018,7 @@ n'okwu O
 na O
 ndọrọndọrọ O
 ọchịchị O
-Naịjirịa B-LOC
+Naịjirịa O
 . O
 
 O O
@@ -44043,7 +44043,7 @@ Epreelụ I-DATE
 , O
 Kukah B-PER
 kpọkuru O
-Buhari B-PER
+Buhari O
 sị O
 ya O
 gbaa O
@@ -44103,7 +44103,7 @@ zọọ O
 onyeisiala O
 n'okpuru O
 pati O
-CPC O
+CPC B-ORG
 , O
 nke O
 Bakare B-PER
@@ -44117,7 +44117,7 @@ ha O
 emerighị O
 . O
 
-Oyemade O
+Oyemade B-PER
 bụ O
 ụkọchukwu O
 Covenant B-ORG
@@ -44177,7 +44177,7 @@ ndọrọndọrọ O
 
 Ọkaikpe O
 ukwu O
-Naịjirịa O
+Naịjirịa B-LOC
 were O
 n'ọrụ O
 ịnọchịte O
@@ -44185,9 +44185,9 @@ anya O
 Walter O
 Onnoghen O
 bụ O
-Ibrahim O
-Tank O
-Muhammad O
+Ibrahim B-PER
+Tank I-PER
+Muhammad I-PER
 , O
 eduola O
 ndị O
@@ -44210,17 +44210,17 @@ na O
 - O
 ahazi O
 ime O
-taa B-DATE
+taa O
 bụ O
-ụbọchị O
-iri O
-abụọ O
-na O
-isii O
-nke O
-ọnwa O
-Jenụwarị O
-2019 O
+ụbọchị B-DATE
+iri I-DATE
+abụọ I-DATE
+na I-DATE
+isii I-DATE
+nke I-DATE
+ọnwa I-DATE
+Jenụwarị I-DATE
+2019 I-DATE
 , O
 tupu O
 Onyeisiala O
@@ -44273,7 +44273,7 @@ Onyeisiala O
 Buhari O
 si O
 wepụ O
-Onnoghen O
+Onnoghen B-PER
 na O
 - O
 ama O
@@ -44285,7 +44285,7 @@ jijijji O
 Ha O
 sị O
 ka O
-Naịjirịa O
+Naịjirịa B-LOC
 mee O
 ihe O
 etu O
@@ -44307,9 +44307,9 @@ ahụ O
 , O
 n'agbanyeghi O
 na O
-Nigerian B-ORG
-Bar I-ORG
-Association I-ORG
+Nigerian O
+Bar O
+Association O
 katọrọ O
 mwepụ O
 Onnoghen B-PER
@@ -44331,7 +44331,7 @@ mere O
 Sagay O
 sị O
 na O
-Onnoghen B-PER
+Onnoghen O
 dara O
 iwu O
 , O
@@ -44378,12 +44378,12 @@ gboo O
 """" O
 
 Onyeisi O
-Ohanaeze B-ORG
-ndị I-ORG
-Igbo I-ORG
+Ohanaeze O
+ndị O
+Igbo O
 bụ O
-Nnia O
-Nwodo O
+Nnia B-PER
+Nwodo I-PER
 kwuru O
 nke O
 a O
@@ -44391,7 +44391,7 @@ na O
 mkparịtaụka O
 ya O
 na O
-BBC B-ORG
+BBC O
 nwere O
 . O
 
@@ -44412,8 +44412,8 @@ makwa O
 chịa O
 obodo O
 dịka O
-Nnamdi O
-Azikiwe O
+Nnamdi B-PER
+Azikiwe I-PER
 na O
 ndị O
 ọzọ O
@@ -44429,8 +44429,8 @@ eze O
 ka O
 ọ O
 pịapụrụ O
-Petra O
-Kvitova O
+Petra B-PER
+Kvitova I-PER
 maburu O
 iko O
 n'asọmpi O
@@ -44442,7 +44442,7 @@ Open O
 
 Cheta O
 na O
-Osaka O
+Osaka B-PER
 bụzị O
 onye O
 mbụ O
@@ -44454,7 +44454,7 @@ pịapụkwara O
 Serena O
 Williams O
 n'asọmpi O
-US B-LOC
+US O
 Open O
 n'afọ B-DATE
 gara I-DATE
@@ -44465,7 +44465,7 @@ Atiku O
 , O
 Saraki B-PER
 na O
-PDP O
+PDP B-ORG
 akatọọla O
 Buhari B-PER
 
@@ -44477,8 +44477,8 @@ ada O
 banyere O
 nwezuga O
 onyeisiala O
-Muhammadu O
-Buahri O
+Muhammadu B-PER
+Buahri I-PER
 mere O
 Ọkaikpe O
 ukwu O
@@ -44494,10 +44494,10 @@ na O
 azọ O
 ọchịchị O
 n'okpuru O
-PDP O
+PDP B-ORG
 bu O
-Atiku O
-Abubakar O
+Atiku B-PER
+Abubakar I-PER
 katọrọ O
 atụmatu O
 ahu O
@@ -44516,7 +44516,7 @@ na O
 onyeisi O
 ndi O
 omeiwu O
-naijiria O
+naijiria B-LOC
 bụ O
 Bukola O
 Saraki O
@@ -44527,7 +44527,7 @@ nnapu O
 a O
 emere O
 Ọkaikpe O
-Onnoghen O
+Onnoghen B-PER
 . O
 
 PDP B-ORG
@@ -44554,9 +44554,9 @@ mere O
 . O
 
 Pati O
-Moghalu O
+Moghalu B-PER
 na O
-Durotoye B-PER
+Durotoye O
 abịakọtala O
 ọnụ O
 
@@ -44571,8 +44571,8 @@ bụ O
 Kingsley O
 Moghalu O
 na O
-Fela B-PER
-Durotoye I-PER
+Fela O
+Durotoye O
 ekwekọrịtara O
 na O
 ha O
@@ -44605,10 +44605,10 @@ na O
 - O
 ekwuru O
 pati O
-YPP B-ORG
+YPP O
 bụ O
 Bishop O
-Amakiri O
+Amakiri B-PER
 na O
 nke O
 ANN O
@@ -44632,7 +44632,7 @@ ekwerela O
 ka O
 ụlọọrụ O
 gọọmenti O
-Amerịka O
+Amerịka B-LOC
 gbapee O
 
 Ụlọ O
@@ -44641,14 +44641,14 @@ gọọmentị O
 agbapela O
 na O
 mba O
-Amerịka B-LOC
+Amerịka O
 ka O
 omere O
-ụbọchị B-DATE
-iri I-DATE
-ato I-DATE
-na I-DATE
-atọ I-DATE
+ụbọchị O
+iri O
+ato O
+na O
+atọ O
 onyeisiala O
 Trump B-PER
 na O
@@ -44669,7 +44669,7 @@ ala O
 ha O
 na O
 mba O
-mexico B-LOC
+mexico O
 . O
 
 Mgbape O
@@ -44700,8 +44700,8 @@ ndi O
 ụgwọ O
 . O
 
-Alexis B-PER
-Sanchez I-PER
+Alexis O
+Sanchez O
 lagachiri O
 ama O
 egwuregwu O
@@ -44711,9 +44711,9 @@ mgbe O
 Manchester B-ORG
 United I-ORG
 na O
-Arsenal O
+Arsenal B-ORG
 zutere O
-ụnyaahụ B-DATE
+ụnyaahụ O
 . O
 
 Agbanyeghị O
@@ -44722,14 +44722,14 @@ ndi O
 na O
 - O
 akwado O
-Arsenal O
+Arsenal B-ORG
 na O
 - O
 akwa O
 ya O
 emo O
 , O
-Sanchez O
+Sanchez B-PER
 gbapere O
 goolu O
 na O
@@ -44744,7 +44744,7 @@ atọ O
 asatara O
 ọtụ O
 si O
-Arsenal O
+Arsenal B-ORG
 ka O
 nụ O
 . O
@@ -44811,8 +44811,8 @@ na O
 - O
 eme O
 ndị O
-Saudi B-LOC
-Arabia I-LOC
+Saudi O
+Arabia O
 anaghị O
 emenwu O
 

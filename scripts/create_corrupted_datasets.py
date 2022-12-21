@@ -2,6 +2,8 @@ from typing import List, Optional
 from shutil import copyfile
 import logging
 
+import numpy as np
+
 import fire
 from ner.corruption.corruption import keep_percentage_of_labels, keep_percentage_of_sentences, swap_percentage_of_labels, cap_number_of_labels, swap_number_of_labels, write_modified_examples_general
 from ner.dataset import read_examples_from_file
@@ -15,6 +17,8 @@ ALL_FUNCS_PARAMS = {
     # global corruption
     'global_cap_labels':        (keep_percentage_of_labels, percentage),
     'global_cap_sentences' :    (keep_percentage_of_sentences, percentage),
+    'global_cap_sentences_seed1' :    (keep_percentage_of_sentences, percentage),
+    'global_cap_sentences_seed2' :    (keep_percentage_of_sentences, percentage),
     'global_swap_labels':       (swap_percentage_of_labels, percentage),
     
     # local corruption
@@ -28,7 +32,11 @@ def main(
     corruption_name,
     # languages: Optional[List[str]] = ["swa", "kin", "pcm", "en-conll-2003"],):
     languages: Optional[List[str]] = ['amh','conll_2003_en','hau','ibo','kin','lug','luo','pcm','swa','wol','yor',],):
-
+    if corruption_name == 'global_cap_sentences_seed1':
+        np.random.seed(123)
+    elif corruption_name == 'global_cap_sentences_seed2':
+        np.random.seed(1234)
+    
     func, corruption_params = ALL_FUNCS_PARAMS[corruption_name]
     for lang in languages:
         for param in corruption_params:
