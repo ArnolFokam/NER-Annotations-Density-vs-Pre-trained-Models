@@ -24,7 +24,8 @@ class InputExample(object):
 class InputFeatures(object):
     """A single set of features of data."""
 
-    def __init__(self, input_ids, input_mask, segment_ids, label_ids):
+    def __init__(self, idx, input_ids, input_mask, segment_ids, label_ids):
+        self.idx = idx
         self.input_ids = input_ids
         self.input_mask = input_mask
         self.segment_ids = segment_ids
@@ -178,7 +179,7 @@ def convert_examples_to_features(
             logger.info("label_ids: %s", " ".join([str(x) for x in label_ids]))
 
         features.append(
-            InputFeatures(input_ids=input_ids, input_mask=input_mask, segment_ids=segment_ids, label_ids=label_ids)
+            InputFeatures(idx=example.guid, input_ids=input_ids, input_mask=input_mask, segment_ids=segment_ids, label_ids=label_ids)
         )
     return features
 
