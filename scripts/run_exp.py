@@ -92,6 +92,8 @@ def main(
 {f"source ~/.bashrc && conda activate {CONDA_ENV_NAME}" if  use_slurm else ""}
 cd {ROOT_DIR}
 export PYTHONPATH=$PYTHONPATH:`pwd`
+export PATH=$PATH:/usr/local/cuda-12.0/bin
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-12.0/lib64
 {bsh_cmd}
 {"conda deactivate" if  use_slurm else ""}
 '''
