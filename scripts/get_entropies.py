@@ -186,7 +186,7 @@ def main(
     
     
     # save the entropies
-    entropies_path = weights_path
+    entropies_path = f"{weights_path}/entropies.npz"
     np.save(entropies_path, entropies)
     
     # TODO:
