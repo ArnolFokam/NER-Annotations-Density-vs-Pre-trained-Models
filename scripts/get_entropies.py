@@ -27,6 +27,7 @@ def predictive_entropy(predictions: torch.Tensor) -> float:
     epsilon = sys.float_info.min
     predictive_entropy = -np.sum( np.mean(predictions, axis=0) * np.log(np.mean(predictions, axis=0) + epsilon),
             axis=-1)
+    print("Calculating", epsilon, "Entropy of shape", predictions.shape, 'and ans is', predictive_entropy)
 
     return predictive_entropy
 
@@ -169,7 +170,7 @@ def main(
         seq_length,
         number_of_predictions
     )
-    
+    print("HEY THERE", predictions.shape)
     # get entropies
     entropies = []
     
