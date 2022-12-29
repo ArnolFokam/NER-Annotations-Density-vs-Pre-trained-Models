@@ -15,7 +15,15 @@ from torch.utils.data import DataLoader
 from transformers import AutoTokenizer, AutoModelForTokenClassification
 from ner.dataset import get_labels
 
-def predictive_entropy(predictions):
+def predictive_entropy(predictions: torch.Tensor) -> float:
+    """Entropy calculation
+
+    Args:
+        predictions (torch.Tensor): predictions to get the entropy from
+
+    Returns:
+        float: entropy of prediction
+    """
     epsilon = sys.float_info.min
     predictive_entropy = -np.sum( np.mean(predictions, axis=0) * np.log(np.mean(predictions, axis=0) + epsilon),
             axis=-1)
@@ -35,7 +43,8 @@ def load_and_cache_examples(max_seq_length, data_path, model_type, tokenizer, la
         cls_token_segment_id=2 if model_type in ["xlnet"] else 0,
         sep_token=tokenizer.sep_token,
         sep_token_extra=bool(model_type in ["roberta"]),
-        # roberta uses an extra separator b/w pairs of sentences, cf. github.com/pytorch/fairseq/commit/1684e166e3da03f5b600dbb7855cb98ddfcd0805
+        # roberta uses an extra separator b/w pairs of sentences, 
+        # cf. github.com/pytorch/fairseq/commit/1684e166e3da03f5b600dbb7855cb98ddfcd0805
         pad_on_left=bool(model_type in ["xlnet"]),
         # pad on the left for xlnet
         pad_token=tokenizer.convert_tokens_to_ids(
@@ -59,22 +68,38 @@ def load_and_cache_examples(max_seq_length, data_path, model_type, tokenizer, la
     dataset = TensorDataset(all_input_ids, all_input_mask, all_segment_ids, all_label_ids, all_ids)
     return dataset
 
-def get_k_predictions(model, dataset, model_type, k):
+def get_k_predictions(model, dataset, model_type, num_labels, seq_length, k):
+    
+    # use gpu
     device = torch.device("cuda")
+    
+    # set dataset
     sampler = SequentialSampler(dataset)
-    dataloader = DataLoader(dataset, sampler=sampler, shuffle=False, batch_size=64)
+    dataloader = DataLoader(
+        dataset, 
+        sampler=sampler, 
+        shuffle=False, # suffle should be false
+        batch_size=64
+    )
 
+    # freeze state of model model batch stats etc
     model.eval()
-
-    model.eval()
+    
+    # allow dropout to change for Monte Carlo stuffs
     for module in model.modules():
         if module.__class__.__name__.startswith('Dropout'):
             module.train()
     
-    bag_predictions = torch.empty((3453, 200, k, 9), device=device)
+    # bag of predictions
+    bag_predictions = torch.empty((len(dataset), seq_length, k, num_labels), device=device)
+    labels = torch.empty((len(dataset), seq_length), device=device)
 
-    for _ in range(k):
-        predictions = None # (batch_size, max seq length, different tokens labels)
+    for i in range(k):
+        
+        # (batch_size, max seq length, different tokens labels)
+        predictions = None
+        
+        # labels (batch_size, max seq length, token)
         
         for batch in dataloader:
             batch = tuple(t.to(device) for t in batch)
@@ -86,51 +111,86 @@ def get_k_predictions(model, dataset, model_type, k):
                     inputs["token_type_ids"] = (
                         batch[2] if model_type in ["bert", "xlnet"] else None
                     )  # XLM and RoBERTa don"t use segment_ids
+                
+                # forward pass
                 outputs = model(**inputs)
-                loss, logits = outputs[:2]
-                    
+                logits = outputs[1]
+                
+                # predictions to predictions
                 if predictions is not None:
-                    predictions = torch.cat((predictions, F.softmax(logits, dim=-1)))
+                    predictions = torch.vstack((predictions, F.softmax(logits, dim=-1)))
                 else:
                     predictions = F.softmax(logits, dim=-1)
+                
+        # append the predictions to 
+        bag_predictions[:, :, i, :] = predictions
                 
         
     return bag_predictions
 
 
 def main(
-    root_dir: str,
+    model_type: str,
     corruption_name: str,
     param: str,
-    model_conf: List[str],
-    saved_things: str,
+    language: str,
+    seed: str,
     number_of_predictions: int,
-    language):
+):
+    # initialize certain params
+    seq_length = 200
     
-    tokenizer = AutoTokenizer.from_pretrained(saved_things)
-    model = AutoModelForTokenClassification.from_pretrained(saved_things)
+    # set paths
+    weights_path = f"results/{model_type}/{corruption_name}/{param}/{language}/{seed}"
+    data_path = f"data/{corruption_name}/{param}/{language}"
+    
+    # get weights and stuffs
+    tokenizer = AutoTokenizer.from_pretrained(weights_path)
+    model = AutoModelForTokenClassification.from_pretrained(weights_path)
     labels = get_labels()
     
+    # get the test dataset for the model
     dataset = load_and_cache_examples(
-        200, 
-        f"../data/{corruption_name}/{param}/{language}", 
-        model_conf[0], 
+        seq_length, 
+        data_path, 
+        model, 
         tokenizer,
         labels,
         CrossEntropyLoss().ignore_index,
         "test"
     )
     
-    predictions = get_k_predictions(model, dataset, model_conf[0], number_of_predictions)
+    # get predictions as (num_samples x seq_length x k x num labels)
+    predictions = get_k_predictions(
+        model_type, 
+        dataset, 
+        model, 
+        len(labels),
+        seq_length,
+        number_of_predictions
+    )
     
+    # get entropies
     entropies = []
-
+    
+    # calculate entropy for each sequence in the dataset
     for i in range(len(predictions)):
-        entropy = []
+        
+        # calculate entropy for each tokens in a sequence
+        entropy_seq_length = []
         for j in range(len(predictions[0])):
-            entropy.append(predictive_entropy(predictions[i][j].detach().cpu().numpy()))
-            
-        entropies.append(entropy)
+            entropy_seq_length.append(predictive_entropy(predictions[i][j].detach().cpu().numpy()))
+        entropies.append(entropy_seq_length)
+        
+    entropies = np.array(entropies)
+    
+    
+    # save the entropies
+    entropies_path = f"{weights_path}/entropies.npz"
+    np.save(entropies_path, entropies)
+    
+    # TODO:
+    # save labels and label attached to entropies
 
 if __name__ == "__main__":
     fire.Fire(main)
