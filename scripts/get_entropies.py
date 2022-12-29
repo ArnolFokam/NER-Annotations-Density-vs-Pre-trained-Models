@@ -14,7 +14,7 @@ from torch.utils.data import SequentialSampler
 from torch.utils.data import DataLoader
 from transformers import AutoTokenizer, AutoModelForTokenClassification
 from ner.dataset import get_labels
-
+DEVICE = 'cuda'
 def predictive_entropy(predictions: torch.Tensor) -> float:
     """Entropy calculation
 
@@ -146,7 +146,7 @@ def main(
     
     # get weights and stuffs
     tokenizer = AutoTokenizer.from_pretrained(weights_path)
-    model = AutoModelForTokenClassification.from_pretrained(weights_path)
+    model = AutoModelForTokenClassification.from_pretrained(weights_path).to(DEVICE)
     labels = get_labels()
     
     # get the test dataset for the model
