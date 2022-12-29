@@ -162,9 +162,9 @@ def main(
     
     # get predictions as (num_samples x seq_length x k x num labels)
     predictions = get_k_predictions(
-        model_type, 
-        dataset, 
         model, 
+        dataset, 
+        model_type, 
         len(labels),
         seq_length,
         number_of_predictions
