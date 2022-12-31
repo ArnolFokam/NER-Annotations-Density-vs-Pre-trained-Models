@@ -1,5 +1,6 @@
 from typing import List, Optional
-
+import os
+import pickle
 import fire
 import torch
 import sys
@@ -27,7 +28,7 @@ def predictive_entropy(predictions: torch.Tensor) -> float:
     epsilon = sys.float_info.min
     predictive_entropy = -np.sum( np.mean(predictions, axis=0) * np.log(np.mean(predictions, axis=0) + epsilon),
             axis=-1)
-    print("Calculating", epsilon, "Entropy of shape", predictions.shape, 'and ans is', predictive_entropy)
+#    print("Calculating", epsilon, "Entropy of shape", predictions.shape, 'and ans is', predictive_entropy)
 
     return predictive_entropy
 
@@ -94,12 +95,13 @@ def get_k_predictions(model, dataset, model_type, num_labels, seq_length, k):
     # bag of predictions
     bag_predictions = torch.empty((len(dataset), seq_length, k, num_labels), device=device)
     labels = torch.empty((len(dataset), seq_length), device=device)
+    bag_labels = torch.empty((len(dataset), seq_length, k), device=device)
 
     for i in range(k):
         
         # (batch_size, max seq length, different tokens labels)
         predictions = None
-        
+        mylabels = None 
         # labels (batch_size, max seq length, token)
         
         for batch in dataloader:
@@ -122,12 +124,17 @@ def get_k_predictions(model, dataset, model_type, num_labels, seq_length, k):
                     predictions = torch.vstack((predictions, F.softmax(logits, dim=-1)))
                 else:
                     predictions = F.softmax(logits, dim=-1)
-                
+                if mylabels is None:
+                    mylabels = batch[3]
+                else:
+                    mylabels = torch.vstack((mylabels, batch[3]))
         # append the predictions to 
         bag_predictions[:, :, i, :] = predictions
-                
-        
-    return bag_predictions
+        bag_labels[:, :, i] = mylabels
+    
+    assert torch.all(torch.std(bag_labels, dim=-1) == 0)
+    print("HERE I have my labels", mylabels.shape)
+    return bag_predictions, mylabels
 
 
 def main(
@@ -143,6 +150,8 @@ def main(
     
     # set paths
     weights_path = f"results/{model_type}/{corruption_name}/{param}/{language}/{seed}"
+    my_dir = weights_path.replace('results/', 'entropies/')
+    if os.path.exists(f"{my_dir}/entropies.npz"): return
     data_path = f"data/{corruption_name}/{param}/{language}"
     
     # get weights and stuffs
@@ -160,9 +169,9 @@ def main(
         CrossEntropyLoss().ignore_index,
         "test"
     )
-    
+    print("DATASET", len(dataset.tensors), "LEN", dataset.tensors[0].shape, dataset.tensors[1].shape)
     # get predictions as (num_samples x seq_length x k x num labels)
-    predictions = get_k_predictions(
+    predictions, all_my_labels = get_k_predictions(
         model, 
         dataset, 
         model_type, 
@@ -187,11 +196,23 @@ def main(
     
     
     # save the entropies
-    entropies_path = f"{weights_path}/entropies.npz"
-    np.save(entropies_path, entropies)
+    #entropies_path = f"{weights_path}/entropies.npz"
+    os.makedirs(my_dir, exist_ok=True)
+    entropies_path = f"{my_dir}/entropies.npz"
+    np.savez(entropies_path, entropies)
     
+    pred_path = f"{my_dir}/predictions.npz"
+    np.savez(pred_path, predictions.detach().cpu().numpy())
+
+    mylabels_path = f"{my_dir}/labels.npz"
+    np.savez(mylabels_path, all_my_labels.detach().cpu().numpy())
+    
+    labels_path = f"{my_dir}/labels.p"
+    with open(labels_path, 'wb+') as f:
+        pickle.dump(labels, f)
     # TODO:
     # save labels and label attached to entropies
 
 if __name__ == "__main__":
+    torch.manual_seed(42)
     fire.Fire(main)
