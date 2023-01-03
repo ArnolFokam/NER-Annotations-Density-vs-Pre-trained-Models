@@ -14,7 +14,10 @@ MODELS = ['afriberta', 'mbert', 'xlmr', 'afro_xlmr']
 MODES = ['global_cap_labels', 'global_cap_sentences', 'global_swap_labels', 
          'local_cap_labels',
          'local_swap_labels',
-         'original']
+         'global_cap_sentences_seed1',
+         'global_cap_sentences_seed2',
+         'original',
+         ]
 def clean_model(model):
     return {'afriberta': "AfriBERTa", 'mbert': "mBERT", 'xlmr': "XLM-R", 'afro_xlmr': "Afro-XLM-R"}[model]
 
@@ -110,7 +113,11 @@ def main(lang_to_use=None):
     old = df
     def single_plot(mode, AX, lang=None):
         df = copy.deepcopy(old)
+        if mode == 'global_cap_sentences':
+            df.loc[df['mode'] == 'global_cap_sentences_seed1', 'mode'] = 'global_cap_sentences'
+            df.loc[df['mode'] == 'global_cap_sentences_seed2', 'mode'] = 'global_cap_sentences'
         df = df[df['mode'] == mode]
+        print("MMODE", mode, len(df))
         
         if lang is not None: 
             df = df[df['lang'] == lang]
@@ -123,9 +130,10 @@ def main(lang_to_use=None):
         
         if mode == 'local_swap_labels':
             AX.plot(x, 1 - np.arange(0, 11)/10)
-        elif mode == 'global_cap_sentences':
+        elif 'global_cap_sentences' in mode:
             AX.plot(x, np.array([0.1, 0.5] + list(np.arange(1, 11)))/10)
         else:
+            print("MODE", mode, x)
             AX.plot(x, np.arange(1, 11)/10, label='Linear Relationship')
         AX.set_xlabel("Level of Quality")
         if mode == 'global_cap_sentences':
@@ -267,6 +275,6 @@ def plot_entity_frequency():
     
     plt.show()
 if __name__ == '__main__':
-    # main(True)
+    main(True)
     # plot_dataset_stats()
-    plot_entity_frequency()
+    # plot_entity_frequency()
