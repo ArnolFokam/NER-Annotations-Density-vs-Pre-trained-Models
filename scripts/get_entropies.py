@@ -73,7 +73,7 @@ def load_and_cache_examples(max_seq_length, data_path, model_type, tokenizer, la
 def get_k_predictions(model, dataset, model_type, num_labels, seq_length, k):
     
     # use gpu
-    device = torch.device("cuda")
+    device = torch.device(DEVICE)
     
     # set dataset
     sampler = SequentialSampler(dataset)
@@ -151,7 +151,9 @@ def main(
     # set paths
     weights_path = f"results/{model_type}/{corruption_name}/{param}/{language}/{seed}"
     my_dir = weights_path.replace('results/', 'entropies/')
-    if os.path.exists(f"{my_dir}/entropies.npz"): return
+    if os.path.exists(f"{my_dir}/entropies.npz"): 
+        print("Exit Early")
+        return
     data_path = f"data/{corruption_name}/{param}/{language}"
     
     # get weights and stuffs
@@ -201,8 +203,8 @@ def main(
     entropies_path = f"{my_dir}/entropies.npz"
     np.savez(entropies_path, entropies)
     
-    pred_path = f"{my_dir}/predictions.npz"
-    np.savez(pred_path, predictions.detach().cpu().numpy())
+    # pred_path = f"{my_dir}/predictions.npz"
+    # np.savez(pred_path, predictions.detach().cpu().numpy())
 
     mylabels_path = f"{my_dir}/labels.npz"
     np.savez(mylabels_path, all_my_labels.detach().cpu().numpy())
