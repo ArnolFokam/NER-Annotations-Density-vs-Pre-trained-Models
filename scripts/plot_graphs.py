@@ -288,11 +288,6 @@ def plot_entity_frequency():
     
     plt.show()
 if __name__ == '__main__':
-<<<<<<< HEAD
-    main(True)
-    # plot_dataset_stats()
-=======
     # main(True)
     plot_dataset_stats()
->>>>>>> 420d2900 (good)
     # plot_entity_frequency()
