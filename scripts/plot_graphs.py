@@ -210,18 +210,31 @@ def plot_dataset_stats():
                         if l == 'O': continue
                         stats[l.split("-")[-1]] += 1
                         # stats['Total'] += 1
-                stats = dict(stats)
+                num_words = sum([len(ex.words) for ex in examples])
+                labels = list(map(lambda x: [label.split('-')[-1] for label in x.labels if label != 'O'], examples))
+                num_labels = sum([len(np.unique(l)) for l in labels])
+                stats = {
+                    "Number of Sentences": len(examples),
+                    "num_labels": num_labels,
+                    "num_words": num_words,
+                    **stats,
+                }
                 if lang == 'conll_2003_en': lang = 'en'
                 df[lang] = stats
                 print(f"{lang:<10} {li[0]} {stats}")
     df = pd.DataFrame(df)
     df = df.T
-    df['Total'] = df['LOC'] + df['ORG'] + df['DATE'].fillna(0) + df['PER']
+    df['Total Entities'] = df['LOC'] + df['ORG'] + df['DATE'].fillna(0) + df['PER']
     df = df.fillna(0).astype(np.int32)
+    # df["Entity Density"] = df["Entity Density"].astype(np.float32)
+    df["Entity Density $(10^2)$"] = round((df["num_labels"] * 100)/df["num_words"], 2)
+    df = df.drop("num_labels", axis=1)
+    df = df.drop("num_words", axis=1)
+    df = df.sort_values('Total Entities', ascending=False)
     print(df)
     df.to_latex("analysis/number_entities.tex")
     # sns.barplot(df, x='lang', 
-    df = df.drop('Total', axis=1)
+    df = df.drop('Total Entities', axis=1)
     df.plot(kind='bar', stacked=True)
     plt.xlabel('Language')
     plt.ylabel("Number of Entities")
@@ -275,6 +288,11 @@ def plot_entity_frequency():
     
     plt.show()
 if __name__ == '__main__':
+<<<<<<< HEAD
     main(True)
     # plot_dataset_stats()
+=======
+    # main(True)
+    plot_dataset_stats()
+>>>>>>> 420d2900 (good)
     # plot_entity_frequency()
