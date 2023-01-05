@@ -23,6 +23,7 @@ def main():
         'Language': [],
         'Number of Sentences': []
     }
+    
     for folder in glob.glob(data_path):
         name = folder.split("/")[-1]
         examples = read_examples_from_file(folder, "train")
