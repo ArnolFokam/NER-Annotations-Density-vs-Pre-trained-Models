@@ -11,7 +11,7 @@ Content
 Viz
 - [x] Make  plots more intuitive (Micheal)
 - [ ] Viz for entropy experiments (Manuel) 🥹
-- [ ] Add a couple of tables or plots showcasing the dataset characteristics, e.g. how many sentences have X entities, etc.
+- [x] Add a couple of tables or plots showcasing the dataset characteristics, e.g. how many sentences have X entities, etc.
 - [x] get the number of sentences for each dataset. (Manuel)
 
 Experiments
