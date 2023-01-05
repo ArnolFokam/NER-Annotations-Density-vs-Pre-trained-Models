@@ -5,7 +5,7 @@ import logging
 import numpy as np
 
 import fire
-from ner.corruption.corruption import keep_percentage_of_labels, keep_percentage_of_sentences, swap_percentage_of_labels, cap_number_of_labels, swap_number_of_labels, write_modified_examples_general
+from ner.corruption.corruption import keep_percentage_of_labels, keep_number_of_labels_unswapped, keep_percentage_of_sentences, swap_percentage_of_labels, cap_number_of_labels, swap_number_of_labels, write_modified_examples_general
 from ner.dataset import read_examples_from_file
 import os
 log = logging.getLogger(__name__)
@@ -24,6 +24,9 @@ ALL_FUNCS_PARAMS = {
     # local corruption
     'local_cap_labels':         (cap_number_of_labels, number),
     'local_swap_labels':        (swap_number_of_labels, number),
+    
+    # local corruption swap made just like cap
+    'local_swap_labels_like_cap':        (keep_number_of_labels_unswapped, number),
 }
 
 
