@@ -21,6 +21,9 @@ MODES = ['global_cap_labels', 'global_cap_sentences', 'global_swap_labels',
 def clean_model(model):
     return {'afriberta': "AfriBERTa", 'mbert': "mBERT", 'xlmr': "XLM-R", 'afro_xlmr': "Afro-XLM-R"}[model]
 
+def clean_lang(lang):
+    if lang == 'conll_2003_en': return 'en'
+    return lang
 
 def savefig(name, pad=0):
     plt.tight_layout()
@@ -46,7 +49,7 @@ def main(lang_to_use=None):
         'seed':     [],
         'f1':       [],
     }
-    SHOULD_READ = True
+    SHOULD_READ = False  # True
     langs_to_use = LANGS  #[l for l in LANGS if l == lang_to_use or lang_to_use is None]
     for mode in MODES:
         if not SHOULD_READ: break
@@ -149,7 +152,7 @@ def main(lang_to_use=None):
         
         AX.set_ylabel("Fraction of F1 when using original dataset")
         
-    if 1:
+    if 0:
         for mode in MODES[:-1]:
             single_plot(mode, plt.gca())
             savefig(f'analysis/plots/corruption/{mode}.png')
@@ -171,24 +174,51 @@ def main(lang_to_use=None):
     # print(temp['two'])
     # exit()
     # temp.loc[:, 'actual'] == alls 
-    X = pd.pivot_table(temp, columns='model', index='lang', values='f1')
-    X2 = ' (' + pd.pivot_table(temp, columns='model', index='lang', values='f1_std', aggfunc=np.sum).round(2).astype(str) + ')'
+    temp = temp.rename({'model': "Model", 'lang': "Language"}, axis=1)
+    # temp['Model'] = temp['Model'].map(clean_model)
+    temp['Language'] = temp['Language'].apply(clean_lang)
+    print(temp)
+    # exit()
+    
+    X = pd.pivot_table(temp, columns='Model', index='Language', values='f1')
+    X2 = ' (' + pd.pivot_table(temp, columns='Model', index='Language', values='f1_std', aggfunc=np.sum).round(2).astype(str) + ')'
     # X = X.round(2)
     # print(X.mean(axis=0))
-    X['avg'] = X.mean(axis=1)
-    X.loc['avg'] = X.mean()
+    X['Average'] = X.mean(axis=1)
+    X.loc['Average'] = X.mean()
     
-    X2['avg'] = ''
-    X2.loc['avg'] = ''
+    X2['Average'] = ''
+    X2.loc['Average'] = ''
     
-    X = (X.round(2).astype(str) + X2)
-    s = X.to_latex(column_format='lllll|l')
-    print(s)
+    goods = []
+    # now do textbf per row
+    for i, lang in enumerate(X.index):
+        test = (-1, -1)
+        for j, model in enumerate(X.columns):
+            if model == 'Average' or lang == 'Average': continue
+            perf = X.iloc[i, j]
+            test = max(test, (perf, j))
+            # if lang == 'en':print("EN", model, perf)
+            # print("MODEL", model, lang)
+        # TTT = X.loc[i, X.columns[j]]
+        if lang == 'Average': continue
+        goods.append((i, test[1]))
+        
+    # X = X.round(2)
+    for v in X.columns:
+        X[v] = X[v].apply(lambda x: f"{x:.2f}")
+    X = X.astype(str)
+    # exit()
+    
+    X = (X + X2)
+    for i, j in goods:
+        TTT = X.iloc[i, j]
+        X.iloc[i, j] = "\textbf{" + str(TTT) + "}"
+    s = X.to_latex(column_format='lllllr', escape=False)
     splits = s.split("\n")
     
     splits.insert(-4, r'\midrule')
     s = '\n'.join(splits)
-    print(s)
     with open("analysis/performance_all.tex", 'w+') as f:
         f.write(s)
 
