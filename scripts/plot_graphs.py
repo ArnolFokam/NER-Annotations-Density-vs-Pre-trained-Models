@@ -9,6 +9,8 @@ from ner.dataset import read_examples_from_file
 from scripts.create_corrupted_datasets import ALL_FUNCS_PARAMS
 import seaborn as sns
 sns.set_theme()
+
+PER_LANG = False
 LANGS = ['amh', 'conll_2003_en', 'hau', 'ibo', 'kin', 'lug', 'luo', 'pcm', 'swa', 'wol', 'yor']
 MODELS = ['afriberta', 'mbert', 'xlmr', 'afro_xlmr']
 MODES = ['global_cap_labels', 'global_cap_sentences', 'global_swap_labels', 
@@ -49,7 +51,7 @@ def main(lang_to_use=None):
         'seed':     [],
         'f1':       [],
     }
-    SHOULD_READ = False  # True
+    SHOULD_READ =  True
     langs_to_use = LANGS  #[l for l in LANGS if l == lang_to_use or lang_to_use is None]
     for mode in MODES:
         if not SHOULD_READ: break
@@ -90,11 +92,12 @@ def main(lang_to_use=None):
     MODELS = [clean_model(m) for m in MODELS]
     if SHOULD_READ:
         df = pd.DataFrame(all_dics)
+        X = ['mode', 'num', 'lang', 'model']  + (['seed'] if PER_LANG else [])
         # df_std = df.groupby(['mode', 'num', 'lang', 'model'], as_index=False).std()
         # df = df.groupby(['mode', 'num', 'lang', 'model'], as_index=False).mean()
-        df = df.groupby(['mode', 'num', 'lang', 'model'], as_index=False).agg(['mean','std'])
+        df = df.groupby(X, as_index=False).agg(['mean','std'])
         df.columns = ['_'.join(col) for col in df.columns.values]
-        df = df.reset_index(['num', 'lang', 'model', 'mode'])
+        df = df.reset_index(X)
         df['f1'] = df['f1_mean']
         print(df)
         print(df.columns)
@@ -105,14 +108,26 @@ def main(lang_to_use=None):
     old = copy.deepcopy(df)
     for lang in langs_to_use:
         for model in MODELS:
-            
-            temp = df.loc[df['lang'] == lang]
-            # temp = temp.loc[temp['model'] == model]
-            temp = temp.loc[temp['model'] == model]
-            temp = temp.loc[temp['mode'] == 'original']
-            assert len(temp) == 1
-            opt = temp['f1'].item()
-            df.loc[np.logical_and(df['lang'] == lang, df['model'] == model), 'good'] = df.loc[np.logical_and(df['lang'] == lang, df['model'] == model), 'f1'] / opt
+            if PER_LANG:
+                for seed in [1, 2, 3]:
+                    temp = df.loc[df['lang'] == lang]
+                    temp = temp.loc[temp['model'] == model]
+                    temp = temp.loc[temp['mode'] == 'original']
+                    temp = temp.loc[temp['seed'] == seed]
+                    assert len(temp) == 1
+                    opt = temp['f1'].item()
+                    II = np.logical_and(df['lang'] == lang, df['model'] == model)
+                    II = np.logical_and(II, df['seed'] == seed)
+                    df.loc[II, 'good'] = df.loc[II, 'f1'] / opt
+            else:
+                temp = df.loc[df['lang'] == lang]
+                temp = temp.loc[temp['model'] == model]
+                temp = temp.loc[temp['mode'] == 'original']
+                assert len(temp) == 1
+                opt = temp['f1'].item()
+                II = np.logical_and(df['lang'] == lang, df['model'] == model)
+                df.loc[II, 'good'] = df.loc[np.logical_and(df['lang'] == lang, df['model'] == model), 'f1'] / opt
+
     old = df
     def single_plot(mode, AX, lang=None):
         df = copy.deepcopy(old)
@@ -125,8 +140,9 @@ def main(lang_to_use=None):
         if lang is not None: 
             df = df[df['lang'] == lang]
             AX.set_title(lang)
+        print(df)
         
-        df = df.groupby(['mode', 'num', 'model', 'lang'], as_index=False).mean()
+        df = df.groupby(['mode', 'num', 'model', 'lang'] + (['seed'] if lang is not None else []), as_index=False).mean()
         sns.lineplot(df, x='num', y='good', hue='model', errorbar='sd', ax=AX)
         x = np.unique(df['num'])
         # AX = plt.gca()
@@ -152,12 +168,13 @@ def main(lang_to_use=None):
         
         AX.set_ylabel("Fraction of F1 when using original dataset")
         
-    if 0:
-        for mode in MODES[:-1]:
-            single_plot(mode, plt.gca())
-            savefig(f'analysis/plots/corruption/{mode}.png')
-            plt.close()
-        if lang_to_use is not None:
+    if 1:
+        if not PER_LANG:
+            for mode in MODES[:-1]:
+                single_plot(mode, plt.gca())
+                savefig(f'analysis/plots/corruption/{mode}.png')
+                plt.close()
+        if PER_LANG:
             for mode in MODES[:-1]:
                 fig, axs = plt.subplots(4, 3, figsize=(18, 24))
                 for ax, lang in zip(axs.ravel(), LANGS):
