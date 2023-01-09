@@ -3,7 +3,7 @@ import pathlib
 import pickle
 from matplotlib import pyplot as plt
 import numpy as np
-from scripts.plot_graphs import savefig
+from scripts.plot_graphs import savefig, clean_model
 
 def get_vals(folder):
     # "entropies/xlmr/global_swap_labels/0.5/swa/3/"
@@ -63,66 +63,64 @@ def get_vals(folder):
     good_labs = [0, 1][1:]
     return good_ents, good_labs, lab2
     return ent, labs, lab2
-
+MODELS = ['xlmr', 'afriberta', 'afro_xlmr', 'mbert']
 LANGS = ['amh','hau','ibo','kin','lug','luo','pcm','swa','wol','yor',]
 def main(MODEL='afro_xlmr', CORRUPTION='global_swap_labels'):
-    # fig, axs = plt.subplots(3, 3, figsize=(15, 15))
-    # fig, axs = plt.subplots(1, 2, figsize=(15, 15))
-    # fig, axs = plt.subplots(1, 2, figsize=(10, 5), sharey=True)
-    # axs = axs.ravel()
+
     axs = [plt.gca()]
     X = None
-
-    T = f'{MODEL}/{CORRUPTION}'
-    print(T)
-    XXXX = [None] * 9
-    for I, ax in enumerate(axs):
-        x = []
-        vals = []
-        mi, ma = [], []
-        for i in range(1, 11):
-            x.append(i/10)
-            goods = [[], [], []]
-            for t in range(1, 4):
-                for l in LANGS:
-                    test = get_vals(f"entropies/{T}/{i/10}/{l}/{t}")
-                    goods[0].extend(test[0])
-                    goods[1].extend(test[1])
-                    goods[2] = test[2]
-            goods = (np.array(goods[0]), np.array(goods[1]), goods[2])
-            ogv = v = goods
-            if X is None: X = np.unique(v[1])
-            idx = (v[1] == X[I])
-            v = v[0][idx]
-            
-            if 1:
-                print("LEN V", len(v))
-                vals.append(m:= np.mean(v))
-                s = np.std(v)
-                mi.append(m - s)
-                ma.append(m + s)
-            else:
-                if XXXX[I] is None:
-                    XXXX[I] = v
-                print("LEN V", len(v))
-                vals.append(m:= np.mean(v))
-                s = 0
-                mi.append(np.min(v))
-                ma.append(np.max(v))
-        ax.plot(x, vals)
-        PPP = ogv[2]
-        PPP = ["O", "Entities"]
-        LLL = X[I]
-        print(PPP)
-        print(LLL)
-        ax.set_title(str((PPP[LLL]) if LLL >= 0 else LLL) + " -- " + str(idx.sum()))
-        ax.fill_between(x, mi, ma, alpha=0.1)
-        ax.set_ylabel("Entropy")
-        # ax.set_xlabel("Param")
-        ax.set_xlabel(mytest(CORRUPTION))
-        # ax.show()
-    plt.suptitle(T)
-    savefig(f'analysis/plots/entropies/{MODEL}_{CORRUPTION}.png')
+    for MODEL in MODELS:
+        T = f'{MODEL}/{CORRUPTION}'
+        print(T)
+        XXXX = [None] * 9
+        for I, ax in enumerate(axs):
+            x = []
+            vals = []
+            mi, ma = [], []
+            for i in range(1, 11):
+                x.append(i/10)
+                goods = [[], [], []]
+                for t in range(1, 4):
+                    for l in LANGS:
+                        test = get_vals(f"entropies/{T}/{i/10}/{l}/{t}")
+                        goods[0].extend(test[0])
+                        goods[1].extend(test[1])
+                        goods[2] = test[2]
+                goods = (np.array(goods[0]), np.array(goods[1]), goods[2])
+                ogv = v = goods
+                if X is None: X = np.unique(v[1])
+                idx = (v[1] == X[I])
+                v = v[0][idx]
+                
+                if 1:
+                    print("LEN V", len(v))
+                    vals.append(m:= np.mean(v))
+                    s = np.std(v)
+                    mi.append(m - s)
+                    ma.append(m + s)
+                else:
+                    if XXXX[I] is None:
+                        XXXX[I] = v
+                    print("LEN V", len(v))
+                    vals.append(m:= np.mean(v))
+                    s = 0
+                    mi.append(np.min(v))
+                    ma.append(np.max(v))
+            ax.plot(x, vals, label=clean_model(MODEL))
+            PPP = ogv[2]
+            PPP = ["O", "Entities"]
+            LLL = X[I]
+            print(PPP)
+            print(LLL)
+            # ax.set_title(str((PPP[LLL]) if LLL >= 0 else LLL) + " -- " + str(idx.sum()))
+            ax.fill_between(x, mi, ma, alpha=0.1)
+            ax.set_ylabel("Entropy")
+            # ax.set_xlabel("Param")
+            ax.set_xlabel(mytest(CORRUPTION))
+            # ax.show()
+    plt.legend()
+    # plt.suptitle(CORRUPTION)
+    savefig(f'analysis/plots/entropies/ALL_{CORRUPTION}.png')
     
     plt.close()
 
@@ -131,14 +129,15 @@ def mytest(mode):
         return ("Fraction of Sentences Kept")
     if mode == 'global_cap_labels':
         return ("Fraction of Labels Kept")
-    if mode == 'global_swapped_labels':
+    if mode == 'global_swap_labels':
         return ("Fraction of Labels Swapped")
     if mode == 'local_cap_labels':
         return ("Maximum number of labels kept per sentence")
     if mode == 'local_swap_labels':
         return ("Maximum number of labels swapped per sentence")
+    assert False, mode
 
 if __name__ == '__main__':
-    for M in ['xlmr', 'afriberta', 'afro_xlmr', 'mbert']: 
+    for M in ['xlmr']:#, 'afriberta', 'afro_xlmr', 'mbert']: 
         for C in ['global_swap_labels', 'global_cap_labels', 'global_cap_sentences']:
             main(M, C)
