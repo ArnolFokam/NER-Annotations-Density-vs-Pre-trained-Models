@@ -1,4 +1,4 @@
-index = 2
+index = 1
 from itertools import product
 import os 
 
@@ -25,7 +25,7 @@ models = ["afriberta","afro_xlmr","mbert","xlmr"]
   
 method = {
         2: ["global_cap_sentences_seed2", "global_cap_sentences_seed1"], 
-        1: ["local_swap_labels"]
+        1: ["local_swap_labels_like_cap"]
         }
 
 seed = ['1', '2', '3']
