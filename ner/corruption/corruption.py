@@ -61,6 +61,30 @@ def swap_number_of_labels(X: List[InputExample], number: int) -> List[InputExamp
             available_labels = labels_suffix_con.copy()
             available_labels.remove(current)
             label = np.random.choice(available_labels)
+            labels[x] = f"B-{label}"
+            labels[x + 1:y + 1] = [f"I-{label}" for _ in range(len(labels[x + 1:y + 1]))]
+            
+        ex.labels = labels
+        n_examples.append(ex)
+            
+    return n_examples
+
+def keep_number_of_labels_unswapped(X: List[InputExample], number: int) -> List[InputExample]:
+    n_examples = []
+    
+    for ex in X:
+        ex = copy.deepcopy(ex)
+        labels_pos = get_labels_position(ex.labels.copy())
+        labels = ex.labels.copy()
+        
+        # randomly sample different entities
+        for (x, y) in random.sample(labels_pos, max(len(labels_pos) - number, 0)):
+            
+            # choose a label at random excluding the label we currently have
+            current = labels[x].split("-")[-1]
+            available_labels = labels_suffix.copy()
+            available_labels.remove(current)
+            label = np.random.choice(available_labels)
 
             labels[x] = f"B-{label}"
             labels[x + 1:y + 1] = [f"I-{label}" for _ in range(len(labels[x + 1:y + 1]))]
