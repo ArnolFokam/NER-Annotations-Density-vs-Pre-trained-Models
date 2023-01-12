@@ -1,5 +1,6 @@
 count=0
 <<<<<<< HEAD
+<<<<<<< HEAD
 #for model in xlmr; do
 #afro_xlmr mbert 
 for model in afriberta xlmr; do
@@ -20,6 +21,8 @@ for model in afriberta xlmr; do
         done
     done
 =======
+=======
+>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b
 
 for model in afriberta afro_xlmr mbert xlmr; do
 	for corruption in global_cap_labels global_swap_labels global_cap_sentences global_cap_sentences_seed1 global_cap_sentences_seed1; do
@@ -38,5 +41,8 @@ for model in afriberta afro_xlmr mbert xlmr; do
 			done
 		done
 	done
+<<<<<<< HEAD
+>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b
+=======
 >>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b
 done

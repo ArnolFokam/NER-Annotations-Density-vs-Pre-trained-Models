@@ -1,0 +1,38 @@
+data.param:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+
+data.method:
+  - local_swap_labels_like_cap
+
+data.language:
+  - amh
+  - conll_2003_en
+  - hau
+  - ibo
+  - kin
+  - lug
+  - luo
+  - pcm
+  - swa
+  - wol
+  - yor
+
+model.conf:
+  - [bert,castorini/afriberta_large,afriberta]
+  - [bert,Davlan/afro-xlmr-base,afro_xlmr]
+  - [bert,bert-base-multilingual-cased,mbert]
+  - [bert,xlm-roberta-base,xlmr]
+  
+device.seed:
+  - 1
+  - 2
+  - 3
