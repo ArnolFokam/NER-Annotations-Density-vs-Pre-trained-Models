@@ -344,12 +344,12 @@ def plot_dataset_stats():
                 labels = list(map(lambda x: [label.split('-')[-1] for label in x.labels if label != 'O'], examples))
                 num_labels = sum([len(np.unique(l)) for l in labels])
                 stats = {
-                    "Number of Sentences": len(examples),
-                    "num_labels": num_labels,
-                    "num_words": num_words,
+                    # "Number of Sentences": len(examples),
+                    # "num_labels": num_labels,
+                    # "num_words": num_words,
                     **stats,
                 }
-                if lang == 'conll_2003_en': lang = 'en'
+                if lang == 'conll_2003_en': continue # lang = 'en'
                 df[lang] = stats
                 print(f"{lang:<10} {li[0]} {stats}")
     df = pd.DataFrame(df)
@@ -357,18 +357,26 @@ def plot_dataset_stats():
     df['Total Entities'] = df['LOC'] + df['ORG'] + df['DATE'].fillna(0) + df['PER']
     df = df.fillna(0).astype(np.int32)
     # df["Entity Density"] = df["Entity Density"].astype(np.float32)
-    df["Entity Density $(10^2)$"] = round((df["num_labels"] * 100)/df["num_words"], 2)
-    df = df.drop("num_labels", axis=1)
-    df = df.drop("num_words", axis=1)
+    # df["Entity Density $(10^2)$"] = round((df["num_labels"] * 100)/df["num_words"], 2)
+    # df = df.drop("num_labels", axis=1)
+    # df = df.drop("num_words", axis=1)
     df = df.sort_values('Total Entities', ascending=False)
-    print(df)
+    # df /= df['Total Entities']
+    # print(df)
+    if 1:
+        df['LOC']               /= df['Total Entities']
+        df['ORG']               /= df['Total Entities']
+        df['DATE']    /=             df['Total Entities']
+        df['PER']               /= df['Total Entities']
+    # exit()
     df.to_latex("analysis/number_entities.tex")
     # sns.barplot(df, x='lang', 
     df = df.drop('Total Entities', axis=1)
     df.plot(kind='bar', stacked=True)
     plt.xlabel('Language')
     plt.ylabel("Number of Entities")
-    plt.yscale('log')
+    # plt.ylim(bottom=1)
+    # plt.yscale('log')
     plt.tight_layout()
     savefig("analysis/number_entities.png")
 
@@ -490,8 +498,8 @@ def plot_corrupted_stats():
 
 if __name__ == '__main__':
     # main(True)
-    # plot_dataset_stats()
-    main()
+    plot_dataset_stats()
+    # main()
     # plot_entity_frequency()
     # comparison_plots(2)
     # plot_corrupted_stats()

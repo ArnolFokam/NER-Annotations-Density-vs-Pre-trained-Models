@@ -54,15 +54,18 @@ def get_vals(folder):
         # exit()
     x_0 = []
     x_1 = []
-    for n, ex in zip(good_labs, good_ents):
-        if n == 0:   x_0.append(ex)
-        elif n == 1: x_1.append(ex)
-        else: assert False
+    if 1:
+        for n, ex in zip(good_labs, good_ents):
+            if n == 0:   x_0.append(ex)
+            elif n == 1: x_1.append(ex)
+            else: assert False
 
-    good_ents = [np.mean(x_0) if len(x_0) else 0, np.mean(x_1) if len(x_1) else 0][1:]
-    good_labs = [0, 1][1:]
+        good_ents = [np.mean(x_0) if len(x_0) else 0, np.mean(x_1) if len(x_1) else 0][1:]
+        good_labs = [0, 1][1:]
     return good_ents, good_labs, lab2
     return ent, labs, lab2
+
+
 MODELS = ['xlmr', 'afriberta', 'afro_xlmr', 'mbert']
 LANGS = ['amh','hau','ibo','kin','lug','luo','pcm','swa','wol','yor',]
 def main(MODEL='afro_xlmr', CORRUPTION='global_swap_labels'):
@@ -90,7 +93,7 @@ def main(MODEL='afro_xlmr', CORRUPTION='global_swap_labels'):
                         goods[2] = test[2]
                 goods = (np.array(goods[0]), np.array(goods[1]), goods[2])
                 ogv = v = goods
-                if X is None: X = np.unique(v[1])
+                if X is None: X = np.unique(v[1])[::-1]
                 idx = (v[1] == X[I])
                 v = v[0][idx]
                 
