@@ -10,6 +10,7 @@ from scripts.create_corrupted_datasets import ALL_FUNCS_PARAMS
 import seaborn as sns
 
 from scripts.message import DATA_DICT
+DO_JOINT_SUBPLOTS = True
 sns.set_theme()
 CLEAN_MODES = {
         'global_cap_sentences': 'Globally Capping Sentences',
@@ -90,7 +91,6 @@ def main(lang_to_use=None):
                         dir = f"{ROOT}/{perc}/{lang}/{seed}/test_results.txt"
                         if mode.startswith('local_swap_labels') and 'like_cap' not in mode and perc == 0:
                             dir = f"results/{model}/original/1/{lang}/{seed}/test_results.txt"
-                            # assert False
                         try:
                             lines = pathlib.Path(dir).read_text().split("\n")
                         except Exception as e:
@@ -154,6 +154,8 @@ def main(lang_to_use=None):
         if mode == 'global_cap_sentences':
             df.loc[df['mode'] == 'global_cap_sentences_seed1', 'mode'] = 'global_cap_sentences'
             df.loc[df['mode'] == 'global_cap_sentences_seed2', 'mode'] = 'global_cap_sentences'
+        df.loc[df['lang'] == 'conll_2003_en', 'lang'] = 'en'
+            
         df = df[df['mode'] == mode]
         print("MMODE", mode, len(df))
         if lang is not None: 
@@ -183,8 +185,8 @@ def main(lang_to_use=None):
             AX.set_xlabel("Fraction of Sentences Kept")
         if mode == 'global_cap_labels':
             AX.set_xlabel("Fraction of Labels Kept")
-        if mode == 'global_swapped_labels':
-            AX.set_xlabel("Fraction of Labels Swapped")
+        if mode == 'global_swap_labels':
+            AX.set_xlabel("Fraction of Labels Kept")
         if mode == 'local_cap_labels':
             AX.set_xlabel("Maximum number of labels kept per sentence" if not SHORT else "Max. # of labels kept per sentence")
         if mode == 'local_swap_labels':
@@ -205,47 +207,55 @@ def main(lang_to_use=None):
                 savefig(f'analysis/plots/corruption/{mode}.png')
                 plt.close()
         N_CORRUPTS = 3
+        N_SUBPLOTS = 1 + DO_JOINT_SUBPLOTS
         if DO_SUBPLOTS_THING:
             SHORT=True
             NN = 1.25
-            fig, axs = plt.subplots(1, N_CORRUPTS, figsize=(3.2 * N_CORRUPTS * NN, 2.4 * NN), sharey=True)
-            for mode, ax in zip(MODES[:-1], axs):
+            fig, axs = plt.subplots(N_SUBPLOTS, N_CORRUPTS, figsize=(3.2 * N_CORRUPTS * NN, 2.4 * NN * N_SUBPLOTS), sharey='row', sharex='col')
+            axs = axs.reshape(N_SUBPLOTS, -1)
+            for mode, ax in zip(MODES[:-1], axs[0]):
                 single_plot(mode, ax)
+                if DO_JOINT_SUBPLOTS: ax.set_xlabel('')
                 if mode != MODES[0]:
                     ax.set_ylabel("")
                 else:
                     ax.set_ylabel("Fraction of F1 compared\nto using original dataset", fontsize=13)
-                if mode != 'local_swap_labels_like_cap':
+                if mode != 'global_cap_sentences':
                     ax.get_legend().remove()
                 else:
-                    leg = ax.legend()
+                    leg = ax.legend(title="Model")
                     for line in leg.get_lines():
                         line.set_linewidth(4.0)
-                # else:
-                #     ax.legend(fontsize=16)
                 ax.set_title(CLEAN_MODES[mode])
-            savefig(f'analysis/plots/corruption/subplots_all_models.png')
-            plt.close()
-            fig, axs = plt.subplots(1, N_CORRUPTS, figsize=(3.2 * N_CORRUPTS * NN, 2.4 * NN), sharey=True)
+            if not DO_JOINT_SUBPLOTS:
+                savefig(f'analysis/plots/corruption/subplots_all_models.png')
+                plt.close()
+            if DO_JOINT_SUBPLOTS:
+                axs = axs[1]
+            else:
+                fig, axs = plt.subplots(1, N_CORRUPTS, figsize=(3.2 * N_CORRUPTS * NN, 2.4 * NN), sharey=True)
             for mode, ax in zip(MODES[:-1], axs):
                 single_plot(mode, ax, average_per_model=False)
                 if mode != MODES[0]:
                     ax.set_ylabel("")
                 else:
                     ax.set_ylabel("Fraction of F1 compared\nto using original dataset", fontsize=13)
-                if mode != 'local_swap_labels_like_cap':
+                if mode != 'global_cap_sentences':
                     ax.get_legend().remove()
                 else:
                     # ax.legend(fontsize=8, title='Language')
-                    leg = ax.legend(title='Language', ncol=2, fontsize=10)#, fontsize=16)
+                    leg = ax.legend(title='Language', ncol=2)#, fontsize=10)#, fontsize=16)
                     # leg = ax.legend()
 
                     # change the line width for the legend
                     for line in leg.get_lines():
                         line.set_linewidth(4.0)
 
-                ax.set_title(CLEAN_MODES[mode])
-            savefig(f'analysis/plots/corruption/subplots_all_langs.png')
+                if not DO_JOINT_SUBPLOTS: ax.set_title(CLEAN_MODES[mode])
+            if not DO_JOINT_SUBPLOTS:
+                savefig(f'analysis/plots/corruption/subplots_all_langs.png')
+            else:
+                savefig(f'analysis/plots/corruption/subplots_all_all.png')
             plt.close()
         if PER_LANG:
             for mode in MODES[:-1]:
@@ -481,7 +491,8 @@ def plot_corrupted_stats():
 if __name__ == '__main__':
     # main(True)
     # plot_dataset_stats()
+    main()
     # plot_entity_frequency()
     # comparison_plots(2)
     # plot_corrupted_stats()
-    main()
+    # main()

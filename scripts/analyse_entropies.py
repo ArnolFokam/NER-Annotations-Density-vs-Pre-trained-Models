@@ -3,7 +3,7 @@ import pathlib
 import pickle
 from matplotlib import pyplot as plt
 import numpy as np
-from scripts.plot_graphs import savefig, clean_model
+from scripts.plot_graphs import CLEAN_MODES, savefig, clean_model
 
 def get_vals(folder):
     # "entropies/xlmr/global_swap_labels/0.5/swa/3/"
@@ -120,6 +120,7 @@ def main(MODEL='afro_xlmr', CORRUPTION='global_swap_labels'):
             # ax.set_xlabel("Param")
             ax.set_xlabel(mytest(CORRUPTION))
             ax.set_ylim(0, 1.3)
+            ax.set_title(CLEAN_MODES[CORRUPTION])
             # ax.show()
     plt.legend()
     # plt.suptitle(CORRUPTION)
@@ -133,7 +134,7 @@ def mytest(mode):
     if mode == 'global_cap_labels':
         return ("Fraction of Labels Kept")
     if mode == 'global_swap_labels':
-        return ("Fraction of Labels Swapped")
+        return ("Fraction of Labels Kept")
     if mode == 'local_cap_labels':
         return ("Maximum number of labels kept per sentence")
     if mode == 'local_swap_labels':
@@ -142,6 +143,6 @@ def mytest(mode):
 
 
 if __name__ == '__main__':
-    for M in ['xlmr', 'afriberta', 'afro_xlmr', 'mbert']: 
+    for M in ['xlmr', 'afriberta', 'afro_xlmr', 'mbert'][:1]: 
         for C in ['global_swap_labels', 'global_cap_labels', 'global_cap_sentences', 'local_cap_labels']:
             main(M, C)
