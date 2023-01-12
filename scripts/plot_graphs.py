@@ -8,18 +8,37 @@ import matplotlib.pyplot as plt
 from ner.dataset import read_examples_from_file
 from scripts.create_corrupted_datasets import ALL_FUNCS_PARAMS
 import seaborn as sns
-sns.set_theme()
 
+from scripts.message import DATA_DICT
+sns.set_theme()
+CLEAN_MODES = {
+        'global_cap_sentences': 'Globally Capping Sentences',
+        'global_cap_labels'   : 'Globally Capping Labels',
+        'global_swap_labels'  : 'Globally Swapping Labels',
+        'local_cap_labels'    : 'Locally Capping Labels',
+        'local_swap_labels'   : 'Locally Swapping Labels',
+        'local_swap_labels_like_cap'   : 'Locally Swapping Labels',
+}
+SHORT=False
+YLABEL = "Fraction of F1 when using original dataset"
 PER_LANG = False
+DO_SUBPLOTS_THING = True
 LANGS = ['amh', 'conll_2003_en', 'hau', 'ibo', 'kin', 'lug', 'luo', 'pcm', 'swa', 'wol', 'yor']
 MODELS = ['afriberta', 'mbert', 'xlmr', 'afro_xlmr']
-MODES = ['global_cap_labels', 'global_cap_sentences', 'global_swap_labels', 
-         'local_cap_labels',
+MODES = [
+    
+         'global_cap_sentences', 'global_cap_labels', 'global_swap_labels', 
+         'local_cap_labels', 'local_swap_labels_like_cap',
          'local_swap_labels',
+         
          'global_cap_sentences_seed1',
          'global_cap_sentences_seed2',
          'original',
          ]
+# MODES = [
+#          'local_swap_labels_like_cap',
+#          'original'
+#          ]
 def clean_model(model):
     return {'afriberta': "AfriBERTa", 'mbert': "mBERT", 'xlmr': "XLM-R", 'afro_xlmr': "Afro-XLM-R"}[model]
 
@@ -60,6 +79,7 @@ def main(lang_to_use=None):
             ranges = range(1, 11)
             if mode == 'original': ranges = [1]
             if mode.startswith('local_swap_labels'): ranges = range(0, 11)
+            if mode.startswith('local_swap_labels_like_cap'): ranges = range(0, 11)
             if mode.startswith('global_cap_sentences'): ranges = [0.1, 0.5] + list(range(1, 11))
             for nums in ranges:
                 perc = nums / 10
@@ -68,7 +88,7 @@ def main(lang_to_use=None):
                 for lang in langs_to_use:
                     for seed in range(1, 4):
                         dir = f"{ROOT}/{perc}/{lang}/{seed}/test_results.txt"
-                        if mode.startswith('local_swap_labels') and perc == 0:
+                        if mode.startswith('local_swap_labels') and 'like_cap' not in mode and perc == 0:
                             dir = f"results/{model}/original/1/{lang}/{seed}/test_results.txt"
                             # assert False
                         try:
@@ -127,33 +147,37 @@ def main(lang_to_use=None):
                 opt = temp['f1'].item()
                 II = np.logical_and(df['lang'] == lang, df['model'] == model)
                 df.loc[II, 'good'] = df.loc[np.logical_and(df['lang'] == lang, df['model'] == model), 'f1'] / opt
-
+    df.to_csv("analysis/main_results_v2.csv", index=False)
     old = df
-    def single_plot(mode, AX, lang=None):
+    def single_plot(mode, AX, lang=None, average_per_model=True):
         df = copy.deepcopy(old)
         if mode == 'global_cap_sentences':
             df.loc[df['mode'] == 'global_cap_sentences_seed1', 'mode'] = 'global_cap_sentences'
             df.loc[df['mode'] == 'global_cap_sentences_seed2', 'mode'] = 'global_cap_sentences'
         df = df[df['mode'] == mode]
         print("MMODE", mode, len(df))
-        
         if lang is not None: 
             df = df[df['lang'] == lang]
             AX.set_title(lang)
         print(df)
-        
         df = df.groupby(['mode', 'num', 'model', 'lang'] + (['seed'] if lang is not None else []), as_index=False).mean()
-        sns.lineplot(df, x='num', y='good', hue='model', errorbar='sd', ax=AX)
+        df = df.rename({"model": "Model"}, axis=1)
+        df = df.rename({"lang": "Language"}, axis=1)
+        # sns.lineplot(df, x='num', y='good', hue='Model' if average_per_model else 'Language', errorbar='sd', ax=AX, palette=sns.color_palette("Paired") if not average_per_model else None)
+        sns.lineplot(df, x='num', y='good', hue='Model' if average_per_model else 'Language', errorbar='sd', ax=AX, palette=(["#fd7f6f", "#7eb0d5", "#b2e061", "#bd7ebe", "#ffb55a", "#ffee65", "#beb9db", "#fdcce5", "#8bd3c7"] + ["#e60049", "#0bb4ff",])if not average_per_model else None)
         x = np.unique(df['num'])
+        plt.ylim(bottom=0, top=1.1)
         # AX = plt.gca()
         
-        if mode == 'local_swap_labels':
-            AX.plot(x, 1 - np.arange(0, 11)/10)
-        elif 'global_cap_sentences' in mode:
-            AX.plot(x, np.array([0.1, 0.5] + list(np.arange(1, 11)))/10)
-        else:
-            print("MODE", mode, x)
-            AX.plot(x, np.arange(1, 11)/10, label='Linear Relationship')
+        # if mode == 'local_swap_labels':
+        #     AX.plot(x, 1 - np.arange(0, 11)/10)
+        # elif mode == 'local_swap_labels_like_cap':
+        #     AX.plot(x, 1 - np.arange(1, 11)/10)
+        # elif 'global_cap_sentences' in mode:
+        #     AX.plot(x, np.array([0.1, 0.5] + list(np.arange(1, 11)))/10)
+        # else:
+        #     print("MODE", mode, x)
+        #     AX.plot(x, np.arange(1, 11)/10, label='Linear Relationship')
         AX.set_xlabel("Level of Quality")
         if mode == 'global_cap_sentences':
             AX.set_xlabel("Fraction of Sentences Kept")
@@ -162,18 +186,67 @@ def main(lang_to_use=None):
         if mode == 'global_swapped_labels':
             AX.set_xlabel("Fraction of Labels Swapped")
         if mode == 'local_cap_labels':
-            AX.set_xlabel("Maximum number of labels kept per sentence")
+            AX.set_xlabel("Maximum number of labels kept per sentence" if not SHORT else "Max. # of labels kept per sentence")
         if mode == 'local_swap_labels':
             AX.set_xlabel("Maximum number of labels swapped per sentence")
-        
-        AX.set_ylabel("Fraction of F1 when using original dataset")
+        if mode == 'local_swap_labels_like_cap':
+            AX.set_xlabel("Maximum number of labels not swapped per sentence"  if not SHORT else "Max. # of labels kept per sentence")
+        AX.set_ylabel(YLABEL)
         
     if 1:
-        if not PER_LANG:
+        NN = 1.5
+        if not PER_LANG and 0:
             for mode in MODES[:-1]:
+                # fig = plt.figure()#figsize=(5,5))
+                fig = plt.figure(figsize=(3.2 * NN, 2.8 * NN))#figsize=(5,5))
+                # print(fig.get_size_inches())
+                # exit()
                 single_plot(mode, plt.gca())
                 savefig(f'analysis/plots/corruption/{mode}.png')
                 plt.close()
+        N_CORRUPTS = 3
+        if DO_SUBPLOTS_THING:
+            SHORT=True
+            NN = 1.25
+            fig, axs = plt.subplots(1, N_CORRUPTS, figsize=(3.2 * N_CORRUPTS * NN, 2.4 * NN), sharey=True)
+            for mode, ax in zip(MODES[:-1], axs):
+                single_plot(mode, ax)
+                if mode != MODES[0]:
+                    ax.set_ylabel("")
+                else:
+                    ax.set_ylabel("Fraction of F1 compared\nto using original dataset", fontsize=13)
+                if mode != 'local_swap_labels_like_cap':
+                    ax.get_legend().remove()
+                else:
+                    leg = ax.legend()
+                    for line in leg.get_lines():
+                        line.set_linewidth(4.0)
+                # else:
+                #     ax.legend(fontsize=16)
+                ax.set_title(CLEAN_MODES[mode])
+            savefig(f'analysis/plots/corruption/subplots_all_models.png')
+            plt.close()
+            fig, axs = plt.subplots(1, N_CORRUPTS, figsize=(3.2 * N_CORRUPTS * NN, 2.4 * NN), sharey=True)
+            for mode, ax in zip(MODES[:-1], axs):
+                single_plot(mode, ax, average_per_model=False)
+                if mode != MODES[0]:
+                    ax.set_ylabel("")
+                else:
+                    ax.set_ylabel("Fraction of F1 compared\nto using original dataset", fontsize=13)
+                if mode != 'local_swap_labels_like_cap':
+                    ax.get_legend().remove()
+                else:
+                    # ax.legend(fontsize=8, title='Language')
+                    leg = ax.legend(title='Language', ncol=2, fontsize=10)#, fontsize=16)
+                    # leg = ax.legend()
+
+                    # change the line width for the legend
+                    for line in leg.get_lines():
+                        line.set_linewidth(4.0)
+
+                ax.set_title(CLEAN_MODES[mode])
+            savefig(f'analysis/plots/corruption/subplots_all_langs.png')
+            plt.close()
         if PER_LANG:
             for mode in MODES[:-1]:
                 fig, axs = plt.subplots(4, 3, figsize=(18, 24))
@@ -331,10 +404,84 @@ def plot_entity_frequency():
         sns.lineplot(L, x='Nums', y=l)
     # sns.lineplot(L, x='Nums', y='kin')
     # plt.plot(L['Nums'], L['swa'])
-    
-    
     plt.show()
+    
+def comparison_plots(a):
+    df = pd.read_csv("analysis/main_results_v2.csv")
+    df.loc[df['mode'] == 'global_cap_sentences_seed1', 'mode'] = 'global_cap_sentences'
+    df.loc[df['mode'] == 'global_cap_sentences_seed2', 'mode'] = 'global_cap_sentences'
+    XX = []
+    def rename_thing(old_mode, new_mode):
+        XX.append(new_mode)
+        df.loc[df['mode'] == old_mode, 'mode'] = new_mode
+    if a == 0:
+        df = df[np.logical_or(np.logical_or(df['mode'] == 'global_cap_sentences', df['mode'] == 'global_cap_labels'), df['mode'] == 'global_swap_labels')]
+        rename_thing('global_cap_sentences', 'Capping Sentences')
+        rename_thing('global_cap_labels', 'Capping Labels')
+        rename_thing('global_swap_labels', 'Swapping Labels')
+        
+        # rename_thing('local_cap_labels', 'Capping Labels')
+        # rename_thing('local_swap_labels', 'Swapping Labels')
+        
+        df = df.rename({"num": "Level of Quality", "good": "Fraction of F1 when using original dataset"}, axis=1)
+
+        # df = df.groupby(['mode', 'num']).mean()
+        print(df)
+        # df = df.groupby(['mode', 'num', 'model', 'lang'] + (['seed'] if lang is not None else []), as_index=False).mean()
+        sns.lineplot(df, x="Level of Quality", y="Fraction of F1 when using original dataset", hue='mode', errorbar='sd', hue_order=XX)
+        # plt.show()
+        savefig(f'analysis/plots/compare/compare_global.png')
+        pass
+    elif a == 1:
+        df = df[np.logical_or(df['mode'] == 'local_cap_labels', df['mode'] == 'local_swap_labels_like_cap')]
+        rename_thing('local_cap_labels', 'Capping Labels')
+        rename_thing('local_swap_labels_like_cap', 'Swapping Labels')
+        
+        df = df.rename({"num": "Maximum number of labels kept per sentence", "good": "Fraction of F1 when using original dataset"}, axis=1)
+        sns.lineplot(df, x="Maximum number of labels kept per sentence", y="Fraction of F1 when using original dataset", hue='mode', errorbar='sd', hue_order=XX)
+        plt.ylim(bottom=0)
+        savefig(f'analysis/plots/compare/compare_local.png')
+    elif a == 2:
+        # df = df[np.logical_or(df['mode'] == 'local_cap_labels', df['mode'] == 'local_swap_labels_like_cap')]
+        rename_thing('local_cap_labels', 'Capping LabelsLocal')
+        rename_thing('local_swap_labels_like_cap', 'Swapping LabelsLocal')
+        rename_thing('global_cap_sentences', 'Capping Sentences')
+        rename_thing('global_cap_labels', 'Capping Labels')
+        rename_thing('global_swap_labels', 'Swapping Labels')
+        
+        df = df.rename({"num": "Maximum number of labels kept per sentence", "good": "Fraction of F1 when using original dataset"}, axis=1)
+        sns.lineplot(df, x="Maximum number of labels kept per sentence", y="Fraction of F1 when using original dataset", hue='mode', errorbar='sd', hue_order=XX)
+        plt.ylim(bottom=0)
+        savefig(f'analysis/plots/compare/compare_all_bad.png')
+
+def plot_corrupted_stats():
+    for corruption, v in DATA_DICT.items():
+        xs = []
+        ys = []
+        for param, d in v.items():
+            xs.append(param)
+            this_param = []
+            for lang, perc in d.items():
+                this_param.append(perc)
+            ys.append(this_param)
+        xs = np.array(xs)
+        ys = np.array(ys)
+        mean, std = np.mean(ys, axis=1), np.std(ys, axis=1)
+        plt.plot(xs, mean)
+        plt.fill_between(xs, mean - std, mean + std, alpha=0.3)
+        plt.title(CLEAN_MODES[corruption])
+        plt.xlabel("Number of Sentences Kept")
+        plt.ylabel("Percentage of Labels Remaining")
+        # plt.show()
+        # savefig()
+        savefig(f'analysis/plots/corrupted_data/{corruption}.png')
+        plt.close()
+        
+
 if __name__ == '__main__':
     # main(True)
-    plot_dataset_stats()
+    # plot_dataset_stats()
     # plot_entity_frequency()
+    # comparison_plots(2)
+    # plot_corrupted_stats()
+    main()

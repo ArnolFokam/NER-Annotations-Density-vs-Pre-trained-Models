@@ -78,11 +78,13 @@ def main(MODEL='afro_xlmr', CORRUPTION='global_swap_labels'):
             vals = []
             mi, ma = [], []
             for i in range(1, 11):
-                x.append(i/10)
+                II = i / 10
+                if 'local' in CORRUPTION: II = i
+                x.append(II)
                 goods = [[], [], []]
                 for t in range(1, 4):
                     for l in LANGS:
-                        test = get_vals(f"entropies/{T}/{i/10}/{l}/{t}")
+                        test = get_vals(f"entropies/{T}/{II}/{l}/{t}")
                         goods[0].extend(test[0])
                         goods[1].extend(test[1])
                         goods[2] = test[2]
@@ -117,6 +119,7 @@ def main(MODEL='afro_xlmr', CORRUPTION='global_swap_labels'):
             ax.set_ylabel("Entropy")
             # ax.set_xlabel("Param")
             ax.set_xlabel(mytest(CORRUPTION))
+            ax.set_ylim(0, 1.3)
             # ax.show()
     plt.legend()
     # plt.suptitle(CORRUPTION)
@@ -137,7 +140,8 @@ def mytest(mode):
         return ("Maximum number of labels swapped per sentence")
     assert False, mode
 
+
 if __name__ == '__main__':
-    for M in ['xlmr']:#, 'afriberta', 'afro_xlmr', 'mbert']: 
-        for C in ['global_swap_labels', 'global_cap_labels', 'global_cap_sentences']:
+    for M in ['xlmr', 'afriberta', 'afro_xlmr', 'mbert']: 
+        for C in ['global_swap_labels', 'global_cap_labels', 'global_cap_sentences', 'local_cap_labels']:
             main(M, C)
