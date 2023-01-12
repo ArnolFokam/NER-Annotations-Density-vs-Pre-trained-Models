@@ -2,10 +2,11 @@ from collections import defaultdict
 import copy
 import os
 import pathlib
+from pprint import pprint
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-from ner.dataset import read_examples_from_file
+from ner.dataset import get_labels_position, read_examples_from_file
 from scripts.create_corrupted_datasets import ALL_FUNCS_PARAMS
 import seaborn as sns
 sns.set_theme()
@@ -225,14 +226,15 @@ def plot_dataset_stats():
     df = pd.DataFrame(df)
     df = df.T
     df['Total Entities'] = df['LOC'] + df['ORG'] + df['DATE'].fillna(0) + df['PER']
+    df = df.drop(["LOC", "ORG", "DATE", "PER"], axis=1)
     df = df.fillna(0).astype(np.int32)
     # df["Entity Density"] = df["Entity Density"].astype(np.float32)
-    df["Entity Density $(10^2)$"] = round((df["num_labels"] * 100)/df["num_words"], 2)
+    df["Entity Density (entities per word)"] = round((df["num_labels"])/df["num_words"], 3)
     df = df.drop("num_labels", axis=1)
     df = df.drop("num_words", axis=1)
-    df = df.sort_values('Total Entities', ascending=False)
+    df = df.sort_values('Entity Density $(10^{-1})$', ascending=False)
     print(df)
-    df.to_latex("analysis/number_entities.tex")
+    df.to_latex("analysis/dataset_info.tex")
     # sns.barplot(df, x='lang', 
     df = df.drop('Total Entities', axis=1)
     df.plot(kind='bar', stacked=True)
@@ -241,6 +243,40 @@ def plot_dataset_stats():
     plt.yscale('log')
     plt.tight_layout()
     savefig("analysis/number_entities.png")
+    
+def plot_enity_dist_frequency():
+    root_dir = 'data'
+    ALL_FUNCS_PARAMS['original'] = (None, [{'number': i} for i in range(1, 2)])
+
+    df = {key: np.zeros(70) for key in LANGS}
+    df_temp = {key: 0 for key in LANGS}
+    for key, value in ALL_FUNCS_PARAMS.items():
+        if key != 'original': continue
+        for lang in LANGS:
+            for param in value[1]:
+                # stats = defaultdict(lambda : 0)
+                li = list(param.values())
+                assert len(li) == 1
+                examples = read_examples_from_file(f'{root_dir}/{key}/{li[0]}/{lang}/', 'train')
+                for ex in examples:
+                    num_entities = 0
+                    for l in ex.labels:
+                        if l == 'O': continue
+                        num_entities += 1
+                    df[lang][num_entities] += 1
+                    df_temp[lang] += 1
+    for l in df:
+        for i in range(len(df[l])):
+            df[l][i] = df[l][i] / df_temp[l]
+    df = pd.DataFrame(df)      
+    print(df)
+    df['Number of Entities'] = df.index
+    temp = pd.melt(df, id_vars='Number of Entities', var_name='lang', value_name='Fraction of Sentences')
+    sns.lineplot(temp, x='Number of Entities', y='Fraction of Sentences', hue='lang', palette=sns.color_palette("Paired"))
+    plt.xlim(0, 15)
+    # plt.show()
+    savefig("analysis/entity_distribution.png")
+    
 
 def plot_entity_frequency():
     root_dir = 'data'
@@ -252,7 +288,7 @@ def plot_entity_frequency():
         if key != 'original': continue
         for lang in LANGS:
             for param in value[1]:
-                stats = defaultdict(lambda : 0)
+                # stats = defaultdict(lambda : 0)
                 li = list(param.values())
                 assert len(li) == 1
                 examples = read_examples_from_file(f'{root_dir}/{key}/{li[0]}/{lang}/', 'train')
@@ -285,9 +321,97 @@ def plot_entity_frequency():
     # sns.lineplot(L, x='Nums', y='kin')
     # plt.plot(L['Nums'], L['swa'])
     
+def get_total_entities(X):
     
-    plt.show()
+    n_labels = []
+    
+    for ex in X:
+        n_labels.append(len(get_labels_position(ex.labels.copy())))
+    
+    # np.mean(n_labels), np.std(n_labels), max(set(n_labels), key=n_labels.count),
+    # return np.array(list(zip(*np.unique(n_labels, return_counts=True))), dtype=np.float64)
+    return sum(n_labels)
+
+def get_total_entities_not_different(X, orig_X):
+    
+    not_diff_tot = []
+    
+    for i in range(len(X)):
+        ex = X[i]
+        orig_ex = orig_X[i]
+        
+        # compare labels
+        cmp = [ex.labels[j] == orig_ex.labels[j] for j in range(len(ex.labels))]
+        
+        # get labels position
+        p_labels = get_labels_position(ex.labels.copy())
+        
+        not_diff = 0
+        # append if labeled is unchanged
+        for p in p_labels:
+            if cmp[p[0]]:
+                not_diff += 1
+        
+        not_diff_tot.append(not_diff)
+    
+    return sum(not_diff_tot)
+        
+    
+def get_propotion_entities():
+    original_num_entities = {'amh': 2247,
+        'conll_2003_en': 19484,
+        'hau': 3989,
+        'ibo': 3254,
+        'kin': 3629,
+        'lug': 3075,
+        'luo': 1138,
+        'pcm': 4632,
+        'swa': 4570,
+        'wol': 1387,
+        'yor': 2757
+    }
+    
+    langs = ['amh','conll_2003_en','hau','ibo','kin','lug','luo','pcm','swa','wol','yor',]
+    corruption_stats = ["local_swap_labels_like_cap", "local_cap_labels", "global_cap_sentences"]
+    percentage = [i / 10 for i in range(1, 11)] + [0.01, 0.05]
+    number = [i for i in range(1, 11)]
+    
+    params = {
+        "local_swap_labels_like_cap": number,
+        "global_cap_sentences": percentage,
+        "local_cap_labels": number
+    }
+    data_dir = "data"
+    
+    entities_prop = {}
+    
+    for c in corruption_stats:
+        cp = {}
+        if c in ["global_cap_sentences", "local_cap_labels"]:
+            # continue
+            for p in params[c]:
+                ld = {}
+                for l in langs:
+                    examples = read_examples_from_file(f'{data_dir}/{c}/{p}/{l}', 'train')
+                    orig_examples = read_examples_from_file(f'{data_dir}/{c}/{p}/{l}', 'train')
+                    ld[l] = get_total_entities(examples) / original_num_entities[l]
+                cp[p] = ld
+            entities_prop[c] = cp
+                    
+        else:
+            for p in params[c]:
+                ld = {}
+                for l in langs:
+                    examples = read_examples_from_file(f'{data_dir}/{c}/{p}/{l}', 'train')
+                    orig_examples = read_examples_from_file(f'{data_dir}/original/1/{l}', 'train')
+                    ld[l] = get_total_entities_not_different(examples, orig_examples)  / original_num_entities[l]
+                cp[p] = ld
+            entities_prop[c] = cp
+                
+    pprint(entities_prop)
+    
 if __name__ == '__main__':
     # main(True)
-    plot_dataset_stats()
+    # plot_dataset_stats()
     # plot_entity_frequency()
+    get_propotion_entities()
