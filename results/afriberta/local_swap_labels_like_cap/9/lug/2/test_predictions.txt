@@ -107,10 +107,10 @@ waliwo O
 omusango O
 oguli O
 mu O
-Kkooti B-ORG
-Enkulu I-ORG
-e O
-Masaka B-LOC
+Kkooti B-LOC
+Enkulu I-LOC
+e I-LOC
+Masaka I-LOC
 ogwateekebwayo O
 puliida O
 waabwe O
@@ -126,7 +126,7 @@ balinze O
 kkooti O
 okubawa O
 olunaku B-DATE
-lwokuguwulira I-DATE
+lwokuguwulira O
 . O
 
 Ekibiina O
@@ -194,11 +194,11 @@ mita O
 mu O
 ddakika B-DATE
 2 I-DATE
-ne O
-sikonda O
-32 O
-nobutundu O
-12 O
+ne I-DATE
+sikonda I-DATE
+32 I-DATE
+nobutundu I-DATE
+12 I-DATE
 nga O
 naye O
 amenye O
@@ -219,8 +219,8 @@ ne O
 nga O
 era O
 mu O
-season O
-eno O
+season B-DATE
+eno I-DATE
 ya O
 timing O
 ye O
@@ -264,7 +264,7 @@ kiro B-DATE
 byokka O
 so O
 si O
-misana O
+misana B-DATE
 nga O
 bwe O
 kyali O
@@ -281,7 +281,7 @@ yaakagula O
 emmotoka O
 wish O
 nnamba O
-UAE B-LOC
+UAE O
 . O
 
 Nagamba O
@@ -293,9 +293,9 @@ ngekisoose O
 ngokuva O
 mu O
 2021 B-DATE
-okutuuka O
-mu O
-2026 B-DATE
+okutuuka I-DATE
+mu I-DATE
+2026 I-DATE
 kyajja O
 okutwala O
 ngekyokubiri O
@@ -478,9 +478,9 @@ ku O
 kyalo O
 Mitukula O
 Cell I-LOC
-mu O
-kibuga O
-Kyotera B-LOC
+mu I-LOC
+kibuga I-LOC
+Kyotera I-LOC
 . O
 
 Wadde O
@@ -560,7 +560,7 @@ Asiimwe B-PER
 avunaanibwe O
 . O
 
-Twine O
+Twine B-PER
 yayongedde O
 okulabula O
 abalina O
@@ -603,8 +603,8 @@ abiri O
 bagenda O
 kubalaba O
 mu O
-kaseera O
-katono O
+kaseera B-DATE
+katono I-DATE
 nga O
 bakkaanyizza O
 . O
@@ -702,7 +702,7 @@ ggaggaddwa O
 
 Yasabye O
 aba O
-LC B-ORG
+LC O
 okuzigaba O
 obulungi O
 zisobole O
@@ -759,7 +759,7 @@ bagimuteekako O
 kubanga O
 yeesimbyewo O
 okuvuganya O
-Sekandi B-LOC
+Sekandi B-PER
 e O
 Bukoto B-LOC
 central I-LOC
@@ -812,8 +812,13 @@ tebukyasobola O
 olwo O
 Klezia O
 neronda O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/lug/test.txt
+Paapa O
+Francis B-PER
+========
 Paapa B-PER
 Francis I-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/lug/2/test_predictions.txt
 aliko O
 kati O
 . O
@@ -881,9 +886,9 @@ Obura I-PER
 akulira O
 poliisi O
 etwala O
-ekitundu O
-kya O
-Albert B-PER
+ekitundu B-LOC
+kya I-LOC
+Albert I-LOC
 yagambye O
 nti O
 abaserikale O
@@ -902,9 +907,9 @@ emisango O
 Yasoose O
 kusiibulwa O
 mu O
-ddwaaliro O
-e O
-Namirembe B-LOC
+ddwaaliro B-ORG
+e I-ORG
+Namirembe I-ORG
 gyabadde O
 ajjanjabirwa O
 ngagamba O
@@ -917,7 +922,7 @@ nemusala O
 emikono O
 . O
 
-Akena O
+Akena B-PER
 yaweze O
 okufaafaagana O
 ne O
@@ -1041,8 +1046,8 @@ nga O
 tebamenye O
 mateeka O
 galungamizibwa O
-Ministry O
-yebyobulamu O
+Ministry B-ORG
+yebyobulamu I-ORG
 wabula O
 nategeeza O
 nga O
@@ -1282,9 +1287,9 @@ nga O
 ye O
 mubaka O
 akiikirira O
-Munisipaali B-ORG
-ya I-ORG
-Kira I-ORG
+Munisipaali B-LOC
+ya I-LOC
+Kira I-LOC
 , O
 Ibrahim B-PER
 Semujju I-PER
@@ -1378,9 +1383,9 @@ ku O
 Tonny B-PER
 Mawejje I-PER
 ne O
-Hassa B-ORG
-Mohammed I-ORG
-Police I-ORG
+Hassa B-PER
+Mohammed I-PER
+Police B-ORG
 FC I-ORG
 beyaakaleeta O
 nga O
@@ -1469,7 +1474,11 @@ LC O
 , O
 etwala O
 ne O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/lug/test.txt
+Kikuubo B-LOC
+========
 Kikuubo B-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/lug/2/test_predictions.txt
 Bashir B-PER
 Muwonge I-PER
 yagambye O
@@ -1494,8 +1503,8 @@ kawuka O
 kano O
 . O
 
-Muft B-PER
-Abdallah I-PER
+Muft O
+Abdallah B-PER
 Ssemambo I-PER
 yakubirizza O
 abantu O
@@ -1707,7 +1716,7 @@ yatandika O
 okunywa O
 eddagala O
 lya O
-Ssenfuma O
+Ssenfuma B-PER
 sukaali O
 nagenda O
 ngakendeera O
@@ -1732,7 +1741,7 @@ yawona O
 Peter B-PER
 Sabakaaki I-PER
 ( O
-Kazzonto B-PER
+Kazzonto O
 akatono O
 ) O
 Abadde O
@@ -1744,7 +1753,7 @@ gye O
 . O
 Peter B-PER
 Sabakaaki I-PER
-Kazzonto I-PER
+Kazzonto O
 akatono O
 Abadde O
 asubwa O
@@ -1820,14 +1829,14 @@ abo O
 abaabadde O
 nabaana O
 ba O
-Kiweewa B-LOC
+Kiweewa B-PER
 , O
 abakozi O
 ba O
-leediyo O
-Simba B-ORG
+leediyo B-ORG
+Simba I-ORG
 , O
-Bizzonto B-PER
+Bizzonto B-ORG
 gye O
 bikolera O
 , O
@@ -2018,7 +2027,7 @@ mu O
 bigere O
 . O
 
-Kabineti B-PER
+Kabineti O
 era O
 yayizza O
 olukiiko O
@@ -2163,7 +2172,7 @@ mu O
 nteeko O
 . O
 
-Kyetume O
+Kyetume B-ORG
 sizoni B-DATE
 eno I-DATE
 emalidde O
@@ -2314,7 +2323,11 @@ alimu O
 siteegi O
 579 O
 ate O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/lug/test.txt
+Kampala B-LOC
+========
 Kampala B-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/lug/2/test_predictions.txt
 Central I-LOC
 alimu O
 siteegi O
@@ -2379,7 +2392,7 @@ Hilary B-PER
 Kiyaga I-PER
 Dr O
 . O
-Hilderman I-PER
+Hilderman B-PER
 , O
 Abdul B-PER
 Mulaasi I-PER
@@ -2549,7 +2562,7 @@ Tembo O
 eyagambye O
 nti O
 abeera O
-Nateete B-PER
+Nateete B-LOC
 , O
 yagguddwako O
 omusango O
@@ -2597,8 +2610,8 @@ e O
 Kawaala B-LOC
 . O
 
-Iddi B-PER
-Adhuha I-PER
+Iddi O
+Adhuha O
 ebeera O
 yaakusala O
 bisolo O
@@ -2702,7 +2715,7 @@ tebakkiriziganya O
 , O
 baakuddamu O
 okekalakaasa O
-olwaleero O
+olwaleero B-DATE
 . O
 
 Bye O
@@ -2745,7 +2758,7 @@ byali O
 mu O
 lipooti O
 ya O
-Tumwesigye B-LOC
+Tumwesigye B-PER
 , O
 eyasembayo O
 , O
@@ -2757,11 +2770,15 @@ bataano O
 ku O
 madaala O
 ga O
-AIGP B-ORG
+AIGP O
 . O
 Ebijjukirwa O
 ku O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/lug/test.txt
+Turyagumanawe B-PER
+========
 Turyagumanawe O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/lug/2/test_predictions.txt
 . O
 
 Kyokka O
@@ -2833,7 +2850,7 @@ gyensimbi O
 zokulwanyisa O
 akawuka O
 ka O
-Siriimu B-LOC
+Siriimu O
 eza O
 Global B-ORG
 Fund I-ORG
@@ -2878,7 +2895,11 @@ ate O
 kuggyayo O
 mpapula O
 mu O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/lug/test.txt
+Kisinde O
+========
 Kisinde B-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/lug/2/test_predictions.txt
 kya O
 People B-ORG
 Power I-ORG
@@ -2940,7 +2961,7 @@ mu O
 kitundu O
 abakulembeze O
 ba O
-LCs B-ORG
+LCs O
 baali O
 basaba O
 okubasindikayo O
@@ -2948,7 +2969,7 @@ baabayambe O
 okutaasa O
 embeera O
 era O
-ekiseera B-DATE
+ekiseera O
 kye O
 bamazeeyo O
 basobodde O
@@ -3093,34 +3114,34 @@ nomulenzi O
 ngomukulu O
 ali O
 mu O
-myaka B-DATE
-muakaaga I-DATE
+myaka O
+muakaaga O
 ate O
 muto O
 esatu O
 era O
 nga O
 wakuzikibwa O
-Kawuku B-PER
+Kawuku B-LOC
 ekisangibwa O
-eNamugongo O
+eNamugongo B-LOC
 . O
 
 Abalala O
 kuliko O
 Michael B-PER
 Timuzigu I-PER
-Kajara I-PER
+Kajara B-LOC
 , O
 Moses B-PER
 Adome I-PER
-Jie I-PER
+Jie B-LOC
 , O
 Susan B-PER
 Amero I-PER
-Mukazi I-PER
+Mukazi B-LOC
 , O
-Amuria B-PER
+Amuria B-LOC
 , O
 James B-PER
 Kaberuka I-PER
@@ -3129,28 +3150,33 @@ West I-LOC
 , O
 Robert B-PER
 Migadde I-PER
-Buvuma I-PER
+Buvuma B-LOC
 , O
 Sarah B-PER
 Nakawunde I-PER
-Mukazi I-PER
+Mukazi B-LOC
 , O
-Mpigi B-PER
+Mpigi B-LOC
 , O
 Evelyn B-PER
 Chemutai I-PER
-Mukazi I-PER
+Mukazi B-LOC
 , O
-Bukwo B-PER
+Bukwo B-LOC
 , O
 Dennis B-PER
 Sabiiti I-PER
-Rubanda I-PER
+Rubanda B-LOC
 ne O
 Anthony B-ORG
 Semuli I-PER
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/lug/test.txt
+Mubende B-LOC
+Municipality I-LOC
+========
 Mubende I-PER
 Municipality I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/lug/2/test_predictions.txt
 . O
 
 Abaagala O
@@ -3204,9 +3230,15 @@ ku O
 Davis B-PER
 Kanyesigye I-PER
 owa O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/lug/test.txt
+House B-ORG
+of I-ORG
+seeds I-ORG
+========
 House O
 of O
 seeds O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/lug/2/test_predictions.txt
 . O
 
 Akola O
@@ -3330,7 +3362,7 @@ yali O
 mu O
 bbula O
 lya O
-Kemiko B-PER
+Kemiko O
 ezikozesebwa O
 mu O
 kubera O
@@ -3444,15 +3476,15 @@ okugeza O
 waliwo O
 olulyo O
 olutadda O
-Kyaggwel B-PER
-Olina I-PER
+Kyaggwel B-LOC
+Olina O
 okubala O
 sizoni B-DATE
 nosimbira O
 awatuufu O
 . O
 l O
-Zirian B-LOC
+Zirian O
 lwe O
 zigwe O
 ebbeeyi O
@@ -3470,15 +3502,15 @@ kuvaako O
 wadde O
 zigudde O
 ebbeeyil O
-Buli B-LOC
-kiseera O
+Buli B-DATE
+kiseera I-DATE
 olina O
 okumanya O
 akatale O
 bwe O
 
 kayimiriddel O
-Mmanya B-PER
+Mmanya O
 eddagala O
 ettuufu O
 era O
@@ -3486,7 +3518,11 @@ olikozese O
 mu O
 butuufu O
 bwalyol O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/lug/test.txt
+Ayagala O
+========
 Ayagala I-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/lug/2/test_predictions.txt
 akatale O
 kabazungu O
 olina O
@@ -3583,8 +3619,8 @@ ekkanisa O
 ya O
 Daegu B-ORG
 Church I-ORG
-of I-ORG
-Shincheonji I-ORG
+of O
+Shincheonji B-LOC
 , O
 Man B-PER
 Hee I-PER
@@ -3690,7 +3726,11 @@ ba O
 St B-ORG
 Joseph I-ORG
 Musaanya I-ORG
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/lug/test.txt
+Kyamuliibwa I-ORG
+========
 Kyamuliibwa I-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/lug/2/test_predictions.txt
 bamujanjabye O
 nadda O
 bulungi O
@@ -3730,7 +3770,7 @@ okubakwata O
 
 Yayongedde O
 nti O
-KCCAesindiika B-ORG
+KCCAesindiika O
 obubaka O
 ku O
 massimu O
@@ -3838,8 +3878,8 @@ nga O
 . O
 
 Wabula O
-Sheik B-PER
-Mugerwa I-PER
+Sheik O
+Mugerwa B-PER
 era O
 yategezezza O
 nti O
@@ -4002,8 +4042,13 @@ Bernadette B-PER
 Kumwidirawo I-PER
 . O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/lug/test.txt
+RDC O
+Tukaikiriza B-PER
+========
 RDC B-PER
 Tukaikiriza O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/lug/2/test_predictions.txt
 yabasabye O
 nti O
 bamwegattako O
@@ -4020,7 +4065,7 @@ COVID B-ORG
 19 I-ORG
 kireme O
 kuzinda O
-Kalungu B-PER
+Kalungu B-LOC
 etuusizza O
 obudde O
 buno O
@@ -4074,7 +4119,7 @@ era O
 nabasindika O
 mu O
 kkomera O
-eSentema O
+eSentema B-LOC
 okutuusa O
 nga O
 18July B-DATE
@@ -4148,13 +4193,13 @@ Leslie I-PER
 , O
 cao O
 Nathan B-PER
-lujumwa O
+lujumwa I-PER
 owe O
-masaka O
+masaka B-LOC
 , O
 waliyo O
-mugwanya O
-ssali B-PER
+mugwanya B-PER
+ssali I-PER
 Ignatius I-PER
 , O
 Dan B-PER
@@ -4168,7 +4213,7 @@ be O
 London B-LOC
 , O
 Jjuuko B-PER
-justine O
+justine I-PER
 omuzanyi O
 we O
 bikonde O
@@ -4285,7 +4330,7 @@ yakitegeddeko O
 nti O
 olukiiko O
 lwa O
-Kabineeti B-PER
+Kabineeti O
 olwatudde O
 ku O
 Lwokubiri B-DATE
@@ -4471,7 +4516,7 @@ gye O
 balina O
 ku O
 nnyanja O
-Nalubaale B-PER
+Nalubaale O
 gibasobozesa O
 okufunamu O
 emisolo O
@@ -4569,9 +4614,9 @@ lwemyaka B-DATE
 nebisiibo I-DATE
 nga O
 basabirira O
-Masaka B-ORG
+Masaka B-LOC
 okufuna O
-City B-ORG
+City O
 nasaba O
 bakulembeze O
 banne O
@@ -4587,12 +4632,17 @@ kyabwe O
 . O
 
 Bya O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/lug/test.txt
+ERIC B-PER
+YIGAABATUUZE I-PER
+========
 ERIC O
 YIGAABATUUZE O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/lug/2/test_predictions.txt
 ku O
-mwalo O
-gwe O
-Katosi B-LOC
+mwalo B-LOC
+gwe I-LOC
+Katosi I-LOC
 mu O
 disitulikiti O
 ye O
@@ -4686,10 +4736,17 @@ aggulawo O
 akaddukulu O
 kano O
 atwala O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/lug/test.txt
+poliisi O
+ya O
+Kampala B-LOC
+East I-LOC
+========
 poliisi B-ORG
 ya I-ORG
 Kampala I-ORG
 East O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/lug/2/test_predictions.txt
 Michel B-PER
 Musani I-PER
 atenderezza O
@@ -4887,11 +4944,19 @@ ku O
 Lwokuttaano B-DATE
 ku O
 kyalo O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/lug/test.txt
+Mbasigudde B-LOC
+e I-LOC
+Kapeeka I-LOC
+mu I-LOC
+Nakaseke I-LOC
+========
 Mbasigudde O
 e O
 Kapeeka B-LOC
 mu O
 Nakaseke B-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/lug/2/test_predictions.txt
 wakati O
 mu O
 kitiibwa O
@@ -4911,8 +4976,8 @@ abaana O
 bana O
 . O
 
-Bp B-ORG
-Tamale I-ORG
+Bp O
+Tamale B-PER
 yeebizza O
 emikutu O
 gyamawulire O
@@ -4937,7 +5002,11 @@ gutandika O
 
 Wabula O
 aba O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/lug/test.txt
+Kikuubo B-LOC
+========
 Kikuubo O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/lug/2/test_predictions.txt
 batidde O
 nti O
 sing O
@@ -4945,7 +5014,7 @@ aba O
 minisita O
 bayingira O
 m O
-Kikuubo O
+Kikuubo B-LOC
 ngabayiwamu O
 ebintu O
 mu O
@@ -4976,8 +5045,8 @@ Juma B-PER
 Ssebuliba I-PER
 amanyiddwa O
 nga O
-Mc B-PER
-Kadonga I-PER
+Mc O
+Kadonga B-PER
 yagambye O
 ntinebibiina O
 ebikulembera O
@@ -5024,8 +5093,8 @@ Kawempe I-ORG
 
 Hajj O
 Kitaka B-PER
-Kavvulu B-PER
-Ssalongo I-PER
+Kavvulu I-PER
+Ssalongo O
 nga O
 ye O
 muwaandiisi O
@@ -5039,12 +5108,12 @@ Mugula B-PER
 mu O
 nnono O
 ya O
-Buganda B-LOC
+Buganda O
 bweriri O
 mu O
 kika O
 kyemmamba O
-Kakoboza B-PER
+Kakoboza O
 bwatyo O
 neyebaza O
 Kabaka O
@@ -5056,8 +5125,8 @@ ennono O
 . O
 
 Omwaka B-DATE
-gwebyensimbi I-DATE
-201819 I-DATE
+gwebyensimbi O
+201819 B-DATE
 we O
 gwagwerako O
 Uganda B-LOC
@@ -5170,7 +5239,7 @@ abamu O
 mu O
 Munisipaali B-LOC
 za I-LOC
-Kampala B-LOC
+Kampala I-LOC
 . O
 
 Baakola O
@@ -5268,8 +5337,8 @@ emikisa O
 gyalina O
 okuwangula O
 ensiike O
-yOlwomukaaga O
-luno O
+yOlwomukaaga B-DATE
+luno I-DATE
 . O
 
 Dr O
@@ -5368,7 +5437,7 @@ okulima O
 emmere O
 eyokutunda O
 . O
-Nabasaba B-PER
+Nabasaba O
 okwewala O
 enjawukana O
 zamawanga O
@@ -5474,7 +5543,7 @@ March B-DATE
 2019 I-DATE
 . O
 
-Ategeka B-PER
+Ategeka O
 yabyegaanye O
 , O
 wabula O
@@ -5485,7 +5554,7 @@ abakolera O
 ku O
 siteegi O
 ya O
-Kibe B-PER
+Kibe B-LOC
 baategeezezza O
 nti O
 mmotoka O
@@ -5517,15 +5586,15 @@ Nakiyingi I-PER
 eyafunye O
 14 O
 mu O
-GELsub B-ORG
-Maths I-ORG
+GELsub O
+Maths O
 , O
 Shamirah B-PER
 Nabbanja I-PER
 eyafunye O
 14 O
 mu O
-BCMICT B-ORG
+BCMICT O
 , O
 Sandra B-PER
 Nabaleke I-PER
@@ -5533,14 +5602,18 @@ eyafunye O
 10 O
 mu O
 DEGsub O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/lug/test.txt
+Maths O
+========
 Maths B-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/lug/2/test_predictions.txt
 ne O
 Richard B-PER
 Kiyingi I-PER
 eyafunye O
 13 O
 mu O
-BCMICT B-ORG
+BCMICT O
 . O
 
 Alina O
@@ -5771,7 +5844,7 @@ Abasuubuzi O
 abakolera O
 ku O
 luguudo O
-lwoku B-DATE
+lwoku O
 Kaleerwe B-LOC
 abasinga O
 bakimanyi O
@@ -5986,12 +6059,12 @@ Ssekammere I-PER
 owe O
 Bulemeezi B-ORG
 , O
-Mwalimu B-PER
-Abdallah I-PER
+Mwalimu O
+Abdallah B-PER
 Kato I-PER
 omumyuka O
 wa O
-Pokino B-LOC
+Pokino O
 atwala O
 Buddu B-LOC
 nabagenyi O
@@ -6022,15 +6095,21 @@ omulimu O
 gonna O
 gwakukulungula O
 ebbanga O
-lya B-DATE
+lya O
 myaka B-DATE
 ebiri I-DATE
 . O
 
 Aba O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/lug/test.txt
+March B-ORG
+23 I-ORG
+Movement I-ORG
+========
 March B-DATE
 23 I-DATE
 Movement O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/lug/2/test_predictions.txt
 M23 I-ORG
 , O
 kigambibwa O
@@ -6068,7 +6147,7 @@ Kabaka O
 wiiki B-DATE
 ewedde I-DATE
 ku I-DATE
-Lwokutaano B-DATE
+Lwokutaano I-DATE
 nga I-DATE
 February I-DATE
 22 I-DATE
@@ -6079,8 +6158,13 @@ baminisita O
 bangi O
 bawumuziddwa O
 ate O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/lug/test.txt
+Minisitule O
+nnyingi O
+========
 Minisitule B-ORG
 nnyingi I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/lug/2/test_predictions.txt
 nezigatibwa O
 . O
 
@@ -6256,7 +6340,7 @@ Yagambye O
 nti O
 wadde O
 omwaka B-DATE
-gwebyensimbi I-DATE
+gwebyensimbi O
 gwakayita O
 mu O
 makkati O
@@ -6361,7 +6445,7 @@ ennyonnyi O
 ye O
 lugogoma O
 eya O
-Airforce O
+Airforce B-ORG
 one O
 yatonnye O
 ku O
@@ -6538,8 +6622,8 @@ banne O
 bangi O
 abatandise O
 okuvaayo O
-ennaku B-DATE
-zino I-DATE
+ennaku O
+zino O
 ne O
 balaga O
 ewatuufu O
@@ -6613,8 +6697,13 @@ era O
 nga O
 gwetabiddwaako O
 ne O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/lug/test.txt
+Pokino O
+Vincent B-PER
+========
 Pokino B-PER
 Vincent I-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/lug/2/test_predictions.txt
 Mayiga I-PER
 . O
 
@@ -6768,7 +6857,7 @@ kwogera O
 nabakulira O
 kkampuni O
 ya O
-UMEME O
+UMEME B-ORG
 bateekewo O
 emiwendo O
 egyenjawulo O
@@ -6829,13 +6918,13 @@ Mmande B-DATE
 ku O
 kyalo O
 Kisamula B-LOC
-e O
-Mityana B-LOC
+e I-LOC
+Mityana I-LOC
 . O
 
 Kyokka O
-Haji B-PER
-Walusimbi I-PER
+Haji O
+Walusimbi B-PER
 yategeezezza O
 nti O
 bo O
@@ -6945,8 +7034,8 @@ olukwe O
 Ogwel B-PER
 ategeezezza O
 nti O
-ekiseera O
-kyonna O
+ekiseera B-DATE
+kyonna I-DATE
 aba O
 FUFA B-ORG
 baakukwasibwa O
@@ -6962,9 +7051,15 @@ egenda O
 kutendekebwa O
 ennaku B-DATE
 ssatu I-DATE
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/lug/test.txt
+mu I-DATE
+wiiki I-DATE
+mu O
+========
 mu O
 wiiki B-DATE
 mu I-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/lug/2/test_predictions.txt
 pulogulaamu O
 zokumanyiza O
 omubiri O
@@ -7057,7 +7152,7 @@ nagwo O
 
 Mu O
 biseera B-DATE
-ebyo I-DATE
+ebyo O
 nga O
 bizinensi O
 zAbalibya O
@@ -7086,7 +7181,7 @@ Yagambye O
 nti O
 wadde O
 omwaka B-DATE
-gwebyensimbigwakayita I-DATE
+gwebyensimbigwakayita O
 mu O
 makkatissente O
 ezaakakunyizibwa O
@@ -7137,8 +7232,8 @@ nazirika O
 nga O
 kabangali O
 ya O
-poliisi B-ORG
-ye I-ORG
+poliisi O
+ye O
 yamututte O
 mu O
 ddwaaliro O
@@ -7160,7 +7255,7 @@ nnamba O
 Omulambo O
 gwatwaliddwa O
 e O
-Mulago B-LOC
+Mulago B-ORG
 okwekebejjebwEkitongole O
 kya O
 MTN B-ORG
@@ -7218,7 +7313,7 @@ bitundu O
 bye O
 Lyantonde B-LOC
 , O
-Ssembabule B-PER
+Ssembabule B-LOC
 ne O
 Rakai B-LOC
 nga O
@@ -7257,8 +7352,13 @@ Okumanya O
 ebisingawo O
 , O
 tuukirira O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/lug/test.txt
+Prof O
+Bioresearch O
+========
 Prof B-PER
 Bioresearch I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/lug/2/test_predictions.txt
 ku O
 0779519652 O
 0702061652 O
@@ -7269,11 +7369,20 @@ lyaffe O
 ku O
 Bombo B-LOC
 Road I-LOC
-mu O
-Kampala B-LOC
-ku O
-Equatorial B-LOC
+mu I-LOC
+Kampala I-LOC
+ku I-LOC
+Equatorial I-LOC
 Mall I-LOC
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/lug/test.txt
+, I-LOC
+Level I-LOC
+2 I-LOC
+, I-LOC
+Edduuka I-LOC
+nnamba I-LOC
+152 I-LOC
+========
 , O
 Level B-DATE
 2 I-DATE
@@ -7281,6 +7390,7 @@ Level B-DATE
 Edduuka B-DATE
 nnamba I-DATE
 152 O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/lug/2/test_predictions.txt
 , O
 Email O
 profbioresearchgmail O
@@ -7309,8 +7419,8 @@ mwasirizi O
 kyokka O
 nga O
 mu O
-kiseera B-DATE
-kyekimu I-DATE
+kiseera O
+kyekimu O
 omuntu O
 abeera O
 akaguze O
@@ -7339,7 +7449,7 @@ Jacob B-PER
 Oboth I-PER
 yagambye O
 nti O
-minisitule B-ORG
+minisitule O
 yebyamateeka O
 yabaddeko O
 ebintu O
@@ -7370,7 +7480,7 @@ ayagala O
 kutabangula O
 mugole O
 we O
-Mbabazi B-LOC
+Mbabazi B-PER
 . O
 
 Omumyuka O
@@ -7575,8 +7685,8 @@ naddala O
 eddungu O
 erimanyiddwa O
 nga O
-Arabian B-ORG
-Desert I-ORG
+Arabian B-LOC
+Desert I-LOC
 erijjudde O
 omusenyu O
 ogwakola O
@@ -7626,8 +7736,8 @@ naddala O
 eddungu O
 erimanyiddwa O
 nga O
-Arabian B-ORG
-Desert I-ORG
+Arabian B-LOC
+Desert I-LOC
 erijjudde O
 omusenyu O
 ogwakola O
@@ -7730,8 +7840,8 @@ Ssande B-DATE
 ku O
 mukolo O
 gwokukuza O
-olunaku B-DATE
-olwo I-DATE
+olunaku O
+olwo O
 olwebyafaayo O
 mu O
 Klezia O
@@ -7742,9 +7852,9 @@ ono O
 yabuzibwawo O
 ku O
 sande B-DATE
-ssaawa B-DATE
+ssaawa I-DATE
 900 I-DATE
-ezemuisana O
+ezemuisana I-DATE
 era O
 ne O
 batandikirawo O
@@ -7781,7 +7891,7 @@ avunaanibwe O
 
 Baamaze O
 essaawa B-DATE
-eziwera O
+eziwera I-DATE
 ku O
 poliisi O
 nga O
@@ -7936,9 +8046,9 @@ ewedde I-DATE
 abaddukirize O
 bamusoosa O
 mu O
-ddwaaliro O
+ddwaaliro B-ORG
 lye I-ORG
-Hoima B-LOC
+Hoima I-ORG
 kyokka O
 oluvannyuma O
 lwembeera O
@@ -7951,7 +8061,7 @@ elyo O
 bawaolirizibwa O
 okumwongerayo O
 e O
-Mulago B-LOC
+Mulago B-ORG
 mu O
 Kampala B-LOC
 gyakyajanjabibwa O
@@ -8041,7 +8151,7 @@ nga O
 1832019 O
 . O
 
-ENSIMBI B-ORG
+ENSIMBI O
 obukadde O
 30 O
 omukulembeze O
@@ -8112,7 +8222,7 @@ badukira O
 mu O
 ofiisi O
 ya O
-RCC B-ORG
+RCC O
 wa O
 Kampala B-LOC
 Farida B-PER
@@ -8120,23 +8230,31 @@ Mayanja I-PER
 Mpiima I-PER
 ne O
 ku O
-poliisi B-ORG
-ya I-ORG
-Kira I-ORG
-Rd I-ORG
+poliisi B-LOC
+ya I-LOC
+Kira I-LOC
+Rd I-LOC
 okufuna O
 obwenkanya O
 . O
 Mu O
-Lukiiko B-PER
+Lukiiko O
 olwategekeddwa O
-RCC B-ORG
+RCC O
 ku O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/lug/test.txt
+Kisaawe B-LOC
+kya I-LOC
+Kira I-LOC
+Rd I-LOC
+poliisi I-LOC
+========
 Kisaawe O
 kya O
 Kira B-ORG
 Rd I-ORG
 poliisi O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/lug/2/test_predictions.txt
 okutabaganya O
 enjuuyi O
 zombi O
@@ -8200,10 +8318,10 @@ okukwata O
 emmotoka O
 nebajitwala O
 ku O
-poliisi B-ORG
-ya I-ORG
-Jinja I-ORG
-Rd I-ORG
+poliisi B-LOC
+ya I-LOC
+Jinja I-LOC
+Rd I-LOC
 okufuna O
 ekituufu O
 wabula O
@@ -8245,7 +8363,11 @@ olukiiko O
 embalirira O
 . O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/lug/test.txt
+Ku O
+========
 Ku B-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/lug/2/test_predictions.txt
 Ssande B-DATE
 February I-DATE
 24 I-DATE
@@ -8306,7 +8428,7 @@ mu O
 nga O
 batambulira O
 ku O
-Boda B-PER
+Boda O
 boda O
 ne O
 balondoola O
@@ -8343,7 +8465,7 @@ Minisita O
 Kitutu B-PER
 yagambye O
 nti O
-Forest B-LOC
+Forest O
 . O
 
 Mafabi B-PER
@@ -8443,7 +8565,11 @@ batemezeddwaako O
 
 Kkansa O
 wa O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/lug/test.txt
+Kyanjo B-PER
+========
 Kyanjo B-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/lug/2/test_predictions.txt
 yabadde O
 ku O
 mutendera O
@@ -8480,8 +8606,8 @@ obukadde O
 53 O
 obwensimbi O
 ze O
-Sweden B-LOC
-Kronor I-LOC
+Sweden O
+Kronor O
 mu O
 za O
 Uganda B-LOC
@@ -8547,7 +8673,7 @@ okubaggulira O
 amadduuka O
 gaabwe O
 omugagga O
-Yanga B-ORG
+Yanga B-PER
 ge O
 yabadde O
 aggadde O
@@ -8612,7 +8738,7 @@ eyali O
 akulira O
 bakitunzi O
 mu O
-mtn O
+mtn B-ORG
 , O
 Elsa B-PER
 Nuzzolinni I-PER
@@ -8626,7 +8752,7 @@ MTN B-LOC
 , O
 wamu O
 ne O
-Tabuura O
+Tabuura B-PER
 enzaalwa O
 ya O
 Rwanda B-LOC
@@ -8640,7 +8766,11 @@ ya O
 MTN B-ORG
 . O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/lug/test.txt
+Kibeera O
+========
 Kibeera B-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/lug/2/test_predictions.txt
 kirungi O
 nnyo O
 omuntu O
@@ -8671,7 +8801,7 @@ bo O
 abasawo O
 abazungu O
 e O
-Mulago B-LOC
+Mulago B-ORG
 abantu O
 nabo O
 bafiirayo O
@@ -8682,13 +8812,13 @@ ssente O
 ze O
 babadde O
 bamujanjabiddeko O
-Bwatyo B-PER
-Maama I-PER
-Fiina I-PER
+Bwatyo O
+Maama O
+Fiina B-PER
 bweyategezezza O
 . O
 
-Cooperative B-ORG
+Cooperative O
 eyasooka O
 okuwandiikibwa O
 mu O
@@ -8700,8 +8830,13 @@ mu O
 yeddiza O
 ebyobugagga O
 bya O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/lug/test.txt
+Cooperative O
+bye O
+========
 Cooperative B-ORG
 bye I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/lug/2/test_predictions.txt
 yasangawo O
 . O
 
@@ -8920,7 +9055,7 @@ Ssebaggala I-PER
 ne O
 gitwalibwa O
 e O
-Mulago B-LOC
+Mulago B-ORG
 . O
 
 Omusango O
@@ -9147,7 +9282,7 @@ mkolo O
 emitongole O
 . O
 
-Cooperative B-ORG
+Cooperative O
 eyasooka O
 okuwandiikibwa O
 mu O
@@ -9159,8 +9294,13 @@ mu O
 yeddiza O
 ebyobugagga O
 bya O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/lug/test.txt
+Cooperative O
+bye O
+========
 Cooperative B-ORG
 bye I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/lug/2/test_predictions.txt
 yasangawo O
 . O
 
@@ -9257,8 +9397,8 @@ enkiiko O
 ku O
 offiisi O
 za O
-minisitule B-ORG
-ya I-ORG
+minisitule O
+ya O
 Kampala B-LOC
 era O
 muno O
@@ -9271,7 +9411,7 @@ kumala O
 gasazaamu O
 kontulakiti O
 ya O
-Nabugabo B-PER
+Nabugabo B-ORG
 kubanga O
 ekyalina O
 endagaano O
@@ -9312,7 +9452,7 @@ layisinsi O
 KCCA B-ORG
 gye O
 yawa O
-Bujingo B-LOC
+Bujingo B-PER
 era O
 emuteekeko O
 obukwakkulizo O
@@ -9376,7 +9516,7 @@ yali O
 nabaana O
 be O
 okuliKelvin O
-Tugume I-PER
+Tugume B-PER
 ne O
 Elvis B-PER
 Twesigye I-PER
@@ -9445,7 +9585,7 @@ endagaano O
 . O
 
 Prof O
-Bioresearch I-PER
+Bioresearch O
 bali O
 ku O
 0779519652 O
@@ -9457,6 +9597,15 @@ lyaffe O
 ku O
 Equatorial B-LOC
 Mall I-LOC
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/lug/test.txt
+, I-LOC
+Level I-LOC
+2 I-LOC
+, I-LOC
+Edduuka I-LOC
+nnamba I-LOC
+152 I-LOC
+========
 , O
 Level B-ORG
 2 O
@@ -9464,6 +9613,7 @@ Level B-ORG
 Edduuka O
 nnamba I-DATE
 152 O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/lug/2/test_predictions.txt
 . O
 
 DP B-ORG
@@ -9472,23 +9622,41 @@ yategeezezza O
 nti O
 yalonze O
 ababaka O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/lug/test.txt
+Asuman B-PER
+Basalirwa I-PER
+Bugiri B-LOC
+munisipaali I-LOC
+========
 Asuman B-LOC
 Basalirwa I-LOC
 Bugiri I-LOC
 munisipaali O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/lug/2/test_predictions.txt
 JEEMA B-ORG
 , O
 Paul B-PER
 Mwiru I-PER
 FDC B-ORG
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/lug/test.txt
+Jinja B-LOC
+Municipaliti I-LOC
+East I-LOC
+========
 Jinja I-ORG
 Municipaliti I-PER
 East I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/lug/2/test_predictions.txt
 ne O
 Abdu B-LOC
 Katuntu I-PER
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/lug/test.txt
+FDC B-ORG
+Bugweri B-LOC
+========
 FDC I-ORG
 Bugweri I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/lug/2/test_predictions.txt
 okubayamba O
 okukunga O
 abantu O
@@ -9526,7 +9694,7 @@ kifo O
 kyokubavumirira O
 . O
 
-Ochola O
+Ochola B-PER
 bino O
 yabyogeredde O
 ku O
@@ -9545,8 +9713,13 @@ aggulawo O
 omusomo O
 gwabaduumizi O
 ba O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/lug/test.txt
+Poliisi O
+RPCs O
+========
 Poliisi B-ORG
 RPCs I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/lug/2/test_predictions.txt
 mu O
 bitundu O
 ebyenjawulo O
@@ -9557,8 +9730,8 @@ ebitongole O
 bya O
 Poliisi O
 ebyenjawulo O
-Department B-ORG
-Directors I-ORG
+Department O
+Directors O
 nga O
 gwakumala O
 ennaku B-DATE
@@ -9571,8 +9744,13 @@ Wabula O
 ku O
 ssaawa B-DATE
 nga I-DATE
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/lug/test.txt
+100 I-DATE
+eyakawungeezi I-DATE
+========
 100 O
 eyakawungeezi O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/lug/2/test_predictions.txt
 Yiga B-PER
 yayimbuddwa O
 ku O
@@ -9592,7 +9770,7 @@ ne O
 bayimba O
 nennyimba O
 eziwaana O
-Daddy B-PER
+Daddy O
 waabwe O
 . O
 
@@ -9792,7 +9970,7 @@ yagambye O
 nti O
 , O
 mu O
-wiikieno B-DATE
+wiikieno O
 bajja O
 kugenda O
 mu O
@@ -9800,7 +9978,7 @@ kkooti O
 . O
 
 Ye O
-Munnakenya B-PER
+Munnakenya O
 omukozi O
 woku O
 ttivi O
@@ -9823,11 +10001,11 @@ byokuziranga O
 nokuzitumbula O
 . O
 
-Kulanama O
+Kulanama B-PER
 abadde O
 yaakadda O
 mu O
-Busiraamu B-LOC
+Busiraamu O
 okuva O
 lwe O
 yafumbirwa O
@@ -9842,7 +10020,7 @@ Ssekabembe I-PER
 , O
 looya O
 wa O
-Majjanja O
+Majjanja B-PER
 yagambye O
 nti O
 , O
@@ -9933,9 +10111,9 @@ aziika O
 omwana O
 we O
 mu O
-limbo O
-ye O
-Nkoowe B-LOC
+limbo B-LOC
+ye I-LOC
+Nkoowe I-LOC
 ngagamba O
 nti O
 abekika O
@@ -9990,10 +10168,10 @@ mu O
 saluuni O
 bagenze O
 ku O
-poliisi B-ORG
-ya I-ORG
-Mini I-ORG
-Price I-ORG
+poliisi O
+ya O
+Mini B-LOC
+Price I-LOC
 ne O
 bategeeza O
 nti O
@@ -10092,8 +10270,8 @@ bisuubizo O
 
 Michael B-PER
 Tusiime I-PER
-Mbarara I-PER
-Munisipaali I-PER
+Mbarara B-LOC
+Munisipaali I-LOC
 yabuuzizza O
 Wasswa B-PER
 oba O
@@ -10106,7 +10284,7 @@ kkampuni O
 ebbiri O
 . O
 
-Yinginiya B-PER
+Yinginiya O
 yagambye O
 nti O
 abaakola O
@@ -10191,14 +10369,19 @@ Magunda B-LOC
 e O
 Lwanga B-LOC
 ngerya O
-Nagaya B-LOC
+Nagaya B-PER
 e O
 Buleza B-LOC
 yakkikiriddwa O
 Katikkiro O
 waalyo O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/lug/test.txt
+Aliddeki B-PER
+Kisitu I-PER
+========
 Aliddeki O
 Kisitu O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/lug/2/test_predictions.txt
 era O
 lyasabiddwa O
 okweteekateeka O
@@ -10218,14 +10401,14 @@ ku O
 lukiiko O
 olufuzi O
 olwa O
-Bbanka B-ORG
-Enkulu I-ORG
+Bbanka O
+Enkulu O
 yagambye O
 nti O
 etteeka O
 lino O
 okukyusibwa O
-Gavana B-PER
+Gavana O
 aleme O
 kubeera O
 nga O

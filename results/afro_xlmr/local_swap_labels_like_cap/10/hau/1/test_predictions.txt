@@ -130,8 +130,8 @@ China B-LOC
 zuwa O
 Washinton B-LOC
 a O
-makon O
-gaba O
+makon B-DATE
+gaba I-DATE
 domin O
 ci O
 gaba O
@@ -285,15 +285,15 @@ hadu O
 kafin O
 babban O
 taron O
-kungiyar B-ORG
-tsaron I-ORG
-Turai I-ORG
+kungiyar O
+tsaron O
+Turai B-LOC
 ta O
 NATO B-ORG
 da O
 za’ayi O
-ran O
-11 B-DATE
+ran B-DATE
+11 I-DATE
 ga I-DATE
 watan I-DATE
 Yulin I-DATE
@@ -337,9 +337,9 @@ kamar O
 yadda O
 ita O
 ma O
-Hukumar B-ORG
-Tsaron I-ORG
-Amurka I-ORG
+Hukumar O
+Tsaron O
+Amurka B-LOC
 taki O
 tace O
 komai O
@@ -404,10 +404,10 @@ Donald B-PER
 Trump I-PER
 da O
 'yan O
-majalisar B-ORG
-dokokin I-ORG
-tarayyar I-ORG
-Amurka I-ORG
+majalisar O
+dokokin O
+tarayyar O
+Amurka B-LOC
 ke O
 cigaba O
 da O
@@ -882,9 +882,9 @@ iznin O
 zaman O
 kasar O
 daga O
-mako B-DATE
-mai I-DATE
-zuwa I-DATE
+mako O
+mai O
+zuwa O
 , O
 amma O
 kuma O
@@ -925,9 +925,9 @@ sun O
 ce O
 ya O
 zuwa O
-farkon B-DATE
-wannan I-DATE
-mako I-DATE
+farkon O
+wannan O
+mako O
 babu O
 wani O
 batu O
@@ -1438,7 +1438,7 @@ aikin O
 binciken O
 . O
 
-Barr O
+Barr B-PER
 da O
 rukunin O
 ma’aikatansa O
@@ -1821,9 +1821,9 @@ Wang B-PER
 Hejun I-PER
 , O
 Shugaban O
-Ma’aikatara B-ORG
-Cinakayyar I-ORG
-China I-ORG
+Ma’aikatara O
+Cinakayyar O
+China B-LOC
 ya O
 fada O
 a O
@@ -2155,9 +2155,9 @@ Ya O
 Bijirewa O
 Matsayar O
 Taron O
-G O
-- O
-7 O
+G B-ORG
+- I-ORG
+7 I-ORG
 
 Shugaban O
 Amurka B-LOC
@@ -2193,9 +2193,9 @@ karfin O
 tattalin O
 arziki O
 na O
-G O
-- O
-7 O
+G B-ORG
+- I-ORG
+7 I-ORG
 wanda O
 aka O
 yi O
@@ -2363,8 +2363,8 @@ Washington B-LOC
 ne O
 da O
 tunanin O
-Kungiyar O
-Tarayyar B-ORG
+Kungiyar B-ORG
+Tarayyar I-ORG
 Turai I-ORG
 zata O
 kaucewa O
@@ -2489,8 +2489,8 @@ Amurka B-LOC
 
 Hukumar O
 zartarwar O
-kungiyar O
-Tarayyara B-ORG
+kungiyar B-ORG
+Tarayyara I-ORG
 Turai I-ORG
 ta O
 mayar O
@@ -2586,9 +2586,9 @@ barkonon O
 tsohuwa O
 a O
 wajen O
-ofishin B-ORG
-Jakadancin I-ORG
-Amurka I-ORG
+ofishin O
+Jakadancin O
+Amurka B-LOC
 da O
 ke O
 birnin O
@@ -2663,8 +2663,8 @@ zanga O
 zanga O
 a O
 harabar O
-ofishin B-ORG
-jakadancin I-ORG
+ofishin O
+jakadancin O
 na O
 Amurka B-LOC
 da O
@@ -2832,7 +2832,7 @@ shekara B-DATE
 ta I-DATE
 dubu I-DATE
 da I-DATE
-dari B-DATE
+dari I-DATE
 biyu I-DATE
 da I-DATE
 goma I-DATE
@@ -2848,8 +2848,13 @@ ta I-DATE
 dubu I-DATE
 biyu I-DATE
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/hau/test.txt
+da I-DATE
+goma I-DATE
+========
 da O
 goma B-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/10/hau/1/test_predictions.txt
 sha I-DATE
 shida I-DATE
 . O
@@ -2944,8 +2949,8 @@ Concord B-ORG
 Management I-ORG
 da O
 Consulting B-ORG
-and O
-Concord B-ORG
+and I-ORG
+Concord I-ORG
 Catering I-ORG
 . O
 
@@ -3088,9 +3093,9 @@ kan O
 sabbin O
 takunkumin O
 da O
-Hukumar B-ORG
-Baitulmalin I-ORG
-Amurka I-ORG
+Hukumar O
+Baitulmalin O
+Amurka B-LOC
 ta O
 sanar O
 da O
@@ -3136,7 +3141,7 @@ canjin O
 gwamnati O
 a O
 Iran B-LOC
-Amurka B-LOC
+Amurka I-LOC
 ke O
 sha’awa O
 ba O
@@ -3177,8 +3182,8 @@ Barke O
 Da O
 Murnar O
 Shiga O
-Sabuwar O
-Shekara O
+Sabuwar B-DATE
+Shekara I-DATE
 
 Jiya B-DATE
 Lahadi I-DATE
@@ -3224,9 +3229,9 @@ ziyara O
 , O
 sun O
 marabci O
-shekara B-DATE
-ta I-DATE
-2018 I-DATE
+shekara O
+ta O
+2018 B-DATE
 da O
 wasan O
 hasken O
@@ -3334,8 +3339,8 @@ da O
 sauran O
 kewayen O
 yankin O
-tsibiran B-LOC
-Pacific I-LOC
+tsibiran O
+Pacific B-LOC
 dai O
 na O
 daya O
@@ -3487,12 +3492,21 @@ Amurka B-LOC
 
 Tsohon O
 shugaban O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/hau/test.txt
+Hukumar B-ORG
+Binciken I-ORG
+Manyan I-ORG
+Laifukka I-ORG
+ta I-ORG
+Amurka I-ORG
+========
 Hukumar O
 Binciken O
 Manyan O
 Laifukka O
 ta O
 Amurka B-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/10/hau/1/test_predictions.txt
 ta O
 FBI B-ORG
 , O
@@ -3637,7 +3651,7 @@ da O
 shugaba O
 Trump B-PER
 a O
-bara B-DATE
+bara O
 kafin O
 shi O
 Trump B-PER
@@ -3806,12 +3820,12 @@ adalci O
 ba O
 . O
 
-Kungiyar B-ORG
-kare I-ORG
-hakkokin I-ORG
-jamm’a I-ORG
-ta I-ORG
-Amurka I-ORG
+Kungiyar O
+kare O
+hakkokin O
+jamm’a O
+ta O
+Amurka B-LOC
 da O
 ake O
 kira O
@@ -3856,16 +3870,16 @@ jama’a O
 
 Dan O
 Ra'ayin O
-Rikau B-PER
+Rikau O
 , O
 Kavanaugh B-PER
 Ya O
 Zama O
 Alkali O
 a O
-Kotun O
-Kolin O
-AMurka B-LOC
+Kotun B-ORG
+Kolin I-ORG
+AMurka I-ORG
 
 Majalisar B-ORG
 Dattawan I-ORG
@@ -4052,7 +4066,7 @@ ya O
 fada O
 ta O
 kadar O
-twitter O
+twitter B-ORG
 cewa O
 ya O
 yaba O
@@ -4112,7 +4126,7 @@ A O
 yayin O
 da O
 'yan O
-Dimokarat O
+Dimokarat B-ORG
 kuma O
 ke O
 cigaba O
@@ -4265,7 +4279,7 @@ gwada O
 tattaunawa O
 da O
 'yan O
-Dimokarat O
+Dimokarat B-ORG
 . O
 
 Yau B-DATE
@@ -4311,8 +4325,13 @@ gabar O
 gabashin O
 kasar O
 , O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/hau/test.txt
+kwana O
+guda O
+========
 kwana B-DATE
 guda I-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/10/hau/1/test_predictions.txt
 kawai O
 bayan O
 da O
@@ -5577,9 +5596,9 @@ ko O
 sun O
 rubuta O
 wa O
-offishin B-ORG
-jakadancin I-ORG
-Burtaniya I-ORG
+offishin O
+jakadancin O
+Burtaniya B-LOC
 wasikar O
 martani O
 , O
@@ -5680,7 +5699,7 @@ yakin O
 neman O
 zaben O
 Trump B-PER
-Paul B-PER
+Paul I-PER
 Manafort I-PER
 da O
 kuma O
@@ -5688,7 +5707,7 @@ wani O
 tsohon O
 hadimin O
 Trump B-PER
-Rick B-PER
+Rick I-PER
 Gates I-PER
 , O
 sun O
@@ -5737,8 +5756,8 @@ Amurka B-LOC
 Gates B-PER
 , O
 dan O
-shekaru B-DATE
-45 I-DATE
+shekaru O
+45 O
 da O
 haihuwa O
 , O
@@ -5860,9 +5879,9 @@ jam’iyar O
 Democrat B-ORG
 a O
 kwamitin O
-Majalisar B-ORG
-dokokin I-ORG
-Amurka I-ORG
+Majalisar O
+dokokin O
+Amurka B-LOC
 da O
 ke O
 kula O
@@ -6065,7 +6084,11 @@ aka O
 aika O
 wa O
 Fadar O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/hau/test.txt
+White O
+========
 White B-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/10/hau/1/test_predictions.txt
 ta O
 Shugaban O
 Amurka B-LOC
@@ -6150,9 +6173,9 @@ mata O
 a O
 yankin O
 Afrika B-LOC
-ta I-LOC
-YammaIvanka I-LOC
-Trump I-PER
+ta O
+YammaIvanka O
+Trump B-PER
 da O
 take O
 baiwa O
@@ -6173,7 +6196,7 @@ babban O
 birnin O
 kasar O
 Habasha B-LOC
-Addis B-LOC
+Addis I-LOC
 Ababa I-LOC
 a O
 ziyararta O
@@ -6649,7 +6672,7 @@ sawa O
 tsohon O
 hadimin O
 Trump B-PER
-Carter B-PER
+Carter I-PER
 Page I-PER
 ido O
 . O
@@ -7149,9 +7172,9 @@ aiki O
 ba O
 . O
 
-Ofishin B-ORG
-Jakadancin I-ORG
-Amurka I-ORG
+Ofishin O
+Jakadancin O
+Amurka B-LOC
 A O
 Nijar B-LOC
 Ya O
@@ -7247,7 +7270,7 @@ shirin O
 da O
 ake O
 kira O
-MCCompact B-ORG
+MCCompact O
 da O
 aka O
 warewa O
@@ -7319,7 +7342,7 @@ albarkacin O
 shirin O
 nan O
 na O
-YALI B-ORG
+YALI O
 dake O
 karfafawa O
 matasan O
@@ -7365,8 +7388,8 @@ ciwa O
 Amurka B-LOC
 da O
 kuma O
-Jamhuriyar O
-Nijar B-LOC
+Jamhuriyar B-LOC
+Nijar I-LOC
 tuwa O
 a O
 kwarya O
@@ -7515,7 +7538,7 @@ kasa O
 da O
 kasa O
 na O
-Takoma B-LOC
+Takoma O
 dake O
 birnin O
 Seattle B-LOC
@@ -7621,7 +7644,7 @@ hatsarin O
 jirgin O
 na O
 yammacin B-DATE
-jiyan I-DATE
+jiyan O
 ba O
 . O
 
@@ -7674,8 +7697,8 @@ daga O
 kan O
 matakalar O
 benen O
-Lincoln B-LOC
-Memorial I-LOC
+Lincoln O
+Memorial O
 . O
 
 A O
@@ -7766,10 +7789,17 @@ daga O
 Ingila B-LOC
 , O
 a O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/hau/test.txt
+shekarar O
+( O
+1776 B-DATE
+) O
+========
 shekarar B-DATE
 ( I-DATE
 1776 I-DATE
 ) I-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/10/hau/1/test_predictions.txt
 . O
 
 A O
@@ -8014,7 +8044,11 @@ ta O
 kasa O
 a O
 majami’ar O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/hau/test.txt
+National B-ORG
+========
 National I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/10/hau/1/test_predictions.txt
 Cathedral I-ORG
 , O
 kafin O
@@ -8042,7 +8076,7 @@ Mai O
 Kama O
 Da O
 """" O
-Jaura B-LOC
+Jaura O
 """" O
 Na O
 Ratsawa O
@@ -8097,8 +8131,13 @@ fara O
 daga O
 daren B-DATE
 Talata I-DATE
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/hau/test.txt
+zuwa I-DATE
+wayewar I-DATE
+========
 zuwa O
 wayewar B-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/10/hau/1/test_predictions.txt
 garin I-DATE
 Laraba I-DATE
 , O
@@ -8196,9 +8235,9 @@ ne O
 tun O
 daga O
 yankin O
-tsakiyar B-LOC
-yammcin I-LOC
-Amurka I-LOC
+tsakiyar O
+yammcin O
+Amurka B-LOC
 , O
 ta O
 hada O
@@ -8211,9 +8250,15 @@ dangana O
 da O
 can O
 yankin O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/hau/test.txt
+kudanci O
+jihar O
+Florida B-LOC
+========
 kudanci B-LOC
 jihar I-LOC
 Florida I-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/10/hau/1/test_predictions.txt
 . O
 
 Amurka B-LOC
@@ -8340,8 +8385,8 @@ da O
 ta O
 yi O
 da O
-kasashen B-LOC
-Larabawa I-LOC
+kasashen O
+Larabawa O
 , O
 wanda O
 ake O
@@ -8749,8 +8794,8 @@ da O
 sabbin O
 dokoki O
 cikin O
-kwanaki B-DATE
-90 I-DATE
+kwanaki O
+90 O
 . O
 
 Dokokin O
@@ -8806,8 +8851,8 @@ kuma O
 baiwa O
 gwamnati O
 har O
-watanni B-DATE
-shida I-DATE
+watanni O
+shida O
 domin O
 yanke O
 shawarar O
@@ -9143,8 +9188,8 @@ cewa O
 “ O
 tana O
 bukatar O
-makwanni B-DATE
-biyu I-DATE
+makwanni O
+biyu O
 tayi O
 nazarin O
 yarjejeniyar O
@@ -9337,9 +9382,9 @@ ya O
 bayar O
 a O
 gaban O
-majalisar B-ORG
-dokokin I-ORG
-Amurka I-ORG
+majalisar O
+dokokin O
+Amurka B-LOC
 . O
 
 Kamar O
@@ -9368,7 +9413,7 @@ da O
 suka O
 faru O
 a O
-makon B-DATE
+makon O
 da O
 ya O
 shude O
@@ -9742,8 +9787,13 @@ karatun I-DATE
 84 I-DATE
 , O
 a O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/hau/test.txt
+jami'ar O
+Yale B-LOC
+========
 jami'ar B-ORG
 Yale I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/10/hau/1/test_predictions.txt
 a O
 lokacin O
 wata O
@@ -10000,7 +10050,7 @@ ga O
 Mr O
 . O
 
-Barr O
+Barr B-PER
 da O
 ya O
 fitar O
@@ -10098,13 +10148,13 @@ wurin O
 ibadar O
 da O
 misalin O
-karfe B-DATE
-11 I-DATE
-: I-DATE
-30 I-DATE
-na I-DATE
-ranar B-DATE
-jiya I-DATE
+karfe O
+11 O
+: O
+30 O
+na O
+ranar O
+jiya B-DATE
 Asabar I-DATE
 , O
 ya O
@@ -10445,7 +10495,7 @@ birnin O
 Chicago B-LOC
 . O
 
-Lord B-PER
+Lord O
 yace O
 wannan O
 yunkurin O
@@ -10781,8 +10831,8 @@ a O
 kan O
 wani O
 abu O
-karshen B-DATE
-mako I-DATE
+karshen O
+mako O
 , O
 kuma O
 mai O
@@ -10862,14 +10912,14 @@ na I-DATE
 rana O
 , O
 watau O
-9 I-DATE
+9 B-DATE
 : I-DATE
 30 I-DATE
 na I-DATE
 dare I-DATE
 agogon O
 Najeriya B-LOC
-yau I-DATE
+yau B-DATE
 alhamis I-DATE
 a O
 fadar O
@@ -10976,7 +11026,7 @@ dandalin O
 water O
 . O
 
-Org B-PER
+Org O
 """" O
 a O
 kan O
@@ -11012,8 +11062,8 @@ yake O
 A O
 cikin O
 kowane O
-minti O
-daya O
+minti B-DATE
+daya I-DATE
 , O
 yara O
 uku O
@@ -11507,8 +11557,8 @@ a O
 wurin O
 , O
 watau O
-Anopheles B-PER
-arabiensis I-PER
+Anopheles O
+arabiensis O
 . O
 
 Daga O
@@ -11566,9 +11616,9 @@ Rickert B-PER
 Ignell I-PER
 na O
 Jami'ar B-ORG
-Kimiyyar O
-Aikin O
-Gona O
+Kimiyyar I-ORG
+Aikin I-ORG
+Gona I-ORG
 ta O
 kasar O
 Sweden B-LOC
@@ -11706,14 +11756,14 @@ mujalla O
 mai O
 suna O
 """" O
-Malaria B-ORG
-Journal I-ORG
+Malaria O
+Journal O
 . O
 
 Cikakken O
 Bayanin O
 Cutar O
-Maleriya B-LOC
+Maleriya O
 Kashi O
 Na O
 Biyu O
@@ -11722,7 +11772,7 @@ Me O
 Ke O
 Janyo O
 Cutar O
-Maleriya B-LOC
+Maleriya O
 ? O
 
 Wata O
@@ -11772,7 +11822,7 @@ fi O
 cizon O
 mutane O
 cikin O
-dare B-DATE
+dare O
 , O
 watau O
 daga O
@@ -11824,8 +11874,8 @@ fi O
 yawa O
 . O
 
-Plasmodium B-ORG
-Falciparum I-ORG
+Plasmodium O
+Falciparum O
 kuma O
 ita O
 ce O
@@ -11849,13 +11899,18 @@ wata O
 kwayar O
 halittar O
 cutar O
-Maleriya B-LOC
+Maleriya O
 ta O
 birai O
 mai O
 suna O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/hau/test.txt
+Plasmodium O
+Knowlesi O
+========
 Plasmodium B-ORG
 Knowlesi I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/10/hau/1/test_predictions.txt
 , O
 wadda O
 ake O
@@ -12250,9 +12305,9 @@ Birtaniya B-LOC
 da O
 ake O
 kira O
-British B-ORG
-Medical I-ORG
-Journal I-ORG
+British O
+Medical O
+Journal O
 . O
 
 An O
@@ -12266,12 +12321,12 @@ dubu O
 tamanin O
 tsakanin O
 ‘yan O
-shekaru B-DATE
-hamsin I-DATE
-zuwa I-DATE
-saba’in I-DATE
-da I-DATE
-tara I-DATE
+shekaru O
+hamsin O
+zuwa O
+saba’in O
+da O
+tara O
 . O
 
 Binciken O
@@ -12416,7 +12471,7 @@ da O
 Cutar O
 Ebola O
 
-Yau B-DATE
+Yau O
 ce O
 ranar O
 da O
@@ -12610,7 +12665,7 @@ Take O
 Yaduwa O
 
 YADDA O
-MALERIYA B-LOC
+MALERIYA O
 KE O
 YADUWA O
 : O
@@ -12631,7 +12686,7 @@ da O
 ake O
 kira O
 """" O
-Anopheles B-PER
+Anopheles O
 . O
 
 Tsananin O
@@ -12685,7 +12740,7 @@ kansa O
 sauro O
 jinsin O
 """" O
-Anopheles B-PER
+Anopheles O
 """" O
 ya O
 karkasu O
@@ -12700,7 +12755,7 @@ kananan O
 jinsunan O
 sauron O
 """" O
-Anopheles B-PER
+Anopheles O
 """" O
 kimanin O
 20 O
@@ -13095,17 +13150,17 @@ ta O
 fi O
 yawa O
 a O
-lokacin O
-damina O
+lokacin B-DATE
+damina I-DATE
 , O
 da O
 kuma O
-‘yan O
-watanni O
-kadan O
-a O
-bayan O
-daminar O
+‘yan B-DATE
+watanni I-DATE
+kadan I-DATE
+a I-DATE
+bayan I-DATE
+daminar I-DATE
 . O
 
 A O
@@ -13114,7 +13169,7 @@ samu O
 barkewar O
 annobar O
 cutar O
-Maleriya B-LOC
+Maleriya O
 idan O
 yanayi O
 ya O
@@ -13139,7 +13194,7 @@ ga O
 wannan O
 cuta O
 ta O
-Maleriya B-LOC
+Maleriya O
 . O
 
 Haka O
@@ -13209,7 +13264,7 @@ alamun O
 wannan O
 cuta O
 ta O
-Maleriya B-LOC
+Maleriya O
 . O
 
 A O
@@ -13227,7 +13282,7 @@ Farko O
 kan O
 Asalin O
 Cutar O
-Maleriya B-LOC
+Maleriya O
 da O
 BayanintaDuba O
 Kashi O
@@ -13238,7 +13293,7 @@ Abinda O
 Ke O
 Janyo O
 Cutar O
-Maleriya B-LOC
+Maleriya O
 
 Cutar O
 Ebola O
@@ -14211,8 +14266,8 @@ Suna O
 Shakar O
 Gurbatacciyar O
 Iska O
-Kowacce O
-Rana O
+Kowacce B-DATE
+Rana I-DATE
 
 Hukumar B-ORG
 kula I-ORG
@@ -14417,9 +14472,9 @@ Mohammed I-PER
 
 An O
 shiga O
-rana O
-ta O
-uku O
+rana B-DATE
+ta I-DATE
+uku I-DATE
 da O
 fara O
 taron O
@@ -14482,15 +14537,15 @@ A O
 jawabin O
 da O
 tayi O
-jiya B-DATE
+jiya O
 awurin O
 taron O
 , O
 Sakatariyar O
-Ma'aikatar O
-harkokin O
-wajern O
-Amurka B-LOC
+Ma'aikatar B-ORG
+harkokin I-ORG
+wajern I-ORG
+Amurka I-ORG
 Hillary B-PER
 Clinton I-PER
 tace O
@@ -14910,15 +14965,23 @@ aikin O
 rigakafin O
 dabbobin O
 a O
-madatsar O
-ruwan B-LOC
+madatsar B-LOC
+ruwan I-LOC
 Tagwai I-LOC
 dake O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/hau/test.txt
+arewa B-LOC
+maso I-LOC
+gabashin I-LOC
+birnin I-LOC
+Minna I-LOC
+========
 arewa O
 maso O
 gabashin O
 birnin O
 Minna B-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/10/hau/1/test_predictions.txt
 , O
 mataimakin O
 gwamnan O
@@ -15024,8 +15087,8 @@ mai O
 suna O
 Kiri B-PER
 Baushi I-PER
-kamfanin O
-Bobi B-ORG
+kamfanin I-PER
+Bobi I-PER
 , O
 yace O
 duk O
@@ -15237,8 +15300,8 @@ a O
 wata O
 jiha O
 ta O
-bakwai B-DATE
-farkon I-DATE
+bakwai O
+farkon B-DATE
 wannan I-DATE
 shekarar I-DATE
 ta I-DATE
@@ -15378,12 +15441,20 @@ aiki O
 . O
 
 Darektan O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/hau/test.txt
+Cibiyar O
+========
 Cibiyar B-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/10/hau/1/test_predictions.txt
 kula O
 da O
 lafiya O
 ta O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/hau/test.txt
+duniya O
+========
 duniya I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/10/hau/1/test_predictions.txt
 - O
 FHI B-ORG
 360 I-ORG
@@ -15457,7 +15528,7 @@ bayyana O
 cewa O
 , O
 shirin O
-MAPS B-ORG
+MAPS O
 a O
 Najeriya B-LOC
 shine O
@@ -15468,7 +15539,7 @@ cizon O
 sauro O
 da O
 cibiyar O
-hfi360 B-ORG
+hfi360 O
 take O
 aiwatarwa O
 , O
@@ -15499,7 +15570,7 @@ yace O
 an O
 tsara O
 shirin O
-MAPS B-ORG
+MAPS O
 ne O
 domin O
 mara O
@@ -15676,10 +15747,10 @@ da O
 sauri O
 da O
 kimanin O
-shekaru B-DATE
-goma I-DATE
-zuwa I-DATE
-ishirin I-DATE
+shekaru O
+goma O
+zuwa O
+ishirin O
 fiye O
 da O
 sauran O
@@ -15979,11 +16050,11 @@ tare O
 da O
 hadin O
 guiwar O
-gidauniyar O
-Bill B-PER
-da O
-Milinda B-PER
-Gates I-PER
+gidauniyar B-ORG
+Bill I-ORG
+da I-ORG
+Milinda I-ORG
+Gates I-ORG
 . O
 
 Amaechi B-PER
@@ -16084,12 +16155,12 @@ lakabi O
 da O
 turanci O
 “ O
-Women B-ORG
-Against I-ORG
-Polio I-ORG
+Women O
+Against O
+Polio O
 """" O
 ( O
-WAP B-ORG
+WAP O
 ) O
 - O
 Mata O
@@ -16664,8 +16735,13 @@ rasu O
 ne O
 jiya B-DATE
 Lahadi I-DATE
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/hau/test.txt
+kwanaki O
+biyar O
+========
 kwanaki I-DATE
 biyar I-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/10/hau/1/test_predictions.txt
 kacal O
 bayanda O
 aka O
@@ -16708,11 +16784,11 @@ Brima B-PER
 Kargbo I-PER
 ya O
 shaidawa O
-kamfanin O
-dillancin O
-labaran O
-kasar O
-Faransa B-LOC
+kamfanin B-ORG
+dillancin I-ORG
+labaran I-ORG
+kasar I-ORG
+Faransa I-ORG
 cewa O
 , O
 ma’aikatar O
@@ -16975,13 +17051,13 @@ da O
 kasa O
 . O
 
-Asusun O
-tallafi O
-na O
-Bill B-PER
-da O
-Milinda B-PER
-Gates I-PER
+Asusun B-ORG
+tallafi I-ORG
+na I-ORG
+Bill I-ORG
+da I-ORG
+Milinda I-ORG
+Gates I-ORG
 ya O
 kashe O
 dala O
@@ -16994,13 +17070,13 @@ a O
 jihar O
 Gombe B-LOC
 
-Asusun O
-tallafi O
-na O
-Bill B-PER
-da I-PER
-Melinda I-PER
-Gates I-PER
+Asusun B-ORG
+tallafi I-ORG
+na I-ORG
+Bill I-ORG
+da I-ORG
+Melinda I-ORG
+Gates I-ORG
 ya O
 kashe O
 dala O
@@ -17074,11 +17150,11 @@ lafiyar O
 kananan O
 yara O
 da O
-asusun O
-Bill B-PER
-da O
-Milinda B-PER
-Gates I-PER
+asusun B-ORG
+Bill I-ORG
+da I-ORG
+Milinda I-ORG
+Gates I-ORG
 ya O
 dauki O
 nauyi O
@@ -17147,9 +17223,9 @@ taron O
 manema O
 labarai O
 a O
-karshen B-DATE
-shirin I-DATE
-makon I-DATE
+karshen O
+shirin O
+makon B-DATE
 jiya I-DATE
 , O
 Mr O
@@ -17261,11 +17337,11 @@ kimanin O
 direbobi O
 695 O
 membobin O
-kungiyar O
-ma’aikatar O
-sufuri O
-ta O
-kasa O
+kungiyar B-ORG
+ma’aikatar I-ORG
+sufuri I-ORG
+ta I-ORG
+kasa I-ORG
 ( O
 NURTW B-ORG
 ) O

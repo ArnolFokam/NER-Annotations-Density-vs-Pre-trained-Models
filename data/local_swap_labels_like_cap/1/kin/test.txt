@@ -23,7 +23,7 @@ y’Imana O
 na O
 Ingabire B-PER
 ku B-DATE
-= I-DATE
+= B-DATE
 wa I-DATE
 Gatandatu I-DATE
 tariki O
@@ -56,16 +56,22 @@ mu O
 Karere O
 ka O
 Musanze B-LOC
-ku O
+ku B-DATE
 wa O
-30 B-DATE
+30 I-DATE
 Ugushyingo I-DATE
 2019 I-DATE
 . O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/kin/test.txt
 Kuri O
 uwo O
 munsi O
+========
+Kuri B-DATE
+uwo I-DATE
+munsi I-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/kin/3/test_predictions.txt
 banasezeranye O
 byemewe O
 n’amategeko O
@@ -127,8 +133,8 @@ nk’umugabo O
 n’umugore O
 ( O
 Manzi B-PER
-& O
-Eunice B-PER
+& I-PER
+Eunice I-PER
 ) O
 ndetse O
 kuri O
@@ -197,10 +203,17 @@ mu O
 baririmbyi O
 b’imena O
 muri O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/kin/test.txt
 Epee O
 du O
 Salut O
 choir O
+========
+Epee B-ORG
+du I-ORG
+Salut I-ORG
+choir I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/kin/3/test_predictions.txt
 yavukiye O
 i O
 Gitwe B-LOC
@@ -686,7 +699,7 @@ Kavutse I-PER
 
 Beauty O
 For O
-Ashes O
+Ashes I-ORG
 , O
 aba O
 bombi O
@@ -767,7 +780,7 @@ ibihembo O
 
 The O
 Boss O
-Papa O
+Papa I-ORG
 ya O
 Alain B-PER
 Muku I-PER
@@ -794,7 +807,7 @@ yise O
 
 The O
 Boss O
-Papa O
+Papa I-ORG
 ya O
 Alain B-PER
 Muku I-PER
@@ -892,7 +905,7 @@ François I-PER
 bagakora O
 tag O
 @ O
-nsengiyumva O
+nsengiyumva B-PER
 _ O
 francois O
 _ O
@@ -1032,10 +1045,17 @@ ati O
 Mukamana B-PER
 ubwo O
 aragiye O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/kin/test.txt
 saa O
 munani O
 na O
 nijoro O
+========
+saa B-DATE
+munani I-DATE
+na I-DATE
+nijoro I-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/kin/3/test_predictions.txt
 ntatinya O
 ashaka O
 amafaranga O
@@ -1048,7 +1068,7 @@ ijana O
 kudingisa O
 ni O
 bitanu O
-Mukamana B-PER
+Mukamana O
 urananiranye O
 ngaho O
 isubireho O
@@ -1286,8 +1306,13 @@ ryayo O
 mu O
 2003 B-DATE
 ya O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/kin/test.txt
 Kangaroo O
 Jack O
+========
+Kangaroo B-ORG
+Jack I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/kin/3/test_predictions.txt
 , O
 kuba O
 yarateye O
@@ -1298,8 +1323,13 @@ bw’amafaranga O
 filime O
 ya O
 The O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/kin/test.txt
 Polar O
 Express O
+========
+Polar I-ORG
+Express I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/kin/3/test_predictions.txt
 yagiye O
 hanze O
 mu O
@@ -1605,7 +1635,7 @@ ryambika O
 abakobwa O
 n’abagore O
 ryitwa O
-Diva B-ORG
+Diva O
 Shop I-ORG
 riherereye O
 mu O
@@ -1866,7 +1896,11 @@ Indoto O
 ’ O
 Asezeranya O
 abakunda O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/kin/test.txt
 Sebu O
+========
+Sebu B-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/kin/3/test_predictions.txt
 na O
 City O
 Maid O
@@ -1908,7 +1942,11 @@ Indoto O
 ’ O
 Asezeranya O
 abakunda O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/kin/test.txt
 Sebu O
+========
+Sebu B-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/kin/3/test_predictions.txt
 na O
 City O
 Maid O
@@ -2207,8 +2245,8 @@ tune O
 dukora O
 kuri O
 Pariki B-LOC
-y’Igihugu I-LOC
-y’Ibirunga I-LOC
+y’Igihugu O
+y’Ibirunga O
 . O
 
 Ni O
@@ -2387,8 +2425,8 @@ mukerarugendo O
 benshi O
 . O
 
-Guhera O
-tariki O
+Guhera B-DATE
+tariki I-DATE
 25 B-DATE
 Werurwe I-DATE
 uyu I-DATE
@@ -2500,9 +2538,9 @@ Abarinzi O
 12 O
 ba O
 Pariki B-LOC
-y’Igihugu I-LOC
-ya I-LOC
-Virunga I-LOC
+y’Igihugu O
+ya O
+Virunga B-LOC
 bishwe O
 n’abantu O
 bitwaje O
@@ -2674,7 +2712,11 @@ ya I-DATE
 Gicurasi I-DATE
 na I-DATE
 2018 I-DATE
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/kin/test.txt
 kugeza O
+========
+kugeza I-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/kin/3/test_predictions.txt
 mu O
 ntangiro O
 z’umwaka O
@@ -2792,7 +2834,7 @@ Raporo O
 ya O
 ICCA B-ORG
 y’umwaka O
-ushize O
+ushize I-DATE
 yerekana O
 ko O
 u O
@@ -2880,8 +2922,13 @@ mu O
 yasohotse O
 kuri O
 uyu B-DATE
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/kin/test.txt
 wa I-DATE
 12 I-DATE
+========
+wa O
+12 B-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/kin/3/test_predictions.txt
 Gicurasi I-DATE
 2020 I-DATE
 yerekana O
@@ -3119,7 +3166,7 @@ zagombaga O
 kuba O
 hagati B-DATE
 ya I-DATE
-Werurwe I-DATE
+Werurwe B-DATE
 na I-DATE
 Mata I-DATE
 zasubitswe O
@@ -3740,8 +3787,13 @@ August B-DATE
 , I-DATE
 2019 I-DATE
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/kin/test.txt
 U O
 Rwanda B-LOC
+========
+U B-ORG
+Rwanda I-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/kin/3/test_predictions.txt
 rumaze O
 kungukira O
 miliyari O
@@ -3883,7 +3935,7 @@ buryo O
 butandukanye O
 . O
 
-Ku B-DATE
+Ku O
 cyumweru I-DATE
 tariki I-DATE
 12 I-DATE
@@ -5068,8 +5120,13 @@ Asia B-LOC
 y’amajyepfo I-LOC
 . O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/kin/test.txt
 Playa B-LOC
 Ruinas I-LOC
+========
+Playa B-PER
+Ruinas I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/kin/3/test_predictions.txt
 
 Playa B-LOC
 Ruinas I-LOC
@@ -5116,14 +5173,14 @@ bwinshi O
 Source O
 d’Argent O
 
-Source O
-d’Argent O
+Source B-LOC
+d’Argent I-LOC
 ni O
 beach O
 iherereye O
 ku O
-Nyanja O
-y’Abahinde O
+Nyanja B-LOC
+y’Abahinde I-LOC
 mu O
 gihugu O
 cya O
@@ -5186,7 +5243,7 @@ mu O
 . O
 
 Secret B-LOC
-Lagoon I-LOC
+Lagoon O
 
 Iyi O
 beach O
@@ -5248,8 +5305,8 @@ mu O
 birwa O
 bya O
 Turks B-LOC
-na O
-Caicos B-LOC
+na I-LOC
+Caicos I-LOC
 hagati O
 y’igihugu O
 cya O
@@ -5362,8 +5419,8 @@ n’umucanga O
 w’umweru O
 . O
 
-Zlatni B-LOC
-Rat I-LOC
+Zlatni O
+Rat O
 
 Nkuko O
 bitangazwa O
@@ -5373,7 +5430,7 @@ Big O
 travel O
 , O
 Zlatni B-LOC
-Rat I-LOC
+Rat I-ORG
 niyo O
 beach O
 ya O
@@ -5555,8 +5612,8 @@ hejuru O
 zifunze O
 imiryango O
 kugeza O
-magingo O
-aya O
+magingo B-DATE
+aya I-DATE
 . O
 
 Bitewe O
@@ -5871,8 +5928,8 @@ bategereje O
 kureba O
 uko O
 ukwezi O
-kwa O
-Nyakanga B-DATE
+kwa B-DATE
+Nyakanga I-DATE
 kuzaba O
 kwifashe O
 . O
@@ -6004,7 +6061,7 @@ bagenda O
 baza O
 . O
 
-Ubungubu O
+Ubungubu B-PER
 uje O
 , O
 usabye O
@@ -6075,9 +6132,15 @@ kwakira O
 ubusabe O
 bw’abakeneye O
 kugana O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/kin/test.txt
 Amakoro O
 Songa O
 Lodge O
+========
+Amakoro B-ORG
+Songa I-ORG
+Lodge I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/kin/3/test_predictions.txt
 , O
 imwe O
 mu O
@@ -6331,7 +6394,7 @@ zimaze O
 gusaba O
 kuzabera O
 muri O
-Serena B-ORG
+Serena B-LOC
 muri O
 Nyakanga B-DATE
 , O
@@ -7146,9 +7209,15 @@ Nil O
 mu O
 myaka O
 ya O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/kin/test.txt
 1897 O
 na O
 1906 O
+========
+1897 B-DATE
+na I-DATE
+1906 I-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/kin/3/test_predictions.txt
 , O
 ni O
 nabwo O
@@ -7205,9 +7274,15 @@ Uganda B-LOC
 iya O
 Virunga O
 na O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/kin/test.txt
 Kahuzi O
 - O
 Biéga O
+========
+Kahuzi B-LOC
+- I-LOC
+Biéga I-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/kin/3/test_predictions.txt
 zo O
 muri O
 Repubulika B-LOC
@@ -7217,8 +7292,13 @@ ya I-LOC
 Congo I-LOC
 . O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/kin/test.txt
 Kuwa B-DATE
 7 I-DATE
+========
+Kuwa O
+7 B-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/kin/3/test_predictions.txt
 - I-DATE
 10 I-DATE
 Kanama I-DATE
@@ -7258,6 +7338,7 @@ n’amateka O
 
 Uru O
 rugendo O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/kin/test.txt
 ikigo O
 gishinzwe O
 Ingoro O
@@ -7269,6 +7350,19 @@ w’Abadage O
 wita O
 ku O
 iterambere O
+========
+ikigo B-ORG
+gishinzwe I-ORG
+Ingoro I-ORG
+z’Umurage I-ORG
+w’u I-ORG
+Rwanda I-ORG
+n’Umushinga I-ORG
+w’Abadage I-ORG
+wita I-ORG
+ku I-ORG
+iterambere I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/kin/3/test_predictions.txt
 ( O
 GIZ B-ORG
 ) O
@@ -7330,7 +7424,7 @@ ba O
 mukerarugendo O
 muri O
 Pariki B-LOC
-y’Ibirunga I-LOC
+y’Ibirunga I-ORG
 , O
 Irakoze B-PER
 Emmanuel I-PER
@@ -7543,7 +7637,11 @@ Ukigera O
 aho O
 umuryango O
 wa O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/kin/test.txt
 Kageri O
+========
+Kageri B-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/kin/3/test_predictions.txt
 uhera O
 , O
 biba O
@@ -8323,15 +8421,15 @@ baba O
 mu O
 muryango O
 wa O
-Musilikale O
+Musilikale B-PER
 ubu O
 ugize O
 ingagi O
 21 O
 . O
 
-Ikigega O
-Dian B-ORG
+Ikigega B-ORG
+Dian I-ORG
 Fossey I-ORG
 Gorilla I-ORG
 Fund I-ORG
@@ -8375,8 +8473,13 @@ uburyo O
 ubuso O
 bwa O
 Pariki B-LOC
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/kin/test.txt
 y’Igihugu I-LOC
 y’Ibirunga I-LOC
+========
+y’Igihugu O
+y’Ibirunga O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/kin/3/test_predictions.txt
 bwakongerwa O
 kugira O
 ngo O
@@ -8428,7 +8531,7 @@ mibare O
 ntirimo O
 iziri O
 mu O
-Ishyamba O
+Ishyamba B-LOC
 rya O
 Bwindi B-LOC
 muri O
@@ -8608,11 +8711,19 @@ Ukuboza I-DATE
 2021 I-DATE
 . O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/kin/test.txt
 Ishami O
 ry’Umuryango O
 w’abibumbye O
 ryita O
 ku O
+========
+Ishami B-ORG
+ry’Umuryango I-ORG
+w’abibumbye I-ORG
+ryita I-ORG
+ku I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/kin/3/test_predictions.txt
 bukerarugendo O
 , O
 rivuga O
@@ -9181,7 +9292,7 @@ izina O
 gutyo O
 hitwa O
 ku O
-Kanyirarebe B-LOC
+Kanyirarebe B-PER
 """" O
 . O
 
@@ -9307,8 +9418,13 @@ ubucuruzibw’ibintu O
 bitandukanye O
 . O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/kin/test.txt
 Tour O
 Eiffel O
+========
+Tour B-PER
+Eiffel I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/kin/3/test_predictions.txt
 yafunguriwe O
 ba O
 mukerarugendo O
@@ -9342,7 +9458,7 @@ Bufaransa I-LOC
 bwakomoreye O
 abakeneye O
 gusura O
-Tour O
+Tour B-LOC
 Eiffel O
 . O
 
@@ -9370,7 +9486,7 @@ Bufaransa I-LOC
 bwakomoreye O
 abakeneye O
 gusura O
-Tour O
+Tour B-LOC
 Eiffel O
 . O
 
@@ -9484,12 +9600,16 @@ cyane O
 nk’Inzu O
 Ndangamurage O
 ya O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/kin/test.txt
 Louvre O
+========
+Louvre B-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/kin/3/test_predictions.txt
 , O
 yo O
 igifunzwe O
 kugeza O
-ku B-DATE
+ku I-DATE
 wa I-DATE
 6 I-DATE
 Nyakanga I-DATE
@@ -9500,8 +9620,8 @@ rwego O
 rwo O
 kurinda O
 abasura O
-uyu O
-munara O
+uyu B-DATE
+munara I-DATE
 muremure O
 cyane O
 muri O
@@ -9511,8 +9631,8 @@ ibyuma O
 bizamura O
 abantu O
 kuri O
-uyu O
-munara O
+uyu B-DATE
+munara I-DATE
 ureshya O
 na O
 metero O
@@ -9535,8 +9655,13 @@ bashobora O
 guhagarara O
 bari O
 kuri O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/kin/test.txt
 uyu O
 munara O
+========
+uyu B-DATE
+munara I-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/kin/3/test_predictions.txt
 niho O
 hafunguwe O
 gusa O
@@ -9547,8 +9672,13 @@ urubuga O
 rusangwaho O
 amakuru O
 ya O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/kin/test.txt
 Tour O
 Eiffel O
+========
+Tour B-ORG
+Eiffel I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/kin/3/test_predictions.txt
 rubigaragaza O
 , O
 abantu O
@@ -9582,8 +9712,8 @@ rundi O
 . O
 
 Gusura O
-uyu O
-munara O
+uyu B-DATE
+munara I-DATE
 abantu O
 basabwa O
 kwishyura O
@@ -9808,9 +9938,9 @@ zisabwa O
 ko O
 zajya O
 zifunga O
-saa O
-moya O
-z’ijoro O
+saa B-DATE
+moya I-DATE
+z’ijoro I-DATE
 . O
 
 RDB B-ORG
@@ -10056,7 +10186,7 @@ Mu O
 2018 B-DATE
 , O
 u B-LOC
-Rwanda I-LOC
+Rwanda B-LOC
 rwasuwe O
 n’abakerarugendo O
 miliyoni O
@@ -10332,7 +10462,7 @@ rusange O
 amafaranga O
 yinjijwe O
 na O
-Pariki O
+Pariki B-LOC
 zose O
 asaga O
 miliyoni O
@@ -10384,7 +10514,7 @@ byatewe O
 n’ubukangurambaga O
 burimo O
 ubwa O
-Tembera O
+Tembera B-LOC
 u B-LOC
 Rwanda I-LOC
 bwakozwe O
@@ -10458,8 +10588,13 @@ kabiri O
 Umuyobozi O
 Mukuru O
 w’Ikigo B-ORG
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/kin/test.txt
 cy’Igihugu I-ORG
 cy’Iterambere I-ORG
+========
+cy’Igihugu O
+cy’Iterambere O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/kin/3/test_predictions.txt
 , O
 RDB B-ORG
 , O
@@ -10499,8 +10634,13 @@ bagabanyutse O
 Umuyobozi O
 Mukuru O
 w’Ikigo B-ORG
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/kin/test.txt
 cy’Igihugu I-ORG
 cy’Iterambere I-ORG
+========
+cy’Igihugu O
+cy’Iterambere O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/kin/3/test_predictions.txt
 , O
 RDB B-ORG
 , O
@@ -10552,8 +10692,13 @@ rya O
 Singita B-ORG
 Kwitonda I-ORG
 Lodge I-ORG
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/kin/test.txt
 and I-ORG
 Kataza I-ORG
+========
+and O
+Kataza B-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/kin/3/test_predictions.txt
 House I-ORG
 , O
 imwe O
@@ -11099,12 +11244,21 @@ Kagame B-PER
 yafunguye O
 ku O
 mugaragaro O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/kin/test.txt
 Singita B-ORG
 Kwitonda I-ORG
 Lodge I-ORG
 and O
 Kataza B-ORG
 House I-ORG
+========
+Singita B-LOC
+Kwitonda I-ORG
+Lodge O
+and O
+Kataza B-LOC
+House O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/kin/3/test_predictions.txt
 ( O
 Amafoto O
 ) O
@@ -11193,7 +11347,7 @@ Singita B-ORG
 Kwitonda I-ORG
 Lodge I-ORG
 and O
-Kataza B-ORG
+Kataza B-LOC
 House I-ORG
 igizwe O
 n’inyubako O
@@ -11292,8 +11446,8 @@ n’amahoteli O
 , O
 ku O
 buryo O
-u B-LOC
-Rwanda I-LOC
+u O
+Rwanda B-LOC
 rwishimiye O
 kwakira O
 iri O
@@ -11446,7 +11600,11 @@ Akamanzi I-PER
 , O
 yavuze O
 ko O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/kin/test.txt
 u O
+========
+u B-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/kin/3/test_predictions.txt
 Rwanda B-LOC
 rukomeje O
 kwakira O
@@ -11463,7 +11621,7 @@ Singita B-ORG
 Kwitonda I-ORG
 Lodge I-ORG
 and O
-Kataza B-ORG
+Kataza B-LOC
 House I-ORG
 ari O
 inyongera O
@@ -11479,11 +11637,15 @@ mukerarugendo O
 barusura O
 . O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/kin/test.txt
 Singita B-ORG
+========
+Singita B-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/kin/3/test_predictions.txt
 Kwitonda I-ORG
 Lodge I-ORG
 and O
-Kataza B-ORG
+Kataza B-LOC
 House I-ORG
 yubatswe O
 ahantu O
@@ -11605,8 +11767,8 @@ $ O
 
 Kurara O
 muri O
-Kataza B-ORG
-House I-ORG
+Kataza B-LOC
+House I-LOC
 byo O
 bishobora O
 kugera O
@@ -11711,12 +11873,16 @@ imbere O
 
 Inyubako O
 ya O
-Singita B-ORG
+Singita B-LOC
 Lodge I-ORG
 yahawe O
 izina O
 rya O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/kin/test.txt
 Kwitonda O
+========
+Kwitonda B-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/kin/3/test_predictions.txt
 , O
 yitiriwe O
 ingagi O
@@ -11822,11 +11988,19 @@ muri O
 Tanzania B-LOC
 ( O
 muri O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/kin/test.txt
 Grumeti O
 Game O
 Reserve O
 na O
 Lamai O
+========
+Grumeti B-ORG
+Game I-ORG
+Reserve I-ORG
+na O
+Lamai B-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/kin/3/test_predictions.txt
 ) O
 , O
 muri O
@@ -12107,7 +12281,7 @@ yubatswe O
 mu O
 bihugu O
 byo O
-munsi B-LOC
+munsi O
 y’ubutayu I-LOC
 bwa I-LOC
 Sahara I-LOC
@@ -12223,12 +12397,21 @@ ikazahita O
 ihindura O
 izina O
 ikitwa O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/kin/test.txt
 DoubleTree O
 by O
 Hilton O
 Kigali B-LOC
 City O
 Centre O
+========
+DoubleTree B-ORG
+by I-ORG
+Hilton B-ORG
+Kigali I-LOC
+City I-LOC
+Centre I-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/kin/3/test_predictions.txt
 , O
 ndetse O
 n’umubare O
@@ -12487,8 +12670,13 @@ w’u B-LOC
 Rwanda I-LOC
 . O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/kin/test.txt
 Kuwa B-DATE
 7 I-DATE
+========
+Kuwa O
+7 B-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/kin/3/test_predictions.txt
 - I-DATE
 10 I-DATE
 Kanama I-DATE
@@ -12698,7 +12886,11 @@ cyashyizweho O
 n’Ikigo B-ORG
 gishinzwe I-ORG
 ingoro I-ORG
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/kin/test.txt
 z’igihugu I-ORG
+========
+z’igihugu O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/kin/3/test_predictions.txt
 , O
 kigaragaza O
 ko O
@@ -12759,7 +12951,7 @@ uko O
 uyigezamo O
 . O
 
-Urakomanga O
+Urakomanga B-PER
 ugategereza O
 ko O
 abasore O
@@ -12977,7 +13169,11 @@ bubarizwamo O
 iryo O
 tongo O
 uyu O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/kin/test.txt
 munsi O
+========
+munsi I-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/kin/3/test_predictions.txt
 ntabwo O
 burajya O
 mu O
@@ -13294,8 +13490,13 @@ Bubiligi I-LOC
 bwakolonizaga O
 Congo B-LOC
 , O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/kin/test.txt
 u O
 Rwanda B-LOC
+========
+u B-LOC
+Rwanda I-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/kin/3/test_predictions.txt
 rugakolonizwa O
 n’u B-LOC
 Budage I-LOC
@@ -13706,12 +13907,18 @@ miliyari O
 2 O
 Frw O
 zahererekanyijwe O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/kin/test.txt
 mu B-DATE
 cyumweru I-DATE
 cya I-DATE
+========
+mu O
+cyumweru O
+cya O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/kin/3/test_predictions.txt
 mbere I-DATE
-cya I-DATE
-Mutarama I-DATE
+cya O
+Mutarama B-DATE
 2020 I-DATE
 . O
 
@@ -14115,7 +14322,7 @@ Ubundi O
 ingendo O
 zo O
 mu O
-Ntara O
+Ntara B-LOC
 uko O
 ziteye O
 ni O
@@ -14660,7 +14867,7 @@ bifashishije O
 uburyo O
 bwa O
 “ O
-Facebook B-ORG
+Facebook O
 Shops O
 """" O
 . O

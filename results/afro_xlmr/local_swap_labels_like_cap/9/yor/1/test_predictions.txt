@@ -39,10 +39,17 @@ Gyi I-PER
 ni O
 olùdásílẹ̀ O
 iléeṣẹ́ O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/yor/test.txt
+Àjọ̀dún O
+Eré O
+Ajàfẹ́tọ̀ọ́ O
+Iyì O
+========
 Àjọ̀dún B-ORG
 Eré I-ORG
 Ajàfẹ́tọ̀ọ́ I-ORG
 Iyì I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/9/yor/1/test_predictions.txt
 Ọmọnìyàn O
 àti O
 ìlúmọ̀nánká O
@@ -123,7 +130,7 @@ kàn O
 a O
 tọrọ O
 ìdánilójú O
-ìjọba B-ORG
+ìjọba O
 Myanmar B-LOC
 láti O
 ríi O
@@ -267,8 +274,8 @@ Soe I-PER
 Oo I-PER
 sí O
 ẹ̀wọ̀n O
-ọdún B-DATE
-méje I-DATE
+ọdún O
+méje O
 fún O
 rírú O
 òfin O
@@ -303,7 +310,7 @@ lẹ́yìn O
 ní O
 àsìkò O
 Ọdún B-DATE
-Tuntun O
+Tuntun I-DATE
 ìbílẹ̀ O
 orílẹ̀ O
 èdè O
@@ -474,11 +481,11 @@ akópìnín O
 Rumo B-ORG
 Logística I-ORG
 , O
-ìgbìmọ̀ O
-reluwé O
-orílẹ̀ O
-èdèe O
-Brazili B-LOC
+ìgbìmọ̀ B-ORG
+reluwé I-ORG
+orílẹ̀ I-ORG
+èdèe I-ORG
+Brazili I-ORG
 , O
 gba O
 àwọn O
@@ -498,9 +505,9 @@ tí O
 wá O
 láti O
 ẹ̀yà O
-Guarani O
+Guarani B-LOC
 àti O
-Tupi O
+Tupi B-LOC
 tí O
 ó O
 ṣẹ̀ṣẹ̀ O
@@ -532,8 +539,8 @@ Paulo I-LOC
 tí O
 reluwé O
 akẹ́rù O
-aláàdọ́run O
-ọdún O
+aláàdọ́run B-DATE
+ọdún I-DATE
 iléeṣẹ́ O
 Rumo B-LOC
 ń O
@@ -619,8 +626,13 @@ tí O
 ń O
 gbé O
 jákèjádò O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/yor/test.txt
+Ilẹ̀ O
+Ìbílẹ̀ O
+========
 Ilẹ̀ B-LOC
 Ìbílẹ̀ I-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/9/yor/1/test_predictions.txt
 tí O
 fífẹ̀ O
 reluwé O
@@ -689,14 +701,14 @@ pa O
 á O
 láṣẹ O
 fún O
-Ibama B-PER
+Ibama B-ORG
 , O
-àjọ O
-ètò O
-àyíká O
-orílẹ̀ O
-èdè O
-Brazili B-LOC
+àjọ B-ORG
+ètò I-ORG
+àyíká I-ORG
+orílẹ̀ I-ORG
+èdè I-ORG
+Brazili I-ORG
 , O
 láti O
 ṣíra O
@@ -727,7 +739,7 @@ níyànjú O
 láti O
 mú O
 kí O
-Rumo B-PER
+Rumo B-ORG
 ó O
 san O
 owó O
@@ -825,7 +837,7 @@ akitiyan O
 ìtàkùrọ̀sọ O
 wọn O
 pẹ̀lú O
-Rumo B-PER
+Rumo B-ORG
 , O
 tí O
 wọ́n O
@@ -846,7 +858,7 @@ tí O
 ó O
 sọ O
 pé O
-Rumo B-PER
+Rumo B-ORG
 “ O
 ń O
 ṣe O
@@ -889,9 +901,15 @@ ajábọ̀ O
 ìròyìn O
 ìwé O
 ìròyìn O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/yor/test.txt
+Brasil B-ORG
+de I-ORG
+Fato I-ORG
+========
 Brasil B-LOC
 de O
 Fato O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/9/yor/1/test_predictions.txt
 fọ̀rọ̀jomitoro O
 , O
 Adriano B-PER
@@ -902,7 +920,7 @@ tí O
 wà O
 láti O
 agbègbè O
-Guarani O
+Guarani B-LOC
 , O
 sọ O
 wípé O
@@ -1125,9 +1143,9 @@ irin O
 pa O
 ènìyàn O
 nínúu O
-ìṣẹ́jú O
-mẹ́wàá O
-mẹ́wàá O
+ìṣẹ́jú B-DATE
+mẹ́wàá I-DATE
+mẹ́wàá I-DATE
 báyìí O
 . O
 """" O
@@ -1146,7 +1164,7 @@ agbègbè O
 ti O
 gbèrò O
 pẹ̀lú O
-Rumo B-PER
+Rumo B-ORG
 wípé O
 kí O
 ó O
@@ -1165,8 +1183,8 @@ jẹ́ O
 
 Ní O
 ti O
-Ọ́fíìsì B-PER
-Abánirojọ̀ I-PER
+Ọ́fíìsì O
+Abánirojọ̀ O
 , O
 iléeṣẹ́ O
 náà O
@@ -1230,7 +1248,7 @@ Ní O
 oṣù I-DATE
 Belu I-DATE
 , O
-Rumo B-PER
+Rumo B-ORG
 ṣàì O
 dédé O
 fagi O
@@ -1379,9 +1397,9 @@ Alájọpín O
 Àwọn O
 ọmọ O
 ìbílẹ̀ O
-Guarani O
+Guarani B-LOC
 àti O
-Tupi O
+Tupi B-LOC
 nìkan O
 kọ́ O
 ni O
@@ -1414,28 +1432,28 @@ Ní O
 un I-DATE
 2010 I-DATE
 , O
-ẹgbẹ́ O
-Ìmọ́rọ̀ O
-- O
-yéni O
-- O
-yékéyéké O
-àwọn O
-tí O
-ọ̀ràn O
-- O
-an O
-Vale O
+ẹgbẹ́ B-ORG
+Ìmọ́rọ̀ I-ORG
+- I-ORG
+yéni I-ORG
+- I-ORG
+yékéyéké I-ORG
+àwọn I-ORG
+tí I-ORG
+ọ̀ràn I-ORG
+- I-ORG
+an I-ORG
+Vale I-ORG
 náà O
 kàn O
 ( O
-Articulação O
-dos O
-Atingidos O
-e O
-Atingidas O
-pela O
-Vale O
+Articulação B-ORG
+dos I-ORG
+Atingidos I-ORG
+e I-ORG
+Atingidas I-ORG
+pela I-ORG
+Vale I-ORG
 ) O
 ra O
 ìpín O
@@ -1452,7 +1470,11 @@ ní O
 wọn O
 . O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/yor/test.txt
+Vale B-ORG
+========
 Vale B-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/9/yor/1/test_predictions.txt
 ni O
 ọkàn O
 lára O
@@ -1619,7 +1641,11 @@ ní O
 ìpín O
 nínú O
 ìdókòòwò O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/yor/test.txt
+Vale B-ORG
+========
 Vale B-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/9/yor/1/test_predictions.txt
 , O
 sọ O
 fún O
@@ -1792,26 +1818,26 @@ jẹ́ O
 olùgbàlejò O
 . O
 
-Wakabi O
+Wakabi B-PER
 ni O
 Olùdarí O
 Àgbà O
-Ìfọwọ́sowọ́pọ̀ O
-Ètò O
-- O
-ìmúlò O
-Ìmọ̀ O
-- O
-ẹ̀rọ O
-Gbogboògbò O
-fún O
-Ìlà B-LOC
-- I-LOC
-Oòrùn I-LOC
-àti I-LOC
-Gúúsù I-LOC
-Ilẹ̀ I-LOC
-Adúláwò I-LOC
+Ìfọwọ́sowọ́pọ̀ B-ORG
+Ètò I-ORG
+- I-ORG
+ìmúlò I-ORG
+Ìmọ̀ I-ORG
+- I-ORG
+ẹ̀rọ I-ORG
+Gbogboògbò I-ORG
+fún I-ORG
+Ìlà I-ORG
+- I-ORG
+Oòrùn I-ORG
+àti I-ORG
+Gúúsù I-ORG
+Ilẹ̀ I-ORG
+Adúláwò I-ORG
 ( O
 CIPESA B-ORG
 ) O
@@ -2055,9 +2081,9 @@ un I-DATE
 2015 I-DATE
 , O
 Orílẹ̀èdè O
-Olómìnira B-ORG
-Ìṣọ̀kan I-ORG
-Tanzania I-ORG
+Olómìnira O
+Ìṣọ̀kan O
+Tanzania B-LOC
 kéde O
 Ìgbésẹ̀ O
 Ìrúfin O
@@ -2068,7 +2094,7 @@ Ayélujára O
 
 Ní O
 àárín B-DATE
-ọdún B-DATE
+ọdún I-DATE
 kan I-DATE
 tí O
 a O
@@ -2158,7 +2184,7 @@ tí O
 ó O
 tó O
 bíi O
-US O
+US B-LOC
 $ O
 900 O
 lọ́dún O
@@ -2233,7 +2259,11 @@ náà O
 Àtìmọ́lé O
 àti O
 ìdápadà O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/yor/test.txt
+Wakabi B-PER
+========
 Wakabi B-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/9/yor/1/test_predictions.txt
 sí O
 Uganda B-LOC
 jẹ́ O
@@ -2314,8 +2344,8 @@ náà O
 . O
 
 Ní O
-ìrọ̀lẹ́ O
-ọjọ́ B-DATE
+ìrọ̀lẹ́ B-DATE
+ọjọ́ I-DATE
 11 I-DATE
 , I-DATE
 oṣù I-DATE
@@ -2396,7 +2426,7 @@ sí O
 . O
 
 PÀJÁWÌRÌ O
-Àjọ O
+Àjọ B-ORG
 Sebin I-ORG
 kan O
 fìdíi O
@@ -2463,7 +2493,7 @@ márùn O
 : O
 
 @ O
-LuisCarlos B-PER
+LuisCarlos O
 wà O
 ní O
 orí O
@@ -2552,10 +2582,10 @@ SEBIN B-ORG
 ṣe O
 yẹ O
 ilée O
-Díaz B-LOC
+Díaz B-PER
 pẹ̀lú O
 ilée O
-Soto B-LOC
+Soto B-PER
 náà O
 wò O
 . O
@@ -2579,12 +2609,12 @@ yìí O
 , O
 ní O
 dédé O
-agogo O
-3 O
-: O
-00 O
-òwúrọ̀ O
-kùtùkùtù O
+agogo B-DATE
+3 I-DATE
+: I-DATE
+00 I-DATE
+òwúrọ̀ I-DATE
+kùtùkùtù I-DATE
 , O
 ìgbìmọ̀ O
 láti O
@@ -2612,11 +2642,11 @@ di O
 ẹni O
 àwátì O
 láti O
-agogo O
-5 O
-: O
-30 O
-ìrọ̀lẹ́ O
+agogo B-DATE
+5 I-DATE
+: I-DATE
+30 I-DATE
+ìrọ̀lẹ́ I-DATE
 # O
 NiboNiLuisCarlosWa O
 . O
@@ -2933,11 +2963,11 @@ fún O
 ó O
 lé O
 ní O
-wákàtí O
-mẹ́rin O
-lé O
-lógún O
-lọ́jọ́ B-DATE
+wákàtí B-DATE
+mẹ́rin I-DATE
+lé I-DATE
+lógún I-DATE
+lọ́jọ́ I-DATE
 7 I-DATE
 àti I-DATE
 8 I-DATE
@@ -3203,9 +3233,15 @@ kòkòrò O
 àrùn O
 náà O
 di O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/yor/test.txt
+mẹ́jọ O
+ní O
+ọjọ́ B-DATE
+========
 mẹ́jọ B-DATE
 ní I-DATE
 ọjọ́ I-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/9/yor/1/test_predictions.txt
 méjì I-DATE
 lẹ́yìn O
 tí O
@@ -3468,8 +3504,8 @@ fún O
 
 Ọjọ́ B-DATE
 27 I-DATE
-ni I-DATE
-oṣù I-DATE
+ni O
+oṣù B-DATE
 Èrèlé I-DATE
 ní O
 a O
@@ -3889,8 +3925,8 @@ wọ́n O
 tó O
 dúró O
 di O
-ọjọ́ O
-kejì O
+ọjọ́ B-DATE
+kejì I-DATE
 kí O
 wọ́n O
 tó O
@@ -4175,9 +4211,9 @@ lọ O
 sí O
 Teaching I-ORG
 Hospital I-ORG
-ti O
-ìpínlẹ̀ O
-Enugu B-LOC
+ti I-ORG
+ìpínlẹ̀ I-ORG
+Enugu I-ORG
 ( O
 ESUTH B-ORG
 ) O
@@ -4198,8 +4234,13 @@ yà O
 sọ́tọ̀ O
 ní O
 ESUTH B-ORG
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/yor/test.txt
+Colliery B-LOC
+Parklane I-LOC
+========
 Colliery I-ORG
 Parklane I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/9/yor/1/test_predictions.txt
 , O
 wọ́n O
 sì O
@@ -4746,7 +4787,7 @@ sì O
 fi O
 àwùjọ O
 ilẹ̀ O
-Chinese B-LOC
+Chinese O
 làkàlàkà O
 tí O
 ó O
@@ -4824,10 +4865,10 @@ sórí O
 , O
 nítorí O
 ayẹyẹ O
-ọdún O
-tuntun O
-ìran O
-Chinese O
+ọdún B-DATE
+tuntun I-DATE
+ìran I-DATE
+Chinese I-DATE
 ọlọ́dọọdún O
 ti O
 gbérasọ O
@@ -4942,7 +4983,7 @@ tà O
 ní O
 ọjà O
 Huanan B-LOC
-wet I-LOC
+wet O
 ní O
 agbègbè O
 Wuhan B-LOC
@@ -5366,7 +5407,7 @@ mú O
 àjàkálẹ̀ O
 àrùn O
 èémí O
-SARS B-ORG
+SARS O
 tó O
 ṣú O
 yọ O
@@ -5703,10 +5744,10 @@ jẹun O
 . O
 
 Ní O
-ọ̀sẹ̀ B-DATE
-tí I-DATE
-ó I-DATE
-kọjá I-DATE
+ọ̀sẹ̀ O
+tí O
+ó O
+kọjá O
 , O
 Orílẹ̀ O
 - O
@@ -5757,7 +5798,11 @@ Orílẹ̀ O
 - O
 èdè O
 Portugal B-LOC
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/yor/test.txt
+Lusa B-ORG
+========
 Lusa I-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/9/yor/1/test_predictions.txt
 ti O
 ròyìn O
 : O
@@ -5772,14 +5817,14 @@ gan O
 an O
 
 Lónìí O
-Ilé B-ORG
-Iṣẹ́ I-ORG
-ẹ̀rọ I-ORG
-- I-ORG
-ìbánisọ̀rọ̀ I-ORG
-ti I-ORG
-Cape I-ORG
-Verde I-ORG
+Ilé O
+Iṣẹ́ O
+ẹ̀rọ O
+- O
+ìbánisọ̀rọ̀ O
+ti O
+Cape B-LOC
+Verde I-LOC
 méjèèjì O
 , O
 CV B-ORG
@@ -5914,8 +5959,8 @@ owó O
 ìpè O
 ọ̀fẹ́ O
 fún O
-ìsẹ́jú O
-15 O
+ìsẹ́jú B-DATE
+15 I-DATE
 yóò O
 wà O
 lófò O
@@ -5938,7 +5983,7 @@ lílò O
 kí O
 ó O
 tó O
-d'ọjọ́ O
+d'ọjọ́ B-DATE
 30 I-DATE
 , I-DATE
 Oṣù I-DATE
@@ -6071,8 +6116,8 @@ fi O
 hàn O
 . O
 
-Lọ́dún B-DATE
-náà I-DATE
+Lọ́dún O
+náà O
 , O
 ìdá O
 50 O
@@ -6133,9 +6178,15 @@ ní O
 àrọ́wọ́tó O
 – O
 ilé O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/yor/test.txt
+iṣẹ́ O
+ẹ̀rọ O
+ìbánisọ̀rọ̀ O
+========
 iṣẹ́ I-ORG
 ẹ̀rọ I-ORG
 ìbánisọ̀rọ̀ I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/9/yor/1/test_predictions.txt
 TmCel B-ORG
 tí O
 ó O
@@ -6194,7 +6245,7 @@ sí O
 . O
 50 O
 owó O
-US O
+US B-LOC
 ) O
 . O
 
@@ -6417,7 +6468,7 @@ Ilẹ̀ B-LOC
 - I-LOC
 Adúláwọ̀ I-LOC
 
-'Ilẹ̀ O
+'Ilẹ̀ B-LOC
 - I-LOC
 Adúláwọ̀ I-LOC
 kì O
@@ -6453,24 +6504,31 @@ tí O
 ń O
 ṣiṣẹ́ O
 pẹ̀lú O
-354th B-ORG
-Civil I-ORG
-Affairs I-ORG
-Brigade I-ORG
+354th O
+Civil O
+Affairs O
+Brigade O
 , O
-Special B-ORG
-Functioning I-ORG
-Team I-ORG
+Special O
+Functioning O
+Team O
 , O
 Combined B-ORG
 Joint I-ORG
 Task I-ORG
 Force I-ORG
 - I-ORG
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/yor/test.txt
+Ìho I-ORG
+Ilẹ̀ I-ORG
+- I-ORG
+Adúláwọ̀ I-ORG
+========
 Ìho B-ORG
 Ilẹ̀ I-LOC
 - I-LOC
 Adúláwọ̀ I-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/9/yor/1/test_predictions.txt
 , O
 ń O
 tọ́jú O
@@ -6500,11 +6558,11 @@ Djibouti B-LOC
 Àwòrán O
 láti O
 àkàtà O
-Ọmọ O
-- O
-ogún O
-Òfuurufú O
-US B-LOC
+Ọmọ B-ORG
+- I-ORG
+ogún I-ORG
+Òfuurufú I-ORG
+US I-ORG
 Ẹ̀ka O
 ìmọ̀ O
 ẹ̀rọ O
@@ -6766,7 +6824,7 @@ lórí O
 ìṣàyẹ̀wò O
 egbògi O
 àjẹsára O
-BCG B-ORG
+BCG O
 fún O
 ikọ́ O
 - O
@@ -6855,7 +6913,7 @@ apooògùntà O
 tí O
 ó O
 fi O
-Yúróòpù O
+Yúróòpù B-LOC
 tàbí O
 ilẹ̀ O
 Amẹ́ríkà B-LOC
@@ -7011,10 +7069,10 @@ sọ O
 . O
 
 Ní O
-àárín B-DATE
-ọ̀sẹ̀ I-DATE
-yẹn I-DATE
-kan I-DATE
+àárín O
+ọ̀sẹ̀ O
+yẹn O
+kan O
 náà O
 , O
 onímọ̀ O
@@ -7180,7 +7238,7 @@ tí O
 wọ́n O
 dá O
 Oníṣègùn O
-Muyembe B-LOC
+Muyembe B-PER
 ní O
 ẹ̀bí O
 nítorí O
@@ -7403,6 +7461,15 @@ orílẹ̀ O
 Zimbabwe B-LOC
 , O
 ní O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/yor/test.txt
+àárín O
+àwọn O
+ọdún O
+tí O
+ó O
+ré O
+kọjá O
+========
 àárín B-DATE
 àwọn I-DATE
 ọdún I-DATE
@@ -7410,6 +7477,7 @@ tí I-DATE
 ó I-DATE
 ré I-DATE
 kọjá I-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/9/yor/1/test_predictions.txt
 kí O
 a O
 tó O
@@ -7496,7 +7564,7 @@ tí O
 a O
 pè O
 ní O
-Trovan B-LOC
+Trovan O
 ní O
 ara O
 àwọn O
@@ -8355,8 +8423,13 @@ kan O
 — O
 lábẹ́ O
 ìtọ́nàa O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/yor/test.txt
+Oníṣègùn O
+Muyembe B-PER
+========
 Oníṣègùn B-ORG
 Muyembe I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/9/yor/1/test_predictions.txt
 àti O
 ìjọba B-ORG
 orílẹ̀ I-ORG
@@ -8601,8 +8674,8 @@ bá O
 ṣe O
 ìdánwò O
 ní O
-Ilẹ̀ O
-òyìnbó O
+Ilẹ̀ B-LOC
+òyìnbó I-LOC
 ? O
 
 Ní O
@@ -9548,8 +9621,8 @@ sí O
 ẹ̀wọ̀n O
 ọdún B-DATE
 méjì I-DATE
-àti O
-àbọ̀ O
+àti I-DATE
+àbọ̀ I-DATE
 pẹ̀lú O
 kí O
 ẹnìkọ̀ọ̀kan O
@@ -9846,8 +9919,8 @@ tó O
 000 O
 tọwọ́bọ̀ O
 ní O
-ìbẹ̀rẹ̀ O
-oṣù B-DATE
+ìbẹ̀rẹ̀ B-DATE
+oṣù I-DATE
 Karùn I-DATE
 - I-DATE
 ún I-DATE
@@ -10063,8 +10136,8 @@ tí O
 ó O
 kẹ́yìn O
 lẹ́yìn O
-ìgbẹ́sẹ̀lé B-DATE
-ọdún I-DATE
+ìgbẹ́sẹ̀lé O
+ọdún B-DATE
 - I-DATE
 un I-DATE
 2015 I-DATE
@@ -10352,8 +10425,8 @@ ní O
 . O
 
 RSF B-ORG
-to I-ORG
-Burundi I-ORG
+to O
+Burundi B-LOC
 sí O
 ipò O
 160 O
@@ -10712,8 +10785,13 @@ iléèwé B-ORG
 Gíga I-ORG
 Ìjọba I-ORG
 Obìnrin I-ORG
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/yor/test.txt
+ní I-ORG
+Chibok I-ORG
+========
 ní O
 Chibok B-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/9/yor/1/test_predictions.txt
 ẹ̀bà O
 Maidiguri B-LOC
 , O
@@ -10936,12 +11014,21 @@ jí O
 gbé O
 ní O
 iléèwé O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/yor/test.txt
+Kọ́lẹ̀jì B-ORG
+ìjọba I-ORG
+Àpapọ̀ I-ORG
+ti I-ORG
+Buni I-ORG
+Yadi I-ORG
+========
 Kọ́lẹ̀jì O
 ìjọba I-ORG
 Àpapọ̀ O
 ti O
 Buni B-LOC
 Yadi I-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/9/yor/1/test_predictions.txt
 ní O
 Ìpínlẹ̀ O
 Yobe B-LOC
@@ -11104,8 +11191,8 @@ olóhùn O
 kan O
 láti O
 inú O
-Ilé B-LOC
-Funfun I-LOC
+Ilé O
+Funfun O
 síta O
 — O
 tí O
@@ -11135,11 +11222,11 @@ ni O
 ó O
 gba O
 àwọn O
-ọmọ O
-ogun O
-orílẹ̀ O
-èdè O
-Nàìjíríà B-LOC
+ọmọ B-ORG
+ogun I-ORG
+orílẹ̀ I-ORG
+èdè I-ORG
+Nàìjíríà I-ORG
 láti O
 gba O
 ọmọdébìnrin O
@@ -11738,7 +11825,7 @@ mì O
 # O
 ArewaMeToo O
 àti O
-NorthNormal O
+NorthNormal B-ORG
 
 Ní O
 ọjọ́ B-DATE
@@ -11788,6 +11875,15 @@ Kano B-LOC
 tí O
 í O
 ṣe O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/yor/test.txt
+àríwá B-LOC
+- I-LOC
+ìlà I-LOC
+- I-LOC
+oòrùn I-LOC
+orílẹ̀ I-LOC
+èdè I-LOC
+========
 àríwá O
 - O
 ìlà O
@@ -11795,6 +11891,7 @@ tí O
 oòrùn O
 orílẹ̀ O
 èdè O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/9/yor/1/test_predictions.txt
 Nàìjíríà I-LOC
 , O
 ti O
@@ -11994,7 +12091,7 @@ ayélujára O
 ìfẹ̀hònúhàn O
 ìta O
 gbangba O
-NorthNormal B-LOC
+NorthNormal B-ORG
 ní O
 Bauchi B-LOC
 , O
@@ -12008,7 +12105,7 @@ Niger B-LOC
 ọlọ́jọ́ B-DATE
 mẹ́ẹ̀ẹ́dógún I-DATE
 ti O
-NorthNormal B-LOC
+NorthNormal B-ORG
 wá O
 sáyé O
 nínú O
@@ -12023,7 +12120,7 @@ ní O
 mẹ́jọ O
 ní O
 òkè O
-Ọya B-LOC
+Ọya O
 àti O
 ní O
 Abuja B-LOC
@@ -12064,7 +12161,7 @@ iwájú O
 nínú O
 ìjà O
 fún O
-VAPP B-ORG
+VAPP O
 , O
 """" O
 Hashim B-PER
@@ -12092,7 +12189,7 @@ tí O
 ó O
 ń O
 yíde O
-NorthNormal O
+NorthNormal B-ORG
 """" O
 . O
 
@@ -12139,7 +12236,7 @@ ti O
 ṣe O
 wí O
 , O
-NorthNormal O
+NorthNormal B-ORG
 súyọ O
 láti O
 ara O
@@ -12221,7 +12318,7 @@ un I-DATE
 
 Lábẹ́ O
 Àbá O
-VAPP B-ORG
+VAPP O
 — O
 ìlọsíwájú O
 òfin O
@@ -12343,7 +12440,7 @@ Abala O
 ti O
 Àbá O
 òfin O
-VAPP B-ORG
+VAPP O
 fi O
 lélẹ̀ O
 wí O
@@ -12537,7 +12634,7 @@ ayọnilẹ́nu O
 gbèrò O
 láti O
 sọ O
-ArewaMeToo B-ORG
+ArewaMeToo O
 di O
 ohun O
 tí O
@@ -12549,7 +12646,7 @@ sí O
 nípa O
 “ O
 síso O
-ArewaMeToo B-ORG
+ArewaMeToo O
 pọ̀ O
 mọ́ O
 LGBTQ O
@@ -12636,7 +12733,7 @@ náà O
 ní O
 abẹ́ O
 òfin O
-Sẹ́ríà B-LOC
+Sẹ́ríà O
 àti O
 òfin O
 ìfìyàjẹ O
@@ -12686,7 +12783,7 @@ pe O
 # O
 ArewaToo O
 àti O
-NorthNormal O
+NorthNormal B-ORG
 ní O
 ohun O
 tí O
@@ -12752,7 +12849,7 @@ olùdásílẹ̀ O
 # O
 ArewaToo O
 àti O
-NorthNormal O
+NorthNormal B-ORG
 ( O
 a O
 gba O
@@ -12826,7 +12923,7 @@ látàrí O
 ìpolongo O
 ArewaMeToo O
 àti O
-NorthNormal O
+NorthNormal B-ORG
 . O
 
 Àmọ́pé O
@@ -12858,10 +12955,10 @@ ní O
 ìrẹ̀wẹ̀síọkàn O
 nípa O
 ìṣèjọba O
-Àríwá O
-orílẹ̀ O
-èdè O
-Nàìjíríà B-LOC
+Àríwá B-LOC
+orílẹ̀ I-LOC
+èdè I-LOC
+Nàìjíríà I-LOC
 àti O
 bí O
 wọ́n O
@@ -13132,13 +13229,13 @@ láti O
 tẹramọ́ O
 isẹ́ O
 Abẹnugan O
-ilé O
-- O
-ìgbìmọ̀ O
-asojú O
-lórílẹ̀ O
-èdè O
-Nàíjíríà B-LOC
+ilé B-ORG
+- I-ORG
+ìgbìmọ̀ I-ORG
+asojú I-ORG
+lórílẹ̀ I-ORG
+èdè I-ORG
+Nàíjíríà I-ORG
 , O
 Femi B-PER
 Gbajabiamila I-PER
@@ -13170,7 +13267,11 @@ lágbàáyé O
 . O
 
 Ọ̀gbẹ́ni O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/yor/test.txt
+Gbàjàbíàmílà B-PER
+========
 Gbàjàbíàmílà O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/9/yor/1/test_predictions.txt
 ní O
 bó O
 tilẹ̀ O
@@ -13280,8 +13381,8 @@ orílẹ̀ O
 Nàíjíríà B-LOC
 . O
 
-May B-PER
-Day I-PER
+May B-DATE
+Day I-DATE
 : O
 Abẹnugan O
 ilé O
@@ -13294,14 +13395,14 @@ fún O
 àwọn O
 òṣìṣẹ́ O
 Abẹnugan O
-ilé O
-- O
-ìgbìmọ̀ O
-asòfin O
-àgbà O
-lórílẹ̀ O
-èdè O
-Nàíjíríà B-LOC
+ilé B-ORG
+- I-ORG
+ìgbìmọ̀ I-ORG
+asòfin I-ORG
+àgbà I-ORG
+lórílẹ̀ I-ORG
+èdè I-ORG
+Nàíjíríà I-ORG
 , O
 Ahmad B-PER
 Lawan I-PER
@@ -13438,11 +13539,19 @@ ilé O
 aṣòfin O
 ni O
 ayẹyẹ O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/yor/test.txt
+ọjọ́ O
+àwọn O
+òṣìṣẹ́ O
+tọdún O
+yíì O
+========
 ọjọ́ B-DATE
 àwọn I-DATE
 òṣìṣẹ́ I-DATE
 tọdún I-DATE
 yíì I-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/9/yor/1/test_predictions.txt
 wáyé O
 lásìkò O
 tí O
@@ -13556,7 +13665,11 @@ Corona O
 jẹ́ O
 méjídínláàdọ́rindíngbẹ̀rúnméjì O
 ( O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/yor/test.txt
+1932 O
+========
 1932 I-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/9/yor/1/test_predictions.txt
 ) O
 , O
 nígbà O
@@ -13621,11 +13734,11 @@ reported O
 ; O
 80 O
 - O
-Kano45 B-LOC
+Kano45 O
 - O
-Lagos12 B-LOC
+Lagos12 O
 - O
-Gombe9 B-LOC
+Gombe9 O
 - O
 Bauchi9 B-LOC
 - O
@@ -13633,43 +13746,50 @@ Sokoto7 B-LOC
 - O
 Borno7 B-LOC
 - O
-Edo6 B-LOC
+Edo6 O
 - O
-Rivers6 B-LOC
+Rivers6 O
 - O
 Ogun4 B-LOC
 - O
-FCT4 B-ORG
+FCT4 O
 - O
-Akwa B-LOC
-Ibom4 I-LOC
+Akwa O
+Ibom4 O
 - O
-Bayelsa3 B-LOC
+Bayelsa3 O
 - O
-Kaduna2 B-LOC
+Kaduna2 O
 - O
-Oyo2 B-LOC
+Oyo2 O
 - O
-Delta2 B-LOC
+Delta2 O
 - O
-Nasarawa1 B-LOC
+Nasarawa1 O
 - O
-Ondo1 B-LOC
+Ondo1 O
 - O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/yor/test.txt
+Kebbi11 O
+: O
+50pm B-DATE
+30th I-DATE
+========
 Kebbi11 B-LOC
 : I-DATE
 50pm I-DATE
 30th B-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/9/yor/1/test_predictions.txt
 April I-DATE
-- I-DATE
-1932 I-DATE
+- O
+1932 O
 confirmed O
 cases O
 of O
 # O
 COVID19 O
 in O
-NigeriaDischarged B-LOC
+NigeriaDischarged O
 : O
 319Deaths O
 : O
@@ -13677,7 +13797,7 @@ NigeriaDischarged B-LOC
 pic O
 . O
 
-twitter B-ORG
+twitter O
 . O
 
 com O
@@ -13702,7 +13822,11 @@ ní O
 Kano B-LOC
 - O
 Dr O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/yor/test.txt
+Osagie B-PER
+========
 Osagie I-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/9/yor/1/test_predictions.txt
 Mínísítà O
 fún O
 ètò O
@@ -13711,8 +13835,8 @@ lórílẹ̀ O
 èdè O
 Nàíjíríà B-LOC
 , O
-Dr B-PER
-Osagie I-PER
+Dr O
+Osagie B-PER
 Ehanire I-PER
 ti O
 ní O
@@ -13857,8 +13981,8 @@ sínú O
 ewu O
 . O
 
-Adémọ́lá O
-Adépọ́jú O
+Adémọ́lá B-PER
+Adépọ́jú I-PER
 . O
 
 Kò O
@@ -13952,7 +14076,7 @@ COVID O
 19 O
 . O
 
-Nwajiuba B-PER
+Nwajiuba O
 tún O
 sọ O
 pé O
@@ -14130,14 +14254,18 @@ bẹ̀rẹ̀ O
 isẹ́ O
 – O
 Minisita O
-FCT B-ORG
+FCT B-LOC
 Mínísítà O
 fún O
 ìlú O
 Àbújá B-LOC
 , O
 Alhaji O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/yor/test.txt
+Muhammad B-PER
+========
 Muhammad I-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/9/yor/1/test_predictions.txt
 Musa I-PER
 Bello I-PER
 ti O
@@ -14183,8 +14311,8 @@ fún O
 ti O
 ọdún B-DATE
 2019 I-DATE
-/ I-DATE
-2020 I-DATE
+/ O
+2020 B-DATE
 tí O
 a O
 
@@ -14222,8 +14350,8 @@ tí O
 ó O
 gbé O
 jáde O
-lọ́jọ́ B-DATE
-ìsẹ́gun I-DATE
+lọ́jọ́ O
+ìsẹ́gun O
 pé O
 ètò O
 ẹ̀kọ́ O
@@ -14322,7 +14450,7 @@ winá O
 ìjọba O
 . O
 
-Máràfá O
+Máràfá B-PER
 tún O
 tẹ̀síwájú O
 pé O
@@ -14382,7 +14510,7 @@ BUHARI I-PER
 ỌMỌ O
 ORÍLẸ̀ O
 ÈDÈ O
-NÀÍJÍRÍÀ O
+NÀÍJÍRÍÀ B-LOC
 LÓRÍ O
 Ẹ̀RỌ O
 MÓHÙN O
@@ -14405,14 +14533,23 @@ GBÉLÉ O
 NÍ O
 ÀWỌN O
 ÌPÍNLẸ̀ O
-EKO O
+EKO B-LOC
 , O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/yor/test.txt
+OGUN B-LOC
+ÀTI O
+ÌLÚ O
+ABUJA B-LOC
+, O
+FCT B-LOC
+========
 OGUN O
 ÀTI I-ORG
 ÌLÚ I-ORG
 ABUJA I-ORG
 , O
 FCT B-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/9/yor/1/test_predictions.txt
 , O
 LÓRÍ O
 ÌTÀNKÁLẸ̀ O
@@ -14427,21 +14564,30 @@ NÍ O
 TÓ O
 WÁYÉ O
 NÍLÙÚ O
-ÀBÚJÁ O
-LỌ́JỌ́ O
-AJÉ O
-, O
-ỌJỌ́ B-DATE
+ÀBÚJÁ B-LOC
+LỌ́JỌ́ B-DATE
+AJÉ I-DATE
+, I-DATE
+ỌJỌ́ I-DATE
 KẸTÀDÍNLỌ́GBỌ́N I-DATE
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/yor/test.txt
+, I-DATE
+OSÙ I-DATE
+========
 , O
 OSÙ B-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/9/yor/1/test_predictions.txt
 KẸRIN I-DATE
 , I-DATE
 ỌDÚN I-DATE
 , I-DATE
 2020 I-DATE
 ( O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/yor/test.txt
+MONDAY B-DATE
+========
 MONDAY I-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/9/yor/1/test_predictions.txt
 , I-DATE
 27th I-DATE
 APRIL I-DATE
@@ -14572,7 +14718,11 @@ ní O
 Ògùn B-LOC
 àti O
 Àbújá B-LOC
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/yor/test.txt
+5 O
+========
 5 I-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/9/yor/1/test_predictions.txt
 . O
 
 A O
@@ -14594,7 +14744,7 @@ karùn I-DATE
 , I-DATE
 ọdun I-DATE
 2020 I-DATE
-yii I-DATE
+yii O
 . O
 
 Àwọn O
@@ -14621,27 +14771,27 @@ karùn I-DATE
 2020 I-DATE
 yìí O
 láti O
-aago B-DATE
-mẹ́jọ I-DATE
-òwúrọ̀ I-DATE
+aago O
+mẹ́jọ O
+òwúrọ̀ O
 títí O
 di O
-aago B-DATE
-mẹ́fà I-DATE
-àsálẹ́ I-DATE
+aago O
+mẹ́fà O
+àsálẹ́ O
 . O
 
 Ètò O
 ìgbélé O
 yóò O
 wà O
-láti O
-aago B-DATE
+láti B-DATE
+aago I-DATE
 mẹ́jọ̀ I-DATE
 àsálẹ́ I-DATE
-títí O
-di O
-aago B-DATE
+títí I-DATE
+di I-DATE
+aago I-DATE
 mẹ́fà I-DATE
 òwúrọ̀ I-DATE
 . O
@@ -14695,7 +14845,11 @@ fún O
 ọ̀sẹ̀ B-DATE
 méjì I-DATE
 gbáko O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/yor/test.txt
+11 O
+========
 11 I-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/9/yor/1/test_predictions.txt
 . O
 
 Mo O
@@ -14759,12 +14913,17 @@ isẹ́ O
 àwọn O
 aláàánú O
 , O
-àjọ O
-ìsọkan O
-àgbáyé O
+àjọ B-ORG
+ìsọkan I-ORG
+àgbáyé I-ORG
 , O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/yor/test.txt
+àjọ B-ORG
+aláwọ̀ I-ORG
+========
 àjọ O
 aláwọ̀ O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/9/yor/1/test_predictions.txt
 funfun I-ORG
 ( O
 European B-ORG
@@ -14879,8 +15038,13 @@ mí O
 lógún O
 jùlọ O
 – O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/yor/test.txt
+Aarẹ O
+Buhari B-PER
+========
 Aarẹ B-PER
 Buhari I-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/9/yor/1/test_predictions.txt
 Àarẹ O
 orílẹ̀ O
 èdè O
@@ -15097,12 +15261,21 @@ Kano B-LOC
 tí O
 ó O
 jẹ́ O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/yor/test.txt
+Àríwá B-LOC
+ìwọ I-LOC
+oòrùn I-LOC
+orílẹ̀ I-LOC
+èdè I-LOC
+Nàíjíríà I-LOC
+========
 Àríwá O
 ìwọ O
 oòrùn O
 orílẹ̀ O
 èdè O
 Nàíjíríà B-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/9/yor/1/test_predictions.txt
 látàrí O
 bí O
 àwọn O
@@ -15284,7 +15457,7 @@ jáde O
 lọ́jọ́ B-DATE
 Àikú I-DATE
 nílùú O
-Àbújá O
+Àbújá B-LOC
 , O
 sọ O
 pé O
@@ -15311,7 +15484,7 @@ wà O
 ní O
 orílẹ̀ O
 èdè O
-Tógò O
+Tógò B-LOC
 . O
 
 Gẹ́gẹ́ O
@@ -15589,8 +15762,8 @@ lónìí O
 yìí O
 , O
 ní O
-déédé B-DATE
-aago I-DATE
+déédé O
+aago B-DATE
 mẹ́jọ I-DATE
 àsálẹ́ I-DATE
 , I-DATE
@@ -15599,9 +15772,9 @@ Ajé I-DATE
 , I-DATE
 ọjọ́ I-DATE
 kẹtàdínlọ́gbọ̀n I-DATE
-, O
+, I-DATE
 
-osù B-DATE
+osù I-DATE
 kẹrin I-DATE
 , I-DATE
 ọdún I-DATE
@@ -15689,8 +15862,8 @@ kejìdínlọ́gbọ̀n I-DATE
 , I-DATE
 osu I-DATE
 kẹrin I-DATE
-( I-DATE
-April I-DATE
+( O
+April B-DATE
 28 I-DATE
 ) O
 lẹ́yìn O
@@ -15780,7 +15953,7 @@ kónílé O
 gbélé O
 bẹ̀rẹ̀ O
 nílùú O
-Àbújá O
+Àbújá B-LOC
 àti O
 àwọn O
 ìpínlẹ̀ O
@@ -16686,24 +16859,24 @@ reported O
 ; O
 33 O
 in O
-Lagos18 B-LOC
+Lagos18 O
 in O
-Borno12 B-LOC
+Borno12 O
 in O
-Osun9 B-LOC
+Osun9 O
 in O
-Katsina4 B-LOC
+Katsina4 O
 in O
-Kano4 B-LOC
+Kano4 O
 in O
-Ekiti3 B-LOC
+Ekiti3 O
 in O
-Edo3 B-LOC
+Edo3 O
 in O
-Bauchi1 B-LOC
+Bauchi1 O
 in O
-ImoAs B-LOC
-at B-DATE
+ImoAs O
+at O
 11 B-DATE
 : I-DATE
 55 I-DATE
@@ -16731,7 +16904,7 @@ Discharged O
 pic O
 . O
 
-twitter B-ORG
+twitter O
 . O
 
 com O
@@ -17413,16 +17586,24 @@ wọn O
 NCDC B-ORG
 . O
 
-gov B-ORG
+gov O
 ní O
 déédé O
 aago B-DATE
 méjìlá I-DATE
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/yor/test.txt
+kọjá I-DATE
+ìsẹ́jú I-DATE
+márùndínlọ́gbọ̀n I-DATE
+, I-DATE
+lọ́jọ́ I-DATE
+========
 kọjá O
 ìsẹ́jú O
 márùndínlọ́gbọ̀n O
 , O
 lọ́jọ́ B-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/9/yor/1/test_predictions.txt
 Ẹtì I-DATE
 , I-DATE
 ọjọ́ I-DATE
@@ -17475,10 +17656,15 @@ ilu O
 Abuja B-LOC
 , O
 Federal B-LOC
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/yor/test.txt
+Capital I-LOC
+Territory I-LOC
+========
 Capital O
 Territory O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/9/yor/1/test_predictions.txt
 ( O
-FCT B-ORG
+FCT B-LOC
 ) O
 , O
 méjì O
@@ -17520,24 +17706,24 @@ reported O
 ; O
 80 O
 in O
-Lagos21 B-LOC
+Lagos21 O
 in O
-Gombe5 B-LOC
+Gombe5 O
 in O
 FCT2 O
 in O
-Zamfara2 B-LOC
+Zamfara2 O
 in O
-Edo1 B-LOC
+Edo1 O
 in O
-Ogun1 B-LOC
+Ogun1 O
 in O
-Oyo1 B-LOC
+Oyo1 O
 in O
-Kaduna1 B-LOC
+Kaduna1 O
 in O
-SokotoAs B-LOC
-at B-DATE
+SokotoAs O
+at O
 11 B-DATE
 : I-DATE
 30 I-DATE
@@ -17565,7 +17751,7 @@ Discharged O
 pic O
 . O
 
-twitter B-ORG
+twitter O
 . O
 
 com O
@@ -17629,13 +17815,13 @@ igbákejì O
 akọ̀wé O
 àgbà O
 
-ìpínlẹ̀ O
-tó O
-ń O
-mójútó O
-ètò O
-ilẹ̀ O
-Afrika B-LOC
+ìpínlẹ̀ B-ORG
+tó I-ORG
+ń I-ORG
+mójútó I-ORG
+ètò I-ORG
+ilẹ̀ I-ORG
+Afrika I-ORG
 , O
 Tibor B-PER
 Nagy I-PER
@@ -17691,7 +17877,7 @@ Nàíjíríà B-LOC
 Nagy B-PER
 sọ O
 pé O
-‘‘Kyari O
+‘‘Kyari B-PER
 jẹ́ O
 olóòótọ́ O
 adarí O
@@ -17868,8 +18054,8 @@ láti O
 ìlú O
 Kánò B-LOC
 , O
-Alhaji B-PER
-Sabiu I-PER
+Alhaji O
+Sabiu B-PER
 Bàkó I-PER
 àti O
 adarí O
@@ -17880,8 +18066,8 @@ Bataure B-PER
 Abdulazziz I-PER
 . O
 
-Adémọ́lá O
-Adépọ́jú O
+Adémọ́lá B-PER
+Adépọ́jú I-PER
 . O
 
 COVID O
@@ -18034,7 +18220,7 @@ Federal B-LOC
 Capital I-LOC
 Territory O
 ( O
-FCT B-ORG
+FCT B-LOC
 ) O
 , O
 márùn O
@@ -18103,23 +18289,27 @@ reported O
 ; O
 78 O
 in O
-Lagos14 B-LOC
+Lagos14 O
 in O
 FCT5 O
 in O
-Ogun4 B-LOC
+Ogun4 O
 in O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/yor/test.txt
+Gombe3 O
+========
 Gombe3 B-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/9/yor/1/test_predictions.txt
 Borno2 O
 in O
-Akwa B-LOC
-Ibom1 I-LOC
+Akwa O
+Ibom1 O
 in O
-Kwara1 B-LOC
+Kwara1 O
 in O
 Plateau B-LOC
 As O
-at B-DATE
+at O
 11 B-DATE
 : I-DATE
 30 I-DATE
@@ -18149,7 +18339,7 @@ TakeResponsibility O
 pic O
 . O
 
-twitter B-ORG
+twitter O
 . O
 
 com O
@@ -18261,8 +18451,13 @@ Dáramólá I-PER
 sọ O
 pé O
 ìdánilẹ́kọ̀ọ́ O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/yor/test.txt
+ọlọ́sẹ̀ O
+- O
+========
 ọlọ́sẹ̀ B-DATE
 - I-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/9/yor/1/test_predictions.txt
 kan O
 parí O
 nípa O
@@ -18275,11 +18470,11 @@ C O
 tó O
 wà O
 ní O
-pápá O
-ọkọ̀ O
-òfurufú O
-Nnamdi B-PER
-Azikwe I-PER
+pápá B-LOC
+ọkọ̀ I-LOC
+òfurufú I-LOC
+Nnamdi I-LOC
+Azikwe I-LOC
 tó O
 ń O
 mójútó O
@@ -18349,7 +18544,7 @@ ti O
 se O
 ọkọ̀ O
 òfurufú O
-NAF O
+NAF B-ORG
 C O
 - O
 130H O
@@ -18374,15 +18569,15 @@ pàjáwìrì O
 . O
 
 Adarí O
-ilé O
-- O
-isẹ́ O
-ológun O
-ọkọ̀ O
-òfurufú O
-lórílẹ̀ O
-èdè O
-Nàíjíríà B-LOC
+ilé B-ORG
+- I-ORG
+isẹ́ I-ORG
+ológun I-ORG
+ọkọ̀ I-ORG
+òfurufú I-ORG
+lórílẹ̀ I-ORG
+èdè I-ORG
+Nàíjíríà I-ORG
 , O
 ọ̀gágun O
 Sadique B-PER
@@ -18452,13 +18647,13 @@ mẹ́rin I-DATE
 ààbọ̀ I-DATE
 sẹ́yìn I-DATE
 ní O
-ilé O
-- O
-isẹ́ O
-ikọ̀ O
-ọmọ O
-ogun O
-òfurufú O
+ilé B-ORG
+- I-ORG
+isẹ́ I-ORG
+ikọ̀ I-ORG
+ọmọ I-ORG
+ogun I-ORG
+òfurufú I-ORG
 tí O
 ń O
 gbìyànjú O
@@ -18516,12 +18711,12 @@ ibùgbé O
 ní O
 ìpínlẹ̀ O
 Borno B-LOC
-Ilé O
-- O
-isẹ́ O
-ológun O
-orí O
-afẹ́fẹ́ O
+Ilé B-ORG
+- I-ORG
+isẹ́ I-ORG
+ológun I-ORG
+orí I-ORG
+afẹ́fẹ́ I-ORG
 , O
 iyẹn O
 Air B-ORG
@@ -18552,8 +18747,8 @@ ibùgbé O
 ní O
 Bulawa B-LOC
 nínú O
-igbó O
-Sambisa B-LOC
+igbó B-LOC
+Sambisa I-LOC
 tó O
 wà O
 ní O
@@ -18665,7 +18860,7 @@ sé O
 sojú O
 . O
 
-RAMADAN B-PER
+RAMADAN O
 : O
 ẹ O
 máa O
@@ -18751,7 +18946,7 @@ nípa O
 kíkópa O
 nínú O
 ààwẹ̀ O
-Ramadan B-PER
+Ramadan B-DATE
 àyàfi O
 tí O
 wọn O
@@ -18861,7 +19056,7 @@ tẹ̀síwájú O
 pé O
 “ O
 Lásìkò O
-Ramadan B-PER
+Ramadan B-DATE
 yíi O
 , O
 ìbásepọ̀ O
@@ -19033,16 +19228,16 @@ jẹ O
 nípè O
 . O
 
-Ajọ O
-to O
-n O
-gbogun O
-ti O
-ajakalẹ O
-aarun O
-lórílẹ̀ O
-èdè O
-Nàíjíríà B-LOC
+Ajọ B-ORG
+to I-ORG
+n I-ORG
+gbogun I-ORG
+ti I-ORG
+ajakalẹ I-ORG
+aarun I-ORG
+lórílẹ̀ I-ORG
+èdè I-ORG
+Nàíjíríà I-ORG
 ( O
 NCDC B-ORG
 ) O
@@ -19096,11 +19291,17 @@ ni O
 ilu O
 Abuja B-LOC
 , O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/yor/test.txt
+Federal B-LOC
+Capital I-LOC
+Territory I-LOC
+========
 Federal O
 Capital O
 Territory O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/9/yor/1/test_predictions.txt
 ( O
-FCT B-ORG
+FCT B-LOC
 ) O
 , O
 mẹ́rin O
@@ -19146,24 +19347,24 @@ reported O
 ; O
 74 O
 in O
-Lagos5 B-LOC
+Lagos5 O
 in O
-Katsina4 B-LOC
+Katsina4 O
 in O
-Ogun2 B-LOC
+Ogun2 O
 in O
-Delta2 B-LOC
+Delta2 O
 in O
-Edo1 B-LOC
+Edo1 O
 in O
-Kwara1 B-LOC
+Kwara1 O
 in O
-Oyo1 B-LOC
+Oyo1 O
 in O
-FCT1 B-LOC
+FCT1 O
 in O
-AdamawaAs B-LOC
-at B-DATE
+AdamawaAs O
+at O
 11 B-DATE
 : I-DATE
 25 I-DATE
@@ -19191,7 +19392,7 @@ Discharged O
 pic O
 . O
 
-twitter B-ORG
+twitter O
 . O
 
 com O
@@ -19305,8 +19506,13 @@ Aṣòfin I-ORG
 Ìpínlẹ̀ I-ORG
 Èkó I-ORG
 , O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/yor/test.txt
+Aṣòfin O
+Hakeem B-PER
+========
 Aṣòfin B-ORG
 Hakeem I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/9/yor/1/test_predictions.txt
 , O
 tí O
 ó O
@@ -19401,9 +19607,15 @@ gbọ̀ngàn O
 fún O
 àyẹ̀wò O
 ní O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/yor/test.txt
+àgbègbè B-LOC
+Mobọ́lájí I-LOC
+Johnson I-LOC
+========
 àgbègbè O
 Mobọ́lájí B-PER
 Johnson I-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/9/yor/1/test_predictions.txt
 ní O
 Oníkàń B-LOC
 ; O
@@ -19426,12 +19638,21 @@ Etí I-ORG
 tó O
 wà O
 ní O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/yor/test.txt
+Ilé B-ORG
+- I-ORG
+Ìwòsàn I-ORG
+gbogboògbò I-ORG
+ní I-ORG
+Gbàgádà I-ORG
+========
 Ilé B-LOC
 - I-LOC
 Ìwòsàn O
 gbogboògbò O
 ní O
 Gbàgádà B-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/9/yor/1/test_predictions.txt
 . O
 
 Àwọn O
@@ -19820,7 +20041,7 @@ sí O
 ikú O
 onídàájọ́ O
 àgbà O
-Akínjídé O
+Akínjídé B-PER
 hàn O
 nínú O
 ọ̀rọ̀ O
@@ -19853,7 +20074,7 @@ di O
 mímọ́ O
 pé O
 olóògbé O
-Akínjídé O
+Akínjídé B-PER
 ti O
 fi O
 ìgbà O
@@ -20034,7 +20255,7 @@ se O
 ọmọ O
 bíbí O
 ilẹ̀ O
-Ìbàdàn O
+Ìbàdàn B-LOC
 ní O
 ìpínlẹ̀ O
 Ọ̀yọ́ B-LOC
@@ -20084,8 +20305,8 @@ PDP B-ORG
 ) O
 , O
 olóyè O
-Jùmọ̀ké O
-Akínjídé O
+Jùmọ̀ké B-PER
+Akínjídé I-PER
 àti O
 gbogbo O
 ọmọ O
@@ -20113,7 +20334,7 @@ gbogbo O
 ọmọ O
 bíbí O
 ìpínlẹ̀ O
-Ọ̀yọ́ O
+Ọ̀yọ́ B-LOC
 àti O
 ọmọ O
 orílẹ̀ O
@@ -20160,15 +20381,21 @@ Zamfara B-LOC
 Ilé O
 - O
 isẹ́ O
-ọmọ O
-ogun O
-orílẹ̀ O
-èdè O
-Nàíjíríà B-LOC
+ọmọ B-ORG
+ogun I-ORG
+orílẹ̀ I-ORG
+èdè I-ORG
+Nàíjíríà I-ORG
 , O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/1/yor/test.txt
+Operation O
+Hadarin O
+Daji O
+========
 Operation B-ORG
 Hadarin B-PER
 Daji I-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/9/yor/1/test_predictions.txt
 ti O
 gbẹ̀mi O
 àwọn O
@@ -20212,14 +20439,14 @@ sọ̀rọ̀ O
 yíí O
 lọ́jọ́rú O
 nílùú O
-Àbújá O
+Àbújá B-LOC
 , O
 pé O
-ọmọ O
-ogun O
-orílẹ̀ O
-èdè O
-Nàíjíríà B-LOC
+ọmọ B-ORG
+ogun I-ORG
+orílẹ̀ I-ORG
+èdè I-ORG
+Nàíjíríà I-ORG
 mẹ́rin O
 ló O
 kú O
@@ -20310,9 +20537,9 @@ fáyé O
 ní O
 ìkan O
 bíi O
-agogo O
-kan O
-òru B-DATE
+agogo B-DATE
+kan I-DATE
+òru I-DATE
 ọjọ́ I-DATE
 Ìṣẹ́gun I-DATE
 . O
@@ -20334,7 +20561,7 @@ rẹ̀ O
 tó O
 wà O
 nílùú O
-Ìbàdàn O
+Ìbàdàn B-LOC
 lẹ́yìn O
 àìsàn O
 ráńpẹ́ O
@@ -20406,9 +20633,9 @@ fụ́n O
 àwọn O
 ará O
 ìlú O
-Ìjọba O
-ìpínlẹ̀ O
-Kano B-LOC
+Ìjọba B-ORG
+ìpínlẹ̀ I-ORG
+Kano I-ORG
 yóò O
 bẹ̀rẹ̀ O
 sì O
@@ -20508,12 +20735,12 @@ fún O
 ọ̀sẹ̀ B-DATE
 kan I-DATE
 gbáko O
-lọ́jọ́Bọ̀ B-DATE
+lọ́jọ́Bọ̀ O
 ní O
 déédé O
 aago B-DATE
 mẹ́ẹ̀wá I-DATE
-àsálẹ́ O
+àsálẹ́ I-DATE
 pé O
 ètò O
 kónílé O
@@ -20526,7 +20753,7 @@ ní O
 . O
 
 Àmọ́ṣá O
-Gàndújè O
+Gàndújè B-PER
 ní O
 ó O
 se O

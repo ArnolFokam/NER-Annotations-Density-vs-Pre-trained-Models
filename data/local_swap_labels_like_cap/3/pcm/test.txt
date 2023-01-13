@@ -124,7 +124,7 @@ porn O
 . O
 """" O
 
-Mai B-PER
+Mai O
 tok O
 for O
 twitter B-ORG
@@ -470,7 +470,7 @@ house O
 for O
 Franklin B-LOC
 , O
-Tennessee B-LOC
+Tennessee I-LOC
 for O
 private O
 ceremony O
@@ -653,9 +653,15 @@ Communications O
 Manager O
 for O
 di O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/pcm/test.txt
 Press O
 Bureau O
 of O
+========
+Press B-ORG
+Bureau I-ORG
+of I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/pcm/1/test_predictions.txt
 di O
 UK B-ORG
 Metropolitan I-ORG
@@ -1148,7 +1154,11 @@ nine O
 wey O
 be O
 - O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/pcm/test.txt
 Cruisetopia O
+========
+Cruisetopia B-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/pcm/1/test_predictions.txt
 and O
 Di O
 Icons O
@@ -1488,8 +1498,13 @@ along O
 Lekki B-LOC
 - I-LOC
 Ikoyi I-LOC
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/pcm/test.txt
 link I-LOC
 Bridge I-LOC
+========
+link O
+Bridge O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/pcm/1/test_predictions.txt
 , O
 spread O
 for O
@@ -1530,7 +1545,7 @@ release O
 di O
 music O
 video O
-Agege B-LOC
+Agege B-PER
 while O
 Teckno B-PER
 still O
@@ -1665,11 +1680,19 @@ Ali B-PER
 climb O
 stage O
 for O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/pcm/test.txt
 San B-ORG
 Diego I-ORG
 Comic I-ORG
 - I-ORG
 Con I-ORG
+========
+San B-LOC
+Diego I-LOC
+Comic O
+- I-ORG
+Con O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/pcm/1/test_predictions.txt
 event O
 to O
 reveal O
@@ -1765,7 +1788,7 @@ four O
 of O
 di O
 Marvel B-ORG
-Cinematic O
+Cinematic I-ORG
 Universe O
 project O
 . O
@@ -1793,7 +1816,7 @@ Strange O
 Fantastic O
 Four O
 and O
-Loki O
+Loki B-PER
 . O
 
 Big O
@@ -2373,8 +2396,13 @@ di O
 six O
 songwriters O
 of O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/pcm/test.txt
 Dark O
 Horse O
+========
+Dark B-PER
+Horse I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/pcm/1/test_predictions.txt
 also O
 dey O
 responsible O
@@ -2409,7 +2437,7 @@ damages O
 Katy B-PER
 bin O
 release O
-Dark O
+Dark B-PER
 Horse O
 for O
 2013 B-DATE
@@ -2460,7 +2488,7 @@ on O
 both O
 YouTube O
 and O
-Vevo B-ORG
+Vevo O
 . O
 
 Dem O
@@ -2699,7 +2727,7 @@ and O
 films O
 , O
 including O
-'Jessie' O
+'Jessie' B-PER
 and O
 the O
 'Descendants' O
@@ -2909,7 +2937,11 @@ catch O
 coronavirus O
 . O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/pcm/test.txt
 Nigeria B-ORG
+========
+Nigeria B-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/pcm/1/test_predictions.txt
 Punch I-ORG
 newspaper I-ORG
 headline O
@@ -3413,8 +3445,13 @@ report O
 
 Di O
 Ogun B-LOC
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/pcm/test.txt
 State I-LOC
 government O
+========
+State I-ORG
+government I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/pcm/1/test_predictions.txt
 inside O
 statement O
 tok O
@@ -3507,8 +3544,8 @@ Ikuenobe B-PER
 wey O
 follow O
 BBC B-ORG
-Yemisi B-PER
-Adegoke I-PER
+Yemisi I-ORG
+Adegoke I-ORG
 tok O
 say O
 di O
@@ -3882,7 +3919,7 @@ infection O
 . O
 
 Lagos B-LOC
-State I-LOC
+State I-ORG
 goment O
 don O
 release O
@@ -4015,8 +4052,8 @@ dem O
 """" O
 tok O
 di O
-health O
-ministry O
+health B-ORG
+ministry I-ORG
 oga O
 . O
 
@@ -4036,8 +4073,8 @@ passengers O
 wey O
 dey O
 flight O
-TK O
-625 O
+TK B-PER
+625 I-DATE
 from O
 Istanbul B-LOC
 , O
@@ -4702,7 +4739,11 @@ join O
 bodi O
 togeda O
 with O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/pcm/test.txt
 African B-ORG
+========
+African O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/pcm/1/test_predictions.txt
 Centre I-ORG
 of I-ORG
 Excellence I-ORG
@@ -5047,7 +5088,7 @@ Monica B-PER
 Bolna'an I-PER
 Dongban I-PER
 - I-PER
-Mensem I-PER
+Mensem B-PER
 Acting O
 President O
 for O
@@ -5209,14 +5250,19 @@ Plateau B-LOC
 State I-LOC
 . O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/pcm/test.txt
 Justice O
 Dongban B-PER
+========
+Justice B-PER
+Dongban I-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/pcm/1/test_predictions.txt
 - I-PER
 Mensem I-PER
 attend O
-St B-ORG
-. I-ORG
-Theresa's I-ORG
+St B-LOC
+. I-LOC
+Theresa's I-LOC
 Girls I-ORG
 School I-ORG
 , O
@@ -5244,7 +5290,11 @@ for O
 and O
 then O
 attend O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/pcm/test.txt
 Nigerian B-ORG
+========
+Nigerian O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/pcm/1/test_predictions.txt
 Law I-ORG
 School I-ORG
 , O
@@ -5261,9 +5311,9 @@ become O
 Justice O
 of O
 di O
-Court B-ORG
+Court O
 of I-ORG
-Appeal I-ORG
+Appeal O
 and O
 she O
 be O
@@ -5694,7 +5744,7 @@ gbab O
 
 According O
 to O
-US B-LOC
+US B-ORG
 Reward O
 for O
 Justice O
@@ -5853,7 +5903,7 @@ Terrorist O
 under O
 Executive O
 Order O
-13224 O
+13224 B-DATE
 . O
 
 Tori O
@@ -5956,8 +6006,13 @@ di O
 U B-ORG
 . I-ORG
 S I-ORG
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/pcm/test.txt
 . I-ORG
 Department I-ORG
+========
+. O
+Department B-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/pcm/1/test_predictions.txt
 of I-ORG
 State I-ORG
 Rewards O
@@ -6049,8 +6104,13 @@ army O
 net O
 . O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/pcm/test.txt
 Nigeria B-ORG
 House I-ORG
+========
+Nigeria B-LOC
+House O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/pcm/1/test_predictions.txt
 of I-ORG
 Representatives I-ORG
 don O
@@ -6838,8 +6898,13 @@ case O
 for O
 April B-DATE
 7 I-DATE
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/pcm/test.txt
 and I-DATE
 8 I-DATE
+========
+and O
+8 B-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/pcm/1/test_predictions.txt
 , I-DATE
 2020 I-DATE
 . O
@@ -7046,8 +7111,13 @@ case O
 for O
 April B-DATE
 7 I-DATE
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/pcm/test.txt
 and I-DATE
 8 I-DATE
+========
+and O
+8 B-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/pcm/1/test_predictions.txt
 , I-DATE
 2020 I-DATE
 . O
@@ -8503,8 +8573,8 @@ man O
 panel O
 of O
 di O
-supreme B-ORG
-court I-ORG
+supreme O
+court O
 review O
 and O
 set O
@@ -8549,10 +8619,17 @@ poll O
 . O
 
 Di O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/pcm/test.txt
 Governorship B-ORG
 Election I-ORG
 Petition I-ORG
 Tribunal I-ORG
+========
+Governorship O
+Election O
+Petition O
+Tribunal O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/pcm/1/test_predictions.txt
 and O
 Court B-ORG
 of I-ORG
@@ -8584,8 +8661,8 @@ Ihedioha B-PER
 . O
 
 But O
-supreme B-ORG
-court I-ORG
+supreme O
+court O
 no O
 agree O
 and O
@@ -8727,7 +8804,7 @@ teacher O
 for O
 one O
 Primary O
-School O
+School I-ORG
 for O
 Bali B-LOC
 local I-LOC
@@ -8738,7 +8815,7 @@ inside O
 di O
 same O
 Bali B-LOC
-community I-LOC
+community O
 wey O
 she O
 dey O
@@ -8894,10 +8971,17 @@ children O
 to O
 di O
 state O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/pcm/test.txt
 ministry O
 of O
 Social O
 Welfare O
+========
+ministry I-ORG
+of I-ORG
+Social I-ORG
+Welfare I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/pcm/1/test_predictions.txt
 and O
 di O
 children O
@@ -9000,8 +9084,8 @@ quarantine O
 . O
 
 Di O
-Health O
-Commissioner O
+Health B-ORG
+Commissioner I-ORG
 tok O
 dis O
 one O
@@ -10401,7 +10485,7 @@ Divisional I-ORG
 Police I-ORG
 Commander O
 , O
-ACP O
+ACP B-PER
 Kwaku B-PER
 Buah I-PER
 talk O
@@ -10735,8 +10819,13 @@ health O
 officials O
 shut O
 down O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/pcm/test.txt
 Obuasi B-LOC
 Market I-LOC
+========
+Obuasi B-PER
+Market I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/pcm/1/test_predictions.txt
 sake O
 of O
 de O
@@ -11175,8 +11264,13 @@ de O
 Covid O
 - O
 19 O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/pcm/test.txt
 Trust O
 Fund O
+========
+Trust B-ORG
+Fund I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/pcm/1/test_predictions.txt
 for O
 de O
 project O
@@ -11861,7 +11955,7 @@ more O
 people O
 . O
 
-Govment O
+Govment B-PER
 get O
 support O
 from O
@@ -12010,7 +12104,7 @@ geographic O
 footprint O
 . O
 
-Govment O
+Govment B-PER
 manage O
 work O
 plus O
@@ -12045,8 +12139,13 @@ contact O
 tracing O
 efforts O
 by O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/pcm/test.txt
 Ghana B-LOC
 Health O
+========
+Ghana B-ORG
+Health I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/pcm/1/test_predictions.txt
 Officials O
 , O
 Prez O
@@ -12858,7 +12957,11 @@ setback O
 . O
 
 Na O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/pcm/test.txt
 Chad B-ORG
+========
+Chad B-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/pcm/1/test_predictions.txt
 Army I-ORG
 get O
 more O
@@ -12935,8 +13038,13 @@ north B-LOC
 east I-LOC
 part I-LOC
 of I-LOC
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/pcm/test.txt
 di I-LOC
 kontri I-LOC
+========
+di O
+kontri O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/pcm/1/test_predictions.txt
 . O
 
 Dem O
@@ -13905,7 +14013,7 @@ weeks I-DATE
 . O
 
 """" O
-Evribodi O
+Evribodi B-PER
 don O
 know O
 di O
@@ -14013,8 +14121,13 @@ for O
 China B-LOC
 southern I-LOC
 city I-LOC
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/pcm/test.txt
 of I-LOC
 Guangzhou I-LOC
+========
+of O
+Guangzhou B-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/pcm/1/test_predictions.txt
 as O
 local O
 authorities O
@@ -14344,8 +14457,13 @@ oda O
 armed O
 groups O
 for O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/pcm/test.txt
 Anglophone O
 regions O
+========
+Anglophone B-LOC
+regions I-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/pcm/1/test_predictions.txt
 drop O
 dia O
 guns O
@@ -14473,8 +14591,8 @@ call O
 separatist O
 fighters O
 for O
-Anglophone O
-regions O
+Anglophone B-LOC
+regions I-LOC
 for O
 drop O
 dia O
@@ -14503,7 +14621,11 @@ groups O
 separatist O
 groups O
 for O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/pcm/test.txt
 Anglophone O
+========
+Anglophone B-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/pcm/1/test_predictions.txt
 regions O
 say O
 deh O
@@ -14591,7 +14713,7 @@ call'am O
 pandemic O
 . O
 
-Alredi O
+Alredi B-DATE
 , O
 di O
 Syrian B-ORG
@@ -15698,7 +15820,7 @@ for O
 eNseleni B-LOC
 , O
 inside O
-rural O
+rural B-LOC
 KwaZulu B-LOC
 - I-LOC
 Natal I-LOC
@@ -15901,7 +16023,7 @@ go O
 arrest O
 on O
 dia O
-wedding O
+wedding B-DATE
 day O
 . O
 
@@ -16207,7 +16329,7 @@ towns O
 for O
 two B-DATE
 weeks I-DATE
-since O
+since I-DATE
 March B-DATE
 30 I-DATE
 . O
@@ -16217,7 +16339,11 @@ one O
 debate O
 ontop O
 French O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/pcm/test.txt
 TV O
+========
+TV I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/pcm/1/test_predictions.txt
 channel O
 LCI B-ORG
 , O
@@ -16232,8 +16358,13 @@ research O
 for O
 Inserm B-ORG
 health I-ORG
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/pcm/test.txt
 research I-ORG
 group I-ORG
+========
+research O
+group O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/pcm/1/test_predictions.txt
 , O
 tok O
 about O
@@ -16257,8 +16388,13 @@ of O
 intensive O
 care O
 for O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/pcm/test.txt
 Cochin B-ORG
 hospital I-ORG
+========
+Cochin B-LOC
+hospital O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/8/pcm/1/test_predictions.txt
 for O
 Paris B-LOC
 , O

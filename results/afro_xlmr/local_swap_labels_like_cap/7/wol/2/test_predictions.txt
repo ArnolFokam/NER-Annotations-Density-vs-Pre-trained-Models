@@ -64,7 +64,7 @@ bob O
 farañse O
 
 Tënub O
-Léwopóol O
+Léwopóol B-PER
 II I-PER
 ba O
 nekk O
@@ -101,9 +101,9 @@ di O
 ab O
 bindkat O
 di O
-Théophile B-ORG
-de I-ORG
-Giraud I-ORG
+Théophile B-PER
+de I-PER
+Giraud I-PER
 muy O
 tuumaal O
 Lewopóol B-ORG
@@ -149,12 +149,12 @@ ag O
 buum O
 , O
 bi O
-15i O
-waxtu O
-jotee O
-ci O
-talaata B-DATE
-ji O
+15i B-DATE
+waxtu I-DATE
+jotee I-DATE
+ci I-DATE
+talaata I-DATE
+ji I-DATE
 laataa O
 muy O
 sotti O
@@ -210,7 +210,7 @@ ci O
 moom O
 , O
 Lewopóol B-PER
-ll O
+ll I-PER
 , O
 ab O
 yongkat O
@@ -257,8 +257,8 @@ mu O
 yéegoon O
 ca O
 tënub O
-Léwopóol O
-ll O
+Léwopóol B-PER
+ll I-PER
 , O
 ngir O
 alkaati O
@@ -320,8 +320,8 @@ teguwul O
 ci O
 yoon O
 , O
-Léwopóol O
-ll O
+Léwopóol B-PER
+ll I-PER
 = O
 yongkat O
 bi O
@@ -503,10 +503,17 @@ feeñoon O
 ci O
 fukki B-DATE
 fan I-DATE
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/wol/test.txt
+ak I-DATE
+ñatt I-DATE
+ci I-DATE
+feewirye I-DATE
+========
 ak O
 ñatt O
 ci O
 feewirye O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/wol/2/test_predictions.txt
 ca O
 réewum O
 Isibt O
@@ -715,8 +722,13 @@ bataaxel O
 bu O
 ñu O
 jébbal O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/wol/test.txt
+Wang B-PER
+yi I-PER
+========
 Wang O
 yi O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/wol/2/test_predictions.txt
 may O
 njëwrin O
 ja O
@@ -737,7 +749,7 @@ ca O
 dëkk O
 bii O
 di O
-Guwaŋsu O
+Guwaŋsu B-LOC
 te O
 di O
 dal O
@@ -788,10 +800,10 @@ daara O
 ju O
 kawe O
 ju O
-Sun B-PER
+Sun O
 - O
-Yat B-PER
-Sen I-PER
+Yat O
+Sen O
 ca O
 Guwaŋsu B-LOC
 yu O
@@ -1266,7 +1278,7 @@ bu O
 mu O
 jaarale O
 ci O
-tiwitëer O
+tiwitëer B-ORG
 te O
 yàbbi O
 ca O
@@ -1339,8 +1351,8 @@ wayndare O
 woowu O
 . O
 
-Donaal O
-Tërëmp O
+Donaal B-PER
+Tërëmp I-PER
 dal O
 na O
 ci O
@@ -1487,8 +1499,8 @@ Ca O
 Liwisiyaan B-LOC
 , O
 te O
-Niiw B-PER
-Orleyoon I-PER
+Niiw B-LOC
+Orleyoon I-LOC
 , O
 mel O
 na O
@@ -1639,21 +1651,27 @@ Kaps B-LOC
 Kiriŋ B-LOC
 : O
 
-Juróom O
+Juróom B-DATE
 - O
-benni O
-fan B-DATE
-ci O
-noowàmbar B-DATE
-ci O
-atum B-DATE
+benni B-DATE
+fan I-DATE
+ci I-DATE
+noowàmbar I-DATE
+ci I-DATE
+atum I-DATE
 2019 I-DATE
 , O
 FRAPP B-ORG
 ak O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/wol/test.txt
+Forum B-ORG
+sósyaal I-ORG
+Senegale I-ORG
+========
 Forum B-LOC
 sósyaal O
 Senegale B-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/wol/2/test_predictions.txt
 amaloon O
 nañu O
 am O
@@ -1756,7 +1774,7 @@ xaalis O
 bunu O
 àndee O
 ak O
-Sues B-LOC
+Sues B-ORG
 . O
 
 Lii O
@@ -2034,9 +2052,15 @@ mu O
 defaroon O
 Kër B-PER
 - O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/wol/test.txt
+Momar O
+Saar B-PER
+3 O
+========
 Momar B-PER
 Saar I-PER
 3 I-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/wol/2/test_predictions.txt
 , O
 terewuloon O
 Maki B-PER
@@ -2136,7 +2160,7 @@ Habiibul B-PER
 Xadiim I-PER
 Géy I-PER
 ak O
-Móomi O
+Móomi B-PER
 Jóob I-PER
 
 Nanu O
@@ -2144,10 +2168,10 @@ déjjati O
 : O
 di O
 kàdduy O
-Guy O
+Guy B-PER
 - O
-maris O
-Saañaa B-LOC
+maris B-PER
+Saañaa I-PER
 ! O
 
 Duma O
@@ -2277,17 +2301,17 @@ noon O
 du O
 saa O
 - O
-siin O
+siin B-LOC
 yi O
 mbaa O
-wiyet O
+wiyet B-ORG
 - O
-koŋ O
+koŋ B-ORG
 , O
 mbaa O
 saa O
 - O
-sapoŋ O
+sapoŋ B-LOC
 yi O
 . O
 
@@ -2441,7 +2465,11 @@ mu O
 xeexi O
 . O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/wol/test.txt
+Sapoŋ B-LOC
+========
 Sapoŋ B-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/wol/2/test_predictions.txt
 mi O
 bokk O
 ci O
@@ -2488,7 +2516,7 @@ Dañuy O
 jëfandikoo O
 ay O
 waati O
-Àngale B-LOC
+Àngale O
 yu O
 ñu O
 waxee O
@@ -2549,11 +2577,11 @@ dañu O
 koo O
 jële O
 ci O
-Àngale B-LOC
+Àngale O
 daa O
 di O
 koy O
-Saponeel B-PER
+Saponeel O
 ngir O
 man O
 koy O
@@ -2660,7 +2688,7 @@ yi O
 Niral O
 gi O
 mooy O
-Sapoŋ B-PER
+Sapoŋ B-LOC
 mii O
 nu O
 jël O
@@ -2669,7 +2697,7 @@ xam O
 ne O
 waat O
 ya O
-Àngale B-LOC
+Àngale O
 yaa O
 ko O
 moom O
@@ -2768,7 +2796,7 @@ ci O
 làkku O
 saa O
 - O
-sapoŋ O
+sapoŋ B-LOC
 yi O
 : O
 
@@ -2798,7 +2826,7 @@ nopp O
 
 Ahmadu B-PER
 Baas I-PER
-Taalibe I-PER
+Taalibe O
 bi O
 dem O
 palais O
@@ -3242,7 +3270,7 @@ juróom O
 ñaari O
 simili O
 ca O
-Sotsi B-LOC
+Sotsi O
 . O
 
 Lii O
@@ -3382,8 +3410,8 @@ na O
 ci O
 ci O
 bisub O
-gaawu O
-gi O
+gaawu B-DATE
+gi I-DATE
 : O
 Limub O
 jarag O
@@ -3486,9 +3514,9 @@ g O
 = O
 gouvernement O
 
-Albatros B-PER
+Albatros O
 ak O
-Saasumaan B-PER
+Saasumaan O
 bi O
 
 Maki B-PER
@@ -3518,9 +3546,15 @@ ci O
 askan O
 wi O
 ci O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/wol/test.txt
+ñatti B-DATE
+fan I-DATE
+ci I-DATE
+========
 ñatti O
 fan B-DATE
 ci O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/wol/2/test_predictions.txt
 awril I-DATE
 , O
 ay O
@@ -3697,8 +3731,8 @@ yi O
 
 DOGAL O
 YI O
-MAKI O
-SÀLL O
+MAKI B-PER
+SÀLL I-PER
 JËL O
 MU O
 JËM O
@@ -3722,16 +3756,16 @@ ci O
 tëjji O
 ja O
 bu O
-6 O
-waxtu O
+6 B-DATE
+waxtu I-DATE
 jotee O
 te O
 di O
 leen O
 tëj O
 bu O
-15 O
-waxtu O
+15 B-DATE
+waxtu I-DATE
 jotee O
 . O
 
@@ -3761,7 +3795,7 @@ Tërëmp I-PER
 xaatim O
 na O
 ci O
-àjjuma O
+àjjuma B-DATE
 ji O
 am O
 pexe O
@@ -3863,8 +3897,8 @@ di O
 koronaawiris O
 . O
 
-Donaal O
-Tërëmp O
+Donaal B-PER
+Tërëmp I-PER
 xaatim O
 na O
 am O
@@ -3880,7 +3914,7 @@ bu O
 mu O
 jaarale O
 ci O
-tiwitéer O
+tiwitéer B-ORG
 ci O
 la O
 njiitu O
@@ -4091,7 +4125,7 @@ ca O
 njéggiteg O
 Njaawu O
 - O
-Bàmbali O
+Bàmbali B-LOC
 nekk O
 ca O
 goxub O
@@ -4099,17 +4133,24 @@ Kafrin B-LOC
 tax O
 na O
 ci O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/wol/test.txt
+dibéer B-DATE
+benn I-DATE
+panu I-DATE
+maars I-DATE
+========
 dibéer O
 benn O
 panu O
 maars O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/wol/2/test_predictions.txt
 2020 I-DATE
 bi O
-4i O
-waxtu O
+4i B-DATE
+waxtu I-DATE
 jotee O
-ci O
-guddi O
+ci B-DATE
+guddi I-DATE
 ñu O
 jàpp O
 daamar O
@@ -4154,8 +4195,8 @@ tàmbali O
 woon O
 ko O
 ci O
-weery O
-feewarye O
+weery B-DATE
+feewarye I-DATE
 tax O
 na O
 ñu O
@@ -4259,7 +4300,7 @@ GARAB O
 YU O
 BAAXUL O
 CA O
-KAFRIN O
+KAFRIN B-LOC
 
 Xoolal O
 nataal O
@@ -4284,7 +4325,11 @@ mi O
 ñu O
 defaree O
 këri O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/wol/test.txt
+Grassfeild B-LOC
+========
 Grassfeild O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/wol/2/test_predictions.txt
 laataa O
 mbéefarkat O
 yi O
@@ -4299,15 +4344,15 @@ ngi O
 am O
 ci O
 atum B-DATE
-junni O
-ak O
-juróom O
-ñatti O
-téemeer O
-ak O
-juróom O
-ñaar O
-fukk O
+junni I-DATE
+ak I-DATE
+juróom I-DATE
+ñatti I-DATE
+téemeer I-DATE
+ak I-DATE
+juróom I-DATE
+ñaar I-DATE
+fukk I-DATE
 ( O
 1870 B-DATE
 ) O
@@ -4332,7 +4377,7 @@ gis O
 ci O
 sunu O
 jamonoy O
-tay O
+tay B-DATE
 jii O
 , O
 ci O
@@ -4353,7 +4398,7 @@ dox O
 ci O
 diggante O
 askani O
-Grassfeild B-PER
+Grassfeild B-LOC
 ak O
 mbéefarkat O
 bi O
@@ -4388,7 +4433,7 @@ askan O
 woowu O
 . O
 
-Ña O
+Ña B-PER
 ca O
 jëkk O
 di O
@@ -4448,8 +4493,38 @@ junniy O
 000 O
 ) O
 doomi O
-Grassfeild B-PER
+Grassfeild B-LOC
 ci O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/wol/test.txt
+diggante B-DATE
+atum I-DATE
+junni I-DATE
+ak I-DATE
+juróom I-DATE
+ñenti I-DATE
+téemeer I-DATE
+ak I-DATE
+juróom I-DATE
+fukk I-DATE
+ak I-DATE
+juróom I-DATE
+( O
+1955 B-DATE
+) O
+ba B-DATE
+atum I-DATE
+junni I-DATE
+ak I-DATE
+juróom I-DATE
+ñenti I-DATE
+téemeer I-DATE
+ak I-DATE
+juróom I-DATE
+benn I-DATE
+fukk I-DATE
+ak I-DATE
+ñaar I-DATE
+========
 diggante O
 atum B-DATE
 junni O
@@ -4478,6 +4553,7 @@ benn O
 fukk O
 ak O
 ñaar O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/wol/2/test_predictions.txt
 ( O
 1962 B-DATE
 ) O
@@ -4612,8 +4688,8 @@ Ci O
 diggante O
 atum B-DATE
 1877 I-DATE
-ba I-DATE
-1960 I-DATE
+ba O
+1960 B-DATE
 ci O
 la O
 ñu O
@@ -4811,7 +4887,7 @@ dogal O
 yi O
 . O
 
-Keeñaa O
+Keeñaa B-LOC
 nag O
 mooy O
 réew O
@@ -4938,8 +5014,8 @@ Mbootaayu O
 xeet O
 yi O
 : O
-Naions O
-unies O
+Naions B-ORG
+unies I-ORG
 / O
 ndiisoo O
 gi O
@@ -4953,14 +5029,19 @@ entité O
 Àlliyun O
 Jóob O
 / O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/wol/test.txt
+Móomi B-PER
+Jóob I-PER
+========
 Móomi O
 Jóob O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/wol/2/test_predictions.txt
 / O
 Tuubaa B-PER
 Silla I-PER
 Maxtaar I-PER
 
-ONU O
+ONU B-ORG
 : O
 kembaarug O
 Afrig B-LOC
@@ -4985,8 +5066,8 @@ yi O
 demoon O
 xeexali O
 Farãas B-LOC
-Ak I-PER
-Mari I-PER
+Ak O
+Mari B-PER
 Ñanjuru I-PER
 soxnas O
 bañkati O
@@ -5002,7 +5083,7 @@ gi O
 
 Niki O
 bisub O
-tay O
+tay B-DATE
 bii O
 02 B-DATE
 suwe I-DATE
@@ -5010,8 +5091,8 @@ suwe I-DATE
 , O
 ci O
 la O
-Almaami B-PER
-Saamóori I-PER
+Almaami O
+Saamóori B-PER
 Ture I-PER
 wàcc O
 liggéey O
@@ -5036,7 +5117,7 @@ Moom O
 moo O
 taxawal O
 nguurug O
-Wasulu B-PER
+Wasulu O
 , O
 daan O
 xeex O
@@ -5095,7 +5176,11 @@ awril I-DATE
 1882 I-DATE
 ci O
 xareb O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/wol/test.txt
+Woyowoyànko B-LOC
+========
 Woyowoyànko B-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/wol/2/test_predictions.txt
 , O
 jàmbaari O
 xarekat O
@@ -5262,7 +5347,11 @@ sunu O
 mboor O
 , O
 sunu O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/wol/test.txt
+Islaam O
+========
 Islaam B-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/wol/2/test_predictions.txt
 du O
 jag O
 sunu O
@@ -5525,9 +5614,9 @@ philosophe O
 
 Imaam B-PER
 Ñaŋ I-PER
-Saabal I-PER
+Saabal B-ORG
 . O
-net O
+net B-ORG
 
 Réere O
 sa O
@@ -5542,16 +5631,16 @@ jëm O
 - O
 kanam O
 
-Ñaar O
+Ñaar B-DATE
 - O
-fukki O
-at O
-ak O
-juróom O
-ginnaaw O
-ba O
-Kàppiten B-PER
-Mbay I-PER
+fukki B-DATE
+at I-DATE
+ak I-DATE
+juróom I-DATE
+ginnaaw I-DATE
+ba I-DATE
+Kàppiten O
+Mbay B-PER
 ñàkkee O
 bakkanam O
 ca O
@@ -5688,10 +5777,17 @@ ci O
 ñoom O
 . O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/wol/test.txt
+Fanweeri B-DATE
+fan I-DATE
+ak I-DATE
+benn I-DATE
+========
 Fanweeri O
 fan B-DATE
 ak O
 benn O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/wol/2/test_predictions.txt
 , O
 ni O
 tay O
@@ -5737,7 +5833,11 @@ si O
 Fekkoon O
 booba O
 fukki O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/wol/test.txt
+fan O
+========
 fan I-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/wol/2/test_predictions.txt
 ak O
 ñaar O
 rekk O
@@ -5912,7 +6012,11 @@ jëli O
 
 Mboor O
 / O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/wol/test.txt
+Fàttaliku O
+========
 Fàttaliku B-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/wol/2/test_predictions.txt
 31 B-DATE
 weeru I-DATE
 me I-DATE
@@ -5925,7 +6029,11 @@ me I-DATE
 
 Lu O
 tax O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/wol/test.txt
+Feederbu B-PER
+========
 Feederbu B-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/wol/2/test_predictions.txt
 wéy O
 di O
 taxaw O
@@ -5963,7 +6071,7 @@ askan O
 Ci O
 mboor O
 , O
-Ñaas B-LOC
+Ñaas O
 nekkoon O
 na O
 baax O
@@ -6162,12 +6270,17 @@ seen O
 téere O
 bii O
 di O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/wol/test.txt
+Awon O
+asa O
+========
 Awon B-PER
 asa I-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/wol/2/test_predictions.txt
 ati O
-Orisha B-LOC
+Orisha O
 ile O
-Yoruba B-LOC
+Yoruba O
 , O
 doomi O
 Niseryaa B-LOC
@@ -6226,7 +6339,7 @@ te O
 balle O
 ca O
 réewum O
-Bene O
+Bene B-LOC
 xamle O
 nañu O
 ne O
@@ -6379,9 +6492,9 @@ fege O
 Kon O
 ci O
 Afrig B-LOC
-gu O
-ñuul O
-gi O
+gu I-LOC
+ñuul I-LOC
+gi I-LOC
 , O
 dees O
 di O
@@ -6416,8 +6529,8 @@ les O
 habitudes O
 / O
 
-Ngañ O
-Aaw O
+Ngañ B-PER
+Aaw I-PER
 / O
 awdemba90 O
 @ O
@@ -6485,8 +6598,8 @@ wu O
 ne O
 , O
 bisub O
-8i O
-maars O
+8i B-DATE
+maars I-DATE
 ma O
 nga O
 fay O
@@ -6603,11 +6716,16 @@ Afirig B-LOC
 am O
 nanu O
 fi O
-Ranawalunaa O
+Ranawalunaa B-PER
 3 O
 , O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/wol/test.txt
+Ndaxte B-PER
+Yàlla I-PER
+========
 Ndaxte O
 Yàlla O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/wol/2/test_predictions.txt
 , O
 Aana B-PER
 Singaa I-PER
@@ -6634,18 +6752,18 @@ sañu O
 woote O
 ci O
 atum B-DATE
-junni O
-ak O
-juróom O
+junni I-DATE
+ak I-DATE
+juróom I-DATE
 - O
-ñenti O
-téeméer O
-ak O
-ñen O
+ñenti B-DATE
+téeméer I-DATE
+ak I-DATE
+ñen I-DATE
 - O
-fukk O
-ak O
-juróom O
+fukk B-DATE
+ak I-DATE
+juróom I-DATE
 . O
 
 Looloo O
@@ -6722,22 +6840,22 @@ ay O
 paŋkaar O
 ñoo O
 gatandu O
-Degóol B-LOC
+Degóol B-PER
 ci O
 atum B-DATE
-junni O
-ak O
-juróom O
+junni I-DATE
+ak I-DATE
+juróom I-DATE
 - O
-ñenti O
-téeméer O
-ak O
-juróom O
-fukk O
-ak O
-juroom O
+ñenti B-DATE
+téeméer I-DATE
+ak I-DATE
+juróom I-DATE
+fukk I-DATE
+ak I-DATE
+juroom I-DATE
 - O
-ñatt O
+ñatt B-DATE
 te O
 ña O
 ko O
@@ -6864,8 +6982,13 @@ jigéenu O
 si O
 . O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/wol/test.txt
+Bàcc B-PER
+Sàmba I-PER
+========
 Bàcc O
 Sàmba B-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/wol/2/test_predictions.txt
 Jaañ I-PER
 dongo O
 ca O
@@ -6894,9 +7017,9 @@ gmail O
 . O
 com O
 
-8 O
-fani O
-maars O
+8 B-DATE
+fani I-DATE
+maars I-DATE
 : O
 Nanu O
 sargal O
@@ -6908,7 +7031,7 @@ Góor O
 gi O
 xamul O
 ne O
-Jaan B-PER
+Jaan O
 a O
 ngi O
 ci O
@@ -7283,7 +7406,7 @@ dindi O
 . O
 
 Ba O
-tay O
+tay B-DATE
 ca O
 Mongomeri B-LOC
 , O
@@ -7302,7 +7425,7 @@ at O
 bu O
 mu O
 mbootaayu O
-GEN O
+GEN B-PER
 . O
 Robert B-PER
 E I-PER
@@ -7362,9 +7485,9 @@ Nashwil B-LOC
 . O
 
 Ca O
-Alexàndiri B-PER
+Alexàndiri B-LOC
 , O
-Wirsini B-PER
+Wirsini B-LOC
 , O
 fara O
 ba O
@@ -7393,7 +7516,7 @@ ca O
 sof O
 mooy O
 : O
-Alexàndiri B-PER
+Alexàndiri B-LOC
 , O
 niki O
 yeneen O
@@ -7493,7 +7616,11 @@ yooyu O
 … O
 ? O
 Lu O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/wol/test.txt
+Feederbu B-PER
+========
 Feederbu B-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/wol/2/test_predictions.txt
 di O
 def O
 Ndar B-LOC
@@ -7521,8 +7648,13 @@ yayooñu O
 ko O
 . O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/wol/test.txt
+Ngañ B-PER
+Aaw I-PER
+========
 Ngañ O
 Aaw B-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/wol/2/test_predictions.txt
 awdemba90 O
 @ O
 gmail O
@@ -7556,8 +7688,13 @@ ca O
 ña O
 daaneel O
 tënu O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/wol/test.txt
+Wiktoor B-PER
+Solseer I-PER
+========
 Wiktoor B-ORG
 Solseer I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/wol/2/test_predictions.txt
 ca O
 Martinig B-LOC
 : O
@@ -7565,7 +7702,7 @@ Martinig B-LOC
 Tën O
 bu O
 Wiktoor B-PER
-Solseermu I-ORG
+Solseermu I-PER
 bon O
 mi O
 daaneel O
@@ -7579,7 +7716,7 @@ ca O
 Martinig B-LOC
 . O
 
-Ña O
+Ña B-PER
 ko O
 def O
 nag O
@@ -7637,7 +7774,7 @@ kàtteg O
 BAC O
 ci O
 làkkuw O
-Farañse B-LOC
+Farañse O
 ca O
 atum B-DATE
 2019 I-DATE
@@ -7659,6 +7796,19 @@ raciste O
 
 Ñaar O
 - O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/wol/test.txt
+fukki B-DATE
+fan I-DATE
+ak I-DATE
+ñaar I-DATE
+ci I-DATE
+mee I-DATE
+ci I-DATE
+atum I-DATE
+junni I-DATE
+ak I-DATE
+juróom I-DATE
+========
 fukki O
 fan B-DATE
 ak O
@@ -7670,17 +7820,18 @@ atum B-DATE
 junni O
 ak O
 juróom O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/wol/2/test_predictions.txt
 - O
-ñatti O
-téeméer O
-ak O
-ñeen O
+ñatti B-DATE
+téeméer I-DATE
+ak I-DATE
+ñeen I-DATE
 - O
-fukk O
-ak O
-juróom O
+fukk B-DATE
+ak I-DATE
+juróom I-DATE
 - O
-ñatt O
+ñatt B-DATE
 , O
 ci O
 la O
@@ -7732,14 +7883,23 @@ njaam O
 ngi O
 koy O
 màggal O
-ñaar O
+ñaar B-DATE
 - O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/wol/test.txt
+fukki B-DATE
+fan I-DATE
+ak I-DATE
+ñaar I-DATE
+ci I-DATE
+mee I-DATE
+========
 fukki O
 fan I-DATE
 ak O
 ñaar O
 ci O
 mee O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/wol/2/test_predictions.txt
 ca O
 Martinig B-LOC
 ba O
@@ -7843,8 +8003,8 @@ Ahmadu I-PER
 Bàmba I-PER
 , O
 
-Walteer O
-Órotneey O
+Walteer B-PER
+Órotneey I-PER
 . O
 
 Ku O
@@ -7922,16 +8082,22 @@ man O
 cee O
 lim O
 : O
-Degóol O
+Degóol B-PER
 , O
 Gàndi B-PER
 , O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/wol/test.txt
+Feederbu B-PER
+iktoor I-PER
+Solsëer I-PER
+========
 Feederbu B-LOC
 iktoor O
 Solsëer B-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/wol/2/test_predictions.txt
 , O
 Wiktoor B-PER
-Igóo B-LOC
+Igóo I-PER
 ak O
 Abraham B-PER
 Linkon I-PER
@@ -7951,8 +8117,8 @@ xeet O
 : O
 xénophobe O
 
-Wiktoor O
-Solseer B-PER
+Wiktoor B-PER
+Solseer I-PER
 daanu O
 na O
 ca O
@@ -7960,7 +8126,7 @@ Martinig B-LOC
 , O
 lu O
 tax O
-Feederb O
+Feederb B-PER
 wéy O
 di O
 taxaw O
@@ -7969,10 +8135,17 @@ fa O
 Ndar B-LOC
 ? O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/wol/test.txt
+Korite B-DATE
+Gaawu I-DATE
+walla O
+Dibéer B-DATE
+========
 Korite O
 Gaawu B-LOC
 walla O
 Dibéer B-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/wol/2/test_predictions.txt
 , O
 ku O
 war O
@@ -8003,7 +8176,7 @@ Singapuur B-LOC
 , O
 Kore B-PER
 , O
-Taywaan B-PER
+Taywaan B-LOC
 ak O
 réew O
 yu O
@@ -8011,7 +8184,11 @@ ni O
 mel O
 raw O
 Senegaal B-LOC
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/wol/test.txt
+Ndax O
+========
 Ndax B-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/wol/2/test_predictions.txt
 ni O
 ko O
 woroom O
@@ -8027,12 +8204,21 @@ la O
 … O
 ? O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/wol/test.txt
+Daawuda B-PER
+Géy I-PER
+Pikin B-LOC
+FRAPP B-ORG
+France O
+Dégage O
+========
 Daawuda O
 Géy B-PER
 Pikin I-PER
 FRAPP I-ORG
 France I-ORG
 Dégage I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/wol/2/test_predictions.txt
 
 Sama O
 jëkkër O
@@ -8687,7 +8873,7 @@ lekk O
 fekk O
 na O
 mu O
-DEE B-ORG
+DEE O
 . O
 
 Nga O
@@ -8977,7 +9163,7 @@ ndekete O
 Yàlla O
 génnul O
 doomu O
-Aadama B-PER
+Aadama O
 ! O
 
 Waaye O
@@ -9083,7 +9269,7 @@ dëgg O
 , O
 fàwwu O
 nga O
-DEE B-ORG
+DEE O
 , O
 maanaam O
 noot O
@@ -9294,9 +9480,9 @@ noppi O
 ko O
 . O
 
-Daawuda O
-Géy B-PER
-Pikin I-PER
+Daawuda B-PER
+Géy I-PER
+Pikin B-LOC
 / O
 FRAPP B-ORG
 
@@ -9321,13 +9507,13 @@ wax O
 nag O
 , O
 waaye O
-Farees O
+Farees B-PER
 di O
 jiitul O
 ndefar O
 gii O
 di O
-Kiren B-LOC
+Kiren B-ORG
 , O
 waruloon O
 a O
@@ -9388,7 +9574,7 @@ néew O
 daal O
 , O
 nganug O
-Farees O
+Farees B-PER
 gii O
 am O
 na O
@@ -9790,7 +9976,7 @@ xàmmee O
 Wasalaam B-PER
 Sëydinaa B-PER
 Umar I-PER
-ba O
+ba I-PER
 
 Tekkikat O
 bi O
@@ -9805,13 +9991,13 @@ Habiibul B-PER
 Xadiim I-PER
 Géy I-PER
 ak O
-Tuubaa B-LOC
-silla O
-Maxtaar O
+Tuubaa B-PER
+silla I-PER
+Maxtaar I-PER
 
 Ngóor O
 si O
-Farees O
+Farees B-PER
 ca O
 Tuubaa B-LOC
 , O
@@ -9848,7 +10034,7 @@ teg O
 tuuma O
 nit O
 ku O
-Ñuul B-LOC
+Ñuul O
 ! O
 Ngir O
 raafal O
@@ -9873,12 +10059,16 @@ waaye O
 , O
 dañoo O
 tabax O
-ALAGUG B-LOC
+ALAGUG O
 doomu O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/wol/test.txt
+NOOHIN B-PER
+========
 NOOHIN O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/wol/2/test_predictions.txt
 jooju O
 di O
-KAAM O
+KAAM B-PER
 ñu O
 ne O
 , O
@@ -9891,7 +10081,7 @@ ko O
 def O
 ko O
 mu O
-ÑUUL B-LOC
+ÑUUL O
 , O
 ay O
 doomi O
@@ -9918,7 +10108,7 @@ daa O
 xaar O
 ba O
 ca O
-Noohin B-LOC
+Noohin B-PER
 muy O
 sooga O
 tabax O
@@ -10019,9 +10209,15 @@ a O
 gën O
 jeng O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/wol/test.txt
+Baabakar B-PER
+Mbay I-PER
+Ndaag I-PER
+========
 Baabakar O
 Mbay O
 Ndaag O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/wol/2/test_predictions.txt
 
 Yàlla O
 alagul O
@@ -10059,9 +10255,15 @@ jàngoro O
 ji O
 laal O
 ci O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/wol/test.txt
+àllarba B-DATE
+15 I-DATE
+awril I-DATE
+========
 àllarba O
 15 O
 awril O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/wol/2/test_predictions.txt
 tollu O
 na O
 ci O
@@ -10121,8 +10323,8 @@ daara O
 ju O
 kawe O
 ji O
-Joons B-PER
-Hopkins I-PER
+Joons B-ORG
+Hopkins I-ORG
 ca O
 Baltimoor B-LOC
 def O
@@ -10306,7 +10508,7 @@ fukk O
 060 O
 ) O
 ak O
-Itaali B-PER
+Itaali B-LOC
 mi O
 am O
 téemeer O
@@ -10445,7 +10647,7 @@ juróom O
 ) O
 . O
 
-Albatros B-LOC
+Albatros O
 ak O
 Tuubaa B-PER
 Silla I-PER
@@ -10495,9 +10697,9 @@ nii O
 Mbootaayug O
 WAX B-ORG
 ( O
-Wolpf O
-Ak O
-Xamle O
+Wolpf B-ORG
+Ak I-ORG
+Xamle I-ORG
 ) O
 moo O
 leen O
@@ -10531,8 +10733,13 @@ Xibaar O
 bu O
 metti O
 ci O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/wol/test.txt
+Umma O
+Islaam O
+========
 Umma B-ORG
 Islaam I-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/wol/2/test_predictions.txt
 bi O
 . O
 
@@ -10542,14 +10749,19 @@ metti O
 moo O
 am O
 ci O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/wol/test.txt
+àllarba B-DATE
+jii I-DATE
+========
 àllarba O
 jii B-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/wol/2/test_predictions.txt
 04 I-DATE
 maars I-DATE
 2020 I-DATE
 ci O
 talib O
-Xombol O
+Xombol B-LOC
 bi O
 . O
 
@@ -10562,8 +10774,8 @@ ci O
 saa O
 si O
 te O
-sëriñ O
-Abdu B-PER
+sëriñ B-PER
+Abdu I-PER
 Rahmaan I-PER
 Faal I-PER
 Tilaala I-PER
@@ -10580,7 +10792,7 @@ ci O
 xibaari O
 E B-ORG
 - O
-mejaa O
+mejaa B-ORG
 yi O
 , O
 daamar O
@@ -10600,8 +10812,8 @@ yoon O
 . O
 
 Doomam O
-sëriñ O
-Saaliw B-PER
+sëriñ B-PER
+Saaliw I-PER
 Faal I-PER
 moo O
 dëggal O
@@ -10609,9 +10821,13 @@ faatu O
 gi O
 . O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/wol/test.txt
+Saabal B-ORG
+========
 Saabal B-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/wol/2/test_predictions.txt
 . O
-net O
+net B-ORG
 mu O
 jaale O
 njaboot O
@@ -10628,10 +10844,10 @@ Tilaala I-PER
 moo O
 faatu O
 
-5i O
-waxtu O
-ci O
-fajar O
+5i B-DATE
+waxtu I-DATE
+ci I-DATE
+fajar I-DATE
 la O
 alkaati O
 yi O
@@ -10751,8 +10967,8 @@ Loolu O
 waral O
 na O
 sax O
-Guy O
-Mari B-PER
+Guy B-PER
+Mari I-PER
 Saañaa I-PER
 yobbu O
 ab O
@@ -11035,7 +11251,7 @@ ci O
 gox O
 yi O
 cig O
-ndóogoor O
+ndóogoor B-LOC
 la O
 nu O
 koy O
@@ -11135,7 +11351,7 @@ njuublang O
 rekk O
 . O
 
-60i O
+60i B-DATE
 ba O
 tay O
 , O
@@ -11468,18 +11684,18 @@ ngi O
 judd O
 ci O
 atum B-DATE
-junni O
-ak O
-juróom O
+junni I-DATE
+ak I-DATE
+juróom I-DATE
 - O
-ñenti O
-téeméer O
-ak O
-juróom O
+ñenti B-DATE
+téeméer I-DATE
+ak I-DATE
+juróom I-DATE
 - O
-fukk O
-ak O
-benn O
+fukk B-DATE
+ak I-DATE
+benn I-DATE
 ( O
 1951 B-DATE
 ) O
@@ -11505,19 +11721,23 @@ juróom O
 . O
 
 FAATUG O
-MA O
+MA B-PER
 - O
-BAABA O
-JUUF O
+BAABA B-PER
+JUUF I-PER
 TE O
 NU O
 KOY O
 WOOWEE O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/wol/test.txt
+PAAB B-PER
+========
 PAAB B-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/wol/2/test_predictions.txt
 
 PAAB B-PER
 JUUF I-PER
-MOOY I-PER
+MOOY O
 JARAG O
 JI O
 ÑUY O
@@ -11605,7 +11825,7 @@ futbal O
 la O
 ca O
 Farãas B-LOC
-Bar I-PER
+Bar O
 g O
 : O
 nit O
@@ -11631,7 +11851,7 @@ sonn O
 na O
 lool O
 
-B52 O
+B52 B-PER
 amaat O
 na O
 ndam O
@@ -11692,7 +11912,7 @@ bii O
 di O
 Seex B-PER
 Faal I-PER
-Mooy I-PER
+Mooy O
 indi O
 ay O
 leeral O
@@ -11738,7 +11958,11 @@ tawatoon O
 Dëkk O
 bii O
 di O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/wol/test.txt
+Maddrit B-LOC
+========
 Maddrit B-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/wol/2/test_predictions.txt
 amna O
 133i O
 nit O
@@ -11773,10 +11997,10 @@ ba O
 
 Ba O
 ci O
-àjjuma O
+àjjuma B-DATE
 jii O
-ci O
-bëccëg O
+ci B-DATE
+bëccëg I-DATE
 , O
 ñi O
 doon O
@@ -11807,11 +12031,11 @@ Njiiti O
 dëkk O
 bii O
 di O
-Sawija B-PER
+Sawija B-LOC
 yëggle O
 nañu O
 ci O
-gaawu O
+gaawu B-DATE
 bi O
 ne O
 aj O
@@ -11843,7 +12067,7 @@ nañu O
 ko O
 démb O
 ci O
-àjjuma O
+àjjuma B-DATE
 ji O
 te O
 ki O
@@ -11894,7 +12118,7 @@ jékk O
 jékkal O
 . O
 
-Sáncees O
+Sáncees B-PER
 nag O
 war O
 naa O
@@ -11935,20 +12159,29 @@ na O
 leen O
 . O
 
-Mursiyaa O
+Mursiyaa B-ORG
 fekkiji O
 na O
-gaawu O
+gaawu B-DATE
 gi O
 dëkk O
 bii O
 di O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/wol/test.txt
+Royaal B-ORG
+Madrit I-ORG
+, O
+Galiisiyaa B-ORG
+Loos I-ORG
+Osteris I-ORG
+========
 Royaal O
 Madrit B-LOC
 , O
 Galiisiyaa B-PER
 Loos I-PER
 Osteris I-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/wol/2/test_predictions.txt
 ak O
 Kàntaabri B-ORG
 . O
@@ -12032,7 +12265,7 @@ ji O
 
 Ca O
 Espaañ B-LOC
-6700i I-DATE
+6700i O
 nit O
 am O
 nañu O
@@ -12095,7 +12328,11 @@ jamono O
 jii O
 . O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/wol/test.txt
+Donaal B-PER
+========
 Donaal O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/wol/2/test_predictions.txt
 Toromp I-PER
 ci O
 ak O
@@ -12111,8 +12348,8 @@ ma O
 
 Albatros O
 / O
-Móodu O
-Mbaj O
+Móodu B-PER
+Mbaj I-PER
 akasaa O
 
 Balluwqqy O
@@ -12143,7 +12380,11 @@ Bunu O
 sukkandikoo O
 ci O
 xibaari O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/wol/test.txt
+Dakaractu B-ORG
+========
 Dakaractu B-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/wol/2/test_predictions.txt
 , O
 waa O
 jooju O

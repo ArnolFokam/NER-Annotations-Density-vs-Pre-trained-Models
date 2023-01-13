@@ -5,7 +5,7 @@ GET O
 LUCKY O
 WIN O
 , O
-CHINA B-PER
+CHINA B-LOC
 IN O
 SURPRISE O
 DEFEAT O
@@ -661,7 +661,7 @@ Pertile I-PER
 Paolo B-PER
 Vaccari I-PER
 , O
-Marcello B-PER
+Marcello B-ORG
 Cuttitta I-PER
 , O
 Ivan B-PER
@@ -1088,8 +1088,8 @@ al-Boushi I-PER
 , O
 10 O
 - O
-Mohammed B-PER
-Afash I-PER
+Mohammed B-LOC
+Afash I-LOC
 , O
 12 O
 - O
@@ -1099,7 +1099,7 @@ Dib I-PER
 13 O
 - O
 Abdul B-PER
-Latif I-PER
+Latif I-LOC
 Helou I-PER
 ( O
 17 O
@@ -1893,7 +1893,7 @@ Exeter B-ORG
 SOCCER O
 - O
 BLINKER B-PER
-BAN O
+BAN B-PER
 LIFTED O
 . O
 
@@ -1951,7 +1951,7 @@ sign O
 contracts O
 for O
 both O
-Wednesday B-ORG
+Wednesday O
 and O
 Udinese B-ORG
 while O
@@ -2030,7 +2030,11 @@ failing O
 to O
 inform O
 the O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 Engllsh O
+========
+Engllsh B-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 club O
 of O
 his O
@@ -2267,7 +2271,11 @@ Italy B-LOC
 15 O
 
 Maccabi B-ORG
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 Tel I-ORG
+========
+Tel B-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 Aviv I-ORG
 ( O
 Israel B-LOC
@@ -2492,7 +2500,11 @@ LITTLE B-PER
 TO O
 MISS O
 CAMPESE B-PER
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 FAREWELL O
+========
+FAREWELL I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 . O
 
 Robert B-PER
@@ -3004,8 +3016,8 @@ Gavin I-PER
 , O
 3 O
 - O
-Andrew B-PER
-Blades I-PER
+Andrew B-ORG
+Blades I-ORG
 , O
 2 O
 - O
@@ -3742,8 +3754,8 @@ incident O
 loudly O
 jeering O
 the O
-West B-LOC
-Indies I-LOC
+West O
+Indies O
 vice-captain O
 as O
 he O
@@ -4218,8 +4230,13 @@ out O
 
 CRICKET O
 - O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 WEST B-LOC
 INDIES I-LOC
+========
+WEST O
+INDIES O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 172 O
 ALL O
 OUT O
@@ -4258,7 +4275,11 @@ Friday O
 
 CRICKET O
 - O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 SHEFFIELD O
+========
+SHEFFIELD B-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 SHIELD O
 SCORE O
 . O
@@ -4280,9 +4301,9 @@ Sheffield O
 Shield O
 match O
 between O
-Tasmania B-LOC
+Tasmania B-ORG
 and O
-Victoria B-LOC
+Victoria B-ORG
 at O
 Bellerive B-LOC
 Oval I-LOC
@@ -4402,8 +4423,13 @@ bat O
 . O
 
 The O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 West B-LOC
 Indies I-LOC
+========
+West O
+Indies O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 vice-captain O
 struggled O
 for O
@@ -4432,7 +4458,11 @@ at O
 mid-wicket O
 . O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 West B-LOC
+========
+West B-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 Indies I-LOC
 were O
 53 O
@@ -4704,8 +4734,13 @@ tournament O
 
 CRICKET O
 - O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 WEST B-LOC
 INDIES I-LOC
+========
+WEST O
+INDIES O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 TO O
 BAT O
 AFTER O
@@ -4762,11 +4797,11 @@ Taylor I-PER
 captain O
 ) O
 , O
-Mark B-PER
+Mark B-LOC
 Waugh I-PER
 , O
-Ricky B-PER
-Ponting I-PER
+Ricky B-ORG
+Ponting I-ORG
 , O
 Greg B-PER
 Blewett I-PER
@@ -4831,8 +4866,8 @@ Benjamin I-PER
 Curtly B-PER
 Ambrose I-PER
 , O
-Courtney B-PER
-Walsh I-PER
+Courtney B-ORG
+Walsh I-ORG
 ( O
 captain O
 ) O
@@ -5198,7 +5233,7 @@ on O
 aggregate O
 . O
 
-NHL B-ORG
+NHL O
 ICE O
 HOCKEY O
 - O
@@ -5631,7 +5666,7 @@ LOS B-ORG
 ANGELES I-ORG
 1 O
 
-NFL B-ORG
+NFL O
 AMERICAN O
 FOOTBALL-COLTS O
 CLOBBER O
@@ -5765,7 +5800,7 @@ at O
 Kansas B-LOC
 City I-LOC
 and O
-Cincinnati B-LOC
+Cincinnati B-ORG
 . O
 
 The O
@@ -5831,7 +5866,7 @@ to O
 clinch O
 the O
 first O
-NFC O
+NFC B-ORG
 playoff O
 berth O
 . O
@@ -6031,7 +6066,7 @@ seven O
 carries O
 . O
 
-NBA B-ORG
+NBA O
 BASKETBALL O
 - O
 STANDINGS O
@@ -6344,7 +6379,7 @@ AT O
 LA B-LOC
 LAKERS I-LOC
 
-NFL B-ORG
+NFL O
 AMERICAN O
 FOOTBALL-STANDINGS O
 AFTER O
@@ -6676,7 +6711,11 @@ Y O
 -- O
 CLINCHED O
 PLAYOFF O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 BERTH O
+========
+BERTH B-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 
 SUNDAY O
 , O
@@ -6790,12 +6829,20 @@ Philadelphia B-ORG
 NCAA B-ORG
 AMERICAN O
 FOOTBALL-OHIO O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 STATE O
+========
+STATE I-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 'S O
 PACE B-PER
 FIRST O
 REPEAT O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 LOMBARDI O
+========
+LOMBARDI B-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 AWARD O
 WINNER O
 . O
@@ -6902,7 +6949,7 @@ in O
 1970 O
 . O
 
-Pace B-PER
+Pace O
 outdistanced O
 three O
 senior O
@@ -8218,7 +8265,7 @@ Spain B-LOC
 Dimas B-PER
 Teixeira I-PER
 ( O
-Juventus B-ORG
+Juventus B-PER
 , O
 Italy B-LOC
 ) O
@@ -8226,8 +8273,8 @@ Italy B-LOC
 Carlos B-PER
 Secretario I-PER
 ( O
-Real B-ORG
-Madrid I-ORG
+Real B-PER
+Madrid I-PER
 , O
 Spain B-LOC
 ) O
@@ -8321,8 +8368,8 @@ BARCELONA B-ORG
 MADRID B-LOC
 1996-12-06 O
 
-William B-PER
-Hill I-PER
+William B-ORG
+Hill I-ORG
 betting O
 on O
 Saturday O
@@ -8458,8 +8505,13 @@ Draw O
 Draw O
 
 11-2 O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 Draw O
 Barcelona B-ORG
+========
+Draw B-ORG
+Barcelona I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 
 25-1 O
 Barcelona B-ORG
@@ -8516,7 +8568,7 @@ Sanchez I-PER
 12-1 O
 Guillermo B-PER
 
-Amor B-PER
+Amor O
 
 16-1 O
 Jose B-PER
@@ -9503,7 +9555,7 @@ home O
 match O
 against O
 a O
-Piacenza B-ORG
+Piacenza B-LOC
 side O
 still O
 exultant O
@@ -10107,7 +10159,7 @@ Leading O
 scorers O
 : O
 
-Charleroi B-ORG
+Charleroi B-LOC
 - O
 Eric B-PER
 Cleymans I-PER
@@ -10374,7 +10426,7 @@ FOUR O
 IN O
 S.AFRICA O
 'S O
-ZULU O
+ZULU B-LOC
 PROVINCE O
 . O
 
@@ -11042,7 +11094,7 @@ Czechs O
 
 RADIO B-ORG
 ROMANIA I-ORG
-AFTERNOON O
+AFTERNOON I-ORG
 HEALINES O
 AT O
 4 O
@@ -11894,8 +11946,8 @@ victims O
 
 The O
 conservative O
-Radical B-ORG
-Democrats I-ORG
+Radical O
+Democrats O
 ( O
 FDP B-ORG
 ) O
@@ -12081,8 +12133,13 @@ name O
 is O
 Zaklady B-ORG
 Piwowarskie I-ORG
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 w I-ORG
 Zywcu I-ORG
+========
+w O
+Zywcu B-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 SA I-ORG
 , O
 has O
@@ -12434,7 +12491,7 @@ Poland B-LOC
 once O
 tariffs O
 for O
-CEFTA B-ORG
+CEFTA O
 countries O
 are O
 lifted O
@@ -13323,9 +13380,9 @@ of O
 conditions O
 . O
 
-Trade B-ORG
-and I-ORG
-Industry I-ORG
+Trade O
+and O
+Industry O
 Secretary O
 Ian B-PER
 Lang I-PER
@@ -13513,7 +13570,7 @@ that O
 British B-ORG
 Airways I-ORG
 and O
-American B-ORG
+American O
 drop O
 168 O
 slots O
@@ -13528,7 +13585,7 @@ in O
 Europe B-LOC
 . O
 
-American B-ORG
+American B-PER
 's O
 parent O
 , O
@@ -13822,7 +13879,7 @@ cif O
 quotes O
 +$0.50 O
 basis O
-Genoa B-ORG
+Genoa B-LOC
 . O
 " O
 
@@ -13924,7 +13981,7 @@ to O
 $ O
 109-111 O
 fob O
-Med O
+Med B-ORG
 with O
 several O
 cargoes O
@@ -14051,7 +14108,7 @@ tight O
 Italian O
 supplies O
 after O
-Elf B-ORG
+Elf B-PER
 scooped O
 up O
 Med O
@@ -14422,7 +14479,11 @@ a O
 spokesman O
 from O
 Major B-PER
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 's O
+========
+'s I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 office O
 in O
 Downing B-LOC
@@ -14607,9 +14668,9 @@ being O
 funded O
 under O
 the O
-Private O
-Finance O
-Initiative O
+Private B-ORG
+Finance I-ORG
+Initiative I-ORG
 . O
 
 In O
@@ -14642,9 +14703,15 @@ processing O
 system O
 at O
 the O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 Oceanic B-LOC
 Control I-LOC
 Centre I-LOC
+========
+Oceanic B-ORG
+Control I-ORG
+Centre I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 in O
 Prestwick B-LOC
 in O
@@ -14720,7 +14787,11 @@ Play O
 restarts O
 in O
 Australia-West O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 Indies O
+========
+Indies I-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 match O
 . O
 
@@ -14967,7 +15038,11 @@ Nov O
 
 Note O
 : O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 Manitoba B-ORG
+========
+Manitoba O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 Government O
 Price O
 Index O
@@ -14992,7 +15067,7 @@ Range O
 per O
 cwt O
 
-CAN B-LOC
+CAN O
 / O
 U.S. B-LOC
 DOLLAR O
@@ -15017,7 +15092,11 @@ bureau O
 
 Canadian O
 West O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 Coast O
+========
+Coast I-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 Vessel O
 Loadings O
 - O
@@ -15044,8 +15123,13 @@ due O
 at O
 the O
 Canadian O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 West O
 Coast O
+========
+West B-LOC
+Coast I-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 , O
 as O
 of O
@@ -15107,8 +15191,13 @@ Vancouver B-LOC
 5 O
 7 O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 Prince B-LOC
 Rupert I-LOC
+========
+Prince B-ORG
+Rupert I-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 1 O
 3 O
 
@@ -15175,7 +15264,7 @@ YORK I-LOC
 ORE O
 - O
 Maritime O
-Queen O
+Queen I-LOC
 70,000 O
 tonnes O
 Dampier B-LOC
@@ -15223,7 +15312,11 @@ WESTERN O
 HEMISPHERE O
 - O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 Danila O
+========
+Danila B-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 28.5 O
 16/12 O
 Caribs B-LOC
@@ -15379,7 +15472,7 @@ named O
 , O
 explained O
 that O
-Goldman B-ORG
+Goldman B-PER
 , I-ORG
 Sachs I-ORG
 , O
@@ -15458,7 +15551,7 @@ its O
 first O
 issue O
 of O
-Euronotes O
+Euronotes B-ORG
 , O
 a O
 strategy O
@@ -15664,8 +15757,8 @@ Mining I-ORG
 Corp I-ORG
 . O
 
-Santa B-ORG
-Fe I-ORG
+Santa B-LOC
+Fe I-LOC
 is O
 so O
 far O
@@ -15795,7 +15888,7 @@ would O
 only O
 payoff O
 for O
-Newmont B-ORG
+Newmont B-LOC
 longer O
 term O
 . O
@@ -16025,8 +16118,8 @@ $ O
 million O
 . O
 
-Santa B-ORG
-Fe I-ORG
+Santa B-LOC
+Fe I-LOC
 has O
 mining O
 and O
@@ -16118,7 +16211,11 @@ come O
 in O
 above O
 the O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 Newmont B-ORG
+========
+Newmont B-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 number O
 . O
 
@@ -16165,8 +16262,8 @@ out O
 , O
 ( O
 a O
-Newmont-Santa O
-Fe O
+Newmont-Santa B-ORG
+Fe I-ORG
 deal O
 ) O
 is O
@@ -16215,8 +16312,13 @@ Newmont B-ORG
 shares O
 for O
 each O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 Santa B-ORG
 Fe I-ORG
+========
+Santa B-LOC
+Fe I-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 shares O
 . O
 
@@ -17691,7 +17793,7 @@ backing O
 for O
 the O
 elected O
-Bangui B-LOC
+Bangui B-ORG
 government O
 but O
 said O
@@ -17842,7 +17944,11 @@ Grelombe B-PER
 is O
 from O
 the O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 Yakoma O
+========
+Yakoma B-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 tribe O
 to O
 which O
@@ -17868,7 +17974,7 @@ a O
 campaign O
 to O
 topple O
-Patasse B-PER
+Patasse B-LOC
 , O
 sparking O
 ethnic O
@@ -18034,7 +18140,7 @@ to O
 send O
 a O
 mission O
-Bangui B-LOC
+Bangui B-PER
 to O
 seek O
 ways O
@@ -18050,7 +18156,7 @@ civil O
 war O
 . O
 
-Chirac B-PER
+Chirac B-ORG
 said O
 Burkina B-LOC
 Faso I-LOC
@@ -18222,7 +18328,7 @@ foreign O
 forces O
 knwon O
 as O
-Codos O
+Codos B-ORG
 . O
 
 Hospital O
@@ -18427,7 +18533,7 @@ Newsroom I-ORG
 Skinheads O
 attack O
 Bratislava B-LOC
-Rabbi O
+Rabbi I-LOC
 - O
 police O
 . O
@@ -18765,8 +18871,13 @@ likely O
 to O
 visit O
 Polish-born O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 Pope O
 John B-PER
+========
+Pope B-PER
+John I-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 Paul I-PER
 in O
 early O
@@ -18963,7 +19074,7 @@ month O
 
 Russia B-LOC
 warns O
-Norilsk B-ORG
+Norilsk B-PER
 , O
 not O
 expected O
@@ -19016,7 +19127,7 @@ frozen O
 . O
 
 " O
-Norilsk B-ORG
+Norilsk B-PER
 really O
 is O
 a O
@@ -19408,7 +19519,7 @@ quoted O
 him O
 as O
 saying O
-Norilsk B-ORG
+Norilsk B-PER
 should O
 first O
 pay O
@@ -19431,7 +19542,7 @@ It O
 is O
 unlikely O
 that O
-Norilsk B-ORG
+Norilsk B-PER
 will O
 pay O
 these O
@@ -19475,13 +19586,17 @@ percent O
 of O
 the O
 giant O
-Krasnoyarsk B-LOC
+Krasnoyarsk O
 regional O
 budget O
 was O
 fuelled O
 by O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 Norilsk B-ORG
+========
+Norilsk O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 money O
 . O
 
@@ -20923,7 +21038,7 @@ cents O
 ) O
 . O
 
-Sidek B-ORG
+Sidek O
 fell O
 4 O
 centavos O
@@ -21649,8 +21764,13 @@ Argentine O
 grain O
 fixings O
 - O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 Camaras O
 Arbitrales O
+========
+Camaras B-ORG
+Arbitrales I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 . O
 
 BUENOS B-LOC
@@ -21666,10 +21786,17 @@ fix O
 
 Buenos B-LOC
 Aires I-LOC
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 Quequen B-LOC
 Rosario B-LOC
 Bahia B-LOC
 Blanca I-LOC
+========
+Quequen I-ORG
+Rosario I-ORG
+Bahia I-ORG
+Blanca I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 
 Oats O
 unq O
@@ -21677,7 +21804,7 @@ unq O
 unq O
 unq O
 
-Wheat O
+Wheat B-ORG
 121 O
 130 O
 121.3 O
@@ -21685,7 +21812,11 @@ Wheat O
 
 Maize O
 ( O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 Flint O
+========
+Flint B-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 ) O
 113 O
 114 O
@@ -21719,7 +21850,7 @@ unq O
 283 O
 unq O
 
-Sunseeds O
+Sunseeds B-ORG
 219 O
 216 O
 220 O
@@ -21805,7 +21936,11 @@ region O
 from O
 the O
 ship O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 Kenda O
+========
+Kenda B-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 . O
 
 The O
@@ -22907,9 +23042,15 @@ junction O
 near O
 the O
 Ranyon B-ORG
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 ( I-ORG
 Rangoon I-ORG
 ) I-ORG
+========
+( O
+Rangoon B-ORG
+) B-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 University I-ORG
 early O
 on O
@@ -23089,8 +23230,8 @@ of O
 campus O
 . O
 
-Vithoon B-PER
-Amorn I-PER
+Vithoon B-ORG
+Amorn I-ORG
 
 RANGOON B-LOC
 1996-12-06 O
@@ -24678,7 +24819,7 @@ either O
 , O
 " O
 said O
-Sumitomo B-ORG
+Sumitomo B-PER
 's O
 Note B-PER
 . O
@@ -24835,8 +24976,8 @@ the O
 comments O
 by O
 " O
-Mr B-PER
-Yen I-PER
+Mr O
+Yen B-PER
 " O
 , O
 as O
@@ -25456,7 +25597,7 @@ taking O
 legal O
 action O
 against O
-Lahd B-PER
+Lahd B-LOC
 . O
 
 Former O
@@ -25602,7 +25743,7 @@ Lebanon B-LOC
 
 Texas B-LOC
 / O
-w O
+w B-LOC
 Okla B-LOC
 fed O
 cattle O
@@ -25643,7 +25784,7 @@ cwt O
 lower O
 . O
 
-Feedlots O
+Feedlots B-ORG
 reporting O
 moderate O
 inquiry O
@@ -25754,9 +25895,15 @@ inspection O
 - O
 USDA B-ORG
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 CATTLE O
 CALVES O
 HOGS O
+========
+CATTLE B-ORG
+CALVES I-ORG
+HOGS I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 
 Friday O
 12/06/96 O
@@ -25878,12 +26025,12 @@ rounding O
 Previous O
 day O
 estimated O
-Steer O
-and O
-Heifer O
-Cow O
-and O
-Bull O
+Steer B-ORG
+and I-ORG
+Heifer I-ORG
+Cow I-ORG
+and I-ORG
+Bull I-ORG
 
 Thursday O
 100,000 O
@@ -26360,9 +26507,15 @@ On O
 Thursday O
 , O
 the O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 11th O
 Circuit O
 U.S. B-ORG
+========
+11th B-ORG
+Circuit I-ORG
+U.S. I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 Court I-ORG
 of I-ORG
 Appeals I-ORG
@@ -26462,11 +26615,15 @@ NEW B-LOC
 YORK I-LOC
 1996-12-06 O
 
-Mana O
+Mana B-LOC
 50,000 O
 tonnes O
 soybeans O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 USG O
+========
+USG B-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 / O
 China B-LOC
 10-15/12 O
@@ -26489,7 +26646,11 @@ Desk I-ORG
 1640 O
 
 Iowa-S B-LOC
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 Minn B-LOC
+========
+Minn I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 fed O
 cattle O
 market O
@@ -26545,7 +26706,7 @@ no O
 sales O
 . O
 
-Heifers O
+Heifers B-ORG
 - O
 Select O
 and O
@@ -26621,7 +26782,7 @@ no O
 sales O
 . O
 
-Heifers O
+Heifers B-ORG
 - O
 Select O
 and O
@@ -26868,7 +27029,7 @@ CHICAGO B-LOC
 Dec O
 6 O
 ( O
-Reuter B-ORG
+Reuter O
 ) O
 Statistics O
 for O
@@ -26919,7 +27080,11 @@ Durum O
 965.3 O
 1069.6 O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 Oats O
+========
+Oats B-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 286.5 O
 284.6 O
 31.9 O
@@ -26933,7 +27098,11 @@ Barley O
 2531.4 O
 1897.1 O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 Rye O
+========
+Rye B-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 44.6 O
 86.3 O
 2.3 O
@@ -26954,7 +27123,11 @@ Canola O
 1902.0 O
 2147.6 O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 Corn O
+========
+Corn B-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 79.6 O
 163.5 O
 9.4 O
@@ -26974,12 +27147,12 @@ Disappearance O
 
 Curr O
 Wk O
-YTD O
+YTD B-ORG
 Yr O
-Ago O
+Ago B-ORG
 Curr O
 Wk O
-YTD O
+YTD B-ORG
 Yr O
 Ago O
 
@@ -27039,7 +27212,11 @@ Canola O
 894.9 O
 822.0 O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 Corn O
+========
+Corn B-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 4.4 O
 15.1 O
 87.0 O
@@ -27077,11 +27254,19 @@ in O
 tonnes O
 : O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 Oats O
 Rye O
 Flaxseed O
 Canola O
 Corn O
+========
+Oats B-ORG
+Rye I-ORG
+Flaxseed I-ORG
+Canola B-ORG
+Corn I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 
 Exports O
 29,200 O
@@ -27120,9 +27305,15 @@ NEW B-LOC
 YORK I-LOC
 1996-12-06 O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 NYMEX B-ORG
 Henry B-LOC
 Hub I-LOC
+========
+NYMEX O
+Henry O
+Hub O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 natgas O
 futures O
 settled O
@@ -27378,8 +27569,13 @@ of O
 43,955 O
 . O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 NYMEX B-ORG
 Alberta B-LOC
+========
+NYMEX O
+Alberta O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 natgas O
 remained O
 untraded O
@@ -27438,7 +27634,11 @@ western O
 Canada B-LOC
 . O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 NYMEX B-ORG
+========
+NYMEX O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 Permian O
 natgas O
 , O
@@ -27524,9 +27724,9 @@ lower O
 . O
 
 The O
-East O
-/ O
-West O
+East B-LOC
+/ I-LOC
+West B-LOC
 spread O
 narrowed O
 by O
@@ -27693,7 +27893,7 @@ open O
 , O
 mid-Mississippi O
 ( O
-McGregor B-PER
+McGregor B-LOC
 and O
 south O
 ) O
@@ -27828,9 +28028,13 @@ Toledo B-LOC
 61,514 O
 0 O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 Corn O
+========
+Corn B-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 
-Chicago B-LOC
+Chicago B-ORG
 78,056 O
 0 O
 
@@ -27843,7 +28047,11 @@ Toledo B-LOC
 285,505 O
 561,287 O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 Oats O
+========
+Oats B-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 
 Chicago B-LOC
 0 O
@@ -27860,7 +28068,11 @@ Chicago B-LOC
 484,018 O
 
 St. B-LOC
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 Louis I-LOC
+========
+Louis I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 253,821 O
 223,172 O
 
@@ -28469,7 +28681,11 @@ away O
 . O
 
 Iowa-S B-LOC
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 Minn B-LOC
+========
+Minn I-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 feedlot O
 cattle O
 market O
@@ -29301,7 +29517,11 @@ by O
 some O
 of O
 the O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 Duce O
+========
+Duce B-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 's O
 World O
 War O
@@ -29378,8 +29598,13 @@ receive O
 small O
 presents O
 from O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 Saint B-PER
 Nicholas I-PER
+========
+Saint B-LOC
+Nicholas I-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 , O
 convinced O
 police O
@@ -30084,8 +30309,13 @@ China B-ORG
 Steel I-ORG
 . O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 Royal O
 Clipper O
+========
+Royal B-ORG
+Clipper I-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 - O
 77,000 O
 tonnes O
@@ -30102,9 +30332,15 @@ shinc O
 / O
 25,000 O
 shinc O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 Coe B-ORG
 and I-ORG
 Clerici I-ORG
+========
+Coe B-PER
+and O
+Clerici B-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 . O
 
 ORE O
@@ -30168,8 +30404,8 @@ to O
 5-2 O
 . O
 
-William B-PER
-Hill I-PER
+William B-ORG
+Hill I-ORG
 said O
 the O
 odds O
@@ -30636,7 +30872,11 @@ Arabia I-LOC
 Arabian O
 Light O
 , O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 Dubai O
+========
+Dubai B-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 of O
 the O
 UAE B-LOC
@@ -31732,9 +31972,9 @@ two O
 families O
 , O
 the O
-Kesers B-PER
+Kesers B-ORG
 and O
-Karabuluts B-PER
+Karabuluts B-ORG
 , O
 serving O
 as O
@@ -32235,7 +32475,7 @@ colder O
 temperatures O
 in O
 distillate-hungry O
-Northeastern O
+Northeastern B-LOC
 markets O
 raised O
 supply O
@@ -33405,7 +33645,7 @@ just O
 arrived O
 from O
 Ulan B-LOC
-Bator I-LOC
+Bator I-PER
 and O
 was O
 not O
@@ -34353,7 +34593,7 @@ COPENHAGEN B-LOC
 1996-12-06 O
 
 A O
-Reuter B-ORG
+Reuter O
 consensus O
 survey O
 sees O
@@ -35275,7 +35515,11 @@ Newsroom I-ORG
 542 O
 2774 O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 Timah B-ORG
+========
+Timah B-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 at O
 15.625 O
 in O
@@ -35370,7 +35614,7 @@ member O
 of O
 the O
 ruling O
-Conservative O
+Conservative B-ORG
 party O
 said O
 on O
@@ -36192,9 +36436,15 @@ NZ B-LOC
 's O
 Peters B-PER
 says O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 Nat B-PER
 , O
 Lab B-PER
+========
+Nat B-ORG
+, O
+Lab B-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 talks O
 at O
 similar O
@@ -36204,9 +36454,9 @@ stage O
 WELLINGTON B-LOC
 1996-12-06 O
 
-New B-ORG
-Zealand I-ORG
-First I-ORG
+New B-LOC
+Zealand I-LOC
+First O
 leader O
 Winston B-PER
 Peters I-PER
@@ -36238,7 +36488,7 @@ between O
 NZ B-ORG
 First I-ORG
 and O
-National B-ORG
+National O
 negotiators O
 to O
 spend O
@@ -36277,8 +36527,8 @@ the O
 talks O
 with O
 Labour B-ORG
-and O
-National B-ORG
+and I-ORG
+National I-ORG
 had O
 reached O
 " O
@@ -36367,12 +36617,21 @@ the O
 electoral O
 division O
 of O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 Fraser B-PER
 in O
 the O
 Australian O
 Capital O
 Territory O
+========
+Fraser B-ORG
+in O
+the O
+Australian B-ORG
+Capital I-LOC
+Territory I-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 , O
 " O
 his O
@@ -36790,8 +37049,13 @@ Arrival O
 Quantity O
 Destination O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 Iran O
 Sabr O
+========
+Iran B-ORG
+Sabr I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 19/11/96 O
 9,000 O
 Iran B-LOC
@@ -36803,19 +37067,28 @@ Loine O
 10,000 O
 Philippines B-LOC
 
-Deligst O
+Deligst B-LOC
 20/11/96 O
 5,500 O
 Indonesia B-LOC
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 Seagramd O
+========
+Seagramd B-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 ace O
 20/11/96 O
 5,000 O
 Japan B-LOC
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 Lucky O
 Emdldm O
+========
+Lucky B-PER
+Emdldm I-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 20/11/96 O
 5,000 O
 Japan B-LOC
@@ -36826,8 +37099,13 @@ Day O
 6,000 O
 Africa B-LOC
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 Sangthai O
 Glory O
+========
+Sangthai B-LOC
+Glory I-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 22/11/96 O
 3,000 O
 Singapore B-LOC
@@ -37143,9 +37421,15 @@ of O
 the O
 State B-ORG
 Council I-ORG
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 's O
 Port O
 Office O
+========
+'s I-ORG
+Port I-ORG
+Office I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 , O
 the O
 Civil B-ORG
@@ -37448,7 +37732,7 @@ in O
 interiors O
 . O
 
-Bre-X B-ORG
+Bre-X O
 , O
 Barrick B-ORG
 said O
@@ -37700,7 +37984,7 @@ said O
 
 He O
 said O
-Bre-X B-ORG
+Bre-X B-PER
 would O
 then O
 formally O
@@ -37839,7 +38123,7 @@ deal O
 . O
 
 The O
-Ministry O
+Ministry B-ORG
 had O
 given O
 the O
@@ -38457,8 +38741,13 @@ Yam I-PER
 , O
 head O
 of O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 Business O
 Policy O
+========
+Business B-ORG
+Policy I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 at O
 the O
 National B-ORG
@@ -39162,7 +39451,7 @@ both O
 formats O
 , O
 making O
-TOPS O
+TOPS B-ORG
 and O
 BILO O
 household O
@@ -39608,7 +39897,11 @@ declared O
 official O
 . O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 ALPINE O
+========
+ALPINE B-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 SKIING-GLADISHIVA O
 WINS O
 WORLD O
@@ -39733,7 +40026,7 @@ pairs O
 players O
 from O
 the O
-PGA B-ORG
+PGA O
 and O
 LPGA B-ORG
 Tours O
@@ -39784,7 +40077,7 @@ The O
 tandem O
 of O
 reigning O
-U.S. B-LOC
+U.S. O
 Amateur O
 champions O
 Kelli B-PER
@@ -39877,7 +40170,7 @@ Norway B-LOC
 super O
 G O
 , O
-Flachau B-LOC
+Flachau B-PER
 , O
 Austria B-LOC
 , O
@@ -40044,8 +40337,8 @@ France B-LOC
 51 O
 
 13= O
-Picabo B-PER
-Street I-PER
+Picabo B-LOC
+Street I-LOC
 ( O
 U.S. B-LOC
 ) O
@@ -40980,7 +41273,11 @@ Paramygina B-PER
 Greiner-Petter-Memm B-PER
 78 O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 ALPINE O
+========
+ALPINE B-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 SKIING-GOETCHL O
 WINS O
 WORLD O
@@ -41486,8 +41783,13 @@ Saturday O
 : O
 
 1. O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 United B-ORG
 States I-ORG
+========
+United B-LOC
+States I-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 III I-ORG
 ( O
 Brian B-PER
@@ -41834,8 +42136,13 @@ father O
 Clarence B-PER
 Woolmer I-PER
 represented O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 United B-LOC
 Province I-LOC
+========
+United B-ORG
+Province I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 , O
 now O
 renamed O
@@ -41985,7 +42292,11 @@ stadium O
 where O
 the O
 India-South O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 Africa O
+========
+Africa I-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 test O
 will O
 be O
@@ -42944,7 +43255,7 @@ China B-LOC
 ) O
 1:25.89 O
 
-ALPINE O
+ALPINE B-ORG
 SKIING-OFFICIALS O
 HOPE O
 TO O
@@ -43221,7 +43532,11 @@ Darren B-PER
 Jackson I-PER
 
 ( O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 Hibernian B-ORG
+========
+Hibernian B-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 ) O
 
 5 O
@@ -43405,7 +43720,7 @@ Newcastle B-ORG
 
 SOCCER O
 - O
-NORTHERN B-LOC
+NORTHERN O
 IRELAND I-LOC
 PREMIER O
 DIVISION O
@@ -43783,7 +44098,7 @@ RUGBY B-ORG
 UNION I-ORG
 - O
 RETIRING O
-CAMPESE B-PER
+CAMPESE O
 WEIGHS O
 UP O
 OPTIONS O
@@ -45721,7 +46036,7 @@ to O
 Wednesday O
 ) O
 , O
-East B-ORG
+East B-LOC
 
 Fife B-ORG
 v O
@@ -46059,14 +46374,14 @@ Gillingham B-ORG
 RUGBY B-ORG
 UNION I-ORG
 - O
-CAMPESE B-PER
+CAMPESE O
 SIGNS O
 OFF O
 WITH O
 TRY O
 IN O
 WALLABY B-LOC
-ROMP O
+ROMP I-LOC
 . O
 
 LONDON B-LOC
@@ -46132,7 +46447,7 @@ last O
 touchdown O
 in O
 a O
-Wallaby B-ORG
+Wallaby O
 jersey O
 before O
 departing O
@@ -46750,7 +47065,7 @@ JONES B-PER
 HITS O
 CENTURY O
 AS O
-VICTORIA B-ORG
+VICTORIA B-LOC
 FIGHT O
 BACK O
 . O
@@ -46772,7 +47087,7 @@ unbeaten O
 130 O
 to O
 lead O
-Victoria B-LOC
+Victoria B-ORG
 's O
 fightback O
 in O
@@ -46799,7 +47114,7 @@ for O
 eight O
 declared O
 , O
-Victoria B-LOC
+Victoria B-ORG
 reached O
 220 O
 for O
@@ -46929,7 +47244,11 @@ between O
 them O
 . O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 Pace B-PER
+========
+Pace O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 bowler O
 Ian B-PER
 Harvey I-PER
@@ -46938,12 +47257,16 @@ three O
 for O
 81 O
 for O
-Victoria B-LOC
+Victoria B-ORG
 . O
 
 CRICKET O
 - O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 SHEFFIELD O
+========
+SHEFFIELD B-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 SHIELD O
 SCORE O
 . O
@@ -47019,7 +47342,7 @@ MOVE O
 CLOSE O
 TO O
 QUARTER-FINAL O
-BERTH O
+BERTH B-LOC
 . O
 
 ABU B-LOC
@@ -47443,7 +47766,7 @@ Chul I-PER
 - O
 Kim B-PER
 Joo I-PER
-Sung I-PER
+Sung I-LOC
 . O
 
 SOCCER O
@@ -47589,7 +47912,11 @@ Beersheba I-ORG
 24 O
 
 Maccabi B-ORG
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 Tel I-ORG
+========
+Tel B-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 Aviv I-ORG
 12 O
 6 O
@@ -47896,7 +48223,7 @@ Indonesia B-LOC
 6 O
 1 O
 
-NBA B-ORG
+NBA O
 BASKETBALL O
 - O
 STANDINGS O
@@ -48265,7 +48592,7 @@ MIAMI B-ORG
 
 Phoenix B-ORG
 101 O
-SACRAMENTO B-ORG
+SACRAMENTO O
 95 O
 
 Vancouver B-ORG
@@ -48296,7 +48623,7 @@ LAKERS I-ORG
 Orlando B-ORG
 81 O
 
-NHL B-ORG
+NHL O
 ICE O
 HOCKEY O
 - O
@@ -48626,7 +48953,7 @@ HARTFORD B-LOC
 WASHINGTON B-ORG
 AT O
 NY B-LOC
-ISLANDERS I-LOC
+ISLANDERS I-ORG
 
 CHICAGO B-ORG
 AT O
@@ -48726,7 +49053,7 @@ EDMONTON B-LOC
 Ottawa B-LOC
 2 O
 
-NHL B-ORG
+NHL O
 ICE O
 HOCKEY O
 - O
@@ -49016,7 +49343,11 @@ Attendance O
 
 SOCCER O
 - O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/10/conll_2003_en/test.txt
 BALKAN B-LOC
+========
+BALKAN B-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/xlmr/local_swap_labels_like_cap/10/conll_2003_en/2/test_predictions.txt
 STRIKE O
 FORCE O
 WIN O
@@ -49308,13 +49639,13 @@ Tuesday O
 , O
 travel O
 to O
-De B-ORG
-Graafschap I-ORG
-Doetinchem I-ORG
+De B-LOC
+Graafschap I-LOC
+Doetinchem I-LOC
 . O
 
 The O
-Doetinchem B-ORG
+Doetinchem B-LOC
 side O
 , O
 dubbed O
