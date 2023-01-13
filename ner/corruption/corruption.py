@@ -146,3 +146,15 @@ def swap_percentage_of_labels(X: List[InputExample], percentage: float) -> List[
 def keep_percentage_of_sentences(X: List[InputExample], percentage: float) -> List[InputExample]:
     ones_to_delete = set(np.random.choice(np.arange(len(X)), size=int(np.round((1 - percentage) * len(X))), replace=False))
     return [copy.deepcopy(ex) for i, ex in enumerate(X) if i not in ones_to_delete]
+
+def keep_percentage_of_sentences_and_corrupt(X: List[InputExample], 
+                                             percentage: float, 
+                                             percentage_corrupt: float, 
+                                             corruption: str) -> List[InputExample]:
+    corruptions = {
+        "cap": keep_percentage_of_labels,
+        "swap": swap_percentage_of_labels
+    }
+    ones_to_delete = set(np.random.choice(np.arange(len(X)), size=int(np.round((1 - percentage) * len(X))), replace=False))
+    ex = [copy.deepcopy(ex) for i, ex in enumerate(X) if i not in ones_to_delete]
+    return corruptions[corruption](ex, percentage_corrupt)
