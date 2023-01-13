@@ -2,10 +2,11 @@ from collections import defaultdict
 import copy
 import os
 import pathlib
+import pprint
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-from ner.dataset import read_examples_from_file
+from ner.dataset import get_labels_position, read_examples_from_file
 from scripts.create_corrupted_datasets import ALL_FUNCS_PARAMS
 import seaborn as sns
 
@@ -279,9 +280,11 @@ def main(lang_to_use=None):
     temp['Language'] = temp['Language'].apply(clean_lang)
     print(temp)
     # exit()
-    
+    temp['f1'] *= 100.0
+    temp['f1'] = temp['f1'].round(1)
+    temp['f1_std'] *= 100.0
     X = pd.pivot_table(temp, columns='Model', index='Language', values='f1')
-    X2 = ' (' + pd.pivot_table(temp, columns='Model', index='Language', values='f1_std', aggfunc=np.sum).round(2).astype(str) + ')'
+    X2 = ' (' + pd.pivot_table(temp, columns='Model', index='Language', values='f1_std', aggfunc=np.sum).round(1).astype(str) + ')'
     # X = X.round(2)
     # print(X.mean(axis=0))
     X['Average'] = X.mean(axis=1)
@@ -306,7 +309,7 @@ def main(lang_to_use=None):
         
     # X = X.round(2)
     for v in X.columns:
-        X[v] = X[v].apply(lambda x: f"{x:.2f}")
+        X[v] = X[v].apply(lambda x: f"{x:.1f}")
     X = X.astype(str)
     # exit()
     
@@ -492,15 +495,73 @@ def plot_corrupted_stats():
         plt.ylabel("Percentage of Labels Remaining")
         # plt.show()
         # savefig()
-        savefig(f'analysis/plots/corrupted_data/{corruption}.png')
+        savefig(f'analysis/plots/corrupted_data/v2_{corruption}.png')
         plt.close()
         
+           
+def get_total_entities(X):
+    total_unique = 0
+    n_labels = []
+    unique_labels = set()
+    for ex in X:
+        idxs = get_labels_position(ex.labels.copy())
+        n_labels.extend(idxs)
+        for start, end in idxs:
+            w = ' '.join(ex.words[start:end+1])
+            unique_labels.add(w)
+    
+    return len(n_labels), len(unique)
+
+def get_propotion_entities():
+    original_num_entities = {
+        'amh': 2247,
+        'conll_2003_en': 19484,
+        'hau': 3989,
+        'ibo': 3254,
+        'kin': 3629,
+        'lug': 3075,
+        'luo': 1138,
+        'pcm': 4632,
+        'swa': 4570,
+        'wol': 1387,
+        'yor': 2757
+    }
+    
+    langs = ['amh','conll_2003_en','hau','ibo','kin','lug','luo','pcm','swa','wol','yor',]
+    corruption_stats = ["local_swap_labels_like_cap", "local_cap_labels", "global_cap_sentences"]
+    corruption_stats = ["global_cap_labels", "global_cap_sentences"]
+    corruption_stats = ["global_cap_sentences"]
+    percentage = [i / 10 for i in range(1, 11)] + [0.01, 0.05]
+    number = [i for i in range(1, 11)]
+    
+    params = {
+        "local_swap_labels_like_cap": number,
+        "global_cap_sentences": percentage,
+        "local_cap_labels": number
+    }
+    data_dir = "data"
+    
+    entities_prop = {}
+    
+    for c in corruption_stats:
+        cp = {}
+        if c in ["global_cap_sentences", "local_cap_labels"]:
+            # continue
+            for p in params[c]:
+                ld = {}
+                for l in langs:
+                    examples = read_examples_from_file(f'{data_dir}/{c}/{p}/{l}', 'train')
+                    orig_examples = read_examples_from_file(f'{data_dir}/original/1/{l}', 'train')
+                    ld[l] = get_total_entities(examples) / get_total_entities(orig_examples)
+                cp[p] = ld
+            entities_prop[c] = cp
 
 if __name__ == '__main__':
     # main(True)
-    plot_dataset_stats()
+    # plot_dataset_stats()
     # main()
     # plot_entity_frequency()
     # comparison_plots(2)
     # plot_corrupted_stats()
     # main()
+    get_propotion_entities()
