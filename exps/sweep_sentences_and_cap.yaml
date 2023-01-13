@@ -1,0 +1,52 @@
+data.param:
+ - cap_0.1_0.1
+ - cap_0.1_0.5
+ - cap_0.1_0.7
+ - cap_0.2_0.1
+ - cap_0.2_0.5
+ - cap_0.2_0.7
+ - cap_0.3_0.1
+ - cap_0.3_0.5
+ - cap_0.3_0.7
+ - cap_0.4_0.1
+ - cap_0.4_0.5
+ - cap_0.4_0.7
+ - cap_0.5_0.1
+ - cap_0.5_0.5
+ - cap_0.5_0.7
+ - cap_0.6_0.1
+ - cap_0.6_0.5
+ - cap_0.6_0.7
+ - cap_0.7_0.1
+ - cap_0.7_0.5
+ - cap_0.7_0.7
+ - cap_0.8_0.1
+ - cap_0.8_0.5
+ - cap_0.8_0.7
+ - cap_0.9_0.1
+ - cap_0.9_0.5
+ - cap_0.9_0.7
+ - cap_1.0_0.1
+ - cap_1.0_0.5
+ - cap_1.0_0.7
+ - cap_0.01_0.1
+ - cap_0.01_0.5
+ - cap_0.01_0.7
+ - cap_0.05_0.1
+ - cap_0.05_0.5
+ - cap_0.05_0.7
+
+data.language:
+  - swa
+
+data.method:
+  - global_cap_sentences_and_labels
+
+model.conf:
+  - [bert,xlm-roberta-base,xlmr]
+
+
+device.seed:
+  - 1
+  - 2
+  - 3
