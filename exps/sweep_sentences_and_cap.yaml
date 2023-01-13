@@ -1,40 +1,30 @@
 data.param:
- - cap_0.1_0.1
- - cap_0.1_0.5
- - cap_0.1_0.7
- - cap_0.2_0.1
- - cap_0.2_0.5
- - cap_0.2_0.7
- - cap_0.3_0.1
- - cap_0.3_0.5
- - cap_0.3_0.7
- - cap_0.4_0.1
- - cap_0.4_0.5
- - cap_0.4_0.7
- - cap_0.5_0.1
- - cap_0.5_0.5
- - cap_0.5_0.7
- - cap_0.6_0.1
- - cap_0.6_0.5
- - cap_0.6_0.7
- - cap_0.7_0.1
- - cap_0.7_0.5
- - cap_0.7_0.7
- - cap_0.8_0.1
- - cap_0.8_0.5
- - cap_0.8_0.7
- - cap_0.9_0.1
- - cap_0.9_0.5
- - cap_0.9_0.7
- - cap_1.0_0.1
- - cap_1.0_0.5
- - cap_1.0_0.7
- - cap_0.01_0.1
- - cap_0.01_0.5
- - cap_0.01_0.7
- - cap_0.05_0.1
- - cap_0.05_0.5
- - cap_0.05_0.7
+- cap_0.01_0.01
+- cap_0.01_0.05
+- cap_0.01_0.25
+- cap_0.01_0.5
+- cap_0.01_0.75
+- cap_0.05_0.01
+- cap_0.05_0.05
+- cap_0.05_0.25
+- cap_0.05_0.5
+- cap_0.05_0.75
+- cap_0.25_0.01
+- cap_0.25_0.05
+- cap_0.25_0.25
+- cap_0.25_0.5
+- cap_0.25_0.75
+- cap_0.5_0.01
+- cap_0.5_0.05
+- cap_0.5_0.25
+- cap_0.5_0.5
+- cap_0.5_0.75
+- cap_0.75_0.01
+- cap_0.75_0.05
+- cap_0.75_0.25
+- cap_0.75_0.5
+- cap_0.75_0.75
+
 
 data.language:
   - swa
@@ -43,7 +33,7 @@ data.method:
   - global_cap_sentences_and_labels
 
 model.conf:
-  - [bert,xlm-roberta-base,xlmr]
+  - [bert,Davlan/afro-xlmr-base,afro_xlmr]
 
 
 device.seed:

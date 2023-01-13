@@ -522,8 +522,10 @@ def get_total_entities(X):
     n_labels = []
     unique_ents =  defaultdict(lambda: 0) # set()
     unique_words = defaultdict(lambda: 0) #set()
+    num_words = 0
     for ex in X:
         idxs = get_labels_position(ex.labels.copy())
+        num_words += len(ex.labels)
         n_labels.extend(idxs)
         for start, end in idxs:
             if 1:
@@ -533,7 +535,7 @@ def get_total_entities(X):
                 for jj in range(start, end+1):
                     unique_words[(ex.words[jj])] += 1
     
-    return len(n_labels), len(unique_ents), len(unique_words), unique_ents, unique_words
+    return len(n_labels), len(unique_ents), len(unique_words), unique_ents, unique_words, num_words
 
 def get_propotion_entities():
     langs = ['amh','conll_2003_en','hau','ibo','kin','lug','luo','pcm','swa','wol','yor',]
@@ -568,12 +570,12 @@ def get_propotion_entities():
                 for p in params[c]:
                     examples = read_examples_from_file(f'{data_dir}/{c}/{p}/{l}', 'train')
                     orig_examples = read_examples_from_file(f'{data_dir}/original/1/{l}', 'train')
-                    cnow, cnow_unique_ents, cnow_unique_words, now_ents, now_words = get_total_entities(examples)
-                    cog, cog_unique_ents, cog_unique_words, og_ents, og_words = get_total_entities(orig_examples)
+                    cnow, cnow_unique_ents, cnow_unique_words, now_ents, now_words, num_words_tot = get_total_entities(examples)
+                    cog, cog_unique_ents, cog_unique_words, og_ents, og_words, og_words_tot = get_total_entities(orig_examples)
                     # print(l, p, c, cnow/cog, cnow_unique/cog_unique);#exit()
                     cc = c if not 'global_cap_sentences' in c else 'global_cap_sentences'
                     # cc = c
-                    for _ in range(5):
+                    for _ in range(6):
                         all['mode'].append(cc);# all['mode'].append(cc); all['mode'].append(cc)
                         all['lang'].append(l);# all['lang'].append(l); all['lang'].append(l)
                         all['param'].append(p);# all['param'].append(p); all['param'].append(p)
@@ -587,6 +589,11 @@ def get_propotion_entities():
                             else:
                                 t.append(A.get(a, 0) / v)
                         return np.mean(t)
+                    def mycountsv2(A, B):
+                        t = []
+                        for a, v in A.items():
+                            t.append(v)
+                        return np.mean(t) / og_words_tot
                     
                     all['value'].append(cnow / cog)
                     all['value'].append(cnow_unique_ents / cog_unique_ents)
@@ -595,16 +602,20 @@ def get_propotion_entities():
                     all['value'].append(mycounts(now_ents, og_ents))
                     all['value'].append(mycounts(now_words, og_words))
                     
+                    all['value'].append((cnow / num_words_tot))
+                    
                     all['frac'].append('normal')
                     all['frac'].append('unique entities')
                     all['frac'].append('unique tokens')
                     all['frac'].append('Entities Ratio')
                     all['frac'].append('Words Ratio')
+                    all['frac'].append('correct labels/total words')
                     # all['frac_unique'].append(cnow_unique / cog_unique)
     df = pd.DataFrame(all)
     print(df)
     
-    df = df[np.logical_or(df['frac'] == 'Entities Ratio', df['frac'] == 'Words Ratio')]
+    # df = df[np.logical_or(df['frac'] == 'Entities Ratio', df['frac'] == 'Words Ratio')]
+    df = df[(df['frac'] == 'correct labels/total words')]
     sns.lineplot(df, x='param', y='value', style='mode'        , errorbar='sd', hue='frac')#, hue='mode')
     # sns.lineplot(df, x='param', y='frac_unique' , errorbar='sd')#, hue='mode')
     plt.show()
