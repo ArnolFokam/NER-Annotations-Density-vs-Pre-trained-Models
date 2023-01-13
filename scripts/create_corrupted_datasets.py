@@ -1,17 +1,24 @@
 from typing import List, Optional
 from shutil import copyfile
 import logging
+import itertools
 
 import numpy as np
 
 import fire
-from ner.corruption.corruption import keep_percentage_of_labels, keep_number_of_labels_unswapped, keep_percentage_of_sentences, swap_percentage_of_labels, cap_number_of_labels, swap_number_of_labels, write_modified_examples_general
+from ner.corruption.corruption import keep_percentage_of_labels, keep_percentage_of_sentences_and_corrupt, keep_number_of_labels_unswapped, keep_percentage_of_sentences, swap_percentage_of_labels, cap_number_of_labels, swap_number_of_labels, write_modified_examples_general
 from ner.dataset import read_examples_from_file
 import os
 log = logging.getLogger(__name__)
 
 percentage = [{'percentage': i / 10} for i in range(1, 11)] + [{'percentage': 0.01}, {'percentage': 0.05}]
 number = [{'number': i} for i in range(1, 11)]
+multi_params = itertools.product([{'corruption': 'cap'}], percentage, [
+    {'precentange_corrupt': 0.1},
+    {'precentange_corrupt': 0.5},
+    {'precentange_corrupt': 0.7},
+])
+multi_params = [{**i, **j, **k} for i, j, k in multi_params]
 
 ALL_FUNCS_PARAMS = {
     # global corruption
@@ -27,6 +34,9 @@ ALL_FUNCS_PARAMS = {
     
     # local corruption swap made just like cap
     'local_swap_labels_like_cap':        (keep_number_of_labels_unswapped, number),
+    
+    # cap and swap
+    'global_cap_sentences_and_labels': (keep_percentage_of_sentences_and_corrupt, multi_params)
 }
 
 
@@ -47,9 +57,9 @@ def main(
             log.info(f"Preprocessing using the function '{func.__name__}' with params {param}")
             
             li = list(param.values())
-            assert len(li) == 1
+            # assert len(li) == 1
             examples = read_examples_from_file(f'{root_dir}/original/1/{lang}', 'train')
-            new_filename = f'{root_dir}/{corruption_name}/{li[0]}/{lang}/'
+            new_filename = f'{root_dir}/{corruption_name}/{"_".join([str(l) for l in li])}/{lang}/'
             os.makedirs(new_filename, exist_ok=True)
             write_modified_examples_general('train', examples, new_filename, func, func_kwargs=param)
             copyfile(f'{root_dir}/original/1/{lang}/dev.txt', f'{new_filename}/dev.txt')
