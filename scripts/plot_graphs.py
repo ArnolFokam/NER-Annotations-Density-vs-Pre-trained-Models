@@ -10,7 +10,7 @@ from ner.dataset import get_labels_position, read_examples_from_file
 from scripts.create_corrupted_datasets import ALL_FUNCS_PARAMS
 import seaborn as sns
 
-from scripts.message import DATA_DICT
+from scripts.message import DATA_DICT, DATA_DICT2
 DO_JOINT_SUBPLOTS = True
 sns.set_theme()
 CLEAN_MODES = {
@@ -328,6 +328,19 @@ def main(lang_to_use=None):
 
 def plot_dataset_stats():
     root_dir = 'data'
+    nice_names = {
+        'amh': 'Amharic',
+        'hau': 'Hausa',
+        'ibo': 'Igbo',
+        'kin': 'Kinyarwanda',
+        'lug': 'Luganda',
+        'luo': 'Luo',
+        'pcm': 'Nigerian Pidgin',
+        'swa': 'Swahili',
+        'wol': 'Wolof',
+        'yor': 'Yorùbá',
+        'en': 'English',
+    }
     ALL_FUNCS_PARAMS['original'] = (None, [{'number': i} for i in range(1, 2)])
     df = {}
     for key, value in ALL_FUNCS_PARAMS.items():
@@ -337,49 +350,54 @@ def plot_dataset_stats():
                 stats = defaultdict(lambda : 0)
                 li = list(param.values())
                 assert len(li) == 1
-                examples = read_examples_from_file(f'{root_dir}/{key}/{li[0]}/{lang}/', 'train')
+                examples = read_examples_from_file(f'{root_dir}/{key}/{li[0]}/{lang}/', 'train') 
+                # + read_examples_from_file(f'{root_dir}/{key}/{li[0]}/{lang}/', 'test') + read_examples_from_file(f'{root_dir}/{key}/{li[0]}/{lang}/', 'dev')
+                num_labels = 0
+                num_words = 0
                 for ex in examples:
                     for l in ex.labels:
+                        num_words += 1
                         if l == 'O': continue
+                        num_labels += 1
                         stats[l.split("-")[-1]] += 1
                         # stats['Total'] += 1
-                num_words = sum([len(ex.words) for ex in examples])
+                # num_words = sum([len(ex.words) for ex in examples])
                 labels = list(map(lambda x: [label.split('-')[-1] for label in x.labels if label != 'O'], examples))
-                num_labels = sum([len(np.unique(l)) for l in labels])
+                # num_labels = sum([len(np.unique(l)) for l in labels])
+                if lang == 'conll_2003_en': lang = 'en'
                 stats = {
-                    # "Number of Sentences": len(examples),
-                    # "num_labels": num_labels,
-                    # "num_words": num_words,
+                    "Number of Sentences": len(examples),
+                    "num_labels": num_labels,
+                    "num_words": num_words,
+                    'Code': lang, # nice_names[lang]
                     **stats,
                 }
-                if lang == 'conll_2003_en': continue # lang = 'en'
-                df[lang] = stats
+                df[nice_names[lang]] = stats
                 print(f"{lang:<10} {li[0]} {stats}")
     df = pd.DataFrame(df)
     df = df.T
     df['Total Entities'] = df['LOC'] + df['ORG'] + df['DATE'].fillna(0) + df['PER']
+    df = df.drop(["LOC", "ORG", "DATE", "PER"], axis=1)
+    T = df['Code']
+    df = df.drop('Code', axis=1)
     df = df.fillna(0).astype(np.int32)
-    # df["Entity Density"] = df["Entity Density"].astype(np.float32)
-    # df["Entity Density $(10^2)$"] = round((df["num_labels"] * 100)/df["num_words"], 2)
-    # df = df.drop("num_labels", axis=1)
-    # df = df.drop("num_words", axis=1)
-    df = df.sort_values('Total Entities', ascending=False)
-    # df /= df['Total Entities']
-    # print(df)
-    if 1:
-        df['LOC']               /= df['Total Entities']
-        df['ORG']               /= df['Total Entities']
-        df['DATE']    /=             df['Total Entities']
-        df['PER']               /= df['Total Entities']
+    df['Language Code'] = T
+    # df["Entity Density (%)"] = df["Entity Density (%)"].astype(np.float32)
+    df["Entity Density (%)"] = ((df["num_labels"])/df["num_words"]).round(3) * 100
+    df = df.drop("num_labels", axis=1)
+    df = df.drop("num_words", axis=1)
+    df = df.sort_values('Entity Density (%)', ascending=False)
+    print(df.columns)
     # exit()
-    df.to_latex("analysis/number_entities.tex")
+    df = df[['Language Code', 'Number of Sentences', 'Total Entities', 'Entity Density (%)']]
+    print(df)
+    df.to_latex("analysis/dataset_info.tex")
     # sns.barplot(df, x='lang', 
     df = df.drop('Total Entities', axis=1)
     df.plot(kind='bar', stacked=True)
     plt.xlabel('Language')
     plt.ylabel("Number of Entities")
-    # plt.ylim(bottom=1)
-    # plt.yscale('log')
+    plt.yscale('log')
     plt.tight_layout()
     savefig("analysis/number_entities.png")
 
@@ -502,19 +520,105 @@ def plot_corrupted_stats():
 def get_total_entities(X):
     total_unique = 0
     n_labels = []
-    unique_labels = set()
+    unique_ents =  defaultdict(lambda: 0) # set()
+    unique_words = defaultdict(lambda: 0) #set()
     for ex in X:
         idxs = get_labels_position(ex.labels.copy())
         n_labels.extend(idxs)
         for start, end in idxs:
-            w = ' '.join(ex.words[start:end+1])
-            unique_labels.add(w)
+            if 1:
+                w = ' '.join(ex.words[start:end+1])
+                unique_ents[w] += 1
+            if 1:
+                for jj in range(start, end+1):
+                    unique_words[(ex.words[jj])] += 1
     
-    return len(n_labels), len(unique)
+    return len(n_labels), len(unique_ents), len(unique_words), unique_ents, unique_words
 
 def get_propotion_entities():
-    original_num_entities = {
-        'amh': 2247,
+    langs = ['amh','conll_2003_en','hau','ibo','kin','lug','luo','pcm','swa','wol','yor',]
+    corruption_stats = ["local_swap_labels_like_cap", "local_cap_labels", "global_cap_sentences"]
+    corruption_stats = ["global_cap_labels", "global_cap_sentences"]
+    corruption_stats = ["global_cap_sentences", "global_cap_sentences_seed1", "global_cap_sentences_seed2", "global_cap_labels"]
+    percentage = [i / 10 for i in range(1, 11)] + [0.01, 0.05]
+    number = [i for i in range(1, 11)]
+    
+    params = {
+        "local_swap_labels_like_cap": number,
+        "global_cap_sentences": percentage,
+        "global_cap_labels": [i / 10 for i in range(1, 11)],
+        "global_cap_sentences_seed1": percentage,
+        "global_cap_sentences_seed2": percentage,
+        "local_cap_labels": number
+    }
+    data_dir = "data"
+    
+    entities_prop = {}
+    entities_prop_unique = {}
+    all = {
+        'mode':        [],
+        'lang':        [],
+        'param':       [],
+        'frac':        [],
+        'value': []
+    }
+    for c in corruption_stats:
+        if c in ["global_cap_sentences", "global_cap_sentences1", "global_cap_sentences2", "global_cap_labels"]:
+            for l in langs:
+                for p in params[c]:
+                    examples = read_examples_from_file(f'{data_dir}/{c}/{p}/{l}', 'train')
+                    orig_examples = read_examples_from_file(f'{data_dir}/original/1/{l}', 'train')
+                    cnow, cnow_unique_ents, cnow_unique_words, now_ents, now_words = get_total_entities(examples)
+                    cog, cog_unique_ents, cog_unique_words, og_ents, og_words = get_total_entities(orig_examples)
+                    # print(l, p, c, cnow/cog, cnow_unique/cog_unique);#exit()
+                    cc = c if not 'global_cap_sentences' in c else 'global_cap_sentences'
+                    # cc = c
+                    for _ in range(5):
+                        all['mode'].append(cc);# all['mode'].append(cc); all['mode'].append(cc)
+                        all['lang'].append(l);# all['lang'].append(l); all['lang'].append(l)
+                        all['param'].append(p);# all['param'].append(p); all['param'].append(p)
+                    
+                    def mycounts(A, B):
+                        t = []
+                        for a, v in B.items():
+                            # if a in A:
+                            if cc == 'global_cap_sentences':
+                                t.append(1)
+                            else:
+                                t.append(A.get(a, 0) / v)
+                        return np.mean(t)
+                    
+                    all['value'].append(cnow / cog)
+                    all['value'].append(cnow_unique_ents / cog_unique_ents)
+                    all['value'].append(cnow_unique_words / cog_unique_words)
+                    
+                    all['value'].append(mycounts(now_ents, og_ents))
+                    all['value'].append(mycounts(now_words, og_words))
+                    
+                    all['frac'].append('normal')
+                    all['frac'].append('unique entities')
+                    all['frac'].append('unique tokens')
+                    all['frac'].append('Entities Ratio')
+                    all['frac'].append('Words Ratio')
+                    # all['frac_unique'].append(cnow_unique / cog_unique)
+    df = pd.DataFrame(all)
+    print(df)
+    
+    df = df[np.logical_or(df['frac'] == 'Entities Ratio', df['frac'] == 'Words Ratio')]
+    sns.lineplot(df, x='param', y='value', style='mode'        , errorbar='sd', hue='frac')#, hue='mode')
+    # sns.lineplot(df, x='param', y='frac_unique' , errorbar='sd')#, hue='mode')
+    plt.show()
+
+
+def bad_get_things():
+    def get_total_entities(X):
+        
+        n_labels = []
+        
+        for ex in X:
+            n_labels.append(len(get_labels_position(ex.labels.copy())))
+        return sum(n_labels)
+    original_num_entities = {'amh': 2247,
         'conll_2003_en': 19484,
         'hau': 3989,
         'ibo': 3254,
@@ -529,7 +633,6 @@ def get_propotion_entities():
     
     langs = ['amh','conll_2003_en','hau','ibo','kin','lug','luo','pcm','swa','wol','yor',]
     corruption_stats = ["local_swap_labels_like_cap", "local_cap_labels", "global_cap_sentences"]
-    corruption_stats = ["global_cap_labels", "global_cap_sentences"]
     corruption_stats = ["global_cap_sentences"]
     percentage = [i / 10 for i in range(1, 11)] + [0.01, 0.05]
     number = [i for i in range(1, 11)]
@@ -551,10 +654,26 @@ def get_propotion_entities():
                 ld = {}
                 for l in langs:
                     examples = read_examples_from_file(f'{data_dir}/{c}/{p}/{l}', 'train')
-                    orig_examples = read_examples_from_file(f'{data_dir}/original/1/{l}', 'train')
-                    ld[l] = get_total_entities(examples) / get_total_entities(orig_examples)
+                    orig_examples = read_examples_from_file(f'{data_dir}/{c}/{p}/{l}', 'train')
+                    ld[l] = get_total_entities(examples) / original_num_entities[l]
+                    
+                    print(p, l, c, ld[l])
+                    exit()
                 cp[p] = ld
             entities_prop[c] = cp
+                    
+        else:
+            for p in params[c]:
+                ld = {}
+                for l in langs:
+                    examples = read_examples_from_file(f'{data_dir}/{c}/{p}/{l}', 'train')
+                    orig_examples = read_examples_from_file(f'{data_dir}/original/1/{l}', 'train')
+                    ld[l] = get_total_entities_not_different(examples, orig_examples)  / original_num_entities[l]
+                cp[p] = ld
+            entities_prop[c] = cp
+                
+    pprint(entities_prop)
+    
 
 if __name__ == '__main__':
     # main(True)
@@ -565,3 +684,5 @@ if __name__ == '__main__':
     # plot_corrupted_stats()
     # main()
     get_propotion_entities()
+    # bad_get_things()
+    # plot_dataset_stats()
