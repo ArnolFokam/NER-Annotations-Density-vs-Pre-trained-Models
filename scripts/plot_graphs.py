@@ -714,7 +714,7 @@ def check_quality_and_quantity():
                 lines = pathlib.Path(d).read_text().split("\n")                        
                 line = [l for l in lines if 'f1 = ' in l]
                 assert len(line) == 1
-                f1 = float(line[0].split("f1 = ")[-1])
+                f1 = float(line[0].split("f1 = ")[-1]) / 0.8845676458419529
                 result[f'Sent {p_sent}'][f'Label {p_label}'] = f1
                 if 0:
                     result['seed'].append(seed)
