@@ -400,6 +400,40 @@ def plot_dataset_stats():
     plt.yscale('log')
     plt.tight_layout()
     savefig("analysis/number_entities.png")
+    
+def plot_enity_dist_frequency():
+    root_dir = 'data'
+    ALL_FUNCS_PARAMS['original'] = (None, [{'number': i} for i in range(1, 2)])
+
+    df = {key: np.zeros(70) for key in LANGS}
+    df_temp = {key: 0 for key in LANGS}
+    for key, value in ALL_FUNCS_PARAMS.items():
+        if key != 'original': continue
+        for lang in LANGS:
+            for param in value[1]:
+                # stats = defaultdict(lambda : 0)
+                li = list(param.values())
+                assert len(li) == 1
+                examples = read_examples_from_file(f'{root_dir}/{key}/{li[0]}/{lang}/', 'train')
+                for ex in examples:
+                    num_entities = 0
+                    for l in ex.labels:
+                        if l == 'O': continue
+                        num_entities += 1
+                    df[lang][num_entities] += 1
+                    df_temp[lang] += 1
+    for l in df:
+        for i in range(len(df[l])):
+            df[l][i] = df[l][i] / df_temp[l]
+    df = pd.DataFrame(df)      
+    print(df)
+    df['Number of Entities'] = df.index
+    temp = pd.melt(df, id_vars='Number of Entities', var_name='lang', value_name='Fraction of Sentences')
+    sns.lineplot(temp, x='Number of Entities', y='Fraction of Sentences', hue='lang', palette=sns.color_palette("Paired"))
+    plt.xlim(0, 15)
+    # plt.show()
+    savefig("analysis/entity_distribution.png")
+    
 
 def plot_entity_frequency():
     root_dir = 'data'
@@ -411,7 +445,7 @@ def plot_entity_frequency():
         if key != 'original': continue
         for lang in LANGS:
             for param in value[1]:
-                stats = defaultdict(lambda : 0)
+                # stats = defaultdict(lambda : 0)
                 li = list(param.values())
                 assert len(li) == 1
                 examples = read_examples_from_file(f'{root_dir}/{key}/{li[0]}/{lang}/', 'train')
@@ -551,11 +585,7 @@ def get_propotion_entities():
         "global_cap_labels": [i / 10 for i in range(1, 11)],
         "global_cap_sentences_seed1": percentage,
         "global_cap_sentences_seed2": percentage,
-        "local_cap_labels": number
-    }
-    data_dir = "data"
-    
-    entities_prop = {}
+
     entities_prop_unique = {}
     all = {
         'mode':        [],
