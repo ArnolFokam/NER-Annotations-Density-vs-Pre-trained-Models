@@ -733,10 +733,13 @@ def check_quality_and_quantity():
                     result['f1'].append(f1)
     df = pd.DataFrame(result)
     print(df)
+    def std(x):
+        return np.std(x)
     def test(x):
         return np.mean(x)
         print(x)
         exit()
+    df_std = df.applymap(std)
     df = df.applymap(test)
     # print(df.mean(axis=0))
     # exit()
@@ -745,11 +748,14 @@ def check_quality_and_quantity():
     print(df)
     
     # sns.heatmap(df, annot=True)
-    
+    # print(df_std)
+    # exit()
     for c in df.columns:
         v = df[c]
+        stds = df_std[c]
         fff = float(c.split()[-1])
         plt.plot([i * fff for i in ps], v, label=c)
+        plt.fill_between([i * fff for i in ps], v - stds, v + stds, alpha=0.3)
     plt.xlabel("Label fraction")
     plt.xlabel("Sentence Corruption * Label Corruption")
     plt.legend()
