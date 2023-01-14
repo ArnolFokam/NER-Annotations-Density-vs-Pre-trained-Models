@@ -1,0 +1,27 @@
+data.param:
+- cap_0.01_1.0
+- cap_0.05_1.0
+- cap_0.25_1.0
+- cap_0.5_1.0
+- cap_0.75_1.0
+- cap_1.0_0.01
+- cap_1.0_0.05
+- cap_1.0_0.25
+- cap_1.0_0.5
+- cap_1.0_0.75
+
+
+data.language:
+  - swa
+
+data.method:
+  - global_cap_sentences_and_labels
+
+model.conf:
+  - [bert,Davlan/afro-xlmr-base,afro_xlmr]
+
+
+device.seed:
+  - 1
+  - 2
+  - 3

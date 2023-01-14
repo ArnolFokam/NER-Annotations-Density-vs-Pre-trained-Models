@@ -20,6 +20,7 @@ multi_params = itertools.product([{'corruption': 'cap'}],
     {'percentage': 0.25},
     {'percentage': 0.5},
     {'percentage': 0.75},
+    {'percentage': 1.0},
 ], 
 [
     {'percentage_corrupt': 0.01},
@@ -27,6 +28,7 @@ multi_params = itertools.product([{'corruption': 'cap'}],
     {'percentage_corrupt': 0.25},
     {'percentage_corrupt': 0.5},
     {'percentage_corrupt': 0.75},
+    {'percentage_corrupt': 1.0},
 ])
 multi_params = [{**i, **j, **k} for i, j, k in multi_params]
 
@@ -71,6 +73,9 @@ def main(
             examples = read_examples_from_file(f'{root_dir}/original/1/{lang}', 'train')
             new_filename = f'{root_dir}/{corruption_name}/{"_".join([str(l) for l in li])}/{lang}/'
             os.makedirs(new_filename, exist_ok=True)
+            if os.path.exists(os.path.join(new_filename, 'train.txt')):
+                continue
+            # exit()
             write_modified_examples_general('train', examples, new_filename, func, func_kwargs=param)
             copyfile(f'{root_dir}/original/1/{lang}/dev.txt', f'{new_filename}/dev.txt')
             copyfile(f'{root_dir}/original/1/{lang}/test.txt', f'{new_filename}/test.txt')

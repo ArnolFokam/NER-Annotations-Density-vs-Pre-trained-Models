@@ -684,7 +684,48 @@ def bad_get_things():
             entities_prop[c] = cp
                 
     pprint(entities_prop)
+
+
+def check_quality_and_quantity():
+    D = 'results/afro_xlmr/'
+    ps = [0.01, 0.05, 0.25, 0.5, 0.75]#, 1]
+    result = {
+        'sent': [],
+        'label': [],
+        'seed': [],
+        'f1': [],
+    }
     
+    result = {
+        # 'seed': {f'Label {p}': [] for p in ps}
+    }
+    for p in ps:
+        result[f'Sent {p}'] = {f'Label {p}': [] for p in ps}
+    for p_sent in ps:
+        for p_label in ps:
+            for seed in range(1, 2):
+                
+                if p_sent == 1:
+                    d = os.path.join(D, 'global_cap_labels', f'{p_label}', 'swa', str(seed), 'test_results.txt')
+                elif p_label == 1:
+                    d = os.path.join(D, 'global_cap_sentences', f'{p_sent}', 'swa', str(seed), 'test_results.txt')
+                else:
+                    d = os.path.join(D, 'global_cap_sentences_and_labels', f'cap_{p_sent}_{p_label}', 'swa', str(seed), 'test_results.txt')
+                lines = pathlib.Path(d).read_text().split("\n")                        
+                line = [l for l in lines if 'f1 = ' in l]
+                assert len(line) == 1
+                f1 = float(line[0].split("f1 = ")[-1])
+                result[f'Sent {p_sent}'][f'Label {p_label}'] = f1
+                if 0:
+                    result['seed'].append(seed)
+                    result['sent'].append(p_sent)
+                    result['label'].append(p_label)
+                    result['f1'].append(f1)
+    df = pd.DataFrame(result)
+    print(df)
+    sns.heatmap(df, annot=True)
+    plt.show()
+
 
 if __name__ == '__main__':
     # main(True)
@@ -694,6 +735,7 @@ if __name__ == '__main__':
     # comparison_plots(2)
     # plot_corrupted_stats()
     # main()
-    get_propotion_entities()
+    # get_propotion_entities()
+    check_quality_and_quantity()
     # bad_get_things()
     # plot_dataset_stats()
