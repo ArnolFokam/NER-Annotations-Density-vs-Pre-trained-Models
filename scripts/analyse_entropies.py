@@ -6,68 +6,56 @@ import numpy as np
 from scripts.plot_graphs import CLEAN_MODES, savefig, clean_model
 
 def get_vals(folder):
-    # "entropies/xlmr/global_swap_labels/0.5/swa/3/"
+    A = folder.split("/")
+    original_data = os.path.join(*(A[:2] + ['global_cap_sentences', '1.0'] + A[4:]))
     ent = np.load(os.path.join(folder, 'entropies.npz'))['arr_0']
     labs = np.load(os.path.join(folder, 'labels.npz'))['arr_0']
     with open(os.path.join(folder, 'labels.p'), 'rb') as f:
         lab2 = pickle.load(f)
-        
-    # print(labs[0])
-    # print(ent.shape, folder)
-    # print(labs[0])
-    # exit()
+
     good_ents = []
     good_labs = []
-    for example, example_labels in zip(ent, labs):
+    good_labs2 = []
+    for index, (example, example_labels) in enumerate(zip(ent, labs)):
         for j in range(len(example_labels) - 1, -1, -1):
             if example_labels[j] != -100:
                 break
         
         example_labels = example_labels[:j + 1]
         new = []
-        curr = -100
-        for i in example_labels:
+        new_ent = []
+        # Ignoring the -100 tokens
+        for idx, (i, myent) in enumerate(zip(example_labels, example)):
             if i == -100:
-                new.append(curr)
+                continue
             else:
-                curr = i
                 new.append(i)
-        new = new[1:]
+                new_ent.append(myent)
+        example = new_ent
         
+        old = new
         new = [n if n == 0 else 1 for n in new]
         
         x_0 = []
         x_1 = []
-        # for n, ex in zip(new, example):
-        #     if n == 0:   x_0.append(ex)
-        #     elif n == 1: x_1.append(ex)
-        #     else: assert False
 
-        # good_ents.extend([np.mean(x_0) if len(x_0) else 0, np.mean(x_1) if len(x_1) else 0])
-        # good_labs.extend([0, 1])
-
-        good_ents.extend(example[1:j + 1])
+        good_ents.extend(example)
         good_labs.extend(new)
-        # good_labs.extend(example_labels[:j + 1])
-        # print("NEW", new)
-        # print(new)
-        # exit()
+        good_labs2.extend(old)
     x_0 = []
     x_1 = []
-    if 1:
-        for n, ex in zip(good_labs, good_ents):
-            if n == 0:   x_0.append(ex)
-            elif n == 1: x_1.append(ex)
-            else: assert False
-
-        good_ents = [np.mean(x_0) if len(x_0) else 0, np.mean(x_1) if len(x_1) else 0][1:]
-        good_labs = [0, 1][1:]
+    for n, ex in zip(good_labs, good_ents):
+        if n == 0:   x_0.append(ex)
+        elif n == 1: x_1.append(ex)
+        else: assert False
+    good_ents = [np.mean(x_0) if len(x_0) else 0, np.mean(x_1) if len(x_1) else 0][1:]
+    good_labs = [0, 1][1:]
     return good_ents, good_labs, lab2
-    return ent, labs, lab2
 
 
 MODELS = ['xlmr', 'afriberta', 'afro_xlmr', 'mbert']
 LANGS = ['amh','hau','ibo','kin','lug','luo','pcm','swa','wol','yor',]
+# LANGS = ['swa',]
 def main(MODEL='afro_xlmr', CORRUPTION='global_swap_labels'):
 
     axs = [plt.gca()]
@@ -106,27 +94,17 @@ def main(MODEL='afro_xlmr', CORRUPTION='global_swap_labels'):
                 else:
                     if XXXX[I] is None:
                         XXXX[I] = v
-                    print("LEN V", len(v))
                     vals.append(m:= np.mean(v))
                     s = 0
                     mi.append(np.min(v))
                     ma.append(np.max(v))
             ax.plot(x, vals, label=clean_model(MODEL))
-            PPP = ogv[2]
-            PPP = ["O", "Entities"]
-            LLL = X[I]
-            print(PPP)
-            print(LLL)
-            # ax.set_title(str((PPP[LLL]) if LLL >= 0 else LLL) + " -- " + str(idx.sum()))
             ax.fill_between(x, mi, ma, alpha=0.1)
             ax.set_ylabel("Entropy")
-            # ax.set_xlabel("Param")
             ax.set_xlabel(mytest(CORRUPTION))
             ax.set_ylim(0, 1.3)
             ax.set_title(CLEAN_MODES[CORRUPTION])
-            # ax.show()
     plt.legend()
-    # plt.suptitle(CORRUPTION)
     savefig(f'analysis/plots/entropies/ALL_{CORRUPTION}.png')
     
     plt.close()
@@ -146,6 +124,5 @@ def mytest(mode):
 
 
 if __name__ == '__main__':
-    for M in ['xlmr', 'afriberta', 'afro_xlmr', 'mbert'][:1]: 
-        for C in ['global_swap_labels', 'global_cap_labels', 'global_cap_sentences', 'local_cap_labels']:
-            main(M, C)
+    for C in ['global_swap_labels', 'global_cap_labels', 'global_cap_sentences', 'local_cap_labels']:
+        main(None, C)
