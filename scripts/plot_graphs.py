@@ -48,8 +48,8 @@ def clean_lang(lang):
     if lang == 'conll_2003_en': return 'en'
     return lang
 
-def savefig(name, pad=0):
-    plt.tight_layout()
+def savefig(name, pad=0, tight=True):
+    if tight: plt.tight_layout()
     if '/' in name:
         path = '/'.join(name.split('/')[:-1])
         os.makedirs(path, exist_ok=True)
@@ -585,7 +585,7 @@ def get_propotion_entities():
         "global_cap_labels": [i / 10 for i in range(1, 11)],
         "global_cap_sentences_seed1": percentage,
         "global_cap_sentences_seed2": percentage,
-
+    }
     entities_prop_unique = {}
     all = {
         'mode':        [],
@@ -722,75 +722,122 @@ def get_f1_from_filename(f):
     return float(line[0].split("f1 = ")[-1])
 
 def check_quality_and_quantity():
-    D = 'results/afro_xlmr/'
-    ps = [0.01, 0.05, 0.1, 0.25, 0.5, 0.75, 1.0][1:]#, 1]
-    result = {
-        'sent': [],
-        'label': [],
-        'seed': [],
-        'f1': [],
-    }
-    
-    result = {
-        # 'seed': {f'Label {p}': [] for p in ps}
-    }
-    for p in ps:
-        result[f'Sent {p}'] = {f'Label {p}': [] for p in ps}
-    for p_sent in ps:
-        for p_label in ps:
-            for seed in range(1, 4):
-                OG = os.path.join(D, 'original', f'1', 'swa', str(seed), 'test_results.txt')
-                OG_PERF = get_f1_from_filename(OG)
-                # if p_sent == 1:
-                #     d = os.path.join(D, 'global_cap_labels', f'{p_label}', 'swa', str(seed), 'test_results.txt')
-                # elif p_label == 1:
-                #     d = os.path.join(D, 'global_cap_sentences', f'{p_sent}', 'swa', str(seed), 'test_results.txt')
-                # else:
-                if p_sent == 1.0 and p_label == 1.0:
-                    f1 = 1.0
-                else:
-                    d = os.path.join(D, 'global_cap_sentences_and_labels', f'cap_{p_sent}_{p_label}', 'swa', str(seed), 'test_results.txt')
-                    f1 = get_f1_from_filename(d) / OG_PERF
-                # lines = pathlib.Path(d).read_text().split("\n")                        
-                # line = [l for l in lines if 'f1 = ' in l]
-                # assert len(line) == 1
-                # f1 = float(line[0].split("f1 = ")[-1]) / 0.8845676458419529
-                result[f'Sent {p_sent}'][f'Label {p_label}'].append(f1)
-                if 0:
-                    result['seed'].append(seed)
-                    result['sent'].append(p_sent)
-                    result['label'].append(p_label)
-                    result['f1'].append(f1)
-    df = pd.DataFrame(result)
-    print(df)
-    def std(x):
-        return np.std(x)
-    def test(x):
-        return np.mean(x)
-        print(x)
-        exit()
-    df_std = df.applymap(std)
-    df = df.applymap(test)
-    # print(df.mean(axis=0))
-    # exit()
-    # df['avg'] = df.mean(axis=1)
-    # df.loc['avg'] = df.mean(axis=0)
-    print(df)
-    
-    # sns.heatmap(df, annot=True)
-    # print(df_std)
-    # exit()
-    for c in df.columns:
-        v = df[c]
-        stds = df_std[c]
-        fff = float(c.split()[-1])
-        plt.plot([i * fff for i in ps], v, label=c)
-        plt.fill_between([i * fff for i in ps], v - stds, v + stds, alpha=0.3)
-    plt.xlabel("Label fraction")
-    plt.xlabel("Sentence Corruption * Label Corruption")
-    plt.legend()
-    plt.show()
+    def inner(LANG, ax=None, ylabel=True, cbar_ax=None):
+        D = 'results/afro_xlmr/'
+        ps = [0.01, 0.05, 0.1, 0.25, 0.5, 0.75, 1.0][1:]#, 1]
+        result = {
+            'sent': [],
+            'label': [],
+            'seed': [],
+            'f1': [],
+        }
+        
+        result = {
+            # 'seed': {f'Label {p}': [] for p in ps}
+        }
+        
+        def sents(p):
+            return f'{round(p*100)}%'
+            return f'{round(p*100)}% Sentences'
+        def labs(p):
+            return f'{round(p*100)}%'
+            return f'{round(p*100)}% Labels'
+        for p in ps:
+            # result[f'Sent {p}'] = {f'Label {p}': [] for p in ps}
+            result[sents(p)] = {labs(p): [] for p in ps}
+        for p_sent in ps:
+            for p_label in ps:
+                for seed in range(1, 4):
+                    OG = os.path.join(D, 'original', f'1', LANG, str(seed), 'test_results.txt')
+                    OG_PERF = get_f1_from_filename(OG)
+                    # if p_sent == 1:
+                    #     d = os.path.join(D, 'global_cap_labels', f'{p_label}', 'swa', str(seed), 'test_results.txt')
+                    # elif p_label == 1:
+                    #     d = os.path.join(D, 'global_cap_sentences', f'{p_sent}', 'swa', str(seed), 'test_results.txt')
+                    # else:
+                    if p_sent == 1.0 and p_label == 1.0:
+                        f1 = 1.0
+                    else:
+                        d = os.path.join(D, 'global_cap_sentences_and_labels', f'cap_{p_sent}_{p_label}', LANG, str(seed), 'test_results.txt')
+                        f1 = get_f1_from_filename(d) / OG_PERF
+                    # lines = pathlib.Path(d).read_text().split("\n")                        
+                    # line = [l for l in lines if 'f1 = ' in l]
+                    # assert len(line) == 1
+                    # f1 = float(line[0].split("f1 = ")[-1]) / 0.8845676458419529
+                    # result[f'Sent {p_sent}'][f'Label {p_label}'].append(f1)
+                    result[sents(p_sent)][labs(p_label)].append(f1)
+        df = pd.DataFrame(result)
+        def std(x):
+            return np.std(x)
+        def test(x):
+            return np.mean(x)
+            print(x)
+            exit()
+        
+        # Clean rows and columns
+        def clean_col(k):
+            if "% Sentences" in k: return k
+            p = round(float(k.split(" ")[-1]) * 100)
+            return f"{p}% Sentences"
+        # df = df.rename({k: clean_col(k) for k in df.columns}, axis=1)
+        
+        df_std = df.applymap(std)
+        df = df.applymap(test)
+        print(df)
+        # df = df_std
+        if ax is None:
+            ax = plt.gca()
+        im = sns.heatmap(df.round(2), annot=True, cmap="YlGnBu", vmin=0, vmax=1, ax=ax, cbar=cbar_ax is not None, cbar_ax=cbar_ax)
+        ax.set_xlabel("Percentage of Sentences Remaining")
+        ax.set_title({'en': 'English', 'swa': "Swahili", 'luo': "Luo"}[clean_lang(LANG)])
+        if ylabel: ax.set_ylabel("Percentage of Labels Remaining")
 
+        return im
+        savefig(f'analysis/plots/cap_sent_and_labels/heatmap_{LANG}.png')
+        plt.close()
+        # print(df_std)
+        # exit()
+        # df = df.T
+        # df_std = df_std.T
+        for c in df.columns:
+            v = df[c]
+            stds = df_std[c]
+            fff = float(c.split('%')[0])
+            LLL = 1
+            if LANG == 'luo': LLL = 2700
+            if LANG == 'swa': LLL = 7000
+            if LANG == 'conll_2003_en': LLL = 30_000
+            LLL /= 100
+            LLL = 1
+            plt.plot([i * fff * LLL for i in ps], v, label=c)
+            plt.fill_between([i * fff for i in ps], v - stds, v + stds, alpha=0.3)
+        plt.xlabel("Label fraction")
+        # plt.xlabel("Sentence Corruption * Label Corruption")
+        # plt.xlabel(r"Sentence Corruption $\times$ Label Corruption")
+        plt.xlabel("Overall Percentage of Labels Remaining")
+        plt.ylabel(YLABEL)
+        plt.legend(title="Fraction of Sentences")
+        savefig(f'analysis/plots/cap_sent_and_labels/lineplot_{LANG}.png')
+        plt.close()
+    fig, axs = plt.subplots(1, 3, figsize=(15, 5), sharey=True)
+    # plt.tight_layout()
+    # cbar_ax = fig.add_axes([.91, .11, .02, .765])
+    cbar_ax = fig.add_axes([.91, .14, 0.02, 0.775])
+    inner('conll_2003_en', axs[0])
+    inner('swa',           axs[1], ylabel=False)
+    im = inner('luo',           axs[2], ylabel=False, cbar_ax=cbar_ax)
+    # fig.subplots_adjust(right=0.8)
+    # cbar_ax = fig.add_axes([0.85, 0.15, 0.05, 0.7])
+    # fig.colorbar(im, cax=cbar_ax)# Colorbar
+    # axs[-1].cax.colorbar(im)
+    # axs[-1].cax.toggle_label(True)
+    # import matplotlib as mpl
+    # cax,kw = mpl.colorbar.make_axes([ax for ax in axs])
+    # plt.colorbar(im, cax=cax, **kw)
+    # fig.colorbar(im, ax=axs)
+    plt.tight_layout(rect=[0, 0, .9, 1])
+    # plt.show()
+    savefig(f'analysis/plots/cap_sent_and_labels/all_heatmaps.png', tight=False)
 
 if __name__ == '__main__':
     # main(True)
