@@ -797,7 +797,13 @@ def check_quality_and_quantity():
             v = df[c]
             stds = df_std[c]
             fff = float(c.split('%')[0])
-            plt.plot([i * fff for i in ps], v, label=c)
+            LLL = 1
+            if LANG == 'luo': LLL = 2700
+            if LANG == 'swa': LLL = 7000
+            if LANG == 'conll_2003_en': LLL = 30_000
+            LLL /= 100
+            LLL = 1
+            plt.plot([i * fff * LLL for i in ps], v, label=c)
             plt.fill_between([i * fff for i in ps], v - stds, v + stds, alpha=0.3)
         plt.xlabel("Label fraction")
         # plt.xlabel("Sentence Corruption * Label Corruption")
