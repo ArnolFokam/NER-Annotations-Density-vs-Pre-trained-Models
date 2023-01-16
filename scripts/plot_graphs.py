@@ -48,8 +48,8 @@ def clean_lang(lang):
     if lang == 'conll_2003_en': return 'en'
     return lang
 
-def savefig(name, pad=0):
-    plt.tight_layout()
+def savefig(name, pad=0, tight=True):
+    if tight: plt.tight_layout()
     if '/' in name:
         path = '/'.join(name.split('/')[:-1])
         os.makedirs(path, exist_ok=True)
@@ -722,7 +722,7 @@ def get_f1_from_filename(f):
     return float(line[0].split("f1 = ")[-1])
 
 def check_quality_and_quantity():
-    def inner(LANG):
+    def inner(LANG, ax=None, ylabel=True, cbar_ax=None):
         D = 'results/afro_xlmr/'
         ps = [0.01, 0.05, 0.1, 0.25, 0.5, 0.75, 1.0][1:]#, 1]
         result = {
@@ -785,9 +785,14 @@ def check_quality_and_quantity():
         df = df.applymap(test)
         print(df)
         # df = df_std
-        sns.heatmap(df.round(2), annot=True, cmap="YlGnBu", vmin=0, vmax=1)
-        plt.xlabel("Percentage of Sentences Remaining")
-        plt.ylabel("Percentage of Labels Remaining")
+        if ax is None:
+            ax = plt.gca()
+        im = sns.heatmap(df.round(2), annot=True, cmap="YlGnBu", vmin=0, vmax=1, ax=ax, cbar=cbar_ax is not None, cbar_ax=cbar_ax)
+        ax.set_xlabel("Percentage of Sentences Remaining")
+        ax.set_title({'en': 'English', 'swa': "Swahili", 'luo': "Luo"}[clean_lang(LANG)])
+        if ylabel: ax.set_ylabel("Percentage of Labels Remaining")
+
+        return im
         savefig(f'analysis/plots/cap_sent_and_labels/heatmap_{LANG}.png')
         plt.close()
         # print(df_std)
@@ -814,9 +819,25 @@ def check_quality_and_quantity():
         plt.legend(title="Fraction of Sentences")
         savefig(f'analysis/plots/cap_sent_and_labels/lineplot_{LANG}.png')
         plt.close()
-    inner('swa')
-    inner('luo')
-    inner('conll_2003_en')
+    fig, axs = plt.subplots(1, 3, figsize=(15, 5), sharey=True)
+    # plt.tight_layout()
+    # cbar_ax = fig.add_axes([.91, .11, .02, .765])
+    cbar_ax = fig.add_axes([.91, .14, 0.02, 0.775])
+    inner('conll_2003_en', axs[0])
+    inner('swa',           axs[1], ylabel=False)
+    im = inner('luo',           axs[2], ylabel=False, cbar_ax=cbar_ax)
+    # fig.subplots_adjust(right=0.8)
+    # cbar_ax = fig.add_axes([0.85, 0.15, 0.05, 0.7])
+    # fig.colorbar(im, cax=cbar_ax)# Colorbar
+    # axs[-1].cax.colorbar(im)
+    # axs[-1].cax.toggle_label(True)
+    # import matplotlib as mpl
+    # cax,kw = mpl.colorbar.make_axes([ax for ax in axs])
+    # plt.colorbar(im, cax=cax, **kw)
+    # fig.colorbar(im, ax=axs)
+    plt.tight_layout(rect=[0, 0, .9, 1])
+    # plt.show()
+    savefig(f'analysis/plots/cap_sent_and_labels/all_heatmaps.png', tight=False)
 
 if __name__ == '__main__':
     # main(True)
