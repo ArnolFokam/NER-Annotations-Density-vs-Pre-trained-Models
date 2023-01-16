@@ -585,7 +585,7 @@ def get_propotion_entities():
         "global_cap_labels": [i / 10 for i in range(1, 11)],
         "global_cap_sentences_seed1": percentage,
         "global_cap_sentences_seed2": percentage,
-
+    }
     entities_prop_unique = {}
     all = {
         'mode':        [],
@@ -735,8 +735,16 @@ def check_quality_and_quantity():
         result = {
             # 'seed': {f'Label {p}': [] for p in ps}
         }
+        
+        def sents(p):
+            return f'{round(p*100)}%'
+            return f'{round(p*100)}% Sentences'
+        def labs(p):
+            return f'{round(p*100)}%'
+            return f'{round(p*100)}% Labels'
         for p in ps:
-            result[f'Sent {p}'] = {f'Label {p}': [] for p in ps}
+            # result[f'Sent {p}'] = {f'Label {p}': [] for p in ps}
+            result[sents(p)] = {labs(p): [] for p in ps}
         for p_sent in ps:
             for p_label in ps:
                 for seed in range(1, 4):
@@ -756,7 +764,8 @@ def check_quality_and_quantity():
                     # line = [l for l in lines if 'f1 = ' in l]
                     # assert len(line) == 1
                     # f1 = float(line[0].split("f1 = ")[-1]) / 0.8845676458419529
-                    result[f'Sent {p_sent}'][f'Label {p_label}'].append(f1)
+                    # result[f'Sent {p_sent}'][f'Label {p_label}'].append(f1)
+                    result[sents(p_sent)][labs(p_label)].append(f1)
         df = pd.DataFrame(result)
         def std(x):
             return np.std(x)
@@ -764,24 +773,38 @@ def check_quality_and_quantity():
             return np.mean(x)
             print(x)
             exit()
+        
+        # Clean rows and columns
+        def clean_col(k):
+            if "% Sentences" in k: return k
+            p = round(float(k.split(" ")[-1]) * 100)
+            return f"{p}% Sentences"
+        # df = df.rename({k: clean_col(k) for k in df.columns}, axis=1)
+        
         df_std = df.applymap(std)
         df = df.applymap(test)
         print(df)
-        
-        sns.heatmap(df, annot=True)
+        sns.heatmap(df, annot=True, cmap="YlGnBu", vmin=0, vmax=1)
+        plt.xlabel("Sentences")
+        plt.ylabel("Labels")
         savefig(f'analysis/plots/cap_sent_and_labels/heatmap_{LANG}.png')
         plt.close()
         # print(df_std)
         # exit()
+        # df = df.T
+        # df_std = df_std.T
         for c in df.columns:
             v = df[c]
             stds = df_std[c]
-            fff = float(c.split()[-1])
+            fff = float(c.split('%')[0])
             plt.plot([i * fff for i in ps], v, label=c)
             plt.fill_between([i * fff for i in ps], v - stds, v + stds, alpha=0.3)
         plt.xlabel("Label fraction")
-        plt.xlabel("Sentence Corruption * Label Corruption")
-        plt.legend()
+        # plt.xlabel("Sentence Corruption * Label Corruption")
+        # plt.xlabel(r"Sentence Corruption $\times$ Label Corruption")
+        plt.xlabel("Overall Percentage of Labels Remaining")
+        plt.ylabel(YLABEL)
+        plt.legend(title="Fraction of Sentences")
         savefig(f'analysis/plots/cap_sent_and_labels/lineplot_{LANG}.png')
         plt.close()
     inner('swa')
