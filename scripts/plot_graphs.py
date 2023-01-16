@@ -784,9 +784,10 @@ def check_quality_and_quantity():
         df_std = df.applymap(std)
         df = df.applymap(test)
         print(df)
-        sns.heatmap(df, annot=True, cmap="YlGnBu", vmin=0, vmax=1)
-        plt.xlabel("Sentences")
-        plt.ylabel("Labels")
+        # df = df_std
+        sns.heatmap(df.round(2), annot=True, cmap="YlGnBu", vmin=0, vmax=1)
+        plt.xlabel("Percentage of Sentences Remaining")
+        plt.ylabel("Percentage of Labels Remaining")
         savefig(f'analysis/plots/cap_sent_and_labels/heatmap_{LANG}.png')
         plt.close()
         # print(df_std)
