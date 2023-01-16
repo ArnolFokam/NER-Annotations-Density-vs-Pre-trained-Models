@@ -692,75 +692,71 @@ def get_f1_from_filename(f):
     return float(line[0].split("f1 = ")[-1])
 
 def check_quality_and_quantity():
-    D = 'results/afro_xlmr/'
-    ps = [0.01, 0.05, 0.1, 0.25, 0.5, 0.75, 1.0][1:]#, 1]
-    result = {
-        'sent': [],
-        'label': [],
-        'seed': [],
-        'f1': [],
-    }
-    
-    result = {
-        # 'seed': {f'Label {p}': [] for p in ps}
-    }
-    for p in ps:
-        result[f'Sent {p}'] = {f'Label {p}': [] for p in ps}
-    for p_sent in ps:
-        for p_label in ps:
-            for seed in range(1, 4):
-                OG = os.path.join(D, 'original', f'1', 'swa', str(seed), 'test_results.txt')
-                OG_PERF = get_f1_from_filename(OG)
-                # if p_sent == 1:
-                #     d = os.path.join(D, 'global_cap_labels', f'{p_label}', 'swa', str(seed), 'test_results.txt')
-                # elif p_label == 1:
-                #     d = os.path.join(D, 'global_cap_sentences', f'{p_sent}', 'swa', str(seed), 'test_results.txt')
-                # else:
-                if p_sent == 1.0 and p_label == 1.0:
-                    f1 = 1.0
-                else:
-                    d = os.path.join(D, 'global_cap_sentences_and_labels', f'cap_{p_sent}_{p_label}', 'swa', str(seed), 'test_results.txt')
-                    f1 = get_f1_from_filename(d) / OG_PERF
-                # lines = pathlib.Path(d).read_text().split("\n")                        
-                # line = [l for l in lines if 'f1 = ' in l]
-                # assert len(line) == 1
-                # f1 = float(line[0].split("f1 = ")[-1]) / 0.8845676458419529
-                result[f'Sent {p_sent}'][f'Label {p_label}'].append(f1)
-                if 0:
-                    result['seed'].append(seed)
-                    result['sent'].append(p_sent)
-                    result['label'].append(p_label)
-                    result['f1'].append(f1)
-    df = pd.DataFrame(result)
-    print(df)
-    def std(x):
-        return np.std(x)
-    def test(x):
-        return np.mean(x)
-        print(x)
-        exit()
-    df_std = df.applymap(std)
-    df = df.applymap(test)
-    # print(df.mean(axis=0))
-    # exit()
-    # df['avg'] = df.mean(axis=1)
-    # df.loc['avg'] = df.mean(axis=0)
-    print(df)
-    
-    # sns.heatmap(df, annot=True)
-    # print(df_std)
-    # exit()
-    for c in df.columns:
-        v = df[c]
-        stds = df_std[c]
-        fff = float(c.split()[-1])
-        plt.plot([i * fff for i in ps], v, label=c)
-        plt.fill_between([i * fff for i in ps], v - stds, v + stds, alpha=0.3)
-    plt.xlabel("Label fraction")
-    plt.xlabel("Sentence Corruption * Label Corruption")
-    plt.legend()
-    plt.show()
-
+    def inner(LANG):
+        D = 'results/afro_xlmr/'
+        ps = [0.01, 0.05, 0.1, 0.25, 0.5, 0.75, 1.0][1:]#, 1]
+        result = {
+            'sent': [],
+            'label': [],
+            'seed': [],
+            'f1': [],
+        }
+        
+        result = {
+            # 'seed': {f'Label {p}': [] for p in ps}
+        }
+        for p in ps:
+            result[f'Sent {p}'] = {f'Label {p}': [] for p in ps}
+        for p_sent in ps:
+            for p_label in ps:
+                for seed in range(1, 4):
+                    OG = os.path.join(D, 'original', f'1', LANG, str(seed), 'test_results.txt')
+                    OG_PERF = get_f1_from_filename(OG)
+                    # if p_sent == 1:
+                    #     d = os.path.join(D, 'global_cap_labels', f'{p_label}', 'swa', str(seed), 'test_results.txt')
+                    # elif p_label == 1:
+                    #     d = os.path.join(D, 'global_cap_sentences', f'{p_sent}', 'swa', str(seed), 'test_results.txt')
+                    # else:
+                    if p_sent == 1.0 and p_label == 1.0:
+                        f1 = 1.0
+                    else:
+                        d = os.path.join(D, 'global_cap_sentences_and_labels', f'cap_{p_sent}_{p_label}', LANG, str(seed), 'test_results.txt')
+                        f1 = get_f1_from_filename(d) / OG_PERF
+                    # lines = pathlib.Path(d).read_text().split("\n")                        
+                    # line = [l for l in lines if 'f1 = ' in l]
+                    # assert len(line) == 1
+                    # f1 = float(line[0].split("f1 = ")[-1]) / 0.8845676458419529
+                    result[f'Sent {p_sent}'][f'Label {p_label}'].append(f1)
+        df = pd.DataFrame(result)
+        def std(x):
+            return np.std(x)
+        def test(x):
+            return np.mean(x)
+            print(x)
+            exit()
+        df_std = df.applymap(std)
+        df = df.applymap(test)
+        print(df)
+        
+        sns.heatmap(df, annot=True)
+        savefig(f'analysis/plots/cap_sent_and_labels/heatmap_{LANG}.png')
+        plt.close()
+        # print(df_std)
+        # exit()
+        for c in df.columns:
+            v = df[c]
+            stds = df_std[c]
+            fff = float(c.split()[-1])
+            plt.plot([i * fff for i in ps], v, label=c)
+            plt.fill_between([i * fff for i in ps], v - stds, v + stds, alpha=0.3)
+        plt.xlabel("Label fraction")
+        plt.xlabel("Sentence Corruption * Label Corruption")
+        plt.legend()
+        savefig(f'analysis/plots/cap_sent_and_labels/lineplot_{LANG}.png')
+        plt.close()
+    inner('swa')
+    inner('luo')
+    inner('conll_2003_en')
 
 if __name__ == '__main__':
     # main(True)
