@@ -48,16 +48,16 @@ def clean_lang(lang):
     if lang == 'conll_2003_en': return 'en'
     return lang
 
-def savefig(name, pad=0, tight=True):
+def savefig(name, pad=0, tight=True, dpi=200):
     if tight: plt.tight_layout()
     if '/' in name:
         path = '/'.join(name.split('/')[:-1])
         os.makedirs(path, exist_ok=True)
     # consistent saving
-    plt.savefig(name, bbox_inches='tight', pad_inches=pad, dpi=200)
+    plt.savefig(name, bbox_inches='tight', pad_inches=pad, dpi=dpi)
     # Save pdf file too
     name = name.split(".png")[0] + ".pdf"
-    plt.savefig(name, bbox_inches='tight', pad_inches=pad, dpi=200)
+    plt.savefig(name, bbox_inches='tight', pad_inches=pad, dpi=dpi)
 
 def main(lang_to_use=None):
     global MODELS
@@ -822,9 +822,10 @@ def check_quality_and_quantity():
         # df = df_std
         if ax is None:
             ax = plt.gca()
-        im = sns.heatmap(df.round(2), annot=True, cmap="YlGnBu", vmin=0, vmax=1, ax=ax, cbar=cbar_ax is not None, cbar_ax=cbar_ax, square=True)
+        im = sns.heatmap(df.round(2), annot=True, cmap="YlGnBu", vmin=0, vmax=1, ax=ax, cbar=cbar_ax is not None, cbar_ax=cbar_ax, square=True, rasterized=True)
         ax.set_xlabel("Percentage of Sentences Remaining")
         ax.set_title({'en': 'English', 'swa': "Swahili", 'luo': "Luo"}[clean_lang(LANG)])
+        ax.set_title(clean_model(MODEL) + " - " + {'en': 'English', 'swa': "Swahili", 'luo': "Luo"}[clean_lang(LANG)])
         if ylabel: ax.set_ylabel("Percentage of Labels Remaining")
 
         return im
@@ -854,14 +855,33 @@ def check_quality_and_quantity():
         plt.legend(title="Fraction of Sentences")
         savefig(f'analysis/plots/cap_sent_and_labels/lineplot_{LANG}.png')
         plt.close()
-    for MODEL in ['mbert', 'afro_xlmr']:
-        fig, axs = plt.subplots(1, 3, figsize=(14, 5), sharey=True)
-        cbar_ax = None
-        inner('conll_2003_en', MODEL, axs[0])
-        inner('swa',           MODEL, axs[1], ylabel=False)
-        im = inner('luo',           MODEL, axs[2], ylabel=False, cbar_ax=cbar_ax)
+    if 1:
+        fig, all_axs = plt.subplots(2, 3, figsize=(15, 10), sharey=True, sharex=True)
+        for MODEL in (ms := ['mbert', 'afro_xlmr']):
+            i=ms.index(MODEL)
+            axs = all_axs[i]
+            cbar_ax = None
+            inner('conll_2003_en', MODEL, axs[0])
+            inner('swa',           MODEL, axs[1], ylabel=False)
+            im = inner('luo',           MODEL, axs[2], ylabel=False, cbar_ax=cbar_ax)
+            if i != 0:
+                pass #for a in axs: a.set_title("")
+            else:
+                for a in axs: a.set_xlabel("")
+        # plt.suptitle("mBERT")
+        # all_axs[0, 1].set_title("mBERT\n\nSwahili")
+        # all_axs[1, 1].set_title("\nAfro-XLM-R\n")
         plt.tight_layout()
-        savefig(f'analysis/plots/cap_sent_and_labels/all_heatmaps_{MODEL}.png', tight=False)
+        savefig(f'analysis/plots/cap_sent_and_labels/all_heatmaps_all.png', tight=False, dpi=400)
+    else:
+        for MODEL in ['mbert', 'afro_xlmr']:
+            fig, axs = plt.subplots(1, 3, figsize=(14, 5), sharey=True)
+            cbar_ax = None
+            inner('conll_2003_en', MODEL, axs[0])
+            inner('swa',           MODEL, axs[1], ylabel=False)
+            im = inner('luo',           MODEL, axs[2], ylabel=False, cbar_ax=cbar_ax)
+            plt.tight_layout()
+            savefig(f'analysis/plots/cap_sent_and_labels/all_heatmaps_{MODEL}.png', tight=False)
 
 def plot_test():
     df = pd.read_csv("analysis/main_results_v2.csv", index_col=0)
