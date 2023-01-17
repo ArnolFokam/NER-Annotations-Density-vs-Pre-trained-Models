@@ -113,15 +113,16 @@ def main(lang_to_use=None):
     MODELS = [clean_model(m) for m in MODELS]
     if SHOULD_READ:
         df = pd.DataFrame(all_dics)
-        X = ['mode', 'num', 'lang', 'model']  + (['seed'] if PER_LANG else [])
-        # df_std = df.groupby(['mode', 'num', 'lang', 'model'], as_index=False).std()
-        # df = df.groupby(['mode', 'num', 'lang', 'model'], as_index=False).mean()
-        df = df.groupby(X, as_index=False).agg(['mean','std'])
-        df.columns = ['_'.join(col) for col in df.columns.values]
-        df = df.reset_index(X)
-        df['f1'] = df['f1_mean']
-        print(df)
-        print(df.columns)
+        if 0:
+            X = ['mode', 'num', 'lang', 'model']  + (['seed'] if PER_LANG else [])
+            # df_std = df.groupby(['mode', 'num', 'lang', 'model'], as_index=False).std()
+            # df = df.groupby(['mode', 'num', 'lang', 'model'], as_index=False).mean()
+            df = df.groupby(X, as_index=False).agg(['mean','std'])
+            df.columns = ['_'.join(col) for col in df.columns.values]
+            df = df.reset_index(X)
+            df['f1'] = df['f1_mean']
+            print(df)
+            print(df.columns)
         df.to_csv("analysis/main_results.csv")
         # exit()
     # exit()
@@ -141,14 +142,17 @@ def main(lang_to_use=None):
                     II = np.logical_and(II, df['seed'] == seed)
                     df.loc[II, 'good'] = df.loc[II, 'f1'] / opt
             else:
-                temp = df.loc[df['lang'] == lang]
-                temp = temp.loc[temp['model'] == model]
-                temp = temp.loc[temp['mode'] == 'original']
-                assert len(temp) == 1
-                opt = temp['f1'].item()
-                II = np.logical_and(df['lang'] == lang, df['model'] == model)
-                df.loc[II, 'good'] = df.loc[np.logical_and(df['lang'] == lang, df['model'] == model), 'f1'] / opt
+                for seed in [1, 2, 3]:
+                    temp = df.loc[df['lang'] == lang]
+                    temp = temp.loc[temp['model'] == model]
+                    temp = temp.loc[temp['mode'] == 'original']
+                    temp = temp.loc[temp['seed'] == seed]
+                    assert len(temp) == 1
+                    opt = temp['f1'].item()
+                    II = np.logical_and(df['seed'] == seed, np.logical_and(df['lang'] == lang, df['model'] == model))
+                    df.loc[II, 'good'] = df.loc[np.logical_and(df['lang'] == lang, df['model'] == model), 'f1'] / opt
     df.to_csv("analysis/main_results_v2.csv", index=False)
+    # exit()
     old = df
     def single_plot(mode, AX, lang=None, average_per_model=True):
         df = copy.deepcopy(old)
@@ -166,10 +170,26 @@ def main(lang_to_use=None):
         df = df.groupby(['mode', 'num', 'model', 'lang'] + (['seed'] if lang is not None else []), as_index=False).mean()
         df = df.rename({"model": "Model"}, axis=1)
         df = df.rename({"lang": "Language"}, axis=1)
+        sents_per_lang = pd.DataFrame(
+            {'Language':  ['pcm', 'conll_2003_en', 'lug', 'luo', 'wol', 'amh', 'ibo', 'hau', 'swa', 'kin', 'yor', ],
+             'Sentences': [2124,14042,1428,644,1871,1750,2235,1912,2109,2116,2171,],
+             'Labels':    [2124,14042,1428,644,1871,1750,2235,1912,2109,2116,2171,],
+             },
+            
+        )
+        
+        # df = df.merge(sents_per_lang, on='Language')
+        # print(df)
+        # df['num'] = (df['num'] * df['Sentences'])
+        # df['good'] = df['f1']
+        # df = df[df['Model'] == 'Afro-XLM-R']
+        # exit()
+        
         # sns.lineplot(df, x='num', y='good', hue='Model' if average_per_model else 'Language', errorbar='sd', ax=AX, palette=sns.color_palette("Paired") if not average_per_model else None)
         sns.lineplot(df, x='num', y='good', hue='Model' if average_per_model else 'Language', errorbar='sd', ax=AX, palette=(["#fd7f6f", "#7eb0d5", "#b2e061", "#bd7ebe", "#ffb55a", "#ffee65", "#beb9db", "#fdcce5", "#8bd3c7"] + ["#e60049", "#0bb4ff",])if not average_per_model else None)
         x = np.unique(df['num'])
         plt.ylim(bottom=0, top=1.1)
+        # AX.vlines(x=[100, 200, 300, 500], ymin=0.1, ymax=1.0, color='red')
         # AX = plt.gca()
         
         # if mode == 'local_swap_labels':
@@ -275,8 +295,14 @@ def main(lang_to_use=None):
     # print(temp['two'])
     # exit()
     # temp.loc[:, 'actual'] == alls 
+    
+    X = ['mode', 'num', 'lang', 'model']  + (['seed'] if PER_LANG else [])
+    temp = temp.groupby(X, as_index=False).agg(['mean','std'])
+    temp.columns = ['_'.join(col) for col in temp.columns.values]
+    temp = temp.reset_index(X)
+    temp['f1'] = temp['f1_mean']
+    
     temp = temp.rename({'model': "Model", 'lang': "Language"}, axis=1)
-    # temp['Model'] = temp['Model'].map(clean_model)
     temp['Language'] = temp['Language'].apply(clean_lang)
     print(temp)
     # exit()
@@ -489,6 +515,12 @@ def comparison_plots(a):
         df.loc[df['mode'] == old_mode, 'mode'] = new_mode
     if a == 0:
         df = df[np.logical_or(np.logical_or(df['mode'] == 'global_cap_sentences', df['mode'] == 'global_cap_labels'), df['mode'] == 'global_swap_labels')]
+        
+        # print(df[df['mode'] == 'global_cap_sentences'].shape)
+        # print(df[df['mode'] == 'global_cap_labels'].shape)
+        # print(df[df['mode'] == 'global_swap_labels'].shape)
+        # exit()
+        
         rename_thing('global_cap_sentences', 'Capping Sentences')
         rename_thing('global_cap_labels', 'Capping Labels')
         rename_thing('global_swap_labels', 'Swapping Labels')
@@ -496,10 +528,11 @@ def comparison_plots(a):
         # rename_thing('local_cap_labels', 'Capping Labels')
         # rename_thing('local_swap_labels', 'Swapping Labels')
         
+        # df = df.groupby(['mode', 'num']).mean()
         df = df.rename({"num": "Level of Quality", "good": "Fraction of F1 when using original dataset"}, axis=1)
 
-        # df = df.groupby(['mode', 'num']).mean()
-        print(df)
+        # print(df)
+        # exit()
         # df = df.groupby(['mode', 'num', 'model', 'lang'] + (['seed'] if lang is not None else []), as_index=False).mean()
         sns.lineplot(df, x="Level of Quality", y="Fraction of F1 when using original dataset", hue='mode', errorbar='sd', hue_order=XX)
         # plt.show()
@@ -722,8 +755,10 @@ def get_f1_from_filename(f):
     return float(line[0].split("f1 = ")[-1])
 
 def check_quality_and_quantity():
-    def inner(LANG, ax=None, ylabel=True, cbar_ax=None):
+    def inner(LANG, MODEL, ax=None, ylabel=True, cbar_ax=None):
         D = 'results/afro_xlmr/'
+        D = 'results/mbert/'
+        D = f'results/{MODEL}/'
         ps = [0.01, 0.05, 0.1, 0.25, 0.5, 0.75, 1.0][1:]#, 1]
         result = {
             'sent': [],
@@ -787,7 +822,7 @@ def check_quality_and_quantity():
         # df = df_std
         if ax is None:
             ax = plt.gca()
-        im = sns.heatmap(df.round(2), annot=True, cmap="YlGnBu", vmin=0, vmax=1, ax=ax, cbar=cbar_ax is not None, cbar_ax=cbar_ax)
+        im = sns.heatmap(df.round(2), annot=True, cmap="YlGnBu", vmin=0, vmax=1, ax=ax, cbar=cbar_ax is not None, cbar_ax=cbar_ax, square=True)
         ax.set_xlabel("Percentage of Sentences Remaining")
         ax.set_title({'en': 'English', 'swa': "Swahili", 'luo': "Luo"}[clean_lang(LANG)])
         if ylabel: ax.set_ylabel("Percentage of Labels Remaining")
@@ -819,35 +854,44 @@ def check_quality_and_quantity():
         plt.legend(title="Fraction of Sentences")
         savefig(f'analysis/plots/cap_sent_and_labels/lineplot_{LANG}.png')
         plt.close()
-    fig, axs = plt.subplots(1, 3, figsize=(15, 5), sharey=True)
-    # plt.tight_layout()
-    # cbar_ax = fig.add_axes([.91, .11, .02, .765])
-    cbar_ax = fig.add_axes([.91, .14, 0.02, 0.775])
-    inner('conll_2003_en', axs[0])
-    inner('swa',           axs[1], ylabel=False)
-    im = inner('luo',           axs[2], ylabel=False, cbar_ax=cbar_ax)
-    # fig.subplots_adjust(right=0.8)
-    # cbar_ax = fig.add_axes([0.85, 0.15, 0.05, 0.7])
-    # fig.colorbar(im, cax=cbar_ax)# Colorbar
-    # axs[-1].cax.colorbar(im)
-    # axs[-1].cax.toggle_label(True)
-    # import matplotlib as mpl
-    # cax,kw = mpl.colorbar.make_axes([ax for ax in axs])
-    # plt.colorbar(im, cax=cax, **kw)
-    # fig.colorbar(im, ax=axs)
-    plt.tight_layout(rect=[0, 0, .9, 1])
-    # plt.show()
-    savefig(f'analysis/plots/cap_sent_and_labels/all_heatmaps.png', tight=False)
+    for MODEL in ['mbert', 'afro_xlmr']:
+        fig, axs = plt.subplots(1, 3, figsize=(14, 5), sharey=True)
+        cbar_ax = None
+        inner('conll_2003_en', MODEL, axs[0])
+        inner('swa',           MODEL, axs[1], ylabel=False)
+        im = inner('luo',           MODEL, axs[2], ylabel=False, cbar_ax=cbar_ax)
+        plt.tight_layout()
+        savefig(f'analysis/plots/cap_sent_and_labels/all_heatmaps_{MODEL}.png', tight=False)
+
+def plot_test():
+    df = pd.read_csv("analysis/main_results_v2.csv", index_col=0)
+    _, axs = plt.subplots(3, 4)
+    for lang, ax in zip(LANGS, axs.ravel()):
+        for model in MODELS:
+            for mode in ['global_cap_sentences', 'global_cap_labels', 'global_swap_labels'][:1]:
+                old = df.copy(True)
+                old = old[old['lang'] == lang]
+                old = old[old['model'] == clean_model(model)]
+                old = old[old['mode'] == mode]
+                ax.plot(old['num'], old['good'], label=model)
+                ax.set_title(lang)
+                # print(old)
+                # print(old.shape)
+            # exit()
+    ax.legend()
+    plt.show()
+    pass
 
 if __name__ == '__main__':
     # main(True)
     # plot_dataset_stats()
     # main()
     # plot_entity_frequency()
-    # comparison_plots(2)
+    # comparison_plots(0)
     # plot_corrupted_stats()
     # main()
     # get_propotion_entities()
     check_quality_and_quantity()
     # bad_get_things()
     # plot_dataset_stats()
+    # plot_test()
