@@ -818,6 +818,8 @@ def check_quality_and_quantity():
         
         df_std = df.applymap(std)
         df = df.applymap(test)
+        df['avg'] = df.mean(axis=1)
+        df.loc['avg'] = df.mean(axis=0)
         print(df)
         # df = df_std
         if ax is None:
