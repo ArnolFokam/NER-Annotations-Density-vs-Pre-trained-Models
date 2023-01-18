@@ -759,7 +759,7 @@ def check_quality_and_quantity():
         D = 'results/afro_xlmr/'
         D = 'results/mbert/'
         D = f'results/{MODEL}/'
-        ps = [0.01, 0.05, 0.1, 0.25, 0.5, 0.75, 1.0][1:]#, 1]
+        ps = [0.01, 0.05, 0.1, 0.25, 0.5, 0.75, 1.0][:]#, 1]
         result = {
             'sent': [],
             'label': [],
@@ -822,7 +822,8 @@ def check_quality_and_quantity():
         # df = df_std
         if ax is None:
             ax = plt.gca()
-        im = sns.heatmap(df.round(2), annot=True, cmap="YlGnBu", vmin=0, vmax=1, ax=ax, cbar=cbar_ax is not None, cbar_ax=cbar_ax, square=True, rasterized=True)
+        # im = sns.heatmap(df.round(2), annot=True, cmap="YlGnBu", vmin=0, vmax=1, ax=ax, cbar=cbar_ax is not None, cbar_ax=cbar_ax, square=True, rasterized=True)
+        im = sns.heatmap(df.round(2), annot=True, cmap="YlGnBu", vmin=0, vmax=1, ax=ax, cbar=cbar_ax is not None, cbar_ax=cbar_ax, rasterized=True)
         ax.set_xlabel("Percentage of Sentences Remaining")
         # ax.set_title({'en': 'English', 'swa': "Swahili", 'luo': "Luo", 'wol': "Wolof"}[clean_lang(LANG)])
         ax.set_title(clean_model(MODEL) + " - " + {'en': 'English', 'swa': "Swahili", 'luo': "Luo", 'wol': "Wolof"}[clean_lang(LANG)])
@@ -856,15 +857,16 @@ def check_quality_and_quantity():
         savefig(f'analysis/plots/cap_sent_and_labels/lineplot_{LANG}.png')
         plt.close()
     if 1:
-        fig, all_axs = plt.subplots(2, 4, figsize=(20, 10), sharey=True, sharex=True)
+        # fig, all_axs = plt.subplots(2, 4, figsize=(20, 10), sharey=True, sharex=True)
+        fig, all_axs = plt.subplots(2, 3, figsize=(20, 10), sharey=True, sharex=True)
         for MODEL in (ms := ['mbert', 'afro_xlmr']):
             i=ms.index(MODEL)
             axs = all_axs[i]
             cbar_ax = None
             inner('conll_2003_en', MODEL, axs[0])
             inner('swa',           MODEL, axs[1], ylabel=False)
-            im = inner('wol',           MODEL, axs[2], ylabel=False)
-            im = inner('luo',           MODEL, axs[3], ylabel=False)
+            # im = inner('wol',           MODEL, axs[2], ylabel=False)
+            im = inner('luo',           MODEL, axs[2], ylabel=False)
             if i != 0:
                 pass #for a in axs: a.set_title("")
             else:
