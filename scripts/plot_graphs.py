@@ -760,6 +760,7 @@ def check_quality_and_quantity():
         D = 'results/mbert/'
         D = f'results/{MODEL}/'
         ps = [0.01, 0.05, 0.1, 0.25, 0.5, 0.75, 1.0][:]#, 1]
+        ps_label = [0.01, 0.05, 0.1, 0.25, 0.5, 0.75, 1.0][1:]#, 1]
         result = {
             'sent': [],
             'label': [],
@@ -779,9 +780,9 @@ def check_quality_and_quantity():
             return f'{round(p*100)}% Labels'
         for p in ps:
             # result[f'Sent {p}'] = {f'Label {p}': [] for p in ps}
-            result[sents(p)] = {labs(p): [] for p in ps}
+            result[sents(p)] = {labs(p): [] for p in ps_label}
         for p_sent in ps:
-            for p_label in ps:
+            for p_label in ps_label:
                 for seed in range(1, 4):
                     OG = os.path.join(D, 'original', f'1', LANG, str(seed), 'test_results.txt')
                     OG_PERF = get_f1_from_filename(OG)
@@ -818,9 +819,10 @@ def check_quality_and_quantity():
         
         df_std = df.applymap(std)
         df = df.applymap(test)
-        df['avg'] = df.mean(axis=1)
-        df.loc['avg'] = df.mean(axis=0)
+        # df['avg'] = df.mean(axis=1)
+        # df.loc['avg'] = df.mean(axis=0)
         print(df)
+        # exit()
         # df = df_std
         if ax is None:
             ax = plt.gca()
@@ -860,7 +862,10 @@ def check_quality_and_quantity():
         plt.close()
     if 1:
         # fig, all_axs = plt.subplots(2, 4, figsize=(20, 10), sharey=True, sharex=True)
-        fig, all_axs = plt.subplots(2, 3, figsize=(20, 10), sharey=True, sharex=True)
+        # fig, all_axs = plt.subplots(2, 3, figsize=(20, 10), sharey=True, sharex=True)
+        # fig, all_axs = plt.subplots(2, 3, figsize=(20, 10), sharey=True, sharex=True)
+        N = 1.5
+        fig, all_axs = plt.subplots(2, 3, figsize=(20 / N, 10 / N), sharey=True, sharex=True)
         for MODEL in (ms := ['mbert', 'afro_xlmr']):
             i=ms.index(MODEL)
             axs = all_axs[i]
@@ -907,6 +912,44 @@ def plot_test():
     plt.show()
     pass
 
+
+def test():
+    Language=  ['pcm', 'conll_2003_en', 'lug', 'luo', 'wol', 'amh', 'ibo', 'hau', 'swa', 'kin', 'yor', ]
+    Sentences= [2124,14042,1428,644,1871,1750,2235,1912,2109,2116,2171,]
+    # 'Labels':    [2124,14042,1428,644,1871,1750,2235,1912,2109,2116,2171,],
+    T = {L: S for L, S in zip(Language, Sentences)}
+    df = pd.read_csv("analysis/main_results_v2.csv", index_col=0)
+    df.loc[df['mode'] == 'global_cap_sentences_seed1', 'mode'] = 'global_cap_sentences'
+    df.loc[df['mode'] == 'global_cap_sentences_seed2', 'mode'] = 'global_cap_sentences'
+    df = df[df['mode'] == 'global_cap_sentences']
+    for model in MODELS:
+    # df = df[df['model'] == 'mBERT']
+        ss = []
+        # print(model)
+        for lang in LANGS:
+            if lang == 'conll_2003_en': continue
+            new = df.copy(True)
+            new = new[new['lang'] == lang]
+            new = new[new['model'] == clean_model(model)]
+            new = new.groupby(['num']).mean()
+            new = new.reset_index(['num'])
+            new = new.sort_values('num')
+            
+            x = new['num']
+            y = new['good']
+            # print(y)
+            # print(np.diff(y))
+            # exit()
+            for i in range(len(x)):
+                if y[i] >= 0.8:
+                    # print(f"\t{lang:<30}:  {T[lang] * x[i]}")
+                    ss.append(T[lang] * x[i])
+                    break
+            # print(new)
+            # exit()
+        print(f"{model:<15}: {np.round(np.mean(ss)):<20} {np.round(np.std(ss)):<20}")
+    pass
+
 if __name__ == '__main__':
     # main(True)
     # plot_dataset_stats()
@@ -916,7 +959,8 @@ if __name__ == '__main__':
     # plot_corrupted_stats()
     # main()
     # get_propotion_entities()
-    check_quality_and_quantity()
     # bad_get_things()
     # plot_dataset_stats()
     # plot_test()
+    # test()
+    check_quality_and_quantity()
