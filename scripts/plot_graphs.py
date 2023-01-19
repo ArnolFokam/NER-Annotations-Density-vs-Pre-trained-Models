@@ -410,14 +410,29 @@ def plot_dataset_stats():
     df['Language Code'] = T
     # df["Entity Density (%)"] = df["Entity Density (%)"].astype(np.float32)
     df["Entity Density (%)"] = ((df["num_labels"])/df["num_words"]).round(3) * 100
+    df["Entity Density (Sentences)"] = ((df["num_labels"])/df["Number of Sentences"]).round(1) #* 100
     df = df.drop("num_labels", axis=1)
-    df = df.drop("num_words", axis=1)
+    # df = df.drop("num_words", axis=1)
+    df = df.rename({"num_words": "Number of Tokens"}, axis=1)
+    
     df = df.sort_values('Entity Density (%)', ascending=False)
     print(df.columns)
     # exit()
-    df = df[['Language Code', 'Number of Sentences', 'Total Entities', 'Entity Density (%)']]
+    df = df.rename(
+        {"Language Code" :'Code', 
+         "Number of Sentences": '# Sentences', 
+         "Number of Tokens":    "# Tokens", 
+         "Entity Density (Sentences)":    "Entities per Sentence", 
+        #  "Entity Density (%)":    "Entity Density (% of Tokens)", 
+         "Entity Density (%)":    "% Entities in Tokens", 
+         "Total Entities":  '# Entities'}, axis=1) # , "Entity Density (Sentences)", 'Entity Density (%)']
+        # , )
+    # df = df[['Code', '# Sentences', "# Tokens", '# Entities', "Entities Per Sentence", 'Entity Density (% of Tokens)']]
+    df = df[['Code', '# Sentences', "# Tokens", '# Entities', "Entities Per Sentence", "% Entities in Tokens"]]
     print(df)
     df.to_latex("analysis/dataset_info.tex")
+    print("_)))))")
+    exit()
     # sns.barplot(df, x='lang', 
     df = df.drop('Total Entities', axis=1)
     df.plot(kind='bar', stacked=True)
@@ -963,4 +978,5 @@ if __name__ == '__main__':
     # plot_dataset_stats()
     # plot_test()
     # test()
-    check_quality_and_quantity()
+    # check_quality_and_quantity()
+    plot_dataset_stats()
