@@ -2,8 +2,13 @@
 ሁሉ O
 ሰላም O
 እንደነበር O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/amh/test.txt
+የሌንዱ O
+ጎሳ O
+========
 የሌንዱ B-LOC
 ጎሳ I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/5/amh/3/test_predictions.txt
 ቃል O
 አቀባይ O
 ፍራንስዋ B-PER
@@ -89,14 +94,14 @@
 የምንጥረው O
 ። O
 
-የኢሬቻ O
-በዓል O
+የኢሬቻ B-DATE
+በዓል I-DATE
 አከባበር O
 በአዲስ B-LOC
 አበባ I-LOC
-ኢሬቻ O
-በዓል O
-ዛሬ B-DATE
+ኢሬቻ B-DATE
+በዓል I-DATE
+ዛሬ I-DATE
 በአዲስ B-LOC
 አበባ I-LOC
 ለግምት O
@@ -107,9 +112,9 @@
 ተከብሯል O
 ። O
 
-የኢሬቻ O
-በዓል O
-ዛሬ B-DATE
+የኢሬቻ B-DATE
+በዓል I-DATE
+ዛሬ I-DATE
 በአዲስ B-LOC
 አበባ I-LOC
 ለግምት O
@@ -136,8 +141,8 @@
 እንጠቀማለን O
 ። O
 
-የሰመርጃም B-LOC
-ሬጌ I-LOC
+የሰመርጃም O
+ሬጌ O
 የሙዚቃ O
 ትርኢት O
 ኛ B-DATE
@@ -161,10 +166,10 @@
 በቀጠሮ O
 ታራሚዎች O
 መኖራቸውን O
-ከፌደራል B-ORG
-ማረሚያ I-ORG
-ቤቶች I-ORG
-ኮሚሽን I-ORG
+ከፌደራል O
+ማረሚያ O
+ቤቶች O
+ኮሚሽን O
 የተገኘው O
 መረጃ O
 ይጠቁማል O
@@ -201,9 +206,15 @@
 ነው O
 ። O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/amh/test.txt
+የአትሌት O
+ምሩጽ B-PER
+ይፍጠር I-PER
+========
 የአትሌት B-ORG
 ምሩጽ I-ORG
 ይፍጠር O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/5/amh/3/test_predictions.txt
 የጤንነት O
 ኹኔታን O
 በተመለከተ O
@@ -399,7 +410,7 @@
 ር O
 ቴድሮስ B-PER
 በግልጽ O
-የሕወሃት O
+የሕወሃት B-ORG
 ተጨማሪ O
 ማጭበርበር O
 እና O
@@ -410,8 +421,13 @@
 
 እንዳልካቸው B-PER
 ኃይለሚካኤል I-PER
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/amh/test.txt
+ግሎባል O
+ቮይስ O
+========
 ግሎባል B-ORG
 ቮይስ I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/5/amh/3/test_predictions.txt
 በተባለ O
 ድረ O
 ገጽ O
@@ -580,8 +596,8 @@
 የአስቸኳይ O
 ጊዜ O
 አዋጅ O
-ቀይ B-LOC
-ዞን I-LOC
+ቀይ O
+ዞን O
 ከሚል O
 ጽሑፍ O
 ጋር O
@@ -594,7 +610,7 @@
 ሰፍሯል O
 ። O
 
-ዘላለም B-PER
+ዘላለም O
 ፦ O
 ከዩናይትድ B-LOC
 ስቴትስ I-LOC
@@ -624,7 +640,7 @@
 ። O
 
 በሳምንቱ B-DATE
-ውስጥ I-DATE
+ውስጥ O
 የተከናወነ O
 ወይም O
 የሚከናወን O
@@ -665,7 +681,7 @@
 የሚደረገውን O
 ግንኙነት O
 የሚያስቃኝ O
-ሳምንታዊ O
+ሳምንታዊ B-DATE
 ዝግጅት O
 ነው O
 ። O
@@ -684,7 +700,7 @@
 በሚደረግ O
 ውይይት O
 የሚጠናቀር O
-ሳምንታዊ O
+ሳምንታዊ B-DATE
 ዝግጅት O
 ነው O
 ። O
@@ -777,12 +793,12 @@
 ናቸው O
 ። O
 
-ቴክ B-ORG
-ቶክ I-ORG
+ቴክ O
+ቶክ O
 የተሰኘውን O
 የኢቢ B-ORG
 ኤስ I-ORG
-ቴሌቪዥን O
+ቴሌቪዥን I-ORG
 ፕሮግራም O
 በማዘጋጀትም O
 ያቀርባሉ O
@@ -809,8 +825,8 @@
 ነው O
 ። O
 
-የዲጂታሉ O
-ዘመን O
+የዲጂታሉ B-DATE
+ዘመን I-DATE
 የጀመረበት O
 የመጀመሪያ B-DATE
 ዓመታት I-DATE
@@ -857,13 +873,13 @@
 አስችሏል O
 ። O
 
-በዓለማችን O
+በዓለማችን B-LOC
 መልእክቶችን O
 ቆልፎ O
 የመላክ O
 ጥበብ O
-የዲጂታሉ O
-ዘመን O
+የዲጂታሉ B-DATE
+ዘመን I-DATE
 ብቻ O
 ያመጣው O
 አዲስ O
@@ -873,9 +889,15 @@
 
 መልእክት O
 ቊለፋ O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/amh/test.txt
+በሮማን B-DATE
+ኢምፓየር I-DATE
+ዘምን I-DATE
+========
 በሮማን B-PER
 ኢምፓየር I-LOC
 ዘምን O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/5/amh/3/test_predictions.txt
 ጭምር O
 ጥቅም O
 ላይ O
@@ -1083,7 +1105,7 @@
 ያኽል O
 ዋትስአፕ O
 እና O
-የአፕል O
+የአፕል B-ORG
 አይ O
 ሜሴጅ O
 ይጠቀሳሉ O
@@ -1091,10 +1113,17 @@
 
 ሌሎቹ O
 እንደነ O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/amh/test.txt
+ትዊተር O
+ሀንግ O
+አውት O
+የፌስቡክ B-ORG
+========
 ትዊተር B-ORG
 ሀንግ I-LOC
 አውት O
 የፌስቡክ O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/5/amh/3/test_predictions.txt
 መሴንጀር O
 ስካይፕ I-LOC
 የመሳሰሉት O
@@ -1144,8 +1173,8 @@
 ኤርትራዊ O
 ኤርትራዊዉ O
 ፍራንክፈርት B-LOC
-ባቡር I-ORG
-ጣቢያ I-ORG
+ባቡር O
+ጣቢያ O
 የነበሩ O
 እናት O
 ልጅን O
@@ -1217,9 +1246,9 @@
 ። O
 
 ኤርትራዊዉ O
-ፍራንክፈርት B-ORG
-ባቡር I-ORG
-ጣቢያ I-ORG
+ፍራንክፈርት B-LOC
+ባቡር O
+ጣቢያ O
 የነበሩ O
 እናት O
 ልጅን O
@@ -1440,8 +1469,8 @@
 ነው O
 ። O
 
-በነዚህ B-DATE
-ጊዜያት I-DATE
+በነዚህ O
+ጊዜያት O
 የኢትዮጵያ B-LOC
 መንግሥት O
 የሚወስዳቸው O
@@ -1653,9 +1682,15 @@
 በሰልፉ O
 ላይ O
 ኦክስፋም B-ORG
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/amh/test.txt
+ግሪን O
+ፒስ O
+ዳቦ O
+========
 ግሪን I-LOC
 ፒስ I-LOC
 ዳቦ I-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/5/amh/3/test_predictions.txt
 ለዓለም O
 የቤተክርስትያን O
 ተራድኦ O
@@ -1665,8 +1700,8 @@
 አረንጓዴ B-ORG
 ፓርቲ I-ORG
 እና O
-ግራዎቹ O
-ፓርቲ O
+ግራዎቹ B-ORG
+ፓርቲ I-ORG
 ተካፋይ O
 ሆነዋል O
 ። O
@@ -1679,13 +1714,13 @@
 ተከፍቶ O
 እስከ B-DATE
 ኅዳር I-DATE
-ድረስ I-DATE
+ድረስ O
 ይዘልቃል O
 ። O
 
-የንዑሷ B-LOC
-ደሴት I-LOC
-ፊጂ I-LOC
+የንዑሷ O
+ደሴት O
+ፊጂ B-LOC
 ጠቅላይ O
 ሚንሥትር O
 ፍራንክ B-PER
@@ -1803,8 +1838,8 @@
 ጽፏል O
 ። O
 
-ማዳም B-PER
-ደመቂያ I-PER
+ማዳም O
+ደመቂያ B-PER
 በበኩሏ O
 ፦ O
 ምን O
@@ -1842,7 +1877,7 @@
 ዛሬም B-DATE
 የዛሬ I-DATE
 አመትም I-DATE
-የዛሬ B-DATE
+የዛሬ I-DATE
 ሁለት I-DATE
 ወርም I-DATE
 ይፈጸም O
@@ -1888,7 +1923,7 @@
 ጥቃት O
 አድራሾች O
 በሙሉ O
-ዛሬውኑ B-DATE
+ዛሬውኑ O
 ተሰብስበው O
 ለፍርድ O
 ሊቀርቡ O
@@ -1943,7 +1978,7 @@
 የሚያሳይ O
 ቪዲዮ O
 እዚህ O
-ፌስቡክ B-ORG
+ፌስቡክ O
 ላይ O
 ተለቆ O
 ነበር O
@@ -1951,10 +1986,14 @@
 አሳዛኝ O
 ነው O
 
-አንድ O
+አንድ B-DATE
 ሰዓት I-DATE
 በማይሞላ I-DATE
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/amh/test.txt
+ጊዜ I-DATE
+========
 ጊዜ O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/5/amh/3/test_predictions.txt
 ሸር O
 ያደረገው O
 ህዝብ O
@@ -1976,7 +2015,7 @@
 በመግለጥ O
 አዛውንቶችን O
 ለመርዳት O
-ሜቄዶንያ B-LOC
+ሜቄዶንያ B-ORG
 ከዚህ O
 ቀደም O
 ለቆት O
@@ -1993,7 +2032,7 @@
 ከማይ O
 የኤሊያስ B-PER
 ከበደ I-PER
-ጣፋ I-PER
+ጣፋ O
 የፌስቡክ O
 መልእክት O
 ነው O
@@ -2010,8 +2049,8 @@
 ይገኙበታል O
 ። O
 
-ላቭድ B-PER
-ሙን I-PER
+ላቭድ O
+ሙን O
 በሚል O
 የፌስቡክ O
 ስም O
@@ -2061,8 +2100,8 @@
 ሁሌም O
 ነውር O
 ነው O
-በዳልቄሮ B-PER
-ዳልቄሮ I-PER
+በዳልቄሮ O
+ዳልቄሮ O
 የተሰጠ O
 አስተያየት O
 ። O
@@ -2072,12 +2111,12 @@
 በተመለከተ O
 ተስፋይ B-PER
 ኃይለማርያም I-PER
-ፌስቡክ B-ORG
+ፌስቡክ O
 ላይ O
 በሰጠው O
 አስተያየት O
 ፦ O
-የሪፐብሊኩ B-LOC
+የሪፐብሊኩ O
 የጥበቃ O
 ኃይል O
 የሚባል O
@@ -2102,7 +2141,7 @@
 
 ነገር O
 ግን O
-እስከዛሬ B-DATE
+እስከዛሬ O
 ይሠራበት O
 የነበረው O
 የልዩ O
@@ -2115,7 +2154,7 @@
 የተቋቋመው O
 ። O
 
-የሪፐብሊኩ B-LOC
+የሪፐብሊኩ O
 ጥበቃ O
 ኃይል O
 ትርኢት O
@@ -2172,10 +2211,10 @@
 ይህቺ O
 ወ O
 ሮ O
-ወሪት O
-ጉብል O
+ወሪት B-PER
+ጉብል I-PER
 ሴት O
-የሪፐብሊኩ B-LOC
+የሪፐብሊኩ O
 ጋርድ O
 በማይደርስበት O
 ትቀመጥ O
@@ -2236,8 +2275,8 @@
 
 በጋምቤላ B-LOC
 ክልል I-LOC
-የአኙዋክ I-LOC
-የኑዌር I-LOC
+የአኙዋክ O
+የኑዌር O
 እና O
 የሌሎች O
 ብሄረሰቦችን O
@@ -2269,8 +2308,13 @@
 መልካም O
 ዕድሎች O
 ያመከኑት O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/amh/test.txt
+የመቐለ B-ORG
+እንደርታዎች I-ORG
+========
 የመቐለ B-LOC
 እንደርታዎች I-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/5/amh/3/test_predictions.txt
 ገና O
 በቅድመ O
 ማጣሪያ O
@@ -2280,8 +2324,8 @@
 ተገድደዋል O
 ። O
 
-ለአፍሪካ B-ORG
-ኮንፌዴሬሽን I-ORG
+ለአፍሪካ B-LOC
+ኮንፌዴሬሽን O
 ዋንጫ O
 የመልስ O
 ጨዋታ O
@@ -2338,7 +2382,11 @@
 ሜትር O
 ርቀት O
 ጉዳፍ O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/amh/test.txt
+ጸጋይ O
+========
 ጸጋይ I-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/5/amh/3/test_predictions.txt
 ሰባተኛ O
 ሆኗ O
 ውድድሯን O
@@ -2364,7 +2412,11 @@
 ለሜቻ B-PER
 ግርማ I-PER
 እና O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/amh/test.txt
+ጫላ B-PER
+========
 ጫላ O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/5/amh/3/test_predictions.txt
 በዮ I-PER
 ጥሩ O
 ፉክክር O
@@ -2398,7 +2450,7 @@
 ከውድድሩ O
 በኋላ O
 ለዶይቼ B-ORG
-ቬለ I-ORG
+ቬለ O
 እንደተናገረው O
 የስልጠና O
 ጫና O
@@ -2453,8 +2505,13 @@
 ዋና O
 ከተማ O
 ንጃሜና B-LOC
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/amh/test.txt
+ከአሜሪካ B-ORG
+ኤምባሲ I-ORG
+========
 ከአሜሪካ I-LOC
 ኤምባሲ O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/5/amh/3/test_predictions.txt
 አጠገብ O
 ከሚገኘው O
 ቢሯዋ O
@@ -2632,7 +2689,7 @@
 በቻድ B-LOC
 ለመጠለል O
 የተገደዱት O
-በዳርፉር O
+በዳርፉር B-LOC
 የርስ O
 በርስ O
 ጦርነት O
@@ -2685,7 +2742,11 @@
 
 ባለፈው B-DATE
 ዓመት I-DATE
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/amh/test.txt
+የቻዱ B-LOC
+========
 የቻዱ B-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/5/amh/3/test_predictions.txt
 ፕሬዛዳንት O
 ኢድሪስ B-PER
 ዴቤ I-PER
@@ -2705,7 +2766,7 @@
 ። O
 
 በፍራይቡርግ B-LOC
-የአርኖልድ I-LOC
+የአርኖልድ B-ORG
 ቤርግሽትራሰር I-ORG
 ማዕከል I-ORG
 ተመራማሪው O
@@ -2885,7 +2946,11 @@
 ያዳምጡ O
 ። O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/amh/test.txt
+የአዉሽቪትስ B-LOC
+========
 የአዉሽቪትስ B-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/5/amh/3/test_predictions.txt
 ታሪክ O
 ከማንኛዉም O
 የአዉሮጳ B-LOC
@@ -2898,7 +2963,11 @@
 የፈተሹ O
 እና O
 በናዚ B-DATE
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/amh/test.txt
+ዘመነ I-DATE
+========
 ዘመነ O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/5/amh/3/test_predictions.txt
 መንግሥት O
 የተደረገዉን O
 ነገር O
@@ -2917,8 +2986,8 @@
 ታሪክ O
 የፈተሹ O
 እና O
-በናዚ O
-ዘመነ O
+በናዚ B-DATE
+ዘመነ I-DATE
 መንግሥት O
 የተደረገዉን O
 ነገር O
@@ -2946,13 +3015,13 @@
 
 ከነዚህም O
 አንዱ O
-የናይጀሪያን B-LOC
+የናይጀሪያን O
 ጦር O
 እዝ O
 ከመዲናይቱ O
 አቡጃ B-LOC
-የቦኮ B-LOC
-ሀራም I-LOC
+የቦኮ B-ORG
+ሀራም I-ORG
 ጠንካራ O
 ሠፈር O
 ወደሚገኝባት O
@@ -2977,14 +3046,14 @@
 እንጠቀማለን O
 ። O
 
-ቀጠር O
+ቀጠር B-LOC
 የቀረቡላት O
 ጥያቄዎች O
 ሳውዲ B-LOC
 አረብያ I-LOC
 እና O
 አጋሮቿ O
-በአልጀዚራ B-LOC
+በአልጀዚራ B-ORG
 ዘገባዎች O
 ላይ O
 የሙስሊም B-ORG
@@ -3032,7 +3101,7 @@
 ። O
 
 በርግጥ O
-ለቀጠር O
+ለቀጠር B-LOC
 የቀረበው O
 ዝርዝር O
 ጥያቄ O
@@ -3044,7 +3113,7 @@
 ። O
 
 ትንሽትዋ O
-ቀጠር O
+ቀጠር B-LOC
 ከጎረቤቶችዋ O
 ጋር O
 ሰለማዊ O
@@ -3060,10 +3129,14 @@
 
 ከዚህ O
 ሌላ O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/amh/test.txt
+ዶሀ B-LOC
+========
 ዶሀ B-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/5/amh/3/test_predictions.txt
 ለብዙዎቹ O
-የዓረብ B-LOC
-ሀገራት I-LOC
+የዓረብ O
+ሀገራት O
 የዓይን O
 እሾህ O
 የሆነባቸውን O
@@ -3081,7 +3154,11 @@
 አረብያ I-LOC
 እና O
 አጋሮቿ O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/amh/test.txt
+በአልጀዚራ B-ORG
+========
 በአልጀዚራ B-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/5/amh/3/test_predictions.txt
 ዘገባዎች O
 ላይ O
 የሙስሊም B-ORG
@@ -3102,8 +3179,13 @@
 እንድትሰጥ O
 እና O
 ከአራቱ O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/amh/test.txt
+አረብ O
+ሀገራት O
+========
 አረብ I-LOC
 ሀገራት I-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/5/amh/3/test_predictions.txt
 ተቃዋሚ O
 ፓርቲዎች O
 ጋር O
@@ -3113,16 +3195,20 @@
 ተጠይቃለች O
 ። O
 
-በጀርመን B-ORG
-የውጭ I-ORG
-ጉዳዮች I-ORG
-ማህበር I-ORG
-የመካከለኛው B-LOC
-ምሥራቅ I-LOC
+በጀርመን B-LOC
+የውጭ O
+ጉዳዮች O
+ማህበር O
+የመካከለኛው O
+ምሥራቅ O
 የፖለቲካ O
 ጉዳዮች O
 አጭኚ O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/amh/test.txt
+ሴባሳትያን B-PER
+========
 ሴባሳትያን O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/5/amh/3/test_predictions.txt
 ዞንስ I-PER
 እንደሚሉት O
 የቀጠር O
@@ -3134,7 +3220,7 @@
 ነው O
 ። O
 
-ቀጠር O
+ቀጠር B-LOC
 በአካባቢው O
 ከሚገኙ O
 የአረብ B-LOC
@@ -3184,7 +3270,11 @@
 አረብያ I-LOC
 እና O
 አጋሮቿ O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/amh/test.txt
+ዶሀ B-LOC
+========
 ዶሀ B-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/5/amh/3/test_predictions.txt
 ከኢራን I-LOC
 ጋር O
 ያላት O
@@ -3209,7 +3299,11 @@
 አይወዱትም O
 ። O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/amh/test.txt
+ቀጠር B-LOC
+========
 ቀጠር B-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/5/amh/3/test_predictions.txt
 ከሙስሊም O
 ወንድማማቾች O
 ማህበር O
@@ -3230,8 +3324,8 @@
 ብዙ O
 ድምጽ O
 ሲያገኝ O
-ቀጠር O
-ከካይሮ B-LOC
+ቀጠር B-LOC
+ከካይሮ I-LOC
 ጋር O
 ፖለቲካዊ O
 ግንኙነትዋን O
@@ -3260,7 +3354,7 @@
 
 በዚህ O
 የተነሳም O
-ቀጠር O
+ቀጠር B-LOC
 አሁን O
 የተጠየቀችውን O
 ሁሉ O
@@ -3269,7 +3363,7 @@
 ነው O
 የሚሆንባት O
 ይላሉ O
-ዞንስ B-PER
+ዞንስ O
 ። O
 
 ወይም O
@@ -3325,7 +3419,7 @@
 ሆነ O
 በዚህ O
 ግን O
-ቀጠር O
+ቀጠር B-LOC
 የተጠየቀችውን O
 ታሟላላቸው O
 ብዮ O
@@ -3488,7 +3582,7 @@
 በተባበሩት B-ORG
 መንግሥታት I-ORG
 ድርጅት I-ORG
-የኢትዮጵያ B-ORG
+የኢትዮጵያ B-LOC
 ልዑክ O
 ቃል O
 አቀባይ O
@@ -3583,7 +3677,7 @@
 ነው O
 ። O
 
-በቀውስ B-DATE
+በቀውስ O
 በተመቱ O
 አገሮች O
 በመንግሥታዊ O
@@ -3845,10 +3939,17 @@
 በዚሕም O
 ሰበብ O
 የዘንድሮዉ B-DATE
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/amh/test.txt
+የፀረ I-DATE
+ወባ I-DATE
+ቀን I-DATE
+አብይ B-PER
+========
 የፀረ O
 ወባ O
 ቀን O
 አብይ O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/5/amh/3/test_predictions.txt
 መርሕ O
 በጣሙን O
 የአፍሪቃ B-LOC
@@ -3875,9 +3976,15 @@
 ሕይወት B-PER
 ሰለሞን I-PER
 እንዳስታወቁት O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/amh/test.txt
+የፀረ B-DATE
+ወባ I-DATE
+ዕለት I-DATE
+========
 የፀረ O
 ወባ O
 ዕለት O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/5/amh/3/test_predictions.txt
 ኢትዮጵያ B-LOC
 ዉስጥም O
 ተከብሮ O
@@ -3899,7 +4006,7 @@
 የኢትዮጵያ B-ORG
 ሳተላይት I-ORG
 ቴሌቬዥንና I-ORG
-የኦሮሞ B-ORG
+የኦሮሞ I-ORG
 ሚድያ I-ORG
 ኔትዎርክ I-ORG
 ለነዚህ O
@@ -3943,7 +4050,7 @@
 
 ዶክተር O
 መረራ B-PER
-በማዕከላዊ O
+በማዕከላዊ B-ORG
 እስር O
 ላይ O
 እንደሚገኙ O
@@ -4042,7 +4149,7 @@
 ገልጸዋል O
 ። O
 
-ትላንትና B-DATE
+ትላንትና O
 የዋስትና O
 መብት O
 እንዲጠበቅላቸዉ O
@@ -4071,8 +4178,8 @@
 የበዓል O
 አከባበር O
 ሦስት O
-ኢድ O
-አልፈጥሮችን O
+ኢድ B-DATE
+አልፈጥሮችን I-DATE
 በሦስት O
 የተለያዩ O
 እስር O
@@ -4086,7 +4193,7 @@
 እግዚአብሔር I-PER
 ጋዜጠኛ O
 ኻሊድ B-PER
-ቤት I-PER
+ቤት O
 ጎራ O
 ብሎ O
 የበዓል O
@@ -4155,7 +4262,7 @@
 ተባባሪ O
 ዘጋቢ O
 ከሆነበት O
-ጊዜ B-DATE
+ጊዜ O
 ጀምሮ O
 የመካከለኛው B-LOC
 ምሥራቅን I-LOC
@@ -4345,7 +4452,7 @@
 ቡና O
 የሰጠዉ O
 ትኩረት O
-የኢትዮጵያን O
+የኢትዮጵያን B-LOC
 ደን O
 ከዉድመት O
 ይታደገዉ O
@@ -4392,7 +4499,7 @@
 ባለ O
 ገንዘብ O
 የሚቸበችበዉ O
-አረቢካ B-LOC
+አረቢካ O
 የተሰኘዉ O
 ቡና O
 መገኛ O
@@ -4424,18 +4531,22 @@
 በመቶዉ O
 የሚገኘዉ O
 በኦሮሚያ B-LOC
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/amh/test.txt
+መስተዳድና O
+========
 መስተዳድና I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/5/amh/3/test_predictions.txt
 አካባቢዉ O
 ነዉ O
 ። O
 
 ጄፍሪ B-PER
 ያነጋገራቸዉ O
-የጃፓን B-LOC
-ዓለም O
-አቀፍ O
-ትብብር O
-ተቋም O
+የጃፓን B-ORG
+ዓለም I-ORG
+አቀፍ I-ORG
+ትብብር I-ORG
+ተቋም I-ORG
 አማካሪ O
 እንደሚሉት O
 አማራጭ O
@@ -4487,8 +4598,8 @@
 ይህንን O
 ከጅማ B-LOC
 ዞን I-LOC
-የተፈጥሮ I-LOC
-ደን I-LOC
+የተፈጥሮ O
+ደን O
 ዉስጥ O
 የበቀለ O
 ቡና O
@@ -4588,8 +4699,13 @@
 እናመሰግናለን O
 ። O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/amh/test.txt
+የደመራ B-DATE
+በዓል I-DATE
+========
 የደመራ B-LOC
 በዓል O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/5/amh/3/test_predictions.txt
 አከባበር O
 በጀርመን B-LOC
 እንደ O
@@ -4613,10 +4729,10 @@
 ኢትዮጵያዉያን O
 የተገኙበትን O
 የደመራ B-DATE
-በዓል O
+በዓል I-DATE
 ቃኝተን O
-በአሁኑ O
-ወቅት O
+በአሁኑ B-DATE
+ወቅት I-DATE
 በአዉሮጳ B-LOC
 ብሎም O
 በጀርመን B-LOC
@@ -4641,16 +4757,21 @@
 
 ዘንድሮ B-DATE
 የፍራንክፈርቱ B-LOC
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/amh/test.txt
+ደመራ B-DATE
+በዓል I-DATE
+========
 ደመራ I-LOC
 በዓል O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/5/amh/3/test_predictions.txt
 ላይ O
 በክብር O
 እንግድነት O
 የተጋበዙት O
-አዲስ O
-ተሾመዉ O
-የኢትዮጵያ B-ORG
-ቆንስላ I-ORG
+አዲስ B-PER
+ተሾመዉ I-PER
+የኢትዮጵያ B-LOC
+ቆንስላ O
 ጀነራል O
 ምህረትዓብ B-PER
 ሙሉጌታም I-PER
@@ -4679,9 +4800,15 @@
 ክብረ O
 በዓሉም O
 በፍራንክፈርት B-LOC
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/amh/test.txt
+ደብረ B-ORG
+ፀሐይ I-ORG
+ቅድስት I-ORG
+========
 ደብረ I-LOC
 ፀሐይ I-LOC
 ቅድስት I-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/5/amh/3/test_predictions.txt
 ማርያም I-ORG
 ቤተ I-ORG
 ክርስትያን I-ORG
@@ -4787,10 +4914,15 @@
 እንፀልያለን O
 ። O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/amh/test.txt
+በአሁኑ O
+ጊዜም O
+========
 በአሁኑ B-DATE
 ጊዜም I-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/5/amh/3/test_predictions.txt
 ከአዉሮጳ B-LOC
-ሀገራት I-LOC
+ሀገራት O
 በበለጠ O
 ስደተኞችን O
 የምትቀበለዉ O
@@ -4827,7 +4959,7 @@
 በተለይ O
 በዉጭ O
 በጀርመን B-LOC
-ሃገር I-LOC
+ሃገር O
 ሁሉ O
 ተሰብስቦ O
 እንዲህ O
@@ -4871,11 +5003,15 @@
 ዘማሪ O
 አስካለ B-PER
 ማርያም I-PER
-ደመራን I-PER
+ደመራን B-DATE
 በፍራንክፈርት B-LOC
-ስታከንር I-LOC
+ስታከንር O
 ይህ O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/amh/test.txt
+ለሦስተኛ O
+========
 ለሦስተኛ B-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/5/amh/3/test_predictions.txt
 ጊዜ O
 ነዉ O
 ። O
@@ -4938,13 +5074,18 @@
 ጀርመናዊዉ O
 ዮሴፍ B-PER
 ዩስት I-PER
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/amh/test.txt
+መስቀል B-DATE
+በዓልን I-DATE
+========
 መስቀል O
 በዓልን O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/5/amh/3/test_predictions.txt
 በፍራንክፈርት B-LOC
 ሲያከብሩ O
 ይህ O
 ለሁለተኛ O
-ጊዜ I-DATE
+ጊዜ O
 ነዉ O
 ። O
 
@@ -4994,8 +5135,13 @@
 ይደሰታል O
 ። O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/amh/test.txt
+መላከ B-PER
+ስብሃት I-PER
+========
 መላከ O
 ስብሃት B-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/5/amh/3/test_predictions.txt
 ተክሌ I-PER
 ሲራክ I-PER
 ጀርመን B-LOC
@@ -5003,7 +5149,7 @@
 የዉጭ O
 ዜጋ O
 መኖሩን O
-ሀገሪትዋ B-LOC
+ሀገሪትዋ O
 ለስደተኞች O
 በርዋን O
 መክፈትዋ O
@@ -5037,10 +5183,17 @@
 ሮ O
 መብራት B-PER
 በፍራንክፈርት B-LOC
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/amh/test.txt
+ደብረ B-ORG
+ፀሐይ I-ORG
+ቅድስት I-ORG
+ማርያም I-ORG
+========
 ደብረ I-LOC
 ፀሐይ I-LOC
 ቅድስት I-LOC
 ማርያም I-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/5/amh/3/test_predictions.txt
 ቤተ I-ORG
 ክርስትያን I-ORG
 ስትመሰረት O
@@ -5067,7 +5220,7 @@
 የብሪታንያ B-LOC
 መንግሥት O
 በበኩሉ O
-የየመን B-LOC
+የየመን O
 መንግሥት O
 አቶ O
 አዳርጋቸዉን B-PER
@@ -5142,7 +5295,7 @@
 ሠብኣዊና O
 ፖለቲካዊ O
 እድምታ O
-የዛሬ B-DATE
+የዛሬ O
 ዉይይታችን O
 ትኩረት O
 ነዉ O
@@ -5176,7 +5329,7 @@
 ገደማ O
 የሚሆኑት O
 ዓመት B-DATE
-ሳይደፍኑ O
+ሳይደፍኑ I-DATE
 ነው O
 ለሕልፈተ O
 ሕይወት O
@@ -5315,7 +5468,7 @@
 ቀርበዋል O
 ። O
 
-የጀርመኑ B-LOC
+የጀርመኑ B-ORG
 ሜርሰደስ I-ORG
 ቤንዝ I-ORG
 በላስ B-LOC
@@ -5348,8 +5501,8 @@
 
 በተመሳሳይ O
 ሁኔታ O
-አውዲ O
-አውቶሞቢልም O
+አውዲ B-ORG
+አውቶሞቢልም I-ORG
 ይህን O
 ማድረግ O
 እንደሚችል O
@@ -5361,9 +5514,15 @@
 ። O
 
 እንዲሁም O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/amh/test.txt
+የደቡብ B-ORG
+ኮሪያው I-ORG
+ሂዩንዴይ I-ORG
+========
 የደቡብ B-LOC
 ኮሪያው I-LOC
 ሂዩንዴይ I-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/5/amh/3/test_predictions.txt
 የተለያዩ O
 የአውቶሞቢል O
 ክፍሎች O
@@ -5404,7 +5563,11 @@
 ተጨማሪ O
 ፍተሻ O
 እንደሚያሻው O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/amh/test.txt
+ቮልቮ B-ORG
+========
 ቮልቮ O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/5/amh/3/test_predictions.txt
 አስታውቋል O
 ። O
 
@@ -5469,8 +5632,13 @@
 ዓ I-DATE
 ም I-DATE
 በስፔን B-LOC
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/amh/test.txt
+ላሊጋ O
+ክሪያስቲያኖ B-PER
+========
 ላሊጋ I-ORG
 ክሪያስቲያኖ O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/5/amh/3/test_predictions.txt
 ሮናልዶ I-PER
 በ O
 ደቂቃ O
@@ -5481,14 +5649,14 @@
 አስቆጥሯል O
 ። O
 
-የውጭ B-ORG
-ጉዳይ I-ORG
-ሚንሥትር I-ORG
+የውጭ O
+ጉዳይ O
+ሚንሥትር O
 መግለጫ O
-የኢትዮጵያ B-ORG
-ውጭ I-ORG
-ጉዳይ I-ORG
-ሚንሥትር I-ORG
+የኢትዮጵያ B-LOC
+ውጭ O
+ጉዳይ O
+ሚንሥትር O
 ዛሬ B-DATE
 በወቅታዊ O
 ጉዳዮች O
@@ -5498,10 +5666,10 @@
 ሰጥቷል O
 ። O
 
-የኢትዮጵያ B-ORG
-ውጭ I-ORG
-ጉዳይ I-ORG
-ሚንሥትር I-ORG
+የኢትዮጵያ B-LOC
+ውጭ O
+ጉዳይ O
+ሚንሥትር O
 ዛሬ B-DATE
 በወቅታዊ O
 ጉዳዮች O
@@ -5546,8 +5714,8 @@
 ሰርቢያ I-LOC
 በስተምሥራቅ I-LOC
 ሩሜንያ I-LOC
-በስተሰሜን I-LOC
-ምሥራቅ I-LOC
+በስተሰሜን O
+ምሥራቅ O
 ደግሞ O
 ዩክሬን B-LOC
 ። O
@@ -5579,10 +5747,10 @@
 የምሥራቁ O
 ጎራ O
 ሲፈረካከስ O
-በጥቅምት B-ORG
-ዴሞክራሲያዊ I-ORG
-ምክርቤታዊ I-ORG
-ሪፐብሊክ I-ORG
+በጥቅምት O
+ዴሞክራሲያዊ O
+ምክርቤታዊ O
+ሪፐብሊክ O
 ሆነች O
 ። O
 
@@ -5629,7 +5797,7 @@
 ሆኖ O
 ኦርባን B-PER
 ለፓርቲያቸው O
-ለፊዴስዝ O
+ለፊዴስዝ B-ORG
 ደጋፊዎች O
 ባሰሙት O
 ንግግር O
@@ -5649,10 +5817,10 @@
 አላነሱም O
 ። O
 
-ከሁለተኛው B-DATE
-የዓለም I-DATE
+ከሁለተኛው O
+የዓለም O
 ጦርነት O
-ወዲህ I-DATE
+ወዲህ O
 ታይቶ O
 የማይታወቅ O
 የተባለ O
@@ -5682,7 +5850,7 @@
 አላለም O
 ። O
 
-ከእሁዱ O
+ከእሁዱ B-DATE
 ህዝበ O
 ውሳኔ O
 በኋላም O
@@ -5714,7 +5882,7 @@
 ። O
 
 ጥያቄው O
-ብራሰልስ B-PER
+ብራሰልስ B-LOC
 አሁን O
 የብዙሃኑን O
 ውሳኔ O
@@ -5723,7 +5891,7 @@
 ነው O
 ። O
 
-የኦርባንን B-LOC
+የኦርባንን B-PER
 ማስፈራሪያ O
 እና O
 አዝማሚያቸውን O
@@ -5777,7 +5945,7 @@
 መጪው I-DATE
 የጎርጎሮሳውያኑ I-DATE
 ዓም I-DATE
-መጨረሻ O
+መጨረሻ I-DATE
 ደግሞ O
 ሺህ O
 ያህሉን O
@@ -5807,10 +5975,10 @@
 ይህን O
 በመቃወም O
 አቤቱታዋን O
-ለአዉሮጳ B-LOC
-የበላይ O
-ፍርድ O
-ቤት O
+ለአዉሮጳ B-ORG
+የበላይ I-ORG
+ፍርድ I-ORG
+ቤት I-ORG
 አቅርባ O
 ነበር O
 ። O
@@ -5827,8 +5995,13 @@
 
 ሀንጋሪያዊው B-PER
 የፖለቲካ O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/amh/test.txt
+ሳይንቲስ O
+ጋቦር B-PER
+========
 ሳይንቲስ B-PER
 ጋቦር I-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/5/amh/3/test_predictions.txt
 ቶሮክ I-PER
 አሁን O
 ሊተኮርበት O
@@ -5889,7 +6062,7 @@
 ሰጭ O
 ደግሞ O
 ኦርባን B-PER
-እስካሁን B-DATE
+እስካሁን O
 ከተናገሩት O
 በላይ O
 የህዝበ O
@@ -5906,7 +6079,11 @@
 ቪክቶር B-PER
 ኦርባን I-PER
 ውጤቱ O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/amh/test.txt
+በብራሰልስ B-LOC
+========
 በብራሰልስ B-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/5/amh/3/test_predictions.txt
 ምን O
 እንደሚያስከትል O
 አንድ O
@@ -5974,7 +6151,7 @@
 ነበሩ O
 ። O
 
-ሀንጋርያውያን B-PER
+ሀንጋርያውያን O
 አብዛኛው O
 ህዝብ O
 ስለ O
@@ -6011,7 +6188,11 @@
 ሚንሥትር O
 አቢይ B-PER
 አህመድ I-PER
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/amh/test.txt
+የአምቦ B-LOC
+========
 የአምቦ B-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/5/amh/3/test_predictions.txt
 ጉብኝት O
 እና O
 የኅብረተሰቡ O
@@ -6106,9 +6287,9 @@
 የያዘው O
 የቪዲዮ O
 ምስልም O
-በትዊተር B-ORG
+በትዊተር O
 እና O
-ፌስቡክ B-ORG
+ፌስቡክ O
 ተንሸራሽሯል O
 ። O
 
@@ -6125,9 +6306,9 @@
 ነበሩ O
 ። O
 
-በትዊተር B-ORG
+በትዊተር O
 እና O
-በፌስቡክ B-ORG
+በፌስቡክ O
 ብሎም O
 በዋትስአፕ B-ORG
 ከተሰጡት O
@@ -6140,9 +6321,9 @@
 ። O
 
 የቀድሞ O
-የአዲስ O
-ነገር O
-ጋዜጣ O
+የአዲስ B-ORG
+ነገር I-ORG
+ጋዜጣ I-ORG
 አዘጋጅ O
 አቢይ B-PER
 ተክለማርያም I-PER
@@ -6184,7 +6365,7 @@
 ነው O
 የምናስገባው O
 ወይስ O
-ደርግን B-ORG
+ደርግን O
 ነው O
 
 እናመሰግናለን O
@@ -6211,8 +6392,8 @@
 የበፊቱን O
 በሚያወግዝ O
 መልኩ O
-ከአሁን B-DATE
-በኃላ I-DATE
+ከአሁን O
+በኃላ O
 በሚሉ O
 ቃላቶች O
 የታጨቀ O
@@ -6241,12 +6422,12 @@
 የተባለው O
 የውሳኔ O
 ሐሳብ O
-በዩናይትድ B-ORG
-ስቴትስ I-ORG
-ሕግ I-ORG
-መምሪያ I-ORG
-ምክር I-ORG
-ቤት I-ORG
+በዩናይትድ B-LOC
+ስቴትስ I-LOC
+ሕግ O
+መምሪያ O
+ምክር O
+ቤት O
 መጽደቁ O
 በሣምንቱ B-DATE
 ዋና O
@@ -6347,11 +6528,19 @@
 እነዚህ O
 ሁለት O
 የዩናይትድ B-LOC
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/amh/test.txt
+ስቴትስ I-LOC
+የሕግ O
+መምሪያ O
+ምክር O
+ቤት O
+========
 ስቴትስ I-ORG
 የሕግ I-ORG
 መምሪያ I-ORG
 ምክር I-ORG
 ቤት I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/5/amh/3/test_predictions.txt
 አባላትን O
 ኢትዮጵያውያን O
 ውለታችሁን O
@@ -6361,8 +6550,13 @@
 አወድሰዋል O
 ። O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/amh/test.txt
+ፕራውድ O
+ኢትዮጵያ B-LOC
+========
 ፕራውድ B-ORG
 ኢትዮጵያ I-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/5/amh/3/test_predictions.txt
 በሚል O
 የትዊተር O
 አድራሻ O
@@ -6482,8 +6676,13 @@
 በአሜሪካውያን O
 ሊፈታ O
 አይችልም O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/amh/test.txt
+የወርቁ B-PER
+ዋንታላ I-PER
+========
 የወርቁ O
 ዋንታላ B-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/5/amh/3/test_predictions.txt
 አስተያት O
 ነው O
 ። O
@@ -6537,7 +6736,7 @@
 የምሯሯጡት O
 ዲያስፖራዎች O
 ፀባቸው O
-ከኢህአዴግ O
+ከኢህአዴግ B-ORG
 ጋር O
 ነዉ O
 ወይስ O
@@ -6567,8 +6766,8 @@
 መኮንን I-PER
 ደግሞ O
 ፦ O
-ኤች O
-አር O
+ኤች B-ORG
+አር I-ORG
 ሕግ O
 እንዲኾን O
 ደግሞ O
@@ -6585,8 +6784,8 @@
 የሚወርሰዉ O
 ያ O
 ወጣት O
-የቅዱስ B-LOC
-ሮማ I-LOC
+የቅዱስ O
+ሮማ O
 ሥርወ O
 መንግሥት O
 ከተሰኘዉ O
@@ -6622,12 +6821,12 @@
 ይሕ O
 የሥነፅሁፍ O
 በረከቱ O
-ዳንቴን O
+ዳንቴን B-PER
 በወገኖቹ O
 ዘንድ O
-ኢል B-PER
-ሶሞ I-PER
-ፖኤታ I-PER
+ኢል O
+ሶሞ O
+ፖኤታ O
 ፥ O
 
 ልዕለ O
@@ -6637,8 +6836,8 @@
 አቀፍ O
 ደረጃ O
 ደግሞ O
-ፔትሬርክና B-LOC
-ከቦካሺዮ I-LOC
+ፔትሬርክና O
+ከቦካሺዮ O
 ጋር O
 ተደምሮ O
 የኢጣሊያ B-LOC
@@ -6649,8 +6848,13 @@
 አስችሮታል O
 ። O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/amh/test.txt
+ለዳንቴ B-PER
+ኢጣሊያ B-LOC
+========
 ለዳንቴ O
 ኢጣሊያ I-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/5/amh/3/test_predictions.txt
 በተለይም O
 ፍሎሬንስ B-LOC
 ዉስጥ O
@@ -6660,12 +6864,17 @@
 ቆመዉለታል O
 ። O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/amh/test.txt
+እንደ B-DATE
+አዉሮጳዉያኑ I-DATE
+========
 እንደ O
 አዉሮጳዉያኑ B-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/5/amh/3/test_predictions.txt
 አቆጣጠር I-DATE
-በ B-DATE
+በ I-DATE
 ዎቹ I-DATE
-መጀመሪያ O
+መጀመሪያ I-DATE
 የተበየነበት O
 ፍርድ O
 የተነሳለት O
@@ -6678,7 +6887,11 @@
 
 ዳንቴ B-PER
 በሕወቱ O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/amh/test.txt
+ኮሞዲያ O
+========
 ኮሞዲያ I-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/5/amh/3/test_predictions.txt
 ያለዉን O
 መፅሐፉን O
 የመጀሪያዉ O
@@ -6731,7 +6944,7 @@
 ልቀት O
 መጠንን O
 ለመቀነስ O
-አምና B-DATE
+አምና O
 የተደረሰበትን O
 ሥምምነት O
 ያፈርሳሉ O
@@ -6743,8 +6956,8 @@
 ጨምሮ O
 ከአስራ O
 አንድ O
-የፓሲፊክ B-LOC
-አካባቢ I-LOC
+የፓሲፊክ O
+አካባቢ O
 ሐገራት O
 ጋር O
 ያደረገችዉን O
@@ -6860,8 +7073,8 @@
 በ B-DATE
 ዎቹ I-DATE
 በተለይ O
-በምሥራቅ B-LOC
-ጀርመን I-LOC
+በምሥራቅ O
+ጀርመን B-LOC
 በውጭ O
 ዜጎች O
 ላይ O
@@ -7143,8 +7356,8 @@
 ሎሚ B-ORG
 ቡክስ O
 ወይም O
-ሎሚ O
-መፅሀፍት O
+ሎሚ B-ORG
+መፅሀፍት I-ORG
 ከነዚህ O
 አንዱ O
 ነው O
@@ -7159,8 +7372,8 @@
 እንዲችሉ O
 ነው O
 ይላል O
-የሎሚ O
-መፅሀፍት O
+የሎሚ B-ORG
+መፅሀፍት I-ORG
 መስራች O
 ብሩክ B-PER
 ኃይሉ I-PER
@@ -7177,8 +7390,8 @@
 ናቸው O
 ። O
 
-የኢ B-ORG
-ቡክ I-ORG
+የኢ O
+ቡክ O
 ወይም O
 በዲጂታል O
 መልክ O
@@ -7213,8 +7426,13 @@
 ነው O
 ። O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/amh/test.txt
+ሎሚ O
+ቡክስ O
+========
 ሎሚ B-ORG
 ቡክስ I-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/5/amh/3/test_predictions.txt
 በአሁኑ B-DATE
 ሰዓት I-DATE
 ከ O
@@ -7491,8 +7709,8 @@
 ኾነዋል O
 ። O
 
-በርሊን B-LOC
-ከተማ I-LOC
+በርሊን O
+ከተማ O
 ውስጥ O
 በተደረገው O
 የከባቢ O
@@ -7518,8 +7736,8 @@
 በሚገኘው O
 የተባበሩት B-ORG
 መንግሥታት I-ORG
-መሥሪያ I-ORG
-ቤት I-ORG
+መሥሪያ O
+ቤት O
 ፊት O
 ለፊት O
 ተከናውኗል O
@@ -7582,7 +7800,7 @@
 
 የካሜሩን B-LOC
 ምርጫ O
-ካሜሩንን B-LOC
+ካሜሩንን O
 ካለፉት B-DATE
 ዓመት I-DATE
 ወዲህ I-DATE
@@ -7667,10 +7885,17 @@
 ቤርናር B-PER
 ኦካሊያ I-PER
 ቢላይ I-PER
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/amh/test.txt
+በሀገሪቱ O
+ብሔራዊ O
+ቴሌቪዥን O
+ጣቢያ O
+========
 በሀገሪቱ B-ORG
 ብሔራዊ I-ORG
 ቴሌቪዥን I-ORG
 ጣቢያ I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/5/amh/3/test_predictions.txt
 ቀርበው O
 ነዋሪዎቹ O
 ወደየመኖሪያቸው O
@@ -7747,13 +7972,13 @@
 አያምኑም O
 ። O
 
-በሰሜን B-LOC
-ምዕራቡ I-LOC
+በሰሜን O
+ምዕራቡ O
 እና O
-በደቡብ B-LOC
-ምዕራቡ I-LOC
-ካሜሩን I-LOC
-ግዛቶች I-LOC
+በደቡብ O
+ምዕራቡ O
+ካሜሩን O
+ግዛቶች O
 ተዓማኒ O
 ምርጫ O
 ማካሄድ O
@@ -7791,11 +8016,19 @@
 ይሁንና O
 እስካሁን O
 የተቃዋሚው O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/amh/test.txt
+የካሜሩን O
+ብሔራዊ O
+ዜግነት O
+ንቅናቄ O
+ፓርቲ O
+========
 የካሜሩን B-ORG
 ብሔራዊ I-ORG
 ዜግነት I-ORG
 ንቅናቄ I-ORG
 ፓርቲ I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/5/amh/3/test_predictions.txt
 እጩ O
 አፋኑዊ O
 ብቻ O
@@ -7940,8 +8173,8 @@
 የስፖርት O
 ዘገባ O
 በጀርመን B-LOC
-ቡንደስሊጋ I-LOC
-ቦሩስያ I-LOC
+ቡንደስሊጋ O
+ቦሩስያ B-ORG
 ዶርትሙንድ I-ORG
 አጀማመሩ O
 የሰመረ O

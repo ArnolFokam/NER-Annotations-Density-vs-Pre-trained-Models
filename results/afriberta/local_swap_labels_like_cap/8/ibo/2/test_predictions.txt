@@ -11,8 +11,8 @@ INEC B-ORG
 Imo B-LOC
 steeti I-LOC
 bụ O
-Odiziakụ B-PER
-Benson I-PER
+Odiziakụ O
+Benson B-PER
 ajụjụọnụ O
 mana O
 o O
@@ -97,11 +97,11 @@ mkpa O
 ha O
 . O
 
-N'ụzọ O
+N'ụzọ B-DATE
 ụtụtụ I-DATE
 Mọnde I-DATE
-bụ I-DATE
-ụbọchị I-DATE
+bụ O
+ụbọchị B-DATE
 25 I-DATE
 nke I-DATE
 ọnwa I-DATE
@@ -109,8 +109,8 @@ Febrụwarị I-DATE
 , O
 ọgbaghara O
 dapụtara O
-n'Ahịa O
-Oshodi B-LOC
+n'Ahịa B-LOC
+Oshodi I-LOC
 dịka O
 ndị O
 agboro O
@@ -163,10 +163,17 @@ mebiri O
 
 Mana O
 Eze O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/ibo/test.txt
+Ndigbo O
+Oshodi B-LOC
+- O
+Isolo B-LOC
+========
 Ndigbo I-ORG
 Oshodi B-LOC
 - I-LOC
 Isolo I-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/8/ibo/2/test_predictions.txt
 bụ O
 Reuben B-PER
 Ibeakama I-PER
@@ -634,8 +641,8 @@ Abụọ I-DATE
 nke I-DATE
 ehihie I-DATE
 taa I-DATE
-bụ I-DATE
-Wenezde I-DATE
+bụ O
+Wenezde B-DATE
 . O
 
 BBC B-ORG
@@ -671,8 +678,8 @@ vootu O
 Peter B-PER
 Obi I-PER
 
-Leicester B-LOC
-City I-LOC
+Leicester B-ORG
+City I-ORG
 enyela O
 Brendan B-PER
 Rogers I-PER
@@ -717,7 +724,7 @@ gbaburu O
 bọọlụ O
 ọtụtụ O
 afọ O
-n'Arsenal O
+n'Arsenal B-ORG
 , O
 Liverpool B-ORG
 na O
@@ -729,15 +736,15 @@ Achụọla O
 onye O
 nchịkọta O
 ndị O
-Leicester B-LOC
-City I-LOC
+Leicester B-ORG
+City I-ORG
 ọsọ O
 ụkwụ O
 eru O
 ala O
 
-Leicester B-LOC
-City I-LOC
+Leicester B-ORG
+City I-ORG
 : O
 Onye O
 nwe O
@@ -797,10 +804,10 @@ buliri O
 iko O
 asaa O
 n'ime O
-otu B-DATE
-afọ I-DATE
-na I-DATE
-ụma I-DATE
+otu O
+afọ O
+na O
+ụma O
 . O
 
 N'akwụkwọ O
@@ -820,8 +827,8 @@ ga O
 - O
 anọ O
 na O
-Leicester B-LOC
-City I-LOC
+Leicester B-ORG
+City I-ORG
 ruo O
 ọnwa B-DATE
 Juun I-DATE
@@ -847,8 +854,8 @@ Buhari I-PER
 alọghachịla O
 ịchị O
 Naịjirịa B-LOC
-afọ B-DATE
-anọ I-DATE
+afọ O
+anọ O
 ọzọ O
 . O
 
@@ -1044,13 +1051,13 @@ atọ O
 Goolu O
 abụọ O
 Angel B-PER
-Di I-PER
-Maria I-PER
+Di O
+Maria B-PER
 nyere O
 na O
 otu O
 nke O
-Meunier B-PER
+Meunier B-ORG
 gbakpuru O
 , O
 nyere O
@@ -1062,11 +1069,11 @@ ha O
 ka O
 ha O
 zutere O
-Dijon B-PER
+Dijon B-ORG
 n'asọmpi O
 Coupe O
 De O
-France I-ORG
+France B-LOC
 . O
 
 Gere O
@@ -1291,8 +1298,8 @@ mma O
 Mbaka B-PER
 
 Ndị O
-ụka O
-Ekwensu O
+ụka B-ORG
+Ekwensu I-ORG
 na O
 - O
 apịasu O
@@ -1352,15 +1359,15 @@ ha O
 ndị O
 a O
 bụ O
-Kingdom B-ORG
-Blue I-ORG
+Kingdom O
+Blue O
 , O
-Kings B-ORG
-& I-ORG
-Queens I-ORG
+Kings O
+& O
+Queens O
 na O
-Black B-ORG
-Phoenix I-ORG
+Black O
+Phoenix O
 agaala O
 ụlọikpe O
 ma O
@@ -1396,7 +1403,7 @@ Otu O
 ụlọ O
 ntaakụkọ O
 akpọrọ O
-Sowetan B-ORG
+Sowetan O
 si O
 na O
 ulọụka O
@@ -1432,7 +1439,7 @@ obodo O
 Kramerville B-LOC
 . O
 
-Sowetan B-PER
+Sowetan O
 sị O
 na O
 ulọụka O
@@ -1502,8 +1509,8 @@ rịa O
 elu O
 n'ime O
 sọsọ O
-otu B-DATE
-ụbọchị I-DATE
+otu O
+ụbọchị O
 . O
 
 Nke O
@@ -1552,11 +1559,15 @@ onye O
 chiburu O
 Rivers B-LOC
 Steeti I-LOC
-n'etiti O
-afọ B-DATE
+n'etiti B-DATE
+afọ I-DATE
 2007 I-DATE
 na I-DATE
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/ibo/test.txt
+2015 I-DATE
+========
 2015 B-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/8/ibo/2/test_predictions.txt
 
 Dịka O
 onyeisiala O
@@ -1640,8 +1651,8 @@ iri I-DATE
 abụọ I-DATE
 na I-DATE
 anọ I-DATE
-nke I-DATE
-ọnwa I-DATE
+nke O
+ọnwa B-DATE
 Febụwarị I-DATE
 ka O
 mba O
@@ -1696,15 +1707,15 @@ iri O
 ise O
 ma O
 rue O
-afọ B-DATE
-iri I-DATE
+afọ O
+iri O
 . O
 
 Akụkọ O
 BBC B-ORG
 Igbo O
 na O
-nkeji B-DATE
+nkeji O
 
 Olisa B-PER
 Agbakoba I-PER
@@ -1912,6 +1923,18 @@ na O
 - O
 akpọ O
 """" O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/ibo/test.txt
+Youth B-ORG
+Initiative I-ORG
+for I-ORG
+Advocacy I-ORG
+, I-ORG
+Growth I-ORG
+and I-ORG
+Advancement I-ORG
+YIAGA I-ORG
+AFRICA B-LOC
+========
 Youth O
 Initiative I-ORG
 for I-ORG
@@ -1922,6 +1945,7 @@ and I-ORG
 Advancement O
 YIAGA B-ORG
 AFRICA I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/8/ibo/2/test_predictions.txt
 """" O
 kwuru O
 na O
@@ -2044,7 +2068,11 @@ n'uju O
 ebe O
 a O
 : O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/ibo/test.txt
+Fr O
+========
 Fr B-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/8/ibo/2/test_predictions.txt
 Mbaka B-PER
 na O
 - O
@@ -2272,7 +2300,7 @@ Premier O
 League O
 a O
 gbara O
-n'Abalị B-LOC
+n'Abalị O
 . O
 
 Arsenal B-ORG
@@ -2310,7 +2338,11 @@ Igbo O
 n'otu B-DATE
 nkeji I-DATE
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/ibo/test.txt
+Jọstịs O
+========
 Jọstịs B-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/8/ibo/2/test_predictions.txt
 Ijem B-PER
 Onwuamaegbu I-PER
 bụ O
@@ -2329,8 +2361,8 @@ bụ O
 Willie B-PER
 Obiano I-PER
 duru O
-Jọstịs B-PER
-Ijem I-PER
+Jọstịs O
+Ijem B-PER
 Onwuamaegbu I-PER
 n'iyi O
 ọrụ O
@@ -2359,8 +2391,13 @@ mmemme O
 iduniyi O
 ọrụ O
 nke O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/ibo/test.txt
+Jọstịs O
+Ijem B-PER
+========
 Jọstịs B-PER
 Ijem I-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/8/ibo/2/test_predictions.txt
 Onwuamaegbu I-PER
 
 Ndị O
@@ -2370,8 +2407,8 @@ mmemme O
 iduniyi O
 ọrụ O
 nke O
-Jọstịs B-PER
-Ijem I-PER
+Jọstịs O
+Ijem B-PER
 Onwuamaegbu I-PER
 n'ụlọrụ O
 gọọmentị O
@@ -2418,7 +2455,7 @@ ndị O
 eze O
 ọdịnala O
 
-Ohaneze B-ORG
+Ohaneze O
 , O
 NEF B-ORG
 , O
@@ -2511,8 +2548,8 @@ na O
 Dkt O
 . O
 
-Pogu O
-Bitrus B-PER
+Pogu B-PER
+Bitrus I-PER
 . O
 
 Buhari B-PER
@@ -2559,7 +2596,7 @@ Ibikunle B-PER
 Amosu I-PER
 nke O
 Ogun B-LOC
-steeti O
+steeti I-LOC
 na O
 pati O
 ha O
@@ -2742,17 +2779,24 @@ maka O
 ntụlịaka O
 ha O
 mere O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/ibo/test.txt
+ụbọchị O
+Satọde B-DATE
+mkpụrụ I-DATE
+ụbọchị I-DATE
+========
 ụbọchị B-DATE
 Satọde I-DATE
 mkpụrụ O
 ụbọchị B-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/8/ibo/2/test_predictions.txt
 iri I-DATE
 abụọ I-DATE
 na I-DATE
 atọ I-DATE
 . O
 
-Akpabịọ O
+Akpabịọ B-PER
 sị O
 na O
 nke O
@@ -2773,7 +2817,7 @@ vootu O
 ahụ O
 . O
 
-Edoola B-PER
+Edoola O
 nwaanyị O
 mbụ O
 bụ O
@@ -2783,7 +2827,11 @@ iyi O
 n'Anambra B-LOC
 steeti O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/ibo/test.txt
+Jọstịs O
+========
 Jọstịs B-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/8/ibo/2/test_predictions.txt
 Ijem B-PER
 Onwuamaegbu I-PER
 bụ O
@@ -2809,7 +2857,7 @@ n'iyi O
 Okiwu O
 ndị O
 steeti O
-Alaigbo B-LOC
+Alaigbo O
 ndị O
 ọzọ O
 bịara O
@@ -2858,7 +2906,7 @@ merie O
 ogbo O
 ha O
 ndị O
-Slovakịa B-LOC
+Slovakịa B-ORG
 na O
 asọmpi O
 Cyprus B-ORG
@@ -2967,7 +3015,11 @@ agha O
 bishọp O
 ndị O
 ụka O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/ibo/test.txt
+katọlik O
+========
 katọlik I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/8/ibo/2/test_predictions.txt
 na O
 Sokoto B-LOC
 bụ O
@@ -3060,9 +3112,9 @@ Naịjirịa B-LOC
 Ndị O
 otu O
 """" O
-National O
-Peace O
-Committee O
+National B-ORG
+Peace I-ORG
+Committee I-ORG
 """" O
 a O
 mechara O
@@ -3192,7 +3244,7 @@ Gere O
 akụkọ O
 BBC B-ORG
 na O
-nkeji B-DATE
+nkeji O
 : O
 
 I O
@@ -3230,7 +3282,7 @@ ego O
 n'oge O
 Ekeresimesi O
 - O
-Ekeson B-PER
+Ekeson B-ORG
 
 Lee O
 ihe O
@@ -3280,7 +3332,7 @@ ehi O
 ma O
 i O
 rue O
-Alabekee B-LOC
+Alabekee O
 . O
 
 Ọ O
@@ -3387,7 +3439,7 @@ n'ụlọ O
 ndị O
 a O
 kpọrọ O
-'Airbnb' O
+'Airbnb' B-ORG
 karịa O
 ụlọ O
 oriri O
@@ -3456,8 +3508,8 @@ na O
 - O
 aga O
 alabekee O
-n'oge O
-winta O
+n'oge B-DATE
+winta I-DATE
 kwesịrị O
 iji O
 aga O
@@ -3677,7 +3729,7 @@ bụrụ O
 na O
 i O
 rute O
-Alabekee B-LOC
+Alabekee O
 , O
 zụrụ O
 akwụkwọ O
@@ -3785,10 +3837,10 @@ na O
 Charles B-PER
 gbara O
 akwụkwọ O
-ọtụtụ B-DATE
-afọ I-DATE
-gara I-DATE
-aga I-DATE
+ọtụtụ O
+afọ O
+gara O
+aga O
 
 Ọ O
 bụrụ O
@@ -3835,8 +3887,8 @@ Alabekee O
 . O
 
 Akwammiri O
-'Wobbling O
-Bridge' O
+'Wobbling B-LOC
+Bridge' I-LOC
 e O
 si O
 agafe O
@@ -3866,8 +3918,8 @@ St B-ORG
 Paul's I-ORG
 Cathedral I-ORG
 ebe O
-Adaeze B-PER
-Diana I-PER
+Adaeze O
+Diana B-PER
 na O
 Charles B-PER
 
@@ -3944,16 +3996,16 @@ n'ihe O
 gbasara O
 ejiji O
 dịka O
-Tom B-PER
-Hilger I-PER
+Tom B-ORG
+Hilger I-ORG
 , O
-Tezeni B-PER
+Tezeni B-ORG
 , O
 nwere O
 ọdụahịa O
 . O
 
-Woolrich B-PER
+Woolrich B-ORG
 dị O
 na O
 Lọndọn B-LOC
@@ -3976,7 +4028,11 @@ ha O
 . O
 
 Ebe O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/ibo/test.txt
+Depford B-LOC
+========
 Depford B-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/8/ibo/2/test_predictions.txt
 bụ O
 ebe O
 ị O
@@ -4104,7 +4160,7 @@ ntụ O
 . O
 
 # O
-BBCNigeria2019 B-ORG
+BBCNigeria2019 O
 : O
 Ka O
 o O
@@ -4294,7 +4350,7 @@ asi O
 Ha O
 kwuru O
 na O
-Atku O
+Atku B-PER
 enweghị O
 ihe O
 maọbụ O
@@ -4448,9 +4504,9 @@ Na O
 mkparịtaụka O
 ha O
 na O
-ụlọ O
-ntaakụkọ O
-'Sun' B-ORG
+ụlọ B-ORG
+ntaakụkọ I-ORG
+'Sun' I-ORG
 nwere O
 , O
 onyeisi O
@@ -4479,8 +4535,8 @@ mee O
 ụghara O
 maka O
 mmeri O
-Baba B-PER
-Buhari I-PER
+Baba O
+Buhari B-PER
 . O
 """" O
 
@@ -4564,7 +4620,7 @@ abịa O
 . O
 . O
 
-Cheta B-PER
+Cheta O
 na O
 otu O
 onye O
@@ -4814,8 +4870,13 @@ ahụ O
 
 Aha O
 Peirre B-PER
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/ibo/test.txt
+- I-PER
+Emerick I-PER
+========
 - O
 Emerick O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/8/ibo/2/test_predictions.txt
 Aubameyang I-PER
 nke O
 Arsenal B-ORG
@@ -4966,7 +5027,7 @@ na O
 aga O
 n'ihu O
 ka O
-Ikpeazu B-PER
+Ikpeazu O
 gbajọrọ O
 ya O
 
@@ -5058,8 +5119,8 @@ Onyeisi O
 ụlọọrụ O
 ahụ O
 bụ O
-Malam B-PER
-Is'haq I-PER
+Malam O
+Is'haq B-PER
 Modibbo I-PER
 kwuru O
 na O
@@ -5180,8 +5241,8 @@ Southampton B-ORG
 ọ O
 bịa O
 n'asọmpi O
-Ịnglish O
-Premier O
+Ịnglish B-ORG
+Premier I-ORG
 . O
 
 Akukọ O
@@ -5209,8 +5270,8 @@ gara I-DATE
 aga I-DATE
 
 APC B-ORG
-Imo B-LOC
-steeti I-LOC
+Imo O
+steeti O
 akpọọla O
 oku O
 ka O
@@ -5408,7 +5469,7 @@ Chelsea B-ORG
 1 O
 Fullham B-ORG
 
-Chelea B-PER
+Chelea B-ORG
 ji O
 ọkpụ O
 abụọ O
@@ -5426,7 +5487,7 @@ abụọ O
 asatara O
 otu O
 merie O
-Leicester B-LOC
+Leicester B-ORG
 ( O
 2 O
 - O
@@ -5443,7 +5504,7 @@ abụọ O
 asatara O
 otu O
 merie O
-Fulhma B-PER
+Fulhma B-ORG
 . O
 
 Gee O
@@ -5488,8 +5549,8 @@ ezu O
 
 Cheta O
 na O
-Maazị O
-Abubakar B-PER
+Maazị B-PER
+Abubakar I-PER
 bụ O
 onye O
 ji O
@@ -5693,8 +5754,8 @@ goolu O
 merie O
 Madrid B-ORG
 n'asọmpi O
-El O
-Classico O
+El B-ORG
+Classico I-ORG
 ha O
 gbara O
 n'abalị B-DATE
@@ -5796,7 +5857,7 @@ ha O
 . O
 
 Mnwereonwe O
-Biafra B-LOC
+Biafra B-ORG
 abụghị O
 ikwe O
 ọnụ O
@@ -5851,7 +5912,7 @@ ma O
 kọwaa O
 na O
 mwereonwe O
-Biafra B-LOC
+Biafra B-ORG
 abụghị O
 ihe O
 a O
@@ -6004,7 +6065,7 @@ ekwuchitere O
 ndị O
 uweojii O
 na O
-Bayelsa B-LOC
+Bayelsa B-DATE
 bụ O
 Asinim B-PER
 Butswat I-PER
@@ -6215,7 +6276,7 @@ asaala O
 Oshiomhole B-PER
 
 Mgbe O
-Obi O
+Obi B-PER
 na O
 - O
 agwa O
@@ -6277,7 +6338,7 @@ n'ụbọchị O
 ahụ O
 . O
 
-Obi O
+Obi B-PER
 kwuru O
 na O
 nke O
@@ -6353,7 +6414,11 @@ chọrọ O
 ikwatu O
 Oshiomhole B-PER
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/ibo/test.txt
+Fr O
+========
 Fr B-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/8/ibo/2/test_predictions.txt
 Mbaka B-PER
 na O
 - O
@@ -6394,7 +6459,11 @@ na O
 - O
 ekwuchitere O
 Pati O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/ibo/test.txt
+Action B-ORG
+========
 Action I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/8/ibo/2/test_predictions.txt
 Alliance I-ORG
 bụ O
 Onwuasoanya B-PER
@@ -6562,8 +6631,8 @@ akwata O
 ya O
 n'Imo B-LOC
 na O
-Abia B-LOC
-steeti I-LOC
+Abia B-DATE
+steeti I-DATE
 
 Ndị O
 Ojiegbe B-LOC
@@ -6598,7 +6667,7 @@ Eze B-PER
 Ugochukwu I-PER
 gwara O
 BBC B-ORG
-Igbo O
+Igbo I-ORG
 , O
 nwaamadị O
 a O
@@ -6648,7 +6717,7 @@ steeti I-LOC
 Ọ O
 kwuru O
 na O
-Nsorom B-PER
+Nsorom O
 na O
 - O
 achụrụ O
@@ -6687,14 +6756,14 @@ PDP B-ORG
 zọọ O
 ọkwa O
 Sineti O
-n'Ọlụ B-LOC
-zone I-LOC
+n'Ọlụ O
+zone O
 . O
 
 Eze B-PER
 gwakwara O
 BBC B-ORG
-Igbo O
+Igbo I-ORG
 na O
 akpọrọla O
 Nsorom B-PER
@@ -6705,7 +6774,7 @@ gbata O
 - O
 gbata O
 nke O
-ụlọọgwụ B-ORG
+ụlọọgwụ O
 Federal B-ORG
 Medical I-ORG
 Center I-ORG
@@ -6717,7 +6786,7 @@ Mbọ O
 onye O
 ntaakụkọ O
 BBC B-ORG
-Igbo O
+Igbo I-ORG
 gbara O
 ịnụ O
 olu O
@@ -6777,8 +6846,8 @@ na O
 - O
 eme O
 - O
-FCC B-ORG
-Jones I-ORG
+FCC B-PER
+Jones I-PER
 
 Mmadụ O
 atọ O
@@ -6989,7 +7058,11 @@ mere O
 . O
 
 Sochimaoge B-PER
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/ibo/test.txt
+Madubo I-PER
+========
 Madubo B-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/8/ibo/2/test_predictions.txt
 kwukwara O
 na O
 ndị O
@@ -7381,8 +7454,8 @@ ha O
 mere O
 . O
 
-Ụlọikpe B-ORG
-ukwu I-ORG
+Ụlọikpe O
+ukwu O
 dị O
 n'Abuja B-LOC
 kpebiri O
@@ -7452,7 +7525,7 @@ imeụlọ O
 ha O
 . O
 
-Obi O
+Obi B-PER
 adịghị O
 mmadụ O
 asatọ O
@@ -7483,7 +7556,7 @@ onwe O
 ha O
 : O
 
-N'Enugwu B-LOC
+N'Enugwu O
 , O
 Inec B-ORG
 kwuburu O
@@ -7508,8 +7581,8 @@ na O
 - O
 eme O
 dịka O
-ụlọikpe B-ORG
-ukwu I-ORG
+ụlọikpe O
+ukwu O
 nọ O
 n'Abuja B-LOC
 chụdara O
@@ -7573,7 +7646,7 @@ ntị O
 taa B-DATE
 bụ O
 Tọzde B-DATE
-, O
+, I-DATE
 Maachị I-DATE
 7 I-DATE
 , O
@@ -7683,7 +7756,7 @@ Zamfara B-LOC
 siri O
 kọwara O
 BBC B-ORG
-Igbo O
+Igbo I-ORG
 , O
 """" O
 ụlọikpe O
@@ -7691,8 +7764,8 @@ mkpegharị O
 wezugara O
 mkpebi O
 nke O
-ụlọikpe B-ORG
-ukwu I-ORG
+ụlọikpe O
+ukwu O
 nọ O
 na O
 Jalingo B-LOC
@@ -7877,7 +7950,11 @@ n'etiti O
 afọ B-DATE
 2007 I-DATE
 na I-DATE
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/ibo/test.txt
+2015 I-DATE
+========
 2015 B-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/8/ibo/2/test_predictions.txt
 
 Ọ O
 bụ O
@@ -7892,8 +7969,8 @@ PDP B-ORG
 site O
 n'afọ B-DATE
 2007 I-DATE
-rue I-DATE
-2015 I-DATE
+rue O
+2015 O
 . O
 
 Ugbua O
@@ -8060,12 +8137,12 @@ Akpabio I-PER
 chịrị O
 Akwa B-LOC
 Ibom I-LOC
-steeti I-LOC
+steeti O
 site O
 n'afọ B-DATE
 2007 I-DATE
-rue I-DATE
-afọ I-DATE
+rue O
+afọ B-DATE
 2015 I-DATE
 . O
 
@@ -8174,8 +8251,8 @@ ukwu O
 site O
 n'afọ B-DATE
 1999 I-DATE
-rue I-DATE
-afọ I-DATE
+rue O
+afọ B-DATE
 2007 I-DATE
 . O
 
@@ -8207,8 +8284,8 @@ West I-LOC
 site O
 n'afọ B-DATE
 2007 I-DATE
-rue I-DATE
-2015 I-DATE
+rue O
+2015 O
 n'okpuru O
 PDP B-ORG
 . O
@@ -8485,9 +8562,9 @@ ihe O
 erughị O
 n'isi O
 dịka O
-Agbakoba B-LOC
+Agbakoba B-PER
 na O
-Ulumma B-LOC
+Ulumma B-PER
 siri O
 kwuo O
 bụ O
@@ -8560,9 +8637,9 @@ nakwa O
 Platu B-LOC
 steeti I-LOC
 , O
-Ulumma B-LOC
+Ulumma B-PER
 na O
-Agbakọba B-LOC
+Agbakọba B-PER
 rụtụrụ O
 aka O
 na O
@@ -8699,17 +8776,17 @@ a O
 Akụkọ O
 dị O
 mkpa O
-n'abalị O
-a O
+n'abalị B-DATE
+a I-DATE
 : O
-Rochas O
+Rochas B-PER
 ọ O
 chọrọ O
 ịzọ O
 ọkwa O
 onyeisiala O
 na O
-2023 B-DATE
+2023 O
 ? O
 
 Rochas B-PER
@@ -8838,7 +8915,7 @@ omeiwu O
 2019 B-DATE
 Elections O
 : O
-'Oshiomhole B-PER
+'Oshiomhole O
 amaghị O
 ọrụ O
 ya' O
@@ -9034,7 +9111,7 @@ si O
 n'ụlọakwụkwọ O
 dị O
 na O
-Legọs B-LOC
+Legọs B-ORG
 ka O
 nwereike O
 ịtọ O
@@ -9203,7 +9280,7 @@ dị O
 . O
 
 Na O
-Legọs B-LOC
+Legọs B-ORG
 , O
 juputara O
 n'ala O
@@ -9563,9 +9640,15 @@ dịka O
 Nigerian B-ORG
 Buliding I-ORG
 and I-ORG
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/ibo/test.txt
+road I-ORG
+research I-ORG
+Institute I-ORG
+========
 road O
 research I-ORG
 Institute O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/8/ibo/2/test_predictions.txt
 """" O
 . O
 
@@ -9731,8 +9814,8 @@ ya O
 
 O O
 ji O
-ụlọụka O
-Synagogue B-ORG
+ụlọụka B-ORG
+Synagogue I-ORG
 nke O
 TB B-PER
 Joshua I-PER
@@ -9777,7 +9860,7 @@ narị O
 . O
 
 Ndị O
-Inginia B-LOC
+Inginia O
 kwesiri O
 ịnwale O
 ma O
@@ -10004,8 +10087,8 @@ Tarrant I-PER
 , O
 onye O
 dị O
-afọ O
-28 O
+afọ B-DATE
+28 I-DATE
 , O
 ụlọikpe O
 ụbọchị B-DATE
@@ -10049,8 +10132,13 @@ na O
 itoolu O
 nke O
 mere O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/ibo/test.txt
+n'ụlọụka O
+Alakuba O
+========
 n'ụlọụka B-ORG
 Alakuba I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/8/ibo/2/test_predictions.txt
 abụọ O
 na O
 mba O
@@ -10087,7 +10175,7 @@ Alakụba I-ORG
 abụọ O
 dị O
 n'obodo O
-ChristChurch B-ORG
+ChristChurch B-LOC
 dị O
 na O
 mba O
@@ -10193,8 +10281,8 @@ o O
 kwuru O
 na O
 """" O
-ụbọchị B-DATE
-jọkarịchara I-DATE
+ụbọchị O
+jọkarịchara O
 """" O
 nye O
 mba O
@@ -10397,7 +10485,7 @@ dị O
 n'Ibadan B-LOC
 nke O
 Oyo B-LOC
-Steeti O
+Steeti I-LOC
 . O
 
 Dịka O
@@ -10508,7 +10596,7 @@ abụ O
 ọtọ O
 ekene O
 eze O
-n'Uefa B-LOC
+n'Uefa B-ORG
 Champịọns O
 ? O
 
@@ -10611,7 +10699,7 @@ mpaghara O
 Ọlụ B-LOC
 n' O
 Ụlọomeiwu O
-Ukwu I-LOC
+Ukwu O
 . O
 
 Okorocha B-PER
@@ -10674,10 +10762,10 @@ Tọzde I-DATE
 . O
 
 N'egwuregwuEintrachcht O
-Franfurt I-ORG
+Franfurt O
 ( O
-entrank O
-frankfot O
+entrank B-ORG
+frankfot I-ORG
 ) O
 achụọla O
 Inter B-ORG
@@ -10726,7 +10814,7 @@ gbuo O
 ndị O
 mmadụ O
 na O
-Legọs B-LOC
+Legọs B-ORG
 , O
 ụbọchị O
 ole O
@@ -10766,7 +10854,7 @@ ma O
 kelekwaa O
 gọọmentị O
 Legọs B-LOC
-steeti O
+steeti I-LOC
 maka O
 ịgbata O
 ọsọ O
@@ -10817,13 +10905,13 @@ n'ụlọ O
 ya O
 . O
 
-Gọvanọ O
-Nyesom B-PER
+Gọvanọ B-PER
+Nyesom I-PER
 Wike I-PER
 gara O
 mgbaru O
 n'ụlọ O
-Gberegbe B-LOC
+Gberegbe B-PER
 
 Gberegbe B-PER
 rụrụ O
@@ -10834,7 +10922,7 @@ nnọchiteanya O
 PDP B-ORG
 n'okpuru O
 ọchịchị O
-Khana B-PER
+Khana O
 oge O
 e O
 mere O
@@ -10881,8 +10969,8 @@ bụ O
 onye O
 nkuzi O
 na O
-Rivers B-LOC
-Poly I-LOC
+Rivers B-ORG
+Poly I-ORG
 dị O
 na O
 Bori B-LOC
@@ -11074,7 +11162,7 @@ a O
 Ndị O
 mmadụ O
 anwụọla O
-n'IDP B-ORG
+n'IDP O
 camp O
 , O
 
@@ -11155,17 +11243,17 @@ Ajọ O
 ifufe O
 a O
 akpọro O
-Idai B-LOC
+Idai O
 , O
 malitere O
 na O
 mba O
 Mozambique B-LOC
 na O
-mgbede B-DATE
-Tọọzde I-DATE
-gara I-DATE
-aga I-DATE
+mgbede O
+Tọọzde B-DATE
+gara O
+aga O
 , O
 tupu O
 ọ O
@@ -11264,7 +11352,11 @@ Daniel I-PER
 chịrị O
 Ogun B-LOC
 steeti I-LOC
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/ibo/test.txt
+afọ O
+========
 afọ B-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/8/ibo/2/test_predictions.txt
 asatọ O
 , O
 site O
@@ -11360,7 +11452,7 @@ e O
 mere O
 na O
 Rivas B-LOC
-steeti I-LOC
+steeti O
 ewepụtala O
 ozi O
 ihe O
@@ -11520,9 +11612,9 @@ onye O
 bụbu O
 onyeisi O
 , O
-Haus B-PER
-Der I-PER
-Kunst I-PER
+Haus B-ORG
+Der I-ORG
+Kunst I-ORG
 , O
 bụ O
 ulọ O
@@ -11554,8 +11646,8 @@ Awkuzu B-LOC
 Anambara B-LOC
 steeti I-LOC
 anwụọla O
-ụbọchị B-DATE
-Fraide I-DATE
+ụbọchị O
+Fraide B-DATE
 na O
 mba O
 Germany B-LOC
@@ -11638,7 +11730,11 @@ na O
 - O
 eme O
 abali O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/ibo/test.txt
+abụọ O
+========
 abụọ I-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/8/ibo/2/test_predictions.txt
 ụlọelu O
 dachara O
 na O
@@ -11693,8 +11789,8 @@ Tarrant I-PER
 , O
 onye O
 dị O
-afọ O
-28 O
+afọ B-DATE
+28 I-DATE
 , O
 ụlọikpe O
 ụbọchị B-DATE
@@ -11738,8 +11834,13 @@ na O
 itoolu O
 nke O
 mere O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/ibo/test.txt
+n'ụlọụka O
+Alakuba O
+========
 n'ụlọụka B-ORG
 Alakuba I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/8/ibo/2/test_predictions.txt
 abụọ O
 na O
 mba O
@@ -11785,8 +11886,8 @@ ga O
 - O
 amalite O
 asompi O
-Klọb O
-mbaụwa O
+Klọb B-ORG
+mbaụwa I-ORG
 n'afọ B-DATE
 2021 I-DATE
 
@@ -11836,7 +11937,7 @@ Ndị O
 otu O
 ụkọchukwu O
 ụka O
-Katọlik B-ORG
+Katọlik O
 Naịjirịa B-LOC
 enyela O
 gọọmentị O
@@ -11939,7 +12040,7 @@ adị O
 ire O
 
 Ụka O
-Katọliki B-ORG
+Katọliki O
 n'Enugwu B-LOC
 enweela O
 Bishop O
@@ -12043,7 +12144,11 @@ mmemme O
 nke O
 abụọ O
 na O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/ibo/test.txt
+Lent O
+========
 Lent B-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/8/ibo/2/test_predictions.txt
 . O
 
 Ha O
@@ -12167,8 +12272,8 @@ a O
 bụ O
 ọnọdụ O
 onyeisiala O
-mba O
-Kazakhstan B-LOC
+mba B-LOC
+Kazakhstan I-LOC
 bụ O
 Nursultan B-PER
 Nazarbayev I-PER
@@ -12204,8 +12309,13 @@ afọ O
 kwuru O
 na O
 Kassym B-PER
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/ibo/test.txt
+- I-PER
+Jomart I-PER
+========
 - O
 Jomart B-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/8/ibo/2/test_predictions.txt
 Tokayev I-PER
 , O
 bụ O
@@ -12372,8 +12482,8 @@ ahụ O
 n'obodo O
 Utrecht B-LOC
 nke O
-mba O
-Netherlands B-LOC
+mba B-LOC
+Netherlands I-LOC
 . O
 
 Amambeghi O
@@ -12409,8 +12519,8 @@ ebido O
 ọzụzụ O
 ha O
 na O
-mba O
-Tunisia B-LOC
+mba B-LOC
+Tunisia I-LOC
 taa B-DATE
 dịka O
 ha O
@@ -12581,8 +12691,8 @@ Aregbesola I-PER
 bụ O
 aka O
 chịbụru O
-Ọsụn B-LOC
-steeti I-LOC
+Ọsụn B-ORG
+steeti I-ORG
 zọtara O
 ikike O
 ọchịchị O
@@ -12929,10 +13039,10 @@ bụ O
 """" O
 Holy B-ORG
 Ghost I-ORG
-searchlight O
-and O
-deliverance O
-ministry O
+searchlight I-ORG
+and I-ORG
+deliverance I-ORG
+ministry I-ORG
 """" O
 . O
 
@@ -12947,8 +13057,8 @@ mmụọ O
 a O
 kpọrọ O
 """" O
-demon O
-destroyer O
+demon B-PER
+destroyer I-PER
 """" O
 mara O
 ya O
@@ -12993,8 +13103,8 @@ Maachị I-DATE
 a O
 mere O
 ya O
-Hummer B-ORG
-Limousine I-ORG
+Hummer O
+Limousine O
 stretch O
 nke O
 atọ O
@@ -13028,7 +13138,11 @@ kpọrọ O
 """" O
 Mountain B-ORG
 Of I-ORG
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/ibo/test.txt
+Holy I-ORG
+========
 Holy B-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/8/ibo/2/test_predictions.txt
 Ghost I-ORG
 Intervention I-ORG
 And I-ORG
@@ -13040,7 +13154,7 @@ dị O
 n'Ọnicha B-LOC
 , O
 Anambara B-LOC
-steeti O
+steeti I-LOC
 . O
 
 Ọ O
@@ -13106,7 +13220,7 @@ ego O
 Onye O
 amụma O
 Ebelenna B-PER
-Chukwu O
+Chukwu I-PER
 
 Ebelenna B-PER
 bụ O

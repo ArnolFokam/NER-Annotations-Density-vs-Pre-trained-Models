@@ -216,7 +216,7 @@ jotij O
 magawano O
 nyo O
 oyudi O
-nyoro B-DATE
+nyoro O
 ni O
 nikod O
 tuo O
@@ -224,7 +224,7 @@ mar O
 Coronavirus O
 bang O
 pim O
-manyocha O
+manyocha B-DATE
 otim O
 kod O
 komiti O
@@ -242,11 +242,11 @@ Bay I-LOC
 kuno O
 - O
 pim O
-manyocha O
+manyocha B-DATE
 otim O
-chieng O
-wuok O
-tich O
+chieng B-DATE
+wuok I-DATE
+tich I-DATE
 
 Kanowuoyo O
 ewii O
@@ -294,7 +294,7 @@ Covid O
 kowacho O
 ni O
 kakoro O
-nyochane B-DATE
+nyochane O
 jatend O
 piny O
 Kenya B-LOC
@@ -315,7 +315,7 @@ mager O
 manyochane O
 oketinegi O
 to O
-nyochane B-DATE
+nyochane O
 gineno O
 ni O
 gikau O
@@ -362,7 +362,7 @@ ekane O
 giyepi O
 ema O
 koro O
-nyochane B-DATE
+nyochane O
 gikawoe O
 thuolo O
 mar O
@@ -377,9 +377,9 @@ ma I-LOC
 Homa I-LOC
 Bay I-LOC
 kuno O
-chieng O
-wuok O
-tich O
+chieng B-DATE
+wuok I-DATE
+tich I-DATE
 mondo O
 ne O
 jobi O
@@ -483,9 +483,9 @@ kowuok O
 Afya B-LOC
 House I-LOC
 e O
-boma B-LOC
-ma I-LOC
-Nairobika I-LOC
+boma O
+ma O
+Nairobika B-LOC
 laktar O
 Aman B-PER
 bende O
@@ -569,7 +569,7 @@ jogo O
 ne O
 gin O
 jogo O
-manyocha O
+manyocha B-DATE
 tuo O
 to O
 ne O
@@ -583,18 +583,18 @@ gi O
 dho O
 ngere O
 kaka O
-Home B-ORG
-Based I-ORG
-Care I-ORG
+Home O
+Based O
+Care O
 
 Maraga B-PER
 oyudo O
 fuong' O
 ruok O
 
-Doho O
-mar O
-nyithindo O
+Doho B-ORG
+mar I-ORG
+nyithindo I-ORG
 owito O
 oko O
 bura O
@@ -783,11 +783,19 @@ otimore O
 kar O
 saa B-DATE
 2 I-DATE
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/luo/test.txt
+mar O
+otieno B-DATE
+mane O
+piny O
+oruugo O
+========
 mar I-DATE
 otieno I-DATE
 mane I-DATE
 piny O
 oruugo I-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/10/luo/3/test_predictions.txt
 kawuononi B-DATE
 ne O
 okelo O
@@ -825,10 +833,10 @@ to O
 ne O
 oringgo O
 e O
-kar O
-thieth O
-ma O
-kocholia O
+kar B-ORG
+thieth I-ORG
+ma I-ORG
+kocholia I-ORG
 
 Ng'anyo O
 mar O
@@ -836,15 +844,19 @@ nurses O
 mane O
 ochan O
 timo O
-wuok O
-tich O
+wuok B-DATE
+tich I-DATE
 koro O
 ochwal O
 nyime O
 
 Riuruok O
 mar O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/luo/test.txt
+Nurses O
+========
 Nurses B-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/10/luo/3/test_predictions.txt
 mapachoka O
 koro O
 jochwalo O
@@ -857,7 +869,11 @@ ni O
 chakore O
 ayanga O
 kiny O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/luo/test.txt
+wuok B-DATE
+========
 wuok I-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/10/luo/3/test_predictions.txt
 tich I-DATE
 
 Riuruogno O
@@ -931,9 +947,9 @@ ni O
 piny O
 owacho O
 owuo O
-board O
-mar O
-NHIF B-ORG
+board B-ORG
+mar I-ORG
+NHIF I-ORG
 kaluwore O
 kod O
 wach O
@@ -964,7 +980,7 @@ Kenya B-ORG
 Pipeline I-ORG
 manyo O
 omaki O
-nyoro B-DATE
+nyoro O
 nyo O
 oter O
 e O
@@ -1116,12 +1132,12 @@ mag O
 somo O
 mongere O
 kaka O
-Education B-ORG
-Bursary I-ORG
-Fund I-ORG
-Ammendment I-ORG
-bill I-ORG
-2018 O
+Education O
+Bursary O
+Fund O
+Ammendment O
+bill O
+2018 B-DATE
 mabiro O
 konyo O
 neno O
@@ -1223,7 +1239,7 @@ komiti O
 mar O
 bunge O
 mar O
-County B-LOC
+County O
 mochungne O
 weche O
 mag O
@@ -1285,8 +1301,13 @@ mar O
 hik B-DATE
 manyonge I-DATE
 mar O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/luo/test.txt
+2018 B-DATE
+/ I-DATE
+========
 2018 I-DATE
 / O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/10/luo/3/test_predictions.txt
 2019 I-DATE
 kowuok O
 e O
@@ -1346,11 +1367,11 @@ obi O
 oyau O
 school O
 e O
-dwe B-DATE
-mar I-DATE
-1 I-DATE
-mar I-DATE
-higa I-DATE
+dwe O
+mar O
+1 O
+mar O
+higa B-DATE
 manyien I-DATE
 mar O
 oro O
@@ -1359,7 +1380,7 @@ mar O
 yudo O
 bursaryno O
 
-Odinga O
+Odinga B-PER
 seyo O
 MCAs O
 kuom O
@@ -1380,7 +1401,7 @@ kawuono B-DATE
 oseyo O
 malit O
 mokalo O
-MCAS B-ORG
+MCAS O
 kuom O
 tiyo O
 marach O
@@ -1407,7 +1428,7 @@ devolution O
 ne O
 okel O
 e O
-Pachoka B-LOC
+Pachoka O
 mar O
 konyo O
 neno O
@@ -1449,7 +1470,7 @@ Migosi O
 Raila B-PER
 nowacho O
 ni O
-MCAS B-ORG
+MCAS O
 osebedo O
 ka O
 kuodo O
@@ -1473,7 +1494,7 @@ oyierogi O
 Nowacho O
 ni O
 gima O
-MCAS B-ORG
+MCAS O
 ongéyo O
 en O
 mana O
@@ -1497,9 +1518,9 @@ nowacho O
 ni O
 MCA O
 mag O
-counties B-LOC
-ma I-LOC
-Kisumu I-LOC
+counties O
+ma O
+Kisumu B-LOC
 , O
 Homa B-LOC
 Bay I-LOC
@@ -1534,9 +1555,9 @@ winjruok O
 margi O
 mongére O
 kaka O
-Building B-ORG
-Bridges I-ORG
-Initiative I-ORG
+Building O
+Bridges O
+Initiative O
 sani B-DATE
 luorore O
 e O
@@ -1596,7 +1617,7 @@ e O
 counties O
 6 I-DATE
 mag O
-nyanza O
+nyanza B-LOC
 
 kamishna O
 mar O
@@ -1616,9 +1637,9 @@ to O
 kod O
 matindo O
 e O
-counties B-LOC
-ma I-LOC
-Kisumu I-LOC
+counties O
+ma O
+Kisumu B-LOC
 Kisii I-LOC
 Nyamira I-LOC
 Homabay I-LOC
@@ -1662,7 +1683,7 @@ mag O
 apaya O
 
 migosi O
-kingi O
+kingi B-PER
 wacho O
 ni O
 kata O
@@ -1703,7 +1724,7 @@ ngimagi O
 . O
 
 migosi O
-kingi O
+kingi B-PER
 ne O
 owaco O
 ni O
@@ -1735,11 +1756,11 @@ oko O
 kendo O
 ruako O
 ker O
-kenyataa O
+kenyataa B-PER
 
 Ogai O
 mar O
-nasa O
+nasa B-ORG
 Raila B-PER
 Amolo I-PER
 Odinga I-PER
@@ -1756,7 +1777,7 @@ oikore O
 mar O
 rwako O
 ker O
-Kenyataa B-LOC
+Kenyataa B-PER
 e O
 kinde O
 ma O
@@ -1772,22 +1793,33 @@ limbeno O
 mokuongo O
 mar O
 ker O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/luo/test.txt
+kenyataa B-PER
+========
 kenyataa B-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/10/luo/3/test_predictions.txt
 chakre O
 yiero O
 ma O
-higa B-DATE
-mokalo I-DATE
+higa O
+mokalo O
 to O
 kod O
 tok O
 mosruok O
 e O
 kindgi O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/luo/test.txt
+dwe O
+mar O
+adek O
+higani O
+========
 dwe B-DATE
 mar I-DATE
 adek I-DATE
 higani I-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/10/luo/3/test_predictions.txt
 
 migosi O
 Odinga B-PER
@@ -1824,7 +1856,7 @@ mag O
 romo O
 gi O
 ker O
-kenyataa O
+kenyataa B-PER
 kend O
 singo O
 tiyo O
@@ -1848,7 +1880,7 @@ kinde O
 to O
 kod O
 ker O
-Kenyataa B-LOC
+Kenyataa B-PER
 geto O
 mar O
 chopo O
@@ -1904,9 +1936,15 @@ ndalo O
 machuok O
 kende O
 bang O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/luo/test.txt
+senator O
+ma O
+Kisumu B-LOC
+========
 senator B-ORG
 ma I-ORG
 Kisumu I-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/10/luo/3/test_predictions.txt
 migosi O
 Fred B-PER
 Outa I-PER
@@ -2133,8 +2171,8 @@ pachgi O
 ewii O
 limbe O
 ma O
-Ker B-LOC
-Uhuru I-LOC
+Ker O
+Uhuru B-PER
 dhi O
 timo O
 Kisumu B-LOC
@@ -2157,7 +2195,7 @@ manyien I-DATE
 ma O
 igeno O
 ni O
-Ker B-PER
+Ker O
 Uhuru B-PER
 Kenyatta I-PER
 biro O
@@ -2171,10 +2209,10 @@ yoore O
 thieth O
 mongére O
 kaka O
-The B-ORG
-Universal I-ORG
-Health I-ORG
-Coverage I-ORG
+The O
+Universal O
+Health O
+Coverage O
 e O
 boma B-LOC
 ma I-LOC
@@ -2185,10 +2223,10 @@ Kanowuoyo O
 ewii O
 wachno O
 jakom O
-riuruok O
-kanise O
-ma O
-Nyanza B-LOC
+riuruok B-ORG
+kanise I-ORG
+ma I-ORG
+Nyanza I-ORG
 Arch O
 Bishop O
 Ogonyo B-PER
@@ -2203,8 +2241,8 @@ joneno O
 ber O
 mosruok O
 ma O
-Ker B-LOC
-Uhuru I-LOC
+Ker O
+Uhuru B-PER
 ne O
 jomosore O
 godo O
@@ -2245,9 +2283,15 @@ ka O
 opako O
 okang O
 ma O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/luo/test.txt
+Ker O
+Uhuru B-PER
+kenyatta I-PER
+========
 Ker B-LOC
 Uhuru I-LOC
 kenyatta O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/10/luo/3/test_predictions.txt
 okao O
 mar O
 keto O
@@ -2263,9 +2307,9 @@ mag O
 dongruok O
 mongére O
 kaka O
-Big B-ORG
-4 I-ORG
-Agenda I-ORG
+Big O
+4 O
+Agenda O
 
 Kanowuoyo O
 gi O
@@ -2298,8 +2342,8 @@ mokalo O
 gi O
 okang O
 ma O
-Ker B-LOC
-Uhuru I-LOC
+Ker O
+Uhuru B-PER
 okao O
 mar O
 duaro O
@@ -2334,10 +2378,10 @@ mar O
 thieth O
 motisi O
 ni O
-The B-ORG
-Universal I-ORG
-Health I-ORG
-Coverage I-ORG
+The O
+Universal O
+Health O
+Coverage O
 kowacho O
 ni O
 piny O
@@ -2365,9 +2409,15 @@ Amolo I-PER
 Odinga I-PER
 kuom O
 ruako O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/luo/test.txt
+Ker O
+Uhuru B-PER
+Kisumu B-LOC
+========
 Ker B-ORG
 Uhuru I-ORG
 Kisumu I-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/10/luo/3/test_predictions.txt
 tarik B-DATE
 13 I-DATE
 mar I-DATE
@@ -2386,10 +2436,10 @@ mane O
 otiso O
 ni O
 mar O
-Luo B-ORG
-Nation I-ORG
+Luo O
+Nation O
 
-Khalwale O
+Khalwale B-PER
 dwaro O
 mondo O
 oriemb O
@@ -2421,10 +2471,10 @@ mii O
 oriemb O
 ogai O
 mar O
-nasa O
-raila O
-amolo O
-odinga O
+nasa B-ORG
+raila B-PER
+amolo I-PER
+odinga I-PER
 e O
 duond O
 burano O
@@ -2444,7 +2494,7 @@ e O
 duond O
 bur O
 mar O
-odm O
+odm B-ORG
 ne O
 golo O
 paro O
@@ -2482,20 +2532,20 @@ teko O
 
 kaluore O
 kod O
-khalwale O
+khalwale B-PER
 migosi O
 Odinga B-PER
 oseriwore O
 kod O
-Ker B-PER
-Kenyatta I-PER
+Ker O
+Kenyatta B-PER
 mano O
 mawuok O
 e O
-duond B-ORG
-bura I-ORG
-mar I-ORG
-jubilee I-ORG
+duond O
+bura O
+mar O
+jubilee B-ORG
 kendo O
 singo O
 tiyo O
@@ -2528,9 +2578,9 @@ matayo O
 duond O
 bura O
 mar O
-odm O
+odm B-ORG
 e O
-kenya B-LOC
+kenya O
 mangima O
 mar O
 chiwo O
@@ -2544,11 +2594,11 @@ mogik O
 mibiro O
 kaonegi O
 
-ODM O
+ODM B-ORG
 OKWEDO O
 WINJRUOK O
 GI O
-WIPER O
+WIPER B-ORG
 
 Duond O
 bura O
@@ -2584,7 +2634,7 @@ Musyoka I-PER
 ma O
 en O
 jatend O
-wiper O
+wiper B-ORG
 , O
 e O
 twak O
@@ -2630,7 +2680,7 @@ nobedo O
 Jagoro O
 maduong O
 mar O
-odm O
+odm B-ORG
 Edwin B-PER
 Sifuna I-PER
 , O
@@ -2850,9 +2900,9 @@ mar O
 corona O
 e O
 buo O
-seche O
-24 O
-mokalo O
+seche B-DATE
+24 I-DATE
+mokalo I-DATE
 gin O
 960 O
 . O
@@ -2920,7 +2970,7 @@ chango O
 
 Gi O
 e O
-kindeno O
+kindeno B-DATE
 jotuo O
 mok O
 2 O
@@ -2943,8 +2993,8 @@ chopo O
 280 O
 . O
 
-Jo B-PER
-Kakrao I-PER
+Jo O
+Kakrao B-LOC
 yuak O
 ni O
 MCA O
@@ -2977,7 +3027,7 @@ mokalo O
 piny O
 owacho O
 mar O
-County B-LOC
+County O
 margino O
 kod O
 jotelo O
@@ -3253,9 +3303,9 @@ gi O
 JONEKO O
 GI O
 KORONA O
-MOMBASA O
+MOMBASA B-LOC
 
-Esechegi O
+Esechegi B-DATE
 ma O
 oganda O
 duto O
@@ -3281,8 +3331,8 @@ chutho O
 mago O
 madangni O
 e O
-chuny B-LOC
-boma I-LOC
+chuny O
+boma B-LOC
 ma I-LOC
 Mombasa I-LOC
 josebedo O
@@ -3369,9 +3419,9 @@ ielore O
 kowuok O
 e O
 wi O
-gode O
-ma O
-gwassi O
+gode B-LOC
+ma I-LOC
+gwassi I-LOC
 e O
 sub B-LOC
 location I-LOC
@@ -3414,9 +3464,9 @@ nokier O
 molwar O
 koridore O
 e O
-gode O
-ma O
-gwassi O
+gode B-LOC
+ma I-LOC
+gwassi I-LOC
 kanyo O
 ema O
 kaeto O
@@ -3443,7 +3493,7 @@ MANYO O
 THIETH O
 ODOK O
 PINY O
-MIGORI O
+MIGORI B-LOC
 
 Kwan O
 mar O
@@ -3591,7 +3641,7 @@ kata O
 bang O
 ogai O
 mar O
-Doho B-ORG
+Doho O
 e O
 pachoka O
 David B-PER
@@ -3639,10 +3689,10 @@ kaka O
 karan O
 manyien O
 mar O
-od O
-bura O
-ma O
-Nairobi B-LOC
+od B-ORG
+bura I-ORG
+ma I-ORG
+Nairobi I-ORG
 . O
 
 Nyasi O
@@ -3692,7 +3742,7 @@ yuaruok O
 nomuoch O
 bang' O
 spika O
-Elachi O
+Elachi B-PER
 nodagi O
 yango O
 Jacob B-PER
@@ -3700,11 +3750,16 @@ Ngwele I-PER
 kaka O
 karan O
 mar O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/luo/test.txt
+od O
+Burano O
+========
 od B-LOC
 Burano B-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/10/luo/3/test_predictions.txt
 . O
 
-Ngwele O
+Ngwele B-PER
 osebedo O
 oko O
 mar O
@@ -3852,11 +3907,11 @@ kendo O
 ring O
 kode O
 e O
-kar O
-thieth O
-ma O
-rodi O
-kopany O
+kar B-ORG
+thieth I-ORG
+ma I-ORG
+rodi I-ORG
+kopany I-ORG
 kama O
 bange O
 ne O
@@ -3871,8 +3926,13 @@ teaching I-ORG
 and I-ORG
 referal I-ORG
 hospital I-ORG
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/luo/test.txt
+ma O
+Ongieloe O
+========
 ma I-ORG
 Ongieloe I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/10/luo/3/test_predictions.txt
 orengo O
 . O
 
@@ -3909,14 +3969,21 @@ orengo O
 . O
 
 ka O
-giesani O
+giesani B-DATE
 ringre O
 osechwal O
 e O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/luo/test.txt
+kar B-ORG
+kano I-ORG
+ringruok I-ORG
+ma I-ORG
+========
 kar O
 kano O
 ringruok O
 ma B-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/10/luo/3/test_predictions.txt
 Homabay I-ORG
 kairito O
 timone O
@@ -3983,7 +4050,7 @@ Uhuru B-PER
 Kenyatta I-PER
 . O
 
-Orengo O
+Orengo B-PER
 ma O
 en O
 jatend O
@@ -4023,15 +4090,22 @@ moro O
 e O
 gwenge O
 ma O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/luo/test.txt
+masiri B-LOC
+ramunde I-LOC
+ugenya I-LOC
+constituency I-LOC
+========
 masiri O
 ramunde O
 ugenya O
 constituency I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/10/luo/3/test_predictions.txt
 kama O
 ne O
 okwayo O
 ker O
-kenyataa O
+kenyataa B-PER
 mondo O
 orid O
 okanda O
@@ -4045,8 +4119,8 @@ pachoka O
 
 ne O
 opuoyo O
-Ker B-PER
-Kenyatta I-PER
+Ker O
+Kenyatta B-PER
 kuom O
 okenge O
 ma O
@@ -4070,7 +4144,7 @@ angata O
 . O
 
 Senator O
-orengo O
+orengo B-PER
 ne O
 oten O
 kod O
@@ -4094,7 +4168,7 @@ ohum O
 kod O
 kwan O
 jopiny O
-china O
+china B-LOC
 ma O
 osemedore O
 e O
@@ -4122,14 +4196,18 @@ ngányo O
 ekind O
 thuolo O
 mar O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/luo/test.txt
+ndalo O
+========
 ndalo B-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/10/luo/3/test_predictions.txt
 21 O
 kaok O
 ochop O
 dwachgi O
 
-Riwruog B-ORG
-nurses I-ORG
+Riwruog O
+nurses O
 e O
 pachoka O
 ochiwo O
@@ -4183,8 +4261,8 @@ ogorimiti O
 mane O
 gichue O
 kokgi O
-2 O
-dwee B-DATE
+2 B-DATE
+dwee I-DATE
 mar I-DATE
 11 I-DATE
 higa I-DATE
@@ -4261,7 +4339,11 @@ sh O
 ne O
 jopuonjre O
 e O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/luo/test.txt
+hikgi O
+========
 hikgi B-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/10/luo/3/test_predictions.txt
 mokwuongo O
 . O
 
@@ -4269,7 +4351,7 @@ Kane O
 giloso O
 gi O
 jofwambo O
-eboma O
+eboma B-LOC
 ma I-LOC
 Kisumu I-LOC
 riwruogno O
@@ -4307,7 +4389,7 @@ yor O
 chudo O
 manyasani O
 mar O
-IFMIS B-ORG
+IFMIS O
 . O
 
 Doho O
@@ -4342,9 +4424,9 @@ gana O
 
 Jangad O
 buche O
-edoho O
-ma O
-Kibra B-LOC
+edoho B-ORG
+ma I-ORG
+Kibra I-ORG
 Joyce B-PER
 Gandani I-PER
 ne O
@@ -4473,15 +4555,24 @@ mar O
 monjo O
 spika O
 mar O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/luo/test.txt
+county O
+assemblyno O
+========
 county B-LOC
 assemblyno I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/10/luo/3/test_predictions.txt
 mikayi O
 Elizabeth B-PER
 Ayoo I-PER
 joo O
 dhii O
 bedo O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/luo/test.txt
+erumend B-ORG
+========
 erumend O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/10/luo/3/test_predictions.txt
 ma I-ORG
 Kodiaga I-ORG
 kuom O
@@ -4504,7 +4595,7 @@ ne O
 owachoni O
 weyo O
 thuolo O
-Mcas B-PER
+Mcas O
 go O
 kaka O
 ne O
@@ -4539,7 +4630,7 @@ North I-LOC
 Phelimon B-PER
 Onditi I-PER
 ( O
-Kagan B-PER
+Kagan B-LOC
 ) O
 , O
 Dan B-PER
@@ -4568,7 +4659,7 @@ Kaula I-PER
 
 Motelone O
 mano O
-Mcas B-PER
+Mcas O
 go O
 ne O
 joo O
@@ -4689,8 +4780,13 @@ kotelnegi O
 kod O
 mca O
 ma O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/luo/test.txt
+ogwel O
+ecounty B-ORG
+========
 ogwel B-ORG
 ecounty I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/10/luo/3/test_predictions.txt
 assembly I-ORG
 ma I-ORG
 Siaya I-ORG
@@ -4821,7 +4917,7 @@ nyocha O
 omonjgo O
 spika O
 ma O
-homabay O
+homabay B-LOC
 mikayi O
 Elizabeth B-PER
 Ayoo I-PER
@@ -4953,9 +5049,15 @@ manyogi O
 ewii O
 wach O
 monjo O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/luo/test.txt
+spika O
+ma O
+Homabay B-LOC
+========
 spika B-ORG
 ma I-ORG
 Homabay I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/10/luo/3/test_predictions.txt
 . O
 
 Ringre O
@@ -5000,8 +5102,8 @@ ma I-LOC
 Migori I-LOC
 . O
 
-Briton O
-Mike B-PER
+Briton B-PER
+Mike I-PER
 Odhiambo I-PER
 nyo O
 okier O
@@ -5030,10 +5132,10 @@ Karungu I-LOC
 Isaac B-PER
 Bungu I-PER
 okwayo O
-piny O
-owacho O
-ma O
-Migori B-LOC
+piny B-ORG
+owacho I-ORG
+ma I-ORG
+Migori I-ORG
 kod O
 apisas O
 mag O
@@ -5059,8 +5161,8 @@ diel O
 mane O
 gikwalo O
 e O
-chula O
-Nyakagere B-LOC
+chula B-LOC
+Nyakagere I-LOC
 , O
 Seme B-LOC
 sub I-LOC
@@ -5097,24 +5199,33 @@ Achije O
 go O
 majohigni B-DATE
 43 I-DATE
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/luo/test.txt
+gi O
+48 B-DATE
+========
 gi I-DATE
 48 I-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/10/luo/3/test_predictions.txt
 nyoo O
 okwalo O
 dielno O
 manyuok O
 edala O
 mama O
-pamela O
-atieno B-DATE
-odindo I-DATE
+pamela B-PER
+atieno I-PER
+odindo I-PER
 ei O
 chula B-LOC
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/luo/test.txt
+ma I-LOC
+========
 ma I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/10/luo/3/test_predictions.txt
 Nyakagere I-LOC
 mayudore O
-enam O
-lolwe O
+enam B-LOC
+lolwe I-LOC
 kar O
 saa B-DATE
 10 I-DATE
@@ -5178,19 +5289,32 @@ ne O
 omakogi O
 ma O
 ogengnegi O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/luo/test.txt
+etesend B-ORG
+obila I-ORG
+========
 etesend O
 obila B-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/10/luo/3/test_predictions.txt
 ma I-ORG
 Kombewa I-ORG
 ka O
 ibiro O
 chwalgi O
 enyim O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/luo/test.txt
+doho B-ORG
+ma I-ORG
+maseno I-ORG
+odiechieng B-DATE
+ma I-DATE
+========
 doho O
 ma O
 maseno O
 odiechieng O
 ma O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/10/luo/3/test_predictions.txt
 kiny I-DATE
 . O
 
@@ -5323,7 +5447,7 @@ mag O
 Got B-LOC
 Nanga I-LOC
 kod O
-Weyni B-PER
+Weyni O
 mane O
 osengado O
 

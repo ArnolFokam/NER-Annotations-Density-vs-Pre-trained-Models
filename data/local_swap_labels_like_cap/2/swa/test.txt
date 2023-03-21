@@ -668,7 +668,7 @@ Lamu B-LOC
 
 Safari O
 kupitia O
-barabara O
+barabara B-LOC
 ya O
 Lamu B-LOC
 - O
@@ -1096,8 +1096,13 @@ Akizungumza O
 kwenye O
 ukumbi O
 wa O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/swa/test.txt
 St B-LOC
 Peter I-LOC
+========
+St B-ORG
+Peter I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/swa/3/test_predictions.txt
 Square I-LOC
 uliojaa O
 maua O
@@ -1238,7 +1243,11 @@ sikukuu O
 ya O
 Eid O
 al O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/swa/test.txt
 - O
+========
+- I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/swa/3/test_predictions.txt
 Fitr O
 isiyokuwa O
 na O
@@ -1296,10 +1305,17 @@ tatu I-DATE
 inayoadhimisha O
 kumalizika O
 kwa O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/swa/test.txt
 mwezi O
 mtufuku O
 wa O
 Ramadhan O
+========
+mwezi B-DATE
+mtufuku I-DATE
+wa I-DATE
+Ramadhan I-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/swa/3/test_predictions.txt
 , O
 kwa O
 kawaida O
@@ -1355,9 +1371,15 @@ masharti O
 hayo O
 wakati O
 wa O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/swa/test.txt
 mwezi O
 wa O
 Ramadhan O
+========
+mwezi B-DATE
+wa I-DATE
+Ramadhan I-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/swa/3/test_predictions.txt
 iliyopelekea O
 mlipuko O
 mkubwa O
@@ -1614,7 +1636,7 @@ baada O
 ya O
 sikukuu O
 ya O
-Eid O
+Eid B-DATE
 . O
 
 Wakati O
@@ -2188,12 +2210,21 @@ Nikkei O
 na O
 kile O
 cha O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/swa/test.txt
 Sydney B-LOC
 S O
 & O
 P O
 / O
 ASX O
+========
+Sydney B-ORG
+S I-ORG
+& I-ORG
+P I-ORG
+/ I-ORG
+ASX B-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/swa/3/test_predictions.txt
 vyote O
 kupata O
 hasara O
@@ -2290,12 +2321,21 @@ kidogo O
 kimauzo O
 , O
 wakati O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/swa/test.txt
 S O
 & O
 P O
 500 O
 na O
 Nasdaq O
+========
+S B-ORG
+& I-ORG
+P I-ORG
+500 O
+na O
+Nasdaq B-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/swa/3/test_predictions.txt
 yalikuwa O
 katika O
 wigo O
@@ -2725,11 +2765,17 @@ urais O
 wa O
 chama B-ORG
 cha I-ORG
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/swa/test.txt
 Congress I-ORG
 for O
 national B-ORG
+========
+Congress B-ORG
+for I-ORG
+national I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/swa/3/test_predictions.txt
 Liberty I-ORG
-- O
+- I-ORG
 CNL B-ORG
 Februari B-DATE
 16 I-DATE
@@ -2882,8 +2928,13 @@ kushambuliwa O
 basi O
 katika O
 Kaunti O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/swa/test.txt
 ya O
 Lamu B-LOC
+========
+ya I-LOC
+Lamu I-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/swa/3/test_predictions.txt
 . O
 
 Mratibu O
@@ -3046,11 +3097,11 @@ kwenda O
 Mombasa B-LOC
 yalilazimishwa O
 kurudi O
-Kituo O
+Kituo B-ORG
 cha O
 Polisi O
 cha O
-Witu B-LOC
+Witu I-ORG
 . O
 
 Bei O
@@ -3129,7 +3180,11 @@ la O
 ndege O
 la O
 Ujerumani B-LOC
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/swa/test.txt
 Luftansa B-ORG
+========
+Luftansa B-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/swa/3/test_predictions.txt
 zilipanda O
 kwa O
 asilimia O
@@ -3157,8 +3212,8 @@ hilo O
 Kwa O
 upande O
 wa O
-benki O
-za O
+benki B-ORG
+za I-ORG
 Ulaya B-LOC
 hisa O
 zilipanda O
@@ -3351,8 +3406,13 @@ baada O
 ya O
 maandamano O
 ya O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/swa/test.txt
 siku O
 12 O
+========
+siku B-DATE
+12 I-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/swa/3/test_predictions.txt
 wananchi O
 wa O
 Lebanon B-LOC
@@ -3559,8 +3619,13 @@ kiuchumi O
 
 Waziri O
 Mkuu O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/swa/test.txt
 tajiri O
 Hariri B-PER
+========
+tajiri B-PER
+Hariri I-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/swa/3/test_predictions.txt
 akilihutubia O
 taifa O
 hapo O
@@ -4370,7 +4435,7 @@ Ndege O
 hiyo O
 aina O
 ya O
-Boeing O
+Boeing B-ORG
 737 O
 - O
 Max O
@@ -4464,7 +4529,7 @@ kuruka O
 Boeing O
 737 O
 - O
-MAX O
+MAX B-ORG
 8 O
 inafanana O
 na O
@@ -4591,9 +4656,15 @@ ni O
 suala O
 tete O
 linaloikumba O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/swa/test.txt
 jumuia B-ORG
 ya I-ORG
 kimataifa I-ORG
+========
+jumuia O
+ya O
+kimataifa O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/swa/3/test_predictions.txt
 kwa O
 ujumla O
 . O
@@ -4747,8 +4818,8 @@ Ofisi O
 ya O
 bajeti O
 ya O
-White B-LOC
-House I-LOC
+White B-ORG
+House I-ORG
 pia O
 imekataa O
 ombi O
@@ -4792,7 +4863,7 @@ urais O
 wa O
 Democrat B-ORG
 hivi O
-sasa O
+sasa I-DATE
 , O
 Joe B-PER
 Biden I-PER
@@ -5020,7 +5091,11 @@ dhidi O
 ya O
 gazeti O
 la O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/swa/test.txt
 'The B-ORG
+========
+'The O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/swa/3/test_predictions.txt
 Citizen' I-ORG
 imekuja O
 wakati O
@@ -5343,7 +5418,7 @@ Kundi O
 la O
 Media B-ORG
 rights I-ORG
-group I-ORG
+group O
 , O
 ambao O
 ni O
@@ -5359,8 +5434,13 @@ kwa O
 muda O
 huko O
 kwa O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/swa/test.txt
 'The B-ORG
 Citizen' I-ORG
+========
+'The O
+Citizen' O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/swa/3/test_predictions.txt
 “ O
 ni O
 kielelezo O
@@ -5574,7 +5654,7 @@ kike O
 , O
 2 O
 , O
-Yusra B-PER
+Yusra B-LOC
 akiokolewa O
 kutoka O
 katika O
@@ -6125,7 +6205,7 @@ shirika B-ORG
 la I-ORG
 afya I-ORG
 duniani I-ORG
-WHO I-ORG
+WHO B-ORG
 akiuawa O
 kwa O
 kupigwa O
@@ -6135,8 +6215,13 @@ watu O
 wenye O
 silaha O
 , O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/swa/test.txt
 siku O
 10 O
+========
+siku B-DATE
+10 I-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/swa/3/test_predictions.txt
 zilizopita O
 . O
 
@@ -6913,7 +6998,7 @@ alipoigiza O
 michezo O
 ijulikanayo O
 kama O
-Cranky O
+Cranky B-PER
 , O
 Frank O
 Costanza O
@@ -6937,7 +7022,7 @@ katika O
 maonyesho O
 mbalimbali O
 ya O
-Broadway B-ORG
+Broadway O
 kama O
 vile O
 The O
@@ -7130,7 +7215,7 @@ leo O
 ” O
 amesema O
 Maalim B-PER
-Seif I-PER
+Seif B-PER
 . O
 
 Mkakati O
@@ -7261,7 +7346,11 @@ vyama O
 vya O
 siasa O
 , O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/swa/test.txt
 Rita B-ORG
+========
+Rita B-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/swa/3/test_predictions.txt
 na O
 hata O
 bunge O
@@ -7349,7 +7438,7 @@ wa O
 kundi O
 la O
 waasi O
-la O
+la I-ORG
 Vuguvugu B-ORG
 la I-ORG
 Haki I-ORG
@@ -7575,10 +7664,17 @@ Mauritius B-LOC
 wana O
 kati O
 ya O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/swa/test.txt
 siku O
 30 O
 hadi O
 150 O
+========
+siku B-DATE
+30 I-DATE
+hadi O
+150 I-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/swa/3/test_predictions.txt
 kushiriki O
 uchaguzi O
 baada O
@@ -7646,8 +7742,8 @@ Kiongozi O
 mkuu O
 wa O
 kanisa O
-katolika O
-duniani O
+katolika I-ORG
+duniani B-LOC
 Papa O
 Francis B-PER
 Jumanne B-DATE
@@ -7930,7 +8026,7 @@ Megan B-PER
 Rapinoe I-PER
 mnamo O
 dakika O
-61 O
+61 I-DATE
 . O
 
 Bao O
@@ -8020,7 +8116,7 @@ hiyo O
 iiliendelea O
 kwa O
 mwezi O
-mmoja O
+mmoja I-DATE
 tangu O
 tarehe O
 7 B-DATE
@@ -8229,8 +8325,8 @@ Alhamisi B-DATE
 katika O
 Hospitali O
 ya O
-Kati O
-ya O
+Kati I-LOC
+ya I-LOC
 Wuhan B-LOC
 , O
 ambako O
@@ -8955,7 +9051,7 @@ kusitisha O
 uwakilishi O
 wa O
 Mbunge O
-Masele B-PER
+Masele B-LOC
 ( O
 CCM B-ORG
 ) O
@@ -9071,7 +9167,7 @@ huyo O
 alisisitiza O
 . O
 
-Masele B-PER
+Masele B-LOC
 kuendelea O
 kusimamia O
 haki O
@@ -9395,7 +9491,7 @@ Nisingependa O
 kuyafafanua O
 leo O
 ( O
-juzi O
+juzi B-DATE
 ) O
 muda O
 hautoshi O
@@ -9403,7 +9499,7 @@ hautoshi O
 
 Tumelazimika O
 kumtafuta O
-Masele B-PER
+Masele B-LOC
 kumrudisha O
 nyumbani O
 kuanzia O
@@ -9492,7 +9588,7 @@ Bunge B-ORG
 la I-ORG
 Tanzania I-ORG
 alidai O
-Masele B-PER
+Masele B-LOC
 ni O
 kiongozi O
 ambaye O
@@ -9985,7 +10081,7 @@ kamati O
 ya O
 Bunge O
 , O
-Masele B-PER
+Masele B-LOC
 pia O
 atahojiwa O
 na O
@@ -10290,15 +10386,25 @@ cha O
 George B-PER
 Floyd I-PER
 wiki O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/swa/test.txt
 tatu O
+========
+tatu I-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/swa/3/test_predictions.txt
 zilizopita O
 . O
 
 Spika O
 wa O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/swa/test.txt
 Baraza B-ORG
 la I-ORG
 Wawakilishi I-ORG
+========
+Baraza O
+la I-ORG
+Wawakilishi O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/swa/3/test_predictions.txt
 Nancy B-PER
 Pelosi I-PER
 ametaka O
@@ -11176,7 +11282,11 @@ kuanguka O
 , O
 saa O
 nne O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/swa/test.txt
 asubuhi B-DATE
+========
+asubuhi I-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/swa/3/test_predictions.txt
 saa O
 za O
 Marekani B-LOC
@@ -11244,7 +11354,7 @@ Kifo O
 chake O
 kinajiri O
 saa O
-chache O
+chache I-DATE
 baada O
 ya O
 kumtumia O
@@ -11559,7 +11669,7 @@ maalum O
 na O
 Idhaa O
 ya O
-Pashto O
+Pashto B-ORG
 ya O
 VOA B-ORG
 . O
@@ -11971,8 +12081,8 @@ wake O
 . O
 
 Novemba B-DATE
-mwaka I-DATE
-2019 I-DATE
+mwaka O
+2019 B-DATE
 , O
 Trump B-PER
 alipendekeza O
@@ -12077,6 +12187,7 @@ Mabadiliko O
 ya O
 Uhariri O
 katika O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/swa/test.txt
 Shirika B-ORG
 la I-ORG
 Utangazaji I-ORG
@@ -12084,6 +12195,15 @@ la I-ORG
 Serikali I-ORG
 White B-LOC
 House I-LOC
+========
+Shirika O
+la O
+Utangazaji O
+la O
+Serikali O
+White I-ORG
+House I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/swa/3/test_predictions.txt
 na O
 Wizara O
 ya O
@@ -12115,8 +12235,8 @@ kina O
 katika O
 kijarida O
 cha O
-White B-LOC
-House I-LOC
+White B-ORG
+House I-ORG
 mapema O
 mwezi O
 huu O
@@ -12283,12 +12403,21 @@ diplomasia O
 ya O
 umma O
 katika O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/swa/test.txt
 chuo B-ORG
 kikuu I-ORG
 cha I-ORG
 Southern I-ORG
 California I-ORG
 Annenberg B-PER
+========
+chuo O
+kikuu O
+cha O
+Southern B-LOC
+California I-LOC
+Annenberg I-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/swa/3/test_predictions.txt
 katika O
 chuo O
 cha O
@@ -12401,7 +12530,7 @@ Waandishi O
 walitaka O
 suala O
 la O
-Watergate O
+Watergate B-ORG
 liwe O
 ni O
 “ O
@@ -12499,7 +12628,11 @@ na O
 Mke O
 wake O
 Bi B-PER
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/swa/test.txt
 Nixon I-PER
+========
+Nixon B-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/swa/3/test_predictions.txt
 amefungua O
 shule O
 mpya O
@@ -12906,7 +13039,7 @@ kama O
 mtendaji O
 mkuu O
 wa O
-USAGM B-ORG
+USAGM B-LOC
 . O
 
 Seneta O
@@ -13262,8 +13395,13 @@ malumbano O
 
 Chini O
 ya O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/swa/test.txt
 wiki O
 mbili O
+========
+wiki B-DATE
+mbili I-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/swa/3/test_predictions.txt
 baada O
 ya O
 mahojiano O
@@ -13513,14 +13651,14 @@ States I-ORG
 Information I-ORG
 Agency I-ORG
 : O
-American B-ORG
-Public I-ORG
+American O
+Public O
 Diplomacy I-ORG
 , O
 1989 B-DATE
 - O
 2001 B-DATE
-, O
+, I-DATE
 2008 B-DATE
 ; O
 Alan B-PER
@@ -13528,8 +13666,13 @@ L I-PER
 . O
 
 Heil B-PER
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/swa/test.txt
 , I-PER
 Jr I-PER
+========
+, O
+Jr B-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/swa/3/test_predictions.txt
 , O
 Voice B-ORG
 of I-ORG
@@ -14414,8 +14557,13 @@ Tianamen I-LOC
 1989 B-DATE
 . O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/swa/test.txt
 Hong O
 kong O
+========
+Hong B-PER
+kong I-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/swa/3/test_predictions.txt
 Rais O
 Trump B-PER
 aliongeza O
@@ -14895,9 +15043,9 @@ Mkuu O
 wa O
 Polisi O
 wa O
-San B-LOC
-Deigo I-LOC
-David B-PER
+San B-PER
+Deigo I-PER
+David I-PER
 Nisleit I-PER
 amesema O
 kuwa O
@@ -15386,8 +15534,13 @@ ulikuwa O
 umepangiwa O
 kufanyika O
 kuanzia O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/swa/test.txt
 tarehee B-DATE
 22 I-DATE
+========
+tarehee O
+22 B-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/swa/3/test_predictions.txt
 hadi I-DATE
 27 I-DATE
 June I-DATE
@@ -15482,7 +15635,11 @@ kubeba O
 mizigo O
 , O
 wiki O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/swa/test.txt
 mbili O
+========
+mbili I-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/swa/3/test_predictions.txt
 zilizopita O
 . O
 
@@ -15540,9 +15697,9 @@ nchi O
 wametoka O
 . O
 
-Wizara O
-ya O
-afya O
+Wizara B-ORG
+ya I-ORG
+afya I-ORG
 a O
 Uganda B-LOC
 imesema O
@@ -15762,8 +15919,13 @@ ikitekelezwa O
 kwa O
 mda O
 wa O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/2/swa/test.txt
 wiki O
 tatu O
+========
+wiki B-DATE
+tatu I-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afriberta/local_swap_labels_like_cap/9/swa/3/test_predictions.txt
 zilizopita O
 . O
 

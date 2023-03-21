@@ -291,17 +291,9 @@ acs-*.bib
 #(r)(e)ledmac/(r)(e)ledpar
 *.end
 *.?end
-*.[1-9][0-9]
-*.[1-9][0-9][0-9]
 *.[1-9]R
-*.[1-9][0-9]R
-*.[1-9][0-9][0-9]R
 *.eledsec[1-9]
 *.eledsec[1-9]R
-*.eledsec[1-9][0-9]
-*.eledsec[1-9][0-9]R
-*.eledsec[1-9][0-9][0-9]
-*.eledsec[1-9][0-9][0-9]R
 
 # glossaries
 *.acn
@@ -363,10 +355,6 @@ acs-*.bib
 *.maf
 *.mlf
 *.mlt
-*.mtc[0-9]*
-*.slf[0-9]*
-*.slt[0-9]*
-*.stc[0-9]*
 
 # minted
 _minted*
@@ -513,6 +501,7 @@ cap-*/
 !/data/README.md
 /.idea
 /.vscode
+!./all_slurms/*
 /slurms
 lightning_logs
 # results/*
@@ -543,3 +532,7 @@ outputs/
 runs/
 wandb/
 .obsidian/
+predictions.npz
+**/predictions.npz
+entropies_v2/
+allslurms/

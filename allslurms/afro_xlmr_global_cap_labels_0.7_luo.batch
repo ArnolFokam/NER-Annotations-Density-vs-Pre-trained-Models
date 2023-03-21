@@ -1,0 +1,18 @@
+#!/bin/bash
+#SBATCH -p stampede
+#SBATCH -N 1
+#SBATCH -t 72:00:00
+#SBATCH -x mscluster65 
+#SBATCH -J entropy
+#SBATCH -o /home-mscluster/mbeukman/school/NER-Annotations-Density-vs-Pre-trained-Models/logs/outputs_slurm/model.%N.%j.out
+#SBATCH -e /home-mscluster/mbeukman/school/NER-Annotations-Density-vs-Pre-trained-Models/logs/errors_slurm/model.%N.%j.err
+
+cd /home-mscluster/mbeukman/school/NER-Annotations-Density-vs-Pre-trained-Models
+conda activate manualner
+export PYTHONPATH=$PYTHONPATH:`pwd`
+export PATH=$PATH:/usr/local/cuda-12.0/bin
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-12.0/lib64
+./run.sh scripts/get_entropies.py --model_type afro_xlmr --corruption_name global_cap_labels --param 0.7 --language luo --number_of_predictions 50 --seed 1 &
+./run.sh scripts/get_entropies.py --model_type afro_xlmr --corruption_name global_cap_labels --param 0.7 --language luo --number_of_predictions 50 --seed 2 &
+./run.sh scripts/get_entropies.py --model_type afro_xlmr --corruption_name global_cap_labels --param 0.7 --language luo --number_of_predictions 50 --seed 3 &
+wait

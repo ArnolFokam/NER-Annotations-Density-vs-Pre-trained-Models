@@ -84,8 +84,13 @@ mane O
 opim O
 tok O
 seche O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/luo/test.txt
 24 O
 mokalo O
+========
+24 I-DATE
+mokalo I-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/luo/3/test_predictions.txt
 
 Jatelono O
 bende O
@@ -773,8 +778,8 @@ ma O
 County B-LOC
 ma I-LOC
 Busia I-LOC
-Wambua B-PER
-Katithi I-PER
+Wambua I-LOC
+Katithi B-PER
 nowacho O
 ni O
 masirano O
@@ -783,11 +788,19 @@ otimore O
 kar O
 saa B-DATE
 2 I-DATE
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/luo/test.txt
 mar O
 otieno B-DATE
 mane O
 piny O
 oruugo O
+========
+mar I-DATE
+otieno I-DATE
+mane I-DATE
+piny I-DATE
+oruugo I-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/luo/3/test_predictions.txt
 kawuononi B-DATE
 ne O
 okelo O
@@ -806,15 +819,15 @@ jothogo O
 gin O
 ja O
 higni B-DATE
-9 I-DATE
+9 O
 , O
 ja O
 higni B-DATE
-14 I-DATE
+14 O
 kod O
 ja O
 higni B-DATE
-20 I-DATE
+20 O
 
 Wambua B-PER
 nowacho O
@@ -857,7 +870,11 @@ ni O
 chakore O
 ayanga O
 kiny O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/luo/test.txt
 wuok B-DATE
+========
+wuok I-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/luo/3/test_predictions.txt
 tich I-DATE
 
 Riuruogno O
@@ -1043,7 +1060,7 @@ bende O
 nyo O
 omaki O
 
-Apisas O
+Apisas B-PER
 abiryogo O
 nyo O
 omaki O
@@ -1059,8 +1076,8 @@ boardno O
 Apisas O
 abiryogo O
 gin O
-Mudzo B-PER
-Nzili I-PER
+Mudzo B-LOC
+Nzili I-LOC
 mawuok O
 e O
 county B-LOC
@@ -1116,12 +1133,21 @@ mag O
 somo O
 mongere O
 kaka O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/luo/test.txt
 Education O
 Bursary O
 Fund O
 Ammendment O
 bill O
 2018 B-DATE
+========
+Education B-ORG
+Bursary I-ORG
+Fund I-ORG
+Ammendment I-ORG
+bill I-ORG
+2018 O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/luo/3/test_predictions.txt
 mabiro O
 konyo O
 neno O
@@ -1285,8 +1311,13 @@ mar O
 hik B-DATE
 manyonge I-DATE
 mar O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/luo/test.txt
 2018 B-DATE
 / I-DATE
+========
+2018 I-DATE
+/ O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/luo/3/test_predictions.txt
 2019 I-DATE
 kowuok O
 e O
@@ -1407,7 +1438,11 @@ devolution O
 ne O
 okel O
 e O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/luo/test.txt
 Pachoka O
+========
+Pachoka B-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/luo/3/test_predictions.txt
 mar O
 konyo O
 neno O
@@ -1504,7 +1539,7 @@ Kisumu B-LOC
 Homa B-LOC
 Bay I-LOC
 , O
-Nairobi B-LOC
+Nairobi I-LOC
 kod O
 Kakamega B-LOC
 gin O
@@ -1565,7 +1600,7 @@ rido O
 e O
 gwenge O
 ma O
-nyanza B-LOC
+nyanza B-DATE
 e O
 nyasi O
 mar O
@@ -1772,11 +1807,19 @@ limbeno O
 mokuongo O
 mar O
 ker O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/luo/test.txt
 kenyataa B-PER
 chakre O
 yiero O
 ma O
 higa O
+========
+kenyataa B-DATE
+chakre O
+yiero O
+ma O
+higa B-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/luo/3/test_predictions.txt
 mokalo O
 to O
 kod O
@@ -1904,9 +1947,9 @@ ndalo O
 machuok O
 kende O
 bang O
-senator O
-ma O
-Kisumu B-LOC
+senator B-LOC
+ma I-LOC
+Kisumu I-LOC
 migosi O
 Fred B-PER
 Outa I-PER
@@ -1923,7 +1966,7 @@ rwako O
 jotelo O
 ariyogi O
 
-Media B-ORG
+Media I-ORG
 Council I-ORG
 of I-ORG
 Kenya I-ORG
@@ -2062,7 +2105,7 @@ kanyakla O
 e O
 yoore O
 mag O
-tich O
+tich B-DATE
 
 Jatelono O
 mane O
@@ -2365,9 +2408,15 @@ Amolo I-PER
 Odinga I-PER
 kuom O
 ruako O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/luo/test.txt
 Ker O
 Uhuru B-PER
 Kisumu B-LOC
+========
+Ker B-ORG
+Uhuru I-ORG
+Kisumu I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/luo/3/test_predictions.txt
 tarik B-DATE
 13 I-DATE
 mar I-DATE
@@ -2473,7 +2522,7 @@ rem O
 luwo O
 chike O
 mag O
-ODM B-ORG
+ODM O
 kendo O
 bedo O
 gi O
@@ -2492,10 +2541,17 @@ Kenyatta B-PER
 mano O
 mawuok O
 e O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/luo/test.txt
 duond O
 bura O
 mar O
 jubilee B-ORG
+========
+duond B-ORG
+bura I-ORG
+mar I-ORG
+jubilee I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/luo/3/test_predictions.txt
 kendo O
 singo O
 tiyo O
@@ -2727,7 +2783,7 @@ e O
 county B-LOC
 ma I-LOC
 kisumo I-LOC
-timothy B-PER
+timothy O
 malika I-PER
 , O
 owacho O
@@ -2850,9 +2906,15 @@ mar O
 corona O
 e O
 buo O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/luo/test.txt
 seche B-DATE
 24 I-DATE
 mokalo I-DATE
+========
+seche O
+24 O
+mokalo O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/luo/3/test_predictions.txt
 gin O
 960 O
 . O
@@ -2875,7 +2937,7 @@ ma O
 kamano O
 . O
 
-Bad O
+Bad B-PER
 migao O
 mar O
 thieth O
@@ -2943,8 +3005,13 @@ chopo O
 280 O
 . O
 
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/luo/test.txt
 Jo O
 Kakrao B-LOC
+========
+Jo B-PER
+Kakrao I-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/luo/3/test_predictions.txt
 yuak O
 ni O
 MCA O
@@ -2999,7 +3066,7 @@ weche O
 mag O
 oongruok O
 kuom O
-higni O
+higni B-DATE
 modhuro O
 
 Jo O
@@ -3281,8 +3348,13 @@ chutho O
 mago O
 madangni O
 e O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/luo/test.txt
 chuny O
 boma B-LOC
+========
+chuny B-LOC
+boma I-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/luo/3/test_predictions.txt
 ma I-LOC
 Mombasa I-LOC
 josebedo O
@@ -3461,7 +3533,7 @@ ma I-LOC
 Migori I-LOC
 odok O
 piny O
-mokalo O
+mokalo I-DATE
 nyaka O
 ne O
 midhusi O
@@ -3542,8 +3614,8 @@ adier O
 . O
 
 DOHO B-ORG
-MA I-ORG
-MOMBASA I-ORG
+MA O
+MOMBASA B-ORG
 OCHAKO O
 WINJO O
 BUCHE O
@@ -3684,7 +3756,7 @@ Nairobi I-ORG
 . O
 
 Motelo O
-odiechieng B-DATE
+odiechieng I-DATE
 ma I-DATE
 kawuono I-DATE
 , O
@@ -3700,8 +3772,13 @@ Ngwele I-PER
 kaka O
 karan O
 mar O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/luo/test.txt
 od O
 Burano O
+========
+od B-LOC
+Burano B-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/luo/3/test_predictions.txt
 . O
 
 Ngwele B-PER
@@ -3709,7 +3786,7 @@ osebedo O
 oko O
 mar O
 apisi O
-chakre O
+chakre B-DATE
 dwe B-DATE
 mar I-DATE
 11 I-DATE
@@ -3737,7 +3814,7 @@ jahigni B-DATE
 manetimo O
 penj O
 mar O
-KCSE O
+KCSE B-ORG
 ongielo O
 orengo O
 
@@ -3751,9 +3828,15 @@ maduong O
 mar O
 kcse O
 e O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/luo/test.txt
 skund B-ORG
 sekondar I-ORG
 ma I-ORG
+========
+skund O
+sekondar O
+ma O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/luo/3/test_predictions.txt
 DC I-ORG
 mixed I-ORG
 e O
@@ -3847,7 +3930,11 @@ bang O
 penj O
 ma O
 tich B-DATE
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/luo/test.txt
 abich I-DATE
+========
+abich O
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/luo/3/test_predictions.txt
 kendo O
 ring O
 kode O
@@ -3871,8 +3958,13 @@ teaching I-ORG
 and I-ORG
 referal I-ORG
 hospital I-ORG
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/luo/test.txt
 ma O
 Ongieloe O
+========
+ma I-ORG
+Ongieloe I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/luo/3/test_predictions.txt
 orengo O
 . O
 
@@ -4023,10 +4115,17 @@ moro O
 e O
 gwenge O
 ma O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/luo/test.txt
 masiri B-LOC
 ramunde I-LOC
 ugenya I-LOC
 constituency I-LOC
+========
+masiri O
+ramunde O
+ugenya O
+constituency B-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/luo/3/test_predictions.txt
 kama O
 ne O
 okwayo O
@@ -4122,7 +4221,11 @@ ngányo O
 ekind O
 thuolo O
 mar O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/luo/test.txt
 ndalo O
+========
+ndalo B-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/luo/3/test_predictions.txt
 21 O
 kaok O
 ochop O
@@ -4269,7 +4372,7 @@ Kane O
 giloso O
 gi O
 jofwambo O
-eboma B-LOC
+eboma O
 ma I-LOC
 Kisumu I-LOC
 riwruogno O
@@ -4279,7 +4382,7 @@ kuom O
 piny O
 owacho O
 mag O
-counties O
+counties B-LOC
 ma O
 jo O
 tiyo O
@@ -4342,9 +4445,15 @@ gana O
 
 Jangad O
 buche O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/luo/test.txt
 edoho B-ORG
 ma I-ORG
 Kibra I-ORG
+========
+edoho O
+ma O
+Kibra B-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/luo/3/test_predictions.txt
 Joyce B-PER
 Gandani I-PER
 ne O
@@ -4407,7 +4516,7 @@ oyudi O
 eode O
 ma O
 Migori B-LOC
-ethuolo O
+ethuolo B-DATE
 mane O
 apisas O
 mag O
@@ -4473,8 +4582,13 @@ mar O
 monjo O
 spika O
 mar O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/luo/test.txt
 county O
 assemblyno O
+========
+county B-LOC
+assemblyno I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/luo/3/test_predictions.txt
 mikayi O
 Elizabeth B-PER
 Ayoo I-PER
@@ -4504,7 +4618,11 @@ ne O
 owachoni O
 weyo O
 thuolo O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/luo/test.txt
 Mcas O
+========
+Mcas B-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/luo/3/test_predictions.txt
 go O
 kaka O
 ne O
@@ -4546,7 +4664,11 @@ Dan B-PER
 Were I-PER
 ( O
 Kakelo B-LOC
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/luo/test.txt
 Kokwanyo I-LOC
+========
+Kokwanyo B-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/luo/3/test_predictions.txt
 ) O
 Paul B-PER
 Wamunga I-PER
@@ -4590,8 +4712,8 @@ ewii O
 wach O
 monjo O
 spika O
-ma O
-Homabay B-LOC
+ma I-ORG
+Homabay I-ORG
 bange O
 to O
 ne O
@@ -4689,8 +4811,13 @@ kotelnegi O
 kod O
 mca O
 ma O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/luo/test.txt
 ogwel O
 ecounty B-ORG
+========
+ogwel B-ORG
+ecounty I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/luo/3/test_predictions.txt
 assembly I-ORG
 ma I-ORG
 Siaya I-ORG
@@ -4782,9 +4909,15 @@ apaya O
 . O
 
 MCAs O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/luo/test.txt
 9 O
 ma O
 Homabay B-LOC
+========
+9 I-ORG
+ma I-LOC
+Homabay I-LOC
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/luo/3/test_predictions.txt
 ni O
 e O
 lwet O
@@ -4810,9 +4943,15 @@ e O
 boma B-LOC
 ma I-LOC
 Kisumu I-LOC
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/luo/test.txt
 okinyi B-DATE
 ma I-DATE
 kawuono I-DATE
+========
+okinyi O
+ma O
+kawuono B-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/luo/3/test_predictions.txt
 ewii O
 wach O
 monj O
@@ -5008,7 +5147,7 @@ okier O
 molwar O
 e O
 pii O
-odhiambo B-DATE
+odhiambo B-LOC
 ma I-DATE
 nyoro I-DATE
 kanyo O
@@ -5097,20 +5236,34 @@ Achije O
 go O
 majohigni B-DATE
 43 I-DATE
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/luo/test.txt
 gi O
 48 B-DATE
+========
+gi I-DATE
+48 I-DATE
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/luo/3/test_predictions.txt
 nyoo O
 okwalo O
 dielno O
 manyuok O
 edala O
 mama O
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/luo/test.txt
 pamela B-PER
 atieno I-PER
 odindo I-PER
 ei O
 chula B-LOC
 ma I-LOC
+========
+pamela O
+atieno B-DATE
+odindo I-DATE
+ei O
+chula B-ORG
+ma I-ORG
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/luo/3/test_predictions.txt
 Nyakagere I-LOC
 mayudore O
 enam B-LOC
@@ -5322,8 +5475,13 @@ egweng O
 mag O
 Got B-LOC
 Nanga I-LOC
+<<<<<<<< HEAD:data/local_swap_labels_like_cap/3/luo/test.txt
 kod O
 Weyni O
+========
+kod B-PER
+Weyni B-PER
+>>>>>>>> cf3c1cc42171fcecd8e49a4a4420093948324e7b:results/afro_xlmr/local_swap_labels_like_cap/7/luo/3/test_predictions.txt
 mane O
 osengado O
 
