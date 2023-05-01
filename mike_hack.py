@@ -37,7 +37,8 @@ def do_thing(filepath):
                         if prevlabel.startswith('B-'):
                             first = 'I-'
                         newlabel = first +  ttt[-1][0]
-            prevlabel = label
+            # prevlabel = label
+            prevlabel = newlabel
             xx = '\n' if i != len(lines) -1 else '\n\n'
             new_text += f"{token} {newlabel}{xx}"
     
