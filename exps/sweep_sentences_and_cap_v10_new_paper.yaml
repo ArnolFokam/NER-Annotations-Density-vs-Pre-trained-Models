@@ -58,7 +58,7 @@ data.method:
 
 model.conf:
   - [bert,bert-base-multilingual-cased,mbert]
-
+  - [bert,Davlan/afro-xlmr-base,afro_xlmr]
 
 device.seed:
   - 1
