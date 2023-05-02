@@ -57,7 +57,7 @@ def main(
         experiment = experiment_name
         command = ""
         for arguments in arguments_chunk:
-            run = f"python {ROOT_DIR}/scripts/train_eval_ner.py --config-path=../exps --config-name=base"
+            run = f"python {ROOT_DIR}/scripts/train_eval_ner_soft.py --config-path=../exps --config-name=base"
             for key, value in arguments.items():
                 run += f" {key}="
                 if isinstance(value, (list, ListConfig)):
