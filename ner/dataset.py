@@ -1,15 +1,21 @@
+from collections import defaultdict
 import logging
 import os
 import numpy as np
+import math
 
 logger = logging.getLogger("Afri_NER_Log")
 logging.basicConfig(level=logging.INFO)
 
 
+def stable_sotmax(z):
+    z_exp = np.exp(z - np.max(z))
+    return z_exp / z_exp.sum(axis=0)
+
 class InputExample(object):
     """A single training/test example for token classification."""
 
-    def __init__(self, guid, words, labels):
+    def __init__(self, guid, words, labels, soft_labels = None):
         """Constructs a InputExample.
         Args:
             guid: Unique id for the example.
@@ -20,6 +26,7 @@ class InputExample(object):
         self.guid = guid
         self.words = words
         self.labels = labels
+        self.soft_labels = soft_labels
         
 class InputFeatures(object):
     """A single set of features of data."""
@@ -181,7 +188,53 @@ def convert_examples_to_features(
         features.append(
             InputFeatures(idx=example.guid, input_ids=input_ids, input_mask=input_mask, segment_ids=segment_ids, label_ids=label_ids)
         )
-    return features
+        
+    # update to get soft votes
+    vals = defaultdict(lambda: np.full((len(label_map),), -float('inf'), dtype=np.float32))
+    input_to_label_id = {}
+     
+    for f in features:
+        # build a dictionary of soft labels
+        for input_id, label_id in zip(f.input_ids, f.label_ids):
+            
+            input_to_label_id[input_id] = label_id
+            
+            if input_to_label_id[input_id] != pad_token_label_id:
+                vals[input_id][label_id] = max(vals[input_id][label_id] + 1, 1)
+                
+                
+    # softmax normalize the soft votes
+    for key, values in vals.items():
+        if input_to_label_id[key] != pad_token_label_id:
+            vals[key] = stable_sotmax(values)
+        assert not all([math.isnan(v) for v in vals[key]])
+    
+    # add the softvotes to the features
+    for i in range(len(features)):
+        
+        votes = np.empty((len(features[i].input_ids), len(label_map)), dtype=np.float32)
+        
+        for j in range(len(features[i].input_ids)):
+            
+            if input_to_label_id[features[i].input_ids[j]] != pad_token_label_id:
+                # add computed soft votes
+                votes[j] = vals[features[i].input_ids[j]]
+            else:
+                # add zeros votes for padding tokens
+                votes[j] = np.zeros((len(label_map),), dtype=np.float32)
+            
+        features[i].soft_votes = votes
+        
+    # check the soft votes
+    for i in range(len(features)):
+        assert len(features[i].soft_votes) == len(features[i].input_ids)
+        assert len(features[i].soft_votes) == len(features[i].label_ids)
+        
+        for j in range(len(features[i].soft_votes)):
+            assert len(features[i].soft_votes[j]) == len(label_map)
+            assert not any([math.isinf(v) for v in features[i].soft_votes[j]])
+    
+    return features, vals
 
 def get_labels(path=None):
     if path:
