@@ -769,7 +769,7 @@ def get_f1_from_filename(f):
     assert len(line) == 1
     return float(line[0].split("f1 = ")[-1])
 
-def check_quality_and_quantity():
+def check_quality_and_quantity(SS=''):
     def inner(LANG, MODEL, ax=None, ylabel=True, cbar_ax=None):
         D = 'results/afro_xlmr/'
         D = 'results/mbert/'
@@ -800,7 +800,7 @@ def check_quality_and_quantity():
             for p_label in ps_label:
                 for seed in range(1, 4):
                     OG = os.path.join(D, 'original', f'1', LANG, str(seed), 'test_results.txt')
-                    OG_PERF = get_f1_from_filename(OG)
+                    OG_PERF = get_f1_from_filename(OG.replace("_majority", '')) # TODO not do this
                     # if p_sent == 1:
                     #     d = os.path.join(D, 'global_cap_labels', f'{p_label}', 'swa', str(seed), 'test_results.txt')
                     # elif p_label == 1:
@@ -876,37 +876,31 @@ def check_quality_and_quantity():
         savefig(f'analysis/plots/cap_sent_and_labels/lineplot_{LANG}.png')
         plt.close()
     if 1:
-        # fig, all_axs = plt.subplots(2, 4, figsize=(20, 10), sharey=True, sharex=True)
-        # fig, all_axs = plt.subplots(2, 3, figsize=(20, 10), sharey=True, sharex=True)
-        # fig, all_axs = plt.subplots(2, 3, figsize=(20, 10), sharey=True, sharex=True)
         N = 1.5
         fig, all_axs = plt.subplots(2, 3, figsize=(20 / N, 10 / N), sharey=True, sharex=True)
         for MODEL in (ms := ['mbert', 'afro_xlmr']):
             i=ms.index(MODEL)
             axs = all_axs[i]
             cbar_ax = None
-            inner('conll_2003_en', MODEL, axs[0])
-            inner('swa',           MODEL, axs[1], ylabel=False)
-            # im = inner('wol',           MODEL, axs[2], ylabel=False)
-            im = inner('luo',           MODEL, axs[2], ylabel=False)
+            inner(f'conll_2003_en{SS}', MODEL, axs[0])
+            inner(f'swa{SS}',           MODEL, axs[1], ylabel=False)
+            inner(f'luo{SS}',           MODEL, axs[2], ylabel=False)
             if i != 0:
                 pass #for a in axs: a.set_title("")
             else:
                 for a in axs: a.set_xlabel("")
-        # plt.suptitle("mBERT")
-        # all_axs[0, 1].set_title("mBERT\n\nSwahili")
-        # all_axs[1, 1].set_title("\nAfro-XLM-R\n")
         plt.tight_layout()
-        savefig(f'analysis/plots/cap_sent_and_labels/all_heatmaps_all.png', tight=False, dpi=400)
-    else:
+        savefig(f'analysis/plots/cap_sent_and_labels/all_heatmaps_all{SS}.png', tight=False, dpi=400)
+        plt.close()
+    if 1:
         for MODEL in ['mbert', 'afro_xlmr']:
             fig, axs = plt.subplots(1, 3, figsize=(14, 5), sharey=True)
             cbar_ax = None
-            inner('conll_2003_en', MODEL, axs[0])
-            inner('swa',           MODEL, axs[1], ylabel=False)
-            im = inner('luo',           MODEL, axs[2], ylabel=False, cbar_ax=cbar_ax)
+            inner(f'conll_2003_en{SS}', MODEL, axs[0])
+            inner(f'swa{SS}',           MODEL, axs[1], ylabel=False)
+            inner(f'luo{SS}',           MODEL, axs[2], ylabel=False, cbar_ax=cbar_ax)
             plt.tight_layout()
-            savefig(f'analysis/plots/cap_sent_and_labels/all_heatmaps_{MODEL}.png', tight=False)
+            savefig(f'analysis/plots/cap_sent_and_labels/all_heatmaps_{MODEL}{SS}.png', tight=False)
 
 def plot_test():
     df = pd.read_csv("analysis/main_results_v2.csv", index_col=0)
@@ -979,4 +973,5 @@ if __name__ == '__main__':
     # plot_test()
     # test()
     # check_quality_and_quantity()
-    plot_dataset_stats()
+    check_quality_and_quantity('_majority')
+    # plot_dataset_stats()

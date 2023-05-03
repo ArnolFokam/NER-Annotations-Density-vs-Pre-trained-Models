@@ -1,0 +1,19 @@
+data.param:
+- 1
+
+data.language:
+  - swa_majority
+  - luo_majority
+  - conll_2003_en_majority
+
+data.method:
+  - original
+
+model.conf:
+  - [bert,bert-base-multilingual-cased,mbert]
+  - [bert,Davlan/afro-xlmr-base,afro_xlmr]
+
+device.seed:
+  - 1
+  - 2
+  - 3
