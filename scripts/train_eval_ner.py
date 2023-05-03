@@ -652,7 +652,8 @@ def train_eval_ner(cfg: DictConfig):
             os.getcwd(),
             cfg.model.output_dir,
         )),
-        group=str(cfg.experiment.group)
+        group=str(cfg.experiment.group),
+        mode='disabled'
     )
 
     wandb_logger.config.update(OmegaConf.to_container(

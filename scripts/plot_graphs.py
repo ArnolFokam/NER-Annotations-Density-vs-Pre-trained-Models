@@ -959,6 +959,18 @@ def test():
         print(f"{model:<15}: {np.round(np.mean(ss)):<20} {np.round(np.std(ss)):<20}")
     pass
 
+def check_majority_which_bad():
+    models = ['mbert', 'afro_xlmr']
+    langs = ['luo_majority', 'swa_majority', 'conll_2003_en_majority']
+    params = [         'cap_0.1_0.1',         'cap_0.01_0.1',         'cap_0.1_0.01',         'cap_0.01_0.01',         'cap_0.1_0.5',         'cap_0.01_0.5',         'cap_0.1_0.05',         'cap_0.01_0.05',         'cap_0.1_0.25',         'cap_0.01_0.25',         'cap_0.1_0.75',         'cap_0.01_0.75',         'cap_0.1_1.0',         'cap_0.01_1.0',         'cap_0.5_0.1',         'cap_0.05_0.1',         'cap_0.5_0.01',         'cap_0.05_0.01',         'cap_0.5_0.5',         'cap_0.05_0.5',         'cap_0.5_0.05',         'cap_0.05_0.05',         'cap_0.5_0.25',         'cap_0.05_0.25',         'cap_0.5_0.75',         'cap_0.05_0.75',         'cap_0.5_1.0',         'cap_0.05_1.0',         'cap_0.25_0.1',         'cap_0.25_0.01',         'cap_0.25_0.5',         'cap_0.25_0.05',         'cap_0.25_0.25',         'cap_0.25_0.75',         'cap_0.25_1.0',         'cap_0.75_0.1',         'cap_0.75_0.01',         'cap_0.75_0.5',         'cap_0.75_0.05',         'cap_0.75_0.25',         'cap_0.75_0.75',         'cap_0.75_1.0',         'cap_1.0_0.1',         'cap_1.0_0.01',         'cap_1.0_0.5',         'cap_1.0_0.05',         'cap_1.0_0.25',         'cap_1.0_0.75',         'cap_1.0_1.0',]
+    for m in models:
+        for l in langs:
+            for p in params:
+                for seed in range(1, 4):
+                    if not os.path.exists(fpath := f'results/{m}/global_cap_sentences_and_labels/{p}/{l}/{seed}/test_results.txt'):
+                        print("BAD", fpath)
+    pass
+
 if __name__ == '__main__':
     # main(True)
     # plot_dataset_stats()
@@ -973,5 +985,6 @@ if __name__ == '__main__':
     # plot_test()
     # test()
     # check_quality_and_quantity()
-    check_quality_and_quantity('_majority')
+    # check_quality_and_quantity('_majority')
+    check_majority_which_bad()
     # plot_dataset_stats()
