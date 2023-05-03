@@ -21,7 +21,7 @@ SLURM_DIR = os.getenv('SLURM_DIR')
 def main(
         yaml_sweep_file: str,
         exclude: Union[str, List[str]] = None,
-        partition_name: str = 'batch',
+        partition_name: str = 'bigbatch',
         max_runs_per_scripts: int = 1,
         use_slurm: bool = False,
         run_immediately: bool = True

@@ -49,13 +49,12 @@ data.param:
 - cap_0.01_0.01
 
 data.language:
-  - wol
+  - luo
 
 data.method:
   - global_cap_sentences_and_labels
 
 model.conf:
-  - [bert,bert-base-multilingual-cased,mbert]
   - [bert,Davlan/afro-xlmr-base,afro_xlmr]
 
 
