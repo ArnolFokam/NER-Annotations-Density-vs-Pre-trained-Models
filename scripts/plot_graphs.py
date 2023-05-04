@@ -45,6 +45,8 @@ def clean_model(model):
     return {'afriberta': "AfriBERTa", 'mbert': "mBERT", 'xlmr': "XLM-R", 'afro_xlmr': "Afro-XLM-R"}[model]
 
 def clean_lang(lang):
+    lang = lang.replace("_majority", '')
+    lang = lang.replace("_softvoting", '')
     if lang == 'conll_2003_en': return 'en'
     return lang
 
@@ -771,8 +773,6 @@ def get_f1_from_filename(f):
 
 def check_quality_and_quantity(SS=''):
     def inner(LANG, MODEL, ax=None, ylabel=True, cbar_ax=None):
-        D = 'results/afro_xlmr/'
-        D = 'results/mbert/'
         D = f'results/{MODEL}/'
         ps = [0.01, 0.05, 0.1, 0.25, 0.5, 0.75, 1.0][:]#, 1]
         ps_label = [0.01, 0.05, 0.1, 0.25, 0.5, 0.75, 1.0][1:]#, 1]
@@ -800,17 +800,18 @@ def check_quality_and_quantity(SS=''):
             for p_label in ps_label:
                 for seed in range(1, 4):
                     OG = os.path.join(D, 'original', f'1', LANG, str(seed), 'test_results.txt')
-                    OG_PERF = get_f1_from_filename(OG.replace("_majority", '')) # TODO not do this
+                    # OG_PERF = get_f1_from_filename(OG)
+                    OG_PERF = get_f1_from_filename(OG.replace("_majority", '').replace("_softvoting", '')) # TODO not do this
                     # if p_sent == 1:
                     #     d = os.path.join(D, 'global_cap_labels', f'{p_label}', 'swa', str(seed), 'test_results.txt')
                     # elif p_label == 1:
                     #     d = os.path.join(D, 'global_cap_sentences', f'{p_sent}', 'swa', str(seed), 'test_results.txt')
                     # else:
                     if p_sent == 1.0 and p_label == 1.0:
-                        f1 = 1.0
+                        f1 = OG_PERF # 1.0
                     else:
                         d = os.path.join(D, 'global_cap_sentences_and_labels', f'cap_{p_sent}_{p_label}', LANG, str(seed), 'test_results.txt')
-                        f1 = get_f1_from_filename(d) / OG_PERF
+                        f1 = get_f1_from_filename(d) #/ OG_PERF
                     # lines = pathlib.Path(d).read_text().split("\n")                        
                     # line = [l for l in lines if 'f1 = ' in l]
                     # assert len(line) == 1
@@ -984,7 +985,8 @@ if __name__ == '__main__':
     # plot_dataset_stats()
     # plot_test()
     # test()
-    # check_quality_and_quantity()
-    # check_quality_and_quantity('_majority')
-    check_majority_which_bad()
+    check_quality_and_quantity()
+    check_quality_and_quantity('_majority')
+    check_quality_and_quantity('_softvoting')
+    # check_majority_which_bad()
     # plot_dataset_stats()
