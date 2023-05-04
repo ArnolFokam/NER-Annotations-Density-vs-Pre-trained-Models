@@ -4,7 +4,7 @@ baada O
 ya O
 rais O
 Yoweri B-PER
-Museveni I-PER
+Museveni B-PER
 kuongeza O
 mda O
 wa O
@@ -28,7 +28,7 @@ tatu O
 zaidi O
 kuanzia O
 leo O
-jumanne B-DATE
+jumanne O
 . O
 
 Kulingana O
@@ -144,8 +144,8 @@ miezi O
 
 Tusubiri O
 hadi O
-miezi B-DATE
-9 I-DATE
+miezi O
+9 O
 . O
 
 Tusikose O
@@ -154,8 +154,8 @@ Subira O
 
 Tusubiri O
 kwa O
-siku B-DATE
-21 I-DATE
+siku O
+21 O
 zaidi O
 , O
 ” O
@@ -197,7 +197,7 @@ Dk O
 . O
 
 Ruhakana O
-Rugunda I-PER
+Rugunda O
 na O
 waziri O
 wa O
@@ -205,7 +205,7 @@ mambo O
 ya O
 nje O
 Sam B-PER
-Kutesa I-PER
+Kutesa O
 , O
 kusimamia O
 mpango O
@@ -439,7 +439,7 @@ Dubai B-LOC
 
 Imetayarishwa O
 na O
-Kennes O
+Kennes B-PER
 Bwire O
 , O
 VOA O
@@ -473,7 +473,7 @@ kiongozi O
 wa O
 wanamgambo O
 wa O
-Iraqi B-LOC
+Iraqi O
 waliouawa O
 katika O
 shambulizi O
@@ -490,7 +490,7 @@ kuongezeka O
 
 Jenerali O
 Qassem B-PER
-Soleimani I-PER
+Soleimani O
 , O
 mkuu O
 wa O
@@ -548,7 +548,7 @@ Iraq B-LOC
 , O
 Syria B-LOC
 na O
-Lebanon B-LOC
+Lebanon O
 , O
 ikiwemo O
 vita O
@@ -556,7 +556,7 @@ dhidi O
 ya O
 kikundi O
 cha O
-Islamic O
+Islamic B-ORG
 State O
 . O
 
@@ -574,7 +574,7 @@ washirika O
 wake O
 tangu O
 wakati O
-Marekani O
+Marekani B-LOC
 ilipoivamia O
 Iraq B-LOC
 mwaka O
@@ -599,7 +599,7 @@ ya O
 wanamgambo O
 wanaosaidiwa O
 na O
-Iran O
+Iran B-LOC
 ambao O
 ni O
 waaminifu O
@@ -612,11 +612,11 @@ walikuwa O
 wanaomboleza O
 kifo O
 cha O
-Abu B-PER
-Mahdi B-PER
-al I-PER
-- I-PER
-Muhandis I-PER
+Abu O
+Mahdi O
+al B-ORG
+- O
+Muhandis O
 , O
 kamanda O
 wa O
@@ -626,7 +626,7 @@ juu O
 wa O
 wanamgambo O
 wa O
-Iraqi B-LOC
+Iraqi O
 ambaye O
 aliuawa O
 katika O
@@ -653,8 +653,8 @@ ni O
 wapiganaji O
 wa O
 al B-ORG
-- I-ORG
-Shabab I-ORG
+- O
+Shabab O
 walipo O
 lishambulia O
 basi O
@@ -663,16 +663,16 @@ kaunti O
 ya O
 pwani O
 ya O
-Lamu B-LOC
+Lamu O
 . O
 
 Safari O
 kupitia O
 barabara O
 ya O
-Lamu B-LOC
-- I-LOC
-Garsen I-LOC
+Lamu O
+- O
+Garsen O
 zimesitishwa O
 wakati O
 jeshi O
@@ -713,11 +713,11 @@ hilo O
 lililokuwa O
 linasafiri O
 kutoka O
-Mombasa B-LOC
+Mombasa O
 kwenda O
 mji O
 wa O
-Lamu B-LOC
+Lamu O
 . O
 
 Kamishna O
@@ -725,8 +725,8 @@ wa O
 Kaunti O
 ya O
 Lamu O
-Irungu O
-Macharia B-PER
+Irungu B-LOC
+Macharia B-DATE
 amethibitisha O
 kwa O
 vyombo O
@@ -740,9 +740,9 @@ hilo O
 
 Kikundi O
 cha O
-al B-ORG
-- I-ORG
-Shabab I-ORG
+al I-PER
+- O
+Shabab O
 cha O
 Somalia B-LOC
 kimeendelea O
@@ -775,8 +775,8 @@ kulinda O
 Amani O
 la O
 Umoja B-ORG
-wa I-ORG
-Afrika I-ORG
+wa O
+Afrika B-LOC
 AMISOM B-ORG
 nchini O
 Somalia B-LOC
@@ -866,7 +866,7 @@ dakika O
 arobaine O
 na O
 tano O
-asubuhi B-DATE
+asubuhi I-DATE
 , O
 ndiyo O
 iliyoua O
@@ -939,9 +939,9 @@ wenyewe O
 kwa O
 wenyewe O
 takriban O
-mika B-DATE
-kumi I-DATE
-iliyopita I-DATE
+mika O
+kumi O
+iliyopita O
 . O
 
 Takriban O
@@ -990,7 +990,7 @@ kubwa O
 ni O
 waumini O
 wa O
-Budha O
+Budha B-LOC
 . O
 
 Sri B-LOC
@@ -1024,8 +1024,8 @@ watalii O
 kwenye O
 kanisa O
 la O
-St B-LOC
-Peters I-LOC
+St O
+Peters O
 Basilica I-LOC
 , O
 mjini O
@@ -1089,15 +1089,15 @@ Yemen B-LOC
 Libya B-LOC
 na O
 Sudan B-LOC
-Kusini O
+Kusini I-LOC
 . O
 
 Akizungumza O
 kwenye O
 ukumbi O
 wa O
-St B-LOC
-Peter I-LOC
+St O
+Peter O
 Square I-LOC
 uliojaa O
 maua O
@@ -1231,19 +1231,19 @@ katika O
 sehemu O
 mbali O
 mbali O
-duniani B-LOC
+duniani O
 wameanza O
 kuadhimisha O
 sikukuu O
 ya O
-Eid B-ORG
-al I-ORG
-- I-ORG
-Fitr I-ORG
+Eid B-PER
+al B-ORG
+- O
+Fitr O
 isiyokuwa O
 na O
-shamrashamra B-DATE
-Jumapili I-DATE
+shamrashamra O
+Jumapili B-DATE
 , O
 wengi O
 wakiwa O
@@ -1297,9 +1297,9 @@ inayoadhimisha O
 kumalizika O
 kwa O
 mwezi O
-mtufuku I-DATE
-wa I-DATE
-Ramadhan B-DATE
+mtufuku O
+wa O
+Ramadhan O
 , O
 kwa O
 kawaida O
@@ -1355,9 +1355,9 @@ masharti O
 hayo O
 wakati O
 wa O
-mwezi B-DATE
-wa I-DATE
-Ramadhan I-DATE
+mwezi O
+wa O
+Ramadhan O
 iliyopelekea O
 mlipuko O
 mkubwa O
@@ -1376,9 +1376,9 @@ katika O
 nchi O
 nyingi O
 hasa O
-Mashariki B-LOC
-ya I-LOC
-Kati I-LOC
+Mashariki O
+ya O
+Kati O
 – O
 kutoka O
 Saudi B-LOC
@@ -1386,7 +1386,7 @@ Arabia I-LOC
 mpaka O
 Misri B-LOC
 , O
-Uturuki B-LOC
+Uturuki O
 na O
 Syria B-LOC
 – O
@@ -1423,7 +1423,7 @@ cha O
 maeneo O
 matakatifu O
 ya O
-Uislam O
+Uislam B-LOC
 , O
 ilianza O
 kutekeleza O
@@ -1451,7 +1451,7 @@ kuanza O
 kwa O
 mwezi O
 wa O
-Ramadhan B-DATE
+Ramadhan O
 na O
 kufikia O
 zaidi O
@@ -1469,7 +1469,7 @@ zote O
 katika O
 nchi O
 za O
-Ghuba B-LOC
+Ghuba O
 . O
 
 Msikiti O
@@ -1556,7 +1556,7 @@ Kaaba O
 kutekeleza O
 ibada O
 ya O
-Eid O
+Eid B-ORG
 — O
 misala O
 yao O
@@ -1568,16 +1568,16 @@ kutokaribiana O
 
 Msikiti O
 wa O
-Al B-ORG
-- I-ORG
-Aqsa I-ORG
+Al B-DATE
+- O
+Aqsa O
 Huko O
 katika O
 msikiti O
 wa O
-Al B-ORG
-- I-ORG
-Aqsa I-ORG
+Al B-DATE
+- O
+Aqsa O
 , O
 Jerusalem B-LOC
 , O
@@ -1586,7 +1586,7 @@ la O
 tatu O
 takatifu O
 la O
-Uislam O
+Uislam B-LOC
 baada O
 ya O
 Makka O
@@ -1595,7 +1595,7 @@ Madina O
 , O
 sala O
 ya O
-Eid O
+Eid B-ORG
 haikuruhusiwa O
 ndani O
 ya O
@@ -1614,7 +1614,7 @@ baada O
 ya O
 sikukuu O
 ya O
-Eid O
+Eid B-ORG
 . O
 
 Wakati O
@@ -1644,7 +1644,7 @@ Hata O
 hivyo O
 Sala O
 ya O
-Eid B-ORG
+Eid O
 hatimaye O
 ilifanyika O
 nje O
@@ -1713,7 +1713,7 @@ habari O
 la O
 AFP B-ORG
 Akram O
-Taher I-PER
+Taher O
 mumini O
 moja O
 amesema O
@@ -1739,9 +1739,9 @@ kua O
 na O
 hofu O
 ” O
-Bara B-ORG
-la I-ORG
-Asia I-ORG
+Bara O
+la O
+Asia B-LOC
 Waislam O
 katika O
 bara O
@@ -1799,8 +1799,8 @@ ndani O
 , O
 ” O
 amesema O
-Ishrat B-PER
-Jahan I-PER
+Ishrat O
+Jahan O
 , O
 mama O
 mwenye O
@@ -1832,7 +1832,7 @@ na O
 kama O
 hawataweza O
 kusheherekea O
-Eid B-PER
+Eid O
 kwa O
 kuvaa O
 nguo O
@@ -1851,9 +1851,9 @@ mzima O
 . O
 
 ” O
-Indonesia B-LOC
+Indonesia I-ORG
 Nchini O
-Indonesia B-LOC
+Indonesia I-ORG
 – O
 taifa O
 lenye O
@@ -1884,7 +1884,7 @@ kusafiri O
 wakati O
 wa O
 kumalizika O
-Ramadhan B-DATE
+Ramadhan O
 jambo O
 ambalo O
 linaweza O
@@ -1921,7 +1921,7 @@ na O
 msikiti O
 mkuu O
 wa O
-Baiturrahman B-ORG
+Baiturrahman B-PER
 katika O
 makao O
 makuu O
@@ -1971,9 +1971,9 @@ aliiambia O
 AFP B-ORG
 . O
 
-Mashariki B-LOC
-ya I-LOC
-Kati I-LOC
+Mashariki O
+ya O
+Kati O
 Idadi O
 ya O
 vifo O
@@ -1983,8 +1983,8 @@ COVID O
 - O
 19 O
 Mashariki O
-ya I-LOC
-Kati I-LOC
+ya O
+Kati O
 na O
 Asia B-LOC
 imekuwa O
@@ -2019,7 +2019,7 @@ kuelemewa O
 . O
 
 Iran B-LOC
-Iran I-LOC
+Iran B-LOC
 , O
 ambayo O
 imepitia O
@@ -2039,7 +2039,7 @@ kuepuka O
 kusafiri O
 wakati O
 wa O
-Eid B-ORG
+Eid O
 wakati O
 ikipambana O
 kudhibiti O
@@ -2053,8 +2053,8 @@ humo O
 Waziri O
 wa O
 Afya O
-Saeed B-PER
-Namaki I-PER
+Saeed O
+Namaki O
 amesema O
 nchi O
 hiyo O
@@ -2083,13 +2083,13 @@ afya O
 ” O
 . O
 
-Biashara O
+Biashara B-PER
 kwenye O
-Masoko B-ORG
-ya I-ORG
-fedha I-ORG
+Masoko O
 ya O
-Ulaya I-ORG
+fedha O
+ya O
+Ulaya B-LOC
 imeshuka O
 leo O
 Alhamisi B-DATE
@@ -2119,7 +2119,7 @@ Kipimo O
 cha O
 hisa O
 cha O
-Uingereza O
+Uingereza B-LOC
 FTSE B-ORG
 kimeshuka O
 kwa O
@@ -2157,7 +2157,7 @@ asilimia O
 na O
 cha O
 Frankfurt B-LOC
-Dax I-LOC
+Dax O
 kiliporomoka O
 kwa O
 asilimia O
@@ -2183,17 +2183,17 @@ kipimo O
 cha O
 hisa O
 cha O
-Tokyo B-ORG
-Nikkei I-ORG
+Tokyo B-LOC
+Nikkei O
 na O
 kile O
 cha O
-Sydney B-ORG
-S I-ORG
-& I-ORG
-P I-ORG
+Sydney B-LOC
+S O
+& O
+P O
 / O
-ASX B-ORG
+ASX O
 vyote O
 kupata O
 hasara O
@@ -2290,12 +2290,12 @@ kidogo O
 kimauzo O
 , O
 wakati O
-S B-ORG
-& I-ORG
-P I-ORG
-500 I-ORG
+S O
+& O
+P O
+500 O
 na O
-Nasdaq B-ORG
+Nasdaq B-PER
 yalikuwa O
 katika O
 wigo O
@@ -2306,9 +2306,9 @@ biashara O
 wakati O
 soko O
 la O
-Wall B-ORG
+Wall I-ORG
 Street I-ORG
-Alhamisi O
+Alhamisi B-DATE
 likionyesha O
 mwanzo O
 wenye O
@@ -2339,8 +2339,8 @@ cha O
 Marekani B-LOC
 , O
 West B-LOC
-Texas I-LOC
-Intermediate I-LOC
+Texas B-LOC
+Intermediate O
 , O
 inauzwa O
 dola O
@@ -2368,7 +2368,7 @@ ya O
 mafuta O
 ghafi O
 cha O
-Brent B-LOC
+Brent B-PER
 ambacho O
 ni O
 kipimo O
@@ -2406,7 +2406,7 @@ hatua O
 ya O
 chama O
 cha O
-National B-ORG
+National I-ORG
 Congress I-ORG
 for I-ORG
 Liberty I-ORG
@@ -2423,7 +2423,7 @@ la O
 nchi O
 hiyo O
 Agathon B-PER
-Rwasa I-PER
+Rwasa O
 kuwa O
 mgombea O
 wa O
@@ -2432,7 +2432,7 @@ katika O
 uchaguzi O
 mkuu O
 wa O
-Mei O
+Mei B-DATE
 mwaka O
 huu O
 . O
@@ -2449,7 +2449,7 @@ wa O
 Twitter B-ORG
 . O
 
-Rwasa B-PER
+Rwasa O
 , O
 mwenye O
 umri O
@@ -2470,7 +2470,7 @@ rais O
 wa O
 sasa O
 Pierre B-PER
-Nkurunziza I-PER
+Nkurunziza O
 , O
 ambaye O
 ametangaza O
@@ -2495,7 +2495,7 @@ inayopatikana O
 katika O
 mkoa O
 wa O
-Ngozi B-LOC
+Ngozi O
 , O
 Kaskazini O
 mwa O
@@ -2555,7 +2555,7 @@ kufanyika O
 , O
 ” O
 amesema O
-Rwasa B-PER
+Rwasa O
 . O
 
 Mwezi O
@@ -2570,7 +2570,7 @@ FDD B-ORG
 , O
 kilimteua O
 Evariste B-PER
-Ndayishimiye I-PER
+Ndayishimiye O
 kuwa O
 mgombea O
 wake O
@@ -2612,7 +2612,7 @@ na O
 usalama O
 . O
 
-Juhudi O
+Juhudi B-DATE
 zetu O
 za O
 kufikia O
@@ -2644,11 +2644,11 @@ nani O
 Alizaliwa O
 January O
 10 O
-1964 O
+1964 I-DATE
 katika O
 mkoa O
 wa O
-Ngozi B-LOC
+Ngozi O
 , O
 Burundi B-LOC
 . O
@@ -2678,7 +2678,7 @@ chama O
 cha O
 waasi O
 cha O
-National B-ORG
+National I-ORG
 Liberation I-ORG
 Forces I-ORG
 - O
@@ -2705,7 +2705,7 @@ amani O
 na O
 serikali O
 , O
-Septemba O
+Septemba B-DATE
 2006 O
 Alichaguliwa O
 kuwa O
@@ -2714,9 +2714,9 @@ spika O
 wa O
 bunge O
 la O
-Burundi O
-July O
-2015 O
+Burundi B-LOC
+July B-DATE
+2015 B-DATE
 Amechaguliwa O
 kuwa O
 mgombea O
@@ -2725,15 +2725,15 @@ urais O
 wa O
 chama O
 cha O
-Congress B-ORG
+Congress I-ORG
 for I-ORG
 national I-ORG
 Liberty I-ORG
 - O
 CNL B-ORG
 Februari B-DATE
-16 I-DATE
-2020 I-DATE
+16 O
+2020 B-DATE
 Burundi B-LOC
 ni O
 mojawapo O
@@ -2780,10 +2780,10 @@ iliyopita O
 
 Tangu O
 mwaka O
-2015 O
+2015 B-DATE
 , O
 rais O
-Nkurunziza B-PER
+Nkurunziza O
 alipowania O
 mhula O
 wa O
@@ -2822,7 +2822,7 @@ la O
 vijana O
 linalojulikana O
 kama O
-Imbonerakure B-ORG
+Imbonerakure O
 , O
 linaloungwa O
 mkono O
@@ -2847,10 +2847,10 @@ mara O
 
 Imetayarishwa O
 na O
-Kennes O
+Kennes B-PER
 Bwire O
 , O
-VOA B-ORG
+VOA O
 , O
 Washington B-LOC
 DC I-LOC
@@ -2867,9 +2867,9 @@ wapiganaji O
 wa O
 kikundi O
 cha O
-Al B-ORG
-- I-ORG
-Shabaab I-ORG
+Al B-DATE
+- O
+Shabaab O
 na O
 kumkamata O
 mmoja O
@@ -2892,7 +2892,7 @@ Mkoa O
 wa O
 Pwani B-LOC
 John B-PER
-Elungata I-PER
+Elungata O
 ametoa O
 ripoti O
 hiyo O
@@ -2906,13 +2906,13 @@ kushitukiza O
 katika O
 eneo O
 la O
-Nyongoro B-LOC
+Nyongoro O
 , O
 sehemu O
 maarufu O
 ambayo O
-Al B-ORG
-- I-ORG
+Al B-DATE
+- O
 Shabaab I-ORG
 imekuwa O
 ikifanya O
@@ -2942,9 +2942,9 @@ washukiwa O
 wa O
 wapiganaji O
 wa O
-Al B-ORG
-- I-ORG
-Shabaab I-ORG
+Al B-DATE
+- O
+Shabaab O
 waliposhambulia O
 basi O
 lililokuwa O
@@ -2964,7 +2964,7 @@ kulazimisha O
 basi O
 lisimame O
 lakini O
-dereva O
+dereva I-PER
 aliongeza O
 mwendo O
 , O
@@ -2980,8 +2980,8 @@ risasi O
 Kamishna O
 wa O
 Kaunti O
-Irungu O
-Macharia O
+Irungu B-LOC
+Macharia B-DATE
 amesema O
 wale O
 waliouawa O
@@ -3003,7 +3003,7 @@ zilipelekwa O
 katika O
 eneo O
 la O
-Nyongoro B-LOC
+Nyongoro O
 na O
 maeneo O
 yanayo O
@@ -3026,22 +3026,22 @@ zilisitishwa O
 katika O
 barabara O
 ya O
-Lamu B-LOC
+Lamu O
 - O
-Garsen B-LOC
+Garsen O
 baada O
 ya O
 mabasi O
 yaliyokuwa O
 yanaelekea O
-Mombasa B-LOC
+Mombasa O
 kutoka O
-Lamu B-LOC
+Lamu O
 na O
 yale O
 yanayo O
 toka O
-Lamu B-LOC
+Lamu O
 kwenda O
 Mombasa O
 yalilazimishwa O
@@ -3129,7 +3129,7 @@ la O
 ndege O
 la O
 Ujerumani B-LOC
-Luftansa O
+Luftansa I-ORG
 zilipanda O
 kwa O
 asilimia O
@@ -3172,7 +3172,7 @@ baada O
 ya O
 benki O
 ya O
-Deutche B-ORG
+Deutche I-PER
 Ujerumani B-LOC
 kutangaza O
 faida O
@@ -3195,9 +3195,9 @@ hisa O
 zilipanda O
 baada O
 ya O
-benki B-ORG
+benki O
 ya O
-Japan I-ORG
+Japan B-LOC
 kutangaza O
 msaada O
 zaidi O
@@ -3324,7 +3324,7 @@ mwandishi O
 wetu O
 , O
 Washington B-LOC
-, I-LOC
+, O
 DC I-LOC
 . O
 
@@ -3351,18 +3351,18 @@ baada O
 ya O
 maandamano O
 ya O
-siku B-DATE
-12 I-DATE
+siku O
+12 O
 wananchi O
 wa O
-Lebanon B-LOC
+Lebanon O
 wamemlazimisha O
 Waziri O
 Mkuu O
-Saad B-PER
-Al I-PER
-- I-PER
-Hariri I-PER
+Saad O
+Al B-DATE
+- O
+Hariri O
 kujiuzulu O
 pamoja O
 na O
@@ -3388,7 +3388,7 @@ yanatekelezwa O
 
 Hali O
 ilivyokuwa O
-Lebanon B-LOC
+Lebanon O
 Maelfu O
 ya O
 Walebnani O
@@ -3423,8 +3423,8 @@ ya O
 Waziri O
 Mkuu O
 Msuni O
-Saad B-PER
-Hariri I-PER
+Saad O
+Hariri O
 kutanagaza O
 anajiuzulu O
 . O
@@ -3439,19 +3439,19 @@ kundi O
 la O
 kishia O
 la O
-Hezbollah B-ORG
+Hezbollah O
 linaloongozwa O
 na O
 Imam O
 Hassan B-PER
-Nasrallah I-PER
+Nasrallah B-PER
 na O
 kundi O
 la O
-Amal O
+Amal B-PER
 la O
-Nabih O
-Berri O
+Nabih B-PER
+Berri I-PER
 . O
 
 Wapinzani O
@@ -3495,7 +3495,7 @@ kamili O
 . O
 
 Abdallah B-PER
-Hammoud I-PER
+Hammoud O
 muandamanaji O
 mjini O
 Beirut B-LOC
@@ -3514,7 +3514,7 @@ ushindi O
 wao O
 . O
 
-Hammoud B-PER
+Hammoud O
 anaelezea O
 kuwa O
 wananchi O
@@ -3560,7 +3560,7 @@ kiuchumi O
 Waziri O
 Mkuu O
 tajiri O
-Hariri B-PER
+Hariri O
 akilihutubia O
 taifa O
 hapo O
@@ -3649,14 +3649,14 @@ hiyo O
 
 Kujiuzulu O
 kwa O
-Hariri B-PER
+Hariri O
 ni O
 kukaidi O
 wito O
 wa O
 mshirika O
 wake O
-Hezbollah B-ORG
+Hezbollah O
 katika O
 serikali O
 ambaye O
@@ -3671,9 +3671,9 @@ katika O
 ghasia O
 . O
 
-Wiki B-DATE
+Wiki O
 iliyopita O
-Hariri B-PER
+Hariri O
 alifanya O
 mabadiliko O
 makubwa O
@@ -3721,7 +3721,7 @@ wameridhika O
 na O
 uwamuzi O
 wa O
-Hariri B-PER
+Hariri O
 kujiuzulu O
 lakini O
 wanataka O
@@ -3742,7 +3742,7 @@ miaka O
 
 Aya B-PER
 al I-PER
-- I-PER
+- O
 Amari I-PER
 , O
 Mwanafunzi O
@@ -3849,14 +3849,14 @@ na O
 mwandishi O
 wetu O
 Abdushakur B-PER
-Aboud I-PER
+Aboud I-LOC
 , O
 Washington B-LOC
-, I-LOC
+, O
 DC I-LOC
 . O
 
-Mataifa O
+Mataifa I-ORG
 ya O
 Ulaya B-LOC
 yanapambana O
@@ -3924,10 +3924,10 @@ juu O
 ya O
 joto O
 tangu O
-Agosti B-DATE
-10 I-DATE
-, I-DATE
-2003 I-DATE
+Agosti O
+10 O
+, O
+2003 B-DATE
 , O
 wakati O
 kiwango O
@@ -3943,7 +3943,7 @@ joto O
 katika O
 mji O
 wa O
-Faversham B-LOC
+Faversham I-PER
 . O
 
 Katika O
@@ -4033,7 +4033,7 @@ wakimiminika O
 kwenye O
 chemchem O
 ya O
-Trocadero B-ORG
+Trocadero I-PER
 chini O
 ya O
 mnara O
@@ -4063,7 +4063,7 @@ Mwana O
 wa O
 Mfalme O
 Prince B-PER
-Harry I-PER
+Harry B-PER
 na O
 mkewe O
 wamesema O
@@ -4085,8 +4085,8 @@ yao O
 nchini O
 Afrika B-LOC
 mapema O
-mwezi B-DATE
-Octoba I-DATE
+mwezi O
+Octoba O
 na O
 kurushwa O
 hewani O
@@ -4105,7 +4105,7 @@ yao O
 . O
 
 Prince B-PER
-Harry I-PER
+Harry B-PER
 ameiambia O
 ITV B-ORG
 kuwa O
@@ -4141,7 +4141,7 @@ ya O
 kifo O
 cha O
 Princess O
-Diana I-LOC
+Diana O
 ilikuwa O
 bado O
 ingaliipo O
@@ -4158,7 +4158,7 @@ na O
 hofu O
 … O
 ” O
-Nyota O
+Nyota I-PER
 wa O
 zamani O
 wa O
@@ -4180,7 +4180,7 @@ kuwa O
 na O
 mahusiano O
 na O
-Harry O
+Harry B-PER
 , O
 marafiki O
 zake O
@@ -4218,7 +4218,7 @@ amejibu O
 : O
 
 “ O
-Ukweli O
+Ukweli B-LOC
 ni O
 kuwa O
 nimekuwa O
@@ -4267,9 +4267,9 @@ udaku O
 la O
 Uingereza B-LOC
 , O
-The B-ORG
+The O
 Mail I-ORG
-on I-ORG
+on O
 Sunday O
 kwa O
 kuingilia O
@@ -4297,7 +4297,7 @@ Harry B-PER
 alisema O
 namna O
 wanavyomfanyia O
-Meghan B-PER
+Meghan O
 hakuna O
 tofauti O
 na O
@@ -4309,11 +4309,11 @@ mama O
 yake O
 . O
 
-Shirika B-ORG
-la I-ORG
-ndege I-ORG
-la I-ORG
-Ethiopian I-ORG
+Shirika O
+la O
+ndege O
+la O
+Ethiopian O
 Airlines I-ORG
 iliyokuwa O
 ikiruka O
@@ -4328,7 +4328,7 @@ ya O
 kuruka O
 Jumapili B-DATE
 , O
-asubuhi B-DATE
+asubuhi I-DATE
 , O
 na O
 kuua O
@@ -4382,11 +4382,11 @@ mpya O
 , O
 iliyokabidhiwa O
 kwa O
-shirika B-ORG
+shirika O
 la O
-ndege I-LOC
+ndege O
 la O
-Ethiopia I-LOC
+Ethiopia B-LOC
 , O
 kwa O
 mujibu O
@@ -4400,7 +4400,7 @@ Civil I-ORG
 aviation I-ORG
 . O
 
-Boeing B-PER
+Boeing B-ORG
 imetoa O
 tamko O
 la O
@@ -4411,7 +4411,7 @@ Jumapilli B-DATE
 ikisema O
 kuwa O
 """" O
-Boeing B-PER
+Boeing B-ORG
 inataarifa O
 za O
 ajali O
@@ -4427,7 +4427,7 @@ kabisa O
 
 Kampuni O
 ya O
-Flightradar I-ORG
+Flightradar O
 inayofuatilia O
 urukaji O
 wa O
@@ -4446,11 +4446,11 @@ kuruka O
 """" O
 wakati O
 ikiondoka O
-uwanja B-LOC
-wa I-LOC
-ndege I-LOC
-ya I-LOC
-ndege I-LOC
+uwanja O
+wa O
+ndege O
+ya O
+ndege O
 hiyo O
 ya O
 Ethiopia B-LOC
@@ -4461,8 +4461,8 @@ ya O
 kuruka O
 . O
 
-Boeing B-ORG
-737 I-ORG
+Boeing O
+737 O
 - O
 MAX O
 8 O
@@ -4472,15 +4472,15 @@ aina O
 ya O
 ndege O
 iliyoruka O
-Oktoba O
+Oktoba B-DATE
 kutoka O
 Jakarta B-LOC
 na O
 kuanguka O
 katika O
-Bahari B-LOC
-ya I-LOC
-Java I-LOC
+Bahari O
+ya O
+Java O
 baada O
 ya O
 dakika O
@@ -4496,7 +4496,7 @@ katika O
 ndege O
 hiyo O
 ya O
-Lion B-ORG
+Lion O
 Air I-ORG
 . O
 
@@ -4505,9 +4505,9 @@ na O
 Mwandishi O
 wetu O
 , O
-Washington O
+Washington B-LOC
 , O
-DC O
+DC I-LOC
 . O
 
 Serikali O
@@ -4516,12 +4516,12 @@ Japan B-LOC
 inasema O
 majaribio O
 ya O
-Jumatatu O
+Jumatatu B-DATE
 ya O
 makobora O
 yaliyofanywa O
 na O
-Korea O
+Korea B-LOC
 kaskazini O
 ni O
 tishio O
@@ -4576,7 +4576,7 @@ seikali O
 ya O
 japan O
 Yoshihide B-PER
-Suga I-PER
+Suga O
 amesema O
 hatua O
 hii O
@@ -4591,9 +4591,9 @@ ni O
 suala O
 tete O
 linaloikumba O
-jumuia B-ORG
-ya I-ORG
-kimataifa I-ORG
+jumuia O
+ya O
+kimataifa O
 kwa O
 ujumla O
 . O
@@ -4619,9 +4619,9 @@ wa O
 Korea B-LOC
 kaskazini O
 mwenyewe O
-Kim B-PER
-jong I-PER
-Un I-PER
+Kim O
+jong O
+Un O
 . O
 
 Kesi O
@@ -4644,9 +4644,9 @@ Mwakilishi O
 wa O
 chama O
 cha O
-Democrat O
+Democrat I-ORG
 Adam B-PER
-Schiff I-PER
+Schiff B-PER
 alivyosema O
 . O
 
@@ -4702,7 +4702,7 @@ wawakilishi O
 linalongozwa O
 na O
 wa O
-Democrat O
+Democrat I-ORG
 , O
 ni O
 utashi O
@@ -4721,11 +4721,11 @@ mno O
 
 Wizara O
 ya O
-Ulinzi O
+Ulinzi B-LOC
 ya O
 Marekani B-LOC
 , O
-Pentagon B-LOC
+Pentagon O
 , O
 pia O
 imesema O
@@ -4761,7 +4761,7 @@ mwanasheria O
 binafsi O
 wa O
 Rais O
-Trump O
+Trump B-PER
 , O
 Rudy B-PER
 Giuliani I-PER
@@ -4790,15 +4790,15 @@ na O
 mgombea O
 urais O
 wa O
-Democrat B-ORG
-hivi B-DATE
-sasa I-DATE
+Democrat I-ORG
+hivi O
+sasa O
 , O
 Joe B-PER
-Biden I-PER
+Biden B-PER
 . O
 
-Jioni B-PER
+Jioni O
 Jumanne B-DATE
 , O
 Mwakilishi O
@@ -4807,7 +4807,7 @@ Baraza O
 la O
 Wawakilishi O
 Michael B-PER
-McCaul I-PER
+McCaul O
 , O
 kiongozi O
 wa O
@@ -4964,8 +4964,8 @@ nchi O
 nane O
 za O
 Umoja B-ORG
-wa I-ORG
-Ulaya I-ORG
+wa O
+Ulaya B-LOC
 , O
 Ijumaa B-DATE
 , O
@@ -5005,8 +5005,8 @@ kigeni O
 Gazeti O
 la O
 The O
-East I-ORG
-African I-ORG
+East O
+African O
 limeripoti O
 kuwa O
 hatua O
@@ -5021,7 +5021,7 @@ ya O
 gazeti O
 la O
 'The O
-Citizen' I-ORG
+Citizen' O
 imekuja O
 wakati O
 malalamiko O
@@ -5095,7 +5095,7 @@ Uingereza B-LOC
 nchini O
 Tanzania B-LOC
 Sarah B-PER
-Cooke I-PER
+Cooke B-PER
 ameandika O
 katika O
 akaunti O
@@ -5113,8 +5113,8 @@ limefungiwa O
 nchini O
 Tanzania B-LOC
 kwa O
-siku B-DATE
-saba I-DATE
+siku O
+saba O
 . O
 
 Je O
@@ -5127,7 +5127,7 @@ linalodaiwa O
 kufanyika O
 ? O
 ’ O
-Ujumbe O
+Ujumbe B-LOC
 kama O
 huo O
 pia O
@@ -5136,7 +5136,7 @@ umepostiwa O
 na O
 mabalozi O
 wa O
-Belgium B-LOC
+Belgium O
 , O
 Denmark B-LOC
 , O
@@ -5179,7 +5179,7 @@ ya O
 umma O
 , O
 ” O
-Ubalozi O
+Ubalozi B-LOC
 wa O
 Ireland B-LOC
 uliandika O
@@ -5224,7 +5224,7 @@ thamani O
 kwa O
 shilingi O
 ya O
-Tanzania O
+Tanzania B-LOC
 . O
 
 Liliripoti O
@@ -5245,10 +5245,10 @@ ukilinganisha O
 na O
 ile O
 ya O
-Benki B-ORG
-Kuu I-ORG
-ya I-ORG
-Tanzania I-ORG
+Benki O
+Kuu O
+ya O
+Tanzania B-LOC
 ya O
 2 O
 , O
@@ -5307,7 +5307,7 @@ Wanaomkosoa O
 Magufuli O
 Rais O
 John B-PER
-Magufuli I-PER
+Magufuli O
 anakabiliwa O
 na O
 ukosoaji O
@@ -5341,9 +5341,9 @@ binadamu O
 
 Kundi O
 la O
-Media O
-rights O
-group O
+Media B-ORG
+rights I-ORG
+group I-ORG
 , O
 ambao O
 ni O
@@ -5360,7 +5360,7 @@ muda O
 huko O
 kwa O
 'The O
-Citizen' I-ORG
+Citizen' O
 “ O
 ni O
 kielelezo O
@@ -5379,19 +5379,19 @@ Tanzania B-LOC
 tangu O
 Rais O
 John B-PER
-Magufuli I-PER
+Magufuli O
 achukuwe O
 madaraka O
 . O
 
 ” O
-Kituo B-ORG
-cha I-ORG
-Sheria I-ORG
-na I-ORG
-Haki I-ORG
-za I-ORG
-Binadamu I-ORG
+Kituo O
+cha O
+Sheria O
+na O
+Haki O
+za O
+Binadamu O
 ( O
 LHRC B-ORG
 ) O
@@ -5433,7 +5433,7 @@ Kitengo O
 cha O
 kushughulikia O
 maafa O
-Uturuki B-LOC
+Uturuki O
 kimesema O
 Jumatatu B-DATE
 idadi O
@@ -5475,7 +5475,7 @@ baridi O
 ya O
 barafu O
 huko O
-Elazig B-LOC
+Elazig O
 upande O
 wa O
 mashariki O
@@ -5502,7 +5502,7 @@ wanasema O
 majengo O
 76 O
 huko O
-Elazig B-LOC
+Elazig O
 yalianguka O
 na O
 mamia O
@@ -5510,11 +5510,11 @@ mengine O
 yaliharibika O
 . O
 
-Shirika B-ORG
-la I-ORG
-habari I-ORG
-la I-ORG
-Associated I-ORG
+Shirika O
+la O
+habari O
+la O
+Associated B-ORG
 Press I-ORG
 limeripoti O
 kuwa O
@@ -5525,7 +5525,7 @@ wa O
 dharura O
 wamejenga O
 mahema O
-9 O
+9 I-DATE
 , O
 500 O
 ili O
@@ -5554,15 +5554,15 @@ katika O
 kifusi O
 . O
 
-Televisheni O
+Televisheni B-LOC
 ya O
-Uturuki B-LOC
+Uturuki O
 imeonyesa O
 mama O
 mmoja O
 , O
 Ayse B-PER
-Yildiz I-PER
+Yildiz O
 , O
 35 O
 , O
@@ -5609,7 +5609,7 @@ kikuu O
 cha O
 Syria B-LOC
 Mahmud B-PER
-al I-PER
+al B-ORG
 Osman I-PER
 ameliambia O
 shirika O
@@ -5617,7 +5617,7 @@ la O
 habari O
 la O
 serikali O
-Anadolu B-LOC
+Anadolu O
 kuwa O
 alitumia O
 mikono O
@@ -5686,16 +5686,16 @@ Mkuu O
 wa O
 zamani O
 wa O
-Shirika B-ORG
-la I-ORG
-Utangazaji I-ORG
-Tanzania I-ORG
+Shirika O
+la O
+Utangazaji O
+Tanzania B-LOC
 ( O
 TBC B-ORG
 ) O
 , O
 Tido B-PER
-Mhando I-PER
+Mhando O
 . O
 
 Rufaa O
@@ -5734,7 +5734,7 @@ Wakili O
 wa O
 Serikali O
 Leonard B-PER
-Swai I-PER
+Swai O
 alidai O
 kuwa O
 Jamhuri B-LOC
@@ -5782,7 +5782,7 @@ Mahakama O
 ya O
 Hakimu O
 Mkazi O
-Kisutu B-LOC
+Kisutu O
 , O
 Dar B-LOC
 es I-LOC
@@ -5793,10 +5793,10 @@ aliyekuwa O
 Mkurugenzi O
 Mkuu O
 wa O
-Shirika B-ORG
-la I-ORG
-Utangazaji I-ORG
-Tanzania I-ORG
+Shirika O
+la O
+Utangazaji O
+Tanzania B-LOC
 ( O
 TBC B-ORG
 ) O
@@ -5818,8 +5818,8 @@ Hakimu O
 Mkazi O
 Mkuu O
 , O
-Huruma B-PER
-Shaidi I-PER
+Huruma O
+Shaidi O
 , O
 baada O
 ya O
@@ -5846,7 +5846,7 @@ hasara O
 Katika O
 utetezi O
 wake O
-Mhando B-PER
+Mhando O
 alidai O
 kuwa O
 mchakato O
@@ -5856,7 +5856,7 @@ kuingia O
 ubia O
 wa O
 kuhamisha O
-TBC O
+TBC B-ORG
 kutoka O
 katika O
 mfumo O
@@ -5868,7 +5868,7 @@ ulifanywa O
 na O
 bodi O
 ya O
-TBC O
+TBC B-ORG
 . O
 
 Mahakama O
@@ -5891,9 +5891,9 @@ mikataba O
 . O
 
 Jamhuri B-LOC
-ya I-LOC
-kidemokrasia I-LOC
-ya I-LOC
+ya O
+kidemokrasia O
+ya O
 Congo I-LOC
 imesema O
 watu O
@@ -5932,8 +5932,8 @@ ndani O
 ya O
 kipindi O
 cha O
-wiki B-DATE
-moja I-DATE
+wiki O
+moja O
 kufikia O
 126 O
 . O
@@ -5995,9 +5995,9 @@ madaktari O
 na O
 msaada O
 wa O
-jumuiya B-ORG
-ya I-ORG
-kimataifa I-ORG
+jumuiya O
+ya O
+kimataifa O
 . O
 
 Katika O
@@ -6007,7 +6007,7 @@ simu O
 Dr O
 Jean B-PER
 Christopher I-PER
-Shako I-PER
+Shako O
 , O
 msimamizi O
 wa O
@@ -6021,7 +6021,7 @@ Butembo B-LOC
 , O
 ameambia O
 Sauti B-ORG
-ya I-ORG
+ya O
 Amerika I-ORG
 kwamba O
 japo O
@@ -6074,7 +6074,7 @@ kwamba O
 utamalizika O
 . O
 
-Sote O
+Sote B-PER
 tuwe O
 na O
 imani O
@@ -6121,10 +6121,10 @@ ngazi O
 ya O
 juu O
 wa O
-shirika B-ORG
-la I-ORG
-afya I-ORG
-duniani I-ORG
+shirika O
+la O
+afya O
+duniani O
 WHO B-ORG
 akiuawa O
 kwa O
@@ -6135,8 +6135,8 @@ watu O
 wenye O
 silaha O
 , O
-siku B-DATE
-10 I-DATE
+siku O
+10 O
 zilizopita O
 . O
 
@@ -6172,8 +6172,8 @@ Wakaazi O
 wa O
 Butembo B-LOC
 kama O
-Issa B-PER
-Misango I-PER
+Issa B-LOC
+Misango B-LOC
 , O
 wanataka O
 serikali O
@@ -6269,15 +6269,15 @@ kumuua O
 ? O
 ” O
 ameuliza O
-Issa B-PER
-Misango I-PER
+Issa O
+Misango B-LOC
 , O
 mkaazi O
 wa O
 Butembo B-LOC
 . O
 
-Juhudi O
+Juhudi B-DATE
 za O
 uhamasishaji O
 Idadi O
@@ -6378,8 +6378,8 @@ ebola O
 ” O
 , O
 ameeleza O
-Issa B-PER
-Misango I-PER
+Issa B-LOC
+Misango B-LOC
 . O
 
 Vifo O
@@ -6419,7 +6419,7 @@ na O
 2016 B-DATE
 uliotokea O
 Afrika B-LOC
-magharibi I-LOC
+magharibi O
 na O
 kuuwa O
 watu O
@@ -6457,7 +6457,7 @@ Kennes B-PER
 Bwire I-PER
 , O
 Sauti B-ORG
-ya I-ORG
+ya O
 Amerika I-ORG
 , O
 Washington B-LOC
@@ -6470,12 +6470,12 @@ anayeshughulikia O
 masuala O
 ya O
 amani O
-Bintou B-PER
-Keita I-PER
+Bintou O
+Keita B-PER
 amesema O
 kwamba O
 Umoja B-ORG
-wa I-ORG
+wa O
 Matifa I-ORG
 hauna O
 nia O
@@ -6507,7 +6507,7 @@ ndani O
 ya O
 gari O
 mjini O
-Benghazi B-LOC
+Benghazi O
 , O
 mashariki O
 ya O
@@ -6519,7 +6519,7 @@ Shambulio O
 hilo O
 la O
 Jumamosi B-DATE
-asubuhi B-DATE
+asubuhi I-DATE
 limetokea O
 wakati O
 UN B-ORG
@@ -6544,8 +6544,8 @@ hayo O
 yalianzishwa O
 na O
 wanamgambo O
-national B-ORG
-Army O
+national I-ORG
+Army I-ORG
 wenye O
 makazi O
 yao O
@@ -6560,7 +6560,7 @@ na O
 Jenerali O
 aliyeasi O
 Khalifa B-PER
-Haftar I-PER
+Haftar B-PER
 yakiwa O
 na O
 lengo O
@@ -6602,7 +6602,7 @@ mwandishi O
 wetu O
 , O
 Washington B-LOC
-, I-LOC
+, O
 DC I-LOC
 . O
 
@@ -6617,7 +6617,7 @@ uchaguzi O
 wa O
 Rais O
 Donald B-PER
-Trump I-PER
+Trump B-PER
 , O
 amekamatwa O
 na O
@@ -6668,7 +6668,7 @@ wa O
 kusini O
 mashariki O
 mwa O
-Florida O
+Florida B-LOC
 baada O
 ya O
 washauri O
@@ -6719,7 +6719,7 @@ huko O
 Fort B-LOC
 Lauderdale I-LOC
 , O
-Florida O
+Florida B-LOC
 , O
 baadae O
 siku O
@@ -6777,7 +6777,7 @@ White B-LOC
 House I-LOC
 , O
 Hillary B-PER
-Clinton I-PER
+Clinton B-PER
 . O
 
 Waendesha O
@@ -6804,12 +6804,12 @@ kadhaa O
 na O
 ujumbe O
 wa O
-SMS O
+SMS B-ORG
 wakati O
 wa O
 kampeni O
 mwaka O
-2016 O
+2016 B-DATE
 ambapo O
 alijadili O
 taasisi O
@@ -6838,7 +6838,7 @@ filamu O
 na O
 televisheni O
 Jerry B-PER
-Stiller I-PER
+Stiller B-PER
 amefariki O
 akiwa O
 na O
@@ -6877,7 +6877,7 @@ alipoungana O
 na O
 mkewe O
 Anne B-PER
-Meara I-PER
+Meara O
 katika O
 uchezaji O
 filamu O
@@ -6913,14 +6913,14 @@ alipoigiza O
 michezo O
 ijulikanayo O
 kama O
-Cranky O
+Cranky I-PER
 , O
-Frank O
+Frank B-PER
 Costanza I-PER
 katika O
 show O
 ya O
-Seinfeld O
+Seinfeld B-ORG
 iliyokuwa O
 ikionyeshwa O
 katika O
@@ -6940,10 +6940,10 @@ ya O
 Broadway O
 kama O
 vile O
-The B-ORG
-Ritz I-LOC
+The O
+Ritz O
 na O
-Hurlyburly B-LOC
+Hurlyburly O
 , O
 na O
 pia O
@@ -6961,11 +6961,11 @@ mwandishi O
 wetu O
 , O
 Washington B-LOC
-, I-LOC
+, O
 DC I-LOC
 
 Maalim O
-Seif O
+Seif B-PER
 Shariff I-PER
 amesema O
 Jumatatu B-DATE
@@ -6977,16 +6977,16 @@ Mahakama O
 Kuu O
 kumtambua O
 Ibrahim B-PER
-Lipumba I-PER
+Lipumba O
 , O
 kuwa O
 ndiye O
 mwenyekiti O
 wa O
-Chama B-ORG
-cha I-ORG
-Wananchi I-ORG
-CUF I-ORG
+Chama O
+cha O
+Wananchi O
+CUF B-ORG
 , O
 anayetambuliwa O
 na O
@@ -7006,14 +7006,14 @@ CUF B-ORG
 tunajiunga O
 rasmi O
 na O
-chama B-ORG
+chama O
 cha O
 ACT B-ORG
-Wazalendo I-ORG
+Wazalendo O
 , O
 ” O
 amesema O
-Maalim B-PER
+Maalim O
 Seif I-PER
 . O
 
@@ -7033,12 +7033,12 @@ ACT B-ORG
 ameongeza O
 . O
 
-Uamuzi O
+Uamuzi B-LOC
 wa O
 kujiunga O
 na O
 ACT B-ORG
-Maalim B-PER
+Maalim O
 Seif I-PER
 amesisitiza O
 kuwa O
@@ -7089,9 +7089,9 @@ dola O
 kwa O
 muongozo O
 wa O
-Chama B-ORG
-cha I-ORG
-Mapinduzi I-ORG
+Chama O
+cha O
+Mapinduzi O
 ( O
 CCM B-ORG
 ) O
@@ -7121,7 +7121,7 @@ leo O
 ilikuwa O
 isomwe O
 Februari B-DATE
-22 I-DATE
+22 O
 , O
 ikaahirishwa O
 mpaka O
@@ -7129,7 +7129,7 @@ leo O
 , O
 ” O
 amesema O
-Maalim B-PER
+Maalim O
 Seif I-PER
 . O
 
@@ -7166,7 +7166,7 @@ tayari O
 yametekelezwa O
 . O
 
-Maalim B-PER
+Maalim O
 ametoa O
 mfano O
 wa O
@@ -7195,7 +7195,7 @@ haikuheshimu O
 amri O
 ya O
 mahakama O
-Ameuliza B-PER
+Ameuliza O
 vipi O
 tutasema O
 dola O
@@ -7289,8 +7289,8 @@ rais O
 wa O
 zamani O
 Omar B-PER
-Al I-PER
-Bashir I-PER
+Al B-DATE
+Bashir B-PER
 kwa O
 mahakama O
 ya O
@@ -7303,7 +7303,7 @@ ICC B-ORG
 Habari O
 za O
 kupelekwa O
-The B-LOC
+The O
 Hague I-LOC
 zimetolewa O
 baada O
@@ -7314,7 +7314,7 @@ mji O
 mkuu O
 wa O
 Sudan B-LOC
-Kusini O
+Kusini I-LOC
 , O
 Juba B-LOC
 kati O
@@ -7339,11 +7339,11 @@ Darfur B-LOC
 Akizungumza O
 na O
 Sauti B-ORG
-ya I-ORG
+ya O
 Amerika I-ORG
 , O
 Ahmed B-PER
-Tugod I-PER
+Tugod O
 mwakilishi O
 wa O
 kundi O
@@ -7351,12 +7351,12 @@ la O
 waasi O
 la O
 Vuguvugu O
-la I-ORG
-Haki I-ORG
+la O
+Haki O
 na O
 Usawa O
 , O
-JEM B-ORG
+JEM O
 amesema O
 pande O
 zote O
@@ -7374,7 +7374,7 @@ akiwemo O
 Bashir B-PER
 . O
 
-Tugod B-PER
+Tugod O
 anasema O
 , O
 makubaliano O
@@ -7452,7 +7452,7 @@ mashtaka O
 wa O
 ICC B-ORG
 mjini O
-The B-LOC
+The O
 Hague I-LOC
 , O
 walitoa O
@@ -7460,8 +7460,8 @@ hati O
 ya O
 kukamatwa O
 kwa O
-al B-PER
-- I-PER
+al B-ORG
+- O
 Bashir I-PER
 baada O
 ya O
@@ -7479,9 +7479,9 @@ ya O
 Darfur B-LOC
 . O
 
-Umoja O
+Umoja B-ORG
 wa O
-Mataifa O
+Mataifa I-ORG
 unasema O
 karibu O
 watu O
@@ -7506,10 +7506,10 @@ hivyo O
 Waziri O
 Mkuu O
 wa O
-Mauritius B-LOC
+Mauritius O
 Pravind B-PER
-Kumar I-PER
-Jugnauth I-PER
+Kumar B-PER
+Jugnauth B-DATE
 Jumapili B-DATE
 alilivunja O
 bunge O
@@ -7522,15 +7522,15 @@ kwamba O
 kisiwa O
 hicho O
 cha O
-Bahari B-LOC
-la I-LOC
+Bahari O
+la O
 Hindi I-LOC
 kitafanya O
 uchaguzi O
 mkuu O
 mnamo O
 Novemba B-DATE
-7 I-DATE
+7 O
 . O
 
 Nchi O
@@ -7556,8 +7556,8 @@ uchaguzi O
 kila O
 baada O
 ya O
-miaka B-DATE
-mitano I-DATE
+miaka O
+mitano O
 , O
 na O
 wa O
@@ -7571,14 +7571,14 @@ Kisheria O
 , O
 Wananchi O
 wa O
-Mauritius B-LOC
+Mauritius O
 wana O
 kati O
 ya O
-siku B-DATE
-30 I-DATE
+siku O
+30 O
 hadi O
-150 I-DATE
+150 O
 kushiriki O
 uchaguzi O
 baada O
@@ -7589,7 +7589,7 @@ kuvunja O
 bunge O
 . O
 
-Jugnauth B-PER
+Jugnauth B-DATE
 , O
 mwenye O
 umri O
@@ -7631,7 +7631,7 @@ baba O
 yake O
 , O
 Anerood B-PER
-Jugnauth I-PER
+Jugnauth B-DATE
 . O
 
 - O
@@ -7650,7 +7650,7 @@ katolika O
 duniani O
 Papa O
 Francis B-PER
-Jumanne I-PER
+Jumanne B-DATE
 aliwasihi O
 watu O
 kote O
@@ -7698,7 +7698,7 @@ ya O
 misa O
 ya O
 kila O
-asubuhi I-DATE
+asubuhi B-DATE
 , O
 ambapo O
 huwa O
@@ -7832,7 +7832,7 @@ ya O
 ujenzi O
 zitafunguliwa O
 kuanzia O
-May O
+May B-DATE
 4 O
 , O
 na O
@@ -7865,9 +7865,9 @@ Corona O
 Imetayarishwa O
 na O
 Patrick B-PER
-Nduwimana I-PER
+Nduwimana O
 , O
-VOA B-ORG
+VOA O
 , O
 Washington B-LOC
 DC I-LOC
@@ -7895,12 +7895,12 @@ sufuri O
 kwenye O
 fainali O
 zilizofanyika O
-kenye O
+kenye B-LOC
 uwanja O
 wa O
-Stade B-ORG
-de I-ORG
-Lyon I-ORG
+Stade B-LOC
+de O
+Lyon B-LOC
 in O
 Lyon B-LOC
 , O
@@ -7929,8 +7929,8 @@ na O
 Megan B-PER
 Rapinoe I-PER
 mnamo O
-dakika B-DATE
-61 I-DATE
+dakika O
+61 O
 . O
 
 Bao O
@@ -7946,7 +7946,7 @@ nane O
 baadaye O
 . O
 
-Rapinoe B-PER
+Rapinoe I-PER
 amekuwa O
 mchezaji O
 wa O
@@ -8023,9 +8023,9 @@ mwezi O
 mmoja O
 tangu O
 tarehe O
-7 B-DATE
-mwezi I-DATE
-Juni I-DATE
+7 O
+mwezi O
+Juni O
 na O
 ilishirikisha O
 timu O
@@ -8050,8 +8050,8 @@ kufikia O
 636 O
 akiwemo O
 Daktari O
-Li B-PER
-Wenliang I-PER
+Li O
+Wenliang O
 , O
 aliyekuwa O
 wa O
@@ -8110,7 +8110,7 @@ Rais O
 wa O
 Marekani B-LOC
 Donald B-PER
-Trump I-PER
+Trump B-PER
 kwa O
 njia O
 ya O
@@ -8183,9 +8183,9 @@ katika O
 jamii O
 juu O
 ya O
-Chama B-ORG
-cha I-ORG
-Kikomunisti I-ORG
+Chama O
+cha O
+Kikomunisti O
 kudhibiti O
 taarifa O
 na O
@@ -8228,8 +8228,8 @@ wa O
 Alhamisi B-DATE
 katika O
 Hospitali B-ORG
-ya I-ORG
-Kati I-ORG
+ya O
+Kati O
 ya O
 Wuhan B-LOC
 , O
@@ -8421,7 +8421,7 @@ sheria O
 namba O
 3 O
 mwaka O
-2019 O
+2019 I-DATE
 Tanzania B-LOC
 kuhusu O
 sekta O
@@ -8431,8 +8431,8 @@ filamu O
 unaotarajiwa O
 kuasilishwa O
 bungeni O
-alhamisi B-DATE
-hii I-DATE
+alhamisi I-PER
+hii O
 kwa O
 mjadala O
 , O
@@ -8619,7 +8619,7 @@ kwanza O
 unavificha O
 . O
 
-Ukisema O
+Ukisema B-LOC
 maafisa O
 wa O
 serikali O
@@ -8792,7 +8792,7 @@ tatizo O
 kubwa O
 ” O
 ameongezea O
-Nyalusi B-PER
+Nyalusi I-PER
 . O
 
 Atakayekiuka O
@@ -8841,8 +8841,8 @@ kwa O
 mjadala O
 , O
 Alhamisi B-DATE
-Juni I-DATE
-27 I-DATE
+Juni O
+27 O
 wiki O
 hii O
 . O
@@ -8862,21 +8862,21 @@ wa O
 Bunge O
 la O
 Jamhuri B-LOC
-ya I-LOC
-Muungano I-LOC
+ya O
+Muungano O
 wa O
 Tanzania B-LOC
 , O
-Jimbo B-LOC
-la I-LOC
-Shinyanga I-LOC
-Mjini I-LOC
+Jimbo O
+la O
+Shinyanga O
+Mjini O
 ( O
 CCM B-ORG
 ) O
 , O
 Stephen B-PER
-Masele I-PER
+Masele O
 , O
 ameeleza O
 Jumamosi B-DATE
@@ -8890,9 +8890,9 @@ Rais O
 wa O
 Bunge O
 la O
-Afrika O
+Afrika B-LOC
 , O
-Roger O
+Roger B-PER
 Dang I-PER
 , O
 huku O
@@ -8914,7 +8914,7 @@ Rais O
 wa O
 Bunge O
 la O
-Afrika O
+Afrika B-LOC
 ( O
 PAP B-ORG
 ) O
@@ -8943,11 +8943,11 @@ Cameroon B-LOC
 Madai O
 ya O
 Spika O
-Ndugai B-PER
-Alhamisi I-PER
+Ndugai O
+Alhamisi B-DATE
 , O
 Spika O
-Ndugai B-PER
+Ndugai O
 , O
 alitangaza O
 bungeni O
@@ -8955,14 +8955,14 @@ kusitisha O
 uwakilishi O
 wa O
 Mbunge O
-Masele B-PER
+Masele O
 ( O
 CCM B-ORG
 ) O
 katika O
 Bunge O
 la O
-Afrika O
+Afrika B-LOC
 ( O
 PAP B-ORG
 ) O
@@ -8981,7 +8981,7 @@ habari O
 nchini O
 Tanzania B-LOC
 vimesema O
-Masele B-PER
+Masele O
 amesema O
 : O
 “ O
@@ -9041,7 +9041,7 @@ Spika O
 wa O
 Bunge O
 la O
-Tanzania O
+Tanzania B-LOC
 kwamba O
 nirudi O
 nyumbani O
@@ -9071,11 +9071,11 @@ huyo O
 alisisitiza O
 . O
 
-Masele B-PER
+Masele O
 kuendelea O
 kusimamia O
 haki O
-Masele B-PER
+Masele O
 kwenye O
 ukurasa O
 wake O
@@ -9142,10 +9142,10 @@ kote O
 , O
 ” O
 alisema O
-Masele B-PER
+Masele O
 . O
 
-Masele B-PER
+Masele O
 alipongeza O
 ushujaa O
 wa O
@@ -9164,7 +9164,7 @@ huyo O
 wa O
 Bunge O
 la O
-Afrika O
+Afrika B-LOC
 na O
 kuwataka O
 wengine O
@@ -9173,7 +9173,7 @@ mfano O
 huo O
 . O
 
-Ujumbe O
+Ujumbe B-LOC
 wa O
 Video O
 Kupitia O
@@ -9184,7 +9184,7 @@ fupi O
 iliyosambaa O
 mitandaoni O
 wakati O
-Masele B-PER
+Masele O
 akihojiwa O
 kuhusu O
 tuhuma O
@@ -9251,8 +9251,8 @@ kujibu O
 hivyo O
 tutaikabidhi O
 Umoja B-ORG
-wa I-ORG
-Afrika I-ORG
+wa O
+Afrika B-LOC
 kwa O
 ajili O
 ya O
@@ -9269,7 +9269,7 @@ ya O
 awamu O
 ya O
 nne O
-Masele B-PER
+Masele O
 , O
 katika O
 serikali O
@@ -9318,9 +9318,9 @@ uamuzi O
 huo O
 wa O
 Spika O
-Ndugai B-PER
+Ndugai O
 , O
-Masele B-PER
+Masele O
 ambaye O
 kwa O
 sasa O
@@ -9356,9 +9356,9 @@ Kamati O
 ya O
 Maadili O
 ya O
-Chama B-ORG
-Cha I-ORG
-Mapinduzi I-ORG
+Chama O
+Cha O
+Mapinduzi O
 ( O
 CCM B-ORG
 ) O
@@ -9370,8 +9370,8 @@ Tuhuma O
 zaidi O
 za O
 Spika O
-Ndugai B-PER
-Ndugai I-PER
+Ndugai O
+Ndugai O
 alisema O
 katika O
 uwakilishi O
@@ -9395,7 +9395,7 @@ Nisingependa O
 kuyafafanua O
 leo O
 ( O
-juzi B-DATE
+juzi O
 ) O
 muda O
 hautoshi O
@@ -9403,7 +9403,7 @@ hautoshi O
 
 Tumelazimika O
 kumtafuta O
-Masele B-PER
+Masele O
 kumrudisha O
 nyumbani O
 kuanzia O
@@ -9451,7 +9451,7 @@ ya O
 Maadili O
 , O
 akahutubia O
-Bunge B-PER
+Bunge O
 akisema O
 japo O
 ameitwa O
@@ -9488,11 +9488,11 @@ alisema O
 Kiongozi O
 huyo O
 wa O
-Bunge B-ORG
-la I-ORG
-Tanzania I-ORG
+Bunge O
+la O
+Tanzania B-LOC
 alidai O
-Masele B-PER
+Masele O
 ni O
 kiongozi O
 ambaye O
@@ -9599,7 +9599,7 @@ wa O
 nidhamu O
 . O
 
-Spika B-PER
+Spika O
 amwandikia O
 Rais O
 wa O
@@ -9626,7 +9626,7 @@ kusitisha O
 uwakilishi O
 wa O
 Stephen B-PER
-Masele I-PER
+Masele O
 katika O
 Bunge O
 la O
@@ -9656,10 +9656,10 @@ wake O
 Mbunge O
 wa O
 Iringa B-LOC
-Mjini I-LOC
+Mjini O
 , O
 Peter B-PER
-Msigwa I-PER
+Msigwa O
 ( O
 Chadema B-ORG
 ) O
@@ -9741,7 +9741,7 @@ Mbunge O
 Msigwa O
 ahoji O
 """" O
-Uhalali O
+Uhalali B-LOC
 unatoka O
 wapi O
 na O
@@ -9797,7 +9797,7 @@ wa O
 Bunge O
 , O
 Job B-PER
-Ndugai I-PER
+Ndugai O
 , O
 kutangaza O
 kusimamisha O
@@ -9805,18 +9805,18 @@ uwakilishi O
 wa O
 Mbunge O
 wa O
-Shinyanga B-LOC
-Mjini I-LOC
+Shinyanga O
+Mjini O
 , O
 Stephen B-PER
-Masele I-PER
+Masele O
 ( O
 CCM B-ORG
 ) O
 katika O
-Bunge B-ORG
-la I-ORG
-Afrika I-ORG
+Bunge O
+la O
+Afrika B-LOC
 ( O
 PAP B-ORG
 ) O
@@ -9834,7 +9834,7 @@ Mwenyekiti O
 wa O
 Bunge O
 , O
-Chenge B-LOC
+Chenge O
 , O
 alimtaka O
 mbunge O
@@ -9846,7 +9846,7 @@ kueleza O
 kuwa O
 tayari O
 Spika O
-Ndugai B-PER
+Ndugai O
 amelitolea O
 uamuzi O
 suala O
@@ -9856,7 +9856,7 @@ hilo O
 Kauli O
 ya O
 Chenge B-PER
-Chenge O
+Chenge I-PER
 ambaye O
 aliwahi O
 kuwa O
@@ -9928,10 +9928,10 @@ ya O
 juzi O
 bungeni O
 , O
-Spika B-PER
-Ndugai I-PER
+Spika O
+Ndugai O
 alimtaka O
-Masele B-PER
+Masele O
 ambaye O
 ni O
 Makamu O
@@ -9971,9 +9971,9 @@ Bunge O
 Kiongozi O
 huyo O
 wa O
-Bunge B-ORG
-la I-ORG
-Tanzania I-ORG
+Bunge O
+la O
+Tanzania B-LOC
 pia O
 alieleza O
 kuwa O
@@ -9985,7 +9985,7 @@ kamati O
 ya O
 Bunge O
 , O
-Masele B-PER
+Masele O
 pia O
 atahojiwa O
 na O
@@ -9993,9 +9993,9 @@ Kamati O
 ya O
 Maadili O
 ya O
-Chama B-ORG
-Cha I-ORG
-Mapinduzi I-ORG
+Chama O
+Cha O
+Mapinduzi O
 ( O
 CCM B-ORG
 ) O
@@ -10013,7 +10013,7 @@ hayo O
 yatapunguza O
 uwezo O
 wa O
-Tshisekedi B-PER
+Tshisekedi I-PER
 kutekeleza O
 ahadi O
 zake O
@@ -10021,8 +10021,8 @@ za O
 kampeni O
 na O
 kuvunja O
-miaka B-DATE
-18 I-DATE
+miaka O
+18 O
 ya O
 enzi O
 za O
@@ -10046,16 +10046,16 @@ cha O
 Rais O
 wa O
 jamhuri O
-ya I-LOC
-kidemokrasi I-LOC
-ya I-LOC
+ya O
+kidemokrasi O
+ya O
 Congo I-LOC
 - O
 DRC B-LOC
 anayeondoka O
 madarakani O
 Joseph B-PER
-Kabila I-PER
+Kabila O
 umeshinda O
 viti O
 vingi O
@@ -10064,7 +10064,7 @@ katika O
 uchaguzi O
 wa O
 Disemba B-DATE
-30 I-DATE
+30 O
 mwaka O
 jana O
 ofisa O
@@ -10088,8 +10088,8 @@ ya O
 urais O
 
 iliyofanyika O
-siku B-DATE
-hiyo I-DATE
+siku O
+hiyo O
 hiyo O
 . O
 
@@ -10106,7 +10106,7 @@ hayo O
 yatapunguza O
 uwezo O
 wa O
-Tshisekedi B-PER
+Tshisekedi I-PER
 kutekeleza O
 ahadi O
 zake O
@@ -10114,8 +10114,8 @@ za O
 kampeni O
 na O
 kuvunja O
-miaka B-DATE
-18 I-DATE
+miaka O
+18 O
 ya O
 enzi O
 za O
@@ -10146,7 +10146,7 @@ usalama O
 . O
 
 Rais O
-Kabila B-PER
+Kabila O
 anatarajiwa O
 kuondoka O
 madarakani O
@@ -10164,7 +10164,7 @@ kwanza O
 ya O
 madaraka O
 nchini O
-Congo B-LOC
+Congo I-LOC
 kwa O
 njia O
 ya O
@@ -10179,9 +10179,9 @@ uhuru O
 Maandamano O
 yamendelea O
 kwa O
-siku B-DATE
-ya I-DATE
-16 I-DATE
+siku O
+ya O
+16 O
 mfululizo O
 Jumatano B-DATE
 ingawa O
@@ -10252,8 +10252,8 @@ vichwa O
 vya O
 sanamu O
 ya O
-Christopher O
-Columbus O
+Christopher B-PER
+Columbus I-PER
 kuanzia O
 miji O
 ya O
@@ -10290,8 +10290,8 @@ cha O
 George B-PER
 Floyd I-PER
 wiki O
-tatu I-DATE
-zilizopita I-DATE
+tatu O
+zilizopita O
 . O
 
 Spika O
@@ -10362,8 +10362,8 @@ mageuzi O
 
 Philonise B-PER
 Floyd I-PER
-"""" I-PER
-Tafadhali I-PER
+"""" O
+Tafadhali O
 sikilizeni O
 wito O
 ninaotoa O
@@ -10397,10 +10397,10 @@ mageuzi O
 , O
 """" O
 amesema O
-Philonise B-PER
+Philonise O
 . O
 
-Juhudi O
+Juhudi B-DATE
 za O
 kondowa O
 alama O
@@ -10416,7 +10416,7 @@ za O
 dunia O
 huko O
 Nairobi B-LOC
-Kenya I-LOC
+Kenya B-LOC
 sanamu O
 ya O
 malkia O
@@ -10510,8 +10510,8 @@ Huko O
 Palestina B-LOC
 kwenye O
 Ukingo B-LOC
-wa I-LOC
-Magharibi I-LOC
+wa O
+Magharibi O
 katika O
 mji O
 wa O
@@ -10535,10 +10535,10 @@ Kwa O
 Wapelstina O
 wengi O
 kama O
-Hani B-PER
-Al I-PER
-- I-PER
-Halabi I-PER
+Hani O
+Al B-DATE
+- O
+Halabi O
 mjumbe O
 wa O
 chama O
@@ -10549,7 +10549,7 @@ Palestina B-LOC
 , O
 kifo O
 cha O
-Floyd B-PER
+Floyd I-PER
 kinawakumbusha O
 vita O
 vyao O
@@ -10557,9 +10557,9 @@ vya O
 uhuru O
 . O
 
-Al B-ORG
-- I-ORG
-Halabi I-ORG
+Al B-DATE
+- O
+Halabi O
 , O
 Mwanachama O
 wa O
@@ -10595,8 +10595,8 @@ George B-PER
 Floyd I-PER
 na O
 Mpalestina O
-Iyad O
-Hallak O
+Iyad B-DATE
+Hallak I-PER
 na O
 kuwachukulia O
 ni O
@@ -10617,7 +10617,7 @@ upande O
 wake O
 Rais O
 Donald B-PER
-Trump I-PER
+Trump B-PER
 amepanga O
 kukutana O
 na O
@@ -10662,19 +10662,19 @@ Mwandishi O
 wetu O
 , O
 Abdushakur B-PER
-Aboud I-PER
+Aboud I-LOC
 , O
 Washington B-LOC
-, I-LOC
+, O
 DC I-LOC
 
 Waziri O
 wa O
-Ulinzi O
+Ulinzi B-LOC
 wa O
 Burkina B-LOC
 Faso I-LOC
-Moumina B-PER
+Moumina O
 Cherif I-PER
 Sy I-PER
 anasema O
@@ -10713,7 +10713,7 @@ ya O
 mji O
 mkuu O
 wa O
-Wagadougou B-LOC
+Wagadougou O
 anasema O
 maafisa O
 wa O
@@ -10729,11 +10729,11 @@ hawajulikani O
 walipo O
 . O
 
-Kampuni B-ORG
-ya I-ORG
+Kampuni O
+ya O
 Canada B-LOC
 ya O
-Semafo O
+Semafo B-PER
 inayosimamia O
 kazi O
 za O
@@ -10779,7 +10779,7 @@ Taifa O
 hilo O
 la O
 Afrika B-LOC
-Magharibi I-LOC
+Magharibi O
 linalofahamika O
 kwa O
 utulivu O
@@ -10900,12 +10900,12 @@ za O
 ubalozi O
 wa O
 Afrika B-LOC
-Kusini O
+Kusini I-LOC
 nchini O
 Jamhuri B-LOC
-ya I-LOC
+ya O
 Kidemokrasia I-LOC
-ya I-LOC
+ya O
 Congo I-LOC
 zimekumbwa O
 na O
@@ -10960,7 +10960,7 @@ Alhamisi B-DATE
 , O
 Rais O
 Cyril B-PER
-Ramaphosa I-PER
+Ramaphosa B-PER
 alilaani O
 mashambulizi O
 hayo O
@@ -11063,7 +11063,7 @@ mashariki O
 ya O
 jimbo O
 la O
-Gauteng B-LOC
+Gauteng O
 , O
 ambako O
 jiji O
@@ -11085,7 +11085,7 @@ mpira O
 wa O
 vikapu O
 Kobe B-PER
-Bryant I-PER
+Bryant B-PER
 ameaga O
 dunia O
 kufuatia O
@@ -11097,7 +11097,7 @@ na O
 mji O
 mdogo O
 wa O
-Calabasas B-LOC
+Calabasas O
 katika O
 jimbo O
 la O
@@ -11147,7 +11147,7 @@ miaka O
 13 O
 . O
 
-Jumla O
+Jumla B-DATE
 ya O
 watu O
 tisa O
@@ -11174,8 +11174,8 @@ kabla O
 ya O
 kuanguka O
 , O
-saa B-DATE
-nne I-DATE
+saa O
+nne O
 asubuhi I-DATE
 saa O
 za O
@@ -11212,8 +11212,8 @@ miwili O
 akichezea O
 timu O
 ya O
-Los B-ORG
-Angeles I-ORG
+Los B-LOC
+Angeles I-LOC
 Lakers I-ORG
 , O
 aliyoisaidia O
@@ -11237,7 +11237,7 @@ ya O
 msimu O
 wa O
 mwaka O
-2016 O
+2016 B-DATE
 . O
 
 Kifo O
@@ -11256,11 +11256,11 @@ maarufu O
 wa O
 basketiboli O
 anayechezea O
-Lakers B-ORG
+Lakers O
 , O
-Le B-PER
+Le O
 Bron I-PER
-James I-PER
+James B-PER
 , O
 akimsifia O
 kwa O
@@ -11302,7 +11302,7 @@ basketiboli O
 katika O
 kumbukumbu O
 ya O
-Naismith B-PER
+Naismith O
 , O
 mwezi O
 ujao O
@@ -11331,23 +11331,23 @@ basketball O
 nchini O
 Marekani B-LOC
 kuanzia O
-Kareem B-PER
+Kareem O
 AbdulJabbar I-PER
 , O
 Michael B-PER
 Jordan I-PER
 , O
-LeBron B-PER
+LeBron O
 James I-PER
 na O
-Shaquel B-PER
+Shaquel O
 O'neal I-PER
 ambaye O
 alikuwa O
 timu O
 moja O
 na O
-Kobe B-PER
+Kobe O
 , O
 pamoja O
 na O
@@ -11373,7 +11373,7 @@ Rais O
 wa O
 sasa O
 Donald B-PER
-Trump I-PER
+Trump B-PER
 pia O
 walikuwa O
 miongoni O
@@ -11383,10 +11383,10 @@ waliotoa O
 rambi O
 rambi O
 zao O
-Jumapili O
+Jumapili B-DATE
 . O
 
-Nyota O
+Nyota I-PER
 huyo O
 mara O
 18 O
@@ -11411,7 +11411,7 @@ duniani O
 
 Alichaguliwa O
 mwaka O
-2008 O
+2008 B-DATE
 kama O
 mchezaji O
 wa O
@@ -11461,7 +11461,7 @@ mwaka O
 Ameacha O
 mke O
 – O
-Venessa B-PER
+Venessa O
 na O
 watoto O
 wasichana O
@@ -11485,10 +11485,10 @@ DC I-LOC
 
 Kwa O
 Sauti B-ORG
-ya I-ORG
+ya O
 Amerika I-ORG
 ( O
-VOA B-ORG
+VOA O
 ) O
 mtendaji O
 mkuu O
@@ -11512,15 +11512,15 @@ ipite O
 tu O
 . O
 
-Siku B-DATE
-10 I-DATE
+Siku O
+10 O
 tu O
 baada O
 ya O
 mashambulizi O
 ya O
 Septemba B-DATE
-11 I-DATE
+11 O
 nchini O
 Marekani B-LOC
 ambayo O
@@ -11540,7 +11540,7 @@ karibu O
 sana O
 wa O
 Osama B-PER
-bin I-PER
+bin O
 Laden I-PER
 na O
 mlinzi O
@@ -11549,29 +11549,29 @@ nchini O
 Afghanistan B-LOC
 , O
 kiongozi O
-Mullah B-PER
-Omar I-PER
+Mullah O
+Omar B-PER
 - O
 - O
 alifanya O
 mahojiano O
 maalum O
 na O
-Idhaa O
+Idhaa B-DATE
 ya O
 Pashto O
 ya O
-VOA B-ORG
+VOA O
 . O
 
 Myrna B-PER
-Whitworth I-PER
+Whitworth O
 , O
 kaimu O
 mkurugenzi O
 wa O
 Sauti B-ORG
-ya I-ORG
+ya O
 Amerika I-ORG
 wakati O
 huo O
@@ -11593,17 +11593,17 @@ wa O
 Taliban B-ORG
 ambaye O
 alimruhusu O
-bin B-PER
-Laden I-PER
+bin O
+Laden B-PER
 , O
 mpangaji O
 mkuu O
 wa O
 mashambulizi O
 ya O
-9 B-ORG
-/ I-ORG
-11 I-ORG
+9 I-DATE
+/ I-DATE
+11 O
 , O
 kuwa O
 na O
@@ -11617,7 +11617,7 @@ maafisa O
 wa O
 utawala O
 wa O
-Bush B-PER
+Bush O
 “ O
 waliheshimu O
 haki O
@@ -11784,7 +11784,7 @@ uliopita O
 , O
 Rais O
 Donald B-PER
-Trump I-PER
+Trump B-PER
 aliungana O
 na O
 baadhi O
@@ -11817,7 +11817,7 @@ kile O
 ambacho O
 kinatoka O
 Sauti B-ORG
-ya I-ORG
+ya O
 Amerika I-ORG
 , O
 kinachukiza O
@@ -11847,11 +11847,11 @@ corona O
 kwenye O
 eneo O
 la O
-Rose B-LOC
+Rose O
 Garden I-LOC
 mnamo O
 April B-DATE
-15 I-DATE
+15 O
 . O
 
 Malalamiko O
@@ -11865,7 +11865,7 @@ mawili O
 Kwanza O
 , O
 kwamba O
-VOA B-ORG
+VOA O
 ilitumia O
 takwimu O
 zisizo O
@@ -11913,15 +11913,15 @@ kuongoza O
 taasisi O
 kuu O
 ya O
-VOA B-ORG
+VOA O
 - O
-U O
+U B-LOC
 . O
 
-S B-ORG
-Agency B-ORG
-for I-ORG
-Global I-ORG
+S O
+Agency O
+for O
+Global O
 Media I-ORG
 - O
 kwa O
@@ -11970,9 +11970,9 @@ wafuasi O
 wake O
 . O
 
-Novemba O
+Novemba B-DATE
 mwaka O
-2019 O
+2019 I-DATE
 , O
 Trump B-PER
 alipendekeza O
@@ -12007,7 +12007,7 @@ kutoka O
 CNN B-ORG
 na O
 kuionyesha O
-dunia B-LOC
+dunia O
 jinsi O
 nchi O
 hii O
@@ -12023,13 +12023,13 @@ kama O
 mahojiano O
 ya O
 Mullah O
-Omar O
+Omar B-PER
 na O
 mifano O
 mingine O
 inavyoonyesha O
 , O
-Trump O
+Trump B-PER
 si O
 rais O
 wa O
@@ -12075,7 +12075,7 @@ wowote O
 
 Mabadiliko O
 ya O
-Uhariri O
+Uhariri B-LOC
 katika O
 Shirika O
 la O
@@ -12145,7 +12145,7 @@ corona O
 
 Mkurugenzi O
 wa O
-VOA B-ORG
+VOA O
 Amanda B-PER
 Bennett I-PER
 alilipinga O
@@ -12171,7 +12171,7 @@ wowote O
 Kwa O
 hakika O
 , O
-VOA B-ORG
+VOA O
 ilielezea O
 udhaifu O
 wa O
@@ -12219,7 +12219,7 @@ shirika O
 hili O
 kuundwa O
 mwaka O
-1942 O
+1942 B-DATE
 kupambana O
 na O
 propaganda O
@@ -12258,7 +12258,7 @@ kombora O
 la O
 Cuba B-LOC
 mwaka O
-1962 O
+1962 B-DATE
 , O
 VOA O
 kimsingi O
@@ -12286,9 +12286,9 @@ katika O
 chuo O
 kikuu O
 cha O
-Southern B-ORG
-California I-ORG
-Annenberg I-ORG
+Southern O
+California O
+Annenberg B-PER
 katika O
 chuo O
 cha O
@@ -12296,7 +12296,7 @@ elimu O
 ya O
 Mawasiliano O
 na O
-Uandishi O
+Uandishi B-LOC
 wa O
 Habari O
 na O
@@ -12304,8 +12304,8 @@ mwandishi O
 wa O
 kitabu O
 “ O
-The B-ORG
-Cold I-ORG
+The O
+Cold O
 War I-ORG
 na O
 Idara O
@@ -12332,7 +12332,7 @@ Marekani B-LOC
 , O
 ” O
 amesema O
-Cull B-PER
+Cull I-PER
 . O
 
 “ O
@@ -12350,7 +12350,7 @@ wakati O
 wa O
 kashfa O
 ya O
-Watergate O
+Watergate B-LOC
 ambayo O
 ilipelekea O
 Rais O
@@ -12413,7 +12413,7 @@ kuonyesha O
 kwamba O
 nguvu O
 ya O
-Marekani O
+Marekani B-LOC
 haiko O
 kwa O
 rais O
@@ -12435,7 +12435,7 @@ unaostahili O
 , O
 ” O
 amesema O
-Cull B-PER
+Cull I-PER
 . O
 
 Mwishowe O
@@ -12472,7 +12472,7 @@ ajabu O
 , O
 ” O
 amesema O
-Cull B-PER
+Cull O
 . O
 
 “ O
@@ -12493,7 +12493,7 @@ hatashtakiwa O
 katika O
 mgogoro O
 wa O
-Watergate B-LOC
+Watergate B-ORG
 … O
 na O
 Mke O
@@ -12525,7 +12525,7 @@ Bunge O
 na O
 watendaji O
 wa O
-VOA B-ORG
+VOA O
 waliazimia O
 kuwa O
 shirika O
@@ -12611,7 +12611,7 @@ Diplomasia O
 katika O
 utawala O
 wa O
-Obama B-PER
+Obama I-PER
 , O
 amesema O
 uhuru O
@@ -12635,7 +12635,7 @@ zaidi O
 katika O
 sheria O
 mwaka O
-1994 B-DATE
+1994 O
 na O
 mwaka O
 2016 B-DATE
@@ -12682,7 +12682,7 @@ mambo O
 ya O
 nje O
 ya O
-Marekani O
+Marekani B-LOC
 . O
 
 ” O
@@ -12767,11 +12767,11 @@ Stengel B-PER
 amesema O
 . O
 
-Shirika B-ORG
-la I-ORG
-Utangazaji I-ORG
-la I-ORG
-Marekani I-ORG
+Shirika O
+la O
+Utangazaji O
+la O
+Marekani B-LOC
 , O
 watendaji O
 wanaidhinishwa O
@@ -12808,15 +12808,15 @@ wa O
 shirika O
 mama O
 la O
-VOA B-ORG
+VOA O
 , O
 U B-LOC
 . O
 
-S B-ORG
-Agency I-ORG
-for I-ORG
-Global I-ORG
+S O
+Agency O
+for O
+Global O
 Media I-ORG
 . O
 
@@ -12889,7 +12889,7 @@ VOA O
 
 Trump B-PER
 alimteua O
-Juni O
+Juni B-DATE
 2018 B-DATE
 Michael B-PER
 Pack I-PER
@@ -12989,14 +12989,14 @@ mkuu O
 wa O
 taasisi O
 ya O
-Ulinzi B-ORG
-wa I-ORG
+Ulinzi B-LOC
+wa O
 Demokrasia I-ORG
 , O
 amesema O
 ukosoaji O
 wa O
-Trump O
+Trump B-PER
 kwa O
 VOA O
 unastahili O
@@ -13020,7 +13020,7 @@ Mkurugenzi O
 wa O
 VOA O
 , O
-Amanda O
+Amanda B-PER
 Bennett O
 kama O
 ni O
@@ -13100,7 +13100,7 @@ kufanya O
 hivyo O
 , O
 ” O
-May B-PER
+May O
 amesema O
 . O
 
@@ -13123,7 +13123,7 @@ mamlaka O
 . O
 
 ” O
-Bennett B-PER
+Bennett O
 , O
 mtendaji O
 na O
@@ -13132,10 +13132,10 @@ wa O
 zamani O
 wa O
 Bloomberg B-ORG
-News I-ORG
+News O
 na O
-Philadelphia B-ORG
-Inquirer I-ORG
+Philadelphia B-LOC
+Inquirer O
 , O
 alipewa O
 wadhifa O
@@ -13144,7 +13144,7 @@ mkurugenzi O
 wa O
 VOA O
 mwaka O
-2016 O
+2016 B-DATE
 na O
 ameendelea O
 kuongoza O
@@ -13167,8 +13167,8 @@ mwaka O
 uliohusu O
 mahojiano O
 na O
-Mullah B-PER
-Omar I-PER
+Mullah O
+Omar B-PER
 , O
 waandishi O
 wa O
@@ -13190,7 +13190,7 @@ kupinga O
 shinikizo O
 . O
 
-VOA B-ORG
+VOA O
 iliishia O
 kurusha O
 hewani O
@@ -13229,7 +13229,7 @@ ilisema O
 hivyo O
 . O
 
-Boucher B-PER
+Boucher I-PER
 , O
 ambaye O
 hivi O
@@ -13270,7 +13270,7 @@ mahojiano O
 hayo O
 kurushwa O
 , O
-Whitworth B-PER
+Whitworth O
 alihamishwa O
 kutoka O
 katika O
@@ -13292,14 +13292,14 @@ White B-LOC
 House I-LOC
 , O
 Robert B-PER
-R I-PER
+R O
 . O
 
 Reilly O
 . O
 
 “ O
-Shinikizo O
+Shinikizo B-PER
 halikuwa O
 dhahiri O
 kabisa O
@@ -13318,7 +13318,7 @@ kiuhariri O
 , O
 ” O
 amesema O
-Whitworth B-PER
+Whitworth O
 , O
 ambaye O
 ana O
@@ -13374,7 +13374,7 @@ vita O
 , O
 kunaweza O
 kuiweka O
-VOA B-ORG
+VOA O
 katika O
 nafasi O
 ngumu O
@@ -13383,7 +13383,7 @@ amesema O
 Lata B-PER
 Nott I-PER
 wa O
-Freedom B-ORG
+Freedom I-ORG
 Forum I-ORG
 . O
 
@@ -13405,7 +13405,7 @@ wake O
 . O
 
 “ O
-Ukweli O
+Ukweli B-LOC
 ni O
 kwamba O
 taasisi O
@@ -13508,7 +13508,7 @@ and O
 Fall O
 of O
 the O
-United B-ORG
+United B-LOC
 States I-ORG
 Information I-ORG
 Agency I-ORG
@@ -13521,19 +13521,19 @@ Diplomacy O
 - O
 2001 B-DATE
 , O
-2008 B-DATE
+2008 O
 ; O
 Alan B-PER
 L I-PER
 . O
 
-Heil B-PER
+Heil O
 , O
 Jr O
 , O
-Voice O
+Voice B-ORG
 of O
-America O
+America I-ORG
 - O
 A O
 History O
@@ -13583,7 +13583,7 @@ Mkuu O
 wa O
 New B-LOC
 Zealand I-LOC
-Jacinda B-PER
+Jacinda O
 Ardern I-PER
 amesema O
 hakuna O
@@ -13626,11 +13626,11 @@ Kamishna O
 wa O
 Polisi O
 Mike B-PER
-Bush I-PER
+Bush O
 . O
 
 Wakati O
-Bush B-PER
+Bush O
 alikataa O
 kutaja O
 jina O
@@ -13640,12 +13640,12 @@ huyo O
 aliyefunguliwa O
 mashtaka O
 , O
-kituo B-ORG
-cha I-ORG
-Televisheni I-ORG
-cha I-ORG
-New I-ORG
-Zealand I-ORG
+kituo O
+cha O
+Televisheni O
+cha O
+New B-LOC
+Zealand I-LOC
 ( O
 TVNZ B-ORG
 ) O
@@ -13657,12 +13657,12 @@ bunduki O
 kuwa O
 ni O
 Brenton B-PER
-Tarrant I-PER
+Tarrant O
 , O
 28 O
 , O
 kutoka O
-Grafton B-LOC
+Grafton O
 , O
 New B-LOC
 South I-LOC
@@ -13728,7 +13728,7 @@ kulia O
 
 ” O
 Kamishna O
-Bush B-PER
+Bush O
 amesema O
 sehemu O
 ya O
@@ -13792,9 +13792,9 @@ hilo O
 la O
 msikiti O
 wa O
-Al B-ORG
-- I-ORG
-Noor I-ORG
+Al B-DATE
+- O
+Noor I-PER
 . O
 
 Polisi O
@@ -13823,7 +13823,7 @@ eneo O
 hilo O
 . O
 
-Misikiti O
+Misikiti B-LOC
 hiyo O
 miwili O
 ilishambuliwa O
@@ -13937,10 +13937,10 @@ wamesema O
 
 Wananchi O
 wa O
-Jamhuri O
-ya I-LOC
+Jamhuri B-LOC
+ya O
 Kidemokrasia I-LOC
-ya I-LOC
+ya O
 Congo I-LOC
 , O
 DRC B-LOC
@@ -13955,7 +13955,7 @@ hukumu O
 ya O
 kifungo O
 cha O
-miaka B-DATE
+miaka O
 30 O
 alichopewa O
 kiongozi O
@@ -13970,7 +13970,7 @@ la O
 UPC B-ORG
 , O
 Bosco B-PER
-Ntaganda I-PER
+Ntaganda O
 , O
 na O
 mahakama O
@@ -14012,7 +14012,7 @@ kuna O
 viongozi O
 wengine O
 wa O
-Kongo B-LOC
+Kongo I-LOC
 wanaostahiki O
 kupelekwa O
 pia O
@@ -14033,8 +14033,8 @@ Ntaganda O
 atumikie O
 kifungo O
 cha O
-miaka B-DATE
-30 I-DATE
+miaka O
+30 O
 jela O
 kwa O
 makosa O
@@ -14055,7 +14055,7 @@ la O
 waasi O
 . O
 
-Ntaganda B-PER
+Ntaganda O
 mwenye O
 umri O
 wa O
@@ -14133,7 +14133,7 @@ lake O
 la O
 wanajeshi O
 wa O
-UPC O
+UPC B-ORG
 wengi O
 kutoka O
 kabila O
@@ -14202,17 +14202,17 @@ Mwandishi O
 wetu O
 , O
 Abdushakur B-PER
-Aboud I-PER
+Aboud I-LOC
 , O
 Washington B-LOC
-, I-LOC
+, O
 DC I-LOC
 
 Rais O
 wa O
 Marekani B-LOC
 Donald B-PER
-Trump I-PER
+Trump B-PER
 amezungumzia O
 masuala O
 mengi O
@@ -14249,9 +14249,9 @@ na O
 mkwe O
 wake O
 Jared B-PER
-Kushner I-PER
-Donald O
-Trump I-PER
+Kushner O
+Donald B-PER
+Trump B-PER
 alisema O
 : O
 """" O
@@ -14309,7 +14309,7 @@ wa O
 Bahrain B-LOC
 uliyotayarishwa O
 na O
-Kushner B-PER
+Kushner O
 juu O
 ya O
 mpango O
@@ -14389,7 +14389,7 @@ na O
 maandamano O
 ya O
 Hong B-LOC
-Kong O
+Kong I-LOC
 ambayo O
 yalifanyika O
 kwa O
@@ -14408,14 +14408,14 @@ ghasia O
 ya O
 Beijing B-LOC
 ya O
-Uwanja O
-wa I-LOC
-Tianamen I-LOC
+Uwanja B-LOC
+wa O
+Tianamen B-LOC
 1989 B-DATE
 . O
 
-Hong O
-kong O
+Hong B-LOC
+kong I-LOC
 Rais O
 Trump B-PER
 aliongeza O
@@ -14501,7 +14501,7 @@ meli O
 ya O
 mafuta O
 iliyoshikiliwa O
-Gilbrata B-PER
+Gilbrata O
 ikondoka O
 Jumapili B-DATE
 usiku O
@@ -14514,7 +14514,7 @@ za O
 Ulaya B-LOC
 , O
 Rais O
-Trump O
+Trump B-PER
 alisema O
 anadhani O
 Tehran B-LOC
@@ -14532,7 +14532,7 @@ vipi O
 waanze O
 . O
 
-Jambo O
+Jambo B-LOC
 moja O
 ni O
 kwamba O
@@ -14587,9 +14587,9 @@ la O
 kuchukua O
 umiliki O
 wa O
-Greenland O
+Greenland B-LOC
 kutoka O
-Denmark O
+Denmark B-LOC
 , O
 lakini O
 alisema O
@@ -14627,10 +14627,10 @@ mwandishi O
 wetu O
 , O
 Abdushakur B-PER
-Aboud I-PER
+Aboud I-LOC
 , O
 Washington B-LOC
-, I-LOC
+, O
 DC I-LOC
 . O
 
@@ -14651,11 +14651,11 @@ sinagogi O
 Jumamosi B-DATE
 huko O
 mjini O
-Poway B-LOC
+Poway O
 , O
 Jimbo O
 la O
-California B-LOC
+California O
 na O
 kuanza O
 kushambulia O
@@ -14669,7 +14669,7 @@ kaskazini O
 mwa O
 Jiji O
 la O
-San B-LOC
+San O
 Diego I-LOC
 . O
 
@@ -14706,7 +14706,7 @@ kufikia O
 saa O
 tano O
 na O
-nusu B-DATE
+nusu O
 asubuhi I-DATE
 , O
 majira O
@@ -14728,7 +14728,7 @@ ya O
 kivita O
 aina O
 ya O
-AR O
+AR B-ORG
 ambayo O
 inawezekana O
 ilipata O
@@ -14779,7 +14779,7 @@ ya O
 risasi O
 , O
 ” O
-Gore B-PER
+Gore I-PER
 amesema O
 . O
 
@@ -14824,7 +14824,7 @@ miaka O
 . O
 
 Walihamia O
-San B-LOC
+San O
 Diego I-LOC
 miaka O
 michache O
@@ -14833,7 +14833,7 @@ wakitokea O
 mji O
 karibu O
 na O
-Ukanda O
+Ukanda B-LOC
 wa O
 Gaza B-LOC
 , O
@@ -14895,10 +14895,10 @@ Mkuu O
 wa O
 Polisi O
 wa O
-San B-LOC
-Deigo I-LOC
+San O
+Deigo O
 David B-PER
-Nisleit I-PER
+Nisleit O
 amesema O
 kuwa O
 mshukiwa O
@@ -14943,7 +14943,7 @@ San B-LOC
 Diego I-LOC
 . O
 
-Nisleit B-PER
+Nisleit O
 alituma O
 ujumbe O
 wa O
@@ -15008,8 +15008,8 @@ Misri B-LOC
 Rais O
 wa O
 Kenya B-LOC
-Uhuru B-PER
-Kenyatta I-PER
+Uhuru B-LOC
+Kenyatta B-LOC
 alisema O
 Jumatano B-DATE
 kwamba O
@@ -15035,7 +15035,7 @@ waliotakiwa O
 kujitenga O
 . O
 
-Kenyatta B-PER
+Kenyatta B-LOC
 alisema O
 hayo O
 baada O
@@ -15076,7 +15076,7 @@ idadi O
 hiyo O
 . O
 
-Kenyatta B-PER
+Kenyatta B-LOC
 alisema O
 serikali O
 inawafahamu O
@@ -15135,8 +15135,8 @@ Corona O
 
 Waziri O
 Mkuu O
-Kassim B-PER
-Majaliwa I-PER
+Kassim O
+Majaliwa O
 ambaye O
 alihudhuria O
 ibada O
@@ -15192,18 +15192,18 @@ maambukizi O
 . O
 
 Jamhuri B-LOC
-ya I-LOC
+ya O
 Kidemokrasia I-LOC
-ya I-LOC
+ya O
 Congo I-LOC
 - O
 DRC B-LOC
 Serikali O
 ya O
 Jamhuri B-LOC
-ya I-LOC
-kidemokrasia I-LOC
-ya I-LOC
+ya O
+kidemokrasia O
+ya O
 Congo I-LOC
 inatarajiwa O
 kulegeza O
@@ -15248,7 +15248,7 @@ tena O
 katika O
 sehemu O
 ya O
-Gombe B-ORG
+Gombe I-PER
 , O
 kitovu O
 cha O
@@ -15282,7 +15282,7 @@ za O
 kawaida O
 zilikuwa O
 zimesitishwa O
-Gombe O
+Gombe I-PER
 , O
 na O
 asilimia O
@@ -15306,7 +15306,7 @@ watu O
 kuingia O
 na O
 kutoka O
-Gombe B-LOC
+Gombe I-PER
 . O
 
 Wafanyakazi O
@@ -15329,14 +15329,14 @@ Rwanda B-LOC
 mkutano O
 wa O
 jumuiya O
-ya I-ORG
-Madola I-ORG
+ya O
+Madola O
 , O
 uliokuwa O
 umepangwa O
 kufanyika O
 mjini O
-Kigali B-LOC
+Kigali O
 , O
 Rwanda B-LOC
 , O
@@ -15377,7 +15377,7 @@ mkuu O
 wa O
 Rwanda B-LOC
 , O
-Kigali B-LOC
+Kigali O
 . O
 
 Mkutano O
@@ -15387,10 +15387,10 @@ umepangiwa O
 kufanyika O
 kuanzia O
 tarehee O
-22 B-DATE
+22 O
 hadi O
-27 B-DATE
-June I-DATE
+27 O
+June B-DATE
 mwaka O
 huu O
 . O
@@ -15419,7 +15419,7 @@ Uingereza B-LOC
 . O
 
 Uganda B-LOC
-Uganda I-LOC
+Uganda B-LOC
 imeongeza O
 idadi O
 ya O
@@ -15447,7 +15447,7 @@ ni O
 baada O
 ya O
 kuongeza O
-dereva O
+dereva I-PER
 wanne O
 wa O
 magari O
@@ -15481,12 +15481,12 @@ ya O
 kubeba O
 mizigo O
 , O
-wiki B-DATE
-mbili I-DATE
+wiki O
+mbili O
 zilizopita O
 . O
 
-Madereva O
+Madereva I-PER
 hao O
 wanapimwa O
 na O
@@ -15500,7 +15500,7 @@ huku O
 wakifuatiliwa O
 . O
 
-Iwapo O
+Iwapo B-DATE
 vipimo O
 vinabaini O
 kwamba O
@@ -15540,17 +15540,17 @@ nchi O
 wametoka O
 . O
 
-Wizara B-ORG
-ya I-ORG
-afya I-ORG
-a I-ORG
+Wizara O
+ya O
+afya O
+a O
 Uganda B-LOC
 imesema O
 kwamba O
 shirika O
 la O
-afya I-ORG
-duniani I-ORG
+afya O
+duniani O
 limetoa O
 mwelekeo O
 kwamba O
@@ -15566,11 +15566,11 @@ kimeripotiwa O
 
 Kulingana O
 na O
-wizara B-ORG
-ya I-ORG
-afya I-ORG
-ya I-ORG
-Uganda I-ORG
+wizara O
+ya O
+afya O
+ya O
+Uganda B-LOC
 , O
 kati O
 ya O
@@ -15590,7 +15590,7 @@ vipimo O
 nchini O
 Uganda B-LOC
 kila O
-siku I-DATE
+siku O
 . O
 
 Afrika B-LOC
@@ -15600,7 +15600,7 @@ wa O
 Afrika B-LOC
 Kusini I-LOC
 Cyril B-PER
-Ramaphosa I-PER
+Ramaphosa O
 , O
 alitangaza O
 kutenga O
@@ -15650,7 +15650,7 @@ ya O
 jumla O
 ya O
 Afrika B-LOC
-kusini I-LOC
+kusini O
 . O
 
 Pesa O
@@ -15677,9 +15677,9 @@ dunia O
 Pamoja O
 na O
 shirika O
-la I-ORG
-fedha I-ORG
-duniani I-ORG
+la O
+fedha O
+duniani O
 IMF B-ORG
 , O
 kwa O
@@ -15728,8 +15728,8 @@ watu O
 kusalia O
 nyumbani O
 kwa O
-wiki B-DATE
-mbili I-DATE
+wiki O
+mbili O
 zaidi O
 ili O
 kudhibithi O
@@ -15762,9 +15762,9 @@ ikitekelezwa O
 kwa O
 mda O
 wa O
-wiki B-DATE
-tatu I-DATE
-zilizopita I-DATE
+wiki O
+tatu O
+zilizopita O
 . O
 
 Amri O
@@ -15773,13 +15773,13 @@ itaendelea O
 kutekelzwa O
 hadi O
 May B-DATE
-tarehe I-DATE
-5 I-DATE
+tarehe O
+5 O
 . O
 
 Waziri O
 mkuu O
-Thabane B-PER
+Thabane I-PER
 amesema O
 kwamba O
 hatua O

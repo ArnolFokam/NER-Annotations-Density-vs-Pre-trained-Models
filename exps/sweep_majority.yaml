@@ -1,0 +1,18 @@
+data.param:
+  - 0.6
+
+data.language:
+  - swa_majority
+
+data.method:
+  - global_cap_labels
+
+model.conf:
+  - [bert,xlm-roberta-base,xlmr]
+  - [bert,Davlan/afro-xlmr-base,afro_xlmr]
+
+
+device.seed:
+  - 1
+  - 2
+  - 3
