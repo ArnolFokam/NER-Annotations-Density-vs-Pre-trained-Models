@@ -11,6 +11,19 @@ from scripts.create_corrupted_datasets import ALL_FUNCS_PARAMS
 import seaborn as sns
 
 from scripts.message import DATA_DICT, DATA_DICT2
+
+PRETTY_LINEWIDTH = 6
+
+def make_legend_good(leg, skiplast=False, skipn=0):
+    if True:
+        ll = leg.legendHandles
+        if skiplast:
+            ll = leg.legendHandles[:-1]
+        if skipn > 0:
+            ll = leg.legendHandles[:-skipn]
+        for legobj in ll: legobj.set_linewidth(PRETTY_LINEWIDTH)
+
+
 DO_JOINT_SUBPLOTS = True
 sns.set_theme()
 CLEAN_MODES = {
@@ -551,7 +564,10 @@ def comparison_plots(a):
         # print(df)
         # exit()
         # df = df.groupby(['mode', 'num', 'model', 'lang'] + (['seed'] if lang is not None else []), as_index=False).mean()
-        sns.lineplot(df, x="Level of Quality", y="Fraction of F1 when using original dataset", hue='mode', errorbar='sd', hue_order=XX)
+        sns.lineplot(df, x="Level of Quality", y="Fraction of F1 when using original dataset", hue='mode', errorbar='sd', hue_order=XX, lw=4, style='mode', legend=True)
+        handles, labels = plt.gca().get_legend_handles_labels()
+        leg = plt.legend(handles, labels, loc='lower right', bbox_to_anchor=(1, 0), fancybox=True, shadow=True, ncol=1, fontsize=13)
+        make_legend_good(leg)
         # plt.show()
         savefig(f'analysis/plots/compare/compare_global.png')
         pass
@@ -771,7 +787,7 @@ def get_f1_from_filename(f):
     assert len(line) == 1
     return float(line[0].split("f1 = ")[-1])
 
-def check_quality_and_quantity(SS=''):
+def check_quality_and_quantity(SS='', diff_og=False):
     def inner(LANG, MODEL, ax=None, ylabel=True, cbar_ax=None):
         D = f'results/{MODEL}/'
         ps = [0.01, 0.05, 0.1, 0.25, 0.5, 0.75, 1.0][:]#, 1]
@@ -817,7 +833,11 @@ def check_quality_and_quantity(SS=''):
                     # assert len(line) == 1
                     # f1 = float(line[0].split("f1 = ")[-1]) / 0.8845676458419529
                     # result[f'Sent {p_sent}'][f'Label {p_label}'].append(f1)
-                    result[sents(p_sent)][labs(p_label)].append(f1)
+                    if diff_og:
+                        test = get_f1_from_filename(d.replace("_majority", '').replace("_softvoting", '')) #/ OG_PERF
+                        result[sents(p_sent)][labs(p_label)].append(f1 - test)
+                    else:
+                        result[sents(p_sent)][labs(p_label)].append(f1)
         df = pd.DataFrame(result)
         def std(x):
             return np.std(x)
@@ -843,8 +863,12 @@ def check_quality_and_quantity(SS=''):
         if ax is None:
             ax = plt.gca()
         # im = sns.heatmap(df.round(2), annot=True, cmap="YlGnBu", vmin=0, vmax=1, ax=ax, cbar=cbar_ax is not None, cbar_ax=cbar_ax, square=True, rasterized=True)
-        im = sns.heatmap(df.round(2), annot=True, cmap="YlGnBu", vmin=0, vmax=1, ax=ax, cbar=cbar_ax is not None, cbar_ax=cbar_ax, rasterized=True)
-        ax.set_xlabel("Percentage of Sentences Remaining")
+        if diff_og:
+            im = sns.heatmap(df.round(2), annot=True, cmap="YlGnBu", vmin=-0.2, vmax=0.2, ax=ax, cbar=cbar_ax is not None, cbar_ax=cbar_ax, rasterized=True)
+            ax.set_xlabel(f"Percentage of Sentences Remaining.\nMean: {np.round(df.to_numpy().mean(), 6)}")
+        else:
+            im = sns.heatmap(df.round(2), annot=True, cmap="YlGnBu", vmin=0, vmax=1, ax=ax, cbar=cbar_ax is not None, cbar_ax=cbar_ax, rasterized=True)
+            ax.set_xlabel("Percentage of Sentences Remaining")
         # ax.set_title({'en': 'English', 'swa': "Swahili", 'luo': "Luo", 'wol': "Wolof"}[clean_lang(LANG)])
         ax.set_title(clean_model(MODEL) + " - " + {'en': 'English', 'swa': "Swahili", 'luo': "Luo", 'wol': "Wolof"}[clean_lang(LANG)])
         if ylabel: ax.set_ylabel("Percentage of Labels Remaining")
@@ -876,6 +900,7 @@ def check_quality_and_quantity(SS=''):
         plt.legend(title="Fraction of Sentences")
         savefig(f'analysis/plots/cap_sent_and_labels/lineplot_{LANG}.png')
         plt.close()
+    kk = '' if not diff_og else '_diff_og'
     if 1:
         N = 1.5
         fig, all_axs = plt.subplots(2, 3, figsize=(20 / N, 10 / N), sharey=True, sharex=True)
@@ -891,7 +916,7 @@ def check_quality_and_quantity(SS=''):
             else:
                 for a in axs: a.set_xlabel("")
         plt.tight_layout()
-        savefig(f'analysis/plots/cap_sent_and_labels/all_heatmaps_all{SS}.png', tight=False, dpi=400)
+        savefig(f'analysis/plots/cap_sent_and_labels/all_heatmaps_all{SS}{kk}.png', tight=False, dpi=400)
         plt.close()
     if 1:
         for MODEL in ['mbert', 'afro_xlmr']:
@@ -901,7 +926,7 @@ def check_quality_and_quantity(SS=''):
             inner(f'swa{SS}',           MODEL, axs[1], ylabel=False)
             inner(f'luo{SS}',           MODEL, axs[2], ylabel=False, cbar_ax=cbar_ax)
             plt.tight_layout()
-            savefig(f'analysis/plots/cap_sent_and_labels/all_heatmaps_{MODEL}{SS}.png', tight=False)
+            savefig(f'analysis/plots/cap_sent_and_labels/all_heatmaps_{MODEL}{SS}{kk}.png', tight=False)
 
 def plot_test():
     df = pd.read_csv("analysis/main_results_v2.csv", index_col=0)
@@ -973,11 +998,11 @@ def check_majority_which_bad():
     pass
 
 if __name__ == '__main__':
+    comparison_plots(0)
     # main(True)
     # plot_dataset_stats()
     # main()
     # plot_entity_frequency()
-    # comparison_plots(0)
     # plot_corrupted_stats()
     # main()
     # get_propotion_entities()
@@ -985,8 +1010,8 @@ if __name__ == '__main__':
     # plot_dataset_stats()
     # plot_test()
     # test()
-    check_quality_and_quantity()
-    check_quality_and_quantity('_majority')
-    check_quality_and_quantity('_softvoting')
+    # check_quality_and_quantity()
+    # check_quality_and_quantity('_majority', diff_og=True)
+    # check_quality_and_quantity('_softvoting')
     # check_majority_which_bad()
     # plot_dataset_stats()
