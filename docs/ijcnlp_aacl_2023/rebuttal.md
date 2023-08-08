@@ -33,18 +33,25 @@ The paper shows that operating with less data is more efficient than operating w
 - Missing footnote 1 referenced in line 459.
 
 ```
-Experiment Results:	    3
-Overall Recommendation:	2
-Reviewer Confidence:	4
-Ethical Concerns:	    No
+Experiment Results:	      3
+Overall Recommendation:	  2
+Reviewer Confidence:	  4
+Ethical Concerns:	      No
 ```
 
 ## Response
 
-We express our gratitude to the reviewers for their incredibly insightful comments. Indeed, the conclusion of the study in the paper is somewhat intuitive, as the authors have pointed out. The study aims to propose a new way to assess the impact of data quality on the model's performance. An additional point to highlight is that the conclusion applies to both low-resource languages and a high-resource one (English through CoNLL, as illustrated in Figure 3 in the paper).
+We thank the review for the remark on the thoroughness of our empirical evaluation and the constructive critism.
 
-Furthermore, the study confines itself to NER in order to prevent a dilution of experimental results due to the constraints of our limited computational budget. We anticipate that this study will serve as an inspiration for other researchers to undertake similar investigations for various natural language processing tasks, such as machine translation or text classification.
+Indeed, as noted by the reviewer, the study's conclusion is somewhat intuitive. The primary aim of the study is to propose a systematic approach for assessing how data quality affects model performance. We show that this can be achieved through the design of parameterized corruption strategies.
 
+Also, we acknowledge the study's narrow focus on NER. This was mainly done to prevent a dilution of experimental results due to constraints on our limited computational budget. We anticipate that this study will serve as an inspiration for other researchers to undertake similar investigations for other natural language processing tasks. We will empahsis on our focus on NER notably in the abstract and other sections of the paper where necessary.
+
+Furthermore, we agree with the reviewer's observation regarding the sentence capping setting. As depicted in Figure 2, it is evident that an incremental enhancement in data quality through different corruption strategies doesn't always lead to a proportional increase in model performance (capping sentences vs capping labels). This nuanced relationship is a central focus of our paper, emphasizing that the performance of NER models is more influenced by the density of  correct labeled entities rather than the sample count. We will emphasize this aspect further in the paper's final version.
+
+Regarding the remarks on label distortion, we concur that sampling based on the entity distribution in the dataset is a more suitable method for this analysis. This approach prevents the complete elimination of under-represented entities from the dataset. We will make sure to highlight the limitation of our current approach in the paper's final version.
+
+Finally, we will correct the footnote numbering.
 
 # Reviewer #2
 
@@ -87,22 +94,24 @@ The paper is well-motivated and generally well-organized and clear, and the expe
 - This paper addresses primarily label noise, whereas there may be additional noise due to the quality of the data annotated itself (particularly if the data is crawled). It may be helpful to mention this briefly as something to be addressed in the future
 
 ```
-Experiment Results:	    4
-Overall Recommendation:	3.5
-Reviewer Confidence:	4
-Ethical Concerns:	    No
+Experiment Results:	      4
+Overall Recommendation:	  3.5
+Reviewer Confidence:	  4
+Ethical Concerns:	      No
 ```
 
 ## Response
 
 
-We deeply appreciate the reviewer's insightful comments and particularly value the suggestions for improvement.
+We appreciate the reviewer's insightful comments and particularly value the suggestions for improvement.
 
 Regarding the experimental setups, we finetuned the pre-trained models for each language individually. We believe this isolation captures the distinct properties of each corpus (corrupted) and enhances the credibility of the experimental analysis.
 
-A crucial point was raised concerning the quality of the original corpora. This factor indeed has the potential to influence the strength of our claim. For this reason, we chose to depict the relative performance (relative to the original corpora) in Figure 3, rather than absolute performance.
+A interesting point was raised concerning the quality of the original corpora. This factor indeed has the potential to influence the strength of our claim. For this reason, we chose to depict the relative performance (relative to the original corpora) in Figure 3, rather than absolute performance.
 
-Regarding the prevalence of label swap errors in NER datasets, the direct investigation of errors in existing datasets is an excellent idea. However, this task is more complex than the one outlined in our paper, as it would necessitate collaboration with various linguistic experts to identify corpus errors. We believe this study is a good trade-off between in-depth analysis and limited experimental budget.
+Regarding concerns about data noise, we acknowledge this as a valid concern. We attempted to address it by utilizing the MasakhaNER dataset, which underwent manual annotation by native speakers from the same regions as the news sources from which the data was obtained. However, we recognize that this solution isn't without flaws. Consequently, we consider this a genuine limitation of our study that should be included in the final version of the paper.
+
+Furthermore, concerning the prevalence of label swap errors in NER datasets, the direct investigation of errors in existing datasets is an excellent idea. However, this task is more complex than the one outlined in our paper, as it would necessitate collaboration with various linguistic experts to identify corpus errors. We believe this study is a good trade-off between in-depth analysis and limited experimental budget.
 
 Once again, we value the discourse initiated by the reviewer, and the suggestions provided will certainly be considered to enhance the paper's clarity.
 
@@ -119,13 +128,13 @@ This paper deals with the impact of data corruption on Named Entity Recognition 
 - The corruption strategies should be extended to include more annotation errors.
 
 ```
-Experiment Results:	    3
-Overall Recommendation:	3.5
-Reviewer Confidence:	3
-Ethical Concerns:	    No
+Experiment Results:	      3
+Overall Recommendation:	  3.5
+Reviewer Confidence:	  3
+Ethical Concerns:	      No
 
 ```
 
 # Response
 
-We appreciate the reviewer's concerns about the novelty of the paper's findings. The study introduces a method to assess the trade-off between data quality and quantity through systematic analysis, including various implemented corruption strategies.   We acknowledge the study's limitations in terms of the selected tasks (NER) and the design of corruption strategies. We will ensure to underscore these limitations in the final version of the paper and suggest the expansion of the study in future work.
+We value the reviewer's concerns regarding the novelty of the paper's findings. The primary objective of the study was to present a fresh approach for systematically evaluating the trade-off between data quality and quantity, involving diverse implemented corruption strategies. We recognize the study's limitations concerning task selection (NER) and the design of corruption strategies. We will make it a point to highlight these limitations in the final paper and propose potential avenues for expanding the study in future research.
