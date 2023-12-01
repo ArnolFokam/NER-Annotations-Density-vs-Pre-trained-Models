@@ -81,14 +81,10 @@ All the code in this project is licensed under the [Apache 2.0](https://www.apac
 If you find this useful, then please cite this work as follows:
 
 ```
-@misc{https://doi.org/10.48550/arxiv.2208.04568,
-  doi = {10.48550/ARXIV.2208.04568},
-  url = {https://arxiv.org/abs/2208.04568},
-  author = {Fokam, Manuel A.},
-  keywords = {Computation and Language (cs.CL), Artificial Intelligence (cs.AI), FOS: Computer and information sciences, FOS: Computer and information sciences},
-  title = {Effects of Annotations' Density on Named Entity Recognition Models' Performance in the Context of African Languages},
-  publisher = {arXiv},
-  year = {2022},
-  copyright = {Creative Commons Attribution 4.0 International}
+@article{fokam2022impact,
+  title   = {The Impact of Data Corruption on Named Entity Recognition for Low-resourced Languages},
+  author  = {Manuel Fokam and Michael Beukman},
+  year    = {2022},
+  journal = {arXiv preprint arXiv: 2208.04568}
 }
 ```
